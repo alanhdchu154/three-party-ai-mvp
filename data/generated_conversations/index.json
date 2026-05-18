@@ -1,0 +1,28 @@
+{
+  "conversations": [
+    {
+      "id": "sim_saga_a_michael__philosophy_burn",
+      "persona_id": "saga_a_michael",
+      "scenario_seed_id": "philosophy_burn",
+      "generated_at": "2026-05-17T20:58:36",
+      "model": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+      "n_turns": 16
+    },
+    {
+      "id": "sim_saga_a_michael__mom_crying",
+      "persona_id": "saga_a_michael",
+      "scenario_seed_id": "mom_crying",
+      "generated_at": "2026-05-17T20:00:00",
+      "model": "claude-direct (hand-crafted reference)",
+      "n_turns": 24
+    },
+    {
+      "id": "sim_saga_a_rachel__study_room_alone",
+      "persona_id": "saga_a_rachel",
+      "scenario_seed_id": "study_room_alone",
+      "generated_at": "2026-05-17T20:00:00",
+      "model": "claude-direct (hand-crafted reference)",
+      "n_turns": 25
+    }
+  ]
+}

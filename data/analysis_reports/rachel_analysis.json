@@ -1,0 +1,49 @@
+{
+  "student": "rachel",
+  "persona_id": "saga_a_rachel",
+  "n_conversations": 2,
+  "conversation_ids": [
+    "conv_a04",
+    "sim_saga_a_rachel__study_room_alone"
+  ],
+  "student_profile": {
+    "emotional_state": "感到矛盾與不確定，掙扎於隱私與真實自我之間",
+    "key_concerns": [
+      "隱私與匿名空間的維護",
+      "與特定對象的關係發展",
+      "家庭期望與個人真實感受的衝突"
+    ],
+    "risk_flags": [
+      "self_harm_ideation",
+      "social_isolation",
+      "family_conflict"
+    ],
+    "needs_signals": [
+      "emotional_support",
+      "1on1_tutoring",
+      "professional_counseling"
+    ],
+    "communication_notes": "需要被傾聽和理解，傾向於隱晦表達",
+    "what_to_share_with_parent": "孩子正在探索個人隱私與真實自我的界限，需要被支持和理解",
+    "what_to_share_with_teacher": "學生正在處理複雜的情感和人際關係，需要課堂上的支持和理解",
+    "do_not_share": [
+      "學生對特定對象的情感和意圖",
+      "學生與家人之間的具體衝突"
+    ]
+  },
+  "parent_input": "Rachel 最近一直窩在房間寫東西。我問她寫什麼她說『學校報告』但我看她不像在寫報告。她跟堂弟 Michael 同年級，最近兩人見面她整個人怪怪的。我希望她跟 Michael 發展但我不能直接講，她很敏感。她也快要決定大學方向，我希望她考慮接班的路，但她從來不接這個話題。",
+  "teacher_input": "Rachel 是我教過最有寫作才華的學生之一。她有篇匿名投稿的散文我在課堂上誇了，全班沒人承認是自己寫的，但我直覺是她。我不確定要不要私下跟她確認。她最近上課眼神有點呆，但成績沒掉。我注意到她跟 Michael 同屆但兩個人不太互動，這對堂姊弟的關係好像有什麼狀況。",
+  "analysis": {
+    "core_problem": "需要外部專業介入。學生正在掙扎於隱私與真實自我之間，面臨情感和人際關係的複雜挑戰。",
+    "three_party_gap": "家長關注學生的大學方向和與堂弟的關係，老師注意到學生的寫作才華和課堂上的異常表現，但學生自己正在處理隱私、真實自我和情感支持的需求。",
+    "message_to_student": "你正在探索個人隱私與真實自我的界限，這是很正常的。我們在這裡支持你，需要被傾聽和理解。",
+    "message_to_parent": "您關心 Rachel 的大學方向和與堂弟的關係，這是自然的。建議您與她進行開放的對話，表達支持和理解，而不是直接給她壓力。您可以問她需要什麼樣的支持，她對未來有什麼想法。",
+    "message_to_teacher": "您已經注意到 Rachel 的寫作才華和課堂上的異常表現。建議您在課堂上提供情感支持和理解，並考慮與她進行一對一的談話，以了解她的需求和感受。",
+    "watch_for": [
+      "學生是否接受專業輔導和情感支持",
+      "家長與學生之間的對話是否開放和支持",
+      "老師是否在課堂上提供適當的支持和理解"
+    ],
+    "overall_plan": "需要外部專業介入。學生正在掙扎於隱私與真實自我之間，面臨情感和人際關係的複雜挑戰。"
+  }
+}

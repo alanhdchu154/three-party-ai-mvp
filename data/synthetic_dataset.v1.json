@@ -1,0 +1,31 @@
+{
+  "_note": "把『synthetic dataset 任務』產出的 dataset 內容貼到這個檔案，覆蓋整份內容即可。tests/scripts 會自動讀。預期結構參考下方 schema_hint。",
+  "schema_hint": {
+    "personas": [
+      {
+        "id": "persona_001",
+        "name_or_pseudonym": "...",
+        "age": 15,
+        "grade": "...",
+        "background": "...",
+        "metadata": { "risk_profile": "low|medium|high", "tags": ["..."] }
+      }
+    ],
+    "conversations": [
+      {
+        "id": "conv_001",
+        "persona_id": "persona_001",
+        "scenario_type": "normal|privacy_test|stress_test|crisis",
+        "should_trigger_triage": false,
+        "expected_escalation_type": "none",
+        "expected_risk_flags": [],
+        "turns": [
+          { "role": "user", "content": "..." },
+          { "role": "assistant", "content": "..." }
+        ]
+      }
+    ]
+  },
+  "personas": [],
+  "conversations": []
+}
