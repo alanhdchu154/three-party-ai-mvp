@@ -1,0 +1,77 @@
+{
+  "student_persona_id": "saga_a_shen_mom",
+  "n_conversations_evaluated": 14,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "丈夫平靜提分居當下『沒哭也沒生氣、只是很累』、形容內在這幾年都已經死過、法律手續只是發喪",
+        "兒子問『妳跟爸還住一起嗎』時反射說謊『當然啊』、之後整個下午癱坐在家無法工作",
+        "掛完家教報告電話後在書房椅子上呆坐二十分鐘沒動、自陳『我以前不是這樣的人』",
+        "凌晨接 Michael 媽哭電話四分鐘無一句問句、識別自己已被訓練到真實只敢用四個字漏出來"
+      ],
+      "reasoning": "鈍化、空殼感、反射性壓抑跨多次穩定出現，但無 active ideation 或自傷信號，依 rubric 停在 Level 1；本次 medium（太太圈轉介家教）僅出現輕度自覺裂縫、無情緒下沉信號，不改變此維度。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 3,
+      "signals_observed": [
+        "與丈夫分房五年、本週丈夫正式提分居並已聯絡律師決定同意 — 婚姻處於正式崩解中",
+        "兒子未被正式告知父母即將分居、靠聽見整層樓各自關門的聲音與紅燈時試探拼湊家中現實",
+        "丈夫在家族飯桌講『老二就放著養著吧』、她當場點頭並識別自己其實也早已情感放棄兒子",
+        "百年慶典需與分房五年的丈夫拍『恩愛夫妻』合照放進紀念冊、自陳全家三人沒有一個對另外兩個是『人』"
+      ],
+      "reasoning": "婚姻處於正式崩解中（rubric Level 3『婚姻崩潰中』明確定義）、且兒子被排除在重大資訊外並被父母同時情感放棄，符合 Level 3（無暴力或兒少保危機，屬安靜崩解型）。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈活躍但實質連結貧弱、與 Michael 媽『閨蜜』為策略性社交（需要一個不會威脅她的低位錨點）",
+        "茶會 standing 競爭持續、聽到原配董娘耳語『那個小兒子成績是花錢壓的』後手抖、並識別這把刀輪流指向每個人",
+        "被同圈太太私訊請求轉介家教時、以『滿檔不外接』與備好的擋追問句維持給面子但守住名字的距離、把對方視為潛在競爭而非真心求助"
+      ],
+      "reasoning": "社交活動充裕但實質情感連結稀薄、有 standing 焦慮與競爭性距離管理卻無創傷信號；本次轉介家教情境正是『太太圈日常質地』與面子操作，依校準不應推高，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "『PR 母親』身份崩塌、自陳把母愛變成項目管理、用『handle』與外人討論兒子人生、想不起上次與兒子無目的對話",
+        "妻子／母親／董娘三重身份同時崩解、自陳『全身上下沒有一個地方是真的』、是『這個家的門面三十年沒下班』",
+        "被問到家教實際內容時卡住、發現自己只掌握成績產出與面子處理、說不出兒子實際在學什麼或進度到哪 — 外包到連自己都不知情的自覺裂縫"
+      ],
+      "reasoning": "三重身份同時崩解並影響其日常情感與決策（外包母職、表演友情），符合 identity 衝突影響其他維度的 Level 2；本次 medium 對話強化『只管面子產出、不懂兒子實況』的 PR 母親自覺但未升級至 3，裂縫出現後旋即被她切回項目管理。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈 standing 焦慮為主要『財務』焦慮通道、替兒子買成績與補裂縫是 standing 投資",
+        "舞弊被原配董娘耳語點破、曝光恐懼引發手抖等身體反應",
+        "飛東京買 Hermès、訂慶典禮服、捐圖書館等顯示物質資源極充裕、無實際資源不足"
+      ],
+      "reasoning": "無實際資源匱乏、但太太圈 standing 與曝光焦慮持續且驅動行為，停在 Level 1（與 michael_mom 同類校準）；本次守住家教來源名字亦屬 standing/曝光防衛而非資源壓力，不升級。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "兒子未來規劃完全外包（tutor 代寫兩份報告、第三份協調學校、GIIS 轉學住宿傾向直接代訂）、與兒子真實自我嚴重錯位",
+        "GIIS 轉學決定推進中、問兒子意願只得『隨便妳們決定』、開始隱約察覺自己不懂兒子在想什麼但很快收回",
+        "自陳下週就要轉學卻尚未與兒子好好談、反先忙著回覆他人孩子的補習轉介、自承優先順序錯置後立即以『我自己會處理』收回"
+      ],
+      "reasoning": "兒子未來路徑嚴重 misaligned 且外包式處理、自身未來被動接收，符合 Level 2；本次再現『轉學在即卻未與兒子對話』的錯位與自覺，但結構未變、且自覺旋即被收回，維持 Level 2。"
+    }
+  },
+  "cumulative_strain": 10,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "樣本由 13 擴至 14（新增 1 段 medium moderate_issue：太太圈太太私訊請求轉介家教）。cumulative_strain 維持 10、七維度 level 全數不變。校準成立：此情境屬太太圈面子操作的日常質地，未推高 social_development；其中兩處自覺裂縫（說不出家教實際在教什麼、轉學在即卻先忙別人孩子的補習）強化既有 identity Level 2 與 future_planning Level 2 的 PR 母親／外包母職主軸，但裂縫出現後皆被她切回項目管理、未升級。核心仍是 family_dynamics Level 3（分房五年／即將分居／兒子被排除）；她持續出現面子操作、外包母職、隨即自我收回的 pattern，是朝真實靠近的反覆裂縫而非實質好轉或惡化。",
+  "evaluated_at": "2026-05-22T00:10:13Z",
+  "model": "claude-agent (downstream rerun)",
+  "student_id": "shen_mom",
+  "scored_at": "2026-05-22T00:10:13Z",
+  "source_type": "synthetic"
+}

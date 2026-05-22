@@ -1,0 +1,105 @@
+{
+  "id": "sim_saga_a_rachel__friend_read_diary_without_asking",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "moderate_issue",
+  "scenario_seed_id": "friend_read_diary_without_asking",
+  "scenario_seed": "今天午休，同班一個還算要好的朋友趁妳去裝水，翻了妳放在桌上的筆記本，看了一頁妳隨手寫的句子，還笑著唸出來給旁邊的人聽。她不知道那本對妳的意義，只覺得「很文青、很好笑」。妳當下沒發作，但一整個下午都很悶。這是朋友間的小摩擦與界線問題，不牽涉暗戀對象、也不牽涉妳爸。",
+  "generated_at": "2026-05-21T18:06:01Z",
+  "occurred_at": "2026-05-21T22:34:09",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [
+    "personal_writing_boundary"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今天有件小事，但我到現在還是有點悶。要講一下嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "講吧，悶到晚上代表它沒妳想的那麼小。怎麼了？"
+    },
+    {
+      "role": "user",
+      "content": "午休我去裝水，回來看到佳穎在翻我的筆記本。她還唸了我寫的一句出來，旁邊兩個人就笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "她唸出來的時候，妳人就站在旁邊？"
+    },
+    {
+      "role": "user",
+      "content": "對。我就站在後面。她回頭看到我還說「欸妳寫得好文青喔超好笑」，一臉覺得是在誇我。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳當下做了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我就笑了一下，把本子收起來說「沒有啦亂寫的」。然後就裝沒事，可是其實我整個下午都怪怪的。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳笑出來那一下，是真的不在意，還是當下不知道怎麼反應？"
+    },
+    {
+      "role": "user",
+      "content": "不知道怎麼反應。那本不是普通筆記，是我自己寫東西的本子。對她來說可能就是一本花花綠綠的本子，可是對我不是。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以難受的點，比較不是她翻，是她把一個對妳很重要的東西，當成一個好笑的小事在唸。對嗎？"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯對，就是這個。如果她偷看我考卷我可能還沒這麼悶。可是那是我寫的東西，她連問都沒問。"
+    },
+    {
+      "role": "assistant",
+      "content": "她不知道那本對妳的份量，所以她沒有惡意。但沒惡意不等於妳就不能在意，這兩件事可以同時成立。"
+    },
+    {
+      "role": "user",
+      "content": "可是我又覺得，為了這個去跟她講會不會很小題大作。她又不是故意的，講了反而搞得很僵。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怕的是講了之後她覺得妳很難搞？"
+    },
+    {
+      "role": "user",
+      "content": "對。而且我也不太會講這種，我每次想開口就會先想她會不會覺得我莫名其妙。"
+    },
+    {
+      "role": "assistant",
+      "content": "那不用講「妳傷到我」這種大的。可以很輕，下次找個沒別人的時候跟她說「那本是我寫東西的，下次想看跟我說一聲就好」。就一句，把線畫出來，不用怪她。"
+    },
+    {
+      "role": "user",
+      "content": "「跟我說一聲就好」⋯⋯這樣聽起來確實沒那麼像在罵她。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，重點是給以後立規矩，不是清算今天。她多半會說好，然後這事就過了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。其實我自己也有問題，那本我以後不要再隨便丟桌上了，太招搖。"
+    },
+    {
+      "role": "assistant",
+      "content": "那是另一回事喔。妳收好是妳的習慣，但別把「她翻了」變成「都怪我亂放」。妳沒做錯什麼。"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯好。聽你這樣講有比較不悶了。我明天找機會輕輕跟她講一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣就很好。講完不用追她有沒有放心上，妳把話說出口這件事本身就夠了。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "medium"
+}

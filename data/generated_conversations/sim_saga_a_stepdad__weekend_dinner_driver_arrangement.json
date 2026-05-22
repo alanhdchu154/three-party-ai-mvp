@@ -1,0 +1,59 @@
+{
+  "id": "sim_saga_a_stepdad__weekend_dinner_driver_arrangement",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "logistics",
+  "scenario_seed_id": "weekend_dinner_driver_arrangement",
+  "scenario_seed": "週六晚上有家族聚餐要訂位，可兒週六下午有鋼琴課、太太要先去會所，他自己有一個下午的視訊會議。純粹想把訂位、司機路線、時間排清楚。",
+  "generated_at": "2026-05-20T03:12:08",
+  "occurred_at": "2026-05-19T09:42:17",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "週六晚上要訂位，六大人兩小孩。幫我想一下時間怎麼排。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。當天各自有什麼固定行程？我先把時間軸抓出來。"
+    },
+    {
+      "role": "user",
+      "content": "可兒下午三點到五點鋼琴課。我太太五點要先去會所做臉，大概七點結束。我自己下午有個視訊會議，到六點半。"
+    },
+    {
+      "role": "assistant",
+      "content": "那訂七點半比較穩，留你太太從會所過來的緩衝。餐廳定在市區還是會所附近？"
+    },
+    {
+      "role": "user",
+      "content": "市區。老地方那間粵菜。"
+    },
+    {
+      "role": "assistant",
+      "content": "七點半的話司機這樣排：先載可兒從鋼琴教室直接去餐廳，五點到七點半之間她會空兩個半小時，要先回家還是在附近等？"
+    },
+    {
+      "role": "user",
+      "content": "回家。她要換衣服。司機載她回來再出門。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就兩趟。第一趟五點接可兒回家。第二趟七點再載你跟可兒一起去餐廳，你太太從會所自己過去剛好七點半到。要不要我幫你把這份順序整理成一段給司機的訊息？"
+    },
+    {
+      "role": "user",
+      "content": "好。順便把餐廳地址放進去。"
+    },
+    {
+      "role": "assistant",
+      "content": "「週六：17:00 接可兒（鋼琴教室）回家；19:00 接副董與可兒，前往粵菜餐廳（市區老地址）；席位 19:30，六大兩小。太太由會所自行前往。」地址記得補上實際門牌再傳出。還要我加訂位電話提醒嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不用。訂位我助理會處理。這樣就行了，謝謝。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

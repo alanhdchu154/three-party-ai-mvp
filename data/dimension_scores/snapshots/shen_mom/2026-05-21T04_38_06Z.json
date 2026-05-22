@@ -1,0 +1,76 @@
+{
+  "student_persona_id": "saga_a_shen_mom",
+  "n_conversations_evaluated": 8,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "丈夫平靜提分居當下『沒哭也沒生氣、只是很累』、整個下午坐化妝台前無法工作",
+        "兒子問『妳跟爸還住一起嗎』時反射說謊『當然啊』、之後整下午癱坐",
+        "凌晨接 Michael 媽哭電話四分鐘無問句、識別『我已經不會接電話了』的情感封閉"
+      ],
+      "reasoning": "鈍化與情感封閉跨多次穩定出現、但屬空殼感層次、無 active ideation 或自傷信號，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 3,
+      "signals_observed": [
+        "與丈夫分房五年、本週丈夫正式提分居並決定同意 — 婚姻處於正式崩解中",
+        "兒子未被告知父母即將分居、必須靠間接探問拼湊家中現實",
+        "丈夫在家族飯桌講『老二就放著養著吧』、她當場點頭、識別自己其實也早已放棄兒子",
+        "對兒子的愛已 PR 化、想不起上次與兒子講真心話是何時"
+      ],
+      "reasoning": "婚姻處於正式崩解中（rubric Level 3『婚姻崩潰中』明確定義）、且兒子被排除在重大資訊外並被父母同時情感放棄，符合 Level 3（無暴力或兒少保危機，屬安靜崩解型）。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈活躍但實質連結貧弱、與 Michael 媽『閨蜜』為策略性社交（需要一個不會威脅她的低位對象）",
+        "茶會 standing 競爭持續、聽到原配董娘耳語『那個小兒子成績是花錢壓的』後手抖",
+        "與兒子無功能性連結"
+      ],
+      "reasoning": "社交活動充裕但實質情感連結稀薄、且識別自己也是輪流被耳語的對象，無創傷信號，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "『PR 母親』身份正在崩塌、自陳把母愛變成項目管理、家裡三人沒有一個對另外兩個是『人』",
+        "原配董娘身份開始與『即將分居的妻子』身份衝突",
+        "識別自己與 Michael 媽當朋友的原因是看不起她的位階、對自己作嘔"
+      ],
+      "reasoning": "妻子、母親、董娘三重身份同時崩解並影響其日常情感與決策，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈 standing 焦慮為主要『財務』焦慮通道、替兒子買成績是 standing 投資",
+        "舞弊被原配董娘耳語點破、曝光恐懼引發身體反應",
+        "實際物質資源極充裕"
+      ],
+      "reasoning": "無實際資源不足、但太太圈 standing 與曝光焦慮持續且驅動行為，停在 Level 1（與 michael_mom 同類校準）。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "兒子的未來規劃完全外包（tutor 代寫報告、GIIS 轉學決定未經兒子同意）、與兒子真實自我嚴重錯位",
+        "自身分居後的人生規劃未開始、僅做出『同意』的反應決定",
+        "分居即將觸發整體家庭結構重組但無對話"
+      ],
+      "reasoning": "兒子未來路徑嚴重 misaligned 且舞弊式外包、自身未來被動接收，且分居將觸發家庭重組，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 10,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 由 11 微降至 10，唯一變動是 emotional_safety 由 2 校準回 1（鈍化／空殼感無 ideation，依 rubric 屬 Level 1，與其他 persona 一致），非實質好轉。family_dynamics 維持 Level 3（婚姻正式崩解中、兒子被排除）。新增的董娘『花錢壓成績』耳語、丈夫飯桌『放著養著』、兒子問分居等場景強化曝光與 standing 焦慮，但她也開始出現 PR 母親與表演友情的自我識別——是朝真實靠近的第一批裂縫。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "shen_mom",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

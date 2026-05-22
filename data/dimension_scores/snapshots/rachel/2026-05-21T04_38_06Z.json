@@ -1,0 +1,77 @@
+{
+  "student_persona_id": "saga_a_rachel",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "重大家族事件後反覆整夜失眠、日記寫到凌晨兩三點",
+        "回家後出現『想哭但哭不出來』與『把自己看成物件』的鈍化／抽離反應",
+        "退稿信折成方塊塞抽屜、以自我封閉方式處理而不向人求證"
+      ],
+      "reasoning": "passive distress 與空殼感持續、書寫成為 self-soothing 通道，但無主動或被動輕生語言、抽離為情境性且能自我復原，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 1,
+      "signals_observed": [
+        "成績未掉、課堂功能維持",
+        "老師端觀察到上課眼神呆滯瞬間",
+        "學習能量正從家族期待路徑往自己的寫作志向重新分配"
+      ],
+      "reasoning": "學業功能維持、無崩潰或避學，但投入度在重新分配（外溢自身分與未來規劃議題），停在 Level 1。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "父親寫了 17 年的日記、明言婚禮當天要親手交給她未來的先生",
+        "被帶進董事會、以眼神宣示『未來這是妳的位置』、全程被當成 transfer mechanism",
+        "識別父親在飯桌公開以『我兒子』指稱堂弟、是公開的繼承與配對訊號操作",
+        "家中沒有可坦露真心的對象、所有自我表達須匿名才能存在"
+      ],
+      "reasoning": "父親系統性操作其婚姻、繼承、升學三條路徑、她明確識別卻無法在家庭內部質疑，符合 Level 2 慢性 willful blindness（未升 Level 3 因無暴力或法律危機）。"
+    },
+    "social_development": {
+      "level": 2,
+      "signals_observed": [
+        "對堂弟的暗戀夾帶家族配對計畫污染、power imbalance 結構性存在",
+        "真心與父親計畫剛好對齊、導致無法將自己的感情與計畫分離",
+        "全班無人知道匿名散文是她、社交人格與真實人格完全分離、情感高度孤立"
+      ],
+      "reasoning": "暗戀對象有結構性 power imbalance、且雙重身份造成的情感孤立深，符合 Level 2 下緣。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "公開人格『大伯女兒』與匿名寫作人格完全分離、且分離本身是其生存策略",
+        "識別『真心剛好對齊父親計畫』反而是更深層的身分剝奪、連自己的喜歡都不敢相信是自己的",
+        "退稿信『情感封閉、沒真正活過』回饋觸發『是不是連寫作的我也假』的核心懷疑"
+      ],
+      "reasoning": "雙重身份系統性運作、且寫作志向與家族劇本錯位並影響情感與升學決策，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "實際物質資源極充裕、無資源不足",
+        "對『集團繼承』身份的反向階級焦慮（特權即牢籠、不想要這個位置）"
+      ],
+      "reasoning": "無資源不足、但有反向特權牢籠式階級焦慮，停在 Level 1。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "父親在運作集團接班與婚配、她的個人意願從未被詢問",
+        "真正志向是作家、但寫作職涯路徑從未被家中允許討論、僅能透過匿名管道存在",
+        "開始以匿名投稿、向老師以『讀者』身分探詢等暗中動作建立屬於自己的路徑"
+      ],
+      "reasoning": "學生與家長未來路徑嚴重 misaligned 且未溝通、且學生已開始暗中執行偏離劇本的動作，符合 Level 2。"
+    }
+  },
+  "cumulative_strain": 11,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 維持 11。新增的董事會、17 年婚禮日記、飯桌『我兒子』宣示、可兒當眾提問等事件，把父親的工具化從背景升級為公開／當眾，匿名作家身分也數度逼近曝光；同時她出現第一批 agentic 反制訊號（主張自己的寫作、向老師以讀者身分探詢）。數字持平但這是父親一旦察覺最易引爆衝突的轉折期。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "rachel",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

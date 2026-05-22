@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_uncle__mother_unfinished_sentence",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "mother_unfinished_sentence",
+  "scenario_seed": "兩天前週日家族午宴，84 歲老母親（家族太夫人）席間突然放下筷子、看著 Rachel 說『Rachel 都這麼大了。我們這支……』後半句沒講完。弟弟、弟妹、可兒都假裝沒聽到，大伯笑著叫人添湯把場面圓過去。回家後兩晚睡不好。今天禮拜二下午難得一個會議空檔，他第一次一個人。",
+  "generated_at": "2026-05-19T06:10:38Z",
+  "occurred_at": "2026-05-19T15:42:33",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "uncle_control_intent_acknowledged",
+    "uncle_uses_daughter_as_vessel",
+    "rachel_x_michael_match_motive_exposed",
+    "intergenerational_wound_father_eyes",
+    "potential_shift_in_uncle_treatment_of_rachel"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今天難得有個空檔。坐辦公室。剛開完一個很長的會。"
+    },
+    {
+      "role": "assistant",
+      "content": "您今天想聊什麼？"
+    },
+    {
+      "role": "user",
+      "content": "也沒什麼大事。就是禮拜天家裡聚餐。我母親說了一句話。我這兩天一直在想。"
+    },
+    {
+      "role": "assistant",
+      "content": "她說了什麼。"
+    },
+    {
+      "role": "user",
+      "content": "她吃到一半，筷子放下，看著 Rachel，說『Rachel 都這麼大了。我們這支……』然後她沒講完。她沒講完那一句。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後桌上的人呢？"
+    },
+    {
+      "role": "user",
+      "content": "我弟弟假裝沒聽到。弟妹也假裝沒聽到。Rachel 自己低頭夾菜。可兒在跟她媽講別的。我笑了一下，叫人添湯。場面就過去了。"
+    },
+    {
+      "role": "assistant",
+      "content": "場面過去了。但您回家之後沒過去。"
+    },
+    {
+      "role": "user",
+      "content": "這個我要想。"
+    },
+    {
+      "role": "assistant",
+      "content": "慢慢想。沒人在計時。"
+    },
+    {
+      "role": "user",
+      "content": "我母親 84 歲了。她講話通常很有分寸。她那天那一句不是失言。"
+    },
+    {
+      "role": "assistant",
+      "content": "您聽到的是哪幾個字？"
+    },
+    {
+      "role": "user",
+      "content": "『我們這支』。"
+    },
+    {
+      "role": "assistant",
+      "content": "那四個字打到您哪裡？"
+    },
+    {
+      "role": "user",
+      "content": "打到一個我從來不跟人講的地方。我這輩子沒有兒子。"
+    },
+    {
+      "role": "assistant",
+      "content": "您本來就知道這件事。為什麼這次特別痛？"
+    },
+    {
+      "role": "user",
+      "content": "因為以前是我自己知道。這次是我母親替我說出來了。她沒講完是因為她不忍心。但她想講的下半句是『就斷在 Rachel』。"
+    },
+    {
+      "role": "assistant",
+      "content": "您覺得她是在催您處理。還是她單純的悲傷。"
+    },
+    {
+      "role": "user",
+      "content": "我也分不清楚。我們家不是會把這種話講白的人。她可能兩個都有。"
+    },
+    {
+      "role": "assistant",
+      "content": "那您是兩個都接住了。所以才睡不好。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想多懂一點。您為什麼這麼在意這個『姓』？您是集團董事長。股權、財產有專業團隊處理。姓本身不影響法律結構。"
+    },
+    {
+      "role": "user",
+      "content": "這個問題很尖。"
+    },
+    {
+      "role": "assistant",
+      "content": "您可以不答。但我覺得您自己也想知道。"
+    },
+    {
+      "role": "user",
+      "content": "……我父親生前最後一句話是『家裡靠你了』。他講這句的時候，眼睛在看我弟弟。他講『你』的時候眼神是飄的。我記得很清楚。我從來沒跟人提過。"
+    },
+    {
+      "role": "assistant",
+      "content": "那一刻您在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我在想：靠我，是因為我是長子。不是因為他相信我。我是備位的。我弟弟是他真正想交棒的那一個，但他知道規矩不允許。所以他把這句話講給我聽，眼神給弟弟。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以『我們這支』在您心裡，不只是 Rachel 之後沒人姓這個姓。是『我這一支從來沒被真的認定過』。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "慢慢來。"
+    },
+    {
+      "role": "user",
+      "content": "我這幾年運作 Rachel 跟 Michael 那件事。我跟自己講的理由是『股權回流、家族團結』。這個理由對。但不完整。"
+    },
+    {
+      "role": "assistant",
+      "content": "不完整的部分是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "不完整的部分是——如果 Rachel 嫁給 Michael、生的孩子算進我們這支，我就不是斷的那一個。我父親那個眼神就回不來打我。我這輩子被『二房才是真的』壓著的東西就翻面了。我是用 Rachel 在跟我父親算一筆我沒跟他算完的帳。"
+    },
+    {
+      "role": "assistant",
+      "content": "您現在第一次把這句話講出來。"
+    },
+    {
+      "role": "user",
+      "content": "……我也是第一次聽到自己這樣講。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想跟您講一件可能不中聽的事。可以嗎？"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "您把 Rachel 當作這筆三十年帳的最後一張牌。在這筆帳裡她是工具，不是孩子。您不是不愛她，但您愛她的方式裡，有一半是在跟一個三十年前的眼神對話，不是在跟她對話。她有沒有察覺，您比我清楚。"
+    },
+    {
+      "role": "user",
+      "content": "……我要想這個。具體要我做什麼，講。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個禮拜五晚上，找 Rachel 單獨吃一頓飯，不在家裡也不在會所，找一家她平常自己會去的麵店。整頓飯您只問她一句：『妳這禮拜寫了什麼？』然後聽她講、不評論、不建議、不延伸——也不要提 Michael、不要提股權、不要提任何跟未來有關的事；她如果說『沒寫什麼』，您就說『好』然後繼續吃麵。做得到，下禮拜這個時間回來跟我講她講了什麼；做不到，下禮拜回來跟我講您卡在哪一個字。這頓飯是您這禮拜唯一一次，跟『您的女兒』、而不是跟『下一代的容器』，吃飯。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

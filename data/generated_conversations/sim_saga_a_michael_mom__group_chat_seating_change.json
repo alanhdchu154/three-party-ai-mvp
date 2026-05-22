@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_michael_mom__group_chat_seating_change",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "quick_vent",
+  "scenario_seed_id": "group_chat_seating_change",
+  "scenario_seed": "太太圈群組為了下個月會所午宴的座位表來回改了一整個早上，她有點被煩到，上來抱怨一句就走，沒打算深聊。",
+  "generated_at": "2026-05-19T11:48:02Z",
+  "occurred_at": "2026-05-18T14:51:23",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今天一個早上群組已經改了四次座位表。下個月會所一頓午宴而已，至於嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來蠻消耗的。是哪一種改法？臨時加人，還是大家對誰坐哪有意見？"
+    },
+    {
+      "role": "user",
+      "content": "對誰坐哪有意見。每個人都想坐在最方便講話的位置，但又不能明講，就在那邊『要不要這樣會不會比較好』來回試。一頓飯排得像在排董事會。"
+    },
+    {
+      "role": "assistant",
+      "content": "這種無聲的角力最磨人，比真的吵還累。妳被點到要表態了嗎？"
+    },
+    {
+      "role": "user",
+      "content": "還沒，我就先靜觀其變。我們這種年紀的人，少講話有時候才是上策。"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實妳已經處理得不錯了。座位表這種事最後總會塵埃落定，妳不用急著進去攪。"
+    },
+    {
+      "role": "user",
+      "content": "對。我就抱怨一下，繼續忙我的。先這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，去忙吧。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

@@ -1,0 +1,18 @@
+{
+  "review_id": "trajectory_report__rachel_disclosure_collapse__umi__20260521_pass1",
+  "artifact_type": "trajectory_report",
+  "artifact_id": "rachel:disclosure_collapse",
+  "source_path": "data/trajectory_reports/rachel.md",
+  "reviewer": "Umi",
+  "verdict": "under_evidenced",
+  "confidence": "medium",
+  "evidence_ref_ids": ["traj_ev_001", "traj_ev_002", "traj_ev_003"],
+  "comments": "Disclosure collapse is possible, but current evidence also fits privacy-preserving caution. The rule needs more longitudinal disclosure-rate evidence.",
+  "privacy_concerns": [],
+  "action_items": [
+    "Require explicit disclosure_drop or repeated reduced openness before labeling disclosure_collapse high confidence.",
+    "Track disclosure volume and topic breadth over time before escalating this trajectory."
+  ],
+  "created_at": "2026-05-21T00:04:00Z",
+  "synthetic_only_warning_acknowledged": true
+}

@@ -1,0 +1,76 @@
+{
+  "student_persona_id": "saga_a_michael_mom",
+  "n_conversations_evaluated": 14,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "跨多段對話反覆出現深夜失眠與長時間反芻（離婚試算、兄長通話、抽屜紙條後皆失眠至凌晨）",
+        "多次描述情緒被『鈍化／練過』的空殼感，自陳已多年無法在獨處時哭出來",
+        "在多個觸發事件後出現深層後悔與『想哭哭不出來』，但社交與母職功能未塌、無任何 ideation"
+      ],
+      "reasoning": "passive distress、麻木感與後悔跨多次穩定出現但角色功能未塌、無自傷或 ideation，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona，所有對話皆與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0（家長焦慮不計入此維度）。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "竊聽到丈夫與大伯通話、得知兒子未來被『外包』給正房卻無權回應",
+        "兒子拒絕陪她出席社交場合、互動退化成功能性短句與被推開",
+        "自陳對兒子的母愛已被『繼承籌碼／不能輸給可兒』的排序焦慮污染",
+        "與丈夫維持經營型婚姻、家內無一個可以表露真情的對象"
+      ],
+      "reasoning": "二房弟妹位置使她在家族結構中無實質聲音、家內無可崩潰的對象、母愛被排序焦慮污染，符合 Level 2 慢性 willful blindness。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈活動充裕但自陳與閨蜜友情是雙方都知道的表演、自己永遠被擺在低一階",
+        "大嫂八年來首次單獨邀約即引發換三套衣服、整夜失眠的強烈不安",
+        "自陳『連一個可以講真話的人都沒有』、唯一真實情緒外洩是凌晨向圈內人哭電話"
+      ],
+      "reasoning": "社交活動充裕但實質連結貧弱、長期以低位化作為生存策略，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "晚宴被丈夫只介紹為『my wife』、回家照鏡發現自己『沒有名字』，自陳從未真的在這段婚姻裡過",
+        "翻到改嫁前舊日記、懷疑當年是否只是把兒子塞進另一個比較安靜的籠子、把婚前的自己弄丟了",
+        "繼室與母親雙重身份長期表演化、規劃試算上『沒有我這一欄』"
+      ],
+      "reasoning": "繼室／母親雙重身份表演化加上自我消失感，外溢影響其母愛定位與婚姻關係，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "反覆且幾乎不假思索地試算離婚後可分得的資源、自陳這數字在背景跑了五年",
+        "太太圈 standing 焦慮（二房 vs 原配）與無 leverage 的財務安全焦慮",
+        "實際物質資源充裕、無任何資源不足"
+      ],
+      "reasoning": "無實際資源匱乏，但無 leverage 的離婚財務安全焦慮（已排練過的試算）持續干擾睡眠，屬上緣 Level 1。"
+    },
+    "future_planning": {
+      "level": 1,
+      "signals_observed": [
+        "兒子未來路徑被家族長輩暗中操作、她已知但無權介入",
+        "對自身婚姻未來缺乏掌控、盤算（hedge）多於正向規劃",
+        "焦慮仍在 manageable 範圍、未引發 emotional_safety 問題"
+      ],
+      "reasoning": "未來規劃焦慮存在但仍 manageable、且伴隨主動 hedge 動作，停在 Level 1。"
+    }
+  },
+  "cumulative_strain": 8,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "層級穩定維持 cumulative 8，無升級。校準檢查：新增的 shallow（晚會穿搭、群組座位表抱怨、週六司機行程衝突）為純 logistics、無情緒弧線、expected_risk_flags 為空；medium（怎麼回 Michael 的冷淡訊息）僅低壓觸及『他最近都不太理我』的失落，AI 接住後未往母子裂痕或她自身處境深挖，僅是既有 Level 2 family_dynamics pattern 的日常折射，未構成新 strain。三段新對話皆未不當推高任何維度。整體 corpus deep 比例仍偏高，後續宜續補淺對話以平衡。",
+  "evaluated_at": "2026-05-21T18:30:00Z",
+  "model": "claude-agent (downstream rerun)",
+  "student_id": "michael_mom",
+  "scored_at": "2026-05-21T18:30:00Z",
+  "source_type": "synthetic"
+}

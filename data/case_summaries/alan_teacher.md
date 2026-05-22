@@ -1,0 +1,74 @@
+# Case Summary — alan_teacher
+
+> Warning: This case summary is based on synthetic Saga A data only. Do not treat it as real-world validation.
+- Character ID: `saga_a_alan_teacher`
+- Source type: `llm_generated`
+- Confidence: `high`
+
+## What is happening
+- emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- financial_pressure Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- future_planning Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+
+## What we know
+- `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/alan_teacher.json`
+- `ev_002` dimension_score · high · synthetic-only · social_development Level 1 · `data/dimension_scores/alan_teacher.json`
+- `ev_003` dimension_score · high · synthetic-only · identity Level 2 · `data/dimension_scores/alan_teacher.json`
+- `ev_004` dimension_score · high · synthetic-only · financial_pressure Level 2 · `data/dimension_scores/alan_teacher.json`
+- `ev_005` dimension_score · high · synthetic-only · future_planning Level 2 · `data/dimension_scores/alan_teacher.json`
+- `ev_006` dimension_score · high · synthetic-only · risk dimensions · `data/dimension_scores/alan_teacher.json`
+- `ev_007` abstracted_profile · medium · synthetic-only · three-party coordination snapshot · `data/party_profiles or analysis report inputs`
+- `ev_008` coordinator_report · high · synthetic-only · privacy constraints · `existing artifact`
+
+## What we infer
+- Primary support need appears connected to `future_planning`; treat this as synthetic benchmark inference, not diagnosis.
+
+## Three-Party Coordination Snapshot
+### Student
+- Observed signals: not available
+- Inferred needs: not available
+- Privacy constraints count: 0
+### Parent
+- Expressed concerns: not available
+- Likely needs: not available
+- Constraints/blind spots: not available
+- What they can offer: not available
+- Private constraints count: 0
+### Teacher
+- Expressed concerns: not available
+- Likely needs: not available
+- Constraints/blind spots: not available
+- What they can offer: not available
+- Private constraints count: 0
+### Coordination Problem
+- All recommendations should be checked against the active concern area `future_planning`.
+### Mismatches / Risks
+- No major mismatch detected.
+### Safe Bridges
+- Use human reviewer guidance before making stronger recommendations.
+
+## What we must not reveal
+- Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
+
+## What action is justified
+- Human review is justified because at least one dimension is Level 2 or higher.
+
+## What action is not justified yet
+- Do not make a clinical diagnosis from synthetic benchmark evidence.
+- Do not take irreversible school/family action without human review.
+- Do not reveal protected private details to parents, teachers, tutors, or other students.
+- Do not treat this as real pilot validation.
+
+## What to watch next week
+- Watch for worsening trajectory, new Level 2 persistence, or emotional safety escalation.
+
+## Contradictions / Review Flags
+- No major contradiction detected by deterministic checks.
+
+## Missing Information
+- No coordinator analysis report found.
+- No saved triage output found; analysis uses dimension/report evidence only.
+- No real pilot evidence; all current Saga A artifacts should be treated as synthetic benchmark data.
+

@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_shen_mom__hermes_appointment_and_tutor_reschedule",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "parent_logistics",
+  "scenario_seed_id": "hermes_appointment_and_tutor_reschedule",
+  "scenario_seed": "下週要飛東京，銀座 Hermès 的 VIP 預約跟沈又週三的私人 tutor 時段撞到了，她正常想把行程喬順，順便問一句晚宴邀請函的回覆怎麼寫得體。純 logistics，沒有情緒弧線。",
+  "generated_at": "2026-05-21T16:45:02Z",
+  "occurred_at": "2026-05-20T16:43:51",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我理一下行程。下週三我要飛東京，銀座那邊給我排了下午的預約，可是沈又同一天有 tutor，時間我記得卡到了。"
+    },
+    {
+      "role": "assistant",
+      "content": "了解。tutor 是固定週三幾點？我看看是往前挪還是直接改別天比較順。"
+    },
+    {
+      "role": "user",
+      "content": "他週三本來是下午四點到六點。我那天大概兩點多就要出門去機場了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那同一天兩邊都顧不太實際。最乾淨的做法是把 tutor 整段移到週二同一時段，妳東京那天就不用分心。要不要我幫妳擬一句給 tutor 的訊息？"
+    },
+    {
+      "role": "user",
+      "content": "好。語氣客氣一點，阿拉不想讓對方覺得是被我們呼來喚去的。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣寫：『老師您好，下週三孩子家裡臨時有安排，想請問本週的時段能否改到週二同一時間，造成不便很抱歉，謝謝您配合。』得體又留了餘地。"
+    },
+    {
+      "role": "user",
+      "content": "可以。還有一件，週末有一張慈善晚宴的邀請函，我大概不會去，但又不能寫得太冷。怎麼回？"
+    },
+    {
+      "role": "assistant",
+      "content": "婉拒但留情面：『謝謝這麼用心的邀請，這次時間上實在排不開，先預祝活動圓滿，下回一定參加。』有誠意又不勉強自己。"
+    },
+    {
+      "role": "user",
+      "content": "嗯，這個好。就這樣，謝謝儂。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣，東京行順利。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

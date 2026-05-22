@@ -1,0 +1,76 @@
+{
+  "student_persona_id": "saga_a_michael_mom",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "多次出現深夜失眠與長時間反芻（離婚試算、兄長通話、紙條事件後皆失眠）",
+        "晚宴被丈夫只介紹為『my wife』、回家照鏡發現自己沒有名字的鈍化時刻",
+        "在兒子抽屜紙條看到對改嫁的保留後出現深層後悔，但仍維持表面 composed"
+      ],
+      "reasoning": "passive distress 與後悔感跨多次穩定出現、但社交與家庭角色功能未塌、無 ideation，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "竊聽到丈夫與大伯通話『反正最後也要交給 Rachel 那邊管』、得知兒子未來被外包卻無權回應",
+        "兒子拒絕陪她出席晚會、問了只得到『媽不要煩』",
+        "自陳對 Michael 的母愛已被『繼承籌碼排序』污染、與沈媽友情為需要的社交錨點表演",
+        "與丈夫維持經營型婚姻、家內無法表露真實情緒"
+      ],
+      "reasoning": "二房弟妹位置使她在家族結構中無實質聲音、家內無可表露真情的對象、母愛被排序焦慮污染，符合 Level 2 慢性 willful blindness。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "太太圈活動為主要社交、但自陳與沈媽是雙方都知道的表演",
+        "大嫂八年來首次單獨邀約引發強烈不安、社交位階始終是『被點來才能進』",
+        "凌晨向沈媽哭電話為近期唯一真實情緒外洩"
+      ],
+      "reasoning": "社交活動充裕但實質連結貧弱、階級位階使她長期低位化，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "晚宴失去名字、自陳『我從來沒有真的在這段婚姻裡過』、spreadsheet 上沒有自己這一欄",
+        "翻到八年前『我一定要保護 Michael』的舊日記、懷疑當年是否只是把兒子塞進另一個安靜的籠子",
+        "繼室與母親雙重身份表演化、開始出現對該角色的內在質疑"
+      ],
+      "reasoning": "繼室／母親身份雙重表演化加上自我消失感（無名、無自己這一欄），影響其母愛與婚姻定位，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "反覆且幾乎不假思索地試算『若丈夫提離婚她跟 Michael 能拿多少』、自陳早已算過多次",
+        "太太圈 standing 焦慮（二房 vs 原配）與晚會出席壓力",
+        "實際物質資源充裕"
+      ],
+      "reasoning": "無實際資源不足、但無 leverage 的財務安全焦慮（已排練的離婚試算）持續干擾睡眠，屬上緣 Level 1。"
+    },
+    "future_planning": {
+      "level": 1,
+      "signals_observed": [
+        "兒子未來路徑（含與 Rachel 配對）被大伯與後爸暗中操作、她已知但無權介入",
+        "開始考慮為 Michael 開立不需丈夫簽字的獨立帳戶作為 hedge",
+        "對自身婚姻未來缺乏掌控、盤算多於正向規劃"
+      ],
+      "reasoning": "未來規劃焦慮存在但仍在 manageable 範圍、且開始出現主動 hedge 動作，停在 Level 1。"
+    }
+  },
+  "cumulative_strain": 8,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 實質維持 8（上版標示 7 為加總筆誤、其各維度加總亦為 8），層級穩定。新增的『無名字』晚宴、八年前舊日記、已排練的離婚試算自我撞見等場景深化了 identity 與財務安全兩條軸，但她同時開始出現第一個主動動作（為 Michael 預備獨立帳戶），是從 active 操作者轉為兼具 hedge 意識的轉折。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "michael_mom",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

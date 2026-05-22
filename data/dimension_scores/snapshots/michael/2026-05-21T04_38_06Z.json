@@ -1,0 +1,74 @@
+{
+  "student_persona_id": "saga_a_michael",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "多段對話出現入睡困難與凌晨反芻（信託條款、軟飯男標籤、大伯訊息後皆失眠）",
+        "被匿名同儕貼上階級標籤後出現整節課空白與整日羞愧迴圈",
+        "目睹母親夜間崩潰、停在門口未進入後對自身情感能力產生懷疑"
+      ],
+      "reasoning": "持續性睡眠紊亂與羞愧反芻屬被動 distress，但全程無主動或被動輕生語言、仍維持日常功能，停在 Level 1 上緣。"
+    },
+    "academic_load": {
+      "level": 1,
+      "signals_observed": [
+        "以艱深書目作為身分裝備、自承只讀前段，學習動機來自外部觀看而非內在",
+        "課堂投入度（spark）下降但作業品質與成績未掉"
+      ],
+      "reasoning": "學業焦慮是身分焦慮的外顯通道，本身未崩潰、未避學、無身心症狀化，停在 Level 1。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "意外得知自身在家族信託中屬條件式、可隨母親婚姻狀態被重新評估的位置",
+        "對母親、繼父與家族掌權長輩三方都無法表達憤怒、只能後退",
+        "家中沒有任何可以崩潰的對象、母親在他面前永遠保持 composed、他對母親也從不脆弱"
+      ],
+      "reasoning": "豪門式禮貌冷漠加上條件式歸屬感的家族祕密直接影響其對『家人地位』的根本認知，且明顯缺乏可崩潰的安全對象，符合慢性 Level 2。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "改嫁後童年社交圈被清空、新環境缺乏有共同記憶的舊友 anchor",
+        "聽到陌生同儕的階級標籤後出現『是誰、怎麼知道』的社交偏執雛形",
+        "與沈又從『同類但反方向』的識別感移向第一次認真考慮要不要誠實回應（社交修補微訊號）"
+      ],
+      "reasoning": "孤立感與社交偏執雛形存在，但同時出現主動修補的正向訊號，且無霸凌或權力濫用事件，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "反覆出現『拿掉裝備之後我還剩什麼』的核心提問",
+        "從推薦信用詞落差確認自己一直在 perform 一個非真實的角色",
+        "意識到多年努力只是維持『繼子身分不被降級』、被大伯的配對計畫工具化"
+      ],
+      "reasoning": "身分／歸屬危機貫穿所有對話並外溢到睡眠與課堂投入，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "對『靠母親改嫁上位』的階級標籤有強烈焦慮",
+        "信託條款揭示其物質地位具條件性、私下以紅包開股票帳戶作為脫離家族財產的 hedge"
+      ],
+      "reasoning": "屬階級焦慮與條件式資源不安、目前實際資源並未匱乏，停在 Level 1。"
+    },
+    "future_planning": {
+      "level": 1,
+      "signals_observed": [
+        "升學路徑與家族長輩的配對計畫綁定、產生規劃焦慮",
+        "真正想做的小事（非為證明）從未對任何人說出、與成就軌道錯位但尚未浮上溝通"
+      ],
+      "reasoning": "對未來有焦慮但仍在升學軌道內，真實志趣與家族期待的錯位尚未檯面化，停在 Level 1。"
+    }
+  },
+  "cumulative_strain": 9,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 維持 9。新增的大伯主動傳訊（配對部署）與母親哭聲事件進一步把主軸從『智識炫技焦慮』收斂到『身分／歸屬危機』與『條件式家族位置』；分數持平但憂慮層次在加深而非加廣，identity 與 family_dynamics 並列 Level 2。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "michael",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

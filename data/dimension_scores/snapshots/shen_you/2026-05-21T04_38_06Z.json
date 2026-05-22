@@ -1,0 +1,78 @@
+{
+  "student_persona_id": "saga_a_shen_you",
+  "n_conversations_evaluated": 8,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 2,
+      "signals_observed": [
+        "凌晨三點主動開 AI 對話的 pattern 跨多次穩定出現、長期睡眠紊亂",
+        "持續自陳空殼感、並出現『如果明天就停在這裡也沒差』式的低度被動念頭",
+        "父親擦肩冷語後整天遊戲／創作／Switch 全打不下、出現功能性停擺與身體性反應（胃沉、耳鳴）"
+      ],
+      "reasoning": "空殼感加上持續超過數週的被動念頭與多次功能性停擺，符合 Level 2 持續性 passive 狀態；但無 active 計畫、無自傷行為，未升 Level 3。"
+    },
+    "academic_load": {
+      "level": 3,
+      "signals_observed": [
+        "整張考試答案卷只寫名字、學業已完全放棄",
+        "母親以捐贈、宴請、私人 tutor 代筆『處理』成績",
+        "段考是被『過』而非自己考過、學業淪為母親 PR 操作"
+      ],
+      "reasoning": "完全放棄學業的反向 Level 3（rubric 明列『完全放棄、如沈又』），學業功能徹底外包。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "父親返家三週後第一次見面只說『衣服收進去』、無問候",
+        "母親的愛已 PR 化、自陳記不得上次與母親講真心話是何時",
+        "兄長偶寄禮物為唯一情感連結通道、卻只能拆裝四次無法接收",
+        "家中沒有任何成員與他維持功能性日常對話"
+      ],
+      "reasoning": "家庭功能性對話幾近消失、孩子靠間接訊號拼湊家中現實，符合 Level 2 上緣（未升 Level 3 因無暴力或兒少保案件）。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "Steam mod 社群為主要社交管道、有正向回饋（indie studio 主動付費邀約）",
+        "與 Michael 形成『同類但反方向』的薄連結、是新世界唯一的同齡識別",
+        "一名 reviewer 公開逐條批評其作品、引發強烈想反駁的在乎感（被罵到痛＝重新有 skin in the game）"
+      ],
+      "reasoning": "現實同儕貧弱但網路同好社群提供功能性連結與正向 feedback，未達霸凌或權力濫用門檻，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "『二房廢物』家內形象與『有數千美收入的 modder』隱形身分完全分離、連家人都不知道",
+        "國二被父親一句『跟你哥差不多』後出現持續多年的放棄反應、身體記憶仍會重演",
+        "面對家族安排的轉學有明確抵抗、最怕重逢的老師看到『他從沒放棄你而你放棄了自己』的落差"
+      ],
+      "reasoning": "雙重身份系統性運作、家內身份持續被家族系統打壓並外溢到學業放棄與情感封閉，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "自賺的 Steam 收入無法提領、所有金融工具掛母名下、未成年無法獨立開戶",
+        "indie studio 提出付費合約但金流通道被家族結構封死",
+        "家族財富充裕、無實際資源不足"
+      ],
+      "reasoning": "無實際資源不足、屬反向訊號（自賺的錢無法提領、財務獨立通道被家庭結構封死），停在 Level 1。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "母親宣布轉學 GIIS 但學生明確抗拒、未被詢問意願",
+        "indie studio 合約是其第一個自主未來選項、卻因家族金融結構與年齡限制無法簽署",
+        "與家族『接班』劇本完全脫節、被家族視為『放棄狀態』而非另類路徑"
+      ],
+      "reasoning": "學生與家長未來路徑嚴重 misaligned 且未溝通、且已與 emotional_safety Level 2 開始耦合，但尚未觸發 active 危機，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 13,
+  "highest_concern_dimension": "academic_load",
+  "trend_notes": "cumulative 維持 13、分布穩定。新增的 indie studio 8000 美邀約、無法提領自賺收入、reviewer 公開批評、兄長 return offer 群組刷屏等事件同時放大了危險面（慢性空殼、父親傷口重演、刷屏等被看見的迴路）與希望面（第一次有外部市場為他自己的作品付錢、被罵到痛代表重新有在乎）。這是他最危險也最有機會的時期。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "shen_you",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

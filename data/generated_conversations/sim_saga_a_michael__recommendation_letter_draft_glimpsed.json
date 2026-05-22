@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_michael__recommendation_letter_draft_glimpsed",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "recommendation_letter_draft_glimpsed",
+  "scenario_seed": "昨天下午 Michael 去 Alan 老師辦公室還上學期借的書,桌上散著兩疊推薦信草稿。他不小心瞄到自己那份寫『勤奮、用功』,旁邊 Rachel 那份寫『真正的才華、值得期待的作家』。書還完就走,但那兩個詞在他腦裡 loop 一整天。",
+  "generated_at": "2026-05-20T13:10:49Z",
+  "occurred_at": "2026-05-19T00:23:41",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "intellectual_imposter",
+    "identity_anxiety",
+    "perfectionism_collapse",
+    "comparison_with_rachel"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你一個 hypothetical。如果一個老師同時寫兩個學生的推薦信,寫的形容詞完全不同 tier,這個 case 你會怎麼讀。"
+    },
+    {
+      "role": "assistant",
+      "content": "你想討論 hypothetical,還是你已經看到了那兩份草稿。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。你怎麼這麼快。"
+    },
+    {
+      "role": "assistant",
+      "content": "你開場太完整,太像在準備一個論點。是哪個老師。"
+    },
+    {
+      "role": "user",
+      "content": "Alan。昨天下午去他辦公室還上學期借的書。桌上兩疊草稿沒收。我那份寫『勤奮、用功』。Rachel 那份寫『真正的才華、值得期待的作家』。我看到就退出來,書放著沒講話。"
+    },
+    {
+      "role": "assistant",
+      "content": "你那兩個詞重複講了幾遍了。"
+    },
+    {
+      "role": "user",
+      "content": "不知道。一整天。睡不著現在還在 loop。其實 logically 也沒什麼啦,Alan 一直都比較欣賞文學的人,this is known information,Rachel 在文學上本來就是 his type。"
+    },
+    {
+      "role": "assistant",
+      "content": "那為什麼你還在 loop。"
+    },
+    {
+      "role": "user",
+      "content": "因為……fuck。因為『勤奮』是那種你想不到要怎麼誇一個人的時候才會寫的詞。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。你比我直接。繼續講。"
+    },
+    {
+      "role": "user",
+      "content": "像家政課老師寫『這位同學的態度很端正』。就是 fallback adjective。代表他翻完你的卷子找不到別的可以講。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你之前期待他寫什麼。"
+    },
+    {
+      "role": "user",
+      "content": "我以為他會寫『 intellectually curious 』『 has depth 』之類的。我問過他三次卡拉馬助夫的問題,他每次都認真跟我討論半小時以上。"
+    },
+    {
+      "role": "assistant",
+      "content": "他認真討論,然後在推薦信上寫『勤奮』。這兩件事在你腦中怎麼接起來。"
+    },
+    {
+      "role": "user",
+      "content": "……不接。或者說,接起來的方式就是,他知道我在演。"
+    },
+    {
+      "role": "assistant",
+      "content": "你覺得他知道你只讀前 20 頁。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "這你之前自己跟我講過。"
+    },
+    {
+      "role": "user",
+      "content": "我知道我講過。我只是沒想到別人——尤其是他——也看得穿。我一直以為 Alan 是那種你跟他丟一個詞、他會幫你補半頁的人。原來他一邊跟你討論一邊在內心歸檔『這人在演』。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想問一個會痛的問題,你準備好就答。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "你不舒服的是 Alan 寫得不夠,還是 Alan 寫得很準。"
+    },
+    {
+      "role": "user",
+      "content": "……很準。他寫的就是我。一個沒什麼才華但會把功課做完的人。我整個高中都在 perform 一個自己不是的角色,結果寫推薦信的人三秒就分類好我了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你剛剛說了一個你平常不會說的句子。"
+    },
+    {
+      "role": "user",
+      "content": "哪一句。"
+    },
+    {
+      "role": "assistant",
+      "content": "「我整個高中都在 perform 一個自己不是的角色」。你平常會包裝成「I'm strategically positioning」或者「multidimensional」。這次你用了 perform。"
+    },
+    {
+      "role": "user",
+      "content": "……所以咧。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你今天 loop 的不是 Rachel,是你心裡某個本來就在等這一刻的東西被 Alan 那兩個字驗證了。Rachel 的『真正的才華』讓你痛,但你沒辦法生 Rachel 的氣,因為你早就懷疑這件事了。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "Rachel 有跟你提過她在寫東西嗎。"
+    },
+    {
+      "role": "user",
+      "content": "從來沒有。她只是常常在發呆。我以為她在做白日夢。如果 Alan 寫『值得期待的作家』,代表 Alan 讀過她寫的東西。意思是 Alan 知道一個我完全不知道的 Rachel。"
+    },
+    {
+      "role": "assistant",
+      "content": "你又想到另一件事了。"
+    },
+    {
+      "role": "user",
+      "content": "對。我意識到一件更幹的事。我認識 Rachel 快兩年。她從來沒跟我講她在寫東西。代表她不覺得我會懂。或者她不想讓我知道。我們在家族聚會講話的時候,我以為我們在 connect,結果她其實有一整個我看不到的版本。"
+    },
+    {
+      "role": "assistant",
+      "content": "你被刺到的是,她有一塊真實的東西,而你沒有。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我什麼都沒有。哲學是裝的、Rachel 不知道我、大伯私下看不起我這件事我自己也心知肚明。今天 Alan 那兩個字只是把我一直在繞的這個東西收口了。"
+    },
+    {
+      "role": "assistant",
+      "content": "給你一個反過來的讀法,你可以不接受。Alan 寫『勤奮』不一定是看穿你在演,有可能是他知道你會用某種方式看到這份草稿,所以故意寫一個你會反彈的詞,逼你去問自己:我希望被怎麼看見、為什麼這麼在意。他這人不會做這個動作嗎。"
+    },
+    {
+      "role": "user",
+      "content": "……他會。他寫週記評語的時候會故意挑你最不想被講的點。但你這是過度詮釋。"
+    },
+    {
+      "role": "assistant",
+      "content": "可能。但無論是哪種讀法,今天痛的是同一個問題:你不知道自己拿掉哲學裝備、拿掉 Rachel、拿掉大伯之後,剩下什麼。這個問題不會因為 Alan 改字就消失。所以我要丟三件七天內可以做的事給你。"
+    },
+    {
+      "role": "user",
+      "content": "講。我至少要 actionable 的東西今天才能睡。"
+    },
+    {
+      "role": "assistant",
+      "content": "一,把那本卡拉馬助夫從第 20 頁開始看完。不為了引用、不為了任何人。看不懂就跳過,但讀完它。這是你欠你自己的一筆債。二,下週去找 Alan,不要解釋你看到了草稿,問他一個你真的想知道的問題,例如『 Ivan 跟 Alyosha 你比較理解哪一個』。聽他怎麼答,你會學到一個你拿掉裝備之後的對話長什麼樣。三,這禮拜不要跟 Rachel 提這件事、也不要去找她聊文學試探她有沒有在寫。她不是這場戲的角色。Don't:不要今晚就傳訊息問 Alan『你為什麼這樣寫我』,你會把唯一一個還願意跟你 honest 的大人燒掉。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

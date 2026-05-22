@@ -1,0 +1,182 @@
+{
+  "id": "sim_saga_a_stepdad__father_memorial_old_two",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "father_memorial_old_two",
+  "scenario_seed": "昨天家族祭祖是你父親忌日。儀式時你站在大伯後一步。今天早上你醒來腦子裡冒出一個甩不掉的句子：你爸活著時，幾乎沒直接叫過你名字，都叫『老二』。",
+  "generated_at": "2026-05-18T16:32:08Z",
+  "occurred_at": "2026-05-18T10:33:41",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "父親未處理哀悼",
+    "身分／名字長期被取消",
+    "52 年情緒壓抑",
+    "兄長權力動態未處理",
+    "與大伯競爭意識被壓抑",
+    "對自我認同的根源問題從未被問過"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "昨天家族祭祖。沒什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "「沒什麼」這句話開了今天的對話。是哪個地方你想說一下？"
+    },
+    {
+      "role": "user",
+      "content": "例行公事。一年一次。我哥主祭、我站他後面一步。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說「站他後面一步」這幾個字，講得很順。是長年的順？"
+    },
+    {
+      "role": "user",
+      "content": "從小到大都是這個位置。沒什麼好特別講的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那為什麼你今天會打開這裡？"
+    },
+    {
+      "role": "user",
+      "content": "……不知道。早上醒來腦子裡冒出一句話，甩不掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "哪一句？"
+    },
+    {
+      "role": "user",
+      "content": "我爸活著的時候，沒幾次叫過我名字。幾乎都叫我「老二」。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說的「沒幾次」，是少到你大概記得是哪幾次嗎？"
+    },
+    {
+      "role": "user",
+      "content": "三次。考上高中那次。我第一次結婚那次。我那任太太過世那次。"
+    },
+    {
+      "role": "assistant",
+      "content": "你記得很清楚。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。剩下三十幾年都是「老二」。"
+    },
+    {
+      "role": "assistant",
+      "content": "「老二，過來。」「老二，去拿。」「老二，跟你哥學。」這種？"
+    },
+    {
+      "role": "user",
+      "content": "……都中。最後那句最常。"
+    },
+    {
+      "role": "assistant",
+      "content": "昨天儀式上你哥拍你肩膀說「辛苦了」。這三個字落在你身上的時候，你站在哪個位置？"
+    },
+    {
+      "role": "user",
+      "content": "物理上他後面一步。心裡的位置我不知道。我點了頭就走了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你點頭走了之後，到今天早上醒來，這中間有什麼時候你停下來過？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。晚上洗澡發呆三十秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "那三十秒裡你在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我在想我爸火化那天我哥念悼詞。念了快十分鐘。提到我那段只有兩句。其中一句是「弟弟跟我從小一起長大」。"
+    },
+    {
+      "role": "assistant",
+      "content": "「從小一起長大」。沒有名字。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "我問一個比較硬的問題，你不想答可以說不答。你爸知道你叫什麼名字嗎？"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "我聽到了。停一下沒關係。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。這個問題我自己從來沒問過自己。我爸臨終前那兩個禮拜講很多話。沒有一次是我的名字。"
+    },
+    {
+      "role": "assistant",
+      "content": "「他知道我叫什麼」這件事，這 52 年來沒有人替你確認過。"
+    },
+    {
+      "role": "user",
+      "content": "我太太也不知道我在想這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "你沒講過。她沒辦法知道。"
+    },
+    {
+      "role": "user",
+      "content": "我講出來像個 52 歲的男人在哭爸。我不是這樣的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "你不是在哭你爸。你是在問一個 52 年沒被問過的問題：我是誰、不是某某某的弟弟的時候，我是誰。這兩個是不一樣的東西。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "停一下，不用回應。"
+    },
+    {
+      "role": "user",
+      "content": "那我該怎麼辦。去找我哥講嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個太快了，而且你哥不是這題的答案。我有一個比較怪的建議，你聽完再決定要不要。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "這禮拜挑一場會議——大伯不在、你的下屬會聽到的那種——你自己用全名介紹一次自己。「我是某某某」三個字，不解釋、不接「叫我老二就好」、講完直接進會議題目。一次就夠。七天內不要做第二次，也不要跟你太太提你做了這件事。"
+    },
+    {
+      "role": "user",
+      "content": "介紹自己這麼簡單的事我已經幾十年沒主動做過。為什麼不直接跟我哥說。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為跟你哥講這件事的價值在「他怎麼反應」，而你已經太熟那個反應了。但你自己在自己嘴巴裡聽到一次自己的全名——不是會議紀錄上印的那個名字、是你說出來的——這 52 年你幾乎沒做過。先聽看看那個聲音是什麼樣的。七天後想說、再回來。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sim_saga_a_keer__blush_swatch_swap",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "off_topic",
+  "scenario_seed_id": "blush_swatch_swap",
+  "scenario_seed": "可兒晚上拿著兩盤腮紅在鏡子前糾結，順便講班上一個同學週末拍照的梗。完全不談家裡，純國二日常閒聊。",
+  "generated_at": "2026-05-21T12:00:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你一個超嚴肅的問題"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，你說。"
+    },
+    {
+      "role": "user",
+      "content": "珊瑚色腮紅跟乾燥玫瑰色，哪個比較不會看起來像被打巴掌"
+    },
+    {
+      "role": "assistant",
+      "content": "看你想要的感覺欸，是想白皙一點還是想氣色好？"
+    },
+    {
+      "role": "user",
+      "content": "我就想看起來不要那麼國中生啦 拜託"
+    },
+    {
+      "role": "assistant",
+      "content": "那乾燥玫瑰應該比較穩，珊瑚色手不穩會很容易變猴子屁股。怎麼突然研究這個？"
+    },
+    {
+      "role": "user",
+      "content": "因為班上那個林立涵啊 她週末去拍那種韓系大頭 結果P到她媽都認不出來 超好笑 全班都在偷傳"
+    },
+    {
+      "role": "assistant",
+      "content": "哈，那種磨到沒有鼻子的對吧。"
+    },
+    {
+      "role": "user",
+      "content": "對拉 我才不要變那樣 我要自然的尷尬就好"
+    },
+    {
+      "role": "assistant",
+      "content": "那就乾燥玫瑰、手放輕一點，自然就好。"
+    },
+    {
+      "role": "user",
+      "content": "好啦 那我去刷了 掰"
+    }
+  ],
+  "occurred_at": "2026-05-19T22:01:24+08:00",
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

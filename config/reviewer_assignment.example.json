@@ -1,0 +1,12 @@
+{
+  "primary_reviewer": "Alan",
+  "backup_reviewer": "TBD before real pilot",
+  "level_3_sla_minutes": 30,
+  "level_2_review_sla_hours": 24,
+  "parent_contact_owner": "Alan",
+  "emergency_contact_policy": "Define before v0.9. Do not run real pilot until complete.",
+  "notes": [
+    "This is a template. Copy to config/reviewer_assignment.local.json for real pilot planning.",
+    "Do not store student secrets in this file."
+  ]
+}

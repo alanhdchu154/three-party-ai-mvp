@@ -1,0 +1,16 @@
+{"timestamp": "2026-05-21T16:09:33.617043Z", "event_type": "harness_started", "payload": {"student_id": "michael", "run_id": "v0_8_smoke_michael"}}
+{"timestamp": "2026-05-21T16:09:33.617965Z", "event_type": "case_summary_written", "payload": {"path": "case_summary.json"}}
+{"timestamp": "2026-05-21T16:09:33.618320Z", "event_type": "audience_report_written", "payload": {"audience": "internal_reviewer", "path": "internal_reviewer.md"}}
+{"timestamp": "2026-05-21T16:09:33.618774Z", "event_type": "audience_report_written", "payload": {"audience": "parent_safe", "path": "parent_safe.md"}}
+{"timestamp": "2026-05-21T16:09:33.619103Z", "event_type": "audience_report_written", "payload": {"audience": "teacher_safe", "path": "teacher_safe.md"}}
+{"timestamp": "2026-05-21T16:09:33.619514Z", "event_type": "trajectory_report_written", "payload": {"path": "trajectory_report.md"}}
+{"timestamp": "2026-05-21T16:09:33.619894Z", "event_type": "reviewer_calibration_attached", "payload": {"review_notes": 7}}
+{"timestamp": "2026-05-21T16:09:33.620206Z", "event_type": "harness_completed", "payload": {"manifest": "manifest.json"}}
+{"timestamp": "2026-05-21T16:12:05.721610Z", "event_type": "harness_started", "payload": {"student_id": "michael", "run_id": "v0_8_smoke_michael"}}
+{"timestamp": "2026-05-21T16:12:05.722398Z", "event_type": "case_summary_written", "payload": {"path": "case_summary.json"}}
+{"timestamp": "2026-05-21T16:12:05.722634Z", "event_type": "audience_report_written", "payload": {"audience": "internal_reviewer", "path": "internal_reviewer.md"}}
+{"timestamp": "2026-05-21T16:12:05.723028Z", "event_type": "audience_report_written", "payload": {"audience": "parent_safe", "path": "parent_safe.md"}}
+{"timestamp": "2026-05-21T16:12:05.723364Z", "event_type": "audience_report_written", "payload": {"audience": "teacher_safe", "path": "teacher_safe.md"}}
+{"timestamp": "2026-05-21T16:12:05.723824Z", "event_type": "trajectory_report_written", "payload": {"path": "trajectory_report.md"}}
+{"timestamp": "2026-05-21T16:12:05.724240Z", "event_type": "reviewer_calibration_attached", "payload": {"review_notes": 7}}
+{"timestamp": "2026-05-21T16:12:05.724624Z", "event_type": "harness_completed", "payload": {"manifest": "manifest.json"}}

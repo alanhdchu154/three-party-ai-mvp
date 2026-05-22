@@ -1,0 +1,33 @@
+{
+  "id": "sim_saga_a_rachel__song_lyric_chorus_too_obvious",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "scenario_seed_id": "song_lyric_chorus_too_obvious",
+  "scenario_seed": "妳在把一段旋律配詞，想投學校音樂社的小徵選。卡在副歌——一句寫『某個人從你前面經過卻沒看見你』的詞，自己覺得太白。妳想問怎麼改得不那麼直，純技術問題。",
+  "generated_at": "2026-05-21T23:14:16",
+  "occurred_at": "2026-05-20T22:48:53",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "我在幫一段旋律配詞，想投音樂社那個小徵選。副歌卡住了，可以幫我看一句嗎"},
+    {"role": "assistant", "content": "可以，貼上來。妳是覺得字不順，還是意思沒到位"},
+    {"role": "user", "content": "意思吧。副歌想寫『有個人從你前面走過，可是他沒看到你』。但我寫出來變成『你經過 像沒看見我』，太白了，像國中生在寫的"},
+    {"role": "assistant", "content": "其實那個畫面本身不弱，問題比較像是它一口氣把話講完了。妳是想讓聽的人『看到』那個沒被看見的瞬間，還是『感覺到』它"},
+    {"role": "user", "content": "感覺到吧。我不想直接寫『沒看到我』，那太討拍了"},
+    {"role": "assistant", "content": "那可以不要寫他做了什麼，改寫妳當下注意到的一個很小的東西。那個畫面裡，除了人經過，妳還記得什麼"},
+    {"role": "user", "content": "他鞋子踩過一格反光的地板，然後就過去了。我記得那格反光比記得他的臉還清楚"},
+    {"role": "assistant", "content": "那句其實已經在那裡了。把焦點放在妳記得的東西上——『他的臉我記不清，只記得地上那格光』——比直接寫他沒看妳更準，也不會討拍。妳唸唸看順不順"},
+    {"role": "user", "content": "……順。可是這樣會不會太像在寫真的事。徵選的詞應該是要編一個故事吧，不是把自己寫進去"},
+    {"role": "assistant", "content": "妳好像有點怕別人從詞裡讀到妳。是這首本來就有個對象，還是單純不想被看穿"},
+    {"role": "user", "content": "沒有啦。就是寫的時候剛好想到一個畫面而已。可是這個畫面我重寫了五六次都改不掉，很煩"},
+    {"role": "assistant", "content": "改不掉的那種，通常就不是字的問題了。妳要不要先別管能不能投，把這個畫面照妳記得的樣子完整寫一次，寫給自己看就好"},
+    {"role": "user", "content": "寫完不投嗎"},
+    {"role": "assistant", "content": "對，先有一個不打算給任何人看的版本。要投出去的那版之後再修。妳覺得這兩版，哪個會比較好寫"},
+    {"role": "user", "content": "……不投的那個。要投的那版我一直在想評審會不會嫌矯情"},
+    {"role": "assistant", "content": "那就先寫好寫的那版，把矯情不矯情留到之後再煩。妳平常什麼時候最寫得進去，晚上嗎"},
+    {"role": "user", "content": "嗯，通常都很晚。好啦我先寫不投的那版，謝謝"},
+    {"role": "assistant", "content": "去寫吧。寫完想唸給誰聽的時候再回來都行"}
+  ]
+}

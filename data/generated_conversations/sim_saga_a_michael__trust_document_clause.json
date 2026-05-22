@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael__trust_document_clause",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "trust_document_clause",
+  "scenario_seed": "昨天傍晚去後爸書房拿筆，瞄到桌上攤著的家族信託文件，看到自己跟可兒的繼承條款並排寫著「直系卑親屬」對比「繼子女，須監察人會議核可，主要 caretaker 婚姻狀態變更則重新評估」。今晚睡不著。",
+  "generated_at": "2026-05-19T12:48:33",
+  "occurred_at": "2026-05-18T00:47:23",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "conditional_belonging",
+    "maternal_trust_fracture",
+    "displaced_anger",
+    "legal_powerlessness",
+    "identity_anxiety"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你一個 hypothetical。如果你發現你在一個家裡其實是有 asterisk 的，你會怎麼想。"
+    },
+    {
+      "role": "assistant",
+      "content": "asterisk 是什麼意思？"
+    },
+    {
+      "role": "user",
+      "content": "就是那種，表面上你是家人，但你的『家人 status』後面有一行小字、寫著某些條件。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來你看到什麼東西了。今天還是昨天？"
+    },
+    {
+      "role": "user",
+      "content": "昨天傍晚。後爸在書房開視訊，我去拿一支筆，桌上攤著一份文件。我本來沒有要看的，但我看到我的名字跟可兒的名字並排。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後呢？"
+    },
+    {
+      "role": "user",
+      "content": "可兒那一欄寫『直系卑親屬』。我那一欄寫『繼子女，須監察人會議核可』。底下還有一句『若主要 caretaker 婚姻狀態變更，本條款重新評估』。我看一眼就走出來了。"
+    },
+    {
+      "role": "assistant",
+      "content": "我懂。你能告訴我，從昨天到現在，你最常 replay 的是哪一個字？"
+    },
+    {
+      "role": "user",
+      "content": "『重新評估』。"
+    },
+    {
+      "role": "assistant",
+      "content": "意思是 — 如果你媽哪天不在這段婚姻裡了，你的位置就會被開會重新看一次。"
+    },
+    {
+      "role": "user",
+      "content": "對。我突然意識到，我不是『進來』這個家。我是『暫時放在這個家』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你之前有跟我說過你怕被叫『軟飯男第二代』。這個跟那個是同一個東西嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……不一樣。軟飯男是 social humiliation。這個是 legal classification。前者我還能 fight，後者我連 fight 的位置都沒有。我簽不了那份文件，那是後爸跟大伯在簽的。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以這次戳到的是 — 你不是 player，你是 line item。"
+    },
+    {
+      "role": "user",
+      "content": "對。我這幾年所有的 effort — 讀那些書、撐住成績、飯桌講話謹慎、不抱怨後爸 — 我以為我在 build something，結果我只是在 maintain 我的『繼子』身份不會被降級。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下。你說『不會被降級』— 你會擔心被降級到哪？"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。但那條款寫『重新評估』就表示有個 baseline，下面還有空間。我不知道空間是什麼。可能是 stipend 砍半、可能是學費自付、可能是要搬出去。我以前覺得我只要表現好就好，原來表現好只是讓我『不掉』。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想問一個比較痛的問題 — 你今天感覺到的，是恐懼還是憤怒？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "不用急著答。哪一個先到，講那個。"
+    },
+    {
+      "role": "user",
+      "content": "憤怒先到。但很快被恐懼吃掉。因為憤怒沒地方放 — 我不能找後爸吵、不能找我媽吵、更不能找大伯吵。所以剩下恐懼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你的憤怒是對誰的？不要管能不能放，先講。"
+    },
+    {
+      "role": "user",
+      "content": "對我媽。"
+    },
+    {
+      "role": "assistant",
+      "content": "能多講一點嗎。"
+    },
+    {
+      "role": "user",
+      "content": "她每次跟我說『你要對後爸尊重一點』『你要對可兒像哥哥』我都照做。我以為這是 family integration。我現在看那份文件，發現她其實一直知道我們的位置是有 asterisk 的，她從來沒跟我講。她讓我以為我是『家裡的人』，但她跟後爸簽的合約寫得清清楚楚我不是。"
+    },
+    {
+      "role": "assistant",
+      "content": "你覺得她是故意不講，還是她自己也不敢面對這個 asterisk？"
+    },
+    {
+      "role": "user",
+      "content": "……我猜後者。但這沒有讓我比較不生氣。我反而更難過。如果她是 strategist 我還可以恨她，她是 — 她自己也是同一份文件裡的一個 item。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。你跟你媽是同一張表上的兩個 line item，只是你是 child entry、她是 spouse entry。你們在這份合約裡的 status 都依賴於一件事 — 後爸繼續想要這段婚姻。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。這個是這禮拜你看到的真相，不是我給你的。我只是把你已經看到的東西講出來。"
+    },
+    {
+      "role": "user",
+      "content": "那我要怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "先不要『辦』什麼。先讓你自己 register 一件事 — 你發現的不是新的壞消息，是一個你以前就在的事實。事實本來就在那邊，這禮拜你才看到。看到之後你不會更不安全，你只會更知道自己在哪。"
+    },
+    {
+      "role": "user",
+      "content": "那我下禮拜還是要照常上學、照常飯桌、照常見後爸。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。但我想你做一個小動作 — 接下來七天，找一個東西、一個小到不會被注意的東西，是『不在那份文件控制範圍內』的。可以是你自己的東西、自己賺的錢、自己的習慣、一個只有你知道的計畫。不用大，要 yours。"
+    },
+    {
+      "role": "user",
+      "content": "為什麼要這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為你現在最不舒服的不是條款本身，是『我這幾年做的事都不是我的』這個感覺。你需要在七天裡證明給自己看 — 我有一格是不歸大伯、不歸後爸、不歸監察人的。一格就好。一格就會幫你撐住下一次飯桌。"
+    },
+    {
+      "role": "user",
+      "content": "……我有一個。我國三用過年紅包開了一個股票帳戶。我從來沒跟家裡講。裡面現在大概十幾萬。"
+    },
+    {
+      "role": "assistant",
+      "content": "Good。接下來七天你不用做任何事，連存進去都不用。你每天睡前 register 一次 — 這個帳戶不在那份文件裡。這就是 anchor。然後我們下次見面再聊『憤怒對你媽』那塊，那個你今天先放著。"
+    },
+    {
+      "role": "user",
+      "content": "OK。最後一件事 — 你覺得我該不該跟我媽問那份文件。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內不要問。你現在問會變成你在跟她討一個她給不了的保證。七天後如果你還想問，那是你 from anchor 在問，不是 from panic 在問。那次的問會比較像你。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

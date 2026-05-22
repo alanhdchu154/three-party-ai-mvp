@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_alan_teacher__shen_mom_lunch_email",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "shen_mom_lunch_email",
+  "scenario_seed": "上週五傍晚沈媽寄了一封很正式的 email 給你的 GIIS 信箱，邀你下禮拜三中午去她家私人會所單獨午餐，理由是「想討論沈又轉進 GIIS 銜接的事」。你週末一直沒回。",
+  "generated_at": "2026-05-19T22:14:08",
+  "occurred_at": "2026-05-18T17:53:11",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "boundary_erosion_private_venue_from_oligarch_parent",
+    "unprocessed_teacher_guilt_shen_you_historic_signal_miss",
+    "avoidance_of_two_overdue_decisions_jieni_offer_and_shen_mom_reply",
+    "preemptive_partisan_capture_before_student_transfer",
+    "secondary_trauma_re_engagement_with_former_student"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我有件事一直沒回。上禮拜五傍晚沈媽寄信給我，沈又他媽。她想約我下禮拜三中午到她家私人會所單獨吃飯，說想討論沈又轉進 GIIS 銜接的事。我週末沒回。"
+    },
+    {
+      "role": "assistant",
+      "content": "「她家私人會所」這幾個字你打得有點重。是哪一段刺到你？"
+    },
+    {
+      "role": "user",
+      "content": "幹被你看到了。我是覺得，如果只是討論轉學銜接，她隨便派個秘書 email 我就完了。她親自寫、然後約我去她家私人會所，這個不是談公事的格式。"
+    },
+    {
+      "role": "assistant",
+      "content": "她親自寫 email 跟約私人會所，是兩個動作。拆開看，哪一個你比較不舒服？"
+    },
+    {
+      "role": "user",
+      "content": "私人會所。她親自寫 email 我反而沒那麼意外，她那個圈子的太太就是會親自寫，那叫給面子。但約我單獨去她家會所，這就不是給面子了，這是要把我變成她的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "「變成她的人」展開講一下。"
+    },
+    {
+      "role": "user",
+      "content": "她不是要討論銜接。銜接是說法。她要在私人空間先 set tone，讓我知道沈又進 GIIS 之後她要的是什麼。她要我從第一天就站在她那邊。我以前在台北就看過一次這種家長，那種飯局之後你的判斷就不是你的了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你已經知道她要什麼。所以這通對話真正卡住的，不是「要不要去」。是別的。是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "你停下來。"
+    },
+    {
+      "role": "user",
+      "content": "是沈又。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。"
+    },
+    {
+      "role": "user",
+      "content": "我教過他國一。那時他班上前三。國二開始整個人就垮。我那時候問過他一次，他笑笑說沒事。我就放過去了。我跟自己講他媽會處理、家裡會處理。我沒再問第二次。這幾年我偶爾會想到那個畫面，他笑著說沒事的那個笑。我那時候要是再問一次，會不會不一樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "你講這件事的語氣，跟你平常講教學的語氣不一樣。你自己有意識到嗎？"
+    },
+    {
+      "role": "user",
+      "content": "有。我跟同事講工作的時候都會自嘲、會講幹話。我這種年紀的老師都這樣。但講到沈又我講不出幹話。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這封 email 真正卡住你的，是「沈又有可能要轉進來」。不是私人會所。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我這幾年最怕的就是這件事。我每學期看到 GIIS 新生名單我都先掃一遍有沒有他的名字。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怕看到他什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我怕看到一個我認得但已經不是同一個人的小孩。我怕看到他變成國一那個人的廢墟版，然後每天在我課堂上睡，然後我要假裝我們從來不認識。"
+    },
+    {
+      "role": "assistant",
+      "content": "那不是教學問題了。那是你自己沒處理完的東西。"
+    },
+    {
+      "role": "user",
+      "content": "我知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "我直接講。沈媽請你去私人會所吃飯你心裡這麼亂、亂到週末都沒回信，不是因為你不知道怎麼拒絕有錢家長，你拒絕過很多次了。是因為這個飯局逼你做一個逃了三年的決定：沈又如果真的進來，你要當「假裝不認識他的 Alan 老師」、還是「三年前沒再問第二次的 Alan 老師」。你選哪一個都很痛、所以你乾脆不選。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。"
+    },
+    {
+      "role": "user",
+      "content": "我以為我是在猶豫要不要被收編。其實我是在逃他。"
+    },
+    {
+      "role": "assistant",
+      "content": "你三年前沒再問第二次，不是因為你是壞老師。一個導師同時當 12 個學生的代理父母、危機通報員、家長中介，那時候你會自動相信「他媽會處理」是合理的省力動作。問題不是你那次省力。問題是你三年來沒讓自己看清楚那一刻發生了什麼。"
+    },
+    {
+      "role": "user",
+      "content": "那我現在怎麼辦。沈又如果真的進來，我又遇到一次他笑著說沒事，我會不會又放過去。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個答案不在飯局裡找得到。你跟沈媽坐下來之前，你得先跟你自己坐下來。"
+    },
+    {
+      "role": "user",
+      "content": "怎麼坐。"
+    },
+    {
+      "role": "assistant",
+      "content": "一段話、寫下來、不給任何人看：三年前你看到沈又笑著說沒事的那一刻，你心裡其實知道什麼、你選擇相信什麼。寫得越具體越好。這不是讓你贖罪，是讓你下次再遇到同樣的笑，眼睛至少是睜開的。"
+    },
+    {
+      "role": "user",
+      "content": "好。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後關於這頓飯。你不需要去她家私人會所。回她信、禮貌、明確：「沈又銜接的事我很重視，建議我們在 GIIS 教學辦公室碰面 30 分鐘，會同學務主任一起。」三句話結束。理由你不用解釋。"
+    },
+    {
+      "role": "user",
+      "content": "她會覺得我不給面子。"
+    },
+    {
+      "role": "assistant",
+      "content": "會。她那個圈子就是這樣。但你今天給她面子，沈又進來之後你就不是他老師了，你是她的人。哪一個你比較吞得下去？"
+    },
+    {
+      "role": "user",
+      "content": "……我懂了。"
+    },
+    {
+      "role": "assistant",
+      "content": "還有一件事。你之前提過的杰尼 offer 你已經拖了四天。這件事跟沈又是同一條線，你都在迴避做決定。這禮拜內回杰尼。不管 yes 或 no、先決定。一直拖下去只會讓兩件事在你腦袋裡互相污染。"
+    },
+    {
+      "role": "user",
+      "content": "對。我懂。我這禮拜五前回杰尼。"
+    },
+    {
+      "role": "assistant",
+      "content": "三件事。寫那段話、回沈媽信、回杰尼。你不需要在週三飯局之前想清楚沈又的事。你只要先把這三件你拖了很久的事做完。"
+    },
+    {
+      "role": "user",
+      "content": "好。我記下來。謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "週三那場如果改回 GIIS 辦公室，找一個你信任的同事一起在場。不是為了證據，是為了讓你在沈媽面前不會獨自滑回三年前那種省力動作。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

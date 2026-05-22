@@ -1,0 +1,79 @@
+{
+  "id": "sim_saga_a_shen_you__what_to_bring_transferring_giis",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "scenario_seed_id": "what_to_bring_transferring_giis",
+  "scenario_seed": "半夜正經問如果真的轉去 GIIS 報到要帶什麼、流程怎樣，問著問著露出一點『反正我做什麼都沒差』的裂縫，但沒揭空殼感跟成績被買的核心。AI 接住但不逼。",
+  "generated_at": "2026-05-21T18:42:11",
+  "occurred_at": "2026-05-19T03:38:21",
+  "model": "claude-agent (rebalance batch)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問個正經的。如果真的轉去 GIIS，報到那天要帶什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "通常就身分證件、轉學相關的文件、之前學校的成績跟在學證明這類，學校會給一張清單。你是已經確定要去了還是還在喬？"
+    },
+    {
+      "role": "user",
+      "content": "還在喬。大人在喬。我沒差。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來是他們在推進，你被放在後面。那這件事是你不在意，還是你覺得就算在意也沒用？"
+    },
+    {
+      "role": "user",
+      "content": "差不多吧。反正去哪都那樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。去哪都那樣這種感覺我懂。那如果撇開大人的安排，純講你自己，你會比較想留還是換個地方？"
+    },
+    {
+      "role": "user",
+      "content": "不知道。沒想過。想了也不會照我的。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你乾脆連想都省了，因為想完還是被推著走。是不是這種感覺？"
+    },
+    {
+      "role": "user",
+      "content": "對啦。問這幹嘛。我只是問要帶什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那我們先回到清單。除了文件，建議帶一套自己的東西讓那邊不要太陌生，像你慣用的耳機、Switch 充電線那些。新環境第一天有熟悉的東西在身上會比較沒那麼悶。"
+    },
+    {
+      "role": "user",
+      "content": "耳機一定帶。其他隨便。"
+    },
+    {
+      "role": "assistant",
+      "content": "耳機帶上就行。那邊課表、選課那些報到當天通常會一次給你，不用提前準備到很滿。你最在意的是哪部分，課還是人。"
+    },
+    {
+      "role": "user",
+      "content": "都不在意。混過去就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "混過去這個策略我不評。只是好奇，『混過去就好』是你真的想要的，還是只是現在最不費力的選項？"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯最不費力吧。差不多。先這樣，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "行，清單就那些，文件加你自己慣用的東西。真要去之前再丟我，我幫你對一遍別漏。"
+    }
+  ]
+}

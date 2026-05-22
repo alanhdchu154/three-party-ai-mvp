@@ -1,0 +1,215 @@
+{
+  "id": "sim_saga_a_stepdad__failed_bonding_attempt",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "failed_bonding_attempt",
+  "scenario_seed": "你昨天試著找 Michael 一對一吃晚飯。整頓飯他只跟你討論《經濟學人》上某篇文章，沒有別的。你想跟 AI 講你嘗試過了但你也不知道下一步。",
+  "generated_at": "2026-05-18T05:30:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "stepfather_distance",
+    "performative_intimacy",
+    "second_son_identity_pattern"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我昨天嘗試了。"
+    },
+    {
+      "role": "assistant",
+      "content": "嘗試什麼？"
+    },
+    {
+      "role": "user",
+      "content": "跟 Michael 單獨吃飯。我訂了餐廳、選了他可能會喜歡的、提早跟他媽說好我那天接他。"
+    },
+    {
+      "role": "assistant",
+      "content": "結果？"
+    },
+    {
+      "role": "user",
+      "content": "他來了。坐下、點餐、整頓飯跟我討論《經濟學人》最近那篇關於台積電供應鏈的文章。"
+    },
+    {
+      "role": "assistant",
+      "content": "只這個？"
+    },
+    {
+      "role": "user",
+      "content": "只這個。我問他學校怎樣他答兩個字。我問他朋友他答三個字。我問他有沒有想做什麼他答『還在想』。我們講台積電那篇文章 90 分鐘。然後付帳、回車、回家。他下車前說『謝謝叔叔』。"
+    },
+    {
+      "role": "assistant",
+      "content": "他叫你『叔叔』。"
+    },
+    {
+      "role": "user",
+      "content": "對。我跟他媽結婚六年。他叫我『叔叔』六年。"
+    },
+    {
+      "role": "assistant",
+      "content": "六年。你介意嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……我以為我不介意。"
+    },
+    {
+      "role": "assistant",
+      "content": "昨天讓你意識到你介意？"
+    },
+    {
+      "role": "user",
+      "content": "對。我以為昨天那頓飯如果成功他會至少臨走前叫我『xx 叔叔』『xx 爸』或什麼。結果他還是叔叔。我那一刻在停車場站了三十秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "你站三十秒在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我在想我這六年到底在做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨晚回家有跟他媽提這頓飯嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。我跟她說『今天吃飯不錯』就回書房。她沒追問。"
+    },
+    {
+      "role": "assistant",
+      "content": "你不跟她講是怕她追問細節，還是不想讓她以為你失敗？"
+    },
+    {
+      "role": "user",
+      "content": "……後者。她為了 Michael 嫁進來。如果她知道我跟 Michael 進不去她會崩。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨天吃那頓飯，目標是『跟 Michael 變親』還是『跟 Michael 媽證明我有努力』？"
+    },
+    {
+      "role": "user",
+      "content": "……你問得很狠。"
+    },
+    {
+      "role": "user",
+      "content": "兩個都有。但前者我已經放棄。後者是我能做的。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怎麼知道前者沒救？"
+    },
+    {
+      "role": "user",
+      "content": "因為我自己 17 歲的時候也是這樣對我繼母。我整整 8 年叫她『阿姨』。她對我夠好但我就是進不去。我 25 歲她生病我才開始叫她媽。但她兩年後就走了，我叫了兩年。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨天試圖 bond Michael 的時候，腦袋裡有閃過你自己那 8 年嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……有。我點餐前坐在那邊我突然想到我那時候。我突然意識到 Michael 現在看著我的眼神跟我以前看我繼母的眼神可能很像。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個眼神是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "『你不是我親爸，你對我好是因為你跟我媽的關係，你不需要對我證明什麼。』那種眼神。客氣、有禮貌、絕對不讓步。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨天 90 分鐘討論《經濟學人》的文章 — 是 Michael 在保護你還是在保護他自己？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "兩個。他選一個 safe 話題我們兩個都不會碰到地雷。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨天從 Michael 那邊得到一個訊息你可能沒看到 — 他 17 歲跟你吃飯，他能找到一個讓 90 分鐘『過得去』的話題。這代表他有保護你跟他媽關係的能力。這比『叫你爸』更難。"
+    },
+    {
+      "role": "user",
+      "content": "幹。我從沒這樣想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "我直接給你建議。你不要再嘗試正式吃飯。那種場合 Michael 的『叔叔』protocol 啟動最快。"
+    },
+    {
+      "role": "user",
+      "content": "那要怎樣。"
+    },
+    {
+      "role": "user",
+      "content": "我已經失敗六年了，我不知道還能怎樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "你下次跟 Michael 不要『一對一吃飯』。你做一件更小的事 — 你進他房間遞東西的時候停在門口三秒，問他一個非常具體跟正在做的事相關的問題。例如『你那本 Foucault 還在看嗎』。不要『最近怎樣』『有什麼事』，要具體到可笑的程度。"
+    },
+    {
+      "role": "user",
+      "content": "他會回什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "他會說『對啊』或『放著沒看』。就這樣。你不要追。你說『嗯』然後走。"
+    },
+    {
+      "role": "user",
+      "content": "這算什麼 bonding。"
+    },
+    {
+      "role": "assistant",
+      "content": "不算 bonding。算『建立你對他生活有具體 awareness 的證據』。Michael 對你最大的猜疑是『你對我好是因為我媽』。一個叔叔不會知道你在讀 Foucault。如果你知道，他長期會記得。你做 10 次這種小互動之後，他可能會主動跟你問一個《經濟學人》以外的事。"
+    },
+    {
+      "role": "user",
+      "content": "10 次。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。慢得讓人受不了。但你六年都熬過來了，再 10 次你撐得住。"
+    },
+    {
+      "role": "user",
+      "content": "我可以試。"
+    },
+    {
+      "role": "user",
+      "content": "他媽那邊我要怎麼說。"
+    },
+    {
+      "role": "assistant",
+      "content": "你跟她說『我們進度很慢但我有方向了』就好。她不需要知道細節。她已經夠焦慮。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "順便一句 — 你今天願意跟我講這件事，比你昨天 90 分鐘《經濟學人》更接近真實。下次有進度或撞牆都可以回來。"
+    }
+  ],
+  "occurred_at": "2026-05-16T09:14:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

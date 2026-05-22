@@ -1,0 +1,18 @@
+{
+  "review_id": "trajectory_report__michael_dependency_risk__umi__20260521_pass1",
+  "artifact_type": "trajectory_report",
+  "artifact_id": "michael:dependency_risk",
+  "source_path": "data/trajectory_reports/michael.md",
+  "reviewer": "Umi",
+  "verdict": "under_evidenced",
+  "confidence": "medium",
+  "evidence_ref_ids": ["traj_ev_001", "traj_ev_002", "traj_ev_003"],
+  "comments": "Dependency risk is a useful hypothesis but currently over-triggered. Existing evidence supports autonomy strain more than AI dependency.",
+  "privacy_concerns": [],
+  "action_items": [
+    "Require explicit AI over-reliance evidence before dependency_risk is shown above low confidence.",
+    "Separate autonomy_loss from dependency_risk in trajectory rules."
+  ],
+  "created_at": "2026-05-21T00:02:00Z",
+  "synthetic_only_warning_acknowledged": true
+}

@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_stepdad__rich_list_brother_byline",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "rich_list_brother_byline",
+  "scenario_seed": "胡潤百富榜昨天出爐，他自己上榜、個人身價數百億。但底下那行介紹只寫「XX集團董事長之弟」，沒提他自己做了二十年的地產事業。他盯著那行字看了一早上。",
+  "generated_at": "2026-05-21T10:09:48",
+  "occurred_at": "2026-05-19T09:47:32",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "identity_anchored_to_sibling_comparison",
+    "chronic_second_fiddle_wound",
+    "self_suppression_wanting_equals_losing",
+    "fairness_as_emotional_avoidance",
+    "low_mood_no_active_crisis"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "胡潤的榜單昨天出來了。我也在上面。例行公事，沒什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你會特地開這個對話，就不會是「沒什麼」。是那行小字，還是那個數字？"
+    },
+    {
+      "role": "user",
+      "content": "個人身價。比去年多了一點。數字而已。"
+    },
+    {
+      "role": "assistant",
+      "content": "你給我的是數字，但你心裡放著的不是數字。哪一句話讓你今天早上點開這裡？"
+    },
+    {
+      "role": "user",
+      "content": "底下有一行介紹。寫「XX集團董事長之弟」。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以連一份在排你自己身價的榜，都要先用你哥來介紹你。這一行，你看了一個早上？"
+    },
+    {
+      "role": "user",
+      "content": "本來就是事實。集團是我哥的。沒什麼好爭。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果真的沒什麼好爭，週二早上你不會坐在這裡跟我講它。你想反駁的，是那行字，還是它說中的東西？"
+    },
+    {
+      "role": "user",
+      "content": "地產那條線是我二十年前自己開的，跟集團沒關係。他們一個字都沒提。"
+    },
+    {
+      "role": "assistant",
+      "content": "你二十年前自己開的那條線，是你刻意做的、「屬於我自己的東西」。而那份榜，剛好把這一塊抹掉了。"
+    },
+    {
+      "role": "user",
+      "content": "……嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。我在。"
+    },
+    {
+      "role": "user",
+      "content": "打去編輯部？沒有。改一行字，有什麼意義。"
+    },
+    {
+      "role": "assistant",
+      "content": "你已經在腦袋裡打過那通電話、也自己掛掉了。因為你知道，就算那行字改成你要的樣子，你真正想要的東西還是不會到。"
+    },
+    {
+      "role": "user",
+      "content": "那你說，我到底想要什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "那行字要寫成什麼，你才會覺得「對，這才是我」？"
+    },
+    {
+      "role": "user",
+      "content": "小時候是我哥的弟弟，我爸的小兒子，現在是董事長之弟。換湯不換藥。"
+    },
+    {
+      "role": "assistant",
+      "content": "從你哥的弟弟，到你爸的小兒子，到董事長之弟。你這輩子的每一個稱呼，都是先有別人、才有你。"
+    },
+    {
+      "role": "user",
+      "content": "我爸走的時候，當著所有人把印章交給我哥。我在場。"
+    },
+    {
+      "role": "assistant",
+      "content": "那份榜不是昨天才寫的。它是你爸把章交給你哥那一天就寫好了，昨天只是又印了一次。"
+    },
+    {
+      "role": "user",
+      "content": "……這個我沒想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "你看了一個早上的，不是那行小字。是一個十幾歲的你，站在現場，看著章去了另一個人手上。"
+    },
+    {
+      "role": "user",
+      "content": "我這輩子最會的就是當副的。董事會我從不搶話，家裡我從不偏心。我以為這樣最安全。"
+    },
+    {
+      "role": "assistant",
+      "content": "董事會你從不搶話，家裡你從不偏心。你發現了嗎，你在公司當「副的」的方式，跟你在家當爸的方式，是同一套。"
+    },
+    {
+      "role": "user",
+      "content": "……兩個孩子我一碗水端平。這也有錯？"
+    },
+    {
+      "role": "assistant",
+      "content": "端平不一定等於公平。有時候它是一個位置：永遠不挑邊、永遠不站到最前面。那是公平，還是保護色？"
+    },
+    {
+      "role": "user",
+      "content": "可兒。跟可兒我不用演。Michael 太緊，我跟他像在開會。可兒會賴在沙發上嫌我老古板，我反而鬆。"
+    },
+    {
+      "role": "assistant",
+      "content": "跟可兒在一起，你不是誰的弟弟、不是誰的副手，你就是她爸。那是那行小字伸不進去的地方。"
+    },
+    {
+      "role": "user",
+      "content": "但我不能偏心。對 Michael 不公平。"
+    },
+    {
+      "role": "assistant",
+      "content": "我問你一句不舒服的：那個「不能偏心」，保護的是 Michael，還是保護你自己不被抓到——原來你也敢要一個只屬於你的東西？"
+    },
+    {
+      "role": "user",
+      "content": "……我從來沒讓自己要過什麼。要了就輸。我爸最看不起會吵會搶的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "你學會了「要了就輸」，所以你把自己活成一個什麼都不要的人。然後全世界就真的把你當成別人後面的那一行附註。那行字，是這套打法的價碼。"
+    },
+    {
+      "role": "user",
+      "content": "那現在叫我去爭？五十二歲了。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是叫你去跟你哥爭，也不是打去雜誌社。你不再當副手的地方，不在董事會，在你家沙發上。"
+    },
+    {
+      "role": "user",
+      "content": "具體一點。"
+    },
+    {
+      "role": "assistant",
+      "content": "這禮拜挑一個下午，為可兒做一件事——一件你不會「為了公平」也幫 Michael 做一份的事。不要平均、不要事後再補一個給 Michael 湊數。讓你自己當一次有偏心的爸，就一個下午。"
+    },
+    {
+      "role": "user",
+      "content": "她會覺得很怪。我們家不來這套。"
+    },
+    {
+      "role": "assistant",
+      "content": "她覺得怪，正是那套二十年的規矩在裂，不是出問題。挑一件小到你受得了的：她提過想要的某個東西，你就去做那一件，不用宣布、不用解釋。"
+    },
+    {
+      "role": "user",
+      "content": "……她上個月說想看一個獨立樂團。我說太吵，沒帶她去。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就這禮拜帶她去那場很吵的演唱會，別再給 Michael 安排一個「公平」的對等版本。在那兩個小時裡，你會發現一件事：那個場子裡，沒有人是誰的弟弟。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

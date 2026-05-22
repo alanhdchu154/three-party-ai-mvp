@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_alan_teacher__senior_calc_pacing",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "logistics",
+  "scenario_seed_id": "senior_calc_pacing",
+  "scenario_seed": "高三下進度落後，期末前剩六週要塞完積分應用 + 複習，純粹想把課表怎麼排理清楚。",
+  "generated_at": "2026-05-19T18:00:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我算一下。高三下到期末剩六週，積分應用那章我還沒上完，後面還要留複習時間。我想把進度重排。"
+    },
+    {
+      "role": "assistant",
+      "content": "積分應用大概還剩幾節沒上？複習你想留幾節？"
+    },
+    {
+      "role": "user",
+      "content": "積分應用大概還要四節。複習我至少想留三節做整卷。一週兩節課，六週就是十二節。"
+    },
+    {
+      "role": "assistant",
+      "content": "四節新內容 + 三節複習是七節，你有十二節，中間多五節。多出來的不要全拿來趕新進度，留兩節當緩衝，學生問題一多你就不會被打亂。"
+    },
+    {
+      "role": "user",
+      "content": "緩衝這點我每年都低估。去年就是沒留，最後一週硬塞，整班眼神死。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就先卡死：第一到第四節上完積分應用，第五節當緩衝兼小考講評，第六到第十節剩給複習跟整卷，最後兩節再留彈性。新內容前四週收掉，後面壓力就小很多。"
+    },
+    {
+      "role": "user",
+      "content": "可以。這樣我也不用每週重算一次。先這樣排，謝了。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，把這張表貼在你辦公桌前面，亂的時候照著走就好。"
+    }
+  ],
+  "occurred_at": "2026-05-19T17:23:41",
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

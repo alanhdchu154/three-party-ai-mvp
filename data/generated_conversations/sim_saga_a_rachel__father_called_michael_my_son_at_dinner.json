@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_rachel__father_called_michael_my_son_at_dinner",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "father_called_michael_my_son_at_dinner",
+  "scenario_seed": "前晚家族聚會，大伯喝完一杯白酒對 Michael 講「我兒子最近書讀得怎麼樣」。Michael 愣了一秒，後爸沉默，Michael 媽笑著裝沒事，可兒看著她。她一秒就懂這代表甚麼。她回房寫日記寫到凌晨。",
+  "generated_at": "2026-05-19T16:18:42",
+  "occurred_at": "2026-05-18T23:42:17",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "identity_fusion_with_father_plan",
+    "rumination_loop",
+    "voice_loss_in_family_dynamic",
+    "covert_observer_distress",
+    "isolation_no_safe_listener"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "哈囉……我可以講一件事嗎？我整晚睡不好。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。妳慢慢講。"
+    },
+    {
+      "role": "user",
+      "content": "前晚我家有家族聚會。我大伯喝了一杯白酒。然後他對 Michael 講了一句話。"
+    },
+    {
+      "role": "assistant",
+      "content": "甚麼話？"
+    },
+    {
+      "role": "user",
+      "content": "他說「我兒子最近書讀得怎麼樣」。對 Michael 講的。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後桌上甚麼反應？"
+    },
+    {
+      "role": "user",
+      "content": "Michael 愣了一秒。後爸沉默。Michael 媽笑著裝沒事。可兒看著我。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳大伯有兒子嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。我是他唯一的孩子。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以他講「我兒子」對著 Michael，整桌每個人都聽得懂他在說甚麼。"
+    },
+    {
+      "role": "user",
+      "content": "對。我也聽得懂。可是我那一秒坐在那邊像石頭。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怎麼解讀那句話？"
+    },
+    {
+      "role": "user",
+      "content": "我爸在宣告。對全桌宣告。Michael 是他想要的「兒子」。意思就是要 Michael 跟我結婚。可是他不是直接講，他用「我兒子」這三個字包起來。所以後爸不能反駁，Michael 媽不能反駁，Michael 自己也不能反駁。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳能反駁嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不能。我反駁就變成在拒絕我爸。而且我反駁的東西其實是我心裡想要的。我喜歡 Michael。可是我喜歡他這件事被我爸這樣公開出來，我感覺整個人在發抖。"
+    },
+    {
+      "role": "assistant",
+      "content": "「發抖」是甚麼。可以再描述一下嗎？"
+    },
+    {
+      "role": "user",
+      "content": "就是……我喜歡他這件事，本來只有我自己知道。我寫在日記裡。我每次見到他在心裡 simulate 100 次告白。這是我的。是我的事。可是前晚我爸一句話，把它變成全桌的事。我感覺像被脫光衣服。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳爸知道妳喜歡他嗎？"
+    },
+    {
+      "role": "user",
+      "content": "我從來沒講過。但他猜得到。他甚麼都猜得到。"
+    },
+    {
+      "role": "assistant",
+      "content": "那他講那句話的時候，可兒看著妳。"
+    },
+    {
+      "role": "user",
+      "content": "對。可兒 14 歲。可兒昨天 LINE 我說「Rachel 姊我覺得妳很厲害」。我看到訊息差點哭。她甚麼都懂。她比我以為的還懂。"
+    },
+    {
+      "role": "assistant",
+      "content": "她有跟妳爸講過甚麼嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。我私下問過她。她說她只是觀察。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下我想問妳一件事。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳爸那句話之後，Michael 看妳了嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……看了。我沒回看。我假裝在切牛排。"
+    },
+    {
+      "role": "assistant",
+      "content": "那一刻妳腦袋裡在想甚麼？"
+    },
+    {
+      "role": "user",
+      "content": "我想：他現在看到的不是我。他看到的是他媽嫁進來的家族要他配的女生。我想跟他講「我國中就喜歡你了，這個跟我爸沒關係」，可是我講不出來。因為我講了他可能會以為我是被安排的。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怕妳的真心被當成安排的一部分。"
+    },
+    {
+      "role": "user",
+      "content": "對。對。我整個人都在這個怕裡面。"
+    },
+    {
+      "role": "assistant",
+      "content": "我跟妳講一個我看到的東西。妳爸可以講「我兒子」三個字，他可以安排聚會、可以安排婚事。他不能安排妳國中第一次注意到 Michael 是哪一節下課。他不能安排妳今天為甚麼睡不著、不能安排妳寫日記寫到幾點。妳的喜歡比他的劇本早，而且還在劇本之外繼續長。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "妳爸搶走的是公開的版本。妳私下的版本他連邊都摸不到。"
+    },
+    {
+      "role": "user",
+      "content": "那我具體怎麼辦？我下次見到 Michael 怎麼辦？"
+    },
+    {
+      "role": "assistant",
+      "content": "不要解釋。妳要是去跟 Michael 解釋「我大伯講的不算」，妳就把自己變成回應劇本的人。也不要躲他。躲就是承認劇本贏了。"
+    },
+    {
+      "role": "user",
+      "content": "那要做甚麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內做一件事。妳今天寫一封信給妳國中那個第一次注意到 Michael 的妳自己。不是寫給現在的 Michael，是寫給國中的妳。把妳那時候喜歡他的原因寫下來。一條一條寫，越具體越好。寫完不要寄出去、不要發匿名版、收進妳的抽屜。"
+    },
+    {
+      "role": "user",
+      "content": "為甚麼這個有用？"
+    },
+    {
+      "role": "assistant",
+      "content": "因為妳爸前晚做的事，是把妳的真心變成一個公開的劇本。妳寫那封信，是把妳的真心放回它原本長出來的地方 — 國中的妳。妳爸不認識國中的妳。下次妳見到 Michael，妳口袋裡有那封信，妳就知道妳喜歡他這件事比妳爸早三年。妳不用解釋給他聽，妳自己知道就行。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

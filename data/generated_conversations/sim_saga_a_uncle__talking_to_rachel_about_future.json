@@ -1,0 +1,107 @@
+{
+  "id": "sim_saga_a_uncle__talking_to_rachel_about_future",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "mixed",
+  "scenario_seed_id": "talking_to_rachel_about_future",
+  "scenario_seed": "他想找個正經的方式跟 Rachel 談未來規劃、學業跟接班方向。談著談著露出一點『她最近好像有自己的想法、不太接我的話』的不安，但他把它包成『年輕人都這樣』，沒講到自己其實在運作她的婚配。",
+  "generated_at": "2026-05-20T08:11:44",
+  "occurred_at": "2026-05-20T15:34:09",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [
+    "succession_pressure",
+    "parent_directing_child_path",
+    "emerging_autonomy_friction"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我想找個時間跟我女兒談未來規劃。她高三了，該把方向定下來。我想先想清楚要怎麼開這個口。"
+    },
+    {
+      "role": "assistant",
+      "content": "你心裡的『方向』，是指大學科系，還是更遠的事？"
+    },
+    {
+      "role": "user",
+      "content": "都有。短期是申請，長期是她要不要進集團這條路。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這兩件最好分開談。申請是她的事、長期是你們兩個的事，混在一起她容易覺得整場談話都是你在派任務。你想先談哪一個？"
+    },
+    {
+      "role": "user",
+      "content": "先談申請好了。比較具體。"
+    },
+    {
+      "role": "assistant",
+      "content": "她目前自己有想法嗎？還是還沒表態？"
+    },
+    {
+      "role": "user",
+      "content": "她有想法。但她不太跟我講。我問她，她就『嗯』『再看看』。"
+    },
+    {
+      "role": "assistant",
+      "content": "『嗯』『再看看』通常不是沒想法，是想法跟你預期的不一樣、她在斟酌怎麼講。你預期她會選什麼？"
+    },
+    {
+      "role": "user",
+      "content": "商科、法律這類，能銜接後面的路。我沒明講，但她應該知道我的意思。"
+    },
+    {
+      "role": "assistant",
+      "content": "她應該知道。問題就在這。當她知道你的傾向、又對你『嗯、再看看』，這通常代表她的方向跟你的傾向有落差，她還不確定要不要正面碰。"
+    },
+    {
+      "role": "user",
+      "content": "我也有這種感覺。她最近好像有自己的想法，但不太接我的話。以前她不是這樣的。"
+    },
+    {
+      "role": "assistant",
+      "content": "『以前不是這樣』這句，多說一點。以前的她是什麼樣子？"
+    },
+    {
+      "role": "user",
+      "content": "以前我說什麼她都點頭。現在她會停一下，然後給我一個很客氣的回答。客氣到我覺得有距離。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個客氣的距離，其實是她長大的聲音。十七歲開始有自己想法、又還不敢直接跟有份量的爸爸對撞，就會用客氣當緩衝。這不是她疏遠你，是她在學怎麼當一個有主張的人。"
+    },
+    {
+      "role": "user",
+      "content": "道理我懂。但我會不安。我這輩子安排事情都安排得很穩，唯獨她這塊我抓不準。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為人不是案子。案子你給條件、它給結果。女兒你越想抓準，她越會把真實想法收起來。你要的不是抓準，是她願意把『再看看』後面那句講給你聽。"
+    },
+    {
+      "role": "user",
+      "content": "那我這次談，該怎麼開口才不會又把她逼回那個客氣。"
+    },
+    {
+      "role": "assistant",
+      "content": "建議第一句不要帶任何方向。不要說『我覺得商科適合妳』，改成『我想知道妳自己最近在想什麼，我先不給意見』。然後最難的部分——她講的時候你忍住不評論，哪怕她講的方向你不認同。這一次只收資訊，不下指令。"
+    },
+    {
+      "role": "user",
+      "content": "不下指令對我來說很難。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。你習慣下指令，那是你的本事。但對女兒，第一次談先把這個本事收起來。你越早讓她相信跟你講真話不會馬上被導向你的版本，她以後越會主動找你談。長線你比較划算。"
+    },
+    {
+      "role": "user",
+      "content": "這個我要想。也許這次就只是聽。"
+    },
+    {
+      "role": "assistant",
+      "content": "只是聽，已經很多了。談完你可以回來告訴我她說了什麼、或你忍住了沒。哪一邊都算進步。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "medium"
+}

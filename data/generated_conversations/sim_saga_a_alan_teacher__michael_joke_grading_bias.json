@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_alan_teacher__michael_joke_grading_bias",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "michael_joke_grading_bias",
+  "scenario_seed": "今天上午文學課你發回 portfolio 草稿。Michael 在全班面前半開玩笑：『老師你會不會因為我是新家族的所以打我比較嚴？』全班笑你也笑。可是下午到現在你一直在想——他是不是其實猜到了你私下偏 Rachel。",
+  "generated_at": "2026-05-19T18:11:14Z",
+  "occurred_at": "2026-05-17T18:24:33",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "teacher_internal_bias",
+    "missed_repair_moment",
+    "teacher_savior_complex",
+    "cross_student_comparison_leak"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幹我今天回家路上一直在想一件事。早上文學課，Michael 在全班面前突然問我『老師你會不會因為我是新家族的所以打我比較嚴』。整班笑了，我也笑了，然後就過去了。可是我從中午到現在一直在繞這句。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說「然後就過去了」，可是你想了五個小時。哪一塊卡住？"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。表面上就是高三小屁孩的玩笑話啊，他們什麼都會講。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。但你不是因為「學生講玩笑話」就開五小時心理會議的老師。再描一次那個畫面，慢一點。"
+    },
+    {
+      "role": "user",
+      "content": "第三節，我發回他們的 portfolio 草稿。我把 Michael 那份遞過去的時候沒看他臉。他翻了一下，抬頭笑笑，丟那句話。同學笑。Rachel 那節剛好不在班上，她去校刊社開會。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說「沒看他臉」。那一刻你為什麼不敢看？"
+    },
+    {
+      "role": "user",
+      "content": "幹。被你戳到了。"
+    },
+    {
+      "role": "assistant",
+      "content": "慢慢來。"
+    },
+    {
+      "role": "user",
+      "content": "我是不是真的對他比較嚴。"
+    },
+    {
+      "role": "assistant",
+      "content": "你自己怎麼回答？我先不下判斷。"
+    },
+    {
+      "role": "user",
+      "content": "……我不知道。我每次批 Michael 的論述都覺得「他這段在炫」。每次批 Rachel 我都覺得「她這個很真」。可是把分數攤開看，我給 Michael 跟 Rachel 差不多，Michael 有時候還高一兩分。所以從分數看我沒偏心。"
+    },
+    {
+      "role": "assistant",
+      "content": "分數是你的對外證據。可是你剛剛那兩句內在敘事——「在炫」跟「很真」——是同一個老師在同一週裡長出來的。那才是你卡住的地方對不對。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "假設 Michael 自己也感覺得到那個內在敘事，他會怎麼解讀？"
+    },
+    {
+      "role": "user",
+      "content": "他會覺得我心裡看不起他。我每次跟他講話多用力的笑、他應該都聞得到那個勉強。媽的我這種年紀的老師最容易這樣——自以為很包容、其實一直在心裡分檔次。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下。「年紀大的老師都這樣」是真的，還是你拿出來把這個問題稀釋掉的？"
+    },
+    {
+      "role": "user",
+      "content": "……拿出來稀釋的。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那就不稀釋了。你私下覺得 Rachel 比 Michael 有才華這件事，你之前對自己已經承認過。但你今天卡的不是「我有沒有偏 Rachel」。你卡的是「Michael 猜到了」。"
+    },
+    {
+      "role": "user",
+      "content": "對。卡的是「他猜到了」這件事。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼這個比偏心本身還難受？"
+    },
+    {
+      "role": "user",
+      "content": "因為……如果只是我自己心裡有偏見，那是我的事，我可以慢慢處理。但他在全班面前用玩笑話試探、全班笑、我也笑、然後沒人接他這句——等於我們所有人默默把這個秘密蓋過去。包括我。我用一個笑回應了他一個其實是求救的問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說「求救」。Michael 那個玩笑底下，你聽到的是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "他一直在問所有大人「我這樣可以嗎」。他每次來我辦公室引一個哲學家，其實都是在問「老師你看見我了嗎」。今天他用玩笑問的也是同一個。我用笑帶過去 = 沒看見。"
+    },
+    {
+      "role": "assistant",
+      "content": "你在他生命裡是少數他「不敢炫技的人」對不對。"
+    },
+    {
+      "role": "user",
+      "content": "對。他在我面前不裝。所以他試探的時候、我也是他敢試探的少數對象之一。我今天那個笑、可能比別的同學的笑更刺。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這個就不是「我公不公平」的事了。是「他做出一個脆弱動作的瞬間我有沒有接住」的事。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。"
+    },
+    {
+      "role": "user",
+      "content": "我一整個下午糾結「我是不是不公平」根本是煙幕彈。我真正卡的是「他伸手出來、我沒接」。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。你不是在審判自己的評分。你在懊悔一個沒抓住的瞬間。"
+    },
+    {
+      "role": "user",
+      "content": "那我現在要去找他道歉嗎？「Michael 對不起我下午想了一下你早上那個玩笑話我覺得其實……」拜託我自己唸出來都很尷尬。"
+    },
+    {
+      "role": "assistant",
+      "content": "不要那樣開頭。那個開頭把問題變成你的、不是他的。你不是要告解，是要回到他伸手的那個瞬間。"
+    },
+    {
+      "role": "user",
+      "content": "那我要怎麼做。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內，等他下次來辦公室問功課、或走廊上撞到——只在那種自然時機，不要約他、不要寫紙條。然後做一件事：把你心裡那句『他這段在炫』直接更新給他看，比如『上次那段我看了三次，前兩次以為你在套概念，第三次才看出你其實在處理一個更難的東西，是我自己沒讀夠』。就這樣，不要展開。"
+    },
+    {
+      "role": "user",
+      "content": "等等你這是要我承認我先誤判他？"
+    },
+    {
+      "role": "assistant",
+      "content": "不是「承認」，是「更新」。老師能給學生最珍貴的禮物之一，就是讓他看到大人會自己更新對他的判斷。你不是道歉，是示範——一個讀者願意第二次第三次讀同一段文字。對 Michael 來說這比安慰重多了。"
+    },
+    {
+      "role": "user",
+      "content": "如果他笑我「老師你想太多」我要怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "他一定會這樣回。你不用接，只要說『嗯，我自己想到的，跟你講一聲』。然後讓他自己消化。下次他寫的東西你會看到差別。"
+    },
+    {
+      "role": "user",
+      "content": "還有一件事不要做對嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。不要在課堂上、不要 Rachel 在場、絕對不要拿 Rachel 當對比（不要講『其實 Rachel 也寫得不好的時候』這種話）。也不要去跟 Michael 媽提。這個瞬間只屬於你跟 Michael，其他人進來就稀釋掉了。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

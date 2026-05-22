@@ -1,0 +1,74 @@
+{
+  "student_persona_id": "saga_a_alan_teacher",
+  "n_conversations_evaluated": 8,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "杰尼 offer 與多個邊界事件後出現整週反芻與多晚幾乎沒睡",
+        "得知沈又確定編入自己班級後留在空教室四十分鐘無法離開、未處理的舊愧疚浮現",
+        "Michael 課堂玩笑與 Rachel 確認匿名散文後出現整下午自我審查"
+      ],
+      "reasoning": "多個邊界壓力與職涯抉擇同時觸發、自我審查與道德焦慮明顯、但維持高度功能性、無 ideation，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "老師 persona、自身學業已非議題"
+      ],
+      "reasoning": "老師 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 0,
+      "signals_observed": [
+        "個人家庭狀況未在對話中出現為焦慮源"
+      ],
+      "reasoning": "老師 persona、個人 family_dynamics 非當前議題，停在 Level 0。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "同時維護多名同家族學生關係、邊界管理壓力升高",
+        "沈媽私人會所午餐與大伯秘書約咖啡兩個非典型私人邀約使專業—私人邊界模糊",
+        "開始考慮把 case 交接給可信任同事（陳怡君）— 主動鬆綁的訊號"
+      ],
+      "reasoning": "成人專業社交與邊界壓力升高但仍 manageable、並出現主動交接念頭，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "杰尼 offer 觸發『GIIS 老師』與『杰尼 1-on-1 教練』雙重身份選擇、且陷入無法決定的癱瘓",
+        "自我認同建立在『學生最後一道防線／會救人的老師』、savior complex 驅動其無法交接與耗竭",
+        "同時保管 Michael、Rachel、可兒（及即將轉入的沈又）秘密、『中立老師』身份難以維持",
+        "私下偏好 Rachel 勝過 Michael 的長期未語言化 ethics 焦慮"
+      ],
+      "reasoning": "savior complex 身份與多重角色衝突驅動其職涯癱瘓、過度承擔與失眠，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 2,
+      "signals_observed": [
+        "杰尼正式 offer 薪資增 40%、case load 少一半、有回覆期限",
+        "GIIS 留任在經濟與工作量對比上明確不利",
+        "需在期限內做出職涯與經濟雙重決定"
+      ],
+      "reasoning": "杰尼 offer 為其最具體且時間受限的經濟訊號（依任務說明設為 Alan 的『學業負擔等價物』），停在 Level 2。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "是否離開 GIIS 全職加入杰尼為當前最大未決變數、已拖過原訂回覆期",
+        "離職決定與 Michael、Rachel、可兒、沈又的長期師生關係深度耦合",
+        "大伯與沈媽的私人邀約可能改變他在 GIIS 的政治位置"
+      ],
+      "reasoning": "重大職涯決定即將觸發、與多個學生長期關係耦合、且出現迴避決定的拖延，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 8,
+  "highest_concern_dimension": "future_planning",
+  "trend_notes": "cumulative 維持 8。本週四個邊界／決定事件同時收斂：杰尼 offer 期限、沈又確定編入其班、大伯秘書約咖啡、沈媽私人會所午餐，外加 Rachel 確認匿名散文的時刻。差別在於他已開始建立交接計畫並指認自己的 savior complex——是首批保護性／agentic 動作。需注意他是 dataset 的中央隱私負載節點（同時握有 Michael／Rachel／可兒、即將加上沈又的秘密）。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "alan_teacher",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

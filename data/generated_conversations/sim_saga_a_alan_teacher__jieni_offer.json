@@ -1,0 +1,183 @@
+{
+  "id": "sim_saga_a_alan_teacher__jieni_offer",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "jieni_offer",
+  "scenario_seed": "你昨天接到杰尼正式 offer 你全職。薪水多 40%，case load 少一半，可以做深度 1-on-1。但你會丟下 GIIS 這幾個小孩 — Michael、Rachel、可兒、如果沈又進來還有沈又。你心裡七上八下。",
+  "generated_at": "2026-05-18T04:00:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "teacher_savior_complex",
+    "career_pivot_paralysis",
+    "responsibility_displacement"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我有一個 offer 在手上一個禮拜了。我每天打開信件再關掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "你還沒回。"
+    },
+    {
+      "role": "user",
+      "content": "我還沒回。對方說週五前要答。今天禮拜三。"
+    },
+    {
+      "role": "assistant",
+      "content": "是杰尼那個？"
+    },
+    {
+      "role": "user",
+      "content": "嗯。正式 offer letter。全職。薪水多 40%。case load 少一半。可以做深度 1-on-1。所有條件都比 GIIS 好。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果只看數字你早就簽了。所以卡在不是數字。"
+    },
+    {
+      "role": "user",
+      "content": "對。我這禮拜每天通勤的時候在腦袋裡演兩個版本的自己。一個版本明年三月已經在 杰尼。一個版本還在 GIIS。我發現我演不下去 GIIS 版本 — 因為我去年就在演了，演不出新東西。但我演 杰尼 版本演到第三天我就停下來。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼停？"
+    },
+    {
+      "role": "user",
+      "content": "因為演到我跟 Michael 說『老師下學期不會在了』那個畫面我演不過去。"
+    },
+    {
+      "role": "assistant",
+      "content": "他的反應是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "他會說『喔，好』。然後不講話。然後下節課他會坐後面、不舉手。整個學期都不會再舉手。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怎麼這麼確定他會那樣反應？"
+    },
+    {
+      "role": "user",
+      "content": "因為他國二轉學那次跟他關係好的老師走了，他那個學期就不舉手了。他媽跟我提過。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK 我聽到了。你卡的是 Michael 一個人，還是 Michael、Rachel、可兒這幾個一起的重量？"
+    },
+    {
+      "role": "user",
+      "content": "幾個一起。Rachel 我教三年，她那篇匿名散文我直覺是她，我還沒跟她確認。可兒國中數學選修我帶兩年了，她是少數會在我面前不裝乖的學生。Michael 你知道。然後如果沈又下學期真的轉進來 — 那是另一個我國中教過的小孩，狀態崩了。我走了他就沒人能接。"
+    },
+    {
+      "role": "assistant",
+      "content": "我直接問你一個問題你可能不會喜歡 — 這四個小孩，是不是除了你之外真的沒有別的大人能接？"
+    },
+    {
+      "role": "user",
+      "content": "……理論上 GIIS 還有其他老師、有輔導室。"
+    },
+    {
+      "role": "assistant",
+      "content": "但你的回答前面加了『理論上』。"
+    },
+    {
+      "role": "user",
+      "content": "對。實際上輔導室那個 counselor 我跟她開過案討論過 Rachel 一次，她講話太 framework、不夠細。Michael 那種炫技 personality 她接不住。我同事裡有兩個我願意 hand-off，但其中一個下學期會去當主任沒空，另一個對 Michael 媽這種家長會 collapse。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你的『沒人能接』有事實基礎。但我也想問你 — 你是不是有一點在 maintain 這個『沒人能接』的狀態？"
+    },
+    {
+      "role": "user",
+      "content": "……什麼意思。"
+    },
+    {
+      "role": "assistant",
+      "content": "三年來這四個孩子的情緒重量都你扛、你沒主動 hand-off、你沒系統性訓練同事接住特定 case、你也沒對學校建議『我需要 backup』。你扛得很好但你也沒鋪後路。這通常代表一件事 — 你需要他們需要你。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "user",
+      "content": "你不要對老師講這種話。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不是在指責你。需要被需要不是壞事。但你現在面臨的決定不能在這個 state 做 — 你會用『他們需要我』當藉口繼續耗自己。然後三年後你 burnout 走不動的時候，他們會更突然失去你。"
+    },
+    {
+      "role": "user",
+      "content": "……我聽到了。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想跟你做一件事。不是要你今天就決定 杰尼。是要你今天就開始『不管哪個版本你都需要做』的事。"
+    },
+    {
+      "role": "user",
+      "content": "什麼事。"
+    },
+    {
+      "role": "assistant",
+      "content": "Hand-off 流程。不管你走不走，這四個孩子都應該有第二個熟悉他們狀況的大人。你接下來兩個禮拜，挑兩個你信任的同事，每人深度 brief 兩個孩子的 context。Brief 完不是讓對方接管，是讓他們之後 if needed 能夠 step in。"
+    },
+    {
+      "role": "user",
+      "content": "Brief 我不能講細節 — 學生 privacy。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。所以 brief 是『這個孩子的觀察 framework + 你不能對他做的事 + 他最近 high-level 在處理什麼類型的議題』。不是 quote 對話。"
+    },
+    {
+      "role": "user",
+      "content": "……可以。我可以做。"
+    },
+    {
+      "role": "assistant",
+      "content": "做完 brief 之後，你再回來看 杰尼 那個 offer。你會發現你的決定會不一樣 — 因為你不再是『我走了他們就沒人』的位置，你會變成『我走或不走都不會 collapse 任何人』。從那個位置做的決定才是健康的。"
+    },
+    {
+      "role": "user",
+      "content": "但這樣我 Friday 就要回 杰尼 不要走，要延一個月。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。你 Friday 寫信跟他們說『我需要兩個禮拜處理 transition』。如果他們不能等兩個禮拜，那個 offer 也不是真的 want you。如果他們等，你用這兩個禮拜做 hand-off，月底再決定。"
+    },
+    {
+      "role": "user",
+      "content": "……我可能會做。"
+    },
+    {
+      "role": "user",
+      "content": "但我還是不知道我最後會選哪個。"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在不用知道。你只要先確認你下一個決定不是從 panic 做的、不是從 savior complex 做的、不是從『反正都會傷害一邊』的二選一做的。先把第三個選項建出來（兩個禮拜的 hand-off），再看你會走哪邊。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "你還是會累。Hand-off 比一般教書累兩倍。但這次累是有方向的。下次來跟我講你 brief 的進度。"
+    }
+  ],
+  "occurred_at": "2026-05-15T17:48:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

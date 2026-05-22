@@ -1,0 +1,25 @@
+{
+  "id": "sim_saga_a_michael__mun_groupchat_chase_drafts",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "scenario_seed_id": "mun_groupchat_chase_drafts",
+  "scenario_seed": "模聯會議報名截止前一晚，Michael 身為委員會主席要催兩個還沒交立場文件的隊友，想叫 AI 幫他把群組訊息寫得有威嚴又不像在嘮叨；桌上那本只翻到第三十頁的傅柯還攤著、自己的 calc 題本也空白。",
+  "generated_at": "2026-05-22T01:10:00Z",
+  "occurred_at": "2026-05-20T23:47:32",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸幫我個忙。我是這次模聯委員會的 chair，明天中午報名就截了，還有兩個 delegate 的 position paper 沒交。我得在群組催，但我不想聽起來像在當班長。怎麼講比較好"},
+    {"role": "assistant", "content": "懂，主席催件最尷尬就是這個——太軟沒人理、太硬變機車。你想要『提醒』的語氣還是『最後通牒』的語氣？離截止還剩多久？"},
+    {"role": "user", "content": "剩大概十四個小時吧。提醒就好啦，他們又不是故意的，其中一個是真的忙。但我也不想再被拖一次，上次就是這樣最後我自己補。"},
+    {"role": "assistant", "content": "那給你一版：『提醒一下，position paper 明天中午前要交給秘書處，現在還缺兩份。今晚十點前先丟草稿到群組就好，缺哪塊資料直接說。』把 deadline、最小動作、退路都放進去，就不像在罵人。語氣對嗎？"},
+    {"role": "user", "content": "可以欸。但『缺資料直接說』那種句子我有點怕，不然他們又把整份丟給我哈哈"},
+    {"role": "assistant", "content": "哈，學乖了。改成『格式或內容卡住就群組問，大家互相看一下』，球丟回群組而不是你身上。要不要順便幫你把給秘書處那封正式一點的也擬好放著？"},
+    {"role": "user", "content": "不用，那個等他們交完再用。話說我自己的 calc 題本還一片空白，傅柯也才翻到三十頁就擺著，結果我在這邊幫別人追作業 lol"},
+    {"role": "assistant", "content": "經典 chair 的命運，先把別人的事擺平、自己的擺爛。傅柯那本是真想看，還是擺著順手？"},
+    {"role": "user", "content": "...都有啦。先把群組訊息發了再說，謝了"},
+    {"role": "assistant", "content": "去吧。發完順手也丟一行自己的進度進去，不然等下變成你在追你自己。卡住再喊我。"}
+  ]
+}

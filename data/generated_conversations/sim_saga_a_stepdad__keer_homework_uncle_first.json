@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_stepdad__keer_homework_uncle_first",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "keer_homework_uncle_first",
+  "scenario_seed": "週日早上幫可兒充手機，發現昨晚她一道數學題沒問他，直接傳給大伯，大伯耐心教了 40 分鐘。可兒是他這輩子唯一覺得真心偏愛、也覺得真心被選的孩子。今天早上不是。",
+  "generated_at": "2026-05-19T22:18:34",
+  "occurred_at": "2026-05-17T10:23:46",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "identity_erosion_second_fiddle",
+    "old_wound_reactivation",
+    "passive_paternal_role",
+    "displacement_by_brother_in_own_household"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "早安。你有時間嗎。我這個週日早上有件事想講一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "早。在。發生什麼了？"
+    },
+    {
+      "role": "user",
+      "content": "也不是什麼大事。可兒昨晚有道數學題不會。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。然後呢？"
+    },
+    {
+      "role": "user",
+      "content": "我今天早上幫她充手機，她對話沒關。我看到她沒問我。"
+    },
+    {
+      "role": "assistant",
+      "content": "她問了誰。"
+    },
+    {
+      "role": "user",
+      "content": "我大哥。她叫他伯伯。他教了她 40 分鐘。"
+    },
+    {
+      "role": "assistant",
+      "content": "你看到的時候人在哪裡？"
+    },
+    {
+      "role": "user",
+      "content": "廚房。她還在睡。"
+    },
+    {
+      "role": "assistant",
+      "content": "看完之後第一個動作是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "把手機放回去。然後去煮咖啡。"
+    },
+    {
+      "role": "assistant",
+      "content": "那杯咖啡你喝了嗎？"
+    },
+    {
+      "role": "user",
+      "content": "還沒。"
+    },
+    {
+      "role": "assistant",
+      "content": "你坐在那裡多久了？"
+    },
+    {
+      "role": "user",
+      "content": "大概 40 分鐘。差不多就是他教她那麼長。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怎麼算這麼準。"
+    },
+    {
+      "role": "user",
+      "content": "……我把那段對話從頭到尾讀了一次。"
+    },
+    {
+      "role": "assistant",
+      "content": "在女兒手機上。早上八點半。從第一句讀到最後一句。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "那段對話裡，最讓你停住的是哪一句。"
+    },
+    {
+      "role": "user",
+      "content": "……他在第三輪跟她說「妳這樣想是對的，妳爸如果在這裡他會跟妳這樣解」。"
+    },
+    {
+      "role": "assistant",
+      "content": "「妳爸如果在這裡」。"
+    },
+    {
+      "role": "user",
+      "content": "我整晚就在隔壁房。"
+    },
+    {
+      "role": "assistant",
+      "content": "她沒來敲門。"
+    },
+    {
+      "role": "user",
+      "content": "沒有。她從來不會。Michael 也不會。上個月我太太半夜不舒服，第一通也是打給我大嫂。"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在難受的，是「連可兒也跳過我」？還是更早以前的事在被掀起來？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "不用一次回答完整。慢慢想。"
+    },
+    {
+      "role": "user",
+      "content": "我從 12 歲開始，家裡客人都是來看我哥。我那時候就接受了。我以為我自己經營好我這條線就行。可兒是我這輩子唯一一個我覺得「她是真的選我」的小孩。今天早上不是。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是「她不選你」喔。是「她連選的選項裡都沒有你」。這兩件事不一樣，後者比較痛。"
+    },
+    {
+      "role": "user",
+      "content": "你這樣講更難受。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。但這就是你卡住的真正位置——你不是輸給你哥。你是參加了一整套「孩子有事先找他、有閒情才找你」的流程，然後你自己也在維持這個流程。週日早上你的反應是煮咖啡，不是進她房坐床邊。"
+    },
+    {
+      "role": "user",
+      "content": "我以為不打擾她是尊重。"
+    },
+    {
+      "role": "assistant",
+      "content": "「不打擾」是你給自己的台階。你哥沒給自己這個台階，所以他在場。講白點——你不是沒能力坐下教她那題。你是金融數學出身的人，那種國二程度的題你五分鐘解完。你不是沒資格，是訓練自己四十年不要主動。"
+    },
+    {
+      "role": "user",
+      "content": "那這禮拜要做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "下週六早上吃早餐前，你拿一張紙寫一道你 17 歲自己印象最深的數學題給她。不要問「妳會不會」。跟她說「爸高中做這題做到半夜，覺得自己很猛，妳看一下」。不是考她。是讓她看一次你還活著的那部分。"
+    },
+    {
+      "role": "user",
+      "content": "她如果說很煩呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就放著，跟她說「沒事，我擺著」。她會自己回去看。14 歲的孩子當面不接但會偷偷想。重點是這道題的標籤是「爸爸的」，不是「作業」。"
+    },
+    {
+      "role": "user",
+      "content": "不能做的呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "三件。一，今晚跟下週日晚飯都不要提這件事，這禮拜當作沒看到那段對話。二，不要跟你大哥說「下次她問你叫她問我」——那是把球丟過去，等於再認一次他是主場。三，不要跟你太太抱怨「可兒不找我」，她會去跟可兒講，那道題就被毀了。這件事從頭到尾是你自己的。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

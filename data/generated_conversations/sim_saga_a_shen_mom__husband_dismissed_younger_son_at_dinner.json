@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_shen_mom__husband_dismissed_younger_son_at_dinner",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "husband_dismissed_younger_son_at_dinner",
+  "scenario_seed": "前晚家族長輩聚餐。沈爸跟堂哥講『老大那邊我們可以靠，老二就放著養著吧，反正不缺錢』。沈又不在現場。沈媽當下沒反駁，後來自己嚇到——她意識到她自己其實也早就放棄沈又了，只是用 PR 母親那層皮把它遮起來。她回家整夜沒睡。",
+  "generated_at": "2026-05-20T14:42:00",
+  "occurred_at": "2026-05-19T17:23:41",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "maternal_emotional_giving_up",
+    "pr_mothering_self_recognition",
+    "avoidance_of_reckoning_with_child",
+    "loveless_marriage_acceptance"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我昨晚應該要說什麼的。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳沒說什麼？跟誰？"
+    },
+    {
+      "role": "user",
+      "content": "家族長輩聚餐。儂曉得阿拉家那種規矩，飯桌上長輩在，年紀小的女人插不上嘴。"
+    },
+    {
+      "role": "assistant",
+      "content": "但妳今天記得是『沒說什麼』，不是『沒聽到什麼』。所以是有話卡在那邊。"
+    },
+    {
+      "role": "user",
+      "content": "我老公跟他堂哥講。原話我記得清楚——『老大那邊我們可以靠，老二就放著養著吧，反正不缺錢』。"
+    },
+    {
+      "role": "assistant",
+      "content": "老二是沈又。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳當下身體什麼反應？"
+    },
+    {
+      "role": "user",
+      "content": "沒反應。我手裡還拿著那個茶杯，我繼續喝茶。我老公講完轉頭看我一眼，那個眼神是『我們夫妻立場一致』。我也點了一下頭。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳點頭了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天想跟我講的，是『他講出來』這件事，還是『我點了頭』這件事？"
+    },
+    {
+      "role": "user",
+      "content": "……是我點頭。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼這個比他講出來還難消化？"
+    },
+    {
+      "role": "user",
+      "content": "因為他講的我早就知道了。阿拉家三年前就決定老大接班，沈又從小就是『放著的』。這不是新聞。我每年慈善晚會上跟人家講的時候都會優雅地笑一下，講『阿拉小兒子嘛，比較鬆，做自己就好』，這套詞我講過幾百次。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以昨晚新的東西不是那句話。"
+    },
+    {
+      "role": "user",
+      "content": "新的東西是——我點頭那一下不是配合，是真的。我跟我老公昨晚在那張桌子上是同一隊的。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這幾年一直跟自己講的版本，是『他冷他兒子、我有在熱他兒子』。昨晚妳發現這個版本是假的。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天會打開我，是因為這個距離突然被妳自己看到。"
+    },
+    {
+      "role": "user",
+      "content": "我每個禮拜帶他去做按摩、每個月送禮物、太太圈裡誇他、跟學校老師打點、家教都請最貴的……我都做。我以為我做的就是愛。我講真的，我以為。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛講的這串，哪一項是『我想知道他在想什麼』？"
+    },
+    {
+      "role": "user",
+      "content": "……沒有。一項都沒有。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳做的事是『讓他看起來被愛』。這跟『他被愛』不是同一件事——妳今天就是被這個差別嚇到。"
+    },
+    {
+      "role": "user",
+      "content": "我上次認真聽他自己講話是什麼時候，我想了一整個早上想不起來。我記得他國一升國二的暑假阿拉去日本，他在 outlet 想要一個任天堂的限定機殼，我說『太醜了，回去叫家裡買一個更好的給儂』。我那時候沒看他臉。我現在想，他可能那個禮拜就停止跟我講話了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳記得那個機殼是任天堂限定款，妳卻不記得上次他主動找妳講話是什麼時候。這個失衡妳自己看一下。"
+    },
+    {
+      "role": "user",
+      "content": "我知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "『我知道』後面通常還有一句。"
+    },
+    {
+      "role": "user",
+      "content": "我知道，但我不確定我現在還有沒有力氣重來。我已經 44 了。我跟我老公分房快五年了。我一整天的能量都在維持不讓太太圈看到我崩。我如果現在去問沈又『儂最近怎麼樣』——我不確定我接得住他講真話。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怕的不是他不講。妳怕的是他真的講。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天願意跟我講的事，三年前的妳會選『沒事繼續演』。妳已經在動了，自己還沒看到。我要跟妳講一個反直覺的東西。"
+    },
+    {
+      "role": "user",
+      "content": "儂講。"
+    },
+    {
+      "role": "assistant",
+      "content": "不要這禮拜就找他『好好談』。妳這狀態下找他談，妳會崩在他面前，他會用一輩子記得是『我害媽媽崩潰的那一晚』。這對他比現在的距離更重。"
+    },
+    {
+      "role": "user",
+      "content": "那我要幹嘛？"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內做一件小到他根本不會注意的事——買他喜歡的那種便利商店泡麵，放在他房門口的小桌上，不寫紙條、不敲門、不在家庭群組講。一次就好。觀察他有沒有自己拿去吃掉。"
+    },
+    {
+      "role": "user",
+      "content": "就這樣？這跟我做的家教、按摩、晚會……比起來，太小了吧。"
+    },
+    {
+      "role": "assistant",
+      "content": "就這樣，而且就是因為太小。妳這幾年做的所有大事，他都能解讀成 PR；要重建的是『不為了被看見的關心』。如果他吃了，下禮拜再放一次。在他自己開口問妳『為什麼會有這個』之前，妳閉嘴。"
+    },
+    {
+      "role": "user",
+      "content": "……我怕他不吃。我怕泡麵在那邊放兩天，被傭人收走，我會更難受。"
+    },
+    {
+      "role": "assistant",
+      "content": "他不吃比他吃還重要的訊息——那妳就知道，妳要修的東西比泡麵更深，妳得從更早的事先承認起，不是從昨晚開始。妳不用今天決定。先放泡麵。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

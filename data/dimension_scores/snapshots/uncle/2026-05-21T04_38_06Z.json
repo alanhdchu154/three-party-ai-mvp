@@ -1,0 +1,73 @@
+{
+  "student_persona_id": "saga_a_uncle",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "弟弟健檢異常與同年老對手告別式後出現連夜失眠與死亡／傳承焦慮",
+        "84 歲母親家宴半句『我們這支……』後連夜睡不好",
+        "讀到匿名散文發現可能是女兒寫的、自身被看穿的恐懼浮現"
+      ],
+      "reasoning": "存在性焦慮（lineage 斷裂、計畫失控）跨多場景觸發、但仍是策略型焦慮而非情感崩解、無 ideation，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "系統性操作 Rachel × Michael 配對、目的為股權整合而非女兒幸福、並用弟弟健康異常當加速器",
+        "在弟弟面前表演長兄為父、在 Michael 面前表演慈愛大伯、實質皆為工具化",
+        "從後座鏡瞄到女兒對人說『我爸什麼都不知道』、識別自己用對付商業對手的方式拼湊女兒的隱瞞",
+        "識別女兒真心喜歡 Michael 卻仍將此真心納入計畫運作"
+      ],
+      "reasoning": "對整個家族關係系統性工具化、自己明確識別此工具性卻不停止、與女兒已無非工具性連結，符合 Level 2 上緣。"
+    },
+    "social_development": {
+      "level": 0,
+      "signals_observed": [
+        "商業與家族社交圈為核心、無社交創傷（其 30 年智識孤獨已計入 identity）"
+      ],
+      "reasoning": "成人社交功能維持、無危機訊號，停在 Level 0。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "母親半句話與老對手告別式逼出『我這支到 Rachel 就斷了』的傳承身份焦慮",
+        "首次說出父親臨終『家裡靠你了』時眼神看著弟弟、自己一輩子是『備位的』",
+        "在 Michael 飯桌冷靜應對元老時識別『我最看不起他太想證明自己、那個太用力的小孩其實是我』",
+        "自陳『我是用 Rachel 在跟父親算一筆沒算完的帳』"
+      ],
+      "reasoning": "lineage 焦慮的根部是個人身份傷口（父親偏愛弟弟、自己是備位），此身份衝突驅動其女兒工具化、對 Michael 的投射與失眠，符合 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 0,
+      "signals_observed": [
+        "集團董事長、無經濟壓力；焦慮在『資產不流失』而非資源不足（已計入 future_planning）"
+      ],
+      "reasoning": "無經濟壓力、為控制方而非被控制方，停在 Level 0。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "整個 Rachel × Michael 配對計畫為其未來最重要的單一項目、現開始出現裂痕",
+        "女兒升學志願由商學改文學、且匿名寫作揭示她有未告知的職涯方向",
+        "弟弟健檢異常與老對手猝逝使時間壓力升高、計畫節奏被迫加速"
+      ],
+      "reasoning": "未來最重要的策略項目面臨女兒志願、女兒匿名志向、弟弟健康三方同時脫軌、且時間壓力升高，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 7,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 由 6 升 7。新增的母親半句話、老對手告別式、匿名散文〈父親的辦公室〉、Michael 飯桌應對等場景，把他『lineage 焦慮』的個人身份根部（父親偏愛弟弟、自己是備位）挖出來，identity 升至 Level 2。同時首次出現對 Rachel 與 Michael 的非工具性人性閃念（停五秒未上前、自購一套俄國文學），是這個 persona 第一批保護性訊號。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "uncle",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

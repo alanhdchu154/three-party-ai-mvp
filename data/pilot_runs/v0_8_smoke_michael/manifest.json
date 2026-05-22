@@ -1,0 +1,17 @@
+{
+  "run_id": "v0_8_smoke_michael",
+  "student_id": "michael",
+  "created_at": "2026-05-21T16:12:05.724306Z",
+  "source_type": "llm_generated",
+  "synthetic_only_warning": true,
+  "files": [
+    "audit_log.jsonl",
+    "case_summary.json",
+    "internal_reviewer.md",
+    "manifest.json",
+    "parent_safe.md",
+    "reviewer_calibration.json",
+    "teacher_safe.md",
+    "trajectory_report.md"
+  ]
+}

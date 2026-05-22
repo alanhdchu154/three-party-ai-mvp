@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_michael_mom__charity_dinner_dress_code",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "parent_logistics",
+  "scenario_seed_id": "charity_dinner_dress_code",
+  "scenario_seed": "下週六學校家長會的慈善晚會請帖寫『smart cocktail』，她正常想搞清楚到底該穿什麼、要不要備一句得體的開場白。純 logistics，沒有情緒弧線。",
+  "generated_at": "2026-05-19T10:22:14Z",
+  "occurred_at": "2026-05-19T14:08:37",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "想問妳一個很日常的問題。下週六學校家長會辦慈善晚會，請帖上寫『smart cocktail』，這到底是什麼程度？"
+    },
+    {
+      "role": "assistant",
+      "content": "比正式晚禮服輕一點，但比一般聚會講究。女士通常是及膝或稍長的雞尾酒裙、質感好的面料，配一點珠寶就夠了，不用到長禮服。"
+    },
+    {
+      "role": "user",
+      "content": "那顏色呢？這種學校場合我不想太搶。"
+    },
+    {
+      "role": "assistant",
+      "content": "深色系最安全，深藍、酒紅、墨綠都很得體，黑色也行但容易顯得太正式。避開大面積亮色和太多印花就不會出錯。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。我大概有一件墨綠的可以。那要不要先準備一句開場跟主辦的校長太太打招呼？我這種年紀，臨場有時候會卡。"
+    },
+    {
+      "role": "assistant",
+      "content": "準備一句很合理。簡單就好，例如『今天的活動辦得很用心，謝謝你們花這麼多心思。』真誠又不過頭。要不要我幫妳多想兩個版本備用？"
+    },
+    {
+      "role": "user",
+      "content": "好啊，給我兩個。"
+    },
+    {
+      "role": "assistant",
+      "content": "一個是『每年都很期待這個晚會，今天看到這麼多人來支持真好。』另一個更輕鬆：『場地佈置得很漂亮，孩子們應該也會很喜歡。』挑順口的就行。"
+    },
+    {
+      "role": "user",
+      "content": "第二個好，自然。那就這樣，謝謝妳。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣，祝妳那天順順利利。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

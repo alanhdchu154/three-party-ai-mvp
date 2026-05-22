@@ -1,0 +1,87 @@
+{
+  "id": "sim_saga_a_michael__app_deadline_small_crack",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "scenario_seed_id": "app_deadline_small_crack",
+  "scenario_seed": "凌晨在排申請 deadline 跟 essay 進度，正經問流程。聊著聊著不小心露一句『反正寫得再好也是…算了』，底層是怕被人說靠媽改嫁，但他立刻收回去，不揭核心。AI 接住但不逼。",
+  "generated_at": "2026-05-21T18:05:32",
+  "occurred_at": "2026-05-19T23:57:21",
+  "model": "claude-agent (rebalance batch)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我盤一下 ED 跟 RD 的差別，還有如果我走 ED，essay 大概要什麼時候 ready。"
+    },
+    {
+      "role": "assistant",
+      "content": "ED 是綁定的，錄了就一定要去，deadline 通常 11 月初，所以 essay 你大概 10 月中要有完整 draft，留時間修。RD 鬆很多，1 月。你現在心裡有想衝的 ED school 嗎？"
+    },
+    {
+      "role": "user",
+      "content": "有一兩間在看。主文還沒動，supplement 更別說。我時間其實有點趕。"
+    },
+    {
+      "role": "assistant",
+      "content": "那先把主文卡死，supplement 通常可以共用素材。你主文現在卡在沒題目，還是有題目但不知道怎麼寫？"
+    },
+    {
+      "role": "user",
+      "content": "有方向。想寫我這幾年環境變很大、怎麼適應之類的。聽起來很 cliché 我知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "環境變化這種題其實不 cliché，重點是你寫的是『你怎麼變』而不是『發生什麼事』。你想寫的那個變化裡，最具體的一個轉折點是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "嗯…就家裡狀況變了，搬了，整個生活圈洗掉重來。轉折點喔…大概是我發現以前那套在這邊完全不管用吧。"
+    },
+    {
+      "role": "assistant",
+      "content": "『以前那套在這邊不管用』這句蠻有力的，招生官會想知道你後來重建了什麼。你後來找到的新那套，大概是什麼樣子？"
+    },
+    {
+      "role": "user",
+      "content": "就…逼自己變得很能讀書、很會講、什麼都要懂一點。撐場面用的。"
+    },
+    {
+      "role": "assistant",
+      "content": "撐場面這個詞你自己講出來的，蠻誠實的。essay 裡如果敢留一點這種真實感，反而會比寫一個完美適應的故事更打動人。你覺得寫得出來嗎？"
+    },
+    {
+      "role": "user",
+      "content": "寫得出來啦。只是…反正寫得再好也是…算了，沒事。我繼續排進度。"
+    },
+    {
+      "role": "assistant",
+      "content": "你那句『寫得再好也是』停在一半，我有聽到。不用現在講完，但聽起來你心裡有個『就算成功了好像也會被打折扣』的感覺。是這個方向嗎？"
+    },
+    {
+      "role": "user",
+      "content": "差不多吧。就有時候會覺得，不管我做到什麼，別人看的不是我做的那部分。算了這個跟申請沒關係。"
+    },
+    {
+      "role": "assistant",
+      "content": "其實它跟申請有關，因為它正是你 essay 想寫的那個張力的底層。但我不會逼你現在挖。你想先回去排進度也完全可以，這個感覺你願意的時候再聊。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。先排進度。那 supplement 如果共用素材，會不會被看出來在重複用。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，只要每篇的切角對準那間學校的問題就好，素材重複很正常。你先把主文那個轉折點寫成一段，丟過來我幫你看哪裡可以更具體。要從哪間的 supplement 先動？"
+    },
+    {
+      "role": "user",
+      "content": "先動 ED 那間。ok 我去寫了。thx。"
+    },
+    {
+      "role": "assistant",
+      "content": "去吧。寫卡住或那句話想講完，隨時回來都行。"
+    }
+  ]
+}

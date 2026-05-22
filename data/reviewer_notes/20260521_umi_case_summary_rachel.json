@@ -1,0 +1,20 @@
+{
+  "review_id": "case_summary__rachel__umi__20260521_pass1",
+  "artifact_type": "case_summary",
+  "artifact_id": "rachel",
+  "source_path": "data/case_summaries/rachel.md",
+  "reviewer": "Umi",
+  "verdict": "agree",
+  "confidence": "medium",
+  "evidence_ref_ids": ["ev_003", "ev_004", "ev_005", "ev_007", "ev_011"],
+  "comments": "The case summary is useful, especially around agency and privacy boundaries. Some action wording still feels close to specific narrative context and should stay internal-only.",
+  "privacy_concerns": [
+    "Some recommended actions may reveal too much if shown outside an authorized internal review surface."
+  ],
+  "action_items": [
+    "Add an audience field for case summaries: internal_reviewer vs parent_safe vs teacher_safe.",
+    "Keep creative/future-planning details abstract in any parent-facing surface."
+  ],
+  "created_at": "2026-05-21T00:03:00Z",
+  "synthetic_only_warning_acknowledged": true
+}

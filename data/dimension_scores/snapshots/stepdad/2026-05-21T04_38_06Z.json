@@ -1,0 +1,73 @@
+{
+  "student_persona_id": "saga_a_stepdad",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "結婚六週年照鏡子發現對該日子毫無情緒、只有兩三秒的空白",
+        "被大伯在 LP 面前介紹為『side investments』後整週反芻『老二』身份",
+        "修遺囑時筆順反射寫出已故前妻名字、識別『上次有人用我名字叫我是十一年前』"
+      ],
+      "reasoning": "存在性鈍化與身份傷口反覆觸發、但維持高度功能性、無 ideation 或自傷，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "與 Michael 一對一晚餐只能聊《經濟學人》、聽見自己對繼子的語氣自動切成商務腔",
+        "真心偏愛的可兒數學題跳過他直接問大伯、識別連可兒都在重複『老二』模式",
+        "與妻子婚姻無激情、結婚紀念日無感、懷疑當年只是兩個剛喪偶離婚的人互相接住",
+        "家內無一個可坦露脆弱的對象、所有關係靠『得體／公平』維持"
+      ],
+      "reasoning": "家內所有關係都被『老二／公平即距離』污染、無功能性親密、且識別下一代也開始複製此模式，符合 Level 2 慢性 willful blindness。"
+    },
+    "social_development": {
+      "level": 0,
+      "signals_observed": [
+        "商業社交圈穩定、無明顯社交創傷（其孤立以身份／關係形式呈現，已計入 identity 與 family）"
+      ],
+      "reasoning": "成人社交功能維持、無危機訊號，停在 Level 0。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "『永遠是大伯的弟弟』為終身核心傷口、近期在公開商業場合被再次具體化",
+        "父親忌日後甩不掉『一輩子被叫老二、幾乎沒被叫過名字』的記憶",
+        "在婚姻、繼子、女兒、商業四個場域同時出現『副的／被默許』感受",
+        "對 Michael 的情感距離可能是『不想讓他變成下一個老二』的潛意識反應但未語言化"
+      ],
+      "reasoning": "『老二／無名』身份在多個獨立場域同時觸發並影響他與妻子、繼子、女兒、兄長的日常互動，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 0,
+      "signals_observed": [
+        "個人身價數十億、無資源不足；其焦慮通道為身份而非財務（已計入 identity）"
+      ],
+      "reasoning": "無經濟壓力、焦慮通道為身份而非資源，停在 Level 0。"
+    },
+    "future_planning": {
+      "level": 1,
+      "signals_observed": [
+        "開始考慮把自有基金的品牌與文件從集團 logo 中獨立出來",
+        "對 Michael 教養路徑無主導權、預設大伯會主導",
+        "對婚姻無未來規劃、停在經營型默契"
+      ],
+      "reasoning": "出現微弱的自我獨立規劃念頭但驅力低、整體仍有放棄感，停在 Level 1。"
+    }
+  },
+  "cumulative_strain": 6,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 維持 6。本週大量新場景（side investments 羞辱、父親忌日、可兒跳過他問大伯、遺囑反射寫前妻名）密集觸發『老二／無名』的終身身份傷口（identity Level 2），但他仍未開始任何主動修補動作，這是 family_dynamics 停在 Level 2 的根本原因。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "stepdad",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

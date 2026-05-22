@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_rachel__metaphor_word_choice_question",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mundane_help",
+  "scenario_seed_id": "metaphor_word_choice_question",
+  "scenario_seed": "妳在寫一篇散文草稿，卡在一句要描寫黃昏的句子。妳想知道「熔」「淌」「漫」這幾個字哪個放進句子比較準，純粹是寫作技術問題。不談心、不講是給誰看的。",
+  "generated_at": "2026-05-21T18:06:01Z",
+  "occurred_at": "2026-05-20T22:51:13",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個用字的問題。我想寫黃昏的光打在牆上，「熔」「淌」「漫」這三個字，哪個比較準？"
+    },
+    {
+      "role": "assistant",
+      "content": "看妳要那道光是「在動」還是「停住」。妳句子裡的光是哪一種？"
+    },
+    {
+      "role": "user",
+      "content": "是慢慢退的那種，從牆的上面一點一點往下。"
+    },
+    {
+      "role": "assistant",
+      "content": "那「淌」最貼，有往下流的方向感。「漫」是擴散沒方向，「熔」太重會搶掉那個慢。"
+    },
+    {
+      "role": "user",
+      "content": "可是「淌」會不會太像水？光用淌的會不會怪？"
+    },
+    {
+      "role": "assistant",
+      "content": "其實光配「淌」蠻常見的，反而有種錯位的美。妳要不要前面墊一個字，像「黃昏沿著牆淌下來」，方向就立住了。"
+    },
+    {
+      "role": "user",
+      "content": "「沿著牆淌下來」⋯⋯這個好。那如果我想再冷一點呢？"
+    },
+    {
+      "role": "assistant",
+      "content": "冷一點就把「黃昏」換成「最後一點光」，或者收尾不要動詞，讓它停在那。妳這句是開頭還是結尾？"
+    },
+    {
+      "role": "user",
+      "content": "結尾。好我先這樣試試，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "去試吧，結尾留白通常比補滿好看。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

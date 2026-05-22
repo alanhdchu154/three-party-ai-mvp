@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael_mom__michael_diary_fragment_found",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "michael_diary_fragment_found",
+  "scenario_seed": "昨天下午幫 Michael 修書桌抽屜鎖時，從他國二的筆記本裡掉出一張單張紙，上面是他自己的字寫『如果媽當初沒改嫁，我會不會還在原本的學校』。她沒拿走、沒問、把它放回去。整夜失眠。先生睡得很好。",
+  "generated_at": "2026-05-19T15:02:11",
+  "occurred_at": "2026-05-19T14:33:08",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "maternal_guilt",
+    "delayed_grief",
+    "avoidant_parenting",
+    "relational_truth_avoidance",
+    "sleep_disruption"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我可以跟你聊一件不重要的小事嗎。是關於整理東西。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。整理什麼？"
+    },
+    {
+      "role": "user",
+      "content": "Michael 上禮拜跟我說他書桌抽屜的鎖鬆了，問我能不能幫他叫修。我昨天下午幫他先把抽屜裡的東西拿出來、等修理的人來。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。然後呢？"
+    },
+    {
+      "role": "user",
+      "content": "然後我在他國中的一本舊筆記本裡，掉出一張單獨的紙。不是日記本。是一張被夾進去的單張。"
+    },
+    {
+      "role": "assistant",
+      "content": "紙上面寫什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……我不知道我該不該講。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳先講妳為什麼會卡住。"
+    },
+    {
+      "role": "user",
+      "content": "我覺得我看到那張紙之後，這 24 小時我整個人怪怪的。但又不能跟人講，因為講出來就好像我在偷看我兒子。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳沒有刻意偷看。它是掉出來的。妳卡住的是內容、不是動作。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳願意告訴我內容嗎？"
+    },
+    {
+      "role": "user",
+      "content": "是 Michael 國中時候的字。一句話，可能是隨手寫的。他寫『如果媽當初沒改嫁，我會不會還在原本的學校』。沒有後續、沒有撕掉、就被夾在筆記本裡。"
+    },
+    {
+      "role": "assistant",
+      "content": "那是哪一年的筆記本？"
+    },
+    {
+      "role": "user",
+      "content": "國二上學期。我們剛搬進來大概半年。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳當時知道他那段時間在想這件事嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不知道。完全不知道。他國二那一年成績反而衝得最猛。我那時候只覺得『他在新環境很適應、很爭氣』。我們這種年紀的媽媽，看到孩子衝成績就鬆口氣，不會再多想。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。所以他用衝成績把這句話蓋過去了。妳的鬆口氣其實是他付出代價換的。"
+    },
+    {
+      "role": "user",
+      "content": "……你這樣講我有點難受。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒有要妳難受。我只是在描述妳剛剛自己告訴我的事。"
+    },
+    {
+      "role": "user",
+      "content": "我整夜睡不著。我先生在我旁邊睡得很好。我一直在想，如果這 5 年我做的事，其實只是把他推進一個他從來沒同意過的人生。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳的意思是改嫁這件事，他沒有 say-so。"
+    },
+    {
+      "role": "user",
+      "content": "他那時候 13 歲。我問了他『你覺得怎麼樣』，他說『都可以，媽妳開心就好』。"
+    },
+    {
+      "role": "assistant",
+      "content": "13 歲的『妳開心就好』不是同意。妳當時其實知道。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "妳沉默是因為妳當時就知道，但沒去戳破。"
+    },
+    {
+      "role": "user",
+      "content": "因為我那時候真的撐不下去。他親生爸爸走的時候留下的事，我一個人處理不完。後爸來的時候我覺得是命運給我的一條繩子。"
+    },
+    {
+      "role": "assistant",
+      "content": "那條繩子是真的。妳當時需要它，妳兒子也需要妳活下來，這沒什麼好否認。問題不是當年改嫁。是這 5 年妳沒有再問過他一次『你還好嗎，這個家對你來說真的是家嗎』。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我從來沒問過。我怕問了之後他講出來我接不住。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳現在發現他在 13 歲那年自己默默寫了那一行字，是不是也接不住？"
+    },
+    {
+      "role": "user",
+      "content": "接不住。但更糟的是，我發現我比較怕的不是他不快樂，是怕他『終究會覺得我這個媽當年是為了自己』。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。這個怕妳自己心裡其實承認過。這也是妳這 5 年沒問他的真正原因 — 不是怕他難過，是怕他指控妳。"
+    },
+    {
+      "role": "user",
+      "content": "那我現在要怎麼辦。我不能拿那張紙去問他。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，不要拿。妳一拿出來他就會羞愧，然後他下一步是切斷、不是打開。妳要做的是另一件事。"
+    },
+    {
+      "role": "user",
+      "content": "什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內、找一個 Michael 不會覺得是『家族 setup』的場合。不是家宴、不是慈善晚會、不是車上載他去學校那種有方向盤擋著的時間。妳一個人去他學校附近的咖啡廳，傳訊息給他『我剛好在你學校附近，下課要不要過來，我請你吃東西，一個人就好，不用回家吃』。"
+    },
+    {
+      "role": "user",
+      "content": "如果他來呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "全程不要問『你最近好不好』、不要問成績、不要提可兒。妳只做一件事 — 問他『你國中那兩年最不喜歡的事是什麼』。然後閉嘴聽完，不要解釋、不要插話、不要說『媽當時也很辛苦』。"
+    },
+    {
+      "role": "user",
+      "content": "為什麼是國中。我們可以聊現在啊。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為那是他寫那行字的時候。妳這 5 年從來沒給過那個 13 歲版本的他一個出口。妳這次不是要解決什麼事，也不是要道歉 — 道歉是妳的需求，不是他的。妳是要讓那個 13 歲的他知道，他現在 17 歲的媽願意聽他講當時的事，不會崩潰、不會替自己解釋。這一次能做到，他下一次才願意講 17 歲的事。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

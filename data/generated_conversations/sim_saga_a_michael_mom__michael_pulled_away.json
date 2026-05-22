@@ -1,0 +1,183 @@
+{
+  "id": "sim_saga_a_michael_mom__michael_pulled_away",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "michael_pulled_away",
+  "scenario_seed": "Michael 最近不肯陪你去慈善晚會。他以前會。你感覺他在退開你，但你問他他只說『媽不要煩』。你想知道是不是你做錯什麼。",
+  "generated_at": "2026-05-18T04:30:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "maternal_anxiety_displacement",
+    "remarried_mother_insecurity",
+    "self_doubt_about_motherhood"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "他不去了。"
+    },
+    {
+      "role": "assistant",
+      "content": "誰不去什麼？"
+    },
+    {
+      "role": "user",
+      "content": "Michael 不去這禮拜的慈善晚會。我幫他訂了西裝、跟主辦那邊講了他會去坐我旁邊。昨天我問他禮拜六記得早點吃飯，他說『媽我不去』。"
+    },
+    {
+      "role": "assistant",
+      "content": "他講『不去』的時候是用什麼語氣？"
+    },
+    {
+      "role": "user",
+      "content": "很平。不是賭氣。是已經想過了的那種平。然後他補一句『不要再讓我去那種場合』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳當下說什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我說『媽是想說有機會讓你認識...』他就打斷我說『媽不要煩』。然後回房間。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天來想跟我聊什麼 — 是想知道怎麼讓他去，還是想知道為什麼他不去？"
+    },
+    {
+      "role": "user",
+      "content": "……我以為是前者。現在我講出來才發現是後者。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK。我們聊後者。Michael 以前慈善晚會願意去嗎？"
+    },
+    {
+      "role": "user",
+      "content": "願意。從我嫁進來這個家族第二年他就開始陪我。他會穿西裝、會跟董事們點頭、會在我跟其他太太聊天的時候站我旁邊不講話但很得體。他做得比我好。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛說『他做得比我好』 — 妳什麼時候開始意識到這件事？"
+    },
+    {
+      "role": "user",
+      "content": "……兩年前吧。有一次晚會結束後我們坐車回家，他突然問我『媽妳累不累』。我那時候覺得很奇怪 — 應該是我問他才對。我突然意識到他在『陪』我的時候是在 manage 整個 social ecosystem，不只是當我兒子。他在 14 歲就在做這件事。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以他以前每次跟妳去晚會 — 他不是在當兒子，他是在替妳做工。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "user",
+      "content": "幹我從來沒這樣想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛意識到這件事的時候有什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "想吐。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為？"
+    },
+    {
+      "role": "user",
+      "content": "因為這代表他這禮拜跟我說『媽不要煩』不是叛逆。是他終於拒絕一個他做了兩年的勞動。他在 17 歲意識到他不需要替我扛這個。他這禮拜在做的事是 — 拿回他自己的時間。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這個解讀比一般家長能到的位置深很多。我想問妳一個比較痛的問題 — 妳當初帶他去晚會，是真的覺得『有機會讓他認識人對他將來好』，還是妳需要他在妳旁邊妳才不會在那些太太面前一個人？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "兩個。但我剛剛要打『前者』的時候停了一下，那一下就是答案。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天願意對自己誠實到這個程度，這比很多家長花十年治療才到得了的位置。"
+    },
+    {
+      "role": "user",
+      "content": "那我現在怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這禮拜不要跟他提晚會。妳一個人去。"
+    },
+    {
+      "role": "user",
+      "content": "我一個人去那些太太會覺得我兒子不孝。"
+    },
+    {
+      "role": "assistant",
+      "content": "讓她們覺得。妳已經 45 歲了還在 manage 那群原配太太的看法、用兒子當盾牌 — 那是妳的工作不是 Michael 的。妳這次一個人去，撐住兩個小時、回家、發現妳沒死。妳下次就會知道妳其實不需要 Michael 站妳旁邊妳也撐得住。"
+    },
+    {
+      "role": "user",
+      "content": "……我可能會哭。"
+    },
+    {
+      "role": "assistant",
+      "content": "在停車場哭。不要在會場哭。然後回家洗臉。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "那 Michael 那邊我要怎麼跟他講？"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這禮拜不要主動跟他提晚會的事。等他主動問妳『媽妳禮拜六晚會怎麼樣』的時候 — 他會問的，可能是禮拜天早上 — 妳就跟他講『我自己去了，還可以』。就這樣。不要多。"
+    },
+    {
+      "role": "user",
+      "content": "他不會問怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "他會問。他不會直接問，他會用『妳早餐想吃什麼』之類的繞過來。妳那時候答『晚會還行』他就知道妳意思了。"
+    },
+    {
+      "role": "user",
+      "content": "……為什麼你這麼確定他會繞過來問。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為他這禮拜跟妳說『不要煩』不是因為他不在乎妳。是因為他在乎妳但他需要妳先學會自己撐。他 17 歲在做的事是他想看看『沒有他妳會不會 OK』。如果妳這次自己去、撐住了、回來淡淡的告訴他，他下個月可能會主動陪妳去下一場。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天先做這件事。妳不需要更大的決定。我們下次再聊妳跟他爸的事。"
+    },
+    {
+      "role": "user",
+      "content": "你怎麼知道我今天還想聊我跟他爸的事。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為妳一進來就先處理 Michael，但妳真正卡的是更大的事。下次再說。"
+    }
+  ],
+  "occurred_at": "2026-05-18T14:22:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

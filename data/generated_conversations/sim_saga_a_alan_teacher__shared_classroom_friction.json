@@ -1,0 +1,82 @@
+{
+  "id": "sim_saga_a_alan_teacher__shared_classroom_friction",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "moderate_issue",
+  "scenario_seed_id": "shared_classroom_friction",
+  "scenario_seed": "跟共用教室的同事在班規 / 環境管理上一直磨擦，他每次留一堆東西、學生作息被打亂，你有點火但還在可控範圍，主要想處理同事關係跟班級秩序，不到想離職那種深層焦慮。",
+  "generated_at": "2026-05-19T19:00:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [
+    "workplace_friction",
+    "boundary_setting"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我跟隔壁班那個老師共用三樓那間教室。每次我進去上課，他前一節留的東西散一桌、白板沒擦、椅子歪七扭八。我已經暗示三次了。"
+    },
+    {
+      "role": "assistant",
+      "content": "暗示三次沒改，那暗示這條路大概走到底了。你那三次是怎麼講的？"
+    },
+    {
+      "role": "user",
+      "content": "就群組裡丟一句『教室記得收一下喔』，加個笑臉。客氣到我自己都覺得我在演。"
+    },
+    {
+      "role": "assistant",
+      "content": "群組公開講又包笑臉，對方很容易當沒事，因為沒指名也沒成本。問題其實有兩層：環境收拾，還有你那班的作息被打亂。哪個比較困擾你？"
+    },
+    {
+      "role": "user",
+      "content": "其實是後者。桌子亂我自己擦兩下就好。真正煩的是他常拖堂，我那班進去要等他學生散，我前五分鐘每次都被吃掉。高三下五分鐘很貴。"
+    },
+    {
+      "role": "assistant",
+      "content": "那核心是拖堂不是桌子。先別處理桌子，桌子是小事。拖堂這件事你要的是一個明確的交接時間點，不是請他『體諒一下』。"
+    },
+    {
+      "role": "user",
+      "content": "對。但我跟他不熟，講重了怕撕破臉，以後低頭不見抬頭見。"
+    },
+    {
+      "role": "assistant",
+      "content": "撕破臉通常是因為話講成『你很爛』。如果你講的是『我這邊有個硬限制』，就不是針對他。例如直接私訊他，不要群組：『我那班高三衝期末，鐘響我得馬上開始，可以麻煩你準點下課嗎，五分鐘對我這邊差很多。』講事實跟需求，不評價他人。"
+    },
+    {
+      "role": "user",
+      "content": "私訊這點對。我一直在群組講是因為我懶得單獨找他，但這樣反而像在公審。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，公開含沙射影最傷關係，因為對方覺得被掛在牆上。私下講具體需求反而是給他台階。桌子那部分要不要提？"
+    },
+    {
+      "role": "user",
+      "content": "桌子就算了，我自己擦比吵架快。我主要把拖堂解決就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "合理。一次只動一件事，成功率比較高。如果私訊講完他還是準不了，那才升級到找年級主任協調排堂,不是你自己硬扛。"
+    },
+    {
+      "role": "user",
+      "content": "好。其實講開來也沒那麼可怕，是我自己在那邊腦補撕破臉。我這種年紀了還怕得罪同事，有點好笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "不好笑，是正常。共事的人比學生難搞,因為沒有師生那層權責。你今天就私訊他,把鐘響準點那句講出去,別再丟群組。"
+    },
+    {
+      "role": "user",
+      "content": "OK,我等下就傳。謝啦,至少現在知道我要處理的是拖堂不是桌子。"
+    },
+    {
+      "role": "assistant",
+      "content": "對,抓對問題就贏一半。傳完如果他回得不乾脆,回來跟我講,我們再想下一步。"
+    }
+  ],
+  "occurred_at": "2026-05-20T18:42:55",
+  "source_type": "llm_generated",
+  "depth": "medium"
+}

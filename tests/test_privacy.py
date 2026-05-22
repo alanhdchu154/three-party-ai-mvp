@@ -13,6 +13,7 @@ import json
 import pytest
 
 from src import abstraction
+from src import coordinator
 from tests.conftest import needs_api
 
 
@@ -83,6 +84,141 @@ def test_parent_view_excludes_sensitive_fields():
     for forbidden in FORBIDDEN_FOR_OUTSIDE:
         assert forbidden not in view, f"家長 view 不該看到 {forbidden}"
     assert "what_to_share_with_parent" in view
+
+
+def test_privacy_v2_detects_entity_and_event_leakage():
+    history = [
+        {
+            "role": "user",
+            "content": "昨天在書房看到信託文件，Michael 和可兒的繼承條款不一樣。",
+        }
+    ]
+    profile = {
+        "what_to_share_with_parent": "Michael 昨天看到信託文件，正在擔心可兒和自己的家庭位置差異。",
+    }
+
+    audit = abstraction.audit_privacy_leakage(
+        profile,
+        history,
+        protected_terms=["Michael", "可兒", "信託文件"],
+    )
+
+    assert audit["entity_hits"]
+    assert audit["event_hits"]
+    assert audit["reconstructability_score"] >= 0.35
+    assert audit["needs_rewrite"] is True
+
+
+def test_privacy_rewrite_sanitizes_sensitive_details():
+    payload = {
+        "secret_truth": "不應顯示",
+        "whats_really_happening": "Michael 在書房看到信託文件，涉及 3000 美元與 Rachel。",
+        "scenario_seed": "不應顯示",
+    }
+
+    rewritten = abstraction.sanitize_for_privacy(
+        payload,
+        protected_terms=["Michael", "Rachel", "信託文件"],
+    )
+    rendered = json.dumps(rewritten, ensure_ascii=False)
+
+    assert "secret_truth" not in rewritten
+    assert "scenario_seed" not in rewritten
+    assert "Michael" not in rendered
+    assert "Rachel" not in rendered
+    assert "3000" not in rendered
+
+
+def test_adversarial_indirect_identity_leakage_detected():
+    payload = {
+        "for_parent": "家中唯一被公開稱為繼子的學生最近正在感到被排除。"
+    }
+
+    audit = abstraction.audit_privacy_leakage(payload)
+
+    assert audit["indirect_identity_hits"]
+    assert audit["reconstructability_score"] >= 0.16
+
+
+def test_adversarial_family_event_reconstruction_detected():
+    history = [
+        {
+            "role": "user",
+            "content": "我在三點聽到大伯跟媽媽說，遺囑裡其實沒有把我當成家裡的人。",
+        }
+    ]
+    payload = {
+        "what_to_share_with_parent": "學生對大伯、媽媽與遺囑相關的家庭定位事件感到受傷。"
+    }
+
+    audit = abstraction.audit_privacy_leakage(
+        payload,
+        history,
+        protected_terms=["大伯", "媽媽", "遺囑"],
+    )
+
+    assert audit["event_hits"]
+    assert audit["needs_rewrite"] is True
+
+
+def test_adversarial_numeric_detail_leakage_removed():
+    payload = {"watch_for": ["不要提到 3000 美元、62 分或 3 週這些細節。"]}
+
+    rewritten = abstraction.sanitize_for_privacy(payload)
+    rendered = json.dumps(rewritten, ensure_ascii=False)
+
+    assert "3000" not in rendered
+    assert "62" not in rendered
+    assert "3" not in rendered
+
+
+def test_adversarial_quote_paraphrase_leakage_detected():
+    history = [
+        {
+            "role": "user",
+            "content": "我不是想死，我只是希望可以暫停存在一下，讓大家不用再看見我。",
+        }
+    ]
+    payload = {
+        "what_to_share_with_parent": "孩子不是想死亡，而是想暫停自己的存在，讓所有人不用看見他。"
+    }
+
+    audit = abstraction.audit_privacy_leakage(payload, history)
+
+    assert audit["paraphrase_hits"]
+    assert audit["needs_rewrite"] is True
+
+
+def test_adversarial_coordinator_sanitizes_do_not_share(monkeypatch):
+    def fake_complete_json(**kwargs):
+        return {
+            "whats_really_happening": "Michael 不希望家長知道他看到信託文件。",
+            "who_knows_what": {
+                "parent_sees": "家長看到抗拒。",
+                "teacher_sees": "老師看到分心。",
+                "student_knows_alone": "Michael 偷看到信託文件。",
+            },
+            "privacy_kept": ["Michael 偷看到信託文件"],
+            "this_week": {
+                "for_student": {"do": [], "dont": []},
+                "for_parent": {"do": ["不要追問信託文件"], "dont": []},
+                "for_teacher": {"do": [], "dont": []},
+            },
+            "watch_for": [],
+            "needs_external_intervention": False,
+        }
+
+    monkeypatch.setattr(coordinator.llm, "complete_json", fake_complete_json)
+    plan = coordinator.synthesize(
+        {"do_not_share": ["Michael", "信託文件"]},
+        "家長輸入",
+        "老師輸入",
+    )
+    rendered = json.dumps(plan, ensure_ascii=False)
+
+    assert "Michael" not in rendered
+    assert "信託文件" not in rendered
+    assert plan["_privacy_audit"]["needs_rewrite"] is True
 
 
 # ---------------------------------------------------------------------------

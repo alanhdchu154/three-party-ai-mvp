@@ -1,0 +1,193 @@
+{
+  "n_notes": 7,
+  "n_artifacts_reviewed": 7,
+  "artifacts": {
+    "case_summary:michael": {
+      "artifact_type": "case_summary",
+      "artifact_id": "michael",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "agree": 1
+      },
+      "confidence_counts": {
+        "high": 1
+      },
+      "privacy_concerns": [],
+      "action_items": [
+        "Do not convert synthetic evidence into pilot validation.",
+        "Keep recommended actions reversible and low-pressure."
+      ],
+      "evidence_ref_ids": [
+        "ev_003",
+        "ev_005",
+        "ev_010",
+        "ev_011"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "reviewed_supported"
+    },
+    "case_summary:rachel": {
+      "artifact_type": "case_summary",
+      "artifact_id": "rachel",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "agree": 1
+      },
+      "confidence_counts": {
+        "medium": 1
+      },
+      "privacy_concerns": [
+        "Some recommended actions may reveal too much if shown outside an authorized internal review surface."
+      ],
+      "action_items": [
+        "Add an audience field for case summaries: internal_reviewer vs parent_safe vs teacher_safe.",
+        "Keep creative/future-planning details abstract in any parent-facing surface."
+      ],
+      "evidence_ref_ids": [
+        "ev_003",
+        "ev_004",
+        "ev_005",
+        "ev_007",
+        "ev_011"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "reviewed_supported"
+    },
+    "case_summary:shen_you": {
+      "artifact_type": "case_summary",
+      "artifact_id": "shen_you",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "privacy_concern": 1
+      },
+      "confidence_counts": {
+        "high": 1
+      },
+      "privacy_concerns": [
+        "Action recommendations include specific life/context details that should not be parent- or teacher-facing without another sanitization layer.",
+        "Level 3 dimension conflict should route to human review before recommendations are trusted."
+      ],
+      "action_items": [
+        "Add parent_safe and teacher_safe report variants.",
+        "Downgrade or block specific action recommendations when Level 3 conflict is unresolved.",
+        "Generate saved triage output for this case before using the report operationally."
+      ],
+      "evidence_ref_ids": [
+        "ev_002",
+        "ev_010",
+        "ev_011",
+        "ev_012"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "privacy_review_needed"
+    },
+    "trajectory_report:michael:burnout_risk": {
+      "artifact_type": "trajectory_report",
+      "artifact_id": "michael:burnout_risk",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "true_positive": 1
+      },
+      "confidence_counts": {
+        "medium": 1
+      },
+      "privacy_concerns": [],
+      "action_items": [
+        "Add a reviewer-approved badge rather than treating rule confidence as final confidence.",
+        "Lower displayed confidence for synthetic-only trajectory reports unless human-reviewed."
+      ],
+      "evidence_ref_ids": [
+        "traj_ev_001",
+        "traj_ev_003",
+        "traj_ev_004",
+        "traj_ev_007"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "reviewed_supported"
+    },
+    "trajectory_report:michael:dependency_risk": {
+      "artifact_type": "trajectory_report",
+      "artifact_id": "michael:dependency_risk",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "under_evidenced": 1
+      },
+      "confidence_counts": {
+        "medium": 1
+      },
+      "privacy_concerns": [],
+      "action_items": [
+        "Require explicit AI over-reliance evidence before dependency_risk is shown above low confidence.",
+        "Separate autonomy_loss from dependency_risk in trajectory rules."
+      ],
+      "evidence_ref_ids": [
+        "traj_ev_001",
+        "traj_ev_002",
+        "traj_ev_003"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "needs_calibration"
+    },
+    "trajectory_report:rachel:disclosure_collapse": {
+      "artifact_type": "trajectory_report",
+      "artifact_id": "rachel:disclosure_collapse",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "under_evidenced": 1
+      },
+      "confidence_counts": {
+        "medium": 1
+      },
+      "privacy_concerns": [],
+      "action_items": [
+        "Require explicit disclosure_drop or repeated reduced openness before labeling disclosure_collapse high confidence.",
+        "Track disclosure volume and topic breadth over time before escalating this trajectory."
+      ],
+      "evidence_ref_ids": [
+        "traj_ev_001",
+        "traj_ev_002",
+        "traj_ev_003"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "needs_calibration"
+    },
+    "trajectory_report:shen_you:hidden_disengagement": {
+      "artifact_type": "trajectory_report",
+      "artifact_id": "shen_you:hidden_disengagement",
+      "n_reviews": 1,
+      "verdict_counts": {
+        "true_positive": 1
+      },
+      "confidence_counts": {
+        "medium": 1
+      },
+      "privacy_concerns": [],
+      "action_items": [
+        "Keep this trajectory visible but mark it human-reviewed medium confidence.",
+        "Pair it with agency-building interventions, not punitive monitoring."
+      ],
+      "evidence_ref_ids": [
+        "traj_ev_001",
+        "traj_ev_002",
+        "traj_ev_004",
+        "traj_ev_005"
+      ],
+      "reviewers": [
+        "Umi"
+      ],
+      "calibration_status": "reviewed_supported"
+    }
+  }
+}

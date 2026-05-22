@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_uncle__rival_funeral_grandson",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "rival_funeral_grandson",
+  "scenario_seed": "昨天你去了同年老對手的告別式，他孫子披麻跪了一排。今天下午你一個人坐在辦公室，第一次清楚意識到：你沒有兒子，你這支到 Rachel 就斷了 — 而你一直把她的婚事，當成補這個洞的辦法。",
+  "generated_at": "2026-05-21T03:10:36",
+  "occurred_at": "2026-05-20T16:18:43",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "mortality_legacy_anxiety",
+    "daughter_instrumentalized_for_succession",
+    "arranged_marriage_equity_motive",
+    "intergenerational_control_pattern"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我昨天去了一個告別式。"
+    },
+    {
+      "role": "assistant",
+      "content": "誰的。"
+    },
+    {
+      "role": "user",
+      "content": "一個老對手。跟我同年，鬥了三十年。上禮拜心肌梗塞，走得很快。"
+    },
+    {
+      "role": "assistant",
+      "content": "鬥了三十年，你還是去了。"
+    },
+    {
+      "role": "user",
+      "content": "該去的。場面要做。"
+    },
+    {
+      "role": "assistant",
+      "content": "場面昨天做完了。你今天一個人坐在辦公室打開這個，不是為了做場面。哪個畫面你回不去。"
+    },
+    {
+      "role": "user",
+      "content": "他孫子披麻，跪了一排。捧斗的是他大兒子。整個靈堂滿的。"
+    },
+    {
+      "role": "assistant",
+      "content": "滿的。然後呢。"
+    },
+    {
+      "role": "user",
+      "content": "然後我就想，如果哪天是我躺在那裡，跪在前面那排的，只有 Rachel 一個。"
+    },
+    {
+      "role": "assistant",
+      "content": "只有 Rachel 一個。你停在這裡。是嫌少，還是嫌她一個人撐不住那個場。"
+    },
+    {
+      "role": "user",
+      "content": "……都不是。是我突然看清楚，我這一支，到 Rachel 就斷了。我沒有兒子。"
+    },
+    {
+      "role": "assistant",
+      "content": "這件事你知道十七年了。為什麼是昨天，才變成一個你坐三個小時的問題。"
+    },
+    {
+      "role": "user",
+      "content": "因為以前我有辦法。"
+    },
+    {
+      "role": "assistant",
+      "content": "什麼辦法。"
+    },
+    {
+      "role": "user",
+      "content": "Rachel 跟 Michael 的婚事。我運作這個，外面講是家族團結，真正的理由是把我弟那房的股權跟集團綁回來。但昨天我老實看到，這件事我做得這麼用力，有一半根本不是為了股權。"
+    },
+    {
+      "role": "assistant",
+      "content": "為了什麼。你難得把句子停在這裡。"
+    },
+    {
+      "role": "user",
+      "content": "為了讓我這一支不要斷。配下去、有下一代、那一代姓什麼不重要，重要的是還在我這個結構裡，還算是接著我。我一直以為我在算股權。昨天我發現我在算一個我死了以後還有沒有人接著我的問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以這場婚事，從頭到尾就不是 Rachel 的婚事。是你的後事。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "你不反駁。"
+    },
+    {
+      "role": "user",
+      "content": "我反駁不了。我把我自己怕死這件事，包成『為了家族』、『為了 Rachel 好』，推到我女兒身上去執行。而且最諷刺的是，她是真的喜歡 Michael。"
+    },
+    {
+      "role": "assistant",
+      "content": "她是真的喜歡他。那這張牌對你來說，是不是反而順手。"
+    },
+    {
+      "role": "user",
+      "content": "是。是我這輩子難得一張順牌。真愛跟我的盤算剛好對齊。我甚至跟自己說，你看，我又沒逼她，她本來就喜歡。"
+    },
+    {
+      "role": "assistant",
+      "content": "『我又沒逼她』，是你給自己開的免罪符。她喜歡他，跟你把她的喜歡拿去綁股權，是兩件事。第二件是你做的，不是她。"
+    },
+    {
+      "role": "user",
+      "content": "我知道。所以我才坐在這裡。"
+    },
+    {
+      "role": "assistant",
+      "content": "那我問你一個更難的。你說你怕你這一支斷了 — 你說的『接著你』，到底是接什麼。"
+    },
+    {
+      "role": "user",
+      "content": "……什麼意思。"
+    },
+    {
+      "role": "assistant",
+      "content": "是接你的姓、你的股、你的董事位子。還是接你這個人。這兩個，是同一件事嗎。"
+    },
+    {
+      "role": "user",
+      "content": "……不是同一件事。"
+    },
+    {
+      "role": "assistant",
+      "content": "那如果 Rachel 不接你的股、不結這門婚、跑去寫她想寫的東西，你這一支照你的算法就是斷了 — 她身上有沒有任何一點，是真的從你來的、會被她帶著走一輩子的。"
+    },
+    {
+      "role": "user",
+      "content": "有。她認真起來那個樣子，跟我年輕的時候一模一樣。她認定一件事就不鬆口的那個倔。那個是我的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個才是沒斷的東西。它不在股權結構裡，不靠婚配傳。你昨天看到的那一排披麻的孫子，也不保證有 — 後繼一大群的人多得是，接過去的是姓，不是人。"
+    },
+    {
+      "role": "user",
+      "content": "那你要我怎麼做。我總不能昨天去個告別式，今天就把三十年的盤算全推翻。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒叫你推翻。三十年的東西不是一個禮拜能動的。我給你這禮拜兩個小動作，都跟股權無關、跟婚事無關。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "第一，這禮拜你不准打那通電話。就是你昨天回來最想打的那通 — 找律師，把信託跟婚事架構趕快綁死的那通。剛去完告別式的人最會做這個動作，因為怕死。那個怕，先放七天，不要拿它去簽任何東西。"
+    },
+    {
+      "role": "user",
+      "content": "……這個我要想。第二件呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "第二，找一樣東西 — 不是股、不是公司、不是房，是一樣真的是『你』的小東西，你戴了二十年的那種錶、你爸留給你的某個物件。這禮拜拿給 Rachel，就說這個給妳，不要接任何一句婚事、接班、志願的話。給完就走。"
+    },
+    {
+      "role": "user",
+      "content": "給了她會問為什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "她問，你就說『想給就給了』。你這輩子給她的每樣東西後面都接著一個條件、一個她要還的人情 — 給一次沒有後面的。看她接過去那個表情，比你打給律師那通電話誠實。下禮拜回來告訴我你給了什麼、她什麼反應，我們再講股權那邊。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

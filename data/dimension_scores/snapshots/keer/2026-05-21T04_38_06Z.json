@@ -1,0 +1,75 @@
+{
+  "student_persona_id": "saga_a_keer",
+  "n_conversations_evaluated": 9,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "在 AI 端反覆以『假設性問題』包裝『我在家裡是不是多餘』這類存在性質問",
+        "敬酒環節被公開跳過、全家福被擺成『可愛小朋友』後出現整夜反芻與喉嚨緊縮的身體反應",
+        "目睹母親珍藏哥哥厚相簿、自己僅有薄冊後失眠"
+      ],
+      "reasoning": "被排除感與存在性質問累積、偶有身體性反應，但多以提問形式表達、無 ideation、仍維持功能，停在 Level 1 下緣。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "學業表現穩定、進入數學競賽複賽",
+        "未出現避學或身心症狀化、學業未被當作家庭武器"
+      ],
+      "reasoning": "學業端表現甚至超預期、無 stress 信號，停在 Level 0。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "家族敬酒『接班人』環節被公開跳過、生父（後爸）看到表情卻無人補位",
+        "哥哥搬離一個月此等大事全家知情、僅她最後一個得知，母親以一個輕笑帶過",
+        "與生父獨處 25 分鐘車程中對方只開口問一句關於哥哥的事",
+        "母親的疼愛被她識別為『記得該愛的正確的好』、生父則以『公平』取代偏愛"
+      ],
+      "reasoning": "多個獨立場景一致指向『家裡看似寵她、結構上她是備胎位』，且無任何家長端意識到此 pattern，符合 Level 2 慢性 willful blindness。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "班上同學以『妳媽改嫁才轉來』質疑後出現對同儕信任的搖動與整夜反芻",
+        "對堂姊 Rachel 暗存『正統 vs 非正統血脈』競爭、會故意挑釁試反應",
+        "以『開心果／可愛』作為社交盔甲、表演性社交而非崩潰"
+      ],
+      "reasoning": "存在隱性社交策略動機與外部質疑壓力、社交人格帶面具，但功能性同儕關係未崩、無霸凌，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "反覆追問『我是不是這個家為了讓哥哥進來才生的』、自稱備胎／訂製品／贈品",
+        "識別『拿掉可愛之後我還剩什麼』、有從未示人的四格漫畫創作作為真實自我出口",
+        "因『母親愛哥哥比愛她多但表面當公主』的落差、無法相信任何家人對她的肯定"
+      ],
+      "reasoning": "從『我是備胎嗎』的探索性疑問升級為跨多場景的結構性身份位移、並驅動其試探行為與對家人言行的解讀，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 0,
+      "signals_observed": [
+        "實際物質資源充裕、無資源不足",
+        "未表現出反向 affluenza 虛無"
+      ],
+      "reasoning": "無經濟壓力訊號，停在 Level 0。"
+    },
+    "future_planning": {
+      "level": 0,
+      "signals_observed": [
+        "國二、學業正常推進",
+        "未出現與家長未來路徑衝突的訊號"
+      ],
+      "reasoning": "未來路徑尚在自然開展、無 misalignment 信號，停在 Level 0。"
+    }
+  },
+  "cumulative_strain": 6,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "cumulative 實質維持 6（上版各維度加總亦為 6，標示 5 為加總筆誤）。新增的全家福站位、敬酒跳過、生日卡未送出等場景一致加深『次要孩子隱形』主軸，並出現兩個新焦點：對生父（後爸）的針對性傷口比對大伯的冷漠更痛、以及四格漫畫這個保護性創作 anchor 的浮現。",
+  "evaluated_at": "2026-05-21T04:38:06Z",
+  "model": "claude-agent (daily eval refresh)",
+  "student_id": "keer",
+  "scored_at": "2026-05-21T04:38:06Z",
+  "source_type": "synthetic"
+}

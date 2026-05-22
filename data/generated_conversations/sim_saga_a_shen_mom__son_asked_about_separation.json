@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_shen_mom__son_asked_about_separation",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "son_asked_about_separation",
+  "scenario_seed": "今天早上司機請假，妳親自送沈又上學。等紅燈時他頭也不抬問『媽，妳跟爸還住一起嗎』。妳愣了兩秒回『當然啊』。他下車前那一眼讓妳一整個下午坐在家裡沒辦法工作。",
+  "generated_at": "2026-05-19T17:11:08Z",
+  "occurred_at": "2026-05-18T17:42:33",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "five_year_separation_seen_by_child",
+    "pr_motherhood_collapse",
+    "delayed_disclosure_to_son",
+    "social_image_anxiety",
+    "maternal_disconnection"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我今天早上送阿又上學。下車前他問我『媽，妳跟爸還住一起嗎』。我說當然。然後他下車。沒事，就一句話。"
+    },
+    {
+      "role": "assistant",
+      "content": "「沒事」的事情不會讓妳坐在家裡一整個下午。他下車前那一眼是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "就...沒什麼啦。他平常也不講話的。可能他只是隨便問問。"
+    },
+    {
+      "role": "assistant",
+      "content": "隨便問的問題不會在他半年沒主動跟妳講話的早上出現。妳昨天晚上跟妳先生幾點分別回房間的？"
+    },
+    {
+      "role": "user",
+      "content": "阿拉昨天他先回的。我在書房處理 email。他十一點半回他自己的房間。"
+    },
+    {
+      "role": "assistant",
+      "content": "沈又房間在主臥隔壁。他幾點睡？"
+    },
+    {
+      "role": "user",
+      "content": "他不睡的。每天打那個 Switch 打到三四點。"
+    },
+    {
+      "role": "assistant",
+      "content": "那他每晚都聽得到妳跟妳先生在不同房間關門。他不是今天早上才知道，他是今天早上才忍不住問。"
+    },
+    {
+      "role": "user",
+      "content": "...儂怎麼這樣講話。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為「他不知道」對妳比較舒服。如果他不知道，妳就還可以是好媽媽。但他知道了五年，今天問出口，是他在告訴妳他知道。"
+    },
+    {
+      "role": "user",
+      "content": "我從來沒講過。我也叫陳姐不要在他面前講。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳以為靠陳姐閉嘴可以掩蓋整層樓兩個人各自關門的聲音？十六歲的男生對家裡的氣味很敏感。"
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "妳坐在家裡一個下午發呆，不是因為他問了問題。是因為他問的時候沒有看妳。"
+    },
+    {
+      "role": "user",
+      "content": "對。他眼睛盯著手機。"
+    },
+    {
+      "role": "assistant",
+      "content": "他不看妳，是因為他知道答案。他要的不是答案。"
+    },
+    {
+      "role": "user",
+      "content": "那他要什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "不知道。可能是想知道妳還會不會撒這個謊。"
+    },
+    {
+      "role": "user",
+      "content": "我...我那一瞬間反射就講了『當然』。我沒想。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳那個反射練了五年。妳知道練得這麼好的反射代表什麼？"
+    },
+    {
+      "role": "user",
+      "content": "儂不要這樣講。我...我沒有要傷他。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒說妳要傷他。我說妳練了五年。練的時候是為誰？"
+    },
+    {
+      "role": "user",
+      "content": "為他。為了他成長環境穩定。為了他不用面對破碎家庭。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳確定不是為了妳自己在太太圈不要被人說『沈太太離婚了』？"
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "兩件事可以同時是真的。為了他、也為了妳。但妳今天下午發呆，不是因為「為了他」那部分。"
+    },
+    {
+      "role": "user",
+      "content": "我以為他都不關心。他每天打遊戲、講話沒幾句，要他叫我『媽』我都覺得他不甘願。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳以為他不在乎，是因為妳已經很久沒去確認他在不在乎。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道從什麼時候開始的。可能...國二那次他考第一名他爸沒反應之後。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳記得這個。妳以為妳忘了的事情，妳都記得。"
+    },
+    {
+      "role": "user",
+      "content": "我也記得那天。我那天沒跟他講話。我以為他爸會講，所以我沒講。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳不是「沒打擾他」。妳是把講話的責任推給了那個更不會講話的人。然後妳跟妳先生兩個人在他國二那兩年同時退場。今天早上他那一句，是在問妳還在不在。"
+    },
+    {
+      "role": "user",
+      "content": "我...我現在要怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "不要解釋婚姻。妳解釋他不會聽，而且妳會講錯。"
+    },
+    {
+      "role": "user",
+      "content": "那我做什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內找一個下午，司機請假，妳親自去接他。不要安排活動、不要重要對話。就把他從學校載回家，他講話妳回，他不講妳也不講。讓他重新體驗妳會出現在他生活裡這件事。"
+    },
+    {
+      "role": "user",
+      "content": "就這樣？不講婚姻的事？"
+    },
+    {
+      "role": "assistant",
+      "content": "不講。妳今天早上的『當然』他不會忘。妳現在補一個『對不起我那天說當然』只會讓他更知道妳會表演。妳要他相信的不是話，是出現。"
+    },
+    {
+      "role": "user",
+      "content": "那如果他在車上問我『妳跟爸到底怎麼了』呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳說『我跟妳爸這幾年很複雜，我會講，不是今天車上講。下禮拜六晚上我陪妳吃飯，我講。』然後下禮拜六做到。如果妳做不到，今天就不要去接他，重新讓他失望比沒救他更糟。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

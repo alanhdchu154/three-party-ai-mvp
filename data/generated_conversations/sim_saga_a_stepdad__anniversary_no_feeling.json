@@ -1,0 +1,182 @@
+{
+  "id": "sim_saga_a_stepdad__anniversary_no_feeling",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "anniversary_no_feeling",
+  "scenario_seed": "昨晚是跟 Michael 媽結婚六週年。她準備了私廚晚餐、可兒寫了卡片、Michael 禮貌敬了一杯酒。他全程在笑。回房後在浴室照鏡子，他發現自己對這個日子沒有任何真的情緒，連懷舊都沒有。只有兩三秒，然後他就上床睡了。",
+  "generated_at": "2026-05-18T17:08:42Z",
+  "occurred_at": "2026-05-17T10:14:38",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "婚姻情感空殼",
+    "對配偶愛情未確認",
+    "寂寞驅動的早期決定未被處理",
+    "長期表演式情緒勞動",
+    "52 歲 identity 與親密關係斷裂",
+    "與大伯權力動態間接影響婚姻選擇"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "昨晚結婚六週年。家裡都準備了。沒問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "「沒問題」這三個字開了你今天的對話。是哪個地方讓你想說一下？"
+    },
+    {
+      "role": "user",
+      "content": "我在浴室照鏡子。發現我對這個日子沒任何感覺。連懷舊都沒有。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說「沒任何感覺」的時候，是平靜的，還是嚇到自己的？"
+    },
+    {
+      "role": "user",
+      "content": "嚇到自己。但只有兩三秒。然後我就刷牙、上床、睡覺。"
+    },
+    {
+      "role": "assistant",
+      "content": "那兩三秒比後面的刷牙上床更重要。你現在還記得那兩三秒裡面是什麼嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有什麼。就是空白。"
+    },
+    {
+      "role": "assistant",
+      "content": "空白也是一種訊息。我們先不要急著解釋它。你太太準備了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "私廚到家裡。她穿了那件深綠色的洋裝。可兒寫了卡片，寫到半夜。Michael 敬了一杯酒，講了得體的話。我全程在笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "你「全程在笑」。是你想笑，還是你得笑？"
+    },
+    {
+      "role": "user",
+      "content": "……你問得很細。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。要不要回答看看。"
+    },
+    {
+      "role": "user",
+      "content": "得笑。她準備了三個禮拜，可兒寫卡片寫到半夜，Michael 還特地不戴他平常那副耳機下來。我不能掃興。"
+    },
+    {
+      "role": "assistant",
+      "content": "你照顧了三個人的感受。你自己那個感受，被放在哪裡？"
+    },
+    {
+      "role": "user",
+      "content": "……不知道。可能就是浴室那兩三秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。它一整晚等到沒人看你才出來。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "你不用急著接話。我在。"
+    },
+    {
+      "role": "user",
+      "content": "我們結婚那年。她剛離前夫沒多久。我父親才走兩年。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說這兩件事的時候，是當事實在說，還是當原因在說？"
+    },
+    {
+      "role": "user",
+      "content": "……原因。"
+    },
+    {
+      "role": "assistant",
+      "content": "原因是「兩個人都剛經歷喪失」？還是「兩個人都剛好需要一個人」？"
+    },
+    {
+      "role": "user",
+      "content": "後者。但我從來沒對任何人講過。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天讓自己聽到了這句。慢一點，這句不是判決，是訊息。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道我有沒有真的愛過她。"
+    },
+    {
+      "role": "assistant",
+      "content": "這句話講出來的時候，是冷的，還是有重量的？"
+    },
+    {
+      "role": "user",
+      "content": "冷。"
+    },
+    {
+      "role": "assistant",
+      "content": "冷可能是兩件事。一是你早就知道。二是你不敢確認所以把它冷凍起來。你比較像哪一個？"
+    },
+    {
+      "role": "user",
+      "content": "前者。我可能六年前就知道。但那時候我剛喪偶，她剛離婚，可兒兩歲多需要一個爸，我哥也在催。"
+    },
+    {
+      "role": "assistant",
+      "content": "你那時候做的決定，是六年前那個寂寞的 46 歲男人能做的最好的決定。今天 52 歲的你不需要去否認他。"
+    },
+    {
+      "role": "user",
+      "content": "但這六年呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "這六年你也在裡面。你跟可兒的關係是真的。家是真的。每天的日常是真的。少了的是其中一條線，不是全部。"
+    },
+    {
+      "role": "user",
+      "content": "她不知道。她以為我們是好的。"
+    },
+    {
+      "role": "assistant",
+      "content": "「她以為我們是好的」這句話裡，有一部分是真的，你們的日常是好的。另一部分是你還沒搞清楚自己，這個你今天才剛開始。"
+    },
+    {
+      "role": "user",
+      "content": "我哥那邊也是這樣。他幫我介紹我前妻、又默許我娶她。我每一次大的決定都是別人幫我安排好我點頭。連這個我都不確定是我自己選的。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天往前推一步，發現婚姻；再推一步，發現連這個選擇都不完全是你的。這不是巧合。你跟自己的距離，從很久以前就拉開了。"
+    },
+    {
+      "role": "user",
+      "content": "那我要怎麼辦。我不可能跟她講這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "今天先不要跟她講。也先不要做任何大動作。我有一個比較怪的建議，你聽完再決定。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "未來七天，每天晚上睡前，自己一個人在書房坐三分鐘。不要做事、不要看手機。只問自己一個問題：今天有沒有一個瞬間，你是真的在這個家裡，不是在演？有就用一句話記在手機備忘錄裡，沒有就空著。不要告訴你太太，也不要告訴你哥。七天後再回來。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}
