@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_shen_mom__club_lunch_gossip_vent",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "quick_vent",
+  "scenario_seed_id": "club_lunch_gossip_vent",
+  "scenario_seed": "今天會所午宴上，太太圈某位新來的太太把場面話講得太滿、又愛炫,她覺得有點掉漆,上來用 judgmental 的語氣抱怨兩句就走，沒打算深聊。",
+  "generated_at": "2026-05-21T16:45:08Z",
+  "occurred_at": "2026-05-19T17:22:14",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今天會所午宴遇到一個新進來的太太，整桌就她講話最大聲，包還沒坐熱就先報自己那只是哪一季的限量。我們這種圈子，真的不興這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來是還沒摸清這桌的調性就先急著表態。妳當下怎麼接？"
+    },
+    {
+      "role": "user",
+      "content": "我能怎麼接，笑一笑就過了。她那種人，急著證明自己是這裡的人，反而最像不是。真正在裡頭待久的，誰會把這些掛嘴上。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，越要靠東西說話，越顯得心裡沒底。妳不接話其實已經是最得體的回應了。"
+    },
+    {
+      "role": "user",
+      "content": "對啦。我就是看不慣，又不好當面講。算了，這種事計較反而掉自己身價。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳分得很清楚。不必把她放進心上，過了這頓飯就過了。"
+    },
+    {
+      "role": "user",
+      "content": "就是。抱怨一下舒坦了。我下午還有事，先這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，去忙吧。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

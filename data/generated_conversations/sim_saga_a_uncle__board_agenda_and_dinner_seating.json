@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_uncle__board_agenda_and_dinner_seating",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "logistics",
+  "scenario_seed_id": "board_agenda_and_dinner_seating",
+  "scenario_seed": "週四董事會議程要定下來、同一週六又有家族聚餐。他想一次把兩件行政的事理順、純治理跟排場，不談任何家人的情緒。",
+  "generated_at": "2026-05-20T08:11:44",
+  "occurred_at": "2026-05-19T16:08:31",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "週四的董事會議程幫我排一下順序。有四項：季度財報、新廠擴建案、人事調整、還有一個雜項。"
+    },
+    {
+      "role": "assistant",
+      "content": "哪一項最容易卡、需要最多討論時間？"
+    },
+    {
+      "role": "user",
+      "content": "擴建案。投票會有分歧。"
+    },
+    {
+      "role": "assistant",
+      "content": "那建議先財報暖場、把人盯著數字的狀態帶起來，第二項就上擴建案，趁大家精神最好的時候吵完。人事跟雜項放後面收尾。"
+    },
+    {
+      "role": "user",
+      "content": "人事為什麼放後面。"
+    },
+    {
+      "role": "assistant",
+      "content": "人事通常爭點少、好過。放最後可以讓會議在一個有共識的調子上結束，比擴建案那種拉鋸收尾乾淨。"
+    },
+    {
+      "role": "user",
+      "content": "可以。那另一件事，週六家族聚餐的座位。一張大圓桌，我要排。"
+    },
+    {
+      "role": "assistant",
+      "content": "圓桌的話，你習慣自己坐哪個位置？"
+    },
+    {
+      "role": "user",
+      "content": "我坐主位，面對門。我弟坐我右手邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "那左手邊通常留給次重要的長輩或主賓。其餘晚輩照輩分往兩側遞，年紀最小的離主位最遠，這樣動線跟敬酒順序都順。要我幫你把名字填進去嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不用，我自己填。順序對就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這兩件就定了。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

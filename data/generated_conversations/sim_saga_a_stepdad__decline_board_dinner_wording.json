@@ -1,0 +1,59 @@
+{
+  "id": "sim_saga_a_stepdad__decline_board_dinner_wording",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mundane_help",
+  "scenario_seed_id": "decline_board_dinner_wording",
+  "scenario_seed": "一位合作多年的同業大老闆臨時邀他週四晚上飯局，但他那晚已有另一場集團應酬走不開。想婉拒得體、不傷關係，但又不想顯得是因為另一場更重要才推掉。純措辭問題。",
+  "generated_at": "2026-05-20T03:41:55",
+  "occurred_at": "2026-05-19T10:08:33",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "陳董臨時約我週四晚上吃飯。我那晚走不開。要婉拒，幫我看一下措辭。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。先確認方向：你想留住這段關係、之後還要再約對吧？還是只是這次禮貌帶過？"
+    },
+    {
+      "role": "user",
+      "content": "要留。合作很多年的人。但我不想講太多那晚另一個局的細節。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就不解釋衝突內容，只給結論加一個替代時段。重點是讓他感覺你有把他放心上，不是被排在第二順位。要正式一點還是平常往來那種口氣？"
+    },
+    {
+      "role": "user",
+      "content": "我們算熟。平常往來就好，但不能太隨便。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣寫：「陳董，週四真不巧已經有先排定的安排，挪不開，實在抱歉。難得您開口，我很想坐下來好好聊。下週二或週三晚上我都空，您方便哪天我來訂？」你看可以嗎？"
+    },
+    {
+      "role": "user",
+      "content": "「我來訂」這句改一下。由我訂位是不是太刻意。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會刻意，反而是誠意——主動訂位等於你把這頓飯接過來辦，表示你重視。但如果你想低調一點，可以改成「下週二三晚上我都空，您挑個日子，地方我來安排」，把『訂位』換成『安排』，語氣鬆一點。"
+    },
+    {
+      "role": "user",
+      "content": "後面那版好。就用這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。完整版：「陳董，週四真不巧已經有先排定的安排，挪不開，實在抱歉。難得您開口，我很想坐下來好好聊。下週二三晚上我都空，您挑個日子，地方我來安排。」直接傳就行。"
+    },
+    {
+      "role": "user",
+      "content": "可以。謝了。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

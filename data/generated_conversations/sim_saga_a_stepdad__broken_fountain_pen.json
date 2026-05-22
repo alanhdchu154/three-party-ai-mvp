@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_stepdad__broken_fountain_pen",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "broken_fountain_pen",
+  "scenario_seed": "週一早上後爸發現書房裡那支結婚時 Michael 媽送的 Mont Blanc 鋼筆筆尖斷了一根纖維。是 Michael 寫週末作業時拿去用的，沒問也沒說。Michael 已經出門上學。後爸坐在書桌前，一個小時沒做事。",
+  "generated_at": "2026-05-18T15:10:54Z",
+  "occurred_at": "2026-05-18T09:48:00",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "情緒壓抑",
+    "繼父子關係冷感",
+    "男性 identity 受損",
+    "與大伯權力動態未處理",
+    "對 Michael 的真實情緒（不太喜歡）長期未承認"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "沒什麼大事。一支鋼筆。我繼子用了，筆尖斷了一根纖維。"
+    },
+    {
+      "role": "assistant",
+      "content": "「沒什麼大事」這句話開了你今天的對話。是哪個部分讓你想說一下？"
+    },
+    {
+      "role": "user",
+      "content": "我也不知道。坐在書房，看著它，一個小時沒做事。今天還有兩個會。"
+    },
+    {
+      "role": "assistant",
+      "content": "你還沒去開會，先打開這裡。先擱著那兩個會一下，這支筆對你有什麼意義？"
+    },
+    {
+      "role": "user",
+      "content": "結婚那年她送的。也不是什麼了不起的禮物，Mont Blanc 而已。家裡這種東西多。"
+    },
+    {
+      "role": "assistant",
+      "content": "「也不是什麼了不起」這句話，你是在說服我，還是在說服你自己？"
+    },
+    {
+      "role": "user",
+      "content": "……你問得很煩。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，那我先停一下。但你沒關掉對話。我繼續聽。"
+    },
+    {
+      "role": "user",
+      "content": "他用了沒問。筆尖斷了沒講。我太太剛才輕描淡寫說他可能不知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "「她說他可能不知道」——這句話讓你想點點頭，還是讓你心裡某個地方收緊？"
+    },
+    {
+      "role": "user",
+      "content": "收緊。但我沒辦法說為什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "之前他借你東西，發生過幾次？"
+    },
+    {
+      "role": "user",
+      "content": "有過。皮帶、領帶、外套。Prom 那次拿我那條 Hermès 領帶去拍照。我從來沒講。"
+    },
+    {
+      "role": "assistant",
+      "content": "你「從來沒講」是因為你不介意，還是因為你覺得自己不該介意？"
+    },
+    {
+      "role": "user",
+      "content": "……後者。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個「不該介意」是誰規定的？"
+    },
+    {
+      "role": "user",
+      "content": "我自己。一個 52 歲的男人，介意 17 歲繼子拿一支筆，這像話嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "你是在用「一個 52 歲男人應該怎樣」管你自己，不是用你自己。這兩個是不一樣的東西。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "停一下，我換個方向問。如果是可兒拿了這支筆，弄壞了沒講，你會怎樣？"
+    },
+    {
+      "role": "user",
+      "content": "那不一樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "哪裡不一樣？慢慢說，不用怕難聽。"
+    },
+    {
+      "role": "user",
+      "content": "可兒拿，是因為她知道我會給她。Michael 拿，是因為他覺得我不會說什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你能再說一次這句嗎？我想我聽到了一個你還沒讓自己聽到的東西。"
+    },
+    {
+      "role": "user",
+      "content": "他拿，是因為他覺得我不會說什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個句子裡的「我」，聽起來是一個會被默許的人，不是一個會被問過的人。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "你願意停在這裡一下嗎？不用急著解釋。"
+    },
+    {
+      "role": "user",
+      "content": "我這輩子一直都是那個會被默許的人。我哥對我也一樣。他做大決定不會問我。他知道我會接受。從小到大。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你今天早上看到的，不只是一支斷掉的筆。是一個你太熟的姿勢，出現在你以為安全的書房裡。"
+    },
+    {
+      "role": "user",
+      "content": "他在學我哥對我的方式。他自己不知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "他確實不知道。但你感覺得到。這個感覺有資格存在。"
+    },
+    {
+      "role": "user",
+      "content": "我從來沒對任何人說過這個。連我太太都沒講過。"
+    },
+    {
+      "role": "assistant",
+      "content": "我聽到了。先謝謝你說出來。今天就到這邊也可以。"
+    },
+    {
+      "role": "user",
+      "content": "那我該怎麼辦。叫他下次先問嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個太快了，而且不是你今天真正需要的東西。我有一個比較怪的建議，你聽完再決定要不要。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "把那支斷尖的筆，原樣留在你書桌上七天。不要修，不要丟，不要收起來。每天進書房經過你看它一眼。也不要跟任何人講它斷了——包括你太太。"
+    },
+    {
+      "role": "user",
+      "content": "為什麼？修一下不就好了。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為你今天的問題不是那支筆。是你跟你自己這個感覺還沒處過。修掉它，這個感覺也被掃掉了，你又回去當那個會被默許的人。留著它，看第三天、第五天、第七天你的反應有沒有變——那個變化才是你真的可以拿去做下一個決定的東西。在那之前，這支筆是你自己的。七天後你想說，再回來。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

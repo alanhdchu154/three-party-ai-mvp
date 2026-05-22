@@ -116,7 +116,7 @@ Whether to scope this product as:
 Alan has not committed. Revisit when there's real pilot traction.
 
 ### D. Security reminder
-Alan shared his Gemini API key (`AIzaSyBedUI94...`) in plaintext chat during the Dispatch session. He has agreed to **rotate the key after testing**. If you see him still using the same key after a few days, remind him.
+Alan shared a Gemini API key in plaintext chat during the Dispatch session. He has agreed to **rotate the key after testing**. If you see him still using the same key after a few days, remind him.
 
 ## Tone reminders
 

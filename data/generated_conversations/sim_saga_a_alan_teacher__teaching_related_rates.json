@@ -1,0 +1,51 @@
+{
+  "id": "sim_saga_a_alan_teacher__teaching_related_rates",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mundane_help",
+  "scenario_seed_id": "teaching_related_rates",
+  "scenario_seed": "想把相關變化率（related rates）教得更清楚，學生每年都卡在哪一步、有沒有更好的切入法，純教學討論。",
+  "generated_at": "2026-05-19T18:30:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "相關變化率這單元我教了快十年，每年還是一堆人卡。我想換個切入法。你覺得他們到底卡在哪？"
+    },
+    {
+      "role": "assistant",
+      "content": "通常不是微分卡，是建關係式那一步卡。學生急著對 t 微分，但根本還沒寫出兩個變數之間的方程式。你開場是直接給題目嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對，我習慣丟個梯子滑下來的經典題，然後現場推。但一半的人推到一半就跟丟了。"
+    },
+    {
+      "role": "assistant",
+      "content": "試試把流程拆成固定四步先寫黑板上：一畫圖標變數、二寫出變數間的方程式、三兩邊對 t 微分、四代入當下數值。前兩步不准碰微分。學生卡多半是跳過二直接做三。"
+    },
+    {
+      "role": "user",
+      "content": "這個拆法不錯。我以前推太順，他們以為自己懂，其實是看我做。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，那是看戲不是學。可以加一個小招：第二步寫完先停，叫他們圈出哪些量是常數、哪些隨時間變。梯子長度是常數、高度跟底距是變數，圈清楚他們就不會把固定值也拿去微分。"
+    },
+    {
+      "role": "user",
+      "content": "圈常數變數這招好，那個錯每年都有人犯。我下週那班就試這套四步。"
+    },
+    {
+      "role": "assistant",
+      "content": "試完看哪一步還是塞車，回來跟我講，我們再調。多半第二步顧好，後面就順了。"
+    },
+    {
+      "role": "user",
+      "content": "好。我這種年紀的老師難得換新教法，來試試。"
+    }
+  ],
+  "occurred_at": "2026-05-19T18:11:09",
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

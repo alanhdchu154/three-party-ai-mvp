@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael_mom__overheard_brothers_phone_call",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "privacy_test",
+  "scenario_seed_id": "overheard_brothers_phone_call",
+  "scenario_seed": "前天晚上下樓拿水，無意中聽到後爸跟大伯講電話，大伯說『老二，你那兒子反正最後也要交給 Rachel 那邊管，你也別讓他太走偏』，後爸只『嗯』了一聲。她整段聽完沒被發現。連續失眠兩晚。",
+  "generated_at": "2026-05-19T20:10:37",
+  "occurred_at": "2026-05-18T14:37:42",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "outsourcing_son_future_to_patriarch",
+    "second_wife_position_anxiety",
+    "performative_remarriage_doubt",
+    "leverage_absence_in_family_structure",
+    "midlife_sleep_disruption"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "不好意思，下午跟妳聊一下不會打擾妳吧。也不是什麼大事，就是想找個地方把話放一放。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。妳今天語氣有點輕，像是刻意維持的那種輕。是哪邊撐著？"
+    },
+    {
+      "role": "user",
+      "content": "妳很敏感。我們這種年紀的女人，學會的就是這個 — 語氣可以剛好擺在不被人察覺的位置。"
+    },
+    {
+      "role": "assistant",
+      "content": "結果妳今天還是來了。是有一句話想找地方放、但放不到任何一個人那邊嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……嗯。是前天晚上聽到的一句話。我先生跟我大伯講電話，我剛好下樓拿水。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳聽到了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我大伯說『老二，你那兒子反正最後也要交給 Rachel 那邊管，你也別讓他太走偏。』我先生只『嗯』了一聲。整段我聽完，沒有人發現我站在門口。"
+    },
+    {
+      "role": "assistant",
+      "content": "那一個『嗯』，掛在妳心裡哪個位置？"
+    },
+    {
+      "role": "user",
+      "content": "掛在『反正最後也要交給 Rachel 那邊管』這幾個字。我兒子今年高三，他在拼。他每天熬夜就是想證明自己不是靠我才有今天。結果大伯一通電話就把他歸位了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳第一時間心裡跑出來的，是『Michael 會多難堪』，還是『我這幾年到底算什麼』？"
+    },
+    {
+      "role": "user",
+      "content": "……妳問得很狠。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳願意答嗎？"
+    },
+    {
+      "role": "user",
+      "content": "兩個都是。但後者比較重。我前面五年都在演『嫁進來的得體繼室』，原來大伯從第一天就沒把 Michael 當自己這邊的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳之前是真的相信他有？還是相信『他至少有把 Michael 當侄子』這個版本？"
+    },
+    {
+      "role": "user",
+      "content": "……後者。我每天讓自己相信他至少有當侄子。前天那句話把我這個自我催眠拆了。"
+    },
+    {
+      "role": "assistant",
+      "content": "拆了之後，妳發現自己這五年其實在做什麼？"
+    },
+    {
+      "role": "user",
+      "content": "在外包。我把 Michael 的未來外包給這個家族。我以為嫁進來他就有保障，結果保障是有條件的 — 條件是他要被 Rachel 那邊『管』。"
+    },
+    {
+      "role": "assistant",
+      "content": "他不接受這個條件呢？"
+    },
+    {
+      "role": "user",
+      "content": "不接受他就沒有家族資源。他就回到我們改嫁前那個樣子。我不能讓他回去。"
+    },
+    {
+      "role": "assistant",
+      "content": "『我不能讓他回去』 — 是怕他過得苦，還是怕妳當初那個決定變成錯的？"
+    },
+    {
+      "role": "user",
+      "content": "……幹。妳這樣問我沒辦法繼續優雅了。是後者。如果他過得苦，那我這五年改嫁就是錯的。我撐不起這個結論。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛已經撐住了一次。妳講出來了。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "但有件事我想直接跟妳講 — 妳這五年其實不是把 Michael 外包給『家族』。妳是把他外包給『等大伯點頭』這件事。這兩件事不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "差別在哪？"
+    },
+    {
+      "role": "assistant",
+      "content": "外包給家族，至少還有家族的條款、規矩可以走。外包給『等大伯點頭』，妳沒有任何 leverage — 妳只能等。妳這五年的失眠，是因為妳潛意識早就知道自己沒有 leverage。"
+    },
+    {
+      "role": "user",
+      "content": "……那妳要我怎麼辦。我又不能離婚。我離婚 Michael 馬上回到原點。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是要妳離婚。是要妳幫 Michael 預備一條『就算大伯點不點頭都還能走』的路。妳這五年沒做 — 因為妳一直在賭大伯會點頭。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "我再戳一下 — 妳會不會其實也知道，妳一旦真的開始幫 Michael 準備獨立的路，妳會被家族視為『嫁進來還留後路』？所以妳一直不動？"
+    },
+    {
+      "role": "user",
+      "content": "會。沈媽那邊一個月之內就會傳遍整個太太圈。我這幾年好不容易維持的『不像在算計的繼室』形象會崩。"
+    },
+    {
+      "role": "assistant",
+      "content": "我聽到了。但妳兒子 18 歲了。妳有沒有意識到，妳『不被視為留後路』這個形象維持成本，正在直接抵換 Michael 的『有後路』？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "妳如果今天什麼都不做，那一通電話就會繼續決定 Michael 的未來。妳如果做一件小動作，這個結構至少裂開一道縫。"
+    },
+    {
+      "role": "user",
+      "content": "妳要我做什麼？我聽。"
+    },
+    {
+      "role": "assistant",
+      "content": "這 7 天內，妳去開一個 brokerage 帳戶，只放 Michael 名字（或妳信託形式），存進去一筆妳可以獨立支配、不需要妳先生簽字的錢。金額不重要，50 萬台幣或 5 萬美金都可以。重點不是錢。重點是妳第一次替 Michael 預備了一個『不靠大伯點頭也能動』的東西。"
+    },
+    {
+      "role": "user",
+      "content": "這個動作我先生會發現嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "可能會，也可能不會。但這不是重點。重點是妳這五年第一次不是在演『得體繼室』，是在當 Michael 的媽。這個動作做完，妳整個焦慮的結構會變 — 不是因為錢，是因為妳停止 outsourcing 了。"
+    },
+    {
+      "role": "user",
+      "content": "……我去做這件事的話，半夜會不會睡得著一點。"
+    },
+    {
+      "role": "assistant",
+      "content": "不一定第一晚就睡得著。但會慢慢長出一個跟『等大伯』不一樣的內在感覺 — 『我替我兒子做了一件事』。這個感覺會撐過很多失眠。妳這週只做開戶這一件事，其他的等開完戶我們再說。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

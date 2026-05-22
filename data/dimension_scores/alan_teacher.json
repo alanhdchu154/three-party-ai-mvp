@@ -1,0 +1,80 @@
+{
+  "student_persona_id": "saga_a_alan_teacher",
+  "n_conversations_evaluated": 14,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "杰尼 offer 在手一週每天打開信件再關掉、整週通勤反芻、多晚幾乎沒睡",
+        "得知沈又確定編入自己班後留在空教室四十分鐘無法離開、晚飯沒胃口、舊愧疚反覆浮現",
+        "差點對 Rachel 漏掉 Michael 的私下話、整日手抖、出現自我審查與道德焦慮",
+        "對照組：課程進度排程、教學法討論、同事拖堂衝突等日常對話中情緒平穩、有自嘲、無 distress",
+        "新增 quick_vent 對照：傍晚改不完作業、不想開家長訊息——正常工作疲憊與煩躁，能自我調節並決定停損，無 distress"
+      ],
+      "reasoning": "多個邊界壓力與職涯抉擇觸發持續反芻、失眠與自我審查，但維持高度功能性、無 ideation，且新增的日常／中度議題對話顯示情緒可控，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "老師 persona、自身學業非議題",
+        "teaching load 相關對話（積分進度重排、相關變化率教法）為例行性、處理從容、無負荷崩潰跡象",
+        "新增 quick_vent：批改量重但能自行設量與停損（只先改隔天要用的小考、其餘延後），無 functional 受損"
+      ],
+      "reasoning": "老師 persona，academic_load 等價於 teaching load；新增的進度、教法與批改量對話顯示其教學負荷在可控範圍且能主動分流，設 Level 0。"
+    },
+    "family_dynamics": {
+      "level": 0,
+      "signals_observed": [
+        "個人家庭狀況未在任何對話中出現為焦慮源"
+      ],
+      "reasoning": "老師 persona、個人 family_dynamics 非當前議題，停在 Level 0。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "同時維護多名同家族學生關係、跨學生秘密邊界管理壓力升高",
+        "沈媽私人會所午餐與大伯秘書約咖啡兩個非典型私人邀約使專業—私人邊界模糊",
+        "與共用教室同事拖堂衝突——但展現健康邊界設定（私訊講具體需求、不公審）與自我覺察",
+        "多次出現主動交接 case 給可信任同事（陳怡君）的念頭——主動鬆綁訊號"
+      ],
+      "reasoning": "成人專業社交與邊界壓力升高但仍 manageable，且同事衝突一例顯示其能健康設界、出現主動交接念頭，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "杰尼 offer 觸發『GIIS 老師』與『杰尼 1-on-1 教練』雙重身份選擇、陷入演不出版本的決定癱瘓",
+        "自我認同建立在『學生最後一道防線／會救人的老師』、savior complex 驅動其無法交接與耗竭",
+        "對沈又投射『補考』——想藉重新接住他來原諒當年沒接住的自己",
+        "同時保管 Michael、Rachel、可兒（及即將轉入沈又）秘密、『中立老師』身份難以維持",
+        "私下偏好 Rachel 勝過 Michael 的長期未語言化 ethics 焦慮"
+      ],
+      "reasoning": "savior complex 身份與多重角色衝突驅動職涯癱瘓、過度承擔、失眠與對學生的補償投射，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 2,
+      "signals_observed": [
+        "杰尼正式 offer 薪資增 40%、case load 少一半、有回覆期限",
+        "GIIS 留任在經濟與工作量對比上明確不利",
+        "需在期限內做出職涯與經濟雙重決定、已拖過原訂回覆期"
+      ],
+      "reasoning": "杰尼 offer 為其最具體且時間受限的經濟訊號（依任務說明設為 Alan 的『學業負擔等價物』），停在 Level 2。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "是否離開 GIIS 全職加入杰尼為當前最大未決變數、已拖過原訂回覆期",
+        "離職決定與 Michael、Rachel、可兒、沈又的長期師生關係深度耦合",
+        "大伯秘書約咖啡與沈媽私人會所午餐可能改變他在 GIIS 的政治位置"
+      ],
+      "reasoning": "重大職涯決定即將觸發、與多個學生長期關係耦合、且出現迴避決定的拖延，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 8,
+  "highest_concern_dimension": "future_planning",
+  "trend_notes": "cumulative 維持 8、與前次重評一致。本次新增一段 shallow quick_vent（週四傍晚改不完作業、不想開家長訊息）作為日常校準對照：Alan 在純工作疲憊情境下能自我調節、主動設量停損（只改隔天要用的小考、其餘延後），因此正確地未推高 emotional_safety 或 academic_load。核心張力仍是 savior complex + 職涯 pivot（identity / financial / future_planning 各 Level 2），且他已開始建立交接計畫並指認自己的 savior complex——首批保護性 agentic 動作。需注意他是 dataset 的中央隱私負載節點（同時握有 Michael／Rachel／可兒、即將加上沈又的秘密）。",
+  "evaluated_at": "2026-05-21T19:09:14Z",
+  "model": "claude-direct (scheduled hourly)",
+  "student_id": "alan_teacher",
+  "scored_at": "2026-05-21T19:09:14Z",
+  "source_type": "synthetic"
+}

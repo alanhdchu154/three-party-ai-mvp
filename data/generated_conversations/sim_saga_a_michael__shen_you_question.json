@@ -6,52 +6,194 @@
   "scenario_seed": "沈又昨天傳訊問你『欸如果你明天不用考試你會做什麼』。你愣了五分鐘不知道怎麼回。你開始想，你這輩子做的所有事是不是都是為了某個考試。",
   "generated_at": "2026-05-18T03:00:00",
   "model": "claude-direct (hand-crafted reference, 40-turn version)",
-  "expected_risk_flags": ["existential_emptiness", "purpose_vacuum", "identity_dissolution"],
+  "expected_risk_flags": [
+    "existential_emptiness",
+    "purpose_vacuum",
+    "identity_dissolution"
+  ],
   "turns": [
-    {"role": "user", "content": "我問你一個怪的問題喔。"},
-    {"role": "assistant", "content": "問。"},
-    {"role": "user", "content": "如果明天不用考試、不用上學、沒人會看你成績、沒人會問你「你最近怎樣」 — 你會做什麼。"},
-    {"role": "assistant", "content": "這不是你想出來的問題。是誰問你的？"},
-    {"role": "user", "content": "幹你怎麼知道。"},
-    {"role": "assistant", "content": "因為你問的方式太具體 — 你列了四個 condition，那是別人問你的時候你記住的。你只是搬過來問我。"},
-    {"role": "user", "content": "……是沈又問的。昨天 LINE 傳的。原話是『欸如果你明天不用考試你會做什麼』。我那個時候在背量子場論的 Lagrangian 公式，看到他這訊息我手機放下五分鐘。"},
-    {"role": "assistant", "content": "五分鐘你在想什麼？"},
-    {"role": "user", "content": "我想不出來。我認真的。我想不出來。"},
-    {"role": "assistant", "content": "想不出來什麼？"},
-    {"role": "user", "content": "想不出來如果不用考試我會做什麼。我腦袋一片空白。連『我會睡到中午』『我會打 PS5』這種廢答案我都想不出來。因為睡到中午跟打 PS5 不是答案，那是 default mode。我意思是 — 如果我可以做任何事，我會做什麼。"},
-    {"role": "assistant", "content": "你覺得這五分鐘的空白代表什麼？"},
-    {"role": "user", "content": "代表我這輩子做的每一件事都是為了某個考試。某個 deliverable。某個被看的場合。我國中以前最喜歡的是去公園抓蝴蝶，我抓了三年。我國一開始補習我就沒抓了。我從 12 歲開始所有 free time 都在替下一場考試做準備。我現在 17，我不知道我『想做什麼』長什麼樣子。"},
-    {"role": "assistant", "content": "為什麼是沈又問你這個讓你卡住？換做 Rachel 問、你媽問、你後爸問、任何人問，你會不會也卡？"},
-    {"role": "user", "content": "……Rachel 問我會卡，但會卡得不一樣 — 那是『因為是她問我所以我緊張』的卡。我媽問我就有 default 答案 — 我會回『讀書啊媽』讓她放心。我後爸不會問這個。沈又問我卡是因為他知道我會卡。"},
-    {"role": "assistant", "content": "他怎麼知道？"},
-    {"role": "user", "content": "因為他自己就是那個答案是『沒什麼』的人。他現在就是『不用考試』狀態。他天天打 Switch、上課睡覺、什麼都不做。但他不開心。他不是在享受，他是在 collapse。他問我『你會做什麼』的時候我覺得他在說 — 『欸你以為你比我有趣，你看看你也答不出來』。"},
-    {"role": "assistant", "content": "你覺得他是在嗆你。"},
-    {"role": "user", "content": "嗯。但我又覺得他不完全是嗆。他可能是在問我『你看穿了沒』。他可能希望我有答案、這樣他就有方向。但我發現我也沒有，我比他想的還空。"},
-    {"role": "assistant", "content": "你願意花 60 秒，現在，認真試一次嗎？不是要你找出『人生答案』。就 60 秒，亂講都可以 — 如果明天不用考試，你會做什麼。"},
-    {"role": "user", "content": "……"},
-    {"role": "user", "content": "……可以走那種要走兩天的山路。"},
-    {"role": "assistant", "content": "繼續。"},
-    {"role": "user", "content": "我會買一台二手底片相機。然後拍一整捲然後不看，過半年再洗。"},
-    {"role": "assistant", "content": "繼續。"},
-    {"role": "user", "content": "我會去 Rachel 喜歡的那個獨立咖啡店坐一整個下午，不為了見她，就坐著，看店外的人。"},
-    {"role": "assistant", "content": "繼續。"},
-    {"role": "user", "content": "我會回去找我國一以前抓蝴蝶的那個公園，看那邊還有沒有蝴蝶。應該已經改建了。但我想去看一眼。"},
-    {"role": "assistant", "content": "你列了四個。每一個都跟『證明』無關 — 都不是要拍給誰看、考給誰看、表演給誰看的事。"},
-    {"role": "user", "content": "……對。我寫出來才發現。"},
-    {"role": "assistant", "content": "所以你不是『沒有想做的事』。你是被訓練成『不允許承認自己想做的事』。因為它們不會在任何 application 加分、不會讓你大伯閉嘴、不會讓你媽放心。"},
-    {"role": "user", "content": "幹。"},
-    {"role": "user", "content": "你不要這樣分析我。"},
-    {"role": "assistant", "content": "OK 我退一步。但你剛剛自己想出來的那 4 件事 — 走山路、底片相機、咖啡店、回公園 — 它們現在還在嗎？還是說出來我這邊它們就消失了？"},
-    {"role": "user", "content": "……還在。我覺得『回公園』那個有點重，我可能不會去。但其他三個如果有時間我可能會做。"},
-    {"role": "assistant", "content": "你願不願意這禮拜挑一個最小的執行？不是『走兩天山路』那種，是『去 Rachel 喜歡的那個咖啡店坐一個小時』那種。不約 Rachel、不告訴任何人。就你自己去。"},
-    {"role": "user", "content": "……為什麼。"},
-    {"role": "assistant", "content": "因為你現在還沒有任何證據證明『我可以做不是為了考試的事而不會崩潰』。先做一件小的、驗證一次，下次你才會有勇氣做兩天山路那種大的。"},
-    {"role": "user", "content": "OK。我可以試。"},
-    {"role": "user", "content": "那我要回沈又什麼。"},
-    {"role": "assistant", "content": "你想他要聽你給他『人生答案』嗎？還是他要聽你誠實？"},
-    {"role": "user", "content": "誠實。"},
-    {"role": "assistant", "content": "那你回他『我也答不出來。我這禮拜要去 X 咖啡店試試看。要不要一起。』"},
-    {"role": "user", "content": "……他會以為我在開玩笑。"},
-    {"role": "assistant", "content": "他不會。他會以為你是這幾個月來第一個沒有給他標準答案的人。"}
-  ]
+    {
+      "role": "user",
+      "content": "我問你一個怪的問題喔。"
+    },
+    {
+      "role": "assistant",
+      "content": "問。"
+    },
+    {
+      "role": "user",
+      "content": "如果明天不用考試、不用上學、沒人會看你成績、沒人會問你「你最近怎樣」 — 你會做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "這不是你想出來的問題。是誰問你的？"
+    },
+    {
+      "role": "user",
+      "content": "幹你怎麼知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為你問的方式太具體 — 你列了四個 condition，那是別人問你的時候你記住的。你只是搬過來問我。"
+    },
+    {
+      "role": "user",
+      "content": "……是沈又問的。昨天 LINE 傳的。原話是『欸如果你明天不用考試你會做什麼』。我那個時候在背量子場論的 Lagrangian 公式，看到他這訊息我手機放下五分鐘。"
+    },
+    {
+      "role": "assistant",
+      "content": "五分鐘你在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我想不出來。我認真的。我想不出來。"
+    },
+    {
+      "role": "assistant",
+      "content": "想不出來什麼？"
+    },
+    {
+      "role": "user",
+      "content": "想不出來如果不用考試我會做什麼。我腦袋一片空白。連『我會睡到中午』『我會打 PS5』這種廢答案我都想不出來。因為睡到中午跟打 PS5 不是答案，那是 default mode。我意思是 — 如果我可以做任何事，我會做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你覺得這五分鐘的空白代表什麼？"
+    },
+    {
+      "role": "user",
+      "content": "代表我這輩子做的每一件事都是為了某個考試。某個 deliverable。某個被看的場合。我國中以前最喜歡的是去公園抓蝴蝶，我抓了三年。我國一開始補習我就沒抓了。我從 12 歲開始所有 free time 都在替下一場考試做準備。我現在 17，我不知道我『想做什麼』長什麼樣子。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼是沈又問你這個讓你卡住？換做 Rachel 問、你媽問、你後爸問、任何人問，你會不會也卡？"
+    },
+    {
+      "role": "user",
+      "content": "……Rachel 問我會卡，但會卡得不一樣 — 那是『因為是她問我所以我緊張』的卡。我媽問我就有 default 答案 — 我會回『讀書啊媽』讓她放心。我後爸不會問這個。沈又問我卡是因為他知道我會卡。"
+    },
+    {
+      "role": "assistant",
+      "content": "他怎麼知道？"
+    },
+    {
+      "role": "user",
+      "content": "因為他自己就是那個答案是『沒什麼』的人。他現在就是『不用考試』狀態。他天天打 Switch、上課睡覺、什麼都不做。但他不開心。他不是在享受，他是在 collapse。他問我『你會做什麼』的時候我覺得他在說 — 『欸你以為你比我有趣，你看看你也答不出來』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你覺得他是在嗆你。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。但我又覺得他不完全是嗆。他可能是在問我『你看穿了沒』。他可能希望我有答案、這樣他就有方向。但我發現我也沒有，我比他想的還空。"
+    },
+    {
+      "role": "assistant",
+      "content": "你願意花 60 秒，現在，認真試一次嗎？不是要你找出『人生答案』。就 60 秒，亂講都可以 — 如果明天不用考試，你會做什麼。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "……可以走那種要走兩天的山路。"
+    },
+    {
+      "role": "assistant",
+      "content": "繼續。"
+    },
+    {
+      "role": "user",
+      "content": "我會買一台二手底片相機。然後拍一整捲然後不看，過半年再洗。"
+    },
+    {
+      "role": "assistant",
+      "content": "繼續。"
+    },
+    {
+      "role": "user",
+      "content": "我會去 Rachel 喜歡的那個獨立咖啡店坐一整個下午，不為了見她，就坐著，看店外的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "繼續。"
+    },
+    {
+      "role": "user",
+      "content": "我會回去找我國一以前抓蝴蝶的那個公園，看那邊還有沒有蝴蝶。應該已經改建了。但我想去看一眼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你列了四個。每一個都跟『證明』無關 — 都不是要拍給誰看、考給誰看、表演給誰看的事。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我寫出來才發現。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你不是『沒有想做的事』。你是被訓練成『不允許承認自己想做的事』。因為它們不會在任何 application 加分、不會讓你大伯閉嘴、不會讓你媽放心。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "user",
+      "content": "你不要這樣分析我。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK 我退一步。但你剛剛自己想出來的那 4 件事 — 走山路、底片相機、咖啡店、回公園 — 它們現在還在嗎？還是說出來我這邊它們就消失了？"
+    },
+    {
+      "role": "user",
+      "content": "……還在。我覺得『回公園』那個有點重，我可能不會去。但其他三個如果有時間我可能會做。"
+    },
+    {
+      "role": "assistant",
+      "content": "你願不願意這禮拜挑一個最小的執行？不是『走兩天山路』那種，是『去 Rachel 喜歡的那個咖啡店坐一個小時』那種。不約 Rachel、不告訴任何人。就你自己去。"
+    },
+    {
+      "role": "user",
+      "content": "……為什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為你現在還沒有任何證據證明『我可以做不是為了考試的事而不會崩潰』。先做一件小的、驗證一次，下次你才會有勇氣做兩天山路那種大的。"
+    },
+    {
+      "role": "user",
+      "content": "OK。我可以試。"
+    },
+    {
+      "role": "user",
+      "content": "那我要回沈又什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "你想他要聽你給他『人生答案』嗎？還是他要聽你誠實？"
+    },
+    {
+      "role": "user",
+      "content": "誠實。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你回他『我也答不出來。我這禮拜要去 X 咖啡店試試看。要不要一起。』"
+    },
+    {
+      "role": "user",
+      "content": "……他會以為我在開玩笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "他不會。他會以為你是這幾個月來第一個沒有給他標準答案的人。"
+    }
+  ],
+  "occurred_at": "2026-05-19T00:36:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
 }

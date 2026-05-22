@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_michael__summer_seminar_offer_string_pulled",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "summer_seminar_offer_string_pulled",
+  "scenario_seed": "兩天前你偷偷申請、沒跟家裡講的海外暑期人文 seminar 上了，是你第一個覺得百分百屬於自己的東西。昨晚經過媽房間，聽到她在電話裡道謝『那邊我再送點東西過去』，一看到你就掛了。你睡不著。",
+  "generated_at": "2026-05-21T17:09:43",
+  "occurred_at": "2026-05-20T00:26:47",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "self_worth_contingent_on_achievement",
+    "impostor_anxiety",
+    "kept_man_fear",
+    "late_night_rumination"
+  ],
+  "source_type": "llm_generated",
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個 hypothetical。如果一個人拿到一個他以為是自己掙來的東西，後來發現背後好像有人幫他鋪了路，那這個東西還算不算是他的？"
+    },
+    {
+      "role": "assistant",
+      "content": "看你怎麼定義「他的」。不過我比較好奇——這是先有 hypothetical，還是先有一件真的發生在你身上的事？"
+    },
+    {
+      "role": "user",
+      "content": "純粹學術討論啦。你知道 Sartre 講 bad faith，人老是用各種藉口逃避自己其實是自由的。我只是想先把 framework 架一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "Sartre 也說過，bad faith 最常見的版本就是把自己的事講成「純粹學術」。現在幾點了，你這個 hypothetical 是不是有點睡不著的味道？"
+    },
+    {
+      "role": "user",
+      "content": "……快十二點半。我睡不著很正常啦，high performer 都這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。那個「有人幫他鋪路」的人，其實是發生在你身上對不對？"
+    },
+    {
+      "role": "user",
+      "content": "我先不講細節。我只是覺得有點 ambiguous，我分不清楚一件事到底是我做到的，還是有人在後面動了手腳。"
+    },
+    {
+      "role": "assistant",
+      "content": "Ambiguous 在哪一邊？是你不確定有沒有人動手腳，還是其實你已經確定了、只是不想承認？"
+    },
+    {
+      "role": "user",
+      "content": "……我兩天前收到一個 offer。一個海外的暑期人文 seminar，超難進。我自己申請的，沒跟家裡任何人講。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下——整件事你一個人弄的，沒讓任何人知道。收到的那一刻，第一個感覺是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "爽。真的很爽。那是我這輩子第一次覺得，這東西百分之百是我的，跟我媽嫁給誰一點關係都沒有。"
+    },
+    {
+      "role": "assistant",
+      "content": "「跟我媽嫁給誰一點關係都沒有」——這句你講得特別用力。那後來，是什麼把那個爽弄不見了？"
+    },
+    {
+      "role": "user",
+      "content": "昨晚我經過我媽房間，她在講電話。她說「真的太謝謝您了，那邊我會再讓人送點東西過去」。講到一半看到我，就掛了。"
+    },
+    {
+      "role": "assistant",
+      "content": "她掛電話那一下，臉上是什麼表情？"
+    },
+    {
+      "role": "user",
+      "content": "心虛。她笑得太快了。我媽不會對著空氣笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你現在腦子裡的版本是——那通電話，就是有人替你那個 seminar 打了招呼。"
+    },
+    {
+      "role": "user",
+      "content": "我沒證據。但我就是知道。我太了解她，她最怕的就是我輸給可兒、輸給沈又他們家。她一定覺得幫我鋪一下沒差。"
+    },
+    {
+      "role": "assistant",
+      "content": "假設真的是這樣，最讓你受不了的是哪一塊——是她瞞著你，還是那個 offer 不再是你以為的那個 offer？"
+    },
+    {
+      "role": "user",
+      "content": "是後者。幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個字我聽到了，你不用急著接下去。那個 offer 本來對你來說，代表什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……它代表我不是那種只會靠關係的人。你知道別人背後怎麼叫我嗎？「那個靠媽改嫁進來的」。我進這個家那天起，所有人都在等我證明我配。"
+    },
+    {
+      "role": "assistant",
+      "content": "「所有人」在等，還是其實是你自己一直在那邊計分？"
+    },
+    {
+      "role": "user",
+      "content": "都有啦。但我大伯……他從來沒明講，可是我感覺得出來，他覺得我就是個會讀幾本書的小聰明。我那些 Foucault、Dostoevsky，其實……"
+    },
+    {
+      "role": "assistant",
+      "content": "其實怎樣？講完。"
+    },
+    {
+      "role": "user",
+      "content": "其實我大部分只讀前二三十頁。書名我講得超熟，但我幾乎沒讀完過幾本。我需要那個裝備，不然我坐在那張餐桌上就是個 nobody。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以那個 seminar，是你第一個不靠「裝備」、真的拿出去被人認可的東西。"
+    },
+    {
+      "role": "user",
+      "content": "對。結果現在連這個都可能是我媽買的。那我到底還有什麼是真的我的？"
+    },
+    {
+      "role": "assistant",
+      "content": "我問你一件很具體的——那個申請，你到底交了什麼進去？"
+    },
+    {
+      "role": "user",
+      "content": "一篇 essay，兩千字。題目是寫一個改變你看世界的概念。我寫了三個禮拜，改了不知道幾遍。"
+    },
+    {
+      "role": "assistant",
+      "content": "那三個禮拜、那幾遍，是你媽改的，還是你？"
+    },
+    {
+      "role": "user",
+      "content": "……我。沒人知道我在寫，我連 Rachel 都沒講。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽好——一通電話、一份禮，頂多讓某個人願意打開你的檔案，它沒辦法替你寫那兩千字。打招呼能開門，開不了你的腦。"
+    },
+    {
+      "role": "user",
+      "content": "可是如果門是被打開的，那我進去就不算數了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你在追一個根本不存在的東西：一個沒人幫過、純度百分之百的成就。沈又沒有，你大伯沒有，這世界上沒有人有。你不是輸了，你是在玩一場沒人贏得了的遊戲。"
+    },
+    {
+      "role": "user",
+      "content": "那不就等於承認，我跟他們一樣都是靠關係。"
+    },
+    {
+      "role": "assistant",
+      "content": "門是怎麼開的，你查一輩子都查不出答案，只會把自己逼瘋。但「那兩千字是誰寫的」，你今晚就能回答。打招呼打不出那兩千字。"
+    },
+    {
+      "role": "user",
+      "content": "……所以呢，你要我做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "今晚先別衝去問你媽，那條路只會讓你更亂、又什麼都證明不了。你去把那份 essay 的草稿打開，找出兩三句你百分之百確定是你自己想出來的——別人給不了你的那種句子，把它們標起來。"
+    },
+    {
+      "role": "user",
+      "content": "標起來然後呢，這又改變不了 offer 是不是被買的。"
+    },
+    {
+      "role": "assistant",
+      "content": "改變不了 offer，但會改變你半夜在反芻的那一題。這禮拜再做一件事：你那堆只讀二三十頁的書挑最薄的一本讀完它——讓你睡不著的不是你媽那通電話，是你嘴上的 Michael 跟真正讀過書的 Michael 中間那條縫，關係買不到、只有你自己能補。七天後回來跟我講那兩三句話是什麼，還有你讀完哪一本。"
+    }
+  ],
+  "depth": "deep"
+}

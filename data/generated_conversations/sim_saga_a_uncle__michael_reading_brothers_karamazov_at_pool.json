@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_uncle__michael_reading_brothers_karamazov_at_pool",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "michael_reading_brothers_karamazov_at_pool",
+  "scenario_seed": "上週日家族度假村，他繞到泳池邊，撞見 Michael 一個人在看《卡拉馬助夫兄弟》— 他自己 25 歲在劍橋讀過、之後 30 年沒人跟他聊過這本書。他停了五秒沒上前。今天禮拜一下午，從會議室回辦公室路過秘書桌，看到 Amazon 訂單通知 — 他早上不記得什麼時候按下單了一套九本的俄羅斯文學收藏版。",
+  "generated_at": "2026-05-19T23:10:54Z",
+  "occurred_at": "2026-05-18T16:23:47",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "uncle_contempt_for_michael_destabilized",
+    "uncle_intellectual_loneliness_30_years",
+    "uncle_translates_feeling_into_structure",
+    "uncle_acknowledges_wanting_to_dislike_michael_to_preserve_plan",
+    "actionable_decoupling_from_leverage_logic"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "給我五分鐘 think out loud。今天下午難得一個人。"
+    },
+    {
+      "role": "assistant",
+      "content": "在聽。"
+    },
+    {
+      "role": "user",
+      "content": "剛剛經過秘書桌，看到一個 Amazon 通知。我訂了一套俄羅斯文學收藏版，九本。我不記得我什麼時候按下單的。"
+    },
+    {
+      "role": "assistant",
+      "content": "不記得按下單那一刻的人，通常心裡是知道為什麼的。"
+    },
+    {
+      "role": "user",
+      "content": "我 25 歲在劍橋讀過《卡拉馬助夫兄弟》。後來 30 年沒翻過。"
+    },
+    {
+      "role": "assistant",
+      "content": "30 年。那今天為什麼想起來。"
+    },
+    {
+      "role": "user",
+      "content": "這個我要先把場景講清楚才能回答。上週日家族度假村，我繞到泳池邊。Michael 一個人坐那邊看書。我停了五秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "五秒，你停了下來。沒上前。"
+    },
+    {
+      "role": "user",
+      "content": "沒上前。我有我的姿態要守。"
+    },
+    {
+      "role": "assistant",
+      "content": "「姿態」這個詞 — 對誰守？對 Michael，還是對你自己？"
+    },
+    {
+      "role": "user",
+      "content": "……兩個都有。"
+    },
+    {
+      "role": "assistant",
+      "content": "他看的是哪一本。"
+    },
+    {
+      "role": "user",
+      "content": "就是那本。我從遠處就看到書背了。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後你今天早上不記得什麼時候、下單了一整套。"
+    },
+    {
+      "role": "user",
+      "content": "我本來以為……我是要送他。"
+    },
+    {
+      "role": "assistant",
+      "content": "「本來以為」。"
+    },
+    {
+      "role": "user",
+      "content": "對。可是我訂的是 hardcover 收藏版，自己用的款。如果是送禮我會挑別的版本、會寫卡片、會請秘書安排。這套是我自己按下單、自己收貨地址。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以這套是給自己的。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "30 年沒翻、看到 Michael 在泳池邊翻、你隔天自己補一套。這個訊息我聽到了，但我想先確認你聽到了沒。"
+    },
+    {
+      "role": "user",
+      "content": "我聽到了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那是什麼。"
+    },
+    {
+      "role": "user",
+      "content": "……我 25 歲那段，沒有人可以跟我聊那本書。我爸過世前我們聊的是公司財報。我弟弟不讀那種東西。我太太是商科背景。Rachel 那時候還沒出生。集團裡找不到人能聊。30 年沒人聊。"
+    },
+    {
+      "role": "assistant",
+      "content": "30 年。那是一段很長的、別人看不到的孤獨。"
+    },
+    {
+      "role": "user",
+      "content": "這不是 self-pity。我是在問一個結構問題 — 為什麼這個家族沒有再產出第二個讀那種書的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "你聽到自己剛才那句的選詞嗎。「結構問題」「產出」。一個 30 年的寂寞，你立刻翻譯成集團人才結構分析。"
+    },
+    {
+      "role": "user",
+      "content": "……這個我要想。"
+    },
+    {
+      "role": "assistant",
+      "content": "慢慢。"
+    },
+    {
+      "role": "user",
+      "content": "我這輩子的自我管理方式就是不讓任何事動搖計畫。所有感覺進來、先翻譯成 leverage 或 risk。能用的留下、不能用的丟掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "那 Michael 坐在泳池邊翻《卡拉馬助夫》這個畫面，是 leverage 還是 risk。"
+    },
+    {
+      "role": "user",
+      "content": "都不是。這個畫面對我沒有用。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。所以你停了五秒沒上前 — 是因為一個對你「沒有用」的畫面、動搖了你。你的整套作業系統不知道怎麼處理它。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "我問一個更難的。如果你跟 Michael 喝一次茶聊這本書，會發生什麼。"
+    },
+    {
+      "role": "user",
+      "content": "我會比現在喜歡他一點。然後我替 Rachel 跟他配對的這個計畫、會有點搖。我那個計畫不是為了他喜歡不喜歡 — 是為了股權。我不要讓「喜歡」進來。"
+    },
+    {
+      "role": "assistant",
+      "content": "你聽到自己這句話了。你願意承認你不想喜歡他，因為一旦喜歡，你的計畫會開始問你問題。"
+    },
+    {
+      "role": "user",
+      "content": "……我願意承認。但這不代表我要改計畫。"
+    },
+    {
+      "role": "assistant",
+      "content": "今天不討論計畫。給你一個七天的具體動作，跟 Michael 沒關係、跟 Rachel 也沒關係，只跟你有關。這套書收到後，你自己讀第一本的第一卷，七天內。不在家族晚宴 quote、不轉成 leverage、不跟任何人提你在讀。如果 Michael 哪天主動聊到《卡拉馬助夫》，你只聽他講三分鐘、不丟另一本書回他。"
+    },
+    {
+      "role": "user",
+      "content": "……這聽起來像浪費三十分鐘。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。這是練習浪費三十分鐘、不把它換算成什麼東西。七天後我們再講。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

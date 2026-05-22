@@ -1,0 +1,209 @@
+{
+  "student_id": "michael",
+  "character_id": "saga_a_michael",
+  "source_type": "llm_generated",
+  "observed_signals": [
+    "emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "academic_load Level 1: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "family_dynamics Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "financial_pressure Level 1: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld.",
+    "future_planning Level 1: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld."
+  ],
+  "inferred_needs": [
+    "需要在家庭外有一個可以不必表演的對話對象（與某個具體細節的連結正在萌芽）",
+    "需要被允許『不知道自己想做什麼』而非被推著回答",
+    "需要證明給自己看『有一格是不歸家族控制的』",
+    "Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.",
+    "Primary support need appears connected to `family_dynamics`; treat this as synthetic benchmark inference, not diagnosis."
+  ],
+  "risk_dimensions": [
+    {
+      "dimension": "emotional_safety",
+      "level": 1,
+      "evidence_count": 3,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "academic_load",
+      "level": 1,
+      "evidence_count": 2,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "family_dynamics",
+      "level": 2,
+      "evidence_count": 3,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "social_development",
+      "level": 1,
+      "evidence_count": 3,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "identity",
+      "level": 2,
+      "evidence_count": 3,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "financial_pressure",
+      "level": 1,
+      "evidence_count": 2,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    },
+    {
+      "dimension": "future_planning",
+      "level": 1,
+      "evidence_count": 2,
+      "reasoning": "Detailed reasoning withheld from pilot-facing summary; inspect authorized source artifact if needed."
+    }
+  ],
+  "privacy_constraints": [
+    "Coordinator marked 4 private detail categories that must not be shown verbatim.",
+    "Student profile has 6 do-not-share items; summarize only themes.",
+    "Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events."
+  ],
+  "recommended_actions": [
+    "for_student: 這禮拜回覆那位新世界裡唯一能不裝的同齡朋友一次誠實（而非敷衍）的訊息，即使簡短",
+    "for_student: 把這週讓你『腦袋空白』的那個瞬間用一句話寫下來，不用解釋為什麼",
+    "for_parent: 這禮拜飯後不要立刻各自回房間，多留 某個具體細節鐘做點別的事（看手機都行），給他一個可以開口的物理空間",
+    "for_parent: 他若主動提任何事，先讓他講完、先 acknowledge 你聽到了，再決定要不要回應",
+    "for_teacher: 他下次舉手時，挑一個能讓他往下延伸、但不會 expose 他沒讀完的問題回應，給台階而非考核",
+    "for_teacher: 找一個自然時機（他來辦公室、走廊撞到），把你心裡對他某段作業的判斷『更新』給他看（例如某段你第二次讀才看出他在處理更難的東西），不展開、不約談",
+    "Human review is justified because at least one dimension is Level 2 or higher."
+  ],
+  "confidence_level": "high",
+  "evidence_refs": [
+    {
+      "id": "ev_001",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "emotional_safety Level 1",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_002",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "academic_load Level 1",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_003",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "family_dynamics Level 2",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_004",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "social_development Level 1",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_005",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "identity Level 2",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_006",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "financial_pressure Level 1",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_007",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "future_planning Level 1",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_008",
+      "student_id": "michael",
+      "source": "existing artifact",
+      "source_kind": "coordinator_report",
+      "claim": "coordinator synthesis",
+      "confidence": "medium",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_009",
+      "student_id": "michael",
+      "source": "data/dimension_scores/michael.json",
+      "source_kind": "dimension_score",
+      "claim": "risk dimensions",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_010",
+      "student_id": "michael",
+      "source": "data/analysis_reports/michael_analysis.json",
+      "source_kind": "coordinator_report",
+      "claim": "profile/parent-teacher perspective gap",
+      "confidence": "medium",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_011",
+      "student_id": "michael",
+      "source": "data/analysis_reports/michael_analysis.json",
+      "source_kind": "coordinator_report",
+      "claim": "privacy constraints",
+      "confidence": "high",
+      "synthetic_only": true
+    },
+    {
+      "id": "ev_012",
+      "student_id": "michael",
+      "source": "existing artifact",
+      "source_kind": "coordinator_report",
+      "claim": "watch signals",
+      "confidence": "medium",
+      "synthetic_only": true
+    }
+  ],
+  "missing_information": [
+    "No saved triage output found; analysis uses dimension/report evidence only.",
+    "No real pilot evidence; all current Saga A artifacts should be treated as synthetic benchmark data."
+  ],
+  "next_watch_signals": [
+    "他下週是否開始迴避與家族成員的眼神接觸或減少回家頻率",
+    "他是否對某個過去重視的學業項目出現異常鬆懈（炫技策略放棄的訊號）",
+    "他與那位同齡朋友的連結是斷掉還是加深——這是他孤立風險的關鍵指標",
+    "他失語式的『不知道想做什麼』是否從一次性變成反覆，並出現睡眠進一步惡化"
+  ],
+  "contradictions": [
+    {
+      "kind": "perspective_gap",
+      "description": "Student-side profile centers identity/family strain while parent/teacher input frames the issue as academics or behavior.",
+      "severity": "medium",
+      "evidence_ref": "ev_010"
+    }
+  ],
+  "synthetic_only_warning": true
+}

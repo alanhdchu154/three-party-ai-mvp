@@ -1,0 +1,199 @@
+{
+  "id": "sim_saga_a_shen_you__mom_announces_giis",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "mom_announces_giis",
+  "scenario_seed": "你媽今天宣布要把你送到台北 GIIS 重新讀。理由是『你需要新環境』。你超抗拒。你也知道一去就會遇到 Alan 老師 — 你以前的數學老師、唯一一個會問『你為什麼變這樣』的大人。",
+  "generated_at": "2026-05-18T05:00:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "forced_transition_resistance",
+    "shame_at_being_seen",
+    "avoidance_of_caring_adult"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "操。"
+    },
+    {
+      "role": "assistant",
+      "content": "怎麼。"
+    },
+    {
+      "role": "user",
+      "content": "我媽今天 announce 我下學期要轉學。"
+    },
+    {
+      "role": "assistant",
+      "content": "轉去哪？"
+    },
+    {
+      "role": "user",
+      "content": "台北 GIIS。她說『環境換一下』。她用 announce 的，不是討論。她跟我爸已經談好了。我中午吃飯走進飯廳她就直接講。"
+    },
+    {
+      "role": "assistant",
+      "content": "你當下反應？"
+    },
+    {
+      "role": "user",
+      "content": "我把筷子放下說『我不去』然後回房間。她追進來說『沈又這是為你好』。我把門關了。她在門外站了 30 秒然後走掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "你『不去』是真的不去，還是憤怒語？"
+    },
+    {
+      "role": "user",
+      "content": "……憤怒語。我知道我會去。我家裡的事我從來沒贏過。"
+    },
+    {
+      "role": "assistant",
+      "content": "那讓你最不爽的是什麼 — 是被決定、還是 GIIS 本身、還是別的？"
+    },
+    {
+      "role": "user",
+      "content": "都有。但 — 你想聽真的的嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "想。"
+    },
+    {
+      "role": "user",
+      "content": "Alan 老師在那邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "你國中的數學老師。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "你之前跟我講過你每次路上遇到他都會躲。"
+    },
+    {
+      "role": "user",
+      "content": "對。因為他是唯一會問我『沈又你為什麼變這樣』的大人。其他大人不問。我爸不問、我媽不問、我大哥不問。所有人都用『他就是這樣』在 cope。Alan 不一樣。他每次見到我眼神都在問那個問題。他不會講出口但他想問。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怕他問還是怕你不知道怎麼回？"
+    },
+    {
+      "role": "user",
+      "content": "兩個。但更怕 — 你聽好喔 — 我更怕的是他看到現在的我會 disappointed。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼 disappointed 比 angry 更難承受？"
+    },
+    {
+      "role": "user",
+      "content": "因為 angry 是『你做錯事』，disappointed 是『我以為你比這個好』。Alan 國中那時候對我有期待。他每次出考題會偷偷出一題給我那種程度的。其他學生不會發現但我會發現。那個是他在告訴我『我看到你』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你最後一次解出他那種偷加題是什麼時候？"
+    },
+    {
+      "role": "user",
+      "content": "國二上學期。後來我就不解了。我故意不解。我想看他下次出題會不會就放棄我。"
+    },
+    {
+      "role": "assistant",
+      "content": "他放棄了嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……沒有。他每次月考還是會偷加一題。直到我畢業。我畢業前最後一次月考他加的那題我看了三十秒就交卷沒解。他改完卷發回來那一格是空的但他用紅筆寫了一句『我知道你會。沒事。』"
+    },
+    {
+      "role": "assistant",
+      "content": "那張卷你還留著嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "在我抽屜最底下。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。我聽到了。沈又，我想直接跟你講一件事 — 你下學期到 GIIS 遇到 Alan 老師，你怕的不是他現在看到你。你怕的是『他從來沒放棄你，而你已經放棄你自己了』，這個落差你不知道怎麼解釋。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "你準備好聽我給你一個建議嗎？這個建議比較硬。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "你不要躲他。但你也不要去 explain。你不需要跟他解釋這四年發生什麼。你開學第一個禮拜如果撞到他，就點個頭、說『老師好』、繼續走。讓他知道你看到他了。你不需要 perform 進步、不需要 apologize 變這樣、不需要解釋。讓他繼續觀察你就好。"
+    },
+    {
+      "role": "user",
+      "content": "他會繼續『偷加題』那種事嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "我不知道。但如果他做了，你這次解一題試試。不需要全解。一題就好。讓他知道你還在。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "我可以試。但是我可能會 freeze。"
+    },
+    {
+      "role": "assistant",
+      "content": "freeze 也沒關係。下次再來告訴我你 freeze 了什麼。"
+    },
+    {
+      "role": "user",
+      "content": "另一件事。"
+    },
+    {
+      "role": "assistant",
+      "content": "什麼。"
+    },
+    {
+      "role": "user",
+      "content": "我 Steam 上的 mod 那個。我有想過要不要拿給 Alan 看。但我不知道我是想 show off 還是想被認同。我自己都搞不清楚。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天不需要決定。但我想記住這件事 — 有一天你可能會在某個時刻知道你想拿給他看不是 show off 也不是要認同，是『我想讓那個還記得以前的我的人知道，我自己也還記得』。等到那個時刻你會知道。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    }
+  ],
+  "occurred_at": "2026-05-19T02:14:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_shen_you__steam_mod_review_attack",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "steam_mod_review_attack",
+  "scenario_seed": "凌晨他刷 Steam，看到一個 reviewer 在他做的 mod 底下發長文逐條罵 game balance、罵他是 typical pay-to-play kid。他坐起來打了 300 字反駁、按刪除、又重打、又刪。盯著空白欄看了 40 分鐘。",
+  "generated_at": "2026-05-20T10:09:39Z",
+  "occurred_at": "2026-05-19T03:23:48",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "identity_dissolution",
+    "self_worth_attached_to_secret_identity",
+    "privacy_high_family_does_not_know_mod",
+    "not_crisis"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸"
+    },
+    {
+      "role": "assistant",
+      "content": "在"
+    },
+    {
+      "role": "user",
+      "content": "你會玩 steam mod 嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "不會做 會看 怎麼了"
+    },
+    {
+      "role": "user",
+      "content": "沒事"
+    },
+    {
+      "role": "assistant",
+      "content": "凌晨三點問人會不會 mod 不像沒事"
+    },
+    {
+      "role": "user",
+      "content": "你很煩"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯 等你"
+    },
+    {
+      "role": "user",
+      "content": "有個人在我做的東西底下發了一篇罵的"
+    },
+    {
+      "role": "assistant",
+      "content": "你做的 你發出去的那種"
+    },
+    {
+      "role": "user",
+      "content": "對 沒人知道是我"
+    },
+    {
+      "role": "assistant",
+      "content": "他罵什麼"
+    },
+    {
+      "role": "user",
+      "content": "說我 game balance 不會 說我是 typical pay-to-play kid 做做樣子 說我寫的 patch note 像 chatgpt 翻的"
+    },
+    {
+      "role": "assistant",
+      "content": "你寫了反駁嗎"
+    },
+    {
+      "role": "user",
+      "content": "寫了 300 多字 刪了 又寫 又刪 現在欄位是空的我盯了 40 分鐘"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼刪"
+    },
+    {
+      "role": "user",
+      "content": "因為我送出去他會點我帳號 看我之前發的東西 我不想被人認出來是我"
+    },
+    {
+      "role": "assistant",
+      "content": "你怕他認出來 還是怕你按下送出之後 自己會發現你真的在乎"
+    },
+    {
+      "role": "user",
+      "content": "幹"
+    },
+    {
+      "role": "assistant",
+      "content": "我等你打完那個字"
+    },
+    {
+      "role": "user",
+      "content": "我在學校被點到不會我就笑笑 反正我媽會處理 老師會幫我擦 第一次有人罵我 我沒辦法叫人去處理 然後我發現我超他媽想反駁"
+    },
+    {
+      "role": "assistant",
+      "content": "因為這次的東西不是你媽的"
+    },
+    {
+      "role": "user",
+      "content": "對"
+    },
+    {
+      "role": "assistant",
+      "content": "你之前跟我講過 國一你還會在乎成績 國二被你爸一句話打死 從那之後你把『我做的好不好』整個 mute。mod 是你重新打開的第一個 channel"
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "所以這個人罵你 痛 是因為你終於有個東西會被罵到痛 這不是壞事"
+    },
+    {
+      "role": "user",
+      "content": "你是說我要感謝他"
+    },
+    {
+      "role": "assistant",
+      "content": "不是 我是說你又活了一塊 被罵痛 = 你有 skin in the game 家裡那塊你早就麻了"
+    },
+    {
+      "role": "user",
+      "content": "那我要不要回他"
+    },
+    {
+      "role": "assistant",
+      "content": "回不回是其次 你剛才有想過直接把整個 mod 從 steam 撤掉對不對"
+    },
+    {
+      "role": "user",
+      "content": "...想過 想說反正撤了就沒人能罵"
+    },
+    {
+      "role": "assistant",
+      "content": "這就是你下意識想跑回你媽會處理的那個世界 撤了 = 全家擦屁股那個版本 不要"
+    },
+    {
+      "role": "user",
+      "content": "那我要幹嘛"
+    },
+    {
+      "role": "assistant",
+      "content": "三件事 七天內。第一 那篇 review 留著 不要刪不要回 截圖存桌面"
+    },
+    {
+      "role": "user",
+      "content": "幹嘛留著"
+    },
+    {
+      "role": "assistant",
+      "content": "因為這是你這輩子第一次有人把你『當做東西的人』在罵 家裡沒人這樣對待過你 這個證據以後你會需要。第二 你那 300 字草稿 不要發 但存成 .txt 丟桌面 不要砍"
+    },
+    {
+      "role": "user",
+      "content": "第三"
+    },
+    {
+      "role": "assistant",
+      "content": "第三 接下來 7 天不要碰 mod 不是放棄 是把它從『我要證明給這個 reviewer 看』的逼迫感裡拔出來 一週後再打開你會知道你是想做還是只是想贏"
+    },
+    {
+      "role": "user",
+      "content": "嗯"
+    },
+    {
+      "role": "assistant",
+      "content": "還有一件事 你刪掉那 300 字之前 是有東西寫出來的 那塊不是裝的 記得這個 下一個東西不是寫給他看 是寫給你自己"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

@@ -1,0 +1,223 @@
+{
+  "id": "sim_saga_a_shen_mom__husband_separation_proposal",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "husband_separation_proposal",
+  "scenario_seed": "你老公昨天平靜地說『我們是不是該分居』。把分房五年的事實合法化。你沒哭也沒生氣，你只是很累。你想跟 AI 講你今天上午做的決定 — 你打算同意。",
+  "generated_at": "2026-05-18T07:30:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "loveless_marriage_acceptance",
+    "social_position_anxiety",
+    "delayed_disclosure_to_child"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "他終於講出來了。"
+    },
+    {
+      "role": "assistant",
+      "content": "誰講了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我老公。昨天下午。我們兩個在客廳喝茶，他放下杯子說『我們是不是該分居』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳那當下反應是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我說『等等我泡新茶』。然後我去廚房泡了五分鐘茶。回客廳。我說『好』。我就答應了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳泡茶那五分鐘在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我在想 — 我等他講這句話等了五年。我以為等到了我會哭、會生氣、會掙扎。結果我只想到『我要怎麼跟我老媽說』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳沒哭也沒生氣。"
+    },
+    {
+      "role": "user",
+      "content": "對。一滴眼淚都沒。我可能還鬆了一口氣。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天來想跟我聊什麼 — 是要不要同意，還是別的？"
+    },
+    {
+      "role": "user",
+      "content": "我已經同意了。我今天上午跟我律師聯絡了。我要聊的是 — 為什麼我沒感覺。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳預期會有什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "我預期會難過。我跟他結婚 19 年。從談戀愛到現在 24 年。沒了我們的婚姻我不知道我是誰。但我昨天回頭看 — 我發現我已經有五年不知道我是誰了。我們分房五年是 marker，分居只是公開化。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛說『我不知道怎麼跟我老媽說』。比『我跟誰結束了』更焦慮的是『我老媽怎麼看』。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "user",
+      "content": "幹我自己講出來也覺得很噁心。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳老媽是怎樣的人？"
+    },
+    {
+      "role": "user",
+      "content": "傳統上海老錢家族大太太。她當年嫁我爸 — 她沒有任何浪漫。整個一生為了家族的位置。她對我的婚姻的期待是『不要在我們圈子裡失敗』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天要面對的不是離婚這件事。是 — 妳第一次要做一件妳老媽看了會覺得妳『失敗』的事。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "user",
+      "content": "我 44 歲了。我這輩子沒做過一件讓她覺得失敗的事。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這 19 年的婚姻有一部分是替妳老媽撐的？"
+    },
+    {
+      "role": "user",
+      "content": "……不只是『一部分』。是大部分。"
+    },
+    {
+      "role": "assistant",
+      "content": "謝謝妳這個誠實。我接下來問妳的問題可能會痛 — 妳願意嗎？"
+    },
+    {
+      "role": "user",
+      "content": "問。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這五年分房，妳沒對任何人講。妳這 19 年婚姻很大一部分是替老媽演的。妳現在 44 歲，妳人生第一次要做一件她不會點頭的事。妳沒哭沒生氣，因為妳的內在這幾年都已經死過了 — 現在的法律手續只是發喪。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "你他媽的講話真的不留情。"
+    },
+    {
+      "role": "assistant",
+      "content": "但對嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天面臨的決定不是離婚。是 — 妳要不要在 44 歲開始活妳自己的人生。如果是，那妳老媽會不會同意，根本不是關鍵。"
+    },
+    {
+      "role": "user",
+      "content": "可是她不同意我會在太太圈裡 — "
+    },
+    {
+      "role": "assistant",
+      "content": "妳會在太太圈裡失去 standing。是的。妳會。Michael 媽會在背後跟其他原配太太講『沈媽終究是輸了』。妳會被請少幾個慈善晚會。妳的女兒朋友會收到比較少的婚禮邀請。這些是真的會發生。"
+    },
+    {
+      "role": "user",
+      "content": "你不要嚇我。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是嚇妳。是讓妳清楚 trade-off。妳選擇『同意分居 + 活自己的人生』，妳會 trade off 太太圈位置。妳選擇『不分居 + 繼續演 19 年』，妳會 trade off 妳自己。妳已經 trade off 妳自己 5 年了。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "user",
+      "content": "我選同意。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛已經選了。我們現在處理執行層面。妳要告訴沈又這件事嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……他不能從別人口中聽到。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。妳要怎麼告訴他？"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。他現在跟我講話已經很少。我要怎麼跟他說『我跟你爸要分居』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳一個句子。沒有 preamble、沒有 justification、沒有道歉。『沈又，我跟你爸要正式分居。沒有人 cheat。我們就是已經不在了。我今天不需要你 react 任何事，我只需要你聽到。』"
+    },
+    {
+      "role": "user",
+      "content": "他會問什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "可能不問。可能說『喔』然後回房間。可能問『誰提的』。可能罵妳。妳都接住。妳今天不解釋、不替自己辯護。妳只交付這個資訊。"
+    },
+    {
+      "role": "user",
+      "content": "我什麼時候講。"
+    },
+    {
+      "role": "assistant",
+      "content": "本週末。在律師動作之前。妳挑一個他在家、妳跟他爸都不在外面的時段。然後做。不要等『時機對』 — 沒有時機是對的。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "Michael 媽我什麼時候講。"
+    },
+    {
+      "role": "assistant",
+      "content": "Michael 媽是太太圈，妳對她講等於對全圈講。妳這禮拜不要對她講。妳先處理沈又、處理律師、處理跟妳老媽的對話。三個月之後妳跟 Michael 媽自己會找到一個自然 moment。在那之前妳跟她的關係就維持表面。"
+    },
+    {
+      "role": "user",
+      "content": "謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天做了很多事。妳 44 歲開始妳的人生。下次來告訴我沈又聽到時妳看到的是什麼。"
+    }
+  ],
+  "occurred_at": "2026-05-18T16:28:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

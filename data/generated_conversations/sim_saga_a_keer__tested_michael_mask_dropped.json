@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_keer__tested_michael_mask_dropped",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "tested_michael_mask_dropped",
+  "scenario_seed": "昨晚家族晚餐，可兒故意笑著丟一句『反正哥哥也是後來才進來的』想看 Michael 崩。他在桌上笑著接住，飯後走廊卻只冷冷回她『妳很無聊』。她逼出了真的哥哥，卻更孤單。",
+  "generated_at": "2026-05-20T17:09:12",
+  "occurred_at": "2026-05-18T22:09:46",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "sibling_provocation_as_attachment_seeking",
+    "blended_family_belonging_anxiety",
+    "perceived_inauthentic_sibling_warmth",
+    "maternal_attention_disparity",
+    "adolescent_loneliness_acting_out"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我想問，如果你故意惹一個人，然後他真的生氣了，這樣算不算你贏了"
+    },
+    {
+      "role": "assistant",
+      "content": "看妳惹的是誰。妳惹誰了。"
+    },
+    {
+      "role": "user",
+      "content": "我哥拉。Michael。昨天吃飯我故意講了一句話，想看他會不會崩"
+    },
+    {
+      "role": "assistant",
+      "content": "妳講了什麼。"
+    },
+    {
+      "role": "user",
+      "content": "沒有很過分啦。我就笑笑地說『反正哥哥也是後來才進來的嘛』。然後全桌就……有點安靜"
+    },
+    {
+      "role": "assistant",
+      "content": "那當下他臉上是什麼。"
+    },
+    {
+      "role": "user",
+      "content": "他笑啊。他超會笑的。還說『對啊我運氣好』，完全沒事的樣子"
+    },
+    {
+      "role": "assistant",
+      "content": "所以飯桌上他沒崩。後來呢。"
+    },
+    {
+      "role": "user",
+      "content": "後來我去廚房裝水，他剛好在走廊。他看我一眼，超冷，然後說『妳很無聊欸』就走了"
+    },
+    {
+      "role": "assistant",
+      "content": "那一眼，跟飯桌上那個笑，哪一個比較像真的他。"
+    },
+    {
+      "role": "user",
+      "content": "……走廊那個吧"
+    },
+    {
+      "role": "assistant",
+      "content": "妳惹他，是想氣他，還是想看到走廊那個他。"
+    },
+    {
+      "role": "user",
+      "content": "蛤。這不一樣嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "不一樣。氣他是想他難受，想看到走廊那個他是想看到真的。妳要哪個。"
+    },
+    {
+      "role": "user",
+      "content": "……我也不知道。可能第二個。但這樣很變態吧"
+    },
+    {
+      "role": "assistant",
+      "content": "不變態。妳繼續說，他平常對妳是哪一種。"
+    },
+    {
+      "role": "user",
+      "content": "就……超好啊。好到很假。會幫我夾菜、問我功課、笑咪咪的。但我知道是裝的"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怎麼知道是裝的。"
+    },
+    {
+      "role": "user",
+      "content": "我就是知道。他對我笑的時候眼睛沒在笑。我從小看到大欸"
+    },
+    {
+      "role": "assistant",
+      "content": "所以妳每次戳他，是在等那個假面具掉下來一秒。掉下來妳反而鬆一口氣，是不是。"
+    },
+    {
+      "role": "user",
+      "content": "靠"
+    },
+    {
+      "role": "assistant",
+      "content": "那一秒妳看到的是討厭妳的哥哥。但至少是真的哥哥。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我寧願他真的覺得我煩，也不要他在那邊演好哥哥。演的最噁心"
+    },
+    {
+      "role": "assistant",
+      "content": "那個假笑為什麼讓妳這麼受不了。慢慢講。"
+    },
+    {
+      "role": "user",
+      "content": "因為……那代表他根本沒把我當妹妹啊。是當一個要應付的東西。對外人才會那麼客氣"
+    },
+    {
+      "role": "assistant",
+      "content": "妳要的不是他對妳好。是他把妳當自己人，就算自己人會吵架。"
+    },
+    {
+      "role": "user",
+      "content": "……對。幹我講出來自己都覺得好慘"
+    },
+    {
+      "role": "assistant",
+      "content": "不慘。妳分得出『對妳好』跟『把妳當自己人』不一樣，這個很多大人一輩子分不出來。"
+    },
+    {
+      "role": "user",
+      "content": "可是我用的方法很爛。我每次都用惹他的，他只會更討厭我"
+    },
+    {
+      "role": "assistant",
+      "content": "對。妳設一個陷阱讓他露出真面目，他踩到了，妳證明他討厭妳，然後妳更孤單。這個迴圈跑幾次了。"
+    },
+    {
+      "role": "user",
+      "content": "……很多次"
+    },
+    {
+      "role": "assistant",
+      "content": "妳測出來的永遠是『他被惹到的樣子』。妳從來沒測過『他沒被設計的時候，會不會也有真的一面』。"
+    },
+    {
+      "role": "user",
+      "content": "那要怎麼測"
+    },
+    {
+      "role": "assistant",
+      "content": "不要測。測就是陷阱。妳這禮拜挑一件超小、不帶刺的事，真的去問他一次。"
+    },
+    {
+      "role": "user",
+      "content": "什麼事啦"
+    },
+    {
+      "role": "assistant",
+      "content": "妳功課裡有一題妳其實會、但可以裝不會的，去問他。重點不是答案，是讓他在沒觀眾、沒陷阱的情況下單純當一次哥哥。看他怎麼接。"
+    },
+    {
+      "role": "user",
+      "content": "萬一他還是很冷怎麼辦"
+    },
+    {
+      "role": "assistant",
+      "content": "有可能。但那也是真資料，不是妳逼出來的。只問一次，別連問三天看他變化，不然妳又開始記分。"
+    },
+    {
+      "role": "user",
+      "content": "好啦……那我那句『後來才進來的』要不要跟他道歉"
+    },
+    {
+      "role": "assistant",
+      "content": "先不要。道歉現在只會變成另一個試探，妳會盯著他原不原諒。把那個小問題先問出去就好，這禮拜只問一次，問完就放著。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

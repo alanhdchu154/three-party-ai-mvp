@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_uncle__joint_venture_email_wording",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "mundane_help",
+  "scenario_seed_id": "joint_venture_email_wording",
+  "scenario_seed": "一個合作方提了個聯營案，他想回一封信、口氣要留有餘地不能太熱、又不能把人推走。順便要 AI 幫他把這個案子的利弊掃一遍，純商業判斷。",
+  "generated_at": "2026-05-20T08:11:44",
+  "occurred_at": "2026-05-18T15:52:14",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "有個合作方提了一個聯營案。我要回信，口氣要保留、不能太熱絡，但也不能讓對方覺得我沒興趣。怎麼措辭。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以走『肯定方向、保留條件』的結構。先謝對方提案、認可方向有價值，然後把球丟回去：請對方先補幾項關鍵條件，你內部評估後再談。要不要我列一個句子骨架？"
+    },
+    {
+      "role": "user",
+      "content": "列。"
+    },
+    {
+      "role": "assistant",
+      "content": "大概是：『感謝貴方提出的聯營構想，方向上我們認為具備探討價值。為利於內部評估，煩請補充出資比例、治理結構與退場機制三項細節，我方收到後將於兩週內回覆。』熱度剛好，球在對方手上。"
+    },
+    {
+      "role": "user",
+      "content": "兩週會不會太久，顯得我吊著他。"
+    },
+    {
+      "role": "assistant",
+      "content": "想壓緊一點就改『十個工作天內』。給期限本身是強勢訊號，代表你會認真看，不是擱置。"
+    },
+    {
+      "role": "user",
+      "content": "好。那這個案子本身，你幫我掃一遍利弊。"
+    },
+    {
+      "role": "assistant",
+      "content": "利的方向：分攤前期資本、進入對方既有渠道、風險共擔。弊的方向：治理權稀釋、退場時估值容易扯皮、對方若資訊不對稱你會被綁住。最該先釘死的就是退場機制。你心裡最在意哪一塊？"
+    },
+    {
+      "role": "user",
+      "content": "治理權。我不接受少數股還要被人否決重大決策。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這就是談判紅線。建議信裡先不亮，等對方補完細節，在後續條款談判時直接把『重大事項表決門檻』設成你方有否決權的結構。先收資訊、後設條件，順序對你有利。"
+    },
+    {
+      "role": "user",
+      "content": "可以。信我照你那個改一下日期就發。"
+    },
+    {
+      "role": "assistant",
+      "content": "發吧。對方補件回來再來看條款。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

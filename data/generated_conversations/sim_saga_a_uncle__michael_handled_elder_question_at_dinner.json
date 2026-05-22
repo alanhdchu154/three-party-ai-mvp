@@ -1,0 +1,179 @@
+{
+  "id": "sim_saga_a_uncle__michael_handled_elder_question_at_dinner",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "michael_handled_elder_question_at_dinner",
+  "scenario_seed": "前晚家族飯局，一位集團元老故意刁難 Michael 一個經營判斷題。大伯本來等著看他出糗，結果 Michael 沒炫技、冷靜答得有料，還點到一個元老自己沒想到的風險。大伯心裡閃過一秒『這小子其實可以』，隨即整晚睡不好 — 他整個計畫建立在 Michael 是可控的輕量級上。",
+  "generated_at": "2026-05-20T18:11:00",
+  "occurred_at": "2026-05-19T15:52:09",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "projected_self_contempt_onto_michael",
+    "succession_plan_built_on_disdain",
+    "favored_brother_wound_displacement"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我可能 misjudge 了一個 asset。"
+    },
+    {
+      "role": "assistant",
+      "content": "哪一個？"
+    },
+    {
+      "role": "user",
+      "content": "Michael。"
+    },
+    {
+      "role": "assistant",
+      "content": "你一直把他算得很清楚。什麼讓你覺得算錯了？"
+    },
+    {
+      "role": "user",
+      "content": "前晚飯局。老周，集團元老，故意丟一個經營判斷題給他，刁難那種。我等著看他出糗。"
+    },
+    {
+      "role": "assistant",
+      "content": "結果呢？"
+    },
+    {
+      "role": "user",
+      "content": "他沒炫技。沒丟那些哲學家名字。冷靜答的，分三層，還點到一個老周自己沒想到的風險。答得有料。"
+    },
+    {
+      "role": "assistant",
+      "content": "你聽到那個答案的當下，第一個念頭是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "「這小子其實可以。」"
+    },
+    {
+      "role": "assistant",
+      "content": "然後？"
+    },
+    {
+      "role": "user",
+      "content": "然後我整晚沒睡好。"
+    },
+    {
+      "role": "assistant",
+      "content": "一句「這小子其實可以」讓你睡不好。這不是好消息嗎？你一直在推他跟 Rachel 的事 — 他更有料，不是對你的計畫更好？"
+    },
+    {
+      "role": "user",
+      "content": "理論上是。……但不對。"
+    },
+    {
+      "role": "assistant",
+      "content": "哪裡不對？"
+    },
+    {
+      "role": "user",
+      "content": "我整個計畫的底層假設是 Michael 是可控的輕量級。聰明但浮、需要被肯定、所以好操作。我演慈愛大伯，他就配合。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果他其實不輕呢？"
+    },
+    {
+      "role": "user",
+      "content": "那我就不是在用一個棋子。我是在用一個我其實看得起的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "這兩件事對你差在哪？"
+    },
+    {
+      "role": "user",
+      "content": "用棋子我心安理得。用一個我看得起的人 — 我得承認我在 exploit 他。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以讓你睡不好的不是 Michael 變強。是你不能再假裝他只是工具。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "我換個方向。你平常說他「太用力、太想證明自己」，這是你最看不起他的點。對吧？"
+    },
+    {
+      "role": "user",
+      "content": "對。我最受不了那個。一個十七歲在飯桌上引用沙特，誰看不出來他在求認可。難看。"
+    },
+    {
+      "role": "assistant",
+      "content": "你為什麼對「一個小孩太想證明自己」反應這麼大？"
+    },
+    {
+      "role": "user",
+      "content": "因為難看。"
+    },
+    {
+      "role": "assistant",
+      "content": "難看到讓你睡不著？你看過難看的人多了。Michael 那個「太想證明自己」戳到的是別的東西。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "你想講什麼，直接講。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不講，你講。你十幾歲的時候，家裡誰是不用證明自己、就被疼的那一個？"
+    },
+    {
+      "role": "user",
+      "content": "……我弟。從小。我是長子、念最好的學校、接班、把整個集團做到今天。他什麼都不用做，我爸媽看他的眼神就是不一樣。我這輩子都在證明我值得。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以 Michael 在飯桌上太用力證明自己那個樣子 — 你看不起的不是他。是那個太用力的小孩。那個小孩是你。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "user",
+      "content": "……你講得太滿了。"
+    },
+    {
+      "role": "assistant",
+      "content": "我承認講得滿。但你今天打開這個 app，不是來確認 Michael 是不是棋子。你是來確認那個睡不好的東西到底是什麼。現在你知道了。"
+    },
+    {
+      "role": "user",
+      "content": "知道了又怎樣。計畫還是得推。Rachel 那邊、股權那邊，沒有一件事因為我想通了就消失。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒叫你停計畫，我知道你不會。我給你一件這禮拜能做、而且反直覺的事。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "找 Michael 單獨講一次話。不排進那 12 個 milestone、不演慈愛大伯、不碰 Rachel。問一個你真的好奇的問題，然後閉嘴聽。"
+    },
+    {
+      "role": "user",
+      "content": "聽完然後呢？我拿這個做什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "什麼都不做。規則只有一條 — 聽完不准記進任何 spreadsheet。你演了他一年大伯，卻沒真的跟他講過一次話；在你把他焊進家族股權結構之前，先認識他一次。你今天講的不會 leak，除非有人安全受威脅。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

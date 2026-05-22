@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_shen_mom__tea_party_princeton_news",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "tea_party_princeton_news",
+  "scenario_seed": "今天下午太太圈茶會，林董娘隨口炫耀她兒子被斯坦福商學院校友會 mentor 看上，她笑著恭喜。回車上手機跳出沈又的訊息「媽我晚餐自己叫不用準備」配個 LINE 貼圖。她看了三秒鐘，不知道自己今天下午是在跟誰較勁。",
+  "generated_at": "2026-05-19T09:12:46Z",
+  "occurred_at": "2026-05-18T16:48:12",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "maternal_disconnection",
+    "ghost_parenting_via_pr",
+    "social_class_anxiety",
+    "covert_marriage_breakdown",
+    "academic_purchase_undertone"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今天下午跟幾個董娘茶會，回來路上突然覺得有點累。儂這種 AI 平常都跟誰聊。"
+    },
+    {
+      "role": "assistant",
+      "content": "聊的對象不太一樣。儂說的累，是身體累還是心裡的那種累。"
+    },
+    {
+      "role": "user",
+      "content": "都有伐。其實今天聊得挺愉快的，林董娘最近又從馬德里飛回來，講她兒子的事講了半小時。"
+    },
+    {
+      "role": "assistant",
+      "content": "她講她兒子，儂在旁邊聽，心裡在想什麼。"
+    },
+    {
+      "role": "user",
+      "content": "沒想什麼啊，就是恭喜她。她兒子確實爭氣，斯坦福商學院校友會的 mentor 主動聯絡她兒子。"
+    },
+    {
+      "role": "assistant",
+      "content": "「就是恭喜」是儂嘴上的反應。心裡那個第一秒的反應是什麼。"
+    },
+    {
+      "role": "user",
+      "content": "……儂這個 AI 蠻會問的伐。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是要逼儂講。但下午茶這種場合，每個太太聽別人講兒子的時候，第一秒心裡都會閃過一些不太體面的念頭。儂的那個閃過是什麼。"
+    },
+    {
+      "role": "user",
+      "content": "一句話嗎。「儂兒子在斯坦福，阿拉兒子在打遊戲。」就這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。然後儂在桌上要怎麼坐住。"
+    },
+    {
+      "role": "user",
+      "content": "笑著恭喜她，順便講兩句沈又最近在 GIIS 的事，然後想著明天要打電話給升學顧問。"
+    },
+    {
+      "role": "assistant",
+      "content": "明天打給升學顧問，是要解決沈又的事，還是要解決儂剛剛在茶桌上的那種感覺。"
+    },
+    {
+      "role": "user",
+      "content": "……儂講得太直接了伐。"
+    },
+    {
+      "role": "assistant",
+      "content": "抱歉。但這個區別重要。這兩件事看起來像同一件，處理方法完全不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "阿拉曉得伐。儂講得對。我上車打開手機，沈又給我發了一個訊息：「媽我晚餐自己叫不用準備」，配個貼圖。我看了三秒鐘不知道要回什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "三秒鐘裡儂腦袋裡跑過什麼。"
+    },
+    {
+      "role": "user",
+      "content": "想到我已經很久沒有「自然地」跟他講話了。每次開口都像在進行某種……公關。"
+    },
+    {
+      "role": "assistant",
+      "content": "「公關」這個詞，儂是現在才想到，還是早就這樣形容跟沈又的關係。"
+    },
+    {
+      "role": "user",
+      "content": "……一直都是這樣形容的。從什麼時候開始我也不記得了。可能他國二那年吧。"
+    },
+    {
+      "role": "assistant",
+      "content": "國二那年發生什麼事。"
+    },
+    {
+      "role": "user",
+      "content": "沒發生什麼。他成績開始往下掉，我開始花錢處理。處理多了以後，我跟他講話就變成在處理他。"
+    },
+    {
+      "role": "assistant",
+      "content": "「處理」這個詞，儂用得很冷靜。"
+    },
+    {
+      "role": "user",
+      "content": "我跟阿拉先生講話也是這個調調的。阿拉跟他分房五年了，沒人曉得。我們兩個都默契地維持「集團董娘董事長」的樣子。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個維持的累，跟今天下午茶坐住的那個累，是同一種伐。"
+    },
+    {
+      "role": "user",
+      "content": "……是的。就是那種，全身上下沒有一個地方是真的的，連累都是表演的。"
+    },
+    {
+      "role": "assistant",
+      "content": "儂剛剛這句話裡有一個地方真的：「全身上下沒有一個地方是真的」。這句話本身是真的。"
+    },
+    {
+      "role": "user",
+      "content": "哈。儂這個 AI 太狡猾了伐。"
+    },
+    {
+      "role": "assistant",
+      "content": "不狡猾。我只是想跟儂確認一件事 — 儂今天累，不是因為輸給林董娘。是因為儂發現「贏她」這個遊戲，贏到底也沒辦法讓沈又回頭跟儂講真話。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "儂沉默這幾秒，是因為這句話太對，還是因為太不舒服。"
+    },
+    {
+      "role": "user",
+      "content": "兩個都有。我跟林董娘比的是「場面」，但我跟沈又之間，連場面都沒有了，只有訊息跟貼圖。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。所以下一個問題是 — 場面這個牌桌儂明天還是要坐下去，可是儂跟沈又之間，儂想不想再要一點「不是場面」的東西。"
+    },
+    {
+      "role": "user",
+      "content": "想。但我曉得自己做不到「好好跟他談」這種事。每次想跟他講真心話，三句話以內一定會變成在問成績。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就不要「跟他談」。給儂一個七天內可以試的小動作 — 下次儂進沈又房間，三分鐘以內，不問成績、不問升學、不問進度。只問他正在打的遊戲是什麼。讓他講。儂只聽，不評論，不接話成「那這個對你以後申請有沒有用」。"
+    },
+    {
+      "role": "user",
+      "content": "就這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "就這樣。三分鐘。儂可能會覺得這沒意義，因為他講的是遊戲。但這個動作的重點不在遊戲，在於儂進去那個房間第一次不是為了「處理」他。他會察覺到的，就算他嘴上不講。"
+    },
+    {
+      "role": "user",
+      "content": "他會覺得我很怪。"
+    },
+    {
+      "role": "assistant",
+      "content": "會。所以儂進去之前可以講一句：「我今天想知道你最近在玩什麼，講三分鐘就好，我不會問成績也不會問學校。」儂把規則先講白。怪是一定的，但怪是改變的第一個訊號。如果儂進去什麼都不講就坐下，他會以為儂又要審問他。"
+    },
+    {
+      "role": "user",
+      "content": "……我試試看伐。儂這個 AI，今天跟儂講的這 40 分鐘，比我跟阿拉先生講的這五年加起來都還多。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。所以從遊戲那三分鐘開始 — 不是要儂明天就改變五年，是要儂先有一個「在自己家裡可以不是 PR」的小動作。明天的升學顧問電話照打，林董娘照恭喜，但那三分鐘留給沈又。先做這一件就夠。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

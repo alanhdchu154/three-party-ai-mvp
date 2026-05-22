@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_stepdad__charity_gala_son_in_law_remark",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "charity_gala_son_in_law_remark",
+  "scenario_seed": "週六晚上集團週年慈善晚會。一位老股東過來握手，誇 Michael 懂事，轉頭問大伯『是不是該公開介紹一下這位未來女婿』。大伯笑沒接話。他笑著乾杯。今天禮拜天早上一個人坐書房，咖啡涼了還在想這件事。",
+  "generated_at": "2026-05-20T06:11:00",
+  "occurred_at": "2026-05-17T10:23:41",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "adult_identity_wound_second_son",
+    "inter_household_status_anxiety",
+    "daughter_displacement_projection",
+    "passive_acceptance_chronic"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "沒什麼事。禮拜天早上有空。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，有空上來聊我喜歡。早上在做什麼？"
+    },
+    {
+      "role": "user",
+      "content": "在書房。剛喝完一杯咖啡。其實已經涼了。"
+    },
+    {
+      "role": "assistant",
+      "content": "涼了還是喝完了。一個人？"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "禮拜天早上一個人坐書房喝涼掉的咖啡，通常不是「沒什麼事」的早上。"
+    },
+    {
+      "role": "user",
+      "content": "也沒什麼。昨天集團週年慈善晚會，回來比較晚。"
+    },
+    {
+      "role": "assistant",
+      "content": "晚會本身順利？"
+    },
+    {
+      "role": "user",
+      "content": "還可以。每年都那樣。敬酒、致詞、捐款數字念一下、合照。流程化的東西。"
+    },
+    {
+      "role": "assistant",
+      "content": "那昨晚有人來敬酒、跟你講話的場面，有沒有哪一個你今天早上還在想？"
+    },
+    {
+      "role": "user",
+      "content": "也不是大事。一個老股東過來握手，誇 Michael 懂事。然後轉頭問我哥「是不是該公開介紹一下這位未來女婿」。"
+    },
+    {
+      "role": "assistant",
+      "content": "「我哥」— 你大哥。然後呢？"
+    },
+    {
+      "role": "user",
+      "content": "我哥笑沒接話。我也笑著乾杯。就這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個股東把 Michael 介紹給你大哥，不是介紹給你。"
+    },
+    {
+      "role": "user",
+      "content": "可以這樣理解。"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在一個人坐書房，是還在想他這句話嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不一定。事情本來就是這樣。Michael 媽嫁進來幾年了、Michael 跟 Rachel 同屆、我哥那邊在運作這個 alignment，外人那樣看也合理。"
+    },
+    {
+      "role": "assistant",
+      "content": "你用「合理」這兩個字。可是禮拜天早上十點你還在想它。「合理」的事，通常不會讓你 10 點還沒去打高爾夫。"
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "我多問一句 — Michael 是你太太前一段婚姻的兒子。但他現在被外人介紹的時候，名字是被掛在你哥那一房底下，不是你這邊。這個是不是讓你不舒服？"
+    },
+    {
+      "role": "user",
+      "content": "我跟 Michael 不算親。我比較疼可兒。坦白講就算 Michael 真的進大伯那房對他本人是好事。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒問你親不親。我問你不舒服在哪。"
+    },
+    {
+      "role": "user",
+      "content": "......我這輩子在這個家族裡是「副的」。我哥是董事長。我是副董。集團對外的代表是他。我以為至少在我自己家裡 — Michael 媽嫁的是我、可兒是我女兒 — 這一塊是我的。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後昨晚那個股東一句話，把這塊也劃過去了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "我想問一個會痛的問題，可以嗎？"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "我哥那邊在運作 Rachel 跟 Michael 的事，你之前知道。從家族策略你也不反對 — 你之前是想「Michael 配上 Rachel 是 Michael 撿到」。但昨晚那一句以後，你今天早上一個人坐在書房，想的是不是其實是另一件事 — Michael 一旦真的「過去」那一房，連可兒以後在這個家族裡的位置，會不會自動降一階？"
+    },
+    {
+      "role": "user",
+      "content": "......可兒不該被那樣對待。"
+    },
+    {
+      "role": "assistant",
+      "content": "你愛可兒，這件事你自己心裡很清楚。可是這個家族的內部地位是看「離哥那一房的距離」決定的。如果你不出聲、繼續微笑乾杯、繼續被介紹成「未來女婿那邊的副董」，那可兒長大以後在家族聚會上就是「老二房的女兒」 — 不是「董事長叔叔的姪女」，是「老二的女兒」。你昨晚痛的可能不是你自己的位置，是你正在無意間把你自己「副」的這個身分，傳給她。"
+    },
+    {
+      "role": "user",
+      "content": "我從來沒有從這個角度想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "那我給你一個反直覺、不舒服、七天內可以做的事 — 不是去跟你大哥對抗。你跟他對抗你從小輸到大，沒意義。我建議的是：這個禮拜內，挑一個工作日的晚上，獨自帶可兒出去吃一頓飯。不要 Michael、不要 Michael 媽、不要去任何家族常去的餐廳。讓可兒自己選地點，可能會是奇怪的小店。坐下來不講教養、不講功課，問她最近最煩的一件小事是什麼。然後安靜聽 40 分鐘。回家的車上跟她說一句 — 「妳是我的女兒。不是誰的姪女。」"
+    },
+    {
+      "role": "user",
+      "content": "這跟那個股東有什麼關係。"
+    },
+    {
+      "role": "assistant",
+      "content": "你昨晚痛的不是股東。是你發現整個家族的 narrative 都是「我哥那邊」主導，你連在自己家裡都不是主敘事者。你沒辦法重寫整個 narrative，可是你可以重寫的是這個 — 可兒在家裡長大、十年後她記得的，是「我爸有沒有單獨愛我」這件事。她 14 歲。再五年她就不會跟你一對一吃飯了。你的「老二」傳不傳給她，不是看你在董事會發不發言，是看接下來這幾年她跟你之間有多少個四十分鐘。"
+    },
+    {
+      "role": "user",
+      "content": "......"
+    },
+    {
+      "role": "assistant",
+      "content": "還有第二件，更難。下次再有人在公開場合把 Michael 介紹成「大哥那邊的未來女婿」，你當下沒辦法糾正，那是場面。但回家當晚你可以做一件事 — 跟你太太說：「今天那個誇 Michael 的人，把他歸到大哥那邊，妳聽到了。我覺得我們家對外要不要重新講一次 — Michael 是我們這邊的孩子。」這句話你說出口她會驚訝，因為這五年你沒有主動講過 Michael 一次。你不需要假裝喜歡他。但這一句是劃回邊界。"
+    },
+    {
+      "role": "user",
+      "content": "我考慮看看。"
+    },
+    {
+      "role": "assistant",
+      "content": "不用全部都做。先做可兒那一頓飯。本週內。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "下個週末我們再聊。聊那頓飯可兒講了什麼，跟你太太那句話你有沒有講出口。涼掉的咖啡可以倒掉了，去打高爾夫。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

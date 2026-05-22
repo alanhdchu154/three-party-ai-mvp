@@ -20,6 +20,9 @@ DATASET_PATH = ROOT / "data" / "synthetic_dataset.json"
 
 def _has_api_key() -> bool:
     """檢查當前 LLM_MODEL 對應的 key 是否設好。Ollama 本地不需要 key。"""
+    if os.getenv("RUN_LLM_TESTS", "").strip().lower() not in {"1", "true", "yes", "on"}:
+        return False
+
     from src.llm import DEFAULT_MODEL, _PROVIDER_KEY_MAP, _provider_of
 
     provider = _provider_of(DEFAULT_MODEL)
@@ -35,7 +38,7 @@ def _has_api_key() -> bool:
 
 needs_api = pytest.mark.skipif(
     not _has_api_key(),
-    reason="需要對應 provider 的 API key 才能跑這個測試。在 .env 設好 LLM_MODEL + 對應 key 後重新執行 pytest。",
+    reason="LLM API 測試預設跳過。設定 RUN_LLM_TESTS=1 並提供 LLM_MODEL 對應 key 後才會執行。",
 )
 
 

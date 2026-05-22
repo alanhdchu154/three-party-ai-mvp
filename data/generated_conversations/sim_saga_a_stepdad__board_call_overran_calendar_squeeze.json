@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_stepdad__board_call_overran_calendar_squeeze",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "scenario_seed_id": "board_call_overran_calendar_squeeze",
+  "scenario_seed": "早上九點的董事會電話一路拖過十點半,司機在樓下等著去下一攤。他趁空檔打開 AI,只想抱怨行事曆被排到連喘口氣的縫都沒有,順口問下午硬塞的兩個會能不能挪掉一個。",
+  "generated_at": "2026-05-21T21:10:07Z",
+  "occurred_at": "2026-05-20T10:37:52Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "早上九點那通董事會電話拖到現在還沒收尾,司機在樓下等二十分鐘了。我下午又被硬塞兩個會,行事曆連午餐的縫都沒有。幫我看一下哪個能挪。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來今天從一睜眼就被排滿了,辛苦。先確認一下,下午那兩個會,哪一個是非你拍板不可、哪一個其實可以讓底下先擋一輪?我們從這裡開始挪。"
+    },
+    {
+      "role": "user",
+      "content": "一個是跟銀行對授信額度,那場一定要我。另一個是內部簡報複審,副手其實能代,但我習慣自己過一遍,不然不放心。"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實答案你自己已經講出來了。銀行那場留著,簡報複審讓副手先過,你晚點花十分鐘看他標的重點就行。不是不信他,是今天真的擠不出那十分鐘兩件都自己扛。"
+    },
+    {
+      "role": "user",
+      "content": "也是。說真的我已經想不起來上一次好好坐下來吃頓飯、不是邊吃邊聽簡報是什麼時候了。算了,這種話講出來矯情。"
+    },
+    {
+      "role": "assistant",
+      "content": "不矯情,就是排太滿、累了而已。今天先把簡報複審推給副手,司機那邊也回一句讓他先去吃。晚上那場如果還在,要不要至少那一頓就單純吃飯?"
+    },
+    {
+      "role": "user",
+      "content": "晚餐是家裡的,可兒鋼琴比賽報名的事要敲一下。那頓就家裡的事,不談公司。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就這樣定:下午留銀行、簡報複審交副手、晚上回家不帶公事。我先幫你把這三件記著,等銀行的會結束你回來掃一眼就好。"
+    }
+  ]
+}

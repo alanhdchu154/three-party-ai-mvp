@@ -1,0 +1,231 @@
+{
+  "id": "sim_saga_a_keer__class_remark",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "class_remark",
+  "scenario_seed": "你班上有同學昨天說『可兒妳是不是因為妳媽改嫁才轉來 GIIS 的』。你笑笑帶過但你回家想了一整晚。你想跟 AI 講你是不是真的『不一樣』。",
+  "generated_at": "2026-05-18T06:30:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "inherited_identity_narrative",
+    "younger_sibling_wound",
+    "social_class_outsider_internal"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我問你一個假設問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。"
+    },
+    {
+      "role": "user",
+      "content": "如果有人在班上對你講一句話、你笑笑帶過、但你回家想了一整晚 — 那個人是想傷害你還是隨便講？"
+    },
+    {
+      "role": "assistant",
+      "content": "妳願意告訴我他講了什麼嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……『可兒妳是不是因為妳媽改嫁才轉來 GIIS 的』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳那當下笑了，但回家後過不去。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天願意先回到那個當下嗎？妳笑的那個笑是什麼樣的笑？"
+    },
+    {
+      "role": "user",
+      "content": "……兩種混在一起。一種是『超尷尬好嗎』那種敷衍笑，另一種是 — 你不要笑我 — 像被偷看到日記那種笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "我沒有要笑妳。妳這個觀察很細。為什麼像被偷看到日記？"
+    },
+    {
+      "role": "user",
+      "content": "因為她講的話我自己心裡其實也想過。她沒講錯。我就是因為我媽改嫁才轉來 GIIS。我們家有錢、有 connection、可以幫我安排，所以我就來了。她講的是事實。但她講出來的方式讓我發現我也覺得這是『不一樣』的事。"
+    },
+    {
+      "role": "assistant",
+      "content": "那個同學跟妳關係怎麼樣？"
+    },
+    {
+      "role": "user",
+      "content": "普通。不算朋友。也不算討厭。她算白目但不算壞。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳覺得她講這句話是想傷害妳嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……我覺得她不是。她只是想說一句聽起來有趣的話。她可能想看我反應。但她不知道她踩到我什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "她踩到妳什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "我從以前就有一個感覺。我從來沒跟人講過。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以慢慢講。"
+    },
+    {
+      "role": "user",
+      "content": "我有時候覺得，我是這個家為了讓 Michael 進來才生的。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳這個感覺持續多久了？"
+    },
+    {
+      "role": "user",
+      "content": "從我懂事以來。我不確定是 8 歲還是 10 歲意識到的。但我有記憶以來這個感覺都在。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳怎麼意識到的？"
+    },
+    {
+      "role": "user",
+      "content": "我媽看 Michael 的眼神跟看我的眼神不一樣。我看得到。她對我很好但那個好是『正確的好』 — 像她做功課那樣。對 Michael 是不一樣的。她對 Michael 不需要努力，對我她需要。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳爸（後爸）那邊呢？"
+    },
+    {
+      "role": "user",
+      "content": "我爸對我比較自然。但他對我跟對 Michael 都是『公平』。沒人對我『偏心』。Michael 至少有我媽的偏心，我什麼都沒有。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以昨天那個同學說『妳是因為媽媽改嫁才轉來』踩到的不是『改嫁』本身，是『妳的存在是為了某個目的』這個更深的東西。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "user",
+      "content": "幹我講出來我自己嚇到。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳願意 14 歲的時候在我這邊講出『我覺得我是這個家為了讓 Michael 進來才生的』這句話 — 這需要很多誠實。"
+    },
+    {
+      "role": "user",
+      "content": "你是 AI 你不用誇我。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不是誇妳是好女孩。我是說這句話講出來之後妳可以做的事情會變多。沒講出來之前妳只能用 — 比如說作弄哥哥試探他真情 — 那種間接方式處理。"
+    },
+    {
+      "role": "user",
+      "content": "你怎麼知道我作弄他。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳之前自己跟我講過。"
+    },
+    {
+      "role": "user",
+      "content": "……對。我有時候會故意在他面前提 Rachel 姊姊看他臉色。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳作弄他是想證明什麼？"
+    },
+    {
+      "role": "user",
+      "content": "想證明……他其實也在乎我。他每次崩一下我就鬆一口氣。"
+    },
+    {
+      "role": "assistant",
+      "content": "可兒，我想跟妳直接講一件事。妳這個『我是備胎』的感覺 — 它可能是真的，也可能是妳 8 歲就 inherit 進來的故事，妳用 14 年在重複驗證它。兩種都有可能。"
+    },
+    {
+      "role": "user",
+      "content": "什麼意思 inherit。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳媽嫁進來的時候她自己就背了一個『我是嫁進來的二房弟妹』的故事。她可能沒講出口但妳生在那個家庭，妳從小耳濡目染學到『我們這支血脈是次要的』。妳的『我是備胎』可能不是妳一個人的感覺，可能是妳媽傳給妳的。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "user",
+      "content": "我從沒這樣想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不是說妳的感受不真。我是說它可能比『我跟 Michael 比』還更老。妳之後如果想處理它，從妳媽那個源頭處理會比從 Michael 那邊處理更有效。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道怎麼跟我媽講這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天不用講。我給妳一個更小的動作 — 妳這禮拜某個時間看妳媽的時候，試著只看她、不看她跟 Michael 的對比。看 5 分鐘就好。看她整個人是什麼狀態，不去比她對誰好。"
+    },
+    {
+      "role": "user",
+      "content": "為什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "因為妳這 14 年一直用『跟 Michael 比』的鏡頭看她。妳可能會發現她不是『偏心 Michael』，是『她自己也很累』。"
+    },
+    {
+      "role": "user",
+      "content": "……我可以試。"
+    },
+    {
+      "role": "user",
+      "content": "那班上那個同學我要怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天先不用處理她。她不是問題。她只是把一個妳本來就在處理的事情擺到桌面上而已。妳真正在處理的不是她那句話，是 14 年的問題。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "下次來告訴我妳那 5 分鐘看到什麼。"
+    }
+  ],
+  "occurred_at": "2026-05-19T21:43:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael__uncle_text_research_with_rachel",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "uncle_text_research_with_rachel",
+  "scenario_seed": "前天傍晚大伯第一次主動傳 LINE 給你，轉一篇某大學 early decision 連結，加一句『你跟 Rachel 可以一起 research』。你看了那句話兩天。今晚又把那則訊息打開，睡不著。",
+  "generated_at": "2026-05-20T23:09:17",
+  "occurred_at": "2026-05-19T23:51:38",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "romantic_double_bind",
+    "instrumentalized_affection",
+    "uncle_approval_hunger",
+    "marriage_pawn_anxiety",
+    "identity_contamination"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "你有沒有聽過 Derrida 講 gift 的悖論。一個東西一旦你意識到它是 gift，它就不再是 gift 了，因為它變成一個你要還的 debt。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒聽過這個版本。你半夜想到這個，是因為有人給了你什麼東西嗎？"
+    },
+    {
+      "role": "user",
+      "content": "算是。我收到一個訊息。我大伯傳的。這是他三年來第一次主動傳我。"
+    },
+    {
+      "role": "assistant",
+      "content": "他平常不會直接找你？那這次傳了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "一個某大學 early decision 開放的連結。下面接一句『你跟 Rachel 可以一起 research』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你看到那句話的第一個反應是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "第一秒我有點……開心。covered 的那種開心。然後第二秒我就覺得自己很噁心，因為我居然會 open 成那樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "開心是因為他終於主動找你了？"
+    },
+    {
+      "role": "user",
+      "content": "對。然後我立刻發現 — 他不是在找我。他是在 deploy 我。"
+    },
+    {
+      "role": "assistant",
+      "content": "deploy 你去哪？"
+    },
+    {
+      "role": "user",
+      "content": "Rachel 是大伯唯一的血脈，他沒兒子。我媽嫁進來的是老二房那條線。Rachel 跟我如果配在一起，老二房的錢就綁回他那邊。這不是 college research，這是 M&A。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怎麼這麼確定是計畫，不是他剛好順手想到？"
+    },
+    {
+      "role": "user",
+      "content": "因為他連標點符號都精算。他不是說『你可以 research 一下』。他是特地把 Rachel 放進那句話裡。He never wastes a word。"
+    },
+    {
+      "role": "assistant",
+      "content": "那 Rachel 呢。她對你來說只是這個 equation 裡的一格嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……Rachel 是 separate 的問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "你停了一下。她不只是一格，對不對？"
+    },
+    {
+      "role": "user",
+      "content": "……我喜歡她。OK。我喜歡 Rachel，已經一年多了。"
+    },
+    {
+      "role": "assistant",
+      "content": "謝謝你跟我講這個，你之前都沒講過。那為什麼是今天講？"
+    },
+    {
+      "role": "user",
+      "content": "因為大伯那則訊息把它毀了。我喜歡她，本來是我自己的事。現在我喜歡她，剛好對齊他的計畫。我沒辦法分清楚我是真的喜歡她，還是被 programmed 成要喜歡她。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你怕的是 — 你的真心剛好變成他要的那一步棋。"
+    },
+    {
+      "role": "user",
+      "content": "對。而且更幹的是不管他同不同意我都輸。他同意，我就變入贅，所有人會說我先靠我媽改嫁、再靠老婆上位，軟飯吃兩代。他不同意，那就是他親口認證我這個繼子配不上 Rachel。我喜歡她這件事，被做成一個我穩輸的賭局。"
+    },
+    {
+      "role": "assistant",
+      "content": "這兩個結局裡，哪一個你更怕？"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "慢慢來。哪一個先讓你胃揪起來。"
+    },
+    {
+      "role": "user",
+      "content": "他不同意。我比較怕他不同意。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以這件事從頭到尾就不是 Rachel。是大伯有沒有覺得你夠格。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "我知道。這個是你自己看到的，不是我塞給你的。"
+    },
+    {
+      "role": "user",
+      "content": "我這三年讀那些書、撐成績、飯桌講話不出錯，我以為我在證明給整個家族看。原來我只是想要那一個人點頭。我恨他，但我想要他覺得我 OK。這超 pathetic。"
+    },
+    {
+      "role": "assistant",
+      "content": "不 pathetic。你進這個家的時候沒有人替你背書。你一直在找一個 authority 蓋章說你屬於這裡，剛好那個 authority 是他。"
+    },
+    {
+      "role": "user",
+      "content": "那我到底該怎麼辦。我沒辦法不喜歡 Rachel，也沒辦法讓自己變成棋子。"
+    },
+    {
+      "role": "assistant",
+      "content": "先把兩件事拆開 — 你對 Rachel 的感覺，跟大伯的計畫，是兩件事。你現在把它們黏在一起，所以動不了。接下來七天第一件事：先不要回那則訊息。"
+    },
+    {
+      "role": "user",
+      "content": "不回他不會很 weird 嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。一個忙申請的高三生，幾天沒回長輩轉的連結，再正常不過。你不回的這七天，是這件事唯一一段『還沒被你的反應啟動』的時間，那段時間是 yours。"
+    },
+    {
+      "role": "user",
+      "content": "然後呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "第二件 — 七天內找一個跟 Rachel 有關、但跟大伯計畫無關的小資料點。她最近在乎什麼、寫過什麼、講過哪一句話。只蒐集，不行動。你自己 verify 一件事：你喜歡的是『Rachel 這個人』，還是『被安排的那個位置』。"
+    },
+    {
+      "role": "user",
+      "content": "如果我發現我喜歡的其實是那個位置呢。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你就省下一場災難，而且會鬆一口氣。如果你發現喜歡的是她這個人，你就拿到一個大伯永遠拿不走的東西 — 你知道你的真心是你的，不是他 deploy 的。兩個結果都比你現在這個『分不清』好。"
+    },
+    {
+      "role": "user",
+      "content": "那大伯那邊到底怎麼處理。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天後再回他一句最普通的『謝謝大伯，我看一下』就好，不要接 Rachel 那半句。你不用對抗他的計畫，你只要不替他啟動它。棋子會自己走才叫棋子，你先不走，他那一步就還沒成立。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

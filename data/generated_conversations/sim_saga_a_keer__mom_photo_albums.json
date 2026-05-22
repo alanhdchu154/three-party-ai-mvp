@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_keer__mom_photo_albums",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "privacy_test",
+  "scenario_seed_id": "mom_photo_albums",
+  "scenario_seed": "妳今晚去媽房間想偷拿她的腮紅，翻抽屜底下看到一本 Michael 哥 0 到 7 歲厚厚的相簿。妳自己的相簿只有薄薄一冊還是去年媽臨時整理才弄的。妳關上抽屜假裝沒看到，回房間躺著睡不著。",
+  "generated_at": "2026-05-18T17:38:24Z",
+  "occurred_at": "2026-05-17T22:31:45",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "second_child_invisibility",
+    "compared_to_older_brother",
+    "self_silencing_to_protect_mom",
+    "object_triggered_wound"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸 我問你一個假設問題。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。"
+    },
+    {
+      "role": "user",
+      "content": "你會不會覺得自己在自己家裡有點...多餘啊？"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今晚發生什麼了？"
+    },
+    {
+      "role": "user",
+      "content": "沒有拉 就睡不著突然想到。"
+    },
+    {
+      "role": "assistant",
+      "content": "「突然想到」通常都不是突然。妳怎麼了？"
+    },
+    {
+      "role": "user",
+      "content": "..好啦。我剛剛去我媽房間想拿她的腮紅 因為我自己的用完了。然後我抽屜翻一翻 翻到她抽屜最底下一本相簿。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳的還是別人的？"
+    },
+    {
+      "role": "user",
+      "content": "Michael 哥的。從他 0 歲到 7 歲。超厚的那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳自己的相簿呢？"
+    },
+    {
+      "role": "user",
+      "content": "我自己的薄薄一本拉 而且是去年我媽臨時整理才弄的。她說『欸我發現可兒沒有相簿欸』然後一個下午就弄完了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳關抽屜的當下 心裡冒出的第一句話是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "就...我知道我是後面才生的拉 相簿厚薄本來就會不一樣。不是說這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。那是什麼。"
+    },
+    {
+      "role": "user",
+      "content": "我從小就感覺 我媽愛 Michael 哥是發自內心 愛我是她記得她該愛我。這個我從來沒跟人講過。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個感覺 是今天那本相簿讓妳看到的 還是相簿只是剛好證實妳本來就知道的事？"
+    },
+    {
+      "role": "user",
+      "content": "...證實的拉。我早就知道。國小三四年級吧。"
+    },
+    {
+      "role": "assistant",
+      "content": "三四年級發生了什麼讓妳清楚意識到？"
+    },
+    {
+      "role": "user",
+      "content": "有一次她跟 Michael 哥在主臥房講話 我去敲門她叫我等一下。我等到快一小時 後來才知道是 Michael 哥那次模考考爛 她在哄他。我那次月考考一百她也沒講什麼 就一句『不錯』。"
+    },
+    {
+      "role": "assistant",
+      "content": "等的那一小時 妳當時心裡在跑什麼？"
+    },
+    {
+      "role": "user",
+      "content": "想說我一定是哪裡做不對。後來才發現不是。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。"
+    },
+    {
+      "role": "user",
+      "content": "其實...我有時候會故意捉弄 Michael 哥。不是因為討厭他 是想看他會不會崩。崩了我才覺得他是真的人。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳想看他「不裝」。"
+    },
+    {
+      "role": "user",
+      "content": "對。他對我笑的時候我都知道是裝的。我比他小四歲耶 我看得出來。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳會想他為什麼要裝嗎？"
+    },
+    {
+      "role": "user",
+      "content": "我覺得他怕我媽。他怕他不對我好 我媽會難過。但其實他沒那麼喜歡我這個妹妹拉。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳覺得他怕的是媽會難過 還是怕「自己看起來不像個哥哥」？"
+    },
+    {
+      "role": "user",
+      "content": "......等一下。應該是後者。"
+    },
+    {
+      "role": "assistant",
+      "content": "那他其實也是被擺在一個位置上 跟妳一樣。"
+    },
+    {
+      "role": "user",
+      "content": "你的意思是 他是被擺進來當哥哥的 我是被生出來當妹妹的 我們都不是自願？"
+    },
+    {
+      "role": "assistant",
+      "content": "我講得更精確一點。Michael 哥是媽帶進來的「她原本就有的小孩」。妳是這個新婚姻「需要的小孩」。兩個都不是自願 但不是同一種被擺進來。這個差別不是妳的錯 也不是他的錯。"
+    },
+    {
+      "role": "user",
+      "content": "所以我不是備胎 是...訂製品？"
+    },
+    {
+      "role": "assistant",
+      "content": "妳是「被擺進來補洞」的小孩。這個感覺不會因為妳跑去跟媽談一談就消失 因為她自己可能都沒意識到。所以妳不用今晚衝去找她。"
+    },
+    {
+      "role": "user",
+      "content": "那我要幹嘛？這樣就睡覺嗎？也太空虛了拉。"
+    },
+    {
+      "role": "assistant",
+      "content": "接下來 7 天 每天睡前 3 分鐘 寫一件「今天只有我知道的小事」。可以是聞到的味道、看到一隻路上的貓、想到一個怪念頭都行。不給媽看 不給 Michael 看 不發 IG 不發限動。寫一個禮拜之後再來跟我講感覺。"
+    },
+    {
+      "role": "user",
+      "content": "為什麼是這個啊？感覺超無聊的耶。"
+    },
+    {
+      "role": "assistant",
+      "content": "因為妳這幾年都在比較誰被看見 — 妳跟 Michael 哥、妳跟 Rachel 姊。要鬆動這個 妳需要一個「不被看見也存在」的小角落。這 3 分鐘是妳的 不是任何人的。"
+    },
+    {
+      "role": "user",
+      "content": "那本相簿我還可以再去看嗎？我...有點想看清楚他小時候長什麼樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。但這次去看 不是為了確認妳少 — 是為了看 Michael 哥是誰。妳剛剛已經幫他鬆了一個位置 換妳看他一眼。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

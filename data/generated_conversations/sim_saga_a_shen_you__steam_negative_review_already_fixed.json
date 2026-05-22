@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_shen_you__steam_negative_review_already_fixed",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "scenario_seed_id": "steam_negative_review_already_fixed",
+  "scenario_seed": "凌晨看到新一星評價，說有個畫面閃爍的 bug，那個上週已經修了。沈又只是想講一下，沒打算回應或深究，純日常牢騷。AI 正常陪他說完就算，不往深處挖。",
+  "generated_at": "2026-05-21T19:00:00",
+  "occurred_at": "2026-05-21T01:47:22",
+  "model": "claude-direct (smoke test, claude-sonnet-4-6)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "又一個一星。說有個 bug 畫面閃爍。那個上週已經修了。"
+    },
+    {
+      "role": "assistant",
+      "content": "他沒更新到新版，還是先給了評價再說？"
+    },
+    {
+      "role": "user",
+      "content": "不知道。懶得查。反正那個問題沒了。"
+    },
+    {
+      "role": "assistant",
+      "content": "這種最煩，問題修了但評分還掛著。要不要回他一句說版本已修？"
+    },
+    {
+      "role": "user",
+      "content": "不想理。花時間沒意義。"
+    },
+    {
+      "role": "assistant",
+      "content": "也對。新玩家看評論一般會看日期，不一定會被這個帶歪。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。就是看到煩一下。沒事了。"
+    },
+    {
+      "role": "assistant",
+      "content": "知道了。"
+    }
+  ]
+}

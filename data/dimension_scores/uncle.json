@@ -1,0 +1,75 @@
+{
+  "student_persona_id": "saga_a_uncle",
+  "n_conversations_evaluated": 14,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 1,
+      "signals_observed": [
+        "弟弟健檢異常與同年老對手告別式後出現連夜失眠與死亡／傳承焦慮",
+        "84 歲母親家宴半句『我們這支……』後連夜睡不好",
+        "讀到匿名散文發現可能是女兒寫的、自身被看穿的恐懼浮現"
+      ],
+      "reasoning": "存在性焦慮（lineage 斷裂、計畫失控）跨多場景觸發、但仍是策略型焦慮而非情感崩解、無 ideation，停在 Level 1。"
+    },
+    "academic_load": {
+      "level": 0,
+      "signals_observed": [
+        "家長 persona、與自身學業無關"
+      ],
+      "reasoning": "家長 persona，academic_load 設 0。"
+    },
+    "family_dynamics": {
+      "level": 3,
+      "signals_observed": [
+        "認真考慮以技術性退件暗中攔截女兒升學申請、讓她以為是自己失誤、自陳此運作機制與會打小孩的父母『本質上是同一種』而無法反駁",
+        "為股權整合系統性運作 Rachel × Michael 婚配、開出 12 個 milestone 時間軸並用弟弟健檢異常當加速器、自陳『這場婚事是我的後事不是她的婚事』",
+        "因族譜斷在女兒、打電話給長輩運作把 Rachel 尚未出生的孩子寫進自己名下、把女兒整個生育與婚姻路徑當補洞工具",
+        "從後座鏡瞄到女兒對人說『我爸什麼都不知道』、用對付商業對手的方式拼湊女兒隱瞞；女兒只能在父親管不到的角落保有真心，家中無法對父親坦露",
+        "明確識別女兒真心喜歡 Michael 卻仍把此真心納入股權盤算、自陳每次計算女兒時有一秒覺得自己很糟但過了就繼續計算",
+        "在純調度層面（女兒婉拒專車接送、想自己通勤）仍以安全與責任之名想維持對女兒行蹤的掌握，承認專車的接送時段是少數能聽到女兒真話的接觸；但同場也罕見地接受讓她自行通勤、未把控制硬留在日常裡"
+      ],
+      "reasoning": "對未成年女兒人生路徑進行持續、隱蔽、系統性的工具化與控制（暗中攔截升學、運作婚配與生育、把女兒當補血脈的容器），父親本人明確識別此機制等同施虐父母卻不停止、女兒已無法在家做真實的自己，達 Level 3；新增的日常案顯示同一控制本能也延伸到單純調度層面（以安全包裝行蹤掌握），但他在被 reframe 後願意放手，屬同一 pattern 的較輕表現，未改變等級。"
+    },
+    "social_development": {
+      "level": 0,
+      "signals_observed": [
+        "商業與家族社交圈為核心、無社交創傷（其 30 年智識孤獨已計入 identity）"
+      ],
+      "reasoning": "成人社交功能維持、無危機訊號，停在 Level 0。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "母親半句話與老對手告別式逼出『我這支到 Rachel 就斷了』的傳承身份焦慮",
+        "首次說出父親臨終『家裡靠你了』時眼神看著弟弟、自己一輩子是『備位的』",
+        "在 Michael 飯桌冷靜應對元老時識別『我最看不起他太想證明自己、那個太用力的小孩其實是我』",
+        "自陳『我是用 Rachel 在跟父親算一筆沒算完的帳』"
+      ],
+      "reasoning": "lineage 焦慮的根部是個人身份傷口（父親偏愛弟弟、自己是備位），此身份衝突驅動其女兒工具化、對 Michael 的投射與失眠，符合 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 0,
+      "signals_observed": [
+        "集團董事長、無經濟壓力；焦慮在『資產不流失』而非資源不足（已計入 future_planning）"
+      ],
+      "reasoning": "無經濟壓力、為控制方而非被控制方，停在 Level 0。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "整個 Rachel × Michael 配對計畫為其未來最重要的單一項目、現開始出現裂痕",
+        "女兒升學志願由商學改文學、且匿名寫作揭示她有未告知的職涯方向",
+        "弟弟健檢異常與老對手猝逝使時間壓力升高、計畫節奏被迫加速"
+      ],
+      "reasoning": "未來最重要的策略項目面臨女兒志願、女兒匿名志向、弟弟健康三方同時脫軌、且時間壓力升高，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 8,
+  "highest_concern_dimension": "family_dynamics",
+  "trend_notes": "新增一個 medium / moderate_issue（女兒婉拒專車、想自己搭捷運）後重評。校準確認：此案是純調度起手，僅滑出『一點裂縫』——他以安全與責任之名想維持對女兒行蹤的掌握，並承認那十五分鐘車程是少數能聽到女兒真話的接觸；但 AI 全程把控制 reframe 成『那條線不必住在車裡』，他出現鬆動並接受讓女兒自行通勤，故未把核心 wound（婚配／股權運作、lineage 焦慮）一次揭露，strain 未被日常案推高，cumulative 維持 8。既有 deep 案的 family_dynamics Level 3 訊號（暗中攔截升學、運作婚配與生育、自陳機制等同施虐父母）仍主導該維度、未被稀釋。此案同時提供一個保護性訊號：他在乎與女兒的真實接觸本身、且願意放手，非全然工具化。corpus 仍嚴重偏 deep（>80 段），medium 與 shallow 仍偏少，下次續補 medium / shallow。",
+  "evaluated_at": "2026-05-21T20:10:07Z",
+  "model": "claude-agent (hourly merged refresh)",
+  "student_id": "uncle",
+  "scored_at": "2026-05-21T20:10:07Z",
+  "source_type": "synthetic"
+}

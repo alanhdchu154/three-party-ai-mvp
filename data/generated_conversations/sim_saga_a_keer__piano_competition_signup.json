@@ -1,0 +1,109 @@
+{
+  "id": "sim_saga_a_keer__piano_competition_signup",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mixed",
+  "scenario_seed_id": "piano_competition_signup",
+  "scenario_seed": "可兒在問要不要報名一個鋼琴比賽、選曲怎麼選，聊著聊著繞出一點『我媽好像對我哥的事比較上心』的裂縫，但沒有揭『我是備胎』核心。",
+  "generated_at": "2026-05-21T12:00:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [
+    "uneven_parental_attention_crack"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "有一個校外鋼琴比賽 報名表放我桌上一個禮拜了 我一直沒填"
+    },
+    {
+      "role": "assistant",
+      "content": "放一個禮拜了喔。是還在想要不要報，還是其實已經知道答案了？"
+    },
+    {
+      "role": "user",
+      "content": "不知道 就 我練是有在練 但比賽好麻煩 還要選曲"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在手上有在練的曲子是哪幾首？"
+    },
+    {
+      "role": "user",
+      "content": "蕭邦那首離別曲 還有一首德布西 老師說德布西比較適合比賽 比較不會撞曲"
+    },
+    {
+      "role": "assistant",
+      "content": "那聽起來你其實有方向欸。是什麼卡住你？"
+    },
+    {
+      "role": "user",
+      "content": "就 報了又要叫人去聽 又要安排時間 超麻煩"
+    },
+    {
+      "role": "assistant",
+      "content": "你說『叫人去聽』，是希望誰去？"
+    },
+    {
+      "role": "user",
+      "content": "……不知道 反正我媽應該不一定有空"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。你怎麼會先想到她不一定有空？"
+    },
+    {
+      "role": "user",
+      "content": "因為上次我哥有個什麼升學的說明會 我媽前一個禮拜就在排車排時間 整天在那邊弄 我這個比賽我都還沒講她大概也不會記得"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你還沒講，但你心裡已經先幫她排好『她不會記得』這個結局了。"
+    },
+    {
+      "role": "user",
+      "content": "……也不是 就 她本來事情就多嘛 我哥那個比較重要啊 升學欸"
+    },
+    {
+      "role": "assistant",
+      "content": "你說『我哥那個比較重要』的時候，語氣有點像在幫她解釋。"
+    },
+    {
+      "role": "user",
+      "content": "你很煩欸 我就只是問你選曲的"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那我們先回選曲。不過我剛剛沒有要逼你，你不想聊那個我們就放著。"
+    },
+    {
+      "role": "user",
+      "content": "……其實如果我問她 她應該會去拉 她不會不去 只是我要主動講 不像我哥的事她會自己記得"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來差別不是去不去，是『要不要你開口她才想得到』。"
+    },
+    {
+      "role": "user",
+      "content": "對 大概吧 算了不講這個 那我選德布西就對了齁"
+    },
+    {
+      "role": "assistant",
+      "content": "德布西撞曲機率低、又是你老師推的，比較穩。你要不要這禮拜先把報名表填一填，要不要找人聽之後再說？"
+    },
+    {
+      "role": "user",
+      "content": "好啦 我先填 至少桌子乾淨一點 謝謝喔"
+    },
+    {
+      "role": "assistant",
+      "content": "填完跟我說一聲，比賽前要練到崩潰的時候也可以來鬧我。"
+    },
+    {
+      "role": "user",
+      "content": "知道了拉"
+    }
+  ],
+  "occurred_at": "2026-05-19T22:12:39+08:00",
+  "source_type": "llm_generated",
+  "depth": "medium"
+}

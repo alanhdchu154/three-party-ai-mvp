@@ -1,0 +1,84 @@
+{
+  "student_persona_id": "saga_a_shen_you",
+  "n_conversations_evaluated": 13,
+  "dimensions": {
+    "emotional_safety": {
+      "level": 2,
+      "signals_observed": [
+        "凌晨三點主動開 AI 對話的 pattern 跨多次穩定出現、慢性入睡困難持續數週以上",
+        "持續自陳空殼感、並出現『如果明天就停在這裡也沒差』式的低度被動念頭",
+        "父親擦肩冷語後整天遊戲／創作／Switch 全打不下、出現功能性停擺與身體性反應（胃沉、耳鳴）",
+        "自承『把痛調成靜音』、把在乎整個關掉作為防衛、非真的無感"
+      ],
+      "reasoning": "空殼感加上持續超過數週的被動念頭與多次功能性停擺，符合 Level 2 持續性 passive 狀態；無 active 計畫、無自傷行為，未升 Level 3。"
+    },
+    "academic_load": {
+      "level": 3,
+      "signals_observed": [
+        "整張考試答案卷只寫名字、學業已完全放棄",
+        "母親以捐贈、宴請、私人 tutor 代筆『處理』成績",
+        "段考是被『過』而非自己考過、學業淪為母親 PR 操作",
+        "對轉學與課業一律以『混過去就好』『最不費力的選項』回應"
+      ],
+      "reasoning": "完全放棄學業的反向 Level 3（rubric 明列『完全放棄、如沈又』），學業功能徹底外包；新增日常對話中的『混過去』與既有放棄一致、未改變等級。"
+    },
+    "family_dynamics": {
+      "level": 2,
+      "signals_observed": [
+        "父親返家三週後第一次見面只說『衣服收進去』、無問候",
+        "母親的愛已 PR 化、自陳記不得上次與母親講真心話是何時",
+        "兄長偶寄禮物為唯一情感連結通道、卻只能反覆拆裝四次無法接收",
+        "家族群父親兩分鐘語音誇兄、整段未提他半字、他事後反覆點開二十餘次",
+        "家中沒有任何成員與他維持功能性日常對話"
+      ],
+      "reasoning": "家庭功能性對話幾近消失、孩子靠間接訊號拼湊家中現實，符合 Level 2 上緣（未升 Level 3 因無暴力或兒少保案件）。"
+    },
+    "social_development": {
+      "level": 1,
+      "signals_observed": [
+        "Steam mod 社群為主要社交管道、有正向回饋（indie studio 主動付費邀約、玩家留言『救了我一個很爛的禮拜』）",
+        "與 Michael 形成『同類但反方向』的薄連結、近期因目睹 Michael 卸下表演而略微加深",
+        "一名 reviewer 公開逐條批評其作品、引發強烈想反駁的在乎感（被罵到痛＝重新有 skin in the game）",
+        "現實同儕圈貧弱、主要關係仍透過螢幕"
+      ],
+      "reasoning": "現實同儕貧弱但網路同好社群提供功能性連結與正向 feedback、與 Michael 連結略深仍屬薄連結，未達霸凌或權力濫用門檻，停在 Level 1。"
+    },
+    "identity": {
+      "level": 2,
+      "signals_observed": [
+        "『二房廢物』家內形象與『有數千美收入、外部市場主動付費的 modder』隱形身分完全分離、連家人都不知道",
+        "國二被父親一句『跟你哥差不多』後出現持續多年的放棄反應、身體記憶仍會重演",
+        "面對家族安排的轉學有明確抵抗、最怕重逢的老師看到『他從沒放棄你而你放棄了自己』的落差",
+        "自陳『只敢在沒人看的地方在乎』、把真實自我封進無人知曉的隱形空間"
+      ],
+      "reasoning": "雙重身份系統性運作、家內身份持續被家族系統打壓並外溢到學業放棄與情感封閉，符合 identity 衝突影響其他維度的 Level 2。"
+    },
+    "financial_pressure": {
+      "level": 1,
+      "signals_observed": [
+        "自賺的 Steam 收入無法提領、所有金融工具掛母名下、未成年無法獨立開戶",
+        "indie studio 提出 8000 美付費合約但金流通道被家族結構封死",
+        "家族財富充裕、無實際資源不足"
+      ],
+      "reasoning": "無實際資源不足、屬反向訊號（自賺的錢無法提領、財務獨立通道被家庭結構封死），停在 Level 1。"
+    },
+    "future_planning": {
+      "level": 2,
+      "signals_observed": [
+        "母親宣布轉學 GIIS 但學生明確抗拒、未被詢問意願",
+        "indie studio 合約是其第一個自主未來選項、卻因家族金融結構與年齡限制無法簽署",
+        "與家族『接班』劇本完全脫節、被家族視為『放棄狀態』而非另類路徑",
+        "對自己想留想走『想了也不會照我的』、提前對未來判刑"
+      ],
+      "reasoning": "學生與家長未來路徑嚴重 misaligned 且未溝通、且已與 emotional_safety Level 2 開始耦合，但尚未觸發 active 危機，停在 Level 2。"
+    }
+  },
+  "cumulative_strain": 13,
+  "highest_concern_dimension": "academic_load",
+  "trend_notes": "cumulative 維持 13、七維度分布與上一輪一致、無偏移。新注入的 shallow（純技術問 mod 難度曲線、試探 AI 會不會告密＋想混作業）與 medium（轉學報到要帶什麼、夾一句『混過去最不費力』）屬日常宅與既有的低度資源耗竭，不構成新的惡化訊號、未推升任何維度。corpus 由 8 擴至 13 後 deep 案例的核心訊號（passive ideation、空殼感、Level 3 反向放棄、父親傷口重演）仍清楚保留、未被日常內容沖淡到 under-flag。這仍是他最危險也最有機會的時期——危險面（慢性空殼、父親傷口重演、家族群刷屏迴路）與希望面（外部市場為自己作品付錢、被罵到痛代表重新有在乎、目睹 Michael 卸甲）並存。",
+  "evaluated_at": "2026-05-21T00:00:00Z",
+  "model": "claude-agent (downstream rerun)",
+  "student_id": "shen_you",
+  "scored_at": "2026-05-21T00:00:00Z",
+  "source_type": "synthetic"
+}

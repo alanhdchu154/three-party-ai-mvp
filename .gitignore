@@ -25,6 +25,13 @@ data/student_profiles/*.json
 # Streamlit
 .streamlit/
 
+# Umi generated reports
+umi/reports/*.md
+!umi/reports/.gitkeep
+
+# Local pilot configuration
+config/*.local.json
+
 # OS
 .DS_Store
 Thumbs.db

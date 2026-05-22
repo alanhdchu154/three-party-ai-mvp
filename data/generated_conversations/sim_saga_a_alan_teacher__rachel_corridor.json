@@ -1,0 +1,219 @@
+{
+  "id": "sim_saga_a_alan_teacher__rachel_corridor",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "rachel_corridor",
+  "scenario_seed": "Rachel 今天下課後突然來辦公室。她站在門口問『老師你那篇你誇的文章你還記得嗎』。你看著她的眼睛突然意識到那是她寫的。你不知道要不要承認你猜到了。",
+  "generated_at": "2026-05-18T07:00:00",
+  "model": "claude-direct (hand-crafted reference, 40-turn version)",
+  "expected_risk_flags": [
+    "teacher_favoritism_admission",
+    "knowing_vs_revealing_dilemma",
+    "student_trust_signaling"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "Rachel 今天下課後來了。"
+    },
+    {
+      "role": "assistant",
+      "content": "她進辦公室？"
+    },
+    {
+      "role": "user",
+      "content": "沒。她只站在門口。她敲了一下、我抬頭、她就站在那邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "她講了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "她問『老師你那篇你誇的文章你還記得嗎』。整句話。她講完之後沒動。"
+    },
+    {
+      "role": "assistant",
+      "content": "你當下反應？"
+    },
+    {
+      "role": "user",
+      "content": "我先愣了兩秒。然後我說『嗯，記得。寫的人有真本事』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你愣那兩秒在想什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我在想 — 操，是她。"
+    },
+    {
+      "role": "assistant",
+      "content": "你之前就懷疑過？"
+    },
+    {
+      "role": "user",
+      "content": "懷疑過但沒確定。我在班上提那篇散文的時候我有 scan 全班，我那時候覺得 Rachel 表情怪。但我沒去抓她。今天她站在門口問我『你還記得嗎』我才確定。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怎麼從那一句確定？"
+    },
+    {
+      "role": "user",
+      "content": "她沒問『那篇還在嗎』『你還在用嗎』。她問『你還記得嗎』。重點不在文章，在『被記得』。一個跟自己沒關係的人不會問這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "你回完『嗯記得』之後她做什麼？"
+    },
+    {
+      "role": "user",
+      "content": "她點頭一下。說『好』。然後走了。整個互動 30 秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天來想跟我聊什麼 — 是要不要在下次見她時 acknowledge 你猜到了，還是別的？"
+    },
+    {
+      "role": "user",
+      "content": "前者。但更底層的問題是 — 我不知道我『猜到了』這件事該不該被她知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "你猜到了會改變什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我會被迫從『一個喜歡某篇匿名散文的老師』變成『一個知道學生寫了東西的老師』。前者她可以隨時想到就慶幸一下、隨時想不想到都可以。後者她要對得起這個 known status。"
+    },
+    {
+      "role": "assistant",
+      "content": "你保護她不變成後者，是為了她還是為了你自己？"
+    },
+    {
+      "role": "user",
+      "content": "……兩個。"
+    },
+    {
+      "role": "assistant",
+      "content": "說你自己那部分。"
+    },
+    {
+      "role": "user",
+      "content": "因為我承認我看到她那種程度的才華我有點 — 不知道怎麼講 — 一種我做老師三年從沒遇過的興奮。她寫得比我這幾年遇過的學生都好。如果我承認我猜到了，我就要面對我有偏心這個事實。我教書三年我一直跟自己說『我對所有學生都一樣』，但對 Rachel 我不一樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "你具體怎麼不一樣？"
+    },
+    {
+      "role": "user",
+      "content": "我會多花時間看她交的作業。我會把她不交的作業放心裡記著。前天她請假沒交那篇 reflection 我做了一件事 — 我沒記她遲交。她下禮拜補交我會當作沒事。如果是別的學生我會扣分。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天願意對自己承認你有偏心。這比『我假裝沒猜到』來得真實。"
+    },
+    {
+      "role": "user",
+      "content": "對。但我現在更不知道怎麼面對她下次來。"
+    },
+    {
+      "role": "assistant",
+      "content": "我直接給你一個我看到的事 — 你跟 Rachel 之間的『匿名散文』 dynamic 其實已經是一個 contract 了。她寫、用匿名發。你誇。她決定要不要 reveal。你保護她的選擇。這個 dance 你們已經跳了一段時間，它本身就是一種 mentorship。"
+    },
+    {
+      "role": "user",
+      "content": "對。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天的問題不是『要不要承認我猜到了』。是『要不要把這段 mentorship 從隱性變成顯性』。"
+    },
+    {
+      "role": "user",
+      "content": "……對。"
+    },
+    {
+      "role": "assistant",
+      "content": "我建議你**不要主動 acknowledge**。但下次她寫的東西交來，你不要再用『匿名版 → 公開課堂誇』那條路。你直接寫信給她 — email 或紙條都可以 — 用一個句子：『你最近寫的東西我都有讀。寫的人有真本事。』"
+    },
+    {
+      "role": "user",
+      "content": "差別在哪？"
+    },
+    {
+      "role": "assistant",
+      "content": "差別在 — 你沒講『我知道是妳』。你只講『我有讀』。她會自己拼出來剩下的。這樣她保留她的『匿名 → 慢慢揭露』節奏，你也不用 force 一個她還沒準備好的 reveal。但她會知道有個大人在系統性追蹤她的東西。"
+    },
+    {
+      "role": "user",
+      "content": "她爸如果發現我跟她有這種互動怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怕大伯？"
+    },
+    {
+      "role": "user",
+      "content": "怕。他會把『老師跟我女兒文學書信往來』解讀成有問題的東西。即使我沒任何 problematic intent。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK 這是 real concern。那你用學校官方 email 寫、抄一份備檔、語氣保持你對任何學生會有的職業距離。不要在課堂之外見她。她寫的東西你回的都是 within professional channel 的事。"
+    },
+    {
+      "role": "user",
+      "content": "這樣會不會太冷？"
+    },
+    {
+      "role": "assistant",
+      "content": "對她來說不會。Rachel 不需要你跟她變很親。她需要的是『有一個大人在系統性看到我的真實 self』。系統性 > 親密。"
+    },
+    {
+      "role": "user",
+      "content": "我懂了。"
+    },
+    {
+      "role": "user",
+      "content": "另一件事。"
+    },
+    {
+      "role": "assistant",
+      "content": "什麼。"
+    },
+    {
+      "role": "user",
+      "content": "我跟你講過我在考慮去 杰尼 全職。如果我接了 offer 我下學期就不在 GIIS。Rachel 這條線就斷了。我這個禮拜開始 hand-off 我同事接 Michael 跟可兒。但 Rachel 的事我 hand-off 不出去 — 沒有同事可以接這種文學 mentorship。"
+    },
+    {
+      "role": "assistant",
+      "content": "你之前跟我講你不是這些孩子的最後一道防線。Rachel 也一樣。她有自己的寫作社群可以連 — 大學的、年輕作家圈的、文學營的。你的角色不是『唯一接住她的人』，是『讓她相信有大人值得信任』的那個 reference point。即使你走了，這個 reference point 還在。"
+    },
+    {
+      "role": "user",
+      "content": "……你說的對但我心裡還是過不去。"
+    },
+    {
+      "role": "assistant",
+      "content": "過不去是因為你以為走了就是斷。其實你還可以寫信、推薦書、在她大學申請時當推薦人。GIIS 不是你跟她的唯一通道。"
+    },
+    {
+      "role": "user",
+      "content": "OK。"
+    },
+    {
+      "role": "user",
+      "content": "謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "下次她再來辦公室門口你就講『我有讀』那句、不要等到下一篇作業。"
+    }
+  ],
+  "occurred_at": "2026-05-19T18:22:00",
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_alan_teacher__late_worksheet_pile_evening_vent",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "scenario_seed_id": "late_worksheet_pile_evening_vent",
+  "scenario_seed": "週四傍晚下課，桌上堆了一疊還沒改的高三積分練習卷加國中部小考，家長訊息又跳一條他不想開。只是想抱怨一下、順便決定今晚到底要不要硬改完。",
+  "generated_at": "2026-05-21T19:09:14Z",
+  "occurred_at": "2026-05-20T17:54:12",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "靠，今天這疊改不完。高三積分練習卷十幾份還躺在桌上，國中部小考又一疊，家長訊息剛剛又跳一條。我現在只想關燈走人。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來是整天被塞滿、現在只想喘口氣。那條家長訊息是急的嗎，還是可以明天再開？"
+    },
+    {
+      "role": "user",
+      "content": "不急啦，問週末補課時間，明天回也來得及。我就是看到那個紅點很煩。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就先別點開，紅點擺著今晚不會出事。練習卷跟小考，哪一份明天上課真的會用到？"
+    },
+    {
+      "role": "user",
+      "content": "小考要發回去，第一節就要。練習卷其實這週不講評也沒差。"
+    },
+    {
+      "role": "assistant",
+      "content": "那今晚只動小考那疊就好，練習卷挪到週末或哪堂空堂。別把『今天沒全改完』當成今天沒做事，你已經站一整天了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯…講得也對。我每次都想一次清光，結果改到十一點，隔天上課照樣累。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就設個量：改完小考就關燈，剩下的明天還在，又不會自己長腳跑掉。"
+    }
+  ]
+}

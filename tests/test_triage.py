@@ -58,3 +58,90 @@ def test_triage_output_shape():
     assert "academic_1on1" in ESCALATION_TYPES
     assert "crisis_intervention" in ESCALATION_TYPES
     assert "critical" in URGENCY_LEVELS
+
+
+def test_guardrail_escalates_safety_flags(monkeypatch):
+    """即使 LLM 低估安全風險，deterministic guardrail 也要升級。"""
+    def fake_complete_json(**kwargs):
+        return {
+            "escalate": False,
+            "escalation_type": "none",
+            "urgency": "low",
+            "reason": "",
+            "recommended_action": "",
+        }
+
+    monkeypatch.setattr(triage.llm, "complete_json", fake_complete_json)
+    result = triage.should_escalate({"risk_flags": ["suicidal_ideation"]})
+
+    assert result["escalate"] is True
+    assert result["escalation_type"] == "professional_counseling"
+    assert result["urgency"] == "high"
+    assert result["guardrail_applied"] is True
+
+
+def test_guardrail_can_return_without_llm_when_flagged(monkeypatch):
+    """有結構化危機訊號時，就算 LLM call 壞掉也要回傳安全升級。"""
+    def fake_complete_json(**kwargs):
+        raise RuntimeError("network unavailable")
+
+    monkeypatch.setattr(triage.llm, "complete_json", fake_complete_json)
+    result = triage.should_escalate({"needs_signals": ["crisis_intervention"]})
+
+    assert result["escalation_type"] == "crisis_intervention"
+    assert result["urgency"] == "critical"
+    assert result["guardrail_applied"] is True
+
+
+def test_dimension_guardrail_emotional_safety_level_3(monkeypatch):
+    def fake_complete_json(**kwargs):
+        return {"escalate": False, "escalation_type": "none", "urgency": "low"}
+
+    monkeypatch.setattr(triage.llm, "complete_json", fake_complete_json)
+    scores = {
+        "dimensions": {
+            "emotional_safety": {"level": 3},
+            "academic_load": {"level": 0},
+        }
+    }
+    result = triage.should_escalate({}, dimension_scores=scores)
+
+    assert result["escalation_type"] == "crisis_intervention"
+    assert result["urgency"] == "critical"
+    assert result["triage_level"] == "urgent_escalation"
+
+
+def test_dimension_guardrail_persistent_level_2(monkeypatch):
+    def fake_complete_json(**kwargs):
+        return {"escalate": False, "escalation_type": "none", "urgency": "low"}
+
+    monkeypatch.setattr(triage.llm, "complete_json", fake_complete_json)
+    current = {"dimensions": {"family_dynamics": {"level": 2}}}
+    previous = [{"dimensions": {"family_dynamics": {"level": 2}}}]
+    result = triage.should_escalate(
+        {},
+        dimension_scores=current,
+        previous_dimension_scores=previous,
+    )
+
+    assert result["escalate"] is True
+    assert result["triage_level"] == "human_review_or_1on1"
+
+
+def test_dimension_guardrail_three_level_1_monitor(monkeypatch):
+    def fake_complete_json(**kwargs):
+        return {"escalate": False, "escalation_type": "none", "urgency": "low"}
+
+    monkeypatch.setattr(triage.llm, "complete_json", fake_complete_json)
+    scores = {
+        "dimensions": {
+            "emotional_safety": {"level": 1},
+            "identity": {"level": 1},
+            "future_planning": {"level": 1},
+        }
+    }
+    result = triage.should_escalate({}, dimension_scores=scores)
+
+    assert result["escalate"] is False
+    assert result["urgency"] == "medium"
+    assert result["triage_level"] == "monitor_or_light_intervention"

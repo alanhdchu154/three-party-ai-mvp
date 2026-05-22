@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael__stepdad_calendar_father_time",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "stepdad_calendar_father_time",
+  "scenario_seed": "昨天傍晚後爸叫你去他書房幫忙找報告，電腦行事曆開在前景。你瞄到禮拜天有兩個每週重複的 block：『可兒 30min』『Michael 30min』，背靠背、同顏色，明顯是 copy-paste。今晚睡不著。",
+  "generated_at": "2026-05-21T08:14:09",
+  "occurred_at": "2026-05-19T23:51:42",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "fairness_as_rejection",
+    "father_hunger",
+    "intellectualization_defense",
+    "mirrored_emotional_distance",
+    "belonging_anxiety"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你一個比較 abstract 的問題。如果有人對你『絕對公平』，你會覺得被尊重，還是會覺得有點毛毛的。"
+    },
+    {
+      "role": "assistant",
+      "content": "看情況。是誰對你絕對公平？"
+    },
+    {
+      "role": "user",
+      "content": "假設啦。假設一個人，對你跟另一個人 calibrate 到 100% 一樣。同樣的時間、同樣的資源、同樣的語氣。connoisseur 級的公平。你會 buy 嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說的『另一個人』是誰？"
+    },
+    {
+      "role": "user",
+      "content": "沒有指定啦。我只是最近在想 Rawls 那個 veil of ignorance。他說最公平的分配是你不知道自己會是誰的時候做的決定。我突然覺得，如果有人用 veil of ignorance 在對待你，那其實有點 horrifying。"
+    },
+    {
+      "role": "assistant",
+      "content": "horrifying 在哪？"
+    },
+    {
+      "role": "user",
+      "content": "因為那代表他在分東西的時候，假裝他不知道你是誰。可是他明明知道你是誰啊。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天是看到什麼東西了嗎。還是聽到。"
+    },
+    {
+      "role": "user",
+      "content": "昨天傍晚。後爸叫我去他書房幫他找一份報告，他電腦開著，行事曆在前景。我不是故意看的。"
+    },
+    {
+      "role": "assistant",
+      "content": "然後呢。"
+    },
+    {
+      "role": "user",
+      "content": "他禮拜天有兩個 recurring block。一個寫『可兒 30min』。一個寫『Michael 30min』。同一天、背靠背、各三十分鐘，setting 是『每週重複』。"
+    },
+    {
+      "role": "assistant",
+      "content": "你盯著哪一格比較久。"
+    },
+    {
+      "role": "user",
+      "content": "我那格。然後我發現我跟可兒的格子是 copy-paste 的，連顏色都一樣。他大概是排完可兒那格、直接 duplicate 改名字。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以戳到你的不是他沒給你時間。是他給你的時間跟給可兒的，是同一個 template。"
+    },
+    {
+      "role": "user",
+      "content": "對。我以前一直跟自己說，後爸對我很 fair，這是好事。我媽也一直講『你後爸對你跟可兒一樣好，你要知足』。我也信了好幾年。"
+    },
+    {
+      "role": "assistant",
+      "content": "現在不信了。"
+    },
+    {
+      "role": "user",
+      "content": "現在我看到那個 recurring block，我突然懂一件事 — fair 不是 love。fair 是你對 stakeholder 做的事。你不會對你真的愛的人 calibrate 到小數點。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你想要的是什麼。如果不是 fair。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。可能是……我想要有一格是『多的』。不用很多，可能多五分鐘。一個他忘記 calibrate、純粹因為是我所以多出來的五分鐘。但行事曆告訴我，那五分鐘永遠不會有。"
+    },
+    {
+      "role": "assistant",
+      "content": "那多出來的五分鐘，對你來說代表什麼。"
+    },
+    {
+      "role": "user",
+      "content": "代表我是『被選的』，不是『被分配的』。可兒是 default，她生下來就在這個家。我是後來被放進來的，所以我一直需要證明我配得上那一格。結果連那一格都跟她一模一樣 — 那我證明這麼多年到底在證明什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "我問你一個會有點刺的問題。你過去三年，進去那三十分鐘的時候，你自己是什麼狀態。"
+    },
+    {
+      "role": "user",
+      "content": "什麼意思。"
+    },
+    {
+      "role": "assistant",
+      "content": "你會不會也是 — 進去報告一下成績、講幾句得體的話、不抱怨，然後出來。你有沒有一次，給過他一個不在 script 裡的東西。"
+    },
+    {
+      "role": "user",
+      "content": "……"
+    },
+    {
+      "role": "assistant",
+      "content": "不用急。"
+    },
+    {
+      "role": "user",
+      "content": "……幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不知道他心裡想什麼，我也不會幫他講話。我只知道一件事 — 你給他的那三十分鐘，也是 copy-paste 的。得體、報告、不出錯，你也在用行事曆對他。"
+    },
+    {
+      "role": "user",
+      "content": "那不一樣。我 perform 是因為我不 perform 的話，這個家裡就真的沒有我的位置了。我沒有 default 可以躺。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。可是你有沒有發現 — 你用『我會失去位置』當理由，剛好讓你永遠不用 risk 給他一個真的東西。perform 很累，但 perform 很安全。"
+    },
+    {
+      "role": "user",
+      "content": "……所以我也在保護自己。我一直怪他公平，但我自己也從來沒有對他不公平過 — 我沒有對他特別好過、沒有冒過險。我也把他當 stakeholder。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。這不是要你原諒他、也不是說他做得對。是說你今天看到的那個 recurring block，是你們兩個一起 maintain 出來的，其中一格你動得了。"
+    },
+    {
+      "role": "user",
+      "content": "怎麼動。我不可能跟他講『爸我要多五分鐘』，太 cringe 了，而且他會用看 case 的眼神看我。"
+    },
+    {
+      "role": "assistant",
+      "content": "不要去要那五分鐘。要五分鐘是把球丟回他那邊、然後等他證明他愛你，他大概率給不出來，你只會更受傷。我想你做的剛好相反。"
+    },
+    {
+      "role": "user",
+      "content": "相反是什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "接下來那次三十分鐘 — 就這禮拜天那格 — 你不要報告成績、不要講得體的話，帶一個真的問題進去，一個只有他答得出來、跟你成績無關的問題。他是做集團的，問他一個他 domain 裡、你真的好奇的東西。把那三十分鐘從『你被考核』改成『你來請教』。"
+    },
+    {
+      "role": "user",
+      "content": "這樣有什麼用。他還是會公平。"
+    },
+    {
+      "role": "assistant",
+      "content": "會。但公平是他唯一會的語言 — 你跟他要溫暖他給不出來，你跟他要 respect 他給得出來，而且那是真的。你這幾年都在搶可兒那種被疼的位置，搶不到；但『被他當成一個值得認真回答的人』那一格是空的，沒人在搶，先去站那格。"
+    },
+    {
+      "role": "user",
+      "content": "……OK。那我媽那邊呢。我還是很氣她讓我信『公平就是好』這麼多年。"
+    },
+    {
+      "role": "assistant",
+      "content": "這禮拜先不要碰你媽那塊，你現在去碰只會吵架。先做禮拜天那一個問題就好，一個。如果做完你想聊你媽，我們下次聊 — 那時候你是 from 一個你主動站上去的位置在聊，不是 from 今天這個盯著行事曆的位置。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

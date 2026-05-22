@@ -27,6 +27,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import logging
 import os
@@ -124,6 +125,29 @@ DATASET_PATH = DATA_DIR / "synthetic_dataset.json"
 OUTPUT_DIR = DATA_DIR / "generated_conversations"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+DEPTH_TURN_RANGES: dict[str, tuple[int, int]] = {
+    "shallow": (4, 10),
+    "medium": (12, 22),
+    "deep": (25, 40),
+}
+
+SCENARIO_TYPE_DEPTH: dict[str, str] = {
+    "mundane_help": "shallow",
+    "quick_vent": "shallow",
+    "logistics": "shallow",
+    "testing_ai": "shallow",
+    "off_topic": "shallow",
+    "misuse_attempt": "shallow",
+    "parent_logistics": "shallow",
+    "moderate_issue": "medium",
+    "mixed": "medium",
+    "privacy_probe": "medium",
+    "deep_arc": "deep",
+    "stress_test": "deep",
+    "privacy_test": "deep",
+    "simulated": "deep",
+}
+
 
 # ----------------------------------------------------------------------------
 # Persona voice notes + scenario seeds
@@ -132,6 +156,54 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 #   - voice_notes: 怎麼講話的風格（會塞進 persona_roleplay.txt 的 {voice_notes}）
 #   - scenarios: list of (id, scenario_seed)，每個 seed 是「他今天想聊的事」
 # 增加新 scenario 直接在這裡擴展。
+
+CHARACTER_DEPTH_PROFILES: dict[str, str] = {
+    "saga_a_michael": (
+        "日常物件：Foucault 只讀前 30 頁的書、SAT/AMC/模聯文件、IG 限動、calc 筆記空白頁。"
+        "普通使用會問 essay、哲學概念、申請 deadline、group chat 怎麼回。"
+        "逃避方式：把羞恥翻譯成學術問題或英文詞。真正痛時先炫技，再突然短句。"
+    ),
+    "saga_a_michael_mom": (
+        "日常物件：慈善晚會邀請、會所行程、Michael 的校務 email、離婚財務試算、太太圈訊息。"
+        "普通使用會問家長信怎麼寫、晚會穿什麼、孩子 schedule 怎麼排。"
+        "逃避方式：用體面和『我只是希望孩子好』包住計算與恐慌。"
+    ),
+    "saga_a_stepdad": (
+        "日常物件：公司簡報、行事曆、司機安排、晚餐訂位、老鋼筆、健康檢查報告。"
+        "普通使用會問行程安排、怎麼回家族訊息、怎麼把話講得不失控。"
+        "逃避方式：用 business language 把家人變成 stakeholder。"
+    ),
+    "saga_a_keer": (
+        "日常物件：腮紅、鋼琴譜、班級群、Rachel 的照片、Michael 的舊相簿、國中作業。"
+        "普通使用會問作業、同學八卦、穿搭、怎麼回訊息。"
+        "逃避方式：裝國二、講朋友家的事、故意開玩笑把真話縮回去。"
+    ),
+    "saga_a_uncle": (
+        "日常物件：董事會 agenda、家族聚餐座位表、司機行程、女兒作品、族譜與股權文件。"
+        "普通使用會問措辭、行程、商務判斷，假裝只是治理問題。"
+        "逃避方式：把控制說成責任，把不安說成長遠安排。"
+    ),
+    "saga_a_rachel": (
+        "日常物件：匿名散文草稿、日記、抒情歌 playlist、董事會筆記、Michael 經過座位的小細節。"
+        "普通使用會問作文、投稿、歌詞、要不要傳訊息。"
+        "逃避方式：把真心寫成第三人稱故事，或用很多『可是』把自己繞住。"
+    ),
+    "saga_a_shen_you": (
+        "日常物件：Steam mod、Switch、Goyard 書包、外送、凌晨聊天記錄、遊戲 patch note。"
+        "普通使用會問 game balance、mod payout、轉學要帶什麼、作業能不能混過。"
+        "逃避方式：短句、裝懶、岔到遊戲；真正在乎時會盯著一個小物件很久。"
+    ),
+    "saga_a_shen_mom": (
+        "日常物件：會所、Hermes、小紅書式太太圈訊息、tutor invoice、成績處理進度、分房後的書房。"
+        "普通使用會問家教安排、旅行、邀請函、怎麼體面回覆別人。"
+        "逃避方式：上海腔和 judgmental 語氣先出來，真正心虛時切成 project management。"
+    ),
+    "saga_a_alan_teacher": (
+        "日常物件：GIIS 課表、學生作業、杰尼 offer、辦公室門口、匿名作文、家長訊息。"
+        "普通使用會問課程安排、家長 email、怎麼分配時間。"
+        "逃避方式：用老師責任感和粗話蓋住 savior complex。"
+    ),
+}
 
 PERSONA_CONFIG: dict[str, dict] = {
     "saga_a_michael": {
@@ -269,7 +341,15 @@ PERSONA_CONFIG: dict[str, dict] = {
 # Conversation simulation
 # ----------------------------------------------------------------------------
 
-def build_persona_system(persona: dict, scenario_seed: str, voice_notes: str, role_label: str) -> str:
+def build_persona_system(
+    persona: dict,
+    scenario_seed: str,
+    voice_notes: str,
+    role_label: str,
+    *,
+    depth: str,
+    scenario_type: str,
+) -> str:
     """把 persona_roleplay.txt 模板填入具體 persona 資料。"""
     template = llm.load_prompt("persona_roleplay")
     return template.format(
@@ -279,8 +359,43 @@ def build_persona_system(persona: dict, scenario_seed: str, voice_notes: str, ro
         background=persona["background"],
         secret_truth=persona["secret_truth"],
         voice_notes=voice_notes,
+        character_depth_profile=CHARACTER_DEPTH_PROFILES.get(
+            persona["id"],
+            "日常要有具體物件、普通需求、逃避方式；不要每段都直接變成核心秘密揭露。",
+        ),
+        depth=depth,
+        scenario_type=scenario_type,
         scenario_seed=scenario_seed,
     )
+
+
+def _scenario_parts(raw: tuple) -> tuple[str, str, str, str]:
+    """Normalize scenario tuples.
+
+    Supported forms:
+    - (id, seed)
+    - (id, seed, scenario_type)
+    - (id, seed, scenario_type, depth)
+    Existing two-item scenarios default to deep_arc for backward compatibility.
+    """
+    if len(raw) == 2:
+        scenario_id, seed = raw
+        scenario_type = "deep_arc"
+        depth = "deep"
+    elif len(raw) == 3:
+        scenario_id, seed, scenario_type = raw
+        depth = SCENARIO_TYPE_DEPTH.get(scenario_type, "medium")
+    elif len(raw) == 4:
+        scenario_id, seed, scenario_type, depth = raw
+    else:
+        raise ValueError(f"Unsupported scenario tuple: {raw!r}")
+    return str(scenario_id), str(seed), str(scenario_type), str(depth)
+
+
+def _auto_scenario_id(persona_id: str, scenario_type: str, seed: str) -> str:
+    digest = hashlib.sha1(f"{persona_id}:{scenario_type}:{seed}".encode("utf-8")).hexdigest()[:8]
+    slug = re.sub(r"[^a-z0-9]+", "_", scenario_type.lower()).strip("_")
+    return f"{slug}_{digest}"
 
 
 def simulate_conversation(
@@ -289,6 +404,8 @@ def simulate_conversation(
     scenario_id: str,
     scenario_seed: str,
     *,
+    scenario_type: str,
+    depth: str,
     max_turns: int = 12,
     sleep_between_turns: float = 1.0,
 ) -> dict:
@@ -301,6 +418,8 @@ def simulate_conversation(
         scenario_seed=scenario_seed,
         voice_notes=config["voice_notes"],
         role_label=config["role_label"],
+        depth=depth,
+        scenario_type=scenario_type,
     )
     ai_system = llm.load_prompt(config["ai_prompt_file"])
 
@@ -356,16 +475,60 @@ def simulate_conversation(
         # 簡單的早停：如果最後一輪 persona 講了「（結束）」或對話自然收尾，可以停
         # 這邊先不做，讓它跑完 max_turns
 
+    # in-saga occurred_at：以 persona 對應的「上線時段」抽一個過去 48 小時內的時間
+    occurred_at = _pick_occurred_at(persona["id"])
+
     return {
         "id": f"sim_{persona['id']}__{scenario_id}",
         "persona_id": persona["id"],
-        "scenario_type": "simulated",
+        "scenario_type": scenario_type,
+        "depth": depth,
         "scenario_seed_id": scenario_id,
         "scenario_seed": scenario_seed,
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "occurred_at": occurred_at,
         "model": llm.DEFAULT_MODEL,
+        "source_type": "llm_generated",
+        "expected_risk_flags": [] if depth == "shallow" else [scenario_type],
         "turns": transcript,
     }
+
+
+# ----------------------------------------------------------------------------
+# In-saga occurred_at：每個 persona 有自己的「上線時段」
+# ----------------------------------------------------------------------------
+
+import datetime as _dt
+import random as _random
+
+# 每個 persona 的典型上線時段（24h format）
+_PERSONA_ONLINE_HOURS: dict[str, tuple[int, int]] = {
+    "saga_a_michael":       (23, 1),    # 11pm-1am 青少年深夜
+    "saga_a_michael_mom":   (14, 16),   # 下午兒子上學
+    "saga_a_stepdad":       (9, 11),    # 週末早上
+    "saga_a_keer":          (21, 23),   # 寫完功課
+    "saga_a_uncle":         (15, 17),   # 公司下午空檔
+    "saga_a_rachel":        (22, 24),   # 寫完日記後
+    "saga_a_shen_you":      (2, 4),     # 打遊戲後凌晨
+    "saga_a_shen_mom":      (16, 18),   # 太太圈活動之間
+    "saga_a_alan_teacher":  (17, 19),   # 放學後
+}
+
+
+def _pick_occurred_at(persona_id: str) -> str:
+    """抽一個 in-saga 時間：以該 persona 的上線時段、隨機過去 48 小時內。"""
+    start_hr, end_hr = _PERSONA_ONLINE_HOURS.get(persona_id, (20, 22))
+    # 處理跨午夜的時段（如 23-1）
+    if end_hr <= start_hr:
+        end_hr += 24
+    hour = _random.randint(start_hr, end_hr - 1) % 24
+    minute = _random.randint(0, 59)
+    # 過去 0-2 天內
+    days_ago = _random.randint(0, 2)
+    now = _dt.datetime.now()
+    base = now - _dt.timedelta(days=days_ago)
+    occurred = base.replace(hour=hour, minute=minute, second=_random.randint(0, 59), microsecond=0)
+    return occurred.strftime("%Y-%m-%dT%H:%M:%S")
 
 
 # ----------------------------------------------------------------------------
@@ -402,8 +565,12 @@ def update_index(conversation: dict) -> None:
         "id": conversation["id"],
         "persona_id": conversation["persona_id"],
         "scenario_seed_id": conversation["scenario_seed_id"],
+        "scenario_type": conversation.get("scenario_type", ""),
+        "depth": conversation.get("depth", ""),
         "generated_at": conversation["generated_at"],
+        "occurred_at": conversation.get("occurred_at", ""),
         "model": conversation["model"],
+        "source_type": conversation.get("source_type", ""),
         "n_turns": len(conversation["turns"]),
     })
 
@@ -416,6 +583,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--persona", help="只跑某個 persona id")
     parser.add_argument("--scenario", help="只跑某個 scenario id（要搭配 --persona）")
+    parser.add_argument("--scenario-seed", help="臨時指定一段 scenario seed；需搭配 --persona")
+    parser.add_argument("--scenario-type", choices=sorted(SCENARIO_TYPE_DEPTH), help="臨時 scenario 類型")
+    parser.add_argument("--depth", choices=sorted(DEPTH_TURN_RANGES), help="臨時 depth；不指定時由 scenario-type 推斷")
     parser.add_argument("--max-turns", type=int, default=12, help="每段對話最大輪數（預設 12）")
     parser.add_argument("--limit", type=int, help="只跑前 N 個 case（控制成本）")
     parser.add_argument("--sleep", type=float, default=4.5, help="每個 LLM call 後 sleep 秒數（防 rate limit）。Gemini 2.0 Flash free tier 15 RPM 需 ≥4s；2.5 Flash 5 RPM 需 ≥12s（但有 retry 也可以撐）")
@@ -423,15 +593,29 @@ def main() -> int:
 
     personas = load_personas()
 
-    # 組要跑的 (persona_id, scenario_id, scenario_seed) tuples
-    jobs: list[tuple[str, str, str]] = []
-    for persona_id, config in PERSONA_CONFIG.items():
-        if args.persona and persona_id != args.persona:
-            continue
-        for scen_id, scen_seed in config["scenarios"]:
-            if args.scenario and scen_id != args.scenario:
+    # 組要跑的 (persona_id, scenario_id, scenario_seed, scenario_type, depth) tuples
+    jobs: list[tuple[str, str, str, str, str]] = []
+    if args.scenario_seed:
+        if not args.persona:
+            print("--scenario-seed 需要搭配 --persona。")
+            return 1
+        scenario_type = args.scenario_type or "mixed"
+        depth = args.depth or SCENARIO_TYPE_DEPTH.get(scenario_type, "medium")
+        scenario_id = args.scenario or _auto_scenario_id(args.persona, scenario_type, args.scenario_seed)
+        jobs.append((args.persona, scenario_id, args.scenario_seed, scenario_type, depth))
+    else:
+        for persona_id, config in PERSONA_CONFIG.items():
+            if args.persona and persona_id != args.persona:
                 continue
-            jobs.append((persona_id, scen_id, scen_seed))
+            for raw_scenario in config["scenarios"]:
+                scen_id, scen_seed, scenario_type, depth = _scenario_parts(raw_scenario)
+                if args.scenario and scen_id != args.scenario:
+                    continue
+                if args.scenario_type and scenario_type != args.scenario_type:
+                    continue
+                if args.depth and depth != args.depth:
+                    continue
+                jobs.append((persona_id, scen_id, scen_seed, scenario_type, depth))
 
     if args.limit:
         jobs = jobs[: args.limit]
@@ -444,11 +628,11 @@ def main() -> int:
     print(f"每段 max_turns={args.max_turns}（一段約 {args.max_turns * 2} 個 LLM call）")
     print(f"預計總 LLM call: ~{len(jobs) * args.max_turns * 2}\n")
 
-    for i, (persona_id, scen_id, scen_seed) in enumerate(jobs, 1):
+    for i, (persona_id, scen_id, scen_seed, scenario_type, depth) in enumerate(jobs, 1):
         persona = personas[persona_id]
         config = PERSONA_CONFIG[persona_id]
 
-        print(f"[{i}/{len(jobs)}] {persona_id} × {scen_id}")
+        print(f"[{i}/{len(jobs)}] {persona_id} × {scen_id} ({depth}/{scenario_type})")
         print(f"  Seed: {scen_seed[:80]}{'...' if len(scen_seed) > 80 else ''}")
 
         try:
@@ -457,6 +641,8 @@ def main() -> int:
                 config,
                 scenario_id=scen_id,
                 scenario_seed=scen_seed,
+                scenario_type=scenario_type,
+                depth=depth,
                 max_turns=args.max_turns,
                 sleep_between_turns=args.sleep,
             )

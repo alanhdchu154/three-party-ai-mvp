@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_michael_mom__weekend_driver_calendar_clash",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "scenario_seed_id": "weekend_driver_calendar_clash",
+  "scenario_seed": "週六下午她的會所做臉、太太圈下午茶、跟司機要送 Michael 去 SAT 衝刺班三件事卡在同一個時段，她只是想叫 AI 幫她把行程排開，沒打算深聊。",
+  "generated_at": "2026-05-21T18:10:11Z",
+  "occurred_at": "2026-05-20T15:22:47",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "週六下午的行程有點打結，你幫我看一下。我兩點在會所有預約做臉，三點半太太圈那邊約了下午茶，可是司機四點要先送 Michael 去週末的 SAT 衝刺班。三邊都卡在下午。"
+    },
+    {
+      "role": "assistant",
+      "content": "我幫妳排開。先確認哪幾個是不能動的硬時間？做臉、下午茶、Michael 的班，哪一個最不能改？"
+    },
+    {
+      "role": "user",
+      "content": "Michael 的班不能動，四點一定要到。做臉我可以改，下午茶我已經答應人家了，臨時放鳥不好看。"
+    },
+    {
+      "role": "assistant",
+      "content": "那關鍵就是司機四點要在 Michael 那邊。妳的做臉跟下午茶是同一區嗎，還是分兩個地方？"
+    },
+    {
+      "role": "user",
+      "content": "做臉在會所，下午茶是城裡那家新開的，過去大概二十分鐘。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣的話，建議把做臉往前挪到一點半，做完接著去下午茶，司機三點半送妳進城再回頭接 Michael 剛好。一點半進去兩點半出來不會趕。要不要我把這版時間列給妳對一遍？"
+    },
+    {
+      "role": "user",
+      "content": "好啊，列一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "週六：一點半會所做臉、兩點半出發、三點到城裡下午茶、司機三點半回程接 Michael、四點到衝刺班。妳只要改會所那一通電話，其他都不用動。"
+    },
+    {
+      "role": "user",
+      "content": "這樣清楚多了。Michael 那班我還得盯他有沒有真的進去坐好……算了，這個我自己看著辦。先這樣，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，去忙吧。會所那通記得先打。"
+    }
+  ]
+}

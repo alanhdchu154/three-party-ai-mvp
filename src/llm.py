@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from pathlib import Path
 from typing import Any
 
@@ -31,6 +32,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEFAULT_MODEL = os.getenv("LLM_MODEL", "gemini/gemini-2.5-flash")
+DEFAULT_TIMEOUT_SECONDS = int(os.getenv("LLM_TIMEOUT_SECONDS", "60"))
 PROMPTS_DIR = Path(__file__).resolve().parent.parent / "prompts"
 
 # Model prefix → 對應的 env var。用於檢查使用者有沒有把對應的 key 設好。
@@ -128,15 +130,35 @@ def complete(
     full_messages: list[dict[str, str]] = [{"role": "system", "content": system}]
     full_messages.extend(messages)
 
-    try:
-        resp = litellm.completion(
-            model=model,
-            messages=full_messages,
-            max_tokens=max_tokens,
-            temperature=temperature,
-        )
-    except Exception as e:
-        raise LLMConfigError(f"呼叫 {model} 失敗：{e}") from e
+    attempts = 3 if _provider_of(model) == "ollama" else 1
+    for attempt in range(1, attempts + 1):
+        try:
+            resp = litellm.completion(
+                model=model,
+                messages=full_messages,
+                max_tokens=max_tokens,
+                temperature=temperature,
+                timeout=DEFAULT_TIMEOUT_SECONDS,
+            )
+            break
+        except Exception as e:
+            message = str(e)
+            is_loading = "loading model" in message.lower()
+            is_timeout = "timeout" in message.lower() or "timed out" in message.lower()
+            if attempt < attempts and is_loading:
+                time.sleep(2 * attempt)
+                continue
+            if is_loading:
+                raise LLMConfigError(
+                    f"{model} 還在載入模型，請等 10-20 秒後再送一次。"
+                ) from e
+            if is_timeout and _provider_of(model) == "ollama":
+                raise LLMConfigError(
+                    f"{model} 本機回應超過 {DEFAULT_TIMEOUT_SECONDS} 秒。"
+                    "這通常代表模型太慢或正在載入；可以稍後重試，"
+                    "或切到較小/較快的 Ollama 模型。"
+                ) from e
+            raise LLMConfigError(f"呼叫 {model} 失敗：{e}") from e
 
     try:
         text = resp.choices[0].message.content  # type: ignore[union-attr]

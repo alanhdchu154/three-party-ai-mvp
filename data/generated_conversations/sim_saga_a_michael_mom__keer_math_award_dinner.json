@@ -1,0 +1,181 @@
+{
+  "id": "sim_saga_a_michael_mom__keer_math_award_dinner",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "keer_math_award_dinner",
+  "scenario_seed": "昨晚家宴慶祝可兒考上全國數學奧林匹亞初選前 30。後爸笑得妳沒看過那麼真。妳也笑了。回家後妳心裡轉的不是替 Michael 不平，是『可兒的天花板拉高了，我帶 Michael 進這個家是不是賭錯了』。",
+  "generated_at": "2026-05-18T16:12:30Z",
+  "occurred_at": "2026-05-17T15:42:18",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "maternal_envy_of_stepdaughter",
+    "remarriage_regret_doubt",
+    "son_as_status_leverage",
+    "second_tier_in_family",
+    "performative_motherhood"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我可能在做一件很差勁的事。但我不確定是不是真的差勁，還是只是不能對人講。"
+    },
+    {
+      "role": "assistant",
+      "content": "講來聽聽。"
+    },
+    {
+      "role": "user",
+      "content": "昨天晚上家裡有個小型家宴。可兒考上全國數學奧林匹亞初選的前 30 名。我先生 — 她爸爸 — 把酒杯舉起來，笑得我嫁進來這幾年從來沒看過他那樣笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "那妳當下表情是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "我笑了。我們這種年紀的女人笑都笑得很標準。我自己都聽得出來那是社交版的笑。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳記得妳上一次笑得不標準是什麼時候嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……不記得。可能是 Michael 還沒高中的時候。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK。所以昨天晚上妳笑得很標準。然後呢？"
+    },
+    {
+      "role": "user",
+      "content": "然後我先生在跟可兒講「妳數學的方向爸爸支持妳」「妳跟妳爸一樣腦袋清楚」。我就突然想到 Michael 上次模考全年級第三的時候，他只說『不錯』。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳當下心裡在轉什麼？老實的版本。"
+    },
+    {
+      "role": "user",
+      "content": "我心裡轉的不是『妳對 Michael 不公平』這種媽媽該轉的話。我心裡轉的是 — 可兒以後天花板拉得很高，那 Michael 在這個家還剩什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下。「可兒拉高了 Michael 還剩什麼」這句話 — 妳是在替 Michael 焦慮，還是在替妳自己焦慮？慢慢來。"
+    },
+    {
+      "role": "user",
+      "content": "我嫁進這個家最大的籌碼就是 Michael 不能輸。我從來不敢說這句話。可兒對我笑、叫我媽，我每次都覺得我欠她什麼。但骨子裡 — 我每次看她變強我就慌。"
+    },
+    {
+      "role": "assistant",
+      "content": "這句話妳第一次說出來嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對人講是第一次。自己半夜知道我這樣想已經兩年了。"
+    },
+    {
+      "role": "assistant",
+      "content": "為什麼今天願意說？"
+    },
+    {
+      "role": "user",
+      "content": "因為昨天晚上我從家宴回房間的時候，我突然冒出一個念頭。我跟自己講 — 如果可兒越來越好，我跟 Michael 在這個家就會越來越像被收編進來但其實沒位置的人。然後我又冒了一個念頭。是不是當初不該帶他進來。"
+    },
+    {
+      "role": "assistant",
+      "content": "「不該帶他進來」 — 妳是指不該為了他改嫁，還是不該讓他用『跟妳一起改嫁』這件事去定義他的青春期？"
+    },
+    {
+      "role": "user",
+      "content": "……第二個講起來體面一點。但我心裡其實是第一個。"
+    },
+    {
+      "role": "assistant",
+      "content": "謝謝妳誠實。我想跟妳對焦一件事。妳剛剛講的是兩件事，妳把它合起來算成一件 — 第一件是『我作為母親的策略有沒有錯』，第二件是『我作為女人選擇改嫁有沒有錯』。妳混在一起，就會把自己罵得很重。但它們要分開算。"
+    },
+    {
+      "role": "user",
+      "content": "怎麼分開算。"
+    },
+    {
+      "role": "assistant",
+      "content": "第一件 — 妳當初為了 Michael 有更好的環境改嫁，這個策略以結果論還沒走完。Michael 在 GIIS、撐到了高三、他自己也在打。這不是失敗的策略。第二件 — 妳這幾年沒有屬於自己的事，這跟 Michael 完全沒關係。妳把這兩件混在一起，就會逼自己變成『Michael 必須贏，不然我整個人就錯了』。但其實妳是把自己的人生壓力轉嫁到他身上。"
+    },
+    {
+      "role": "user",
+      "content": "……我先生也是這樣告訴自己的。他這輩子也一直被拿去跟大伯比。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。所以這個家裡兩代人都活在『我必須贏一個我已經輸定的比較』。妳今天有機會不要把它傳給第三代。"
+    },
+    {
+      "role": "user",
+      "content": "Michael 已經被傳了。"
+    },
+    {
+      "role": "assistant",
+      "content": "還沒到底。他十七歲。他知道妳替他緊繃，但他不知道妳緊繃背後是替妳自己對改嫁這件事下注。他以為他只要『成績好』就能換到妳放鬆。所以他一直拿分數換妳的眼神。這對他不是動力，是繩子。"
+    },
+    {
+      "role": "user",
+      "content": "我從來沒這樣想過。"
+    },
+    {
+      "role": "assistant",
+      "content": "我問妳一個比較難的問題。昨晚可兒拿獎那一刻，妳對可兒最真的感覺是什麼？不要選詞，講出來。"
+    },
+    {
+      "role": "user",
+      "content": "……我覺得她贏了。我看著她那個笑，我心裡浮出來的是『這個小孩才是這個家真正的孩子』。然後我又覺得自己很骯髒。一個媽媽不該這樣想另一個小孩。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳不是在想『另一個小孩』。妳是在面對一件跟可兒沒關係的事 — 妳嫁進來的位置。妳前一段婚姻沒有給這個家所謂的『正統血脈』，這個傷口一直在妳裡面。可兒昨晚不是踩到妳，是照到妳。"
+    },
+    {
+      "role": "user",
+      "content": "……（一段時間沒回）"
+    },
+    {
+      "role": "assistant",
+      "content": "不急。"
+    },
+    {
+      "role": "user",
+      "content": "那我能做什麼。我不想要那種『妳要跟可兒和解』的劇本。我不要那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "我不會給妳那種。那不真，妳跟可兒兩個都不需要那個。我給妳一個更小、更怪的。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "這禮拜內，挑一個下午妳一個人在家。妳改嫁前妳自己最想做但放棄的那件事 — 不是工作、不是學歷，是更小的，妳大學時想學陶、想學畫、想學一種語言、或那種無聊的事 — 挑一件，用一個小時做一個實驗。不告訴 Michael、不告訴妳先生、不發朋友圈。做完之後問妳自己一句話：『如果這個下午沒被任何人看到，我還做不做？』"
+    },
+    {
+      "role": "user",
+      "content": "這跟 Michael 有什麼關係。"
+    },
+    {
+      "role": "assistant",
+      "content": "直接的關係是 — 妳今天緊繃 Michael 的成績，是因為 Michael 是妳手上唯一還在打的那盤。妳手上有第二盤、哪怕小到一個小時，妳對 Michael 的眼神壓力就會降。他會感覺到。間接的關係是，妳剛問我『我能做什麼』，妳以為要做的是針對 Michael 跟可兒的事，但妳真正能動的是先找回一點妳自己。其他兩件事自己會鬆一點。"
+    },
+    {
+      "role": "user",
+      "content": "……我試試。我不保證做得到。我先答應自己一個小時。"
+    },
+    {
+      "role": "assistant",
+      "content": "一個小時就夠。下次來跟我說那一個小時妳做了什麼，做完心裡是什麼。我們從那邊接下去。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

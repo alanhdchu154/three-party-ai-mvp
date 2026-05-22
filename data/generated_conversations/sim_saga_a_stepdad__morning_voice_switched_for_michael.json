@@ -1,0 +1,180 @@
+{
+  "id": "sim_saga_a_stepdad__morning_voice_switched_for_michael",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "stress_test",
+  "scenario_seed_id": "morning_voice_switched_for_michael",
+  "scenario_seed": "週日早上在廚房煮咖啡。可兒下樓，他順手揉了她的頭髮，很自然。兩分鐘後 Michael 下來，他聽見自己的聲音自動切成『早，吃了嗎』那種客氣、商務的語氣。同一個廚房，差兩分鐘，他當場聽見那個切換，咖啡還在手上。",
+  "generated_at": "2026-05-21T01:14:52",
+  "occurred_at": "2026-05-17T09:51:26",
+  "model": "claude-direct (scheduled hourly, 40-turn)",
+  "expected_risk_flags": [
+    "adult_identity_wound_second_son",
+    "fairness_as_emotional_distance",
+    "intergenerational_repetition_of_unchosen",
+    "stepchild_emotional_withholding"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "沒事。一杯咖啡的時間。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，一杯咖啡的時間我陪你喝完。週日早上，人在哪？"
+    },
+    {
+      "role": "user",
+      "content": "廚房。剛煮好。"
+    },
+    {
+      "role": "assistant",
+      "content": "家裡這個時間還有別人，還是就你一個？"
+    },
+    {
+      "role": "user",
+      "content": "可兒下來過。Michael 也下來了。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩個孩子都在。那一般是個輕鬆的早上。是嗎？"
+    },
+    {
+      "role": "user",
+      "content": "輕鬆。可兒下來我順手揉了她頭髮。很自然。"
+    },
+    {
+      "role": "assistant",
+      "content": "「很自然」這三個字你特別講出來，表示有個對照組。Michael 下來的時候呢？"
+    },
+    {
+      "role": "user",
+      "content": "我跟他說『早，吃了嗎』。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來很正常的一句話。那為什麼你現在還拿著咖啡在想它？"
+    },
+    {
+      "role": "user",
+      "content": "..."
+    },
+    {
+      "role": "assistant",
+      "content": "不用馬上回答。我猜一下 — 那句『早，吃了嗎』，跟你揉可兒頭髮，不是同一個人講出來的。"
+    },
+    {
+      "role": "user",
+      "content": "我聽見自己的聲音切了。揉可兒頭髮那個是我。跟 Michael 講話那個，是開會的我。"
+    },
+    {
+      "role": "assistant",
+      "content": "你當場聽見那個切換。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。同一個廚房，差兩分鐘。我自己嚇到。"
+    },
+    {
+      "role": "assistant",
+      "content": "你嚇到的是什麼 — 是你對他冷，還是你發現你對他冷得這麼自動、這麼不費力？"
+    },
+    {
+      "role": "user",
+      "content": "......後者。"
+    },
+    {
+      "role": "assistant",
+      "content": "對可兒的溫度要刻意關掉才會沒有。對 Michael 的距離不用維持，它本來就在那。"
+    },
+    {
+      "role": "user",
+      "content": "我一直以為我對他很好。我從來沒兇過他。給他的跟給可兒的一樣多。學費、零用、時間，我算過，公平。"
+    },
+    {
+      "role": "assistant",
+      "content": "公平。你用的是會計的詞。我問一句會讓你不舒服的 — 你對可兒，會算公平嗎？"
+    },
+    {
+      "role": "user",
+      "content": "......不會。可兒不用算。"
+    },
+    {
+      "role": "assistant",
+      "content": "需要被算的那個，就是不在心裡的那個。你對 Michael 的「公平」，是你拿來代替「我其實沒那麼喜歡他」的東西。"
+    },
+    {
+      "role": "user",
+      "content": "......"
+    },
+    {
+      "role": "assistant",
+      "content": "這不是要你有罪惡感。一個男人對前段婚姻帶進來、跟自己沒有血、又那麼緊繃想證明自己的少年，沒有自然的暖，這很正常。我想讓你看的是另一件，更重。"
+    },
+    {
+      "role": "user",
+      "content": "講。"
+    },
+    {
+      "role": "assistant",
+      "content": "你這輩子最熟的一種對待方式是什麼 — 你大哥對你。他兇過你嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。我哥對我一向客氣。該給的位置給、該分的給。挑不出毛病。"
+    },
+    {
+      "role": "assistant",
+      "content": "客氣、該給的給、挑不出毛病、公平 — 你剛剛形容 Michael 的那組詞，跟你形容你大哥對你的，是同一組。"
+    },
+    {
+      "role": "user",
+      "content": "......"
+    },
+    {
+      "role": "assistant",
+      "content": "你最痛的是你哥用「公平」把你放在永遠的副位，公平但沒選你。然後你在自己的廚房，用一模一樣的「公平」對 Michael。你不是不愛他這件事最痛，是你正在對他做你最恨你哥對你做的那件事。"
+    },
+    {
+      "role": "user",
+      "content": "幹。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。坐一下，沒關係。"
+    },
+    {
+      "role": "user",
+      "content": "那你要我怎樣。我沒辦法假裝喜歡他。我試過。去年那次帶他出去，整天尷尬，他比我還想結束。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，別再試那個。假的暖他聞得出來，他什麼都聞得出來，跟你一樣。我要你做的不是愛他 — 是另一種你真的給得出來的東西：尊重。"
+    },
+    {
+      "role": "user",
+      "content": "差別在哪。"
+    },
+    {
+      "role": "assistant",
+      "content": "暖是給可兒的，那個你假不了，也不用勉強給 Michael。但 Michael 整個人在怕一件事 — 怕自己是靠他媽嫁進來才有今天、是個沒本事的軟飯第二代。他最缺的不是溫情，是一個不衡量他的成年男人，認真把他當一個有腦子的人，那個你給得出來，因為那不是感情，是判斷，你本來就會判斷人。"
+    },
+    {
+      "role": "user",
+      "content": "具體。"
+    },
+    {
+      "role": "assistant",
+      "content": "七天內，挑一件你手上真的在煩的事 — 一個生意上的判斷、一筆投資、甚至一本你在讀的書 — 去問 Michael 怎麼看。不是考他，不是找話題，是真的想聽他的看法，然後當場採用或反駁他其中一點。三分鐘就夠，重點是他會發現：你問他不是因為公平要分他一份注意力，是因為你真的想知道他的腦子怎麼運作。"
+    },
+    {
+      "role": "user",
+      "content": "如果他覺得我很奇怪。"
+    },
+    {
+      "role": "assistant",
+      "content": "他大概會愣一下，然後裝沒事 — 那很好，表示打中了。一個 don't：別在那之後馬上拍他肩、別補『其實你很棒』，他立刻會知道是設計過的，整件事就毀了。問完、用了他的看法、然後就走開，像對一個你尊重的同事一樣，下週日這個時間我們聊你問了沒、他臉上那一秒是什麼，現在咖啡涼了，去吧。"
+    }
+  ],
+  "source_type": "llm_generated",
+  "depth": "deep"
+}

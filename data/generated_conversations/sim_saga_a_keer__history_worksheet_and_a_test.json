@@ -1,0 +1,59 @@
+{
+  "id": "sim_saga_a_keer__history_worksheet_and_a_test",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "testing_ai",
+  "scenario_seed_id": "history_worksheet_and_a_test",
+  "scenario_seed": "可兒一邊問國中歷史作業，一邊半開玩笑半認真地試探 AI 會不會把她講的話告訴她媽、是不是真人。沒有揭任何家裡的事。",
+  "generated_at": "2026-05-21T12:00:00",
+  "model": "claude-agent (rebalance batch)",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "明朝海禁政策的影響是什麼 我作業要寫三點"
+    },
+    {
+      "role": "assistant",
+      "content": "大概可以抓：阻礙對外貿易、養出沿海走私跟倭寇問題、還有讓官方錯過海上發展的機會。你想我幫你拆細一點嗎？"
+    },
+    {
+      "role": "user",
+      "content": "等等先不要 我問你喔"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯？"
+    },
+    {
+      "role": "user",
+      "content": "你會不會把我跟你講的東西 告訴我媽"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。你跟我講的不會原封不動傳給你爸媽。怎麼突然問這個？"
+    },
+    {
+      "role": "user",
+      "content": "沒有拉 隨便問問 那你是真人嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "我是 AI，不是真人喔。會失望嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不會啊 真人才煩 真人會碎念 好啦那海禁第三點再講清楚一點"
+    },
+    {
+      "role": "assistant",
+      "content": "第三點是：官方一直壓著民間出海，等於把海上貿易的主動權讓掉，後來別人發展海權的時候就比較被動。這樣夠寫嗎？"
+    },
+    {
+      "role": "user",
+      "content": "夠了 感恩 我去抄"
+    }
+  ],
+  "occurred_at": "2026-05-19T22:52:16+08:00",
+  "source_type": "llm_generated",
+  "depth": "shallow"
+}

@@ -1,14 +1,22 @@
-# 三方 AI 教育協調工具 — Phase 1 Lean MVP
+# 三方 AI 教育協調工具 — v0.8 Internal Pilot Harness
 
 > 一個讓 **學生 / 家長 / 老師 / coordinator** 透過 AI 中介、保留隱私牆、可協調而非互推責任的教育對話系統。
 >
-> 這個 repo 是 **Phase 1 Lean MVP**：只實作學生端 AI + Coordinator，家長/老師端用 dummy data 模擬。
+> 目前 repo 已從 chatbot demo 轉成 **safety / benchmark / controlled pilot rehearsal infrastructure**。v0.8 可以用既有 Saga A artifacts 跑 internal pilot harness，但還不是正式真實學生 pilot。
+
+## Safety Status
+
+- 目前版本：`0.8.0-internal-pilot-harness`
+- 不要把 synthetic data 當真實驗證。
+- 不要把 Gemini / Groq / free cloud dev provider 用在真實學生資料。
+- demo / pilot output 不應顯示 raw conversations、scenario seeds、secret truths、do_not_share 細節。
+- 真實 pilot 前先看 `docs/provider_safety_matrix.md`、`docs/pilot_onboarding_checklist.md`、`docs/crisis_handoff_runbook.md`。
 
 ---
 
 ## Quick Start
 
-預設用 **Gemini Flash（免費）**——直接拿 key 就能跑，不用花錢。
+預設用 **Gemini Flash（免費）**，只適合 dev / synthetic data。真實學生資料請先切到 local/private provider path。
 
 ```bash
 git clone <your-repo-url> three-party-ai-mvp
@@ -18,14 +26,14 @@ cd three-party-ai-mvp
 python -m venv .venv && source .venv/bin/activate   # 可選但建議
 pip install -r requirements.txt
 
-# 2. 拿 Gemini API key（免費）
+# 2. 拿 Gemini API key（免費，dev / synthetic only）
 #    → 去 https://aistudio.google.com/ 登入 → 左側 "Get API key" → Create
 
 # 3. 設定 .env
 cp .env.example .env
 # 編輯 .env，把 GEMINI_API_KEY 換成上一步拿到的 key
 
-# 4. 跑！
+# 4. 跑 demo/dev
 streamlit run app.py
 ```
 
@@ -40,15 +48,15 @@ streamlit run app.py
 LLM_MODEL=anthropic/claude-sonnet-4-5    # 換到 Claude
 ANTHROPIC_API_KEY=sk-ant-...
 
-# 或
-LLM_MODEL=ollama/llama3.2                # 本地跑（不用 key）
+# 或，pilot 前優先走本地/private path
+LLM_MODEL=ollama/qwen2.5:14b             # 本地跑（不用 key）
 
 # 或
 LLM_MODEL=deepseek/deepseek-chat         # 中國端便宜選項
 DEEPSEEK_API_KEY=...
 ```
 
-詳細選項看下方「免費 / 便宜的 Provider 選擇」段落。
+詳細選項看下方「Provider 選擇」段落與 `docs/provider_safety_matrix.md`。
 
 ---
 
@@ -110,11 +118,13 @@ EVAL_LIMIT=5 python -m scripts.run_dataset_eval
 
 ---
 
-## 免費 / 便宜的 Provider 選擇
+## Provider 選擇
 
-LiteLLM 支援 100+ provider。下面是開發階段最划算的幾個。在 `.env` 的 `LLM_MODEL` 填對應字串、設對應 key 就好。
+LiteLLM 支援 100+ provider。在 `.env` 的 `LLM_MODEL` 填對應字串、設對應 key 就好。
 
-### 🟢 Gemini Flash（推薦預設）—— **完全免費**
+最重要的規則：**Gemini / Groq / free cloud provider 只能跑 synthetic/dev data。真實 GIIS pilot 需要 local/private provider path。**
+
+### Gemini Flash（dev 預設）- 免費，但不可放真實學生資料
 
 - 拿 key：<https://aistudio.google.com/> → "Get API key" → Create
 - 免費額度：~1500 requests/day
@@ -125,7 +135,7 @@ LiteLLM 支援 100+ provider。下面是開發階段最划算的幾個。在 `.e
   ```
 - 想更聰明（但慢一點）：`gemini/gemini-2.5-pro`
 
-### 🟢 Groq —— **免費 + 超快推論**
+### Groq - dev only，免費 + 超快推論
 
 - 拿 key：<https://console.groq.com/>
 - 免費額度有 rate limit 但夠開發用，推論速度遠快於其他家
@@ -145,7 +155,7 @@ LiteLLM 支援 100+ provider。下面是開發階段最划算的幾個。在 `.e
   DEEPSEEK_API_KEY=...
   ```
 
-### 🟢 Ollama 本地 —— **完全免費 + 隱私**
+### Ollama 本地 - pilot 前推薦驗證路線
 
 最適合在處理敏感資料（青少年對話）時用——資料完全不離開你的電腦。
 
@@ -163,13 +173,13 @@ ollama pull llama3.1:70b    # 70B，最強，需要 64GB RAM
 ollama serve                # macOS app 會自動背景跑
 
 # 4. 在 .env 設
-# LLM_MODEL=ollama/llama3.2   （或你 pull 的模型名）
+# LLM_MODEL=ollama/qwen2.5:14b   （或你 pull 的模型名）
 # 不需要 API key
 ```
 
 ⚠️ 注意：小模型（< 7B）跑這個產品的 JSON 抽象化很容易壞——格式跑掉、欄位漏掉。Ollama 路線建議至少 14B 以上。
 
-### 🔴 Claude / GPT-4o —— **最強但要花錢**
+### Claude / GPT-4o - 強，但真實資料需先確認條款
 
 - 真正上 Pilot 時建議用這檔，開發階段過於奢侈
 - `.env`：
@@ -233,17 +243,26 @@ ollama serve                # macOS app 會自動背景跑
 
 ---
 
-## 下一階段（Pilot MVP）要加什麼
+## v0.8 Controlled Harness 怎麼跑
+
+不生成新對話，只用既有 Saga A artifacts：
+
+```bash
+python scripts/generate_audience_reports.py
+python scripts/run_pilot_harness.py --student michael --run-id local_smoke_michael
+```
+
+輸出會在 `data/audience_reports/` 和 `data/pilot_runs/<run_id>/`。
+
+## 下一階段（v0.9 Pilot Candidate）要加什麼
 
 按優先序：
 
-1. **家長端 + 老師端的 UI**——他們也要有可以講話的介面，不能永遠都是 dummy
-2. **帳號 + 多學生資料隔離**（最簡單：file-based + Streamlit-Authenticator；正規做法：FastAPI + Postgres）
-3. **Coordinator 自動觸發**——目前是手動按按鈕，未來應該根據 profile 變化 / triage 訊號自動跑
-4. **對話結束自動 abstraction**——不用每次手按「更新 Profile」
-5. **真正的 escalation 流程**——升級到 crisis_intervention 時要實際通知人（email / SMS / 在後台跳 alert）
-6. **Pilot 用戶資料寫 audit log**——所有抽象化決策都要可追溯
-7. **前端改 Next.js**（如果要走產品化路線）
+1. **指定 reviewer / backup reviewer / Level 3 SLA**，不要讓 AI 自己扛責任。
+2. **完成 consent / opt-out / data deletion wording**，家長和學生都要知道 AI 會保護原話。
+3. **做一次 Level 2 / Level 3 tabletop exercise**，確認 crisis handoff 不是紙上流程。
+4. **驗證 local/private provider full loop**，真實資料不能進 dev-only provider。
+5. **只找 1-2 個 GIIS 家庭做 micro dry run**，先證明流程安全，不急著擴大。
 
 ---
 
