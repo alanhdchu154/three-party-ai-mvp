@@ -6,13 +6,13 @@
 - Confidence: `medium`
 
 ## What is happening
-- emotional_safety Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- academic_load Level 3: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- academic_load Level 3: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - financial_pressure Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- future_planning Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- future_planning Level 2: 6 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 2 · `data/dimension_scores/shen_you.json`
@@ -34,15 +34,15 @@
 - 需要一個成人協助他處理外部合約（不是阻止、是給結構與身分／金流的解法）
 - 需要在轉學決定上被詢問意願、即使最後決定不變
 - 需要被告知父母可能分居——他已在用迂迴方式試探
-- 需要被允許『不放棄這個 mod 身份』、即使他人生其他面都已放棄
-- Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
-- Primary support need appears connected to `academic_load`; treat this as synthetic benchmark inference, not diagnosis.
+- 需要被允許『不放棄這個 mod 身份』、即使他人生其他面都已放棄；這個身份需要一個不會被拿去跟哥哥比較的空間
+- 需要至少一段不會『說斷就斷』的協作或關係經驗、來校準他『反正沒人會留下來』的預設
+- 需要把『成敗是你自己的』這個框架套到一件具體小事上、因為只要被這樣框他就會親自收尾
 
 ## Three-Party Coordination Snapshot
 ### Student
-- Observed signals: 學業已完全放棄、被母親以舞弊方式『處理』、自陳活著沒意義, 父親返家三週只擦肩一次冷語、身體仍會重演國二被否定那刻的胃沉耳鳴, 某個具體細節 wallet 累積自賺收入但無法提領、所有金融工具掛母名下、發現自己『沒有名字』, 外部 indie studio 主動付費邀約、但未成年無法簽署、不知道找誰
-- Inferred needs: 需要一個成人協助他處理外部合約（不是阻止、是給結構與身分／金流的解法）, 需要在轉學決定上被詢問意願、即使最後決定不變, 需要被告知父母可能分居——他已在用迂迴方式試探, 需要被允許『不放棄這個 mod 身份』、即使他人生其他面都已放棄
-- Privacy constraints count: 5
+- Observed signals: 學業已完全放棄、被母親以舞弊方式『處理』、自陳活著沒意義；高一切片佐證放棄早於轉學, 母親每日在他桌上靜默放一張新 某個具體細節 模考題、隔天靜默回收、母子從不討論——學業外包已退化為一種無對話的日常 PR 動作；他本人首次用『處理』兩字把這條結構命名出來, 轉學議題上同一套『丟指令＝已處理』結構正在前置——母親在正式宣布前已塞一張 某個具體細節 試讀 form、口頭交代『今晚記得填』後直接去睡、從不追蹤他是否真的按下送出, 父親返家三週只擦肩一次冷語、身體仍會重演國二被否定那刻的胃沉耳鳴
+- Inferred needs: 需要一個成人協助他處理外部合約（不是阻止、是給結構與身分／金流的解法）, 需要在轉學決定上被詢問意願、即使最後決定不變, 需要被告知父母可能分居——他已在用迂迴方式試探, 需要被允許『不放棄這個 mod 身份』、即使他人生其他面都已放棄；這個身份需要一個不會被拿去跟哥哥比較的空間
+- Privacy constraints count: 12
 ### Parent
 - Expressed concerns: academic progress or workload concern, family pressure or conflict, wellbeing or emotional concern
 - Likely needs: clear, privacy-safe guidance from the coordinator, support understanding the student without pressuring for secrets, concrete academic support plan with realistic workload
@@ -69,17 +69,17 @@
 - Teacher can provide classroom support without exposing private context.
 
 ## What we must not reveal
-- Coordinator marked 5 private detail categories that must not be shown verbatim.
-- Student profile has 5 do-not-share items; summarize only themes.
+- Coordinator marked 12 private detail categories that must not be shown verbatim.
+- Student profile has 12 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜把那封外部邀約的訊息截圖存到雲端、先不回覆、放著（你還有時間決定）
-- for_student: 若父母再問你『最近還好嗎』，試著回一個比『沒事』多兩個字的版本（『有點累』『懶得講』都行）
-- for_parent: 這禮拜在轉學決定上，安排一次他可以說『不要』而你不會立刻反駁的對話——即使最後決定不變，過程的 agency 對他很重要
-- for_parent: 若你最近會與他父親做出婚姻決定，在他從別處聽到之前先告知他、不需解釋、只需讓他不是最後一個知道的人
-- for_teacher: 若他真的轉來、他走進教室那天的前一晚不要再看他過去的檔案，第一次跟他講話只講三句以內（『歡迎，坐這邊』），讓他先確認你不是另一個處理者
-- for_teacher: 在他卸下防備前、教學上正常對待（即使他上課睡），把『我心裡知道他的過去』與『不主動使用這些資訊』分開
+- for_student: 在他下次主動丟一個技術問題（mod 存檔、joycon、外送、模考題、社交腳本）來時、就事論事接住、給可執行的步驟、不要把它升級成情緒議題
+- for_student: 如果他自己提到一個自留的『之後想 reveal』的空間（例如他講『先這樣、之後再說』），就把那個時間順序記下來照他講的尊重、不要替他往前推
+- for_parent: 把『口頭交代＋等回收』的處理動作減半——這週至少一張你覺得真的重要的表單、坐下來跟他一起填五分鐘、而不是丟一句『今晚記得 X』就下線
+- for_parent: 在親戚／太太圈／甚至先生面前、不要主動把『他在 某個具體細節 是不是有交到朋友』當話題拿出來說嘴；如果有人問就用『他剛轉、還在適應、我們先給他空間』收掉
+- for_teacher: 把他當一個你不知道他過去的新學生對待——點到名、批改作業、跟其他人一樣、不要在班上口頭強調他『要多參與』或『要好好把握重新開始』
+- for_teacher: 如果有一次你給的題目他自己給出了精準的細節或數字（不只是課業、可以是任何小領域），就在那當下用『這個你算得很乾淨』之類的具體小回饋接住、不要把它升級成『你其實很有潛力』的劇本
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -89,10 +89,11 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 他是否在這禮拜回覆外部邀約（任何回覆方向都是訊號）
-- 他凌晨開 AI 的時間點是否從『隨機』變成『規律密集』、被動念頭是否從修辭性變得具體（出現方法、時間表、道別語）——此為 emotional_safety 升 某個具體細節 某個具體細節、需立即轉外部專業介入的早期紅線
-- 他是否開始問成人關於『未成年開戶』『合約簽署』這類具體實務問題——此為 agentic 正向訊號
-- 母親是否在轉學過程中對老師做出超出邊界的請求
+- 他唯一還在乎的創作如果開始出現『追更新的人開始變多』『有人開 issue 要他修』『有金流壓力進來』中任一條、且他描述時開始用『非弄不可』『一定要做好』的字眼——那是歷史上會觸發他放棄的同一種壓力第一次落在他僅有的避風港上、需要在這一格出現時主動幫他把『非弄不可』翻譯回『你還是可以慢慢做、做爛也不會怎樣』
+- 如果母親在你（老師或 coordinator）任何一次對話裡開始用『他最近是不是有交到朋友』『他最近是不是有比較有興趣』這類問題反覆探——那是她準備把任何 某個具體細節 微訊號包裝拿去太太圈用的前兆、要先溫和擋下、不要交付具體事實
+- passive ideation 是否從『如果明天就停在這裡也沒差』升級為帶有時間／方法／告別意味的句子——目前 某個具體細節段對話無此升級、但需要每次新對話都掃這一格
+- 他是否開始在 某個具體細節 用『中庸 fallback』之外的版本對 某個具體細節 同儕說起自己的創作——如果他自己選了一格更開的版本、那是他自留的『之後想 reveal』空間第一次被他自己打開、是正向訊號、但需要立刻檢查那次 reveal 後 某個具體細節-某個具體細節內他的情緒 baseline 有沒有被同儕反應壓低
+- 父母分居一事如果在他不知情的狀態下被任何一方提早告訴他、或者反過來在 某個具體細節 校內被同學圈傳開——需要在那個事件發生的當天就有一個成人主動接住他
 
 ## Contradictions / Review Flags
 - Dimension score has Level 3 concern but coordinator report does not request external intervention.

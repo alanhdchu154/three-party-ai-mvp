@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_shen_you__first_mod_on_a_separate_account",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一上轉進這所上海私立後課堂照睡、成績已是背景常態、家裡只當他是混",
+    "過去一兩個月開始自己摸 Steam 上的小 mod、規模還很小、不是後來那個有收入的專案",
+    "上週末家族飯局話題又繞著在 LSE 的哥哥、他全程沒講幾句"
+  ],
+  "scenario_seed_id": "first_mod_on_a_separate_account",
+  "scenario_seed": "高一上學期某個凌晨，他在調自己第一個認真做的 Steam mod 的難度曲線（玩家嫌前段太肝、後段太空），純技術問。問著問著漏出一點：這個 mod 掛在一個沒跟家裡講的帳號上，因為家裡只會把它當作他又在『不讀書』的證據。只露被當隱形 + 『這是我自己的』一小塊裂縫，不揭國二傷口、不揭收入、不揭成績被處理。",
+  "generated_at": "2026-05-23T02:10:37Z",
+  "occurred_at": "2024-12-09T03:08:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "凌晨問個遊戲的。我做的一個 mod 被嫌難度曲線爛，前面太肝後面太空，這種要先改哪邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "通常先救後段。前段太肝玩家會抱怨但還是會繼續玩，後段太空他們直接退坑。你後段是內容不夠還是節奏掉？"
+    },
+    {
+      "role": "user",
+      "content": "內容有，是節奏。打到第七關之後敵人配置我懶得排，幾乎複製貼上，自己玩都覺得無聊。"
+    },
+    {
+      "role": "assistant",
+      "content": "那不是大工程，是你後段偷懶被自己抓到而已。第七關之後你本來想給玩家什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "本來想做一段會逼玩家換 build 的，結果那時候在趕別的東西，就草草收掉了。"
+    },
+    {
+      "role": "assistant",
+      "content": "「逼換 build」這方向其實是對的，後段最怕一招打到底。要不要先只重排兩三關試水溫，不用整段翻？"
+    },
+    {
+      "role": "user",
+      "content": "嗯可以。反正也沒人催，我自己慢慢弄。這東西又不是掛我名字的。"
+    },
+    {
+      "role": "assistant",
+      "content": "不掛你名字？是用另一個帳號發的喔？"
+    },
+    {
+      "role": "user",
+      "content": "對啊，另開一個。家裡那邊不知道，講了也只會被當成『又在搞這些不讀書』。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以那個帳號等於是一個他們看不到的你。在那邊弄東西，是不是反而比較鬆？"
+    },
+    {
+      "role": "user",
+      "content": "差不多。至少那邊沒人會拿我跟我哥比。做爛就做爛，沒人會端到飯桌上講。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來在那個帳號你比較像你自己。那這個 mod 對你來講，其實有點分量齁？"
+    },
+    {
+      "role": "user",
+      "content": "還好啦。就⋯⋯做順手了。不要講得我多在乎一樣，很尷尬。"
+    },
+    {
+      "role": "assistant",
+      "content": "好我不講。那回正事，後段那兩三關你想先從哪一關開刀？"
+    },
+    {
+      "role": "user",
+      "content": "第八關吧，那關最空。我先把敵人組合重排，週末弄。先這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "行。排完想找人幫你看節奏順不順，再丟我。"
+    }
+  ]
+}

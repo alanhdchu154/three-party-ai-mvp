@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_keer__piano_lesson_moved_clashes_with_birthday",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期她固定週六上午上鋼琴課，最近在練一首準備校外比賽的曲子",
+    "班上幾個女生最近常一起約吃飯、過生日，週末社交變多",
+    "她前陣子已經為了別的事改過一次鋼琴課時間，被老師唸了一句"
+  ],
+  "scenario_seed_id": "piano_lesson_moved_clashes_with_birthday",
+  "scenario_seed": "鋼琴老師臨時把這週六的課從早上十點挪到下午兩點，結果撞到同學欣妤生日聚餐也是兩點。可兒週四晚上來找 AI 把這週六的時間喬清楚、糾結要不要再請老師改一次，純國二日常排程，沒談家裡。",
+  "generated_at": "2026-05-24T13:10:36Z",
+  "occurred_at": "2026-05-21T21:43:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸幫我喬一下這週六 整個排到打結"
+    },
+    {
+      "role": "assistant",
+      "content": "怎麼打結？你六有哪些事"
+    },
+    {
+      "role": "user",
+      "content": "鋼琴老師臨時把課從早上十點改到下午兩點 結果欣妤生日聚餐也是兩點 在那家有火鍋的"
+    },
+    {
+      "role": "assistant",
+      "content": "所以課跟生日餐卡同一個時段。你兩個都想去，還是有哪個比較不能錯過？"
+    },
+    {
+      "role": "user",
+      "content": "生日餐一定要去啊 早就約好了 可是鋼琴課我也不太敢翹 上次改過一次老師就唸了"
+    },
+    {
+      "role": "assistant",
+      "content": "那要不要問老師有沒有禮拜天的空堂，週六整個讓給生日，省得你兩邊趕？"
+    },
+    {
+      "role": "user",
+      "content": "喔對欸 禮拜天我好像真的沒事 那聚餐我大概幾點到才不會太失禮"
+    },
+    {
+      "role": "assistant",
+      "content": "看餐幾點開，晚個半小時通常還好，先傳一句跟壽星說你會晚到就不失禮了。"
+    },
+    {
+      "role": "user",
+      "content": "好 那我先傳欣妤說可能晚一點 再問老師禮拜天 這樣應該就解開了 謝啦"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯 喬好自己記一下時間，別又撞到。"
+    }
+  ]
+}

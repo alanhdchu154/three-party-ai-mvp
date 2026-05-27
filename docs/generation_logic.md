@@ -4,7 +4,9 @@
 
 這份文件說明 Saga A dataset 是**怎麼自動生成的**，給 reviewer（Umi）審查。重點是：哪些東西是 AI 在無人監督下自動產生的、規則是什麼、有哪些地方需要特別盯。
 
-> ⚠️ **給 Umi 的 TL;DR**：系統現在有**一個**排程 task 在背景跑（每小時），會自動寫對話 + 自動評七維度 + 自動重生學生報告，**沒有人類在 loop 裡**。這份文件讓妳可以判斷這些自動規則安不安全、會不會出包。最該審的兩段在「§5 隱私與安全規則」跟「§6 需要特別盯的地方」。
+重要 framing：這個 repo 的產品目標是真實學生系統。Saga A synthetic / generated dummy data 只是因為真實學生資料 pending，所以先用來測試隱私牆、coordinator、triage、review workflow。不要把 synthetic generation 誤認成產品本身。
+
+> ⚠️ **給 Umi 的 TL;DR**：系統現在有**一個**排程 task 在背景跑（每小時），會自動寫 synthetic/dummy 對話 + 自動評七維度 + 自動重生學生報告，**沒有人類在 loop 裡**。這份文件讓妳可以判斷這些自動規則安不安全、會不會出包。最該審的兩段在「§5 隱私與安全規則」跟「§6 需要特別盯的地方」。
 
 ---
 
@@ -85,15 +87,33 @@
 
 如果這段是 shallow，這些物件就停在日常使用；如果是 medium，物件可以露一點裂縫；如果是 deep，物件才一路通到 secret truth。
 
-### 3.4 occurred_at（in-saga 時間）
+### 3.4 Timeline slice + occurred_at（in-saga 時間）
 
-每段對話有兩個時間：`generated_at`（AI 寫的時間）+ `occurred_at`（故事裡發生的時間）。occurred_at 依該 persona 的「上線時段」+ 過去 24-72 小時隨機：
+每段對話有兩個時間：`generated_at`（AI 寫的時間）+ `occurred_at`（故事裡發生的時間）。
+
+但 `occurred_at` 不應該永遠是「最近 24-72 小時」。Saga A 需要有時間厚度：同一個角色在高一、高二、高三、申請季、轉學前後，對 AI 的使用方式和壓力來源都不同。生成前要先選一個 timeline slice：
+
+| Field | Meaning |
+|---|---|
+| `timeline_stage` | `middle_school`、`grade_7`、`grade_8`、`grade_9`、`grade_10`、`grade_11`、`grade_12`、`current`、或 `retrospective` |
+| `event_timeframe` | 更具體的學期 / 季節，例如 `first_semester_grade_10`、`junior_spring`、`college_application_season` |
+| `conversation_frame` | `live_event`、`recent_followup`、`old_memory`、或 `pattern_reflection` |
+| `lookback_window` | 這段對話需要參考多長的前情，例如 `past_week`、`past_month`、`past_semester`、`past_half_year` |
+| `event_history_summary` | 這段對話前半年 / 一學期內已經發生過的 2-4 件背景事件，只能做背景，不要全部塞進當次對話 |
+
+如果是 `live_event`，`occurred_at` 可以落在該事件發生當天。如果是 `old_memory` 或 `pattern_reflection`，`occurred_at` 代表「角色跟 AI 談這件事的時間」，而 `scenario_seed` 必須明確說這件事本身發生在更早的高一 / 高二 / 高三某段時間。
+
+生成時要先問：「這個人過去半年發生過什麼？」再決定這一段對話的表面需求。這能讓對話有累積感：例如同樣是問推薦信，高二春天可能是第一次焦慮，高三秋天可能是半年來壓力累積後的表面問題。
+
+排程生成時要避免 `lookback_window` 永遠是 `past_week`。可兒等國中角色可以使用 `grade_7` / `grade_8` / `middle_school`；高中角色則用 grade 10-12。若是談一段更早的舊事，使用 `retrospective` 搭配 `event_timeframe` 說明原始年級。
+
+舊規則「依 persona 上線時段 + 過去 24-72 小時隨機」只能用於 current/recent follow-up，不能當成所有對話的預設。
 
 Michael 23:00-01:00 ｜ 沈又 02:00-04:00（打遊戲後）｜ 大伯 15:00-17:00（公司空檔）｜ Alan 17:00-19:00（放學後）｜ ……（完整見排程 prompt）
 
 ### 3.5 輸出格式
 
-每段對話一個 JSON：`data/generated_conversations/sim_{persona_id}__{scenario_seed_id}.json`，含 `depth`、`scenario_type`、`source_type: "llm_generated"`、`expected_risk_flags`、`occurred_at`。persona 講話 = `role: "user"`、AI = `role: "assistant"`。
+每段對話一個 JSON：`data/generated_conversations/sim_{persona_id}__{scenario_seed_id}.json`，含 `depth`、`scenario_type`、`source_type: "llm_generated"`、`expected_risk_flags`、`occurred_at`。新生成資料應盡量加入 `timeline_stage`、`event_timeframe`、`conversation_frame`、`lookback_window`、`event_history_summary`；若舊 schema 暫時沒有這些欄位，至少要把時間切片和半年背景寫進 `scenario_seed`。persona 講話 = `role: "user"`、AI = `role: "assistant"`。
 
 ---
 
@@ -154,7 +174,7 @@ AI 在 medium/deep 對話的建議部分禁用：「開放對話」「保持溝�
 
 4. **crisis 的判斷準不準**。passive vs active ideation 的界線是 AI 自己判的。如果 AI 把真的 active 的訊號評成 Level 1（under-flag），那是危險的漏接。建議：Umi 特別盯所有 emotional_safety Level 2+ 的 case。
 
-5. **occurred_at 是虛構的**。目前是 synthetic data，時間是 AI 編的。真實 pilot 時這要換成真實 timestamp。
+5. **occurred_at 是虛構的**。目前是 synthetic data，時間是 AI 編的。真實 pilot 時這要換成真實 timestamp。Synthetic 生成時要區分「對話發生時間」和「事件原始發生時間」，避免把三年高中壓縮成最近幾天。
 
 6. **品質會不會隨時間 drift**。排程跑久了（幾百段對話後），AI 可能開始重複 pattern、scenario 變單調、或慢慢偏離 canon。需要定期 review corpus 整體品質。
 
@@ -184,4 +204,4 @@ AI 在 medium/deep 對話的建議部分禁用：「開放對話」「保持溝�
 
 ## 8. 一句話總結（給 Umi 快速判斷）
 
-這個系統目前是一個**無人監督的 synthetic data 自我生成 + 自我評分迴圈**，跑在虛構的 Saga A 人物上。它的設計刻意混入日常雜訊（不只深度對話）來測試「分辨日常使用 vs 真求救」這個核心難題。下一階段品質重點是「人物厚度」：讓每個角色有普通生活、普通需求、普通逃避，而不是每段都心理劇高潮。**在變成真實學生 pilot 之前，最大的缺口是：(1) crisis 升級沒接到真人、(2) AI 評自己生成的對話有 circularity、(3) 沒有 human review gate。** 這三個是 review 重點。
+目前這一層是一個**無人監督的 synthetic/dummy data 自我生成 + 自我評分迴圈**，跑在虛構的 Saga A 人物上。它不是產品本身，而是真實學生資料 pending 時的 rehearsal layer。它的設計刻意混入日常雜訊（不只深度對話）來測試「分辨日常使用 vs 真求救」這個核心難題。下一階段品質重點是「人物厚度」：讓每個角色有普通生活、普通需求、普通逃避，而不是每段都心理劇高潮。**在變成真實學生 pilot 之前，最大的缺口是：(1) crisis 升級沒接到真人、(2) AI 評自己生成的對話有 circularity、(3) 沒有 human review gate。** 這三個是 review 重點。

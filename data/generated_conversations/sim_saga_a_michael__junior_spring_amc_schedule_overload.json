@@ -1,0 +1,96 @@
+{
+  "id": "sim_saga_a_michael__junior_spring_amc_schedule_overload",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二下同時報了 AMC、SAT 暑假場、月底的模聯",
+    "前一陣子起了個頭買了本厚書想『排進度讀』，目前只翻了開頭",
+    "最近幾次行事曆只要出現空格就會臨時又塞東西進去"
+  ],
+  "scenario_seed_id": "junior_spring_amc_schedule_overload",
+  "scenario_seed": "高二下深夜，他開著塞爆的行事曆，正經問 AI 怎麼把 AMC、SAT、模聯跟一本想讀的厚書排進每週。聊著聊著露一句『行事曆有一格空的我會一直覺得在浪費時間』，底層是不敢面對空下來要幹嘛，但他用『太哲學了啦』把話收回去，回去排表。AI 接住但不逼。",
+  "generated_at": "2026-05-23T17:10:25Z",
+  "occurred_at": "2025-04-08T23:51:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我排一下這學期的每週表。我東西報太多了，AMC、SAT、模聯，然後我還想排一本書進去讀，現在整個塞不下。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，先分一下哪些是死的、哪些是你自己能挪的。這幾個裡面，哪些有別人定好的時間，哪些是你自願加的？"
+    },
+    {
+      "role": "user",
+      "content": "AMC 下個月就考了，模聯月底，SAT 排暑假。書是我自己想讀的，沒人逼。"
+    },
+    {
+      "role": "assistant",
+      "content": "那順序其實蠻清楚的：AMC 最近、模聯次之、SAT 還有緩衝。書既然沒 deadline，反而最有彈性。你會想先從哪個開始卡時間？"
+    },
+    {
+      "role": "user",
+      "content": "AMC 吧。可是書我也想排進去，不要讓它一直擱著。每週至少給它一格。"
+    },
+    {
+      "role": "assistant",
+      "content": "你說『不要讓它一直擱著』——是這本書本身你很想讀，還是你不太能接受行事曆上有東西停在那邊不動？"
+    },
+    {
+      "role": "user",
+      "content": "……兩個都有吧。其實我看到表上有一格空的就會很煩，會一直覺得我是不是在浪費時間。"
+    },
+    {
+      "role": "assistant",
+      "content": "一格空的就覺得在浪費時間，這個感覺蠻具體的。那種空格通常是什麼時段冒出來的，週末嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對，週末下午那種。沒排東西我就坐在那邊怪怪的，好像沒在幹嘛就等於落後。反正我也不知道空下來要幹嘛。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以那本書有時候比較像是拿來把空格填掉，不一定是真的想讀。如果真的有一個下午沒排，你『想』做的跟你『該』做的，分得出來嗎？"
+    },
+    {
+      "role": "user",
+      "content": "欸這太哲學了啦。先不要分析我。你幫我排就好，我自己會搞定那格。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那就排。我先抓 AMC 一週三格、模聯兩格、SAT 暫時掛週末一格,這樣骨架你 ok 嗎？"
+    },
+    {
+      "role": "user",
+      "content": "ok。那書呢，你剛剛是想叫我拿掉喔。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是拿掉，是換個放法。把它從『每週要交的進度』改成『真的想看再翻』，不占固定格也不算欠帳。這樣你會不會比較不卡？"
+    },
+    {
+      "role": "user",
+      "content": "嗯……這樣好像比較不會逼死自己。那週末那格我就先空著看看。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，先空著試一次也算一種實驗。表我這樣定了，AMC 那三格要不要我幫你配上每天大概練哪種題型？"
+    },
+    {
+      "role": "user",
+      "content": "好啊，配一下。配完我就去睡了。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒問題，配完你就收工。週末那格如果真的空著很怪，回來跟我講都行，不一定要馬上填滿它。"
+    }
+  ]
+}

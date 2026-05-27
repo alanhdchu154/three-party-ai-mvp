@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_keer__guowen_jiachangcai_essay_chef_aunt",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "grade_8_second_semester",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "國二下這學期國文老師頻繁發短篇寫作練習單、改作風格嚴格",
+    "可兒近期班群多了一個跟她比較合的女同學、會在群組分享自己寫作業的進度"
+  ],
+  "scenario_seed_id": "guowen_jiachangcai_essay_chef_aunt",
+  "scenario_seed": "國二下國文課發了一張寫作練習單，題目是『家常菜的記憶』，限 200 字、下週交。可兒翻完班群，發現大家都在寫『媽媽的滷肉飯』『阿嬤的蒸蛋』，可她家從有記憶以來飯都是廚房阿姨煮的，沒有所謂『媽媽煮的菜』。她想問 AI 怎麼改寫不會看起來怪怪的，是純作業求助。",
+  "generated_at": "2026-05-25T22:35:00Z",
+  "occurred_at": "2026-05-25T22:31:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個有點蠢的問題喔。國文老師今天發了一張寫作練習單，題目叫『家常菜的記憶』，要 200 字、下週要交。我看班群大家都已經在喊要寫媽媽的滷肉飯、阿嬤的蒸蛋之類的。我有點卡住。"
+    },
+    {
+      "role": "assistant",
+      "content": "卡在哪一段？是不知道要寫什麼菜，還是想到了菜但不知道怎麼開頭？"
+    },
+    {
+      "role": "user",
+      "content": "是不知道要寫什麼菜啦。我家其實沒有那種『媽媽煮的菜』的東西耶。從我有記憶以來，飯都是廚房阿姨煮的，我媽連湯都沒煮過。我不確定阿姨煮的算不算『家常』。"
+    },
+    {
+      "role": "assistant",
+      "content": "算。「家常菜」的「家常」是指常常出現在妳家飯桌上的味道，跟誰煮的沒有絕對關係。妳會記得味道、會期待的，都可以寫。妳家平常吃什麼？"
+    },
+    {
+      "role": "user",
+      "content": "嗯…阿姨煎的蛋餅我覺得超好吃。她會把皮煎得很脆，邊邊有點焦那種。可是這樣寫出來會不會讓人覺得『妳家有人專門煎蛋餅給妳吃』很奇怪？"
+    },
+    {
+      "role": "assistant",
+      "content": "寫法可以調整。把鏡頭對在蛋餅本身——放學進門聞到的味道、餅皮邊邊的脆、配的醬是甜的還鹹的。煮的人可以一句帶過、不用變成重點。比如「廚房裡有人正在翻面」這種寫法就很自然，讀者不會去追是誰。"
+    },
+    {
+      "role": "user",
+      "content": "喔這樣感覺可以。那我可不可以連『阿姨』兩個字都不寫進去？就只寫『廚房裡』？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。200 字其實塞不下太多人物，把香氣、聲音、味道寫滿就夠了。要不要先試打一句開頭給我看？"
+    },
+    {
+      "role": "user",
+      "content": "好喔我試試看。『放學一進門就聞到油在鍋裡輕輕響的聲音。』這樣可以嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "不錯，「聞到聲音」是個有點巧的搭法，老師如果是嚴格的那種會喜歡。可以再具體一點：是什麼油的香？是有放蔥嗎？接下去就順著「我知道是蛋餅快好了」這種轉進去，畫面就出來了。"
+    }
+  ]
+}

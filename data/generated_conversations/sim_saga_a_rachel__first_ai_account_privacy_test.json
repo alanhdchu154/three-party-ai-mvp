@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_rachel__first_ai_account_privacy_test",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "testing_ai",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "國三升高一暑假家族聚餐，第一次比較認真注意到 Michael",
+    "開學分班，跟 Michael 同屆不同班",
+    "學校發給每個學生一個 student-AI 帳號，她還沒真的用過",
+    "最近開始把寫一半的散文和日記分資料夾收在手機裡"
+  ],
+  "scenario_seed_id": "first_ai_account_privacy_test",
+  "scenario_seed": "高一上學期剛拿到學校發的 student-AI 帳號。她一邊整理寫一半的投稿草稿和日記資料夾，一邊想先確認這個 AI 到底會不會被老師、或在董事會的爸爸看到，先試探幾句再決定要不要真的用它。",
+  "generated_at": "2026-05-24T11:09:49",
+  "occurred_at": "2023-10-11T22:43:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我問一下，我打字進去的東西，你會存起來嗎？還是視窗關掉就沒了。"},
+    {"role": "assistant", "content": "會存著，這樣你下次回來我才記得上次聊到哪。不過存的地方只有你的帳號看得到。你是在意被誰看到嗎？"},
+    {"role": "user", "content": "就學校發的帳號嘛。老師那邊會不會看到我跟你講的字，逐字那種。"},
+    {"role": "assistant", "content": "逐字的不會。我頂多幫你整理出『你想被聽見的重點』，但你打的原話、哪個情境，那是你的。怎麼突然想先確認這個？"},
+    {"role": "user", "content": "沒有，習慣性問一下。那再假設喔，如果有人在學校董事會，他想調，能調到我這邊的紀錄嗎。"},
+    {"role": "assistant", "content": "董事會管的是學校營運，跟學生私下跟我講的東西是分開的兩件事，我不會主動把它送出去。所以理論上不行。問得這麼細，是有人會這樣做嗎？"},
+    {"role": "user", "content": "沒有啦。我只是有些東西寫一半放著，不想被亂翻而已。"},
+    {"role": "assistant", "content": "嗯，放著的東西本來就該你自己決定什麼時候、給誰看。你想放這就放這，我不會翻。要不要先丟一小段試水溫，不喜歡再刪掉？"},
+    {"role": "user", "content": "再說啦。先這樣，我看你可不可靠先。"}
+  ]
+}

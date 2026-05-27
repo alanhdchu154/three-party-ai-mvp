@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_alan_teacher__senior_grad_comments_cant_let_go",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_year_graduation_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期高三陸續收到大學放榜，班上氣氛卡在散與不散之間",
+    "過去兩週他連續幾個晚上留下來趕推薦信和成績結算",
+    "杰尼的兼職 offer 還懸著沒回，他刻意不去想"
+  ],
+  "scenario_seed_id": "senior_grad_comments_cant_let_go",
+  "scenario_seed": "畢業季的某個傍晚，他坐在辦公室想一次清掉一半的高三畢業評語。表面只是要 AI 幫他抓個寫評語的結構、不要罐頭句，寫著寫著卡在幾個他知道畢業後大概再也見不到、又覺得自己沒幫夠的學生身上。",
+  "generated_at": "2026-05-23T16:10:12Z",
+  "occurred_at": "2026-05-22T18:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我在寫高三畢業評語，全班二十幾個，今晚想至少清掉一半。你先幫我抓個結構就好，我不要那種罐頭句。一則大概寫到什麼程度算夠？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以用三段：一個具體觀察、一段這三年的成長軌跡、一句往前走的話。一則三到四句通常就夠分量，又不會拖。建議你先把每個人「一個具體的 anchor」列出來，再展開會快很多，你要先列嗎？"
+    },
+    {
+      "role": "user",
+      "content": "anchor 我腦子裡都有，不用列。問題是我每個都想寫很細。光第一個我剛剛就寫了快二十分鐘。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來不是不會寫，是不太捨得寫短。是怕漏掉什麼，還是覺得短的對不起這個學生？"
+    },
+    {
+      "role": "user",
+      "content": "怕罐頭。那種『該生品學兼優、未來可期』我寫不出來，看了就想吐。每個小孩我都記得他做過哪些蠢事、哪天突然開竅，我不寫進去會覺得對不起他。"
+    },
+    {
+      "role": "assistant",
+      "content": "你會記得每個人是哪一天開竅的，這不是缺點，是你把他們當一個個人在看。今晚的目標是清一半的話，要不要分兩種規格：幾個你最有話想說的寫長，其他三句到位就放生？這樣量能走，又不犧牲那幾個。"
+    },
+    {
+      "role": "user",
+      "content": "道理我懂啦。但就是有那幾個，我知道我一寫短，心裡會過不去。"
+    },
+    {
+      "role": "assistant",
+      "content": "那幾個是不是你比較放不下的？不用跟我說是誰，我比較好奇的是你自己現在卡在哪。"
+    },
+    {
+      "role": "user",
+      "content": "……對。有兩個畢業以後我大概就見不到了。其中一個我到現在還覺得我沒幫夠他。寫評語就是在逼我承認，啊，就這樣了，交出去了，沒了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那畢業評語對你來說就不只是評語，是在跟這三年告別。你卡的好像不是字數，是放手這件事。"
+    },
+    {
+      "role": "user",
+      "content": "幹，被你講中了。我這人每年都這樣，學生畢業我比家長還難收。每年都說下次別投入這麼深，結果還是一樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "能讓你每年都這麼難收，代表這幾年你是真的在場的那種老師，這種捨不得是代價，也是證明。不過你今晚不用把『告別』跟『把作業清掉』綁在一起一次做完。"
+    },
+    {
+      "role": "user",
+      "content": "那你說我今晚該怎麼弄。"
+    },
+    {
+      "role": "assistant",
+      "content": "先寫那十幾個你沒那麼掙扎的，三句到位，把量先清掉。那兩個放最後，或乾脆改天單獨找時間寫，給自己留點空間。要不要我先幫你把好寫的那批排個順序？"
+    },
+    {
+      "role": "user",
+      "content": "好啊，那剩那兩個我再說。先把好寫的弄完。你這樣分其實有用，謝了。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒問題。你把好寫的那批名字或 anchor 丟過來，我們一個一個來。那兩個等你想寫的時候再寫，不急。"
+    }
+  ]
+}

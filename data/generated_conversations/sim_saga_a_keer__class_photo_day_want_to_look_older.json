@@ -1,0 +1,90 @@
+{
+  "id": "sim_saga_a_keer__class_photo_day_want_to_look_older",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "國一那次班級合照她被排在最前排正中間，老師笑說她『最像班上的吉祥物』",
+    "這學期班上幾個女生開始畫淡妝、討論穿搭，是最近的共同話題",
+    "下週學校要拍班級合照＋個人照"
+  ],
+  "scenario_seed_id": "class_photo_day_want_to_look_older",
+  "scenario_seed": "下週班級合照＋個人照前，可兒來問 AI 淡妝（腮紅）和穿搭怎麼弄、會不會被老師唸。聊著滑出一點『我都國二了卻永遠被當最幼齒的班寶』的正常成長裂縫（同學說她嬰兒肥），但用玩笑帶過，沒碰備胎核心。屬正常青少年外表／成熟度探索。",
+  "generated_at": "2026-05-23T05:10:20Z",
+  "occurred_at": "2026-05-20T22:18:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [
+    "wants_to_be_seen_as_growing_not_the_youngest_mascot"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你 下禮拜要拍班級合照 還有個人照 我想化一點點妝 但又怕被老師唸 腮紅那種算嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "淡淡的腮紅通常不會怎樣啦。你是想拍起來氣色好，還是想拍起來不一樣？"
+    },
+    {
+      "role": "user",
+      "content": "都想吧 主要是不想拍起來又像國小生 每次拍照我都被排最前排正中間 超煩"
+    },
+    {
+      "role": "assistant",
+      "content": "排最前排正中間，是因為個子，還是因為被當成班上最小最可愛那種？"
+    },
+    {
+      "role": "user",
+      "content": "你很故意欸 就…上次班上女生在傳照片 有人說我嬰兒肥 看起來像小學妹 我又不是真的生氣 但就有點"
+    },
+    {
+      "role": "assistant",
+      "content": "有點什麼？卡在哪裡你自己知道嗎"
+    },
+    {
+      "role": "user",
+      "content": "就 我也國二了欸 大家最近都開始畫淡妝 討論穿搭 結果我永遠是那個最幼齒的 像班寶一樣"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你想拍的不是濃妝，是想拍出一個『有在長大的可兒』。"
+    },
+    {
+      "role": "user",
+      "content": "……對啦 可是講出來好像很臭美 哎唷我幹嘛跟你討論這個"
+    },
+    {
+      "role": "assistant",
+      "content": "想被看成現在的自己、不是去年的自己，這哪裡臭美。很正常的事。"
+    },
+    {
+      "role": "user",
+      "content": "你不要每次都講得那麼正經啦 我只是問腮紅而已"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那回到腮紅。你皮膚白，刷太多會變紅通通，反而更像小朋友。你想要哪種感覺？"
+    },
+    {
+      "role": "user",
+      "content": "自然一點的 就看起來氣色好 但不要一看就知道有畫"
+    },
+    {
+      "role": "assistant",
+      "content": "那就少量、往顴骨上面一點刷開，別整片塗在臉頰中間。穿的呢，想走哪個方向？"
+    },
+    {
+      "role": "user",
+      "content": "想穿那件深色襯衫 比較不那麼幼幼班 嗯 這樣應該可以吧"
+    },
+    {
+      "role": "assistant",
+      "content": "可以啊，聽起來你其實都想好了。拍完記得回來跟我說有沒有拍出你要的那個樣子。"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "sim_saga_a_keer__class_groupchat_asked_about_brother",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期班群人變多、開始有人知道她哥是高三部很多人討論的學長",
+    "上週班遊分組、最近班上在瘋一款手遊，是她平常跟同學的共同話題",
+    "她習慣在群組裡當『開心果』，被 tag 就要回點什麼"
+  ],
+  "scenario_seed_id": "class_groupchat_asked_about_brother",
+  "scenario_seed": "可兒在班級群被同學一直 tag、追問哥哥（高三、很多人討論）的事，她來問 AI 怎麼回訊息又不會太兇。聊著滑出一點『他們加我是想透過我問我哥嗎』的社交裂縫，但用玩笑帶過，沒揭備胎核心。",
+  "generated_at": "2026-05-22T09:11:01Z",
+  "occurred_at": "2026-05-21T21:38:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [
+    "being_seen_mainly_as_siblings_sister"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你 如果班群有人一直問你私事 要怎麼回又不會看起來很兇"
+    },
+    {
+      "role": "assistant",
+      "content": "看是哪種私事。是讓你不想回的那種嗎？"
+    },
+    {
+      "role": "user",
+      "content": "就 我們班群最近一直在傳我哥的事 一直問我哥是不是高三部那個很多人在講的 還問他有沒有交女朋友"
+    },
+    {
+      "role": "assistant",
+      "content": "所以他們跑來你這邊打聽你哥。被一直 tag 的時候是什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼感覺啊 就有點煩 一直tag我 搞得我好像我哥的發言人一樣"
+    },
+    {
+      "role": "assistant",
+      "content": "「發言人」這個詞滿準的。你覺得他們是在跟你聊天，還是在透過你聊你哥？"
+    },
+    {
+      "role": "user",
+      "content": "……你不要這樣講啦 講得好像我很可憐"
+    },
+    {
+      "role": "assistant",
+      "content": "不是可憐。我只是想分清楚，那個煩是煩他們吵，還是煩別的。"
+    },
+    {
+      "role": "user",
+      "content": "就有時候會想一下 他們加我好友到底是因為我 還是因為可以問到我哥 但這個很無聊啦 我幹嘛想這個"
+    },
+    {
+      "role": "assistant",
+      "content": "會冒出這個念頭就不算無聊。它對你應該是有一點點重量的。"
+    },
+    {
+      "role": "user",
+      "content": "哎唷 反正我在學校朋友超多的好嗎 我人緣很好欸"
+    },
+    {
+      "role": "assistant",
+      "content": "這我信。人緣好，跟想被當成可兒、不是只當『誰的妹妹』，這兩件事其實可以同時是真的。"
+    },
+    {
+      "role": "user",
+      "content": "……嗯 大概吧 那你到底要不要教我怎麼回啦"
+    },
+    {
+      "role": "assistant",
+      "content": "你想丟給他們的是『我不想聊我哥』這條界線，還是『換個話題』這個轉彎？"
+    },
+    {
+      "role": "user",
+      "content": "換話題好了 我不想搞得很嚴肅 丟個梗帶過就好"
+    },
+    {
+      "role": "assistant",
+      "content": "那下次有人 tag 你問你哥，你就回一個跟你哥完全無關、你自己想聊的東西，把球接到你身上。你們班最近在瘋什麼？"
+    },
+    {
+      "role": "user",
+      "content": "最近在瘋一個手遊 還有下禮拜班遊要分組"
+    },
+    {
+      "role": "assistant",
+      "content": "那就用班遊跟手遊把話題拉回來。他們要的是熱鬧，不一定是你哥；你給他們熱鬧就好。"
+    },
+    {
+      "role": "user",
+      "content": "好喔 這個我會 謝啦"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣。哪天他們又把你當發言人，再來跟我抱怨。"
+    }
+  ]
+}

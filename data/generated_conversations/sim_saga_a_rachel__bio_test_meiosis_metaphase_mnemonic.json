@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_rachel__bio_test_meiosis_metaphase_mnemonic",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "second_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一下 IGCSE Biology 期中考前一週，老師連續兩堂課畫 mitosis 跟 meiosis 的 phase 對照表",
+    "她上週小考被 metaphase I 跟 metaphase II 的圖題扣了 4 分，老師批改後寫『記 pair 跟 single』，她沒記在筆記上",
+    "她週末本來要寫一篇學校文學社徵稿短文，但生物複習挪到後面這幾天，文學社那篇晚一點再說"
+  ],
+  "scenario_seed_id": "bio_test_meiosis_metaphase_mnemonic",
+  "scenario_seed": "高一下生物期中考前一天晚上，她對著考古題重看 metaphase I 跟 metaphase II 的染色體排列圖還是會看錯，想直接問 AI 一個快速 mnemonic 區分這兩階段以及對應的 anaphase。純背書求助，沒有要談別的。",
+  "generated_at": "2026-05-26T22:55:00Z",
+  "occurred_at": "2026-05-26T22:48:12",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "明天生物期中。我每次看 metaphase I 跟 metaphase II 的圖都會選錯，染色體怎麼排我老是會分不出來。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳是兩張圖一起看就混，還是單獨看 metaphase II 那張會以為是普通有絲分裂？"
+    },
+    {
+      "role": "user",
+      "content": "兩個一起看就混。考古題我都猶豫到最後一秒。"
+    },
+    {
+      "role": "assistant",
+      "content": "簡單記：metaphase I 染色體是「成對排」在赤道板，homologous pairs 並肩站一條線；metaphase II 跟有絲分裂的 metaphase 長得一樣，每條染色體單獨排一列。一句口訣：「I 是 pairs，II 是 singles」。"
+    },
+    {
+      "role": "user",
+      "content": "I 是 pairs，II 是 singles。anaphase 那邊呢，我也常選錯。"
+    },
+    {
+      "role": "assistant",
+      "content": "順著同一句延伸：anaphase I 拉開的是 homologous pairs（整對被拆開、各走一邊），anaphase II 拉開的是 sister chromatids（每條染色體中間拆開）。I 動的還是 pairs，II 動的還是 singles，邏輯一致。"
+    },
+    {
+      "role": "user",
+      "content": "懂了。所以如果圖上看到染色體中間被拉開、不是整對拉開，就是 anaphase II。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。再加一個 check：anaphase II 之前那顆細胞已經是 haploid，所以染色體總數比 anaphase I 少一半。如果題目有給細胞裡的染色體數量，可以拿那個再 confirm。"
+    },
+    {
+      "role": "user",
+      "content": "OK 我先把這句寫在筆記第一頁。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。寫完去睡，不用今晚把每張圖都背完。"
+    }
+  ]
+}

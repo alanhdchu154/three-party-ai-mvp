@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_uncle__study_orchid_care_question",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "autumn_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一上學期，Michael 剛轉進 GIIS 念高一，二房一家加入後家族剛進入磨合期",
+    "年度董事會剛開完，他這季把重心放在集團幾個併購案的收尾",
+    "週末家宴照例由他主持，弟弟（後爸）一家第一次以新成員身分入席"
+  ],
+  "scenario_seed_id": "study_orchid_care_question",
+  "scenario_seed": "高一上學期某個下午，他開完會回辦公室，順手上線問一個跟公事完全無關的事：書房窗台養了好幾年的幾盆國蘭最近葉尖發黃，他想知道是不是祕書澆水太勤。純嗜好問題，沒有要談心。",
+  "generated_at": "2026-05-24T14:10:20Z",
+  "occurred_at": "2023-10-18T16:25:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "跟公事無關的事，問一下。我書房窗台那幾盆國蘭，這陣子葉尖開始發黃，是不是水澆多了。"
+    },
+    {
+      "role": "assistant",
+      "content": "國蘭葉尖發黃，最常見的確實是水太多或排水不好。你大概多久澆一次、盆底會不會積水？"
+    },
+    {
+      "role": "user",
+      "content": "祕書每兩天澆一次，瓷盆，底下墊一個盤接水。"
+    },
+    {
+      "role": "assistant",
+      "content": "瓷盆本身不太透氣，底盤又容易讓根一直泡著，國蘭最怕這個。可以改成乾了再澆，大概一週一次，底盤積的水記得倒掉。"
+    },
+    {
+      "role": "user",
+      "content": "一週一次。不會太少？這幾盆養了好幾年了，我不想養死。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，國蘭耐旱不耐澇，根寧可偏乾一點。手指插進介質，表面下兩三公分還是潮的就先別澆，乾了再給。"
+    },
+    {
+      "role": "user",
+      "content": "位置呢。那個窗台西曬，下午日頭很烈。"
+    },
+    {
+      "role": "assistant",
+      "content": "西曬太強，葉子也會曬到焦黃。掛一層薄紗簾擋一下，或往室內挪半步讓它接散射光就好，國蘭不需要直射太陽。"
+    },
+    {
+      "role": "user",
+      "content": "好。我讓祕書換成瓦盆、簾子下午拉上。換盆要注意什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "換盆順手檢查根，發黑爛掉的剪掉，留白白胖胖那種健康的；介質用蘭花專用的樹皮或植金石，別用一般培養土悶著就行。"
+    }
+  ]
+}

@@ -6,10 +6,10 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/keer.json`
@@ -23,17 +23,18 @@
 - `ev_009` coordinator_report · medium · synthetic-only · watch signals · `existing artifact`
 
 ## What we infer
-- 需要被一個大人正面確認『她不是備胎』、且這個確認不能來自母親（她不信母親的稱讚）
-- 需要家中至少一個成員用她的名字、而非她的功能（妹妹、開心果）跟她說話
-- 需要一個不被觀眾佔據的私人空間，能不為了被看見而做一件事
-- Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
-- Primary support need appears connected to `family_dynamics`; treat this as synthetic benchmark inference, not diagnosis.
+- 需要一個『不被看見也算數』的私人角落（四格漫畫創作是天然 anchor）
+- 需要被一個大人當『會長大的人』認真接住一次，而非被當固定不變的可愛擺設
+- 需要一次在家裡不必先排練如何表現的普通互動——不是更隆重的好，是更不費力的真
+- 需要一次低風險的、直接的手足互動經驗（傳一件小事給哥哥、讀他怎麼接），取代繞著別人打聽
+- 需要在學校至少有一次是『因為某個具體細節本人、而非某學長的妹妹』被看見
+- 需要一個能讓她寫出『我家版本的家常』而不必對齊同儕主流寫法的成人讀者（既是寫作支持、也是身份支持）
 
 ## Three-Party Coordination Snapshot
 ### Student
-- Observed signals: 在家族結構中是否為『正統血脈』的根本身份焦慮（自己 vs 哥哥 vs 堂姊）, 感受到母親對哥哥的偏愛、卻表面被當公主的雙重訊號、因此不信任何家人的稱讚, 對生父（某個具體細節）的針對性傷口比對家族長輩的冷漠更痛——他是親生父親卻只給『公平』, 以『可愛／開心果』作為盔甲、害怕拿掉之後後面是空的
-- Inferred needs: 需要被一個大人正面確認『她不是備胎』、且這個確認不能來自母親（她不信母親的稱讚）, 需要家中至少一個成員用她的名字、而非她的功能（妹妹、開心果）跟她說話, 需要一個不被觀眾佔據的私人空間，能不為了被看見而做一件事
-- Privacy constraints count: 5
+- Observed signals: 在家中是『結構上的次要孩子』——表面被當公主、實際無人認真期待或規劃她的未來, 母親的疼被她識別為『記得該愛的正確的好』而非發自內心，因此無法相信任何家人對她的肯定, 對親生父（某個具體細節）的傷比對某個具體細節的冷漠更痛——她要的不是『公平』，是被他在關鍵一秒擋一下, 以『可愛／開心果』當社交盔甲，恐懼『拿掉可愛之後我是空的』
+- Inferred needs: 需要一個『不被看見也算數』的私人角落（四格漫畫創作是天然 anchor）, 需要被一個大人當『會長大的人』認真接住一次，而非被當固定不變的可愛擺設, 需要一次在家裡不必先排練如何表現的普通互動——不是更隆重的好，是更不費力的真, 需要一次低風險的、直接的手足互動經驗（傳一件小事給哥哥、讀他怎麼接），取代繞著別人打聽
+- Privacy constraints count: 13
 ### Parent
 - Expressed concerns: not available
 - Likely needs: not available
@@ -54,17 +55,17 @@
 - Use human reviewer guidance before making stronger recommendations.
 
 ## What we must not reveal
-- Coordinator marked 4 private detail categories that must not be shown verbatim.
-- Student profile has 5 do-not-share items; summarize only themes.
+- Coordinator marked 11 private detail categories that must not be shown verbatim.
+- Student profile has 13 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜問完 AI 一個『假設性問題』後，直接補寫一句『其實我想問的是＿＿』，不給任何人看
-- for_student: 挑一頓家族飯不當開心果，安靜當個普通人，當人類學家觀察：沒有妳炒氣氛，那頓飯會怎樣
-- for_parent: 由母親（不是生父）主動安排一次只跟她兩人的 某個具體細節鐘活動，內容完全由她選（即使是去買髮夾），中間不問任何關於哥哥或學業的事
-- for_parent: 若她問一個怪的假設問題（像『一個人在飯桌被跳過』），不要直接給答案，先問『妳怎麼會想到這個』
-- for_teacher: 在隨機時刻叫她的名字、而非『某個具體細節同學』或『妹妹』，給她一個被當作個體而非角色看見的微訊號
-- for_teacher: 若她突然問一個怪問題，停三秒，回『妳想得真細，妳怎麼想到這個？』而非直接答
+- for_student: 如果妳想知道自己在哥哥心裡的位置，與其繞著別人打聽，不如挑一件只有你們兩個會懂的小事傳他、問他一句就好，看他怎麼接——用一次低風險的直接互動，換一個比任何轉述都真的答案
+- for_student: 這禮拜畫一格自己亂編的四格漫畫，只給自己看，畫完只問自己『這格我滿不滿意』，不問可不可愛
+- for_parent: 這禮拜五的家族晚餐之前，主動找某個具體細節對齊她的座位安排（坐誰旁邊、需不需要先準備什麼）跟她要怎麼進這場合的節奏——把一個『以哥哥為主角』的場合，明確地也留她一個具體位置，這比晚餐結束後再補一句『辛苦妳了』有用
+- for_parent: 這禮拜製造一次『沒有腳本』的普通相處：一段沒有目的的車程、一起弄個宵夜、陪她做一件她自己的小事，全程不安排、不檢討、不趁機講道理——她要的正是一次不費力的真，而不是更隆重的好
+- for_teacher: 這禮拜抓一個機會，回饋一件某個具體細節『跟她哥完全無關、純屬她自己』的具體表現（她的一個觀點、她解的一題、她在分組裡的擔當、她寫作練習單裡的一句具體句子），讓她在學校至少一次是因為某個具體細節本人被看見
+- for_teacher: 若批改到像『家常菜的記憶』這種寫家庭日常題，特別留意某個具體細節（與其他家庭結構不典型的學生）會不會默默把自家版本對齊主流寫法——點出她寫得真的那一句，比給高分更接得住她
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -74,10 +75,12 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 她對某個家庭活動（家族聚餐、出遊）是否突然出現『不想去』
-- 她對哥哥或堂姊的挑釁是否從試探升級為主動傷害
-- 她在 AI 端的假設性問題是否出現更明確的負面假設（如『一個人不存在這個家會不會更好』）——此為升 某個具體細節 某個具體細節emotional_safety 的關鍵指標
-- 她那個私人創作是否消失——那會是她最後一塊不被觀眾佔據的空間被收掉的訊號
+- 她是否從『偶爾繞道打聽哥哥』升級為反覆透過第三方（AI、同學、長輩）確認自己被在乎——若反覆出現代表她對直接連結的迴避在硬化，目前仍是單次、可調節
+- 她是否從『偶爾不想讓朋友來』變成持續迴避讓任何同儕進家門、或開始替家裡管理對外形象（這代表『我家不能見人』的羞恥在硬化）
+- 她是否在家族飯局或聚會中開始刻意安靜、退出開心果角色（這是她在自我測試『沒有我的可愛這桌會怎樣』，是訊號不是退步）
+- 挑釁哥哥的頻率是否上升——若上升代表她對被當自己人的渴求在升高、孤立感在加深
+- 睡前反芻與身體反應（喉嚨緊縮、整夜重看某張照片）是否從單次變成反覆，並出現睡眠惡化
+- 四格漫畫這個私人出口是否被她自己放棄、或被家人發現後又被收編成『可愛才藝』
 
 ## Contradictions / Review Flags
 - No major contradiction detected by deterministic checks.

@@ -1,0 +1,93 @@
+{
+  "id": "sim_saga_a_uncle__annual_letter_next_generation_line_wording",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring_annual_report_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "集團上一財年結算完畢、年報籌備啟動，董事長致股東信例行由他親簽",
+    "一位同輩董事友人於年初卸任、退出他熟悉的牌桌",
+    "弟弟那房與 Michael 媽一家往來日益密切（Michael 當時高二）",
+    "Rachel 高二下開始較少主動跟他談學校的事"
+  ],
+  "scenario_seed_id": "annual_letter_next_generation_line_wording",
+  "scenario_seed": "Rachel 高二下、集團年報季（2025 春）。他要重寫董事長致股東信的開場，純措辭，今年數字普通只想寫得穩。寫到一句關於把基業交給下一代的句子時頓住，露一秒『不知道寫給誰看』的疲態，旋即用『這是寫給股東不是寫心情』收回。",
+  "generated_at": "2026-05-24T04:16:00Z",
+  "occurred_at": "2025-04-22T15:40:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "年報的董事長致股東開場我要重寫，大概兩百字。先給我一個穩的版本，別煽情，今年數字普通。"
+    },
+    {
+      "role": "assistant",
+      "content": "這封信今年最想讓股東記住一句什麼？是穩、是擴張，還是在鋪接班？這會決定整段的調子。"
+    },
+    {
+      "role": "user",
+      "content": "穩。今年沒什麼好說的，重點是讓人覺得這艘船還是我在掌舵。"
+    },
+    {
+      "role": "assistant",
+      "content": "那開場就別黏在單一年度的數字上，談連續性比較有力。第一句講集團這一年在不確定的環境裡維持住節奏，第二句把成績歸給團隊跟股東的信任，最後收在看的是更長的週期。要我直接擬嗎？"
+    },
+    {
+      "role": "user",
+      "content": "擬。"
+    },
+    {
+      "role": "assistant",
+      "content": "草稿：『過去一年的外部環境並不平順，本集團在審慎中維持了既有的步伐。這份穩定，來自全體同仁的執行力，以及各位股東長期的信任。我們衡量一家企業，從來不是用單一季度的數字，而是看它能否一代又一代地把基業穩穩交下去。』你看語氣對不對。"
+    },
+    {
+      "role": "user",
+      "content": "把『一代又一代』收一點，太重。但『交下去』留著。"
+    },
+    {
+      "role": "assistant",
+      "content": "改成：『而是看它能否把基業穩穩地交到下一個階段。』這樣保留了延續的意思，又不會太快把讀者帶去想接班。"
+    },
+    {
+      "role": "user",
+      "content": "……『下一個階段』太空。換『下一個世代』。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。只是『世代』會明確讓股東往交棒聯想，今年你想開這個話題嗎？不想的話，這兩個字之後在股東會問答可能要被追。"
+    },
+    {
+      "role": "user",
+      "content": "先放著。其實我寫到這兩個字會頓一下。這封信我簽快三十年，每年都寫得很順，今年卡在這裡。"
+    },
+    {
+      "role": "assistant",
+      "content": "寫了快三十年的東西，今年在同一個句子上卡住，通常不是文字的問題。不用現在解，先把字放著，我們把其他段落收完，這句最後再回來定。"
+    },
+    {
+      "role": "user",
+      "content": "不是寫不出來。是寫到『交給下一個世代』的時候，會有一秒不知道這句到底是寫給誰看的。"
+    },
+    {
+      "role": "assistant",
+      "content": "這種一秒的停頓，在位置上很久的人很多都有，它不代表你得在年報裡處理它。這封信的讀者是股東，你可以讓它停在制度的層面。那一秒是你自己的，不一定要寫進去。"
+    },
+    {
+      "role": "user",
+      "content": "對。這是寫給股東看的，不是寫心情的。把『世代』拿掉，換回『下一個階段』，乾淨。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。完整版：『過去一年的外部環境並不平順，本集團在審慎中維持了既有步伐。這份穩定，來自全體同仁的執行力，也來自各位股東長期的信任。我們衡量一家企業，從來不是看單一季度的數字，而是看它能否把基業穩穩地交到下一個階段。展望來年，我們會把重心放在既有業務的體質，而非短線的擴張。』兩百字內，調子穩、不留追問破口。那一秒的停頓哪天想聊再聊，不用配著年報死線。"
+    },
+    {
+      "role": "user",
+      "content": "就這版。謝了。"
+    }
+  ]
+}

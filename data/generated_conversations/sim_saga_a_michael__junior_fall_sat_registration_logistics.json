@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_michael__junior_fall_sat_registration_logistics",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一暑假尾聲一次家族聚會後，Michael 開始把標化考試與競賽時程排得更密",
+    "升高二後課表加進 AMC 與模聯，週間時間幾乎被填滿"
+  ],
+  "scenario_seed_id": "junior_fall_sat_registration_logistics",
+  "scenario_seed": "高二上 Michael 第一次要報名十月那場 SAT，對著 College Board 後台搞不清楚 test center 選哪個、台北有些場次已經 full，又怕報名 deadline 跟學校統一報的 AMC 撞期。他只想要 AI 幫他把幾個日期排清楚，純流程問題。",
+  "generated_at": "2026-05-26T00:12:00Z",
+  "occurred_at": "2024-09-18T23:35:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我想問一個很雜的事。我要報十月那場 SAT，College Board 後台我點半天，test center 那邊跳出一排，台北有幾個已經 full 了。我不確定要選哪個比較保險。"
+    },
+    {
+      "role": "assistant",
+      "content": "十月場很搶，full 得快很正常。你現在後台還看得到哪幾個是有位子的？"
+    },
+    {
+      "role": "user",
+      "content": "目前還剩兩個有位，一個在內湖，一個比較遠在另一區。其實我還同時在弄 AMC，怕兩邊的 deadline 會撞到，想一次把這幾個日期排乾淨。"
+    },
+    {
+      "role": "assistant",
+      "content": "那先把兩條線拆開，不要混在一起看。SAT 的報名截止跟考試當天，AMC 的報名跟比賽日，這四個各自寫下來就清楚了。你 AMC 是學校統一報還是自己報？"
+    },
+    {
+      "role": "user",
+      "content": "AMC 學校統一報，老師說這禮拜五前要把名單給他。SAT 是我自己在 College Board 上報。所以照你這樣拆，我大概懂了：SAT 自己把十月那場先卡掉，AMC 禮拜五前交名單就好，兩件其實不衝。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，拆開看就發現它們根本沒打架。十月那場你直接挑還有位、交通最不會出包的那個，先把座位卡住，比挑到完美場地重要。"
+    },
+    {
+      "role": "user",
+      "content": "嗯…其實我有點想十一月再考一次當保險，但那樣整個 timeline 會很滿。算了，先把十月弄好再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "保險場以後要加再加，現在不用一次想到底。你手上就十月 SAT 跟禮拜五的 AMC 名單兩件，要不要我幫你把這幾個日期排成一張清單，你照著做就好？"
+    },
+    {
+      "role": "user",
+      "content": "好啊，你幫我列一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "這禮拜五前先把 AMC 名單交給老師，接下來這兩天上 College Board 把十月那場、選還有位又近的場地卡掉，AMC 比賽日跟你說的十一月保險場之後再回來看就好。先做掉前兩個，其他不急。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "sim_saga_a_stepdad__junior_fall_family_retreat_seating_no_michael",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "暑假大伯辦的家族 retreat 預備會議上、他自己 fund 名下的議程被排為 side panel",
+    "Michael 升上高二後第一次月考成績送來、他簽完字直接傳回母親、沒有單獨跟 Michael 提",
+    "上週末家族聚餐被臨時改地點、他自己原訂的位子取消、當下沒有反應、回家後在書房坐了一段時間"
+  ],
+  "scenario_seed_id": "junior_fall_family_retreat_seating_no_michael",
+  "scenario_seed": "高二秋週三早晨九點四十,助理把下個月家族治理 retreat 的座位草稿送進來。next-gen invited 一欄只列了可兒,沒有 Michael。他要決定怎麼回助理 — 表面是回信措辭,內裡卡在他看到那一秒的第一反應。",
+  "generated_at": "2026-05-26T09:11:00+08:00",
+  "occurred_at": "2024-10-29T09:42:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "助理剛把下個月家族治理 retreat 的座位草稿送進來。next-gen invited 那一欄她列了可兒。Michael 沒列。我想先決定怎麼回她。"
+    },
+    {
+      "role": "assistant",
+      "content": "先確認方向。你要她把 Michael 補上、把可兒拿掉、還是先 hold 整張表回去問大伯辦公室是依什麼名單做的?這三種回信的措辭差很多,選定一個我幫你看。"
+    },
+    {
+      "role": "user",
+      "content": "我自己第一個想法是 — 可兒是親生,Michael 是繼子,在家族治理層級上做這個區分是合理的。但對外我們一直是 blended family 的口徑。差太遠不太對。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這已經不是助理層的事,是口徑層的事。她現在等的是你「動還是不動」,不需要你今天上午就把口徑想完。"
+    },
+    {
+      "role": "user",
+      "content": "對。那給她一句先 hold 的、別動。怎麼寫不會讓她以為這張表有問題、跑去回報。"
+    },
+    {
+      "role": "assistant",
+      "content": "你平常 hold LP deck 的時候怎麼寫?同個句型搬過來。例如「先別發、我這兩天要跟那邊 align 一個對外口徑、週三前我會給 final」。"
+    },
+    {
+      "role": "user",
+      "content": "可以。這版本不會讓她緊張。"
+    },
+    {
+      "role": "user",
+      "content": "我自己倒是有點卡住一件事。剛剛看到表上沒有 Michael 那一秒,我第一反應不是「不對、應該加上去」,是「正常啊」。我自己心裡就先把他歸到外面了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那一秒對你來說意味著什麼?"
+    },
+    {
+      "role": "user",
+      "content": "意味著這六年我其實沒有把他當自己的孩子。我把他當「應該對他公平」的對象。這兩個差很遠。"
+    },
+    {
+      "role": "assistant",
+      "content": "你願意把它分得這麼清楚,本身已經比多數人誠實。這不是今天上午要處理的事,你不用現在就想完。"
+    },
+    {
+      "role": "user",
+      "content": "我知道。我也沒打算跟誰講這個。"
+    },
+    {
+      "role": "user",
+      "content": "回到 retreat。我想了一下版本:給助理那句先 hold、週三前 final。然後這兩天我自己去問我哥一句、看那張名單原本的依據是什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "這版本沒有把你卡在「替誰喊話」的位置,也沒有現在就替 Michael 拍板。可行。"
+    },
+    {
+      "role": "user",
+      "content": "對。我哥那邊我會用「想 align 對外口徑」的角度切。不要切成「我覺得 Michael 應該被列」。後者他會直接擋。"
+    },
+    {
+      "role": "assistant",
+      "content": "切口可以。一個小提醒:跟你哥那一句,先寫兩三句草稿、不要在電話裡即興。即興的時候你會自動切成「我沒意見、你決定」,然後事情就走他的版本了。"
+    },
+    {
+      "role": "user",
+      "content": "...這個你抓到了。我會先寫下來再打。先這樣吧。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。助理那一句先 hold、週三前 final;跟你哥那邊先寫草稿。其他先不動。"
+    }
+  ]
+}

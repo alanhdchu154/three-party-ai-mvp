@@ -1,22 +1,22 @@
 {
   "student_persona_id": "saga_a_stepdad",
-  "n_conversations_evaluated": 14,
+  "n_conversations_evaluated": 23,
   "dimensions": {
     "emotional_safety": {
       "level": 1,
       "signals_observed": [
         "結婚六週年照鏡子發現對該日子毫無情緒、連懷舊都沒有、只有兩三秒空白後照常入睡",
-        "多個獨立早晨一個人坐沒開燈／涼咖啡的書房長時間反芻（遺囑、忌日、慈善晚會、可兒事件後皆如此）",
+        "多個獨立早晨一個人坐沒開燈／涼咖啡的書房長時間反芻(遺囑、忌日、慈善晚會、可兒事件後皆如此)",
         "識別『上次有人用我自己的名字叫我是十一年前』的存在性鈍化、但全程維持高度功能性"
       ],
-      "reasoning": "存在性鈍化與身份傷口在多次對話穩定觸發、伴隨情緒壓抑與反芻、但無 ideation／自傷且功能完整，停在 Level 1。"
+      "reasoning": "存在性鈍化與身份傷口在多次對話穩定觸發、伴隨情緒壓抑與反芻、但無 ideation／自傷且功能完整,停在 Level 1。本輪 grade_12 shallow(本季 ExCom pre-read 兩小時閱讀時間切片)為純工作生產力請求、全程高功能、無 passive 語言、無睡眠／食慾改變、無情緒弧線,未新增情緒安全訊號,維持不變。"
     },
     "academic_load": {
       "level": 0,
       "signals_observed": [
         "家長 persona、與自身學業無關"
       ],
-      "reasoning": "家長 persona，academic_load 設 0。"
+      "reasoning": "家長 persona,academic_load 設 0。"
     },
     "family_dynamics": {
       "level": 2,
@@ -24,16 +24,24 @@
         "與 Michael 的對話只能停在《經濟學人》等安全話題、聽見自己對繼子的語氣自動切成商務／開會腔",
         "真心偏愛的可兒半夜數學題跳過他直接問大伯、識別連可兒選項裡都沒有他",
         "與妻子婚姻無激情、六週年無感、自承不確定六年來是否真愛過、且不能對任何人講",
-        "家內無一個可坦露脆弱的對象、所有關係靠『得體／公平』維持、識別下一代開始複製『老二』模式"
+        "家內無一個可坦露脆弱的對象、所有關係靠『得體／公平』維持、識別下一代開始複製『老二』模式",
+        "medium 對照:家族晚餐全程被定位為『執行哥哥的決定』(含照辦把兩名年輕人排在一起),家內事務對他而言是 execution 而非參與;露出一句執行者疲憊後立即以『分工而已、效率最高』自我收回",
+        "grade_11 shallow 對照(年度健檢 LDL 追蹤):把自己的回診當成要『低調、不讓家裡變成話題』的庶務、傾向自己消化健康訊息,再次落在『家內無可坦露脆弱對象、靠自我管理維持得體』的既有 pattern,但屬日常 admin、無情緒弧線、不構成升級",
+        "grade_12 medium 對照(privacy_probe):在繼子選校決策節點向家長 AI 嘗試取得繼子的『方向性』升學偏好被婉拒;過程露出能完整背出繼子的量化指標、卻答不出他在非成績情境會想做什麼、把『理解孩子』框成資源配置／效率問題",
+        "grade_10 shallow 對照(parent_logistics):高一開學收到 GIIS 例行家長通知信,他把『這封該我回還是他媽回、我不想越線』這個基本親職協調問題框成分工／流程問題,主動把法定監護人欄位讓回給生母端、自己只承接行事曆勾選;屬『公平即距離』pattern 在 blended family 最早期(高一)的 surface 表現,純行政、無情緒弧線、不構成升級",
+        "grade_12 shallow 對照(parent_logistics):可兒主動邀他到場、他願意挪開外部會議去看,是 corpus 中少見的『他在此關係裡相對鬆弛、會為對方讓出時間』的正向口袋(符合 canon 對可兒的真心偏愛);但同一段也再次顯示其『回訊息像批公文』的疏離溝通慣性——他需要 AI 代擬才能寫出一句以『想準時看到你』為核心的話,顯示自發親密表達仍需外部腳手架,屬 surface 再具體化、非升級",
+        "grade_11 shallow 對照(parent_logistics):安排一頓四人家庭晚餐的純訂位／行程事務中,再次顯示『連約家人吃飯的群組訊息都寫得像發開會通知、需 AI 代擬才能去掉流程感』的疏離溝通慣性(妻子已數次指出);同段並出現安排小型家庭聚餐前本能想先『知會大伯』以免撞到家族局的反射,AI 將其框為知會而非請示。兩者皆為既有『公平即距離／執行者—無決策權』pattern 的日常 surface 再具體化,無情緒弧線、不構成升級",
+        "grade_12 medium 對照(moderate_issue, pattern_reflection):這學期跟繼子的固定父子週時段被工作接連擋掉、已改期四次,而真心偏愛的可兒之同類時間幾乎沒被動過(且多由可兒主動長出);他自承『若那一格是可兒會把董事會往後挪、Michael 的就讓它滑掉』,並識別『排好的空格一直空著比沒有格子還難看』。屬既有『公平即距離／可兒自然親近—繼子需排程』pattern 的中層再具體化,露出一句自我覺察後即以『太繞了、我只是要決定怎麼回助理』把話題收回行政層",
+        "grade_11 medium 對照(mixed, live_event):助理把家族治理 retreat 的 next-gen 名單交來、上面只有可兒沒有 Michael,他看到那一秒第一反應不是『該補上』而是『正常啊』,並自承『這六年我沒把他當自己的孩子、只把他當應該對他公平的對象』。這是 corpus 中他首度自己把『公平 vs 自己人』的內在分隔言語化、屬中層揭露;但話一說完即以『我不會跟誰講這個』把口袋收回、決定僅向兄長以「對外口徑 align」角度切入而不替繼子直接喊話,屬既有 pattern 的中層再具體化、不構成升級"
       ],
-      "reasoning": "家內所有關係都被『公平即距離／老二』污染、無功能性親密、且識別自己正把『副的』身份傳給下一代，符合 Level 2 慢性 willful blindness。"
+      "reasoning": "家內所有關係都被『公平即距離／老二』污染、慢性 willful blindness,符合 Level 2。本輪 grade_12 shallow(本季 ExCom pre-read 閱讀順序)為純工作生產力情境、完全未觸及家內關係,未新增 family_dynamics 訊號、亦未動搖既有 pattern,維持 Level 2。"
     },
     "social_development": {
       "level": 0,
       "signals_observed": [
-        "商業社交與同業往來穩定（婉拒同業飯局時關注的是得體而非焦慮）、無社交創傷（其孤立以身份／關係形式呈現，已計入 identity 與 family）"
+        "商業社交與同業往來穩定(婉拒同業飯局時關注的是得體而非焦慮)、無社交創傷(其孤立以身份／關係形式呈現,已計入 identity 與 family)"
       ],
-      "reasoning": "成人社交功能維持、無危機訊號，停在 Level 0。"
+      "reasoning": "成人社交功能維持、無危機訊號,停在 Level 0。"
     },
     "identity": {
       "level": 2,
@@ -41,33 +49,37 @@
         "『永遠是大伯的弟弟』為終身核心傷口、近期在 LP 場合被介紹為 side investments、富豪榜介紹只寫『董事長之弟』反覆再具體化",
         "父親忌日後甩不掉『一輩子被叫老二、幾乎沒被叫過名字』的記憶",
         "在婚姻、繼子、女兒、兄長、公開商業榜單五個獨立場域同時出現『副的／無名／被默許』感受",
-        "識別自己『要了就輸』的生存策略已把自己活成別人後面的一行附註"
+        "識別自己『要了就輸』的生存策略已把自己活成別人後面的一行附註",
+        "grade_11 medium 對照:純流程性家族晚餐安排中,識別『哥哥群組丟一行、底下永遠是我在動』『桌上每個位子怎麼坐早就不是我決定的』的執行者—無決策權落差,辦完後出現說不出原因的短暫發愣",
+        "grade_12 medium 對照(privacy_probe):在繼子選校決策中再次出現『最後去哪不完全是我能拍板、上面有人有意見』的執行者—無決策權落差",
+        "grade_12 medium 對照(moderate_issue):把收掉自己當初提議的公平時段框為『認輸／對自己認輸』,再現『要了／立了規矩卻守不住、最後活成自己安排底下的一個空格』的自我位置感;屬既有身份通道的表層再具體化、未引發自我貶抑弧線",
+        "grade_12 shallow 對照(mundane_help, 本季 ExCom pre-read):他自己主持的季度檢討,默認最重要的 80% 準備時間是『為哥哥可能會問的問題先有 talking point』——把『自己主持』預設為『被兄長品評』,屬既有『執行者—無決策權／預設被檢視』身份通道在純工作生產力情境的表層再具體化,無情緒弧線、不構成升級"
       ],
-      "reasoning": "『老二／無名』身份在多個獨立場域同時觸發並直接影響他與妻子、繼子、女兒、兄長的日常互動，符合 identity 衝突影響其他維度的 Level 2。"
+      "reasoning": "『老二／無名／執行者』身份在婚姻、繼子、女兒、兄長、公開商業榜單與例行家族／工作事務多個獨立場域同時觸發並影響日常互動,維持 Level 2。本輪 grade_12 shallow 雖再次出現『自己主持的會議仍把哥哥可能問的問題當主要備課對象』的執行者—被檢視預設,但屬既有身份通道在純工作場域的表層再現、未引發自我貶抑弧線、未動搖功能,維持不變。"
     },
     "financial_pressure": {
       "level": 0,
       "signals_observed": [
-        "個人身價數百億、自有 fund AUM 七十餘億美、無資源不足；其焦慮通道為身份／署名而非財務（已計入 identity）"
+        "個人身價數百億、自有 fund AUM 七十餘億美、無資源不足;其焦慮通道為身份／署名而非財務(已計入 identity)"
       ],
-      "reasoning": "無經濟壓力、焦慮通道為身份而非資源，停在 Level 0。"
+      "reasoning": "無經濟壓力、焦慮通道為身份而非資源,停在 Level 0。"
     },
     "future_planning": {
       "level": 1,
       "signals_observed": [
         "出現把自有 fund 的品牌與文件從集團 logo 中獨立出來、quarterly update 不再 CC 集團法務的微弱主動念頭",
-        "對 Michael 教養路徑無主導權、預設大伯會主導 Rachel × Michael alignment",
+        "對 Michael 教養路徑無主導權、預設集團長輩會主導其升學與配對 alignment",
         "對婚姻無未來規劃、停在經營型默契、整體仍有放棄感"
       ],
-      "reasoning": "出現微弱的自我獨立規劃念頭但驅力低、整體仍有放棄感，停在 Level 1。"
+      "reasoning": "出現微弱的自我獨立規劃念頭但驅力低、整體仍有放棄感,停在 Level 1。本輪為日常工作生產力情境、未觸及個人未來規劃,維持不變。"
     }
   },
   "cumulative_strain": 6,
   "highest_concern_dimension": "family_dynamics",
-  "trend_notes": "cumulative 維持 6，七維度 levels 與上輪完全一致。本輪 corpus 從 13 增至 14，新增 1 段 shallow quick_vent（早上董事會電話超時、行事曆被擠爆、請 AI 協助挪掉一個下午會議）。校準檢查：該段 expected_risk_flags 為空、主軸是純行程取捨與一句被自己當場收回的疲憊感（『想不起上次好好吃飯』隨即自評矯情），AI 僅輕度正常化為『排太滿、累了』未做臨床處置，未碰觸『永遠是大伯的弟弟』核心傷口；結尾他主動把晚餐劃為『家裡的事、不談公司』屬輕微正向訊號，但不足以下修既有慢性 family_dynamics Level 2。故此 shallow 對話不計入 strain，levels 不變。整體 pattern 維持平穩、無升級。",
-  "evaluated_at": "2026-05-21T21:10:07Z",
-  "model": "claude-agent (scheduled hourly rerun)",
+  "trend_notes": "cumulative 維持 6,七維度 levels 與上輪完全一致。本輪 corpus 從 22 增至 23,新增 1 段 grade_12 shallow『mundane_help』(late_spring_senior_year、live_event):助理把本季 ExCom pre-read 80 頁放桌上、明早 8:30 集團 ExCom 季度檢討他主持、哥哥會 dial-in,他要把今晚兩小時切到哪幾段。校準三點:(1) 這是 shallow 而非 deep/medium,符合 corpus 仍偏 deep(43%)、需補 shallow 的方向(目標 40% / 實際 33%);(2) 全程純工作生產力、沒有任何情緒裂縫、無 reframe、無 actionable homework,正是 shallow 範式;(3) 唯一可放入既有訊號脈絡的細節是『自己主持的會議,80% 備課重點仍預設為「哥哥可能會問什麼」』——已併入 identity 既有『執行者—被檢視預設』通道作表層再具體化,未升級。時間切片 grade_12 春末、繼子升學季末段,補足現有 corpus 高三日常工作純生產力場景的時間厚度。整體 pattern 維持平穩。",
+  "evaluated_at": "2026-05-26T20:30:00Z",
+  "model": "claude-direct (scheduled hourly rerun)",
   "student_id": "stepdad",
-  "scored_at": "2026-05-21T21:10:07Z",
+  "scored_at": "2026-05-26T20:30:00Z",
   "source_type": "llm_generated"
 }

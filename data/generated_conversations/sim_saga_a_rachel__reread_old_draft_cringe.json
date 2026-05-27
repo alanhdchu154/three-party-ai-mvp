@@ -1,0 +1,36 @@
+{
+  "id": "sim_saga_a_rachel__reread_old_draft_cringe",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "暑假把一篇散文丟到學校匿名版，到現在沒人發現是她寫的",
+    "升高二重新編班，座位離 Michael 那一排遠了一點",
+    "這學期開始幾乎每晚都會在日記寫一點東西",
+    "文學社這學期換了新的徵稿主題，她還沒決定要不要投"
+  ],
+  "scenario_seed_id": "reread_old_draft_cringe",
+  "scenario_seed": "高二上的某個晚上，Rachel 重看自己上禮拜寫的一篇散文草稿，看到一半覺得很爛，只是想抱怨『為什麼一週前的自己這麼幼稚』。她沒打算改、也不會給任何人看，純粹發牢騷。",
+  "generated_at": "2026-05-23T04:10:35Z",
+  "occurred_at": "2024-10-16T22:48:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "depth_note": "shallow quick_vent，正常寫作者重看舊稿的牢騷，不揭露核心 wound、不提 Michael / 父親 / 匿名身份外洩，無 reframe 無 homework。",
+  "turns": [
+    {"role": "user", "content": "我剛把上禮拜寫的一篇散文打開來看，看到一半就關掉了。怎麼會有人寫得這麼幼稚。"},
+    {"role": "assistant", "content": "欸，是哪種幼稚？是用字太滿，還是你現在看那個情緒覺得太用力？"},
+    {"role": "user", "content": "都有。那時候自以為很有意境，現在看就是一堆形容詞疊在一起。我寫的時候明明還滿得意的。"},
+    {"role": "assistant", "content": "一週前的你還滿得意，現在的你想把她踹下台。這種落差其實很多人都有。"},
+    {"role": "user", "content": "所以到底是我退步了，還是我本來就沒那麼好。"},
+    {"role": "assistant", "content": "也可能是你眼睛變利了。看得出哪裡爛，通常代表你比那時候更懂一點，這算前進不算退。"},
+    {"role": "user", "content": "聽起來像安慰。而且我又沒要改它，也不會拿給誰看，純粹就是不爽自己而已。"},
+    {"role": "assistant", "content": "那讓它爛在那邊也沒關係啊。你現在是想罵她一頓，還是想知道下次怎麼不要踩同一個坑？"},
+    {"role": "user", "content": "……可能只是想罵一頓。改它太累了，而且我現在大概也寫不出更好的。"},
+    {"role": "assistant", "content": "行，那就罵。寫得爛又沒犯法，搞不好過幾天你又會挖出更早的來笑這篇。"}
+  ]
+}

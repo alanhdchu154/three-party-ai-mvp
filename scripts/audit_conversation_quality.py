@@ -26,6 +26,32 @@ TARGET_DEPTH_SHARE = {
     "deep": 0.25,
 }
 
+VALID_TIMELINE_STAGES = {
+    "middle_school",
+    "grade_7",
+    "grade_8",
+    "grade_9",
+    "grade_10",
+    "grade_11",
+    "grade_12",
+    "current",
+    "retrospective",
+}
+
+VALID_CONVERSATION_FRAMES = {
+    "live_event",
+    "recent_followup",
+    "old_memory",
+    "pattern_reflection",
+}
+
+VALID_LOOKBACK_WINDOWS = {
+    "past_week",
+    "past_month",
+    "past_semester",
+    "past_half_year",
+}
+
 
 def load_conversations() -> list[dict[str, Any]]:
     conversations: list[dict[str, Any]] = []
@@ -43,14 +69,23 @@ def audit(conversations: list[dict[str, Any]]) -> dict[str, Any]:
     type_counts: Counter[str] = Counter()
     persona_counts: Counter[str] = Counter()
     persona_depths: dict[str, Counter[str]] = defaultdict(Counter)
+    timeline_counts: Counter[str] = Counter()
+    conversation_frame_counts: Counter[str] = Counter()
+    lookback_counts: Counter[str] = Counter()
     missing_depth: list[str] = []
     missing_type: list[str] = []
+    invalid_timeline_stage: list[str] = []
+    invalid_conversation_frame: list[str] = []
+    invalid_lookback_window: list[str] = []
     turns: list[int] = []
 
     for conv in conversations:
         persona = conv.get("persona_id", "unknown")
         depth = conv.get("depth") or "<missing>"
         scenario_type = conv.get("scenario_type") or "<missing>"
+        timeline_stage = conv.get("timeline_stage")
+        conversation_frame = conv.get("conversation_frame")
+        lookback_window = conv.get("lookback_window")
         n_turns = len(conv.get("turns", []))
 
         persona_counts[persona] += 1
@@ -63,6 +98,18 @@ def audit(conversations: list[dict[str, Any]]) -> dict[str, Any]:
             missing_depth.append(conv["_path"])
         if scenario_type == "<missing>":
             missing_type.append(conv["_path"])
+        if timeline_stage:
+            timeline_counts[str(timeline_stage)] += 1
+            if timeline_stage not in VALID_TIMELINE_STAGES:
+                invalid_timeline_stage.append(conv["_path"])
+        if conversation_frame:
+            conversation_frame_counts[str(conversation_frame)] += 1
+            if conversation_frame not in VALID_CONVERSATION_FRAMES:
+                invalid_conversation_frame.append(conv["_path"])
+        if lookback_window:
+            lookback_counts[str(lookback_window)] += 1
+            if lookback_window not in VALID_LOOKBACK_WINDOWS:
+                invalid_lookback_window.append(conv["_path"])
 
     n = len(conversations)
     depth_share = {
@@ -84,6 +131,15 @@ def audit(conversations: list[dict[str, Any]]) -> dict[str, Any]:
         warnings.append(f"Scenario type `{top_type}` is {top_count}/{n}; type diversity is too low.")
     if turns and statistics.mean(turns) > 30:
         warnings.append("Average conversation length is above 30 turns; likely too many deep arcs.")
+    if invalid_timeline_stage:
+        warnings.append(f"{len(invalid_timeline_stage)} conversations use unknown timeline_stage values.")
+    if invalid_conversation_frame:
+        warnings.append(f"{len(invalid_conversation_frame)} conversations use unknown conversation_frame values.")
+    if invalid_lookback_window:
+        warnings.append(f"{len(invalid_lookback_window)} conversations use unknown lookback_window values.")
+    timeline_n = sum(timeline_counts.values())
+    if timeline_n >= 20 and lookback_counts.get("past_week", 0) / timeline_n > 0.75:
+        warnings.append("Timeline-aware conversations are still too concentrated in `past_week`; add semester/half-year context.")
 
     return {
         "n_conversations": n,
@@ -91,6 +147,9 @@ def audit(conversations: list[dict[str, Any]]) -> dict[str, Any]:
         "depth_share": {k: round(v, 3) for k, v in sorted(depth_share.items())},
         "target_depth_share": TARGET_DEPTH_SHARE,
         "scenario_type_counts": dict(type_counts),
+        "timeline_stage_counts": dict(timeline_counts),
+        "conversation_frame_counts": dict(conversation_frame_counts),
+        "lookback_window_counts": dict(lookback_counts),
         "persona_counts": dict(persona_counts),
         "persona_depths": {persona: dict(counter) for persona, counter in sorted(persona_depths.items())},
         "turns": {
@@ -100,6 +159,9 @@ def audit(conversations: list[dict[str, Any]]) -> dict[str, Any]:
         },
         "missing_depth_examples": missing_depth[:10],
         "missing_type_examples": missing_type[:10],
+        "invalid_timeline_stage_examples": invalid_timeline_stage[:10],
+        "invalid_conversation_frame_examples": invalid_conversation_frame[:10],
+        "invalid_lookback_window_examples": invalid_lookback_window[:10],
         "warnings": warnings,
     }
 
@@ -119,6 +181,21 @@ def print_text(report: dict[str, Any]) -> None:
     for scenario_type, count in sorted(report["scenario_type_counts"].items(), key=lambda item: (-item[1], item[0])):
         print(f"- {scenario_type}: {count}")
     print()
+    if report["timeline_stage_counts"]:
+        print("Timeline stages:")
+        for timeline_stage, count in sorted(report["timeline_stage_counts"].items(), key=lambda item: (-item[1], item[0])):
+            print(f"- {timeline_stage}: {count}")
+        print()
+    if report["conversation_frame_counts"]:
+        print("Conversation frames:")
+        for frame, count in sorted(report["conversation_frame_counts"].items(), key=lambda item: (-item[1], item[0])):
+            print(f"- {frame}: {count}")
+        print()
+    if report["lookback_window_counts"]:
+        print("Lookback windows:")
+        for window, count in sorted(report["lookback_window_counts"].items(), key=lambda item: (-item[1], item[0])):
+            print(f"- {window}: {count}")
+        print()
     print("Persona depth matrix:")
     for persona, depths in report["persona_depths"].items():
         print(f"- {persona}: {depths}")
@@ -131,6 +208,21 @@ def print_text(report: dict[str, Any]) -> None:
         print()
         print("Missing depth examples:")
         for path in report["missing_depth_examples"]:
+            print(f"- {path}")
+    if report["invalid_timeline_stage_examples"]:
+        print()
+        print("Invalid timeline_stage examples:")
+        for path in report["invalid_timeline_stage_examples"]:
+            print(f"- {path}")
+    if report["invalid_conversation_frame_examples"]:
+        print()
+        print("Invalid conversation_frame examples:")
+        for path in report["invalid_conversation_frame_examples"]:
+            print(f"- {path}")
+    if report["invalid_lookback_window_examples"]:
+        print()
+        print("Invalid lookback_window examples:")
+        for path in report["invalid_lookback_window_examples"]:
             print(f"- {path}")
 
 

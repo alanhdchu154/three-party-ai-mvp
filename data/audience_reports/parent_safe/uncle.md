@@ -29,5 +29,5 @@
 
 ## Evidence Boundary
 - Source type: `llm_generated`
-- Confidence: `high`
+- Confidence: `medium`
 - High-specificity evidence is withheld from this audience.

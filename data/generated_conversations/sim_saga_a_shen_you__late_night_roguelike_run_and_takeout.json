@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_shen_you__late_night_roguelike_run_and_takeout",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "升高一後課業照舊提不起勁、段考只求混過",
+    "週末家族飯局話題多繞著在 LSE 的哥哥",
+    "近期沉迷一款 Switch roguelike、凌晨開機是常態"
+  ],
+  "scenario_seed_id": "late_night_roguelike_run_and_takeout",
+  "scenario_seed": "高一上學期某個凌晨，他在 Switch 上連死六把同一個 roguelike boss，純粹想找人罵兩句兼問怎麼破，中途又分心去查遲到的外送。整段只是普通的深夜打電動，不碰任何家裡的事。",
+  "generated_at": "2026-05-22T15:10:36Z",
+  "occurred_at": "2024-11-13T02:38:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "凌晨在打那個 roguelike，連死六把。這 boss 是不是設計師喝醉。"},
+    {"role": "assistant", "content": "連死六把多半不是 boss 機八，是你 build 撐不住它的節奏。你每把都賭同一套，還是看到什麼撿什麼？"},
+    {"role": "user", "content": "看到什麼撿什麼啊不然咧。"},
+    {"role": "assistant", "content": "那就是癥結。早點決定這把走攻速還是爆發，後面只撿補那條線的，別整把雜牌軍。你手感偏哪種？"},
+    {"role": "user", "content": "攻速。我手速可以。但這隻一直跳走超煩。"},
+    {"role": "assistant", "content": "那它就是要逼你耐心不是逼你猛。等它出招收尾的空檔再進去打兩下就退，少貪一刀反而比較快過。"},
+    {"role": "user", "content": "等等我先看外送到沒，叫一個多小時了……寫送達但我門口沒東西，笑死。"},
+    {"role": "assistant", "content": "那是放錯戶或被拿走，拍個門口空照回報就會退，不用跟他吵。要不要先回去打，錢的事它自己會跑流程？"},
+    {"role": "user", "content": "算了懶得管。回去打，過不了我就睡。"},
+    {"role": "assistant", "content": "行，照剛剛那樣少貪一刀。真過不了就睡，明天手感搞不好比現在硬撐好。"}
+  ]
+}

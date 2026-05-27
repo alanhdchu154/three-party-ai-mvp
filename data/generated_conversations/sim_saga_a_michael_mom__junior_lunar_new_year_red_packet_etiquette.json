@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael_mom__junior_lunar_new_year_red_packet_etiquette",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter_lunar_new_year",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二上 Michael 成績模式已固定、報喜不報憂，她大致放手",
+    "年底太太圈尾牙與慈善晚會密集，她與沈媽同桌過幾次",
+    "這是她改嫁後第二個在這個大家族裡過的農曆年"
+  ],
+  "scenario_seed_id": "junior_lunar_new_year_red_packet_etiquette",
+  "scenario_seed": "高二寒假、農曆年前一週，她想先把家族聚會的紅包金額跟群組賀詞排好，不要像去年那樣臨場手忙腳亂。對象有可兒、Michael、Rachel、沈又。她只是要 AI 幫她抓金額分寸和擬兩句賀詞，沒打算深聊。",
+  "generated_at": "2026-05-24T05:10:50Z",
+  "occurred_at": "2025-01-22T15:12:30",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "過年剩一個禮拜，我想先把紅包跟賀詞排一排。去年第一年我什麼都不懂，臨場才在那邊算金額，弄得很狼狽。今年要發的小孩有可兒、Michael，家族聚會那天還有 Rachel、沈媽家的沈又。你幫我把分寸抓一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，我們分兩塊處理：金額一塊、賀詞一塊。金額先問妳一句，妳家裡有沒有「長輩統一一個數字」的習慣，還是各包各的、由妳自己決定？這會決定要不要去對齊別人。"
+    },
+    {
+      "role": "user",
+      "content": "沒有統一規矩，各包各的。我比較在意的是可兒跟 Michael 不能差，這兩個一定要一樣，我不想讓任何一個覺得被偏。Rachel 那邊我有點抓不準，她是大伯的女兒，我怕包太少失禮、包太多又像在硬撐場面。"
+    },
+    {
+      "role": "assistant",
+      "content": "可兒跟 Michael 包一樣，這個直覺很對，照做就好。Rachel 不用想成在跟誰較量，挑一個體面的整數，跟妳給可兒、Michael 同一個級距、或略高一點點當晚輩禮就很穩，多數人根本不會去比對金額。妳心裡大概有個數字了嗎？"
+    },
+    {
+      "role": "user",
+      "content": "我想包整數，三個晚輩同一個級距，Rachel 稍微高一點。沈又是客人家的孩子，包一個小一點的就行吧？"
+    },
+    {
+      "role": "assistant",
+      "content": "對，沈又是朋友家的孩子，包一個禮數到的小額就合宜，不用跟自家小孩同級。這版分寸沒問題。接下來賀詞，妳要幾種？我猜一種是太太圈群組的拜年、一種是家族群裡發的，要不要兩種都給妳一句短的？"
+    },
+    {
+      "role": "user",
+      "content": "對，這兩種給我。太太圈那個要得體但不要太肉麻，家族群那個簡單就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "太太圈：「新年好，新的一年也請大家多多照顧，祝闔家平安順遂、諸事如意。」家族群：「祝大家新年快樂、身體健康，新的一年順順利利。」兩句都中性、貼得進去、不會搶話。要的話我再幫妳各留一個更簡短的版本。"
+    },
+    {
+      "role": "user",
+      "content": "不用，這樣夠了。說真的我到現在還在學這個家的規矩……去年給可兒的紅包後來發現跟大嫂給的不一樣，當下尷尬了一下。算了，今年照你這版就好，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "第二年本來就還在抓手感，這很正常，不用放心上。這版金額跟賀詞都站得住，照著走就行。去忙吧，需要再叫我。"
+    }
+  ]
+}
