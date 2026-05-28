@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_uncle__peer_group_succession_case_study_summary",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "late_spring_current",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "過去一個月內某同業老牌家族集團的第二代接班案在獨董會被否決、上了財經週刊",
+    "自家集團下次董事會議程上週剛敲定，他臨時把這個 case 加成議程末段討論題",
+    "他答應自己在下次會前先擬一份內部討論材料、目標一張 one-pager"
+  ],
+  "scenario_seed_id": "peer_group_succession_case_study_summary",
+  "scenario_seed": "週三午後兩個會中間的二十分鐘空檔。同業某老牌家族集團的第二代接班案上週上了財經週刊、被自家獨董會否決。他臨時把這個 case 加進週四董事會末段討論題，答應自己先擬一張三段式 one-pager。普通的措辭與商務判斷任務、不到位的句子請 AI 修。過程中他問了一個比平常多停兩秒的問題：第二代撐不過的最常見結構性原因是什麼。問完繼續修句、收件、印兩份，沒有展開。",
+  "generated_at": "2026-05-27T17:10:00+08:00",
+  "occurred_at": "2026-05-27T15:45:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "下午兩個會中間有二十分鐘。我手上要擬一份內部討論材料、週四董事會末段帶過、某同業集團的接班否決案。給我一個三段式 one-pager 的結構、要能在十分鐘內讀完。不要長。"
+    },
+    {
+      "role": "assistant",
+      "content": "三段式建議：第一段事件時間軸與獨董投票結果摘要；第二段失敗節點與公開可觀察到的訊號；第三段對本集團 governance 結構的可比與不可比之處、語氣中性、不下結論。需要我先擬哪一段。"
+    },
+    {
+      "role": "user",
+      "content": "先第二段。失敗節點。從公開資訊看得到什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "公開可觀察到的有三點。第一、第二代接任後十八個月內季報連續兩季偏離預算指引超過八個百分點。第二、獨董會兩位資深成員前後辭任、聲明用詞接近一致。第三、創辦人在年報致股東信仍以「我」自述、但實質決策文件已由繼任人簽署、對外敘事主體與對內決策主體出現錯位。三點都可引用公開資料。"
+    },
+    {
+      "role": "user",
+      "content": "第三點再展開一句。「我」自述與接班簽署錯位。"
+    },
+    {
+      "role": "assistant",
+      "content": "意思是對外的敘事主體仍是創辦人（致股東信、年報照片、媒體訪談皆以他為發言人），但實質決策文件（重大投資案、董事會議事錄）已由繼任人簽署。外部因此持續預期創辦人、內部團隊依繼任人指令運作。意外發生時，責任歸屬的判斷會出現延遲。"
+    },
+    {
+      "role": "user",
+      "content": "「責任歸屬出現延遲」這個尾巴留下、前面「外部因此持續預期創辦人」改成中性句、不要「持續預期」這種帶情緒的詞。"
+    },
+    {
+      "role": "assistant",
+      "content": "改為：「外部資訊接收方在判斷發言主體時參照原創辦人、內部團隊則依繼任人指令運作、責任歸屬的判斷因此出現延遲。」這版可以放討論材料。"
+    },
+    {
+      "role": "user",
+      "content": "收下。再問一件事。有沒有公開研究在追同類型集團、第一代轉第二代的存續率。我要一個能 cite 的數字、不要 anecdotal。"
+    },
+    {
+      "role": "assistant",
+      "content": "學界較常被引用的兩條：一、Family Firm Institute 多次引用「約三成家族企業能進入第二代、約一成能進入第三代」、源頭可上溯到 1980 年代 Ward 的長期追蹤。二、PwC Family Business Survey 系列、有逐年數據可比。兩條都不細分產業與地區、引用時要註明範圍限制。"
+    },
+    {
+      "role": "user",
+      "content": "知道了。會註明範圍。再給我一個。第二代撐不過、最常見的單一結構性原因。只給一個。"
+    },
+    {
+      "role": "assistant",
+      "content": "文獻最常列的單一原因是「接班規劃啟動時點晚於健康／權力交接窗口」。實務上：第一代仍在位時未完成決策權的實質移轉、等到非主動原因強制觸發時、繼任人接到的是已經固化的權力結構、而非可塑形的職權。"
+    },
+    {
+      "role": "user",
+      "content": "……（停了兩秒）。把這句也放進材料。放在第三段「不可比之處」前面當引入。語氣再退一格、不要「固化」這種比喻。"
+    },
+    {
+      "role": "assistant",
+      "content": "引入句改為：「文獻一致指出、第一代在位期間未完成實質決策權移轉、是後續接續斷裂中最具預測力的單一變項。」直敘、不帶比喻、可放第三段段首。"
+    },
+    {
+      "role": "user",
+      "content": "收下。把三段合起來印成 final、A4 一頁、字距標準。另外一份 reading-only 版本、把那兩條研究連結放最後。明早讓秘書放我桌上。完了。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。明早把 final 與 reading-only 兩版、連同兩條研究連結，一起放在您桌上。"
+    }
+  ]
+}

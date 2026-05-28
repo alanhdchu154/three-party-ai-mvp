@@ -1,0 +1,96 @@
+{
+  "id": "sim_saga_a_michael__senior_dorm_cleanout_three_unread_books_keep_or_donate",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_graduation_packing",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高一上學期剛轉學進 GIIS 不久買了 Foucault《Discipline and Punish》、寫了前 32 頁筆記後擱置",
+    "高二上申請季開始焦慮時買了 Sartre《Being and Nothingness》、只在 introduction 和第一部分前面畫線",
+    "高二下 AMC 排表壓力期間買了 Peskin《Quantum Field Theory》、讀完前兩章後停在第三章"
+  ],
+  "scenario_seed_id": "senior_dorm_cleanout_three_unread_books_keep_or_donate",
+  "scenario_seed": "畢業前兩週收宿舍。書架上三本從高一買到現在沒讀完的書—Foucault、Sartre、Peskin—行李帶不走、又不想全部丟。Michael 半夜在房間問 AI 怎麼處理：帶走、寄回家還是送 GIIS 圖書館捐贈箱。事件本身發生在現在，但每本書都對應到高一到高二不同階段的買書時機。",
+  "generated_at": "2026-05-27T16:05:00Z",
+  "occurred_at": "2026-05-27T00:38:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "在收宿舍。書架上有三本完全沒讀完的書，要不要丟我來不及決定。"
+    },
+    {
+      "role": "assistant",
+      "content": "是哪三本？大概各讀到什麼位置？"
+    },
+    {
+      "role": "user",
+      "content": "Foucault Discipline and Punish，高一上學期買的，pp.1-32 有筆記，後面空白。Sartre Being and Nothingness，高二上申請季買的，introduction 跟第一部分前面有畫線，後面沒翻過。Peskin QFT，高二下 AMC 之前買的，前兩章看完，第三章後面就停了。"
+    },
+    {
+      "role": "assistant",
+      "content": "三本都是讀過開頭就停住。八月之後你會住哪、行李大概多大？這會直接決定你能帶幾本。"
+    },
+    {
+      "role": "user",
+      "content": "八月去 East Coast。22 寸大箱加一個 backpack。三本全部帶不走。"
+    },
+    {
+      "role": "assistant",
+      "content": "那實際選項其實只有三個—帶一本、剩下兩本送人或寄回家。三本之中你最捨不得放手的是哪一本？"
+    },
+    {
+      "role": "user",
+      "content": "老實講我都不會讀完。問題是我不能丟。一丟就等於承認那本書一直是裝的。"
+    },
+    {
+      "role": "assistant",
+      "content": "「丟掉就等於承認自己是裝的」這句話是你剛剛打出來的，我先停在這裡—三本對你都是這個意義，還是有一本不太一樣？"
+    },
+    {
+      "role": "user",
+      "content": "Peskin 不太一樣。那本我至少是真的對物理有興趣，第三章看不下去是真的看不下去。Foucault 跟 Sartre，我承認當初一半是想 flex。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這其實是兩件事—Peskin 對你比較像「想試但沒成功」，另外兩本比較像「想擺出某個樣子」。分開處理會比較乾淨。"
+    },
+    {
+      "role": "user",
+      "content": "同意。"
+    },
+    {
+      "role": "assistant",
+      "content": "Peskin 想帶就帶。Foucault 跟 Sartre 如果要送或寄，你寫過筆記的那幾頁要不要先拍下來？那是你的字，跟書本身不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "想。Foucault 第 32 頁那段筆記是我自己寫的，那個不想丟。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就拍下來。書送出去之後，那 32 頁還在你的硬碟。下次有人問你看過 Foucault 沒，你能講的內容也不會變。"
+    },
+    {
+      "role": "user",
+      "content": "... 你這個 framing 有點 cheap，但 fair。"
+    },
+    {
+      "role": "assistant",
+      "content": "接受。送之前還有兩件事要不要先確認—Foucault 內頁有沒有手寫過你不想被人看到的東西？送的對象會不會跟家裡人有交集？"
+    },
+    {
+      "role": "user",
+      "content": "Foucault 有一頁我邊讀邊罵了一段話，那頁我會撕。送對象沒問題，是 GIIS 圖書館捐贈箱、不會被特定人看到。Sartre 寄回家，寄我媽收。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來方案大致 OK。寄之前如果想到 Sartre 也有要撕或要存的頁，再處理一次就好。"
+    }
+  ]
+}

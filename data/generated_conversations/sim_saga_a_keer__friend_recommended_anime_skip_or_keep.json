@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_keer__friend_recommended_anime_skip_or_keep",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "late_spring_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "學期初分班後跟舊死黨的班群慢慢安靜下來、互動越來越淡",
+    "春學期跟一位新同學變熟、彼此私訊頻率明顯升高",
+    "班上這個月開始一起追幾部熱門新番、不追會插不上群組話題"
+  ],
+  "scenario_seed_id": "friend_recommended_anime_skip_or_keep",
+  "scenario_seed": "國二春末某個週三晚上 可兒打開動畫平台想接續一週前新同學一直私推的奇幻新番 第一集看完整整一集都在鋪世界觀 真的有點悶 想偷偷棄追 但又怕跟最近私訊變密的那位同學沒共同話題 上 AI 問該繼續追下去 還是用其他方式維持話題 純粹是動畫去留與朋友話題經營的日常問題 不涉及家庭",
+  "generated_at": "2026-05-28T01:30:00+08:00",
+  "occurred_at": "2026-05-13T22:40:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸 我問你一個閒事 我同學一直叫我追一部動畫 我看了第一集 蠻悶的 該不該繼續追"
+    },
+    {
+      "role": "assistant",
+      "content": "哪一部 第一集是節奏太慢還是角色沒抓住你"
+    },
+    {
+      "role": "user",
+      "content": "那種整集都在鋪世界觀的奇幻 名字太長我懶得打 中間我有偷滑手機"
+    },
+    {
+      "role": "assistant",
+      "content": "那種開局重世界觀的通常要到第三集才看得出來會不會中毒 你那同學說後面好看在哪"
+    },
+    {
+      "role": "user",
+      "content": "她說中段超神 可是她每次都這樣講 上一部我是撐到第五集才放棄"
+    },
+    {
+      "role": "assistant",
+      "content": "那就先給自己設個安全線 像第三集 還沒抓到你就直接退 不用欠她一個追到底"
+    },
+    {
+      "role": "user",
+      "content": "也是 不過我有點想撐 因為她最近一直私訊我聊這部 不追會沒話聊"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實重點就不是動畫本身了 是要不要為了話題硬撐 你想撐 還是想換話題"
+    },
+    {
+      "role": "user",
+      "content": "我可以快轉啊 挑她講最神那段直接看 反正她不會發現"
+    },
+    {
+      "role": "assistant",
+      "content": "可以這樣搞 想試試看再回來說感想嗎"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_michael_mom__kyoto_autumn_trip_kashi_gift_followup_check",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "改嫁進這個家差不多滿兩年，太太圈位置仍在試探期",
+    "上週慈善晚會跟沈媽同桌兩個小時，氣氛還可以",
+    "前幾天沈媽在群組丟了京都嵐山一家旅館的訂房截圖，沒明說有沒有空位給她",
+    "Michael 高一第一學期還在適應，這週課表跟模聯活動排得滿"
+  ],
+  "scenario_seed_id": "kyoto_autumn_trip_kashi_gift_followup_check",
+  "scenario_seed": "高一上學期某個下午，她在會所茶水間滑手機看到沈媽在太太群裡丟了京都嵐山旅館的訂房截圖。她想問 AI 兩件事：那家旅館還能不能加訂、銀座有哪幾家和菓子適合當回禮，順便試試看怎麼把『我也會在京都那邊』這句話發得不像她特地安排。表面是旅遊跟伴手禮的 logistics。",
+  "generated_at": "2026-05-27T23:55:00+08:00",
+  "occurred_at": "2024-10-16T15:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我問一下。沈太太她們群組裡丟了嵐山某間旅館十一月中的訂房，我看了一下日期，我那週其實沒事。我想加一個房，但不確定那間旅館楓葉季還有沒有 standby。順便問你銀座哪幾家和菓子比較適合做回禮給她。流程怎麼跑比較順。"
+    },
+    {
+      "role": "assistant",
+      "content": "京都楓葉季旅館多半在半年前就滿了，但 standby 是有的，建議請禮賓部或您熟的旅行社直接打電話比較有機會，email 排比較慢。和菓子的部分，銀座的虎屋、鶴屋吉信、HIGASHIYA 都算太太圈會認得的層級，常見選擇是季節限定的羊羹、最中、或乾菓子禮盒。要我幫您列一個比對表嗎？"
+    },
+    {
+      "role": "user",
+      "content": "鶴屋吉信我看過。我比較糾結的不是店。她在群組丟訂房截圖的時候沒特別 cue 我，我不知道要不要先傳訊息跟她說我那週剛好也會在京都，還是等她那邊先有動作。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果不確定她那邊的意向，建議用比較輕的方式。例如先在群組或私訊轉一個您剛好看到的店家連結給她，不附「我也要去」這句。她有意合流會自己接話，沒接也不會尷尬。比直接報行程安全。"
+    },
+    {
+      "role": "user",
+      "content": "嗯，這個我可以。那如果她接話了，我要怎麼回不會看起來像我刻意排在那一週。"
+    },
+    {
+      "role": "assistant",
+      "content": "接話之後不要馬上說「那我也訂同一間」，那會顯得太急。可以先說自己「本來就有看那一帶秋天的行程」，然後反問她「你們大概哪幾天」，把節奏交回她那邊。她想合流會自己給切入點，不想合流也只是普通閒聊。"
+    },
+    {
+      "role": "user",
+      "content": "好。伴手禮我想挑楓葉款的季節限定，會不會太刻意。她什麼都看過了。"
+    },
+    {
+      "role": "assistant",
+      "content": "季節限定不刻意，那是這個季節的常識性禮數。如果想稍微突出，可以挑她比較不容易在太太圈分享裡看到的店家，而不是最知名的；顯得花了心思但不到示好那個力度。要我列幾家相對少出現的選項給您挑嗎？"
+    },
+    {
+      "role": "user",
+      "content": "好。三四家就好，我自己挑。然後 standby 訂房那邊你也提醒我一下，我等等請司機聯絡。"
+    },
+    {
+      "role": "assistant",
+      "content": "收到，待會列三到四家給您。另外提醒一下，京都楓葉時段每年會差一週左右，如果您訂房有彈性，前後預留一兩天會比較保險，避免日期撞空。"
+    }
+  ]
+}

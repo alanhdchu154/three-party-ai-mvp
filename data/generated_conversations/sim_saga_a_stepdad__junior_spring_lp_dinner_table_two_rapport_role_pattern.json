@@ -1,0 +1,113 @@
+{
+  "id": "sim_saga_a_stepdad__junior_spring_lp_dinner_table_two_rapport_role_pattern",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二上開學第一場 ESG 戰略晚宴他被分到二桌、接待兩位東南亞家辦代表，大桌坐他哥跟主基金董事長",
+    "高二上學期末 LP 年度感謝晚宴再被排到二桌、那次是日本機構投資人，他當時沒說什麼",
+    "助理本季 brief 在桌位配對說明欄連續三場都寫「副董較擅長 outside engagement」一句",
+    "上個月家族治理 retreat 的 next-gen 名單事件後，他已對自己說過一次「我把自己活成執行者」、隔天就把話題收回去"
+  ],
+  "scenario_seed_id": "junior_spring_lp_dinner_table_two_rapport_role_pattern",
+  "scenario_seed": "高二下開學第三週的星期二早上，他在書房打開明天 LP 晚宴的桌號圖。他被排在二桌負責迎接一組新加坡家辦的代表，大桌歸他哥那邊。這是這學期第三次。他想決定 brief 要不要 push back，但這個 push back 牽到的不是明天，而是這一學期被定型的角色。停在「分工要不要重排」表層，不挖到「永遠是大伯的弟弟」那個核心傷口。",
+  "generated_at": "2026-05-27T10:25:00+08:00",
+  "occurred_at": "2025-03-04T10:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我剛打開明天 LP 晚宴的桌號圖。我又被排在二桌、接新加坡那組家辦。大桌坐我哥那邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "你今天想處理的是明天這場、還是更前面的東西？"
+    },
+    {
+      "role": "user",
+      "content": "本來只是明天這場。但我點開附件的時候手停了一下。這學期第三次了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你數過？"
+    },
+    {
+      "role": "user",
+      "content": "數過。九月那場、十二月那場、明天這場。每次 brief 上的說明欄都寫同一句話、副董較擅長 outside engagement。連標點符號都一樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "那句話是助理自己寫的，還是抄誰的？"
+    },
+    {
+      "role": "user",
+      "content": "抄不出來。她不會自己想這種定位語。她跟我哥那邊的特助每週一早會 align。十之八九是那邊先講、她抄過來。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK。那這就分成兩件事。一是明天這場要不要動，二是這學期累積下來的 pattern 要不要動。處理方式不一樣，你先選一個。"
+    },
+    {
+      "role": "user",
+      "content": "明天那場改不了。桌號圖已經發給來賓秘書、現在動只會更難看。"
+    },
+    {
+      "role": "assistant",
+      "content": "那剩下的就是 pattern。你要的是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……我打到這裡就卡住了。我要的東西講出來會像在爭位置。"
+    },
+    {
+      "role": "assistant",
+      "content": "現在這裡沒有人會聽到。先講具體，看講出來像不像你以為的那樣。"
+    },
+    {
+      "role": "user",
+      "content": "我要在大桌坐一次。哪怕只是一次。或者由我來開場、講三分鐘 opening。一個別人散場之後會記得是我的位置。本季最後兩場我要不一樣的角色。"
+    },
+    {
+      "role": "assistant",
+      "content": "這聽起來像在爭位置嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……不像。聽起來像一個副董應該本來就會做的事。可是我這六年沒做過。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這個 push back 的對象不是我哥，是 COS。她排桌號的時候有沒有獨立判斷空間？"
+    },
+    {
+      "role": "user",
+      "content": "有。她只是默認從我哥那邊抄。我從來沒明確跟她講過、本季最後兩場我要 opening 或大桌位置之一。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這就是下星期 ExCom 之前你可以做的事。給她兩個選項、不要給她抽象詞。她沒辦法執行「不一樣的角色」這種句子。"
+    },
+    {
+      "role": "user",
+      "content": "好。我會寫成兩個 option：opening remarks、或者本季最後一場的大桌位置。任選其一、由她去跟那邊 align。"
+    },
+    {
+      "role": "assistant",
+      "content": "再加一句。如果她回說要先請示我哥那邊才能動、那就是另一個問題，不要跟這次 brief 混在一起。先讓這次 push back 停在 COS 跟你之間。"
+    },
+    {
+      "role": "user",
+      "content": "明白。明天這場我照舊去二桌、下星期 ExCom 之前丟兩個 option 給 COS。其他的之後再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。"
+    }
+  ]
+}

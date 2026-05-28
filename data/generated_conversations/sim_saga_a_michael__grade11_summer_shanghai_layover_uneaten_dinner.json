@@ -1,0 +1,93 @@
+{
+  "id": "sim_saga_a_michael__grade11_summer_shanghai_layover_uneaten_dinner",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "summer_before_grade_12_late_july_2025",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高三上學期申請季 deadline 已過，等放榜中",
+    "近期在準備 senior calc final，已經念了三個晚上",
+    "去年暑假在後爸的上海辦公室掛名 shadowing 兩週",
+    "幾個月前曾在哲學課 panopticon 引用上被同學笑過一次"
+  ],
+  "scenario_seed_id": "grade11_summer_shanghai_layover_uneaten_dinner",
+  "scenario_seed": "Senior spring 期末複習夜，Michael 從 calc 筆記後半空白頁摺出一張去年七月（grade 11 升 12 暑假）上海行的酒店列印 itinerary，上面用後爸秘書的格式排好早午晚每一格。他原本只想問要丟還是夾回去，但翻到 Day 4 那行 dinner 還是寫『table for 2』。",
+  "generated_at": "2026-05-27T16:40:00Z",
+  "occurred_at": "2026-05-27T23:42:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "calc 筆記翻到後面三頁全空白，本來要拿來抄公式，結果裡面掉出一張紙。是去年七月的酒店 itinerary，秘書印的那種。你說這種東西要直接丟還是夾回去就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "要看你會不會還想看一眼再丟。是 calc 公式比較需要那頁空白，還是這張紙你還沒處理完？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼好處理的吧。我那兩週是去後爸上海辦公室掛名 shadow，秘書順手排的行程表而已。從 Day 1 到 Day 14 每一格都列好，早午晚還有 driver 編號。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來蠻完整的一份排程。你看到它現在是有什麼感覺，還是純粹覺得佔頁面？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼感覺。就是 typology 上很有趣。一個 14 天的 stay 被切成 42 個 grid，每一格都有人填，這比我自己排 SAT 還精緻。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，連晚餐都被排進 grid 裡。那兩週對你來說是工作多一點還是觀光多一點？"
+    },
+    {
+      "role": "user",
+      "content": "都不是。坦白講就是後爸辦公室外面那間 conference room 坐兩週，看 PPT、跟 analyst 吃飯、晚上回酒店。Day 4 那格 dinner 還寫『table for 2』。後爸臨時跟香港的人吃完才打電話到酒店，我已經自己吃完了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你自己一個人坐 table for 2 那一桌？那個畫面停在你腦裡多久了？"
+    },
+    {
+      "role": "user",
+      "content": "也沒有停。就是剛剛翻到才想起來。其實酒店服務生那邊還比較尷尬——他每隔十分鐘來問一次「另一位先生快到了嗎」，問到第四次我說可以先點，他臉很奇怪。"
+    },
+    {
+      "role": "assistant",
+      "content": "服務生四次。那當下你跟自己說了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "沒說什麼吧。我那時候在 iPad 看 Foucault 的 panopticon 那段，剛好看到「可見性是陷阱」。我就覺得這蠻 ironic 的，全場最被看見的反而是我。"
+    },
+    {
+      "role": "assistant",
+      "content": "ironic 但你還是記住了。你現在拿這張紙翻來翻去，是想找一個更乾淨的版本嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不是。我只是不知道要不要把它撕掉。撕掉好像太用力，留著又佔我 calc 筆記。我想得太多了，這就是一張 14 天的 print-out 而已。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。你說它太用力——是這張紙太用力，還是撕它這個動作太用力？"
+    },
+    {
+      "role": "user",
+      "content": "你問得很 sharp。算了，反正就一張紙。我等下把 Day 4 那行折起來夾到一個用不到的舊文件夾，calc 筆記空白頁我可以剪掉重新貼一張。這樣兩邊都不用動到。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。如果你哪天想把 Day 4 那一行拿出來再看一次，這個 setup 你還找得到。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。先去複習 related rates 了，明天考。"
+    }
+  ]
+}

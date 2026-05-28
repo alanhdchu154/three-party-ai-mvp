@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_stepdad__macallan_30_gift_open_or_keep",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "late_spring_senior_year",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "三週前 LP 私下晚餐被贈一支麥卡倫 30 年單一麥芽、未拆封一直擺在辦公室書櫃上",
+    "本週另一場慈善晚會他低調婉拒同類型禮物、僅收下酒莊參訪邀請",
+    "本季 ExCom pre-read 兩小時閱讀順序已在週初安排妥當"
+  ],
+  "scenario_seed_id": "macallan_30_gift_open_or_keep",
+  "scenario_seed": "高三申請季末段、grade_12 春末的一個週五早上十點,他坐在辦公室書桌前準備下一場會的前空檔。三週前 LP 私下晚餐贈他一支 macallan 30 年單一麥芽,未拆封一直放在書櫃上。今晚難得無外部行程,他想在離開辦公室前花五分鐘問 AI:這種年份的單一麥芽,送來的人預期收禮者開來喝、還是擺著當紀念?純消費端的問題,沒有情緒弧線、不談家內。",
+  "generated_at": "2026-05-27T10:14:00Z",
+  "occurred_at": "2026-05-22T10:08:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個跟工作完全無關的事。LP 三週前送我一支 macallan 30,我放在書櫃上沒拆。今晚剛好沒局,要不要開來喝、還是這種年份的本來就是擺著的?我不太喝威士忌,沒這個 reference。"
+    },
+    {
+      "role": "assistant",
+      "content": "看送禮者的意圖比較準。如果是 LP 在私下飯局送、不是慶祝特定事件,通常就是「希望你會開來喝、且想到他」這個意思,不是要你封存。30 年的本身也是設計來喝的——擺久了 cork 風險反而高。你跟那位 LP 之後還會碰面嗎?"
+    },
+    {
+      "role": "user",
+      "content": "下個月底他會來香港、我會見他一次。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這支今晚開合理。下次見面時你可以順手提一句喝過了、覺得 finish 上某個 note 印象深——他會知道你真的開了,而不是堆在書櫃當擺飾。需要我幫你準備一兩個非懂行也說得自然的描述嗎?"
+    },
+    {
+      "role": "user",
+      "content": "好,給我一兩個。不要太裝懂的那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩個低風險的:一是「比想像中乾、不甜」(macallan 30 sherry cask 通常被預期偏甜,你說「沒那麼甜」是有實際喝過才會講的反話)、二是「後段有一點木頭味、需要等一下才出來」(指 oak finish,不需要報年份)。兩句都安全,不會被內行抓出來。"
+    },
+    {
+      "role": "user",
+      "content": "了解。那今晚我要不要配什麼?還是就乾喝。"
+    },
+    {
+      "role": "assistant",
+      "content": "30 年的不要配。室溫、小口、不加冰。你習慣的話可以放一兩滴室溫水、僅此而已。配菜會搶味。"
+    },
+    {
+      "role": "user",
+      "content": "ok。最後一個——這種瓶子喝完還要留嗎?還是直接丟。"
+    },
+    {
+      "role": "assistant",
+      "content": "看你個人習慣。圈內人通常會留一兩支有故事的瓶子當紀念、其他直接回收。這支既然有送禮場合連結,留著沒壞處;但沒空間就丟、不需要儀式感。"
+    }
+  ]
+}

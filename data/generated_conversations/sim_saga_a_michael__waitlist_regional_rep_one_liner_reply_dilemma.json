@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_michael__waitlist_regional_rep_one_liner_reply_dilemma",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_waitlist_window",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "3 月中被一所 East Coast 私立大學 waitlist",
+    "4 月初寄出第一封 Letter of Continued Interest",
+    "上週 regional admissions rep 用一行字回了句『stay in touch as your spring goes』"
+  ],
+  "scenario_seed_id": "waitlist_regional_rep_one_liner_reply_dilemma",
+  "scenario_seed": "Michael 高三 senior spring。三月中被一所 East Coast 學校 waitlist，四月初寄了第一封 LOCI，上週 regional rep 終於回了一句 generic 的『stay in touch as your spring goes』。Michael 半夜睡不著，卡在要不要再寫第二封 update 還是只回一句 thanks 收尾。怕沉默被讀成 lukewarm、又怕再寄一封顯得 panicking——他想要一個外部腦袋幫他先過一遍，不是要心理諮商。",
+  "generated_at": "2026-05-27T00:42:00",
+  "occurred_at": "2026-05-27T00:42:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我想一下。三月中被 waitlist，四月初寄了第一封 LOCI，上週 regional rep 終於回我一句『stay in touch as your spring goes』。就這樣一行字。我要不要再寄第二封 update，還是只回一句 thanks 收尾？"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在比較想知道再寄一封會不會被當作太急，還是想知道沉默到底有多大代價？"
+    },
+    {
+      "role": "user",
+      "content": "兩個都想。但更傾向前者。我朋友圈有人說 waitlist 四月底前還要再 update 一次才會被當成 enthusiastic，但我四月初那封已經塞了一輪——再寄看起來像 panicking。"
+    },
+    {
+      "role": "assistant",
+      "content": "他那句『stay in touch as your spring goes』有沒有指向你春季要看什麼？比如他想看分數、看活動、看任何具體東西？"
+    },
+    {
+      "role": "user",
+      "content": "沒有具體的。就是 generic 鼓勵句。如果他真的想看 update，會直接寫『send me your Q3 grades when they come in』那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "那如果硬寫第二封，你會放什麼進去？4 月那封之後有真的新進度的東西嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……老實講沒有。AP 還沒考完、MUN 那個獎還沒公布、calc final 還在 review。沒新東西就是沒新東西。算了，回一句 thanks 收尾，等正式 decision 出來再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "行。要不要順手存個 note 給自己——下次 5 月底如果還沒消息又開始糾結，可以直接翻出來，不用半夜再跑一次同一個 loop。"
+    }
+  ]
+}
