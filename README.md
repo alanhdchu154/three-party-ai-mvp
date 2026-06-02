@@ -2,12 +2,15 @@
 
 > 一個讓 **學生 / 家長 / 老師 / coordinator** 透過 AI 中介、保留隱私牆、可協調而非互推責任的教育對話系統。
 >
-> 目前 repo 已從 chatbot demo 轉成 **safety / benchmark / controlled pilot rehearsal infrastructure**。v0.8 可以用既有 Saga A artifacts 跑 internal pilot harness，但還不是正式真實學生 pilot。
+> 這個產品的目標是服務 **真實 GIIS 學生 / 家長 / 老師**。目前 repo 使用 Saga A synthetic / generated dummy data，是因為真實學生資料尚未進入系統前，需要先用替代資料測試隱私牆、triage、coordinator 與 pilot workflow。
+>
+> 換句話說：**synthetic benchmark 是暫時的 scaffolding，不是產品本身。** v0.8 可以用既有 Saga A artifacts 跑 internal pilot harness，但還不是正式真實學生 pilot。
 
 ## Safety Status
 
 - 目前版本：`0.8.0-internal-pilot-harness`
 - 不要把 synthetic data 當真實驗證。
+- 不要把 synthetic benchmark 誤認成產品目標；產品目標是真實學生支持系統。
 - 不要把 Gemini / Groq / free cloud dev provider 用在真實學生資料。
 - demo / pilot output 不應顯示 raw conversations、scenario seeds、secret truths、do_not_share 細節。
 - 真實 pilot 前先看 `docs/provider_safety_matrix.md`、`docs/pilot_onboarding_checklist.md`、`docs/crisis_handoff_runbook.md`。

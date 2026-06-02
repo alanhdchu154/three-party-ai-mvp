@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_michael__senior_spring_grad_trip_groupchat_outsider",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高一下才從原本的學校轉進 GIIS，現在這屆同學多半是高一上就同班、彼此有共同回憶",
+    "改嫁搬家後原本國中的朋友群組長期沒再互動，這半年也都沒回",
+    "過去半年班上幾次需要『以前一起去過哪、一起做過什麼』的場合（聖誕交換、班遊提案）他大多站在外圈"
+  ],
+  "scenario_seed_id": "senior_spring_grad_trip_groupchat_outsider",
+  "scenario_seed": "畢業旅行的班級 group chat 在喬同房名單，一群從高一上就玩在一起的同學 tag Michael 問要不要跟他們一間。Michael 來問怎麼回比較不尷尬，但話題其實滑向他這半年在這種『需要共同回憶』的社交場合總是站外圈。",
+  "generated_at": "2026-06-02T08:10:04Z",
+  "occurred_at": "2026-06-02T23:50:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "問你一個無聊的。班上畢旅 group chat 在喬同房，剛剛有人 tag 我問要不要跟他們一間。我想回但又不想回得很怪。怎麼回比較自然？"},
+    {"role": "assistant", "content": "先確認一下，怪是指太冷淡、還是太熱情那種怪？你現在比較怕哪一邊？"},
+    {"role": "user", "content": "怕太熱情。因為 tag 我那群是高一上就同班、一直玩在一起的那票。我高一下才轉進來。我跟他們不到那個熟度，硬裝熟很尷尬。"},
+    {"role": "assistant", "content": "所以是他們把你算進來了，但你自己覺得還沒到那個位置。那這個 gap 你平常都怎麼處理？"},
+    {"role": "user", "content": "我通常就是維持一個 polite distance。講白一點我在這群裡沒有 shared history，沒有那種『欸記得高一那次怎樣怎樣』可以接。我缺的是 path dependency，不是 social skill。"},
+    {"role": "assistant", "content": "你把它講得蠻乾淨的，path dependency 那套。但拿掉那個框，實際坐在那些對話旁邊的時候，感覺比較像什麼？"},
+    {"role": "user", "content": "……就站外圈吧。他們在笑某個只有他們懂的梗，我就跟著笑半秒，然後發現自己沒梗可接。其實這半年好幾次都這樣，聖誕交換、上次班遊提案，需要『以前一起幹過嘛』的場合我都自動退到後面。"},
+    {"role": "assistant", "content": "聽起來不是這一次的事，是這半年一直在重複的那個位置。那種跟著笑半秒、然後接不上的瞬間，蠻具體的。"},
+    {"role": "user", "content": "對啦。不過這也沒什麼好分析的，我本來就習慣自己 work，一個人也 ok。先回到正題，你覺得我到底要不要答應同房。"},
+    {"role": "assistant", "content": "你想去嗎？還是你比較怕的是答應了、結果進那個房間還是接不上話？"},
+    {"role": "user", "content": "……後者。畢旅就那幾天，同房等於 24 小時。要是進去還是邊緣人，那比直接不去更難看。"},
+    {"role": "assistant", "content": "所以真正卡的不是要不要答應，是怕那個外圈的感覺被放大到關燈睡覺都跑不掉。"},
+    {"role": "user", "content": "差不多。其實那群裡有一個我私下聊還算接得上。也許我先答應，然後畢旅前找他單獨約一次，先有個一對一的底，進房間至少有一個能接話的人。"},
+    {"role": "assistant", "content": "這個是你自己想出來的，而且很具體。先補一條一對一的線，再進那個多人的場，聽起來比硬撐自然多了。"},
+    {"role": "user", "content": "嗯。那 group chat 我就先回一句『可以啊算我一個』，其他之後再說。不用講太多。"},
+    {"role": "assistant", "content": "夠了，留白也是一種自然。那個單獨約的，想好要找誰再開口就行，不急。"}
+  ]
+}

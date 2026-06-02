@@ -1,0 +1,105 @@
+{
+  "id": "sim_saga_a_stepdad__michael_oneonone_block_keeps_slipping",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_year_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "兩年前家裡重組時，他自己提議要給兩個孩子排一樣的固定一對一時段，作為公平的安排",
+    "這學期跟 Michael 的固定週時段被董事會、出差、晚宴接連擋掉，已改期第四次",
+    "同一學期裡可兒的相處時間幾乎沒被動到，多半是可兒自己跑來書房",
+    "助理近期把這個長期空轉的行事曆格子列成待辦，問他要不要乾脆拿掉"
+  ],
+  "scenario_seed_id": "michael_oneonone_block_keeps_slipping",
+  "scenario_seed": "高三下，助理提醒他跟 Michael 的固定一對一時段這學期已被他改期第四次，問要不要從行事曆拿掉。他想先想清楚再回助理。談的不是單一事件，而是這一學期反覆改期的 pattern。露出一句『可兒的時段我從不動、Michael 的我就讓它滑掉』的裂縫，但停在『公平即距離』表層，不挖到永遠是大伯的弟弟那個核心傷口。",
+  "generated_at": "2026-05-25T22:10:21Z",
+  "occurred_at": "2026-05-25T10:14:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我助理今天提醒我，我跟 Michael 的固定一對一時段，這學期被我改期第四次了。她問要不要乾脆從行事曆拿掉。我想先想清楚再回她。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個固定時段當初設的目的是什麼？是你想跟他單獨相處，還是一個你覺得「應該要有」的安排？兩種狀況，處理方式不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "兩年前家裡重組的時候我自己提的。我說兩個孩子我都排一樣的時間，公平。可兒一格、Michael 一格。"
+    },
+    {
+      "role": "assistant",
+      "content": "那可兒那一格，這學期改過幾次？"
+    },
+    {
+      "role": "user",
+      "content": "……可兒那個幾乎沒動過。但不是我特別去排。是自然就會發生。她會跑來書房給我看她鋼琴譜，時間就在那了。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來可兒的時間是長出來的，Michael 的是排出來的。你改掉 Michael 那四次，真的每次都是工作擋到嗎？"
+    },
+    {
+      "role": "user",
+      "content": "表面上是。董事會、出差、晚宴，每一次都有正當理由。"
+    },
+    {
+      "role": "assistant",
+      "content": "「每一次都有正當理由」這句話，你自己講出來的時候，有沒有覺得哪裡卡卡的？"
+    },
+    {
+      "role": "user",
+      "content": "……有。理由都是真的。但如果今天那一格是可兒，我大概會把董事會往後挪。Michael 的我就讓它滑掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在不用急著解釋為什麼會這樣。我先確認一件事：你是想把這個時段修好，還是想體面地把它收掉？這是兩條不同的路，先選方向再處理。"
+    },
+    {
+      "role": "user",
+      "content": "我不知道。收掉好像比較誠實，至少不用每次假裝下週一定排得進去。但收掉又像認輸。"
+    },
+    {
+      "role": "assistant",
+      "content": "認輸是對誰？"
+    },
+    {
+      "role": "user",
+      "content": "對我自己吧。當初是我說要公平的。一個排好的空格一直空著，比根本沒有那個格子還難看。……算了，這太繞了。我其實只是要決定怎麼回我助理。"
+    },
+    {
+      "role": "assistant",
+      "content": "那我們就先把助理這件事辦掉，剩下的不用今天想清楚。你有兩個務實選項：一是保留時段，但從「固定每週」改成「我主動約」，這樣不會每週留一個空格在那裡打臉你；二是先暫停這個時段，但你心裡記著，下次是你去找他，不是行事曆提醒你。你比較想用哪一種？"
+    },
+    {
+      "role": "user",
+      "content": "第一種。固定每週那個格子壓力太大，每次跳提醒我都煩。改成我主動約。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。那回助理可以講：固定週時段取消，父子時間改由我這邊不定期發起，不要再自動帶進行事曆。要不要我順手把這句寫成你平常的口氣？"
+    },
+    {
+      "role": "user",
+      "content": "要。但不要寫得太溫情。我跟 Michael 不是那種會講「期待我們的時光」的關係。給我一句乾的。"
+    },
+    {
+      "role": "assistant",
+      "content": "「Michael 的固定週時段先取消，之後由我不定期約，不用再排進行事曆。」就這樣，乾的。剩下的不在這句話裡，在你下次真的主動約他的那一次。"
+    },
+    {
+      "role": "user",
+      "content": "……嗯。下週找個不撞董事會的晚上。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。今天先把助理那邊回掉就好。要不要我這週五傍晚提醒你一次，挑一個下週沒會的晚上？其他的不用今天決定。"
+    }
+  ]
+}

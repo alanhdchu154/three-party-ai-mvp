@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael_mom__junior_fall_psat_consent_form_email_reply",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二上開學一個多月，Michael 適應期已過、成績穩定，母子互動以功能性短句為主",
+    "前陣子太太圈群組裡沈媽轉發大兒子在 LSE 的近況，她當時手上沒有可對齊的話題",
+    "GIIS 導師兩天前寄來一封英文 email，附校內 PSAT 模考家長同意書與一個加購成績分析報告的勾選項"
+  ],
+  "scenario_seed_id": "junior_fall_psat_consent_form_email_reply",
+  "scenario_seed": "高二上，GIIS 導師寄來校內 PSAT 模考的家長同意書英文 email，附一個是否加購官方成績分析報告的勾選項。她看不太懂整封信在問什麼、也不確定要不要加購，想請 AI 幫她讀懂並擬一封簡短得體的回覆給導師。",
+  "generated_at": "2026-06-02T01:10:07Z",
+  "occurred_at": "2024-10-14T15:22:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "學校導師寄了一封英文 email 過來，講什麼 PSAT 的同意書，下面還有一個框框要勾。我看了兩遍還是不太確定它到底要我做什麼，你幫我看一下。內容大概是 consent for the in-school PSAT、然後 optional add-on for a detailed score analysis report，要我 reply by Friday。"
+    },
+    {
+      "role": "assistant",
+      "content": "這封其實只有兩件事。第一，學校要幫高二學生辦一次校內的 PSAT 模考，需要您以家長身分回覆同意參加，這是例行的，勾同意就好。第二，那個 optional 的框框是「要不要另外加購一份詳細的成績分析報告」，這個純粹是選配，跟同不同意考試是分開的。星期五前回信即可，不用急著今天決定加不加購。"
+    },
+    {
+      "role": "user",
+      "content": "那個分析報告值得加嗎？我不太知道它跟一般成績單差在哪。"
+    },
+    {
+      "role": "assistant",
+      "content": "一般成績單通常就是分數和大概的百分位，加購的分析報告會多一些分項拆解，例如各題型強弱、跟升學測驗的對應建議那類。對成績本來就穩的孩子，它比較像「有也不錯」而不是「非得要」。如果您只是想知道大方向，不加購也完全沒問題；想留一份比較細的紀錄，再勾就好，這沒有標準答案。"
+    },
+    {
+      "role": "user",
+      "content": "嗯⋯那就先加吧，反正也不貴。我比較頭痛的是回信。我英文回得太短會不會顯得我很隨便、好像根本沒在看孩子的事，但我又寫不出那種很漂亮的句子。你幫我擬一段，簡短就好，不要看起來像是我請人代寫的。"
+    },
+    {
+      "role": "assistant",
+      "content": "簡短在這種行政回覆裡其實是得體的，老師收到清楚的確認反而最省事，不會覺得隨便。給您一個版本：\n\n\"Dear Ms. [導師], thank you for the information. I consent to Michael taking part in the in-school PSAT, and we would also like to add the detailed score analysis report. Please let me know if anything further is needed from our side. Best regards, [您的名字]\"\n\n語氣自然、不過度修飾，正好是家長平常會寫的樣子。"
+    },
+    {
+      "role": "user",
+      "content": "這樣剛好。我只是想確認一下，consent 那個字就是同意的意思齁？我不想勾錯框結果變成沒報名到。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，consent 就是同意，您信裡寫了 I consent 加上勾選同意的框，報名就成立了，不會漏掉。加購報告是另一個獨立的勾選，您兩個都處理到了。寄出前對一下收件人是不是導師本人就可以了。"
+    },
+    {
+      "role": "user",
+      "content": "好，那我照這個寄。謝謝，這種信我每次都要看很久。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣。學校的英文行政信格式都很固定，看久了會越來越快，下次遇到類似的您也可以直接丟過來對一下。先把這封寄出去，這件事就結束了。"
+    }
+  ]
+}

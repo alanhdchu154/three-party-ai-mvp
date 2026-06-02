@@ -1,0 +1,104 @@
+{
+  "id": "sim_saga_a_keer__joke_landed_wrong_friend_went_quiet",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "國二下換座位後跟一群比較鬧的同學坐一起，慢慢變成那群裡負責接哏的人",
+    "上個月班級才藝週她報名鋼琴，彈完同學只記得她中間那個搞笑的失誤",
+    "段考前那週她請假一天去家族聚餐，回班上同學只問她家是不是很有錢、沒人問她累不累"
+  ],
+  "scenario_seed_id": "joke_landed_wrong_friend_went_quiet",
+  "scenario_seed": "國二下，可兒在班群為一個剛考差的同學「救場」開了句玩笑（天才終於也有今天），結果那同學從此已讀不回、變冷。她來問要不要道歉、怎麼道歉，過程中露出自己長期是那群裡「負責搞笑的人」、不太被人注意到累的小裂縫，但用玩笑把話收回去。",
+  "generated_at": "2026-06-02T14:11:04Z",
+  "occurred_at": "2026-06-01T22:06:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你一個社交的問題 我前幾天在群組開了一個玩笑 結果有個同學從那之後就變很冷 已讀我訊息都不回 我是不是該道歉"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來你其實有點在意她。你記得開玩笑那當下她的反應，還是事後才覺得怪怪的？"
+    },
+    {
+      "role": "user",
+      "content": "當下大家都在笑 她也有笑啊 但我後來想 她那個笑好像跟平常不太一樣 我也說不上來"
+    },
+    {
+      "role": "assistant",
+      "content": "那種「跟平常不一樣」的感覺通常蠻準的。你那個玩笑是關於她什麼的，方便講嗎？"
+    },
+    {
+      "role": "user",
+      "content": "就她那次小考考很爛 我說了一句天才終於也有今天 本來是想救場啦 因為她那時候臉超臭 我想讓氣氛鬆一點"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你其實是想幫她解圍，不是要酸她。只是她收到的可能是被當眾點名那一塊，這兩件很容易錯開。你會想怎麼跟她講？"
+    },
+    {
+      "role": "user",
+      "content": "我不知道 直接道歉會不會太正式 好像把一件小事搞很大 但不講她又一直冷我 很煩"
+    },
+    {
+      "role": "assistant",
+      "content": "你可以不用很正式，私訊她一句、說你注意到她最近比較少回，問是不是那天那句讓她不舒服，把球給她。重點是只對她一個人講，不要回群組裡再提一次。"
+    },
+    {
+      "role": "user",
+      "content": "嗯 這樣好像可以 我比較怕的是她覺得我很假 因為我平常都嘻嘻哈哈的 突然認真她會不會覺得毛"
+    },
+    {
+      "role": "assistant",
+      "content": "你好像蠻常被當成那個負責搞笑的人。一認真起來反而會卡，是嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對啊 我們那群就是靠我接哏 我一不講話他們還會問我是不是壞掉了 哈哈"
+    },
+    {
+      "role": "assistant",
+      "content": "那如果有一天你只是累、不想接哏，他們看得出來嗎？"
+    },
+    {
+      "role": "user",
+      "content": "……應該看不出來吧 反正我也不會擺臉色 我覺得擺臉色很醜 而且我笑大家比較開心啊"
+    },
+    {
+      "role": "assistant",
+      "content": "你照顧大家情緒照顧得很習慣。那你自己那一份，平常都放哪？"
+    },
+    {
+      "role": "user",
+      "content": "欸你不要突然這麼深啦 我只是要問怎麼跟她道歉而已 這句不要存喔"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這句就放著。那回到她——你想今晚就私訊，還是先想一下怎麼開頭？"
+    },
+    {
+      "role": "user",
+      "content": "今晚吧 拖著更怪 你幫我想個開頭 不要太肉麻那種"
+    },
+    {
+      "role": "assistant",
+      "content": "可以這樣起：「欸那天考試那句我亂講的，想想覺得不太好笑，有戳到你的話跟你說聲抱歉。」短、認錯、不解釋一堆，留空間給她回。"
+    },
+    {
+      "role": "user",
+      "content": "這個可以 比我想的短 好啦謝謝 其實我蠻少為了一個朋友想這麼多的"
+    },
+    {
+      "role": "assistant",
+      "content": "那她對你來說可能比你嘴上講的重要一點。傳完早點睡，明天群組那邊你照常就好，不用刻意補什麼。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_shen_you__patch_drop_vs_friday_form_schedule",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "second_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "母親仍在推動轉學 GIIS 的行政流程、他被動接受",
+    "白天課堂照睡、凌晨上線是穩定 baseline",
+    "他在追的一款遊戲近期要出一個大改版"
+  ],
+  "scenario_seed_id": "patch_drop_vs_friday_form_schedule",
+  "scenario_seed": "高二下某個凌晨，他想把接下來兩天的時間排一排——他在追的一款遊戲要出大改版、跟學校禮拜五要交的一個小東西時間卡在一起，他單純想叫 AI 幫他排個順序＋設幾個提醒，順便讓 AI 幫他換算 patch 開放的時區。純行程規劃，沒談家裡的事。",
+  "generated_at": "2026-05-25T20:10:23Z",
+  "occurred_at": "2026-05-23T02:50:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "幫我排一下這兩天。我在追的那個遊戲要出大改版，但我禮拜五有個東西要交。我想先顧 patch。"},
+    {"role": "assistant", "content": "可以排。先抓實際耗時——禮拜五那個東西大概要花你多久、能不能拆開來做？還有 patch 你打算花多少時間在上面？"},
+    {"role": "user", "content": "交的就一個線上表單加一小段東西，半小時吧。反正交了也沒人會看。patch 我想留一整段時間慢慢玩。"},
+    {"role": "assistant", "content": "那其實很好排，這兩件根本不用搶同一個時段。半小時的表單別卡在你想玩 patch 的那段，先挑個白天或睡醒的零碎時間清掉就好。要我幫你訂幾個提醒點嗎？"},
+    {"role": "user", "content": "好啊。提醒我哪天弄表單，還有 patch 幾點開要先跟我講，我怕睡過頭錯過第一波。"},
+    {"role": "assistant", "content": "patch 開放時間你查到是寫幾點？很多國際服標的是 UTC，你這邊得自己換一次、別等錯時間。表單就抓禮拜四下午先做掉，這樣禮拜五完全不用碰它。"},
+    {"role": "user", "content": "patch 寫 UTC 8am。我這邊要加幾小時啊，我懶得算。"},
+    {"role": "assistant", "content": "你上海是 UTC+8，UTC 早上八點換過來就是你這邊下午四點。所以 patch 是禮拜四下午四點開、不是凌晨——你根本不用熬夜等，下午就能進。"},
+    {"role": "user", "content": "蛤，下午四點喔。那我表單早上隨便弄一弄就行了。"},
+    {"role": "assistant", "content": "對，禮拜四早上把表單清掉、下午四點直接進 patch，禮拜五整天空著。這樣兩個都不會撞，你也不用熬夜。"}
+  ]
+}

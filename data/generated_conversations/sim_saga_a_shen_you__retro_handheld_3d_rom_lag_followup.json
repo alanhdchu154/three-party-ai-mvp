@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_shen_you__retro_handheld_3d_rom_lag_followup",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring_grade_11",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "三週前照一個模友的教學，在一台二手平價掌機上刷了自訂韌體",
+    "上週把一批小時候玩的 GBA / NDS rom 灌進去想重溫",
+    "這個月 mod 那邊接的活比較少，多了點時間在瞎搞硬體"
+  ],
+  "scenario_seed_id": "retro_handheld_3d_rom_lag_followup",
+  "scenario_seed": "高二下，凌晨三點。沈又三週前在一台二手平價掌機上刷了自訂韌體，大部分 rom 跑得動，但某幾款 3D 的 NDS 遊戲一進賽道就掉格。他來問 AI 是設定問題還是機子本身就帶不動。純硬體 troubleshooting，沒打算寫桌上那份報告。",
+  "generated_at": "2026-06-01T22:14:30Z",
+  "occurred_at": "2026-06-01T02:58:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 你懂掌機刷機嗎 我那台一直卡"},
+    {"role": "assistant", "content": "看狀況。你刷的是哪種自訂韌體、卡在哪？是整台都 lag 還是只有特定遊戲？"},
+    {"role": "user", "content": "二手的 三週前照模友教的刷了韌體 大部分跑得動 就某幾個 NDS 的會頓"},
+    {"role": "assistant", "content": "NDS 模擬本來就比 GBA 吃資源很多。是哪幾款、頓的點是進戰鬥還是從頭到尾一直頓？"},
+    {"role": "user", "content": "就那種 3D 賽車的 一開賽道就掉格 2D 的都超順"},
+    {"role": "assistant", "content": "經典。NDS 的 3D 場景最容易爆，2D 順不代表它扛得動 3D。你先去設定把幀數顯示打開，看是穩定的低、還是忽高忽低，這兩種解法不一樣。"},
+    {"role": "user", "content": "剛開了 一進賽道直接砍半 然後就卡在那"},
+    {"role": "assistant", "content": "穩定砍半通常是純效能不夠，不是哪個選項沒調好。你那台便宜款的晶片大概就到這。要不要乾脆先確認哪些注定跑不動，省得你一直調白工？"},
+    {"role": "user", "content": "嗯 那大概就放生 我本來也只是不想寫桌上那張東西才在弄這個啦"},
+    {"role": "assistant", "content": "哈 那至少你弄出一台能順跑 2D 的，也算有交代。3D 那幾款真要救就找優化過的版本，不然就留著看心情。還有想救哪款再說。"}
+  ]
+}

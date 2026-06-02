@@ -1,0 +1,57 @@
+{
+  "id": "sim_saga_a_uncle__longtime_driver_retiring_new_driver_friction",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "senior_year_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "集團近期在推一樁合資案，董事會行程吃緊",
+    "弟弟年初做過健康檢查，他開始更在意身邊長期班底的年紀與接替",
+    "私人司機老周幾週前正式提出下個月退休",
+    "女兒高三下、家中近期圍繞畢業與升學節奏在轉"
+  ],
+  "scenario_seed_id": "longtime_driver_retiring_new_driver_friction",
+  "scenario_seed": "開了他快十八年的私人司機老周下個月退休，今天臨時調來代班的年輕司機不熟他的習慣——不知道他走西側門、不會挑避開高架的路、不知道他幾點看報紙，他一路得重講。他上線只是想抱怨幾句這種『沒先把交接做好』的事，順帶問要不要處理。",
+  "generated_at": "2026-05-23T00:10:58Z",
+  "occurred_at": "2026-05-22T16:05:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "老周下個月就退休了，開了我快十八年的車。今天臨時調了個年輕人來代班，結果連我習慣走西側門都不知道，硬是停到正門口讓我在那邊乾等。路也不會挑，高架塞死了還往上開。一路我得一句一句教。"
+    },
+    {
+      "role": "assistant",
+      "content": "開了十八年，今天當然會覺得處處不對勁。新人第一天，本來就摸不清您的習慣。您現在是想先把這口氣抱怨出來，還是要我幫您想個讓接手順一點的辦法？"
+    },
+    {
+      "role": "user",
+      "content": "我不是在抱怨。我是覺得這種事該事先安排好。老周要走，這些習慣本來就該整理交代清楚，而不是丟給我在車上重講一遍。這是管理沒做到位。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來真正卡的，是沒有人先把該交接的交接好，讓您得自己補。要不要趁老周還在，請他把您慣走的路線、時段、習慣寫成一份清單交給代班的？這樣您不必每趟重講，他也少出錯。"
+    },
+    {
+      "role": "user",
+      "content": "嗯……也是。十八年了，他比家裡誰都清楚我幾點要看報紙、哪天去哪、哪條路會塞。換個人，怎麼弄都覺得差一截。"
+    },
+    {
+      "role": "assistant",
+      "content": "用順手了這麼久，換人不習慣是正常的，不是您挑剔。給新人一點時間上手，那份清單能幫他追上來一些。也給自己幾天適應，不必今天就要求他做得跟老周一樣。"
+    },
+    {
+      "role": "user",
+      "content": "行。我讓秘書去辦那份清單，叫老周走之前交接清楚。就這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這樣安排很穩。需要再找我。"
+    }
+  ]
+}

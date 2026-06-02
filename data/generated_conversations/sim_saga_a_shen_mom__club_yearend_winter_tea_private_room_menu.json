@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_shen_mom__club_yearend_winter_tea_private_room_menu",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "winter_grade_11_year_end",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "過去一個月太太圈陸續在敲年底各場聚會的檔期",
+    "會所上個月剛換了冬季 tasting menu，concierge 主動私訊推年終私廳檔"
+  ],
+  "scenario_seed_id": "club_yearend_winter_tea_private_room_menu",
+  "scenario_seed": "高二上冬天傍晚，會所 concierge 用 WeChat 私訊沈媽，問年終那場小型茶敘要不要包大私廳，順手附了新的冬季 tasting menu。她想包大廳、想把菜單定得體面，但不想回得像在炫，請家長 AI 幫她挑菜、把回覆 concierge 的話寫得客氣又確定。",
+  "generated_at": "2026-06-01T18:10:13Z",
+  "occurred_at": "2025-12-09T16:50:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "會所那邊剛私訊我，問年終那場茶敘要不要包大私廳，還丟了一份新的冬季菜單過來。我想包大廳，十二到十四個人，比小廳鬆一點。但你知道圈子裡那些人眼睛很尖，我不想回得好像在昭告天下我又包了最大那間。你先幫我想一下怎麼回 concierge 比較剛好。"
+    },
+    {
+      "role": "assistant",
+      "content": "包大廳很合理，十二到十四人擠小廳反而失禮，這個決定不用替它道歉。回 concierge 其實只要把事情講清楚就好：確認包大私廳、人數抓十四個位，其他客套留一句就夠。要不要先把菜單貼給我，我陪你把菜定下來，回訊息我們最後一起收？"
+    },
+    {
+      "role": "user",
+      "content": "菜單我看一下。前菜他給了三選一：松露蛋盅、煙燻鴨胸、還有一個冬筍干貝。主菜是和牛或鱈魚二選一。湯是花膠雞湯或松茸湯。甜點他說當天現做不用先選。十四個人裡有兩三位年紀大一點、口味清淡，這要怎麼配比較不會出錯？"
+    },
+    {
+      "role": "assistant",
+      "content": "前菜選冬筍干貝最穩，松露蛋盅對長輩偏濃、煙燻鴨胸有人不吃煙燻，干貝兩邊都不得罪。主菜兩道都留、讓客人現場二選一，清淡的自然挑鱈魚，不用你替他們決定。湯選花膠雞湯，比松茸更穩妥、長輩也受用。這樣一桌不挑人，也看得出有用心。"
+    },
+    {
+      "role": "user",
+      "content": "好，就照你說的。那回 concierge 的話幫我寫一下，要客氣、確定包大廳、菜照這個定，但語氣別太熱絡，他們會傳。對了沈又年底大概又不會露面，這個我就不跟他提了，你就照十四位寫。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，十四位、大私廳，照你定的菜。給你一版可以直接貼：「您好，年終那場就麻煩您安排大私廳，預估十四位。前菜冬筍干貝、湯品花膠雞湯，主菜和牛與鱈魚兩道都備、讓客人現場挑，甜點就交給師傅。再請您把時段確認回我，謝謝。」語氣是定了的事、不多話，傳出去也只是一則交代清楚的訊息。"
+    },
+    {
+      "role": "user",
+      "content": "這版剛好。我把『預估十四位』改成『以十四位備位』，留一兩個彈性，臨時多一位也不尷尬。其他不動，這樣就發了。"
+    },
+    {
+      "role": "assistant",
+      "content": "「以十四位備位」改得好，留了餘地又不顯得沒底。其他不用再動，直接發吧。等他回時段你要不要我順手幫你把行事曆那格擋下來，就不用再記了。"
+    }
+  ]
+}

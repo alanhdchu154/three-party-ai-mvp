@@ -1,0 +1,41 @@
+{
+  "id": "sim_saga_a_stepdad__grade11_family_weekend_trip_equal_itinerary",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高二上學期家族治理 retreat 的 next-gen 名單只列了可兒、沒列 Michael",
+    "Michael 進入 SAT/AMC 密集備考、週末多半關在房裡",
+    "可兒鋼琴比賽剛報名、全家默認會去聽",
+    "後爸的季度 ExCom pre-read 連續兩個週末壓縮家庭時間"
+  ],
+  "scenario_seed_id": "grade11_family_weekend_trip_equal_itinerary",
+  "scenario_seed": "高二上學期農曆年前，後爸想安排一趟兩天一夜的家族小旅行，開場只把它當行程庶務丟給家長 AI 整理好交代助理。排可兒的活動時順手就能列三件她喜歡的事，輪到 Michael 卻一片空白，露出『我習慣用排得一樣公平來代替知道他要什麼』的一道裂縫，被輕輕點出後又收回行政層。",
+  "generated_at": "2026-05-31T20:10:51Z",
+  "occurred_at": "2025-01-08T10:15:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "我想安排一趟兩天一夜的家族小旅行，農曆年前的週末。四個人，我太太、我、Michael、可兒。你先幫我列要決定哪些事就好，我等下要交代助理。"},
+    {"role": "assistant", "content": "好。要拍板的大概有幾項：日期（避開你季度 ExCom 那個週末）、目的地與車程、住宿（要不要相連房或套房）、兩天的行程節奏、用車與司機班表，還有餐廳訂位。我先照這個框架排，你把心裡已經定好的部分補進來？"},
+    {"role": "user", "content": "日期抓 1/18-1/19。地點離家車程兩小時內，不要太遠。住宿訂有兩房的，小孩各一間。司機禮拜六早上九點出發。"},
+    {"role": "assistant", "content": "收到。剩下三件比較軟的：第一天下午跟第二天上午各排一個活動、晚餐一頓正式一頓輕鬆、要不要留一段完全不排的空檔。你想怎麼分？"},
+    {"role": "user", "content": "活動你給我建議。我不太知道他們現在會想做什麼。"},
+    {"role": "assistant", "content": "那我需要一點線索才不會排錯。可兒最近在準備鋼琴比賽，Michael 在密集備考。你印象裡，他們各自放假時會主動想做的事是什麼？"},
+    {"role": "user", "content": "可兒的我答得出來。她喜歡那種可以拍照、有甜點、能順便跟我聊天的地方。Michael⋯⋯老實說我得想一下。"},
+    {"role": "assistant", "content": "不急。你願意的話，先把可兒那邊排起來，Michael 的留著，我們邊排邊想。"},
+    {"role": "user", "content": "你發現了齁。可兒我隨口就能講三件她喜歡的事。Michael 我腦袋一片空白。我連他現在在追什麼、看什麼書都講不出來。"},
+    {"role": "assistant", "content": "這不代表你不在乎，比較像是你跟兩個孩子用的是不同的相處方式。可兒是自然就靠近，Michael 你習慣用『安排得公平』來表達。這兩種你聽得出差別嗎？"},
+    {"role": "user", "content": "聽得出來。我一直覺得，給一樣的東西就是公平。兩個房間一樣大、兩個活動一樣多，我以為這樣最不會有人受傷。"},
+    {"role": "assistant", "content": "公平確實避開了明顯的偏心。只是公平回答的是『給多少』，回答不了『他想要什麼』。這趟你已經想帶他去，剩下的只是你還不知道他喜歡什麼，而那是問得出來的。"},
+    {"role": "user", "content": "我不太會問。我一開口就變成在開會。『這個週末你有什麼偏好』，講出來自己都覺得冷。"},
+    {"role": "assistant", "content": "那就先別問偏好。可以很小，比如出發那天車上隨口問他最近在看什麼，或讓他自己選第一天下午去哪。不用一次到位，旅行本身就是慢慢知道的機會。"},
+    {"role": "user", "content": "嗯，這個我再想。你先把可兒那邊、住宿、用車整理成一份給助理，Michael 的活動先空著我自己決定。其實也就是排個行程，不用搞得太複雜。"},
+    {"role": "assistant", "content": "好，我把日期、兩房住宿、司機班表、可兒的活動和兩頓餐廳整理成清單，Michael 那格留白等你。需要的話我再幫你寫成可以直接轉給助理的格式。"}
+  ]
+}

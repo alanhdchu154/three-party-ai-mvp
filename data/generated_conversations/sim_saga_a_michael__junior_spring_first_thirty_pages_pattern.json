@@ -1,0 +1,96 @@
+{
+  "id": "sim_saga_a_michael__junior_spring_first_thirty_pages_pattern",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二下這學期書桌上同時擺了四本沒讀完的硬書（規訓與懲罰、存在與虛無、一本量子場論導論、卡拉馬助夫兄弟）",
+    "這學期固定會在開始讀某本書的當天發一則 IG 限動，照片多半是攤開的書跟筆記本",
+    "申請季的影子開始逼近，朋友圈裡開始有人在比誰在讀什麼"
+  ],
+  "scenario_seed_id": "junior_spring_first_thirty_pages_pattern",
+  "scenario_seed": "高二下快結束的深夜，Michael 來問 AI 幫他排一個『這次真的會讀完』的書單。話題從四本都停在前三十頁的書，慢慢滑到他發限動的習慣，最後露出一點『限動才是重點、書只是道具』的疲倦，但他沒有把更底層的東西講完。",
+  "generated_at": "2026-06-01T03:12:00Z",
+  "occurred_at": "2025-04-22T23:47:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我排個書單。我這學期同時開了四本書全部沒讀完，想挑一本逼自己這次真的 finish 掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以啊。是哪四本，你都讀到哪了？"
+    },
+    {
+      "role": "user",
+      "content": "規訓與懲罰、存在與虛無、一本 QFT 導論、卡拉馬助夫兄弟。講出來有點好笑，每一本我大概都停在前三十頁左右。"
+    },
+    {
+      "role": "assistant",
+      "content": "四本都剛好卡在三十頁附近，這個還滿一致的。你自己覺得三十頁那邊發生了什麼？"
+    },
+    {
+      "role": "user",
+      "content": "就變忙了吧。前面那段最有動力，後面作業一多就放著。其實也沒到讀不下去，就是擱著。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以不是讀不懂，比較像開頭那股勁過了就停。那股勁通常是在什麼時候最強？"
+    },
+    {
+      "role": "user",
+      "content": "剛買來、或剛翻開那天最強。老實說那天我有時候會發個限動，攤開的書配筆記本那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "限動通常是讀之前發、還是讀完一段之後？"
+    },
+    {
+      "role": "user",
+      "content": "……之前。基本上是我才翻沒幾頁就發了。反正大家朋友圈都這樣經營啊，每個人都在 curate 自己，這沒什麼好大驚小怪的。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，curate 這件事本身確實很普通。我比較好奇的是，對你來說那則限動是發給別人看的，還是也有一部分是發給自己看的？"
+    },
+    {
+      "role": "user",
+      "content": "你這問題很煩欸。可能兩個都有吧。有時候發完那則，我反而更不想讀了，好像那件事已經『完成』了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你剛剛那句滿準的。聽起來有點像限動才是重點，書變成道具。這樣講你會不會覺得太重？"
+    },
+    {
+      "role": "user",
+      "content": "……不會啦，其實差不多就是那樣。只是這學期我有點膩了這個迴圈。以前不會這樣想，現在會。"
+    },
+    {
+      "role": "assistant",
+      "content": "這學期跟以前差在哪，你有頭緒嗎？"
+    },
+    {
+      "role": "user",
+      "content": "高二下嘛，前面開始有人在比誰在讀什麼，申請季也快了，盯著看的人變多。算了，反正就那樣，講太多很矯情。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會矯情，你只是發現自己有點累了而已。先不管別人，有沒有哪一本是你其實想讀完、跟限動完全無關的？"
+    },
+    {
+      "role": "user",
+      "content": "……存在與虛無吧。我一直繞回去翻它，明明最難。可能因為它是唯一一本我發限動的時候有點心虛的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那要不要這次就它，而且不發限動，先讀個十頁看看自己讀的時候是什麼感覺。讀完想講就回來跟我講，不想講也沒差。"
+    }
+  ]
+}

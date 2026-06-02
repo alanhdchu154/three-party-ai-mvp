@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_alan_teacher__garbled_submission_filenames_batch_rename",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "grade_10_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一上學期 GIIS 全面改用新的線上作業繳交系統，全班作業都改線上交",
+    "他這學期才接這個班不久，還在記每個學生的程度跟名字",
+    "上週第一次月考的卷子也是用系統收的，他光找檔案就花了很久"
+  ],
+  "scenario_seed_id": "garbled_submission_filenames_batch_rename",
+  "scenario_seed": "高一上學期某個傍晚，Alan 在辦公室要改一個班的線上作業，但 GIIS 系統匯出的檔名全是一串亂碼加時間戳，三十幾份分不清誰是誰。他懶得一個一個點開對名字，來問 AI 有沒有快一點的整理方法。",
+  "generated_at": "2026-05-24T03:11:30Z",
+  "occurred_at": "2023-10-18T17:36:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你個煩死人的小事。我們學校那個新的線上作業系統，匯出下來的檔名他媽的全是一串亂碼加時間戳，像 sub_8f3a2_1697xxxx.pdf 這種，三十幾份我根本分不清誰是誰。我不想一份一份點開對名字，有沒有快一點的整法？"
+    },
+    {
+      "role": "assistant",
+      "content": "有，先確認一件事：你下載的時候，系統有沒有一個「依學生姓名命名」或「打包成帶名稱的壓縮檔」的選項？很多平台的亂碼檔名是預設值，換個下載選項就直接乾淨了。如果有，這一步就解決，不用後面那些。"
+    },
+    {
+      "role": "user",
+      "content": "下載選項我還真沒仔細看，剛接這系統。但我記得匯出的時候它有附一個 csv，裡面好像有對照，哪個檔對到哪個學生、哪個學號。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就好辦，那個 csv 就是你要的對照表。最省事的順序是：先回去找有沒有「以姓名下載」的開關，沒有的話，就用那張 csv 來批次改名，不用手動一個個對。你比較想用哪種，純滑鼠操作、還是可以接受跑一個小工具？"
+    },
+    {
+      "role": "user",
+      "content": "我數學老師啦，excel 沒問題，但你別叫我寫程式。能用滑鼠或 excel 弄完最好。"
+    },
+    {
+      "role": "assistant",
+      "content": "那走 excel 路線。把那張 csv 打開，留兩欄：原始檔名、你想要的新檔名（建議「學號_姓名」這樣排序時自動照學號順）。新檔名那欄用一個簡單的合併公式湊出來，再用免費的批次改名工具讀這份對照表一次套用，三十幾份幾秒就改完。要的話我把那個合併公式直接寫給你貼。"
+    },
+    {
+      "role": "user",
+      "content": "好，公式給我。我等等貼進去。順便，下次怎麼樣可以一開始就不要這麼亂？"
+    },
+    {
+      "role": "assistant",
+      "content": "公式：假設原始檔名在 A 欄、學號在 B、姓名在 C，新檔名就 =B2&\"_\"&C2&\".pdf\"，往下拉滿即可。下次一勞永逸的作法有兩個：一是出作業時在說明裡規定學生「檔名請存成 學號_姓名」，他們自己命名你就省了這步；二是下載前花一分鐘把系統的下載偏好設成依姓名命名（如果有）。先用 csv 把這次的清掉，之後就清爽了。"
+    }
+  ]
+}

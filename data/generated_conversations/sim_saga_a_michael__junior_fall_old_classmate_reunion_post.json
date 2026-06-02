@@ -1,0 +1,89 @@
+{
+  "id": "sim_saga_a_michael__junior_fall_old_classmate_reunion_post",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "改嫁後升上高二，舊國中朋友的群組他已經幾個月沒回過訊息",
+    "高二上他刻意把 IG 經營成競賽、書單、模聯的學術人設",
+    "最近一次家族聚會被安排坐到大伯那桌，回家後一連幾天沒更新限動",
+    "沈又家近期開始跟他家走動，他多了一個同類但反方向的點頭之交"
+  ],
+  "scenario_seed_id": "junior_fall_old_classmate_reunion_post",
+  "scenario_seed": "高二上某個深夜，一個改嫁前的國中舊同學突然私訊他一張上週同學會合照，配一句『你怎麼整個人間蒸發』。Michael 表面只是想要一個得體不尷尬的回覆版本，過程中滑到舊生活圈被清空的孤立感，但在快碰到核心歸屬傷口前自己收回去刷 AMC 模擬題。",
+  "generated_at": "2026-05-24T10:10:53Z",
+  "occurred_at": "2024-10-22T23:47:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個很無聊的問題。我以前國中一個同學剛剛私訊我，丟了一張他們上禮拜同學會的合照，配一句『欸你怎麼整個人間蒸發』。我不知道要怎麼回比較不尷尬，你幫我想個版本。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來是那種突然被 cue 到、有點措手不及的訊息。你是想回得像沒事一樣帶過去，還是其實有點想跟他重新接上？"
+    },
+    {
+      "role": "user",
+      "content": "就⋯⋯回得得體就好。我現在跟那群人已經沒什麼交集了，也不可能真的跑回去參加同學會。給我一個三句以內、看起來很忙但又沒有不理人的版本就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以這樣：『最近真的被一堆東西埋住，看到照片有點懷念欸，改天約。』不解釋太多、又留了一道門。你說『沒什麼交集了』，是這一兩年慢慢淡掉的嗎？"
+    },
+    {
+      "role": "user",
+      "content": "算是吧。我搬家之後整個生活圈等於重開機，soft reboot 那種。國中那群人對我來說已經是上一個 save file 了，我連他們現在在幹嘛都不知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "重開機之後的新存檔裡，有沒有那種你不用經營、可以直接耍廢的人？"
+    },
+    {
+      "role": "user",
+      "content": "新的這邊⋯⋯比較像 networking 吧。大家都很客氣、很得體，但你懂的，得體跟熟是兩回事。沈又勉強算一個，可是我們也才認識一年多，沒什麼共同回憶可以聊。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以那張同學會合照其實有點刺，因為它是少數還記得『改版前的你』的一群人。"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯你不要分析我喔。我只是覺得有點奇怪而已。那張照片裡每個人我都認得，但裡面沒有我也很合理，因為是我自己先消失的。算了這太 emo 了，回到正題。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，不分析。那我們就回正題。"
+    },
+    {
+      "role": "user",
+      "content": "我剛剛那個版本『改天約』會不會反而給他期待？我其實沒有要真的約。我不想騙人，但也不想開一張我不會兌現的支票。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把『改天約』拿掉，只留懷念跟在忙：『最近被埋住了，看到這張有點懷念，謝謝你還記得揪我。』這樣每個字都是真的，又沒有承諾什麼。"
+    },
+    {
+      "role": "user",
+      "content": "『謝謝你還記得揪我』⋯⋯這句有點太真了吧。但好像也還好。我用這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，有時候太真的那句反而最好回。你要現在就傳，還是放著明天再看一眼？"
+    },
+    {
+      "role": "user",
+      "content": "放著吧。我等下還要刷一套 AMC 模擬題。明天再說，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，AMC 加油。要回的時候那句已經在那了。"
+    }
+  ]
+}

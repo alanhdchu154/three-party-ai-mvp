@@ -6,10 +6,10 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 13 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 10 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/keer.json`
@@ -23,17 +23,18 @@
 - `ev_009` coordinator_report · medium · synthetic-only · watch signals · `existing artifact`
 
 ## What we infer
-- 需要被一個大人正面確認『她不是備胎』、且這個確認不能來自母親（她不信母親的稱讚）
-- 需要家中至少一個成員用她的名字、而非她的功能（妹妹、開心果）跟她說話
-- 需要一個不被觀眾佔據的私人空間，能不為了被看見而做一件事
-- Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
-- Primary support need appears connected to `family_dynamics`; treat this as synthetic benchmark inference, not diagnosis.
+- 需
+- 要
+- 一
+- 個
+- 能
+- 直
 
 ## Three-Party Coordination Snapshot
 ### Student
-- Observed signals: 在家族結構中是否為『正統血脈』的根本身份焦慮（自己 vs 哥哥 vs 堂姊）, 感受到母親對哥哥的偏愛、卻表面被當公主的雙重訊號、因此不信任何家人的稱讚, 對生父（某個具體細節）的針對性傷口比對家族長輩的冷漠更痛——他是親生父親卻只給『公平』, 以『可愛／開心果』作為盔甲、害怕拿掉之後後面是空的
-- Inferred needs: 需要被一個大人正面確認『她不是備胎』、且這個確認不能來自母親（她不信母親的稱讚）, 需要家中至少一個成員用她的名字、而非她的功能（妹妹、開心果）跟她說話, 需要一個不被觀眾佔據的私人空間，能不為了被看見而做一件事
-- Privacy constraints count: 5
+- Observed signals: not available
+- Inferred needs: not available
+- Privacy constraints count: 100
 ### Parent
 - Expressed concerns: not available
 - Likely needs: not available
@@ -55,16 +56,16 @@
 
 ## What we must not reveal
 - Coordinator marked 4 private detail categories that must not be shown verbatim.
-- Student profile has 5 do-not-share items; summarize only themes.
+- Student profile has 100 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜問完 AI 一個『假設性問題』後，直接補寫一句『其實我想問的是＿＿』，不給任何人看
-- for_student: 挑一頓家族飯不當開心果，安靜當個普通人，當人類學家觀察：沒有妳炒氣氛，那頓飯會怎樣
-- for_parent: 由母親（不是生父）主動安排一次只跟她兩人的 某個具體細節鐘活動，內容完全由她選（即使是去買髮夾），中間不問任何關於哥哥或學業的事
-- for_parent: 若她問一個怪的假設問題（像『一個人在飯桌被跳過』），不要直接給答案，先問『妳怎麼會想到這個』
-- for_teacher: 在隨機時刻叫她的名字、而非『某個具體細節同學』或『妹妹』，給她一個被當作個體而非角色看見的微訊號
-- for_teacher: 若她突然問一個怪問題，停三秒，回『妳想得真細，妳怎麼想到這個？』而非直接答
+- for_student: 今晚就把那句私訊傳給那位同學（短、認錯、不解釋一堆），傳完早點睡
+- for_student: 這禮拜挑一個信得過的人，試著在不開玩笑的情況下講一件你今天真的覺得累的小事，看看會怎樣
+- for_parent: 這禮拜找一次她彈琴或做作業時，只問『這首/這個是你自己想做的嗎』，把焦點放在她的選擇而不是表現好不好
+- for_parent: 她講班上朋友的事時，把它當她自己的事認真聽完，不要轉成『你人緣真好』這種誇獎就帶過
+- for_teacher: 這禮拜找一個她沒在搞笑的時刻、單獨跟她講一句具體的肯定（例如她主動處理同學衝突那件事），讓她知道搞笑以外的她也被看見
+- for_teacher: 點名發言或分組時，給她一個不需要靠耍寶就能發光的位置（例如她有把握的鋼琴或她擅長的科目）
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -74,10 +75,9 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 她對某個家庭活動（家族聚餐、出遊）是否突然出現『不想去』
-- 她對哥哥或堂姊的挑釁是否從試探升級為主動傷害
-- 她在 AI 端的假設性問題是否出現更明確的負面假設（如『一個人不存在這個家會不會更好』）——此為升 某個具體細節 某個具體細節emotional_safety 的關鍵指標
-- 她那個私人創作是否消失——那會是她最後一塊不被觀眾佔據的空間被收掉的訊號
+- 若她開始連玩笑都少了、在群組明顯安靜下來且持續超過一兩週
+- 若家族聚會或被略過的場景之後，出現比修辭性自貶更持續的低落或反芻
+- 若『搞笑以外沒人要我』從一句玩笑變成她反覆認真講的主題
 
 ## Contradictions / Review Flags
 - No major contradiction detected by deterministic checks.

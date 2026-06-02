@@ -1,0 +1,89 @@
+{
+  "id": "sim_saga_a_keer__friend_birthday_clashes_with_family_dinner",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "junior_high_grade_2_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "Michael 已搬出家裡入住 GIIS senior 宿舍快兩個月，週末才回家",
+    "這禮拜五晚上大伯主持 Michael 高三畢業前最後一次家族晚餐，全家必到",
+    "小晴生日訂在禮拜五下午 SOGO 看新出腮紅，因為她爸禮拜六要帶她去日本",
+    "上次 Michael SAT 出分當天 Keer 去鋼琴課，回家媽說『可兒妳真的很穩』，Keer 接到的是另一種味道"
+  ],
+  "scenario_seed_id": "friend_birthday_clashes_with_family_dinner",
+  "scenario_seed": "小晴生日這禮拜五下午約去 SOGO 看新出的腮紅，同一個晚上是大伯主持 Michael 畢業前最後一次家族晚餐，媽要 Keer 三點前回家換衣服。她想去 SOGO 又不想被媽用那種眼神看，來問 AI 怎麼安排這個下午。",
+  "generated_at": "2026-05-26T22:35:00+08:00",
+  "occurred_at": "2026-05-26T22:35:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我朋友約我這個禮拜五下午去 SOGO 看新出的腮紅 我超想去 可是那天晚上是大伯主持的家族晚餐 我哥畢業前最後一次 我媽叫我三點前回家換衣服"
+    },
+    {
+      "role": "assistant",
+      "content": "時間蠻擠的。妳現在比較想知道要不要去 還是想先講一下這個情況讓妳卡卡的點"
+    },
+    {
+      "role": "user",
+      "content": "我也不知道欸 就兩邊都怪 去了我媽會用一種怪怪的眼神看我 不去我就要中午就開始坐在家裡等晚餐"
+    },
+    {
+      "role": "assistant",
+      "content": "那個眼神 妳之前有遇過類似的嗎"
+    },
+    {
+      "role": "user",
+      "content": "有啊 上次我哥 SAT 出分那天我去鋼琴課 回來我媽說『可兒妳真的很穩』 我聽起來不是誇獎"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯 那句話表面像稱讚 但妳接到的好像是另一個東西"
+    },
+    {
+      "role": "user",
+      "content": "對啊就是『妳怎麼這時候還在搞妳自己的事』 可是她沒這樣講 我就沒辦法反駁"
+    },
+    {
+      "role": "assistant",
+      "content": "這種沒說出口的判斷確實很難應付 妳一開口就變成是妳小題大作"
+    },
+    {
+      "role": "user",
+      "content": "啊算了啦 反正那場晚餐我有沒有早回家也沒差 真正主角是我哥"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下 「我有沒有早回家也沒差」這句 是隨便講還是真的這樣覺得"
+    },
+    {
+      "role": "user",
+      "content": "...就隨便講的啦 不要存"
+    },
+    {
+      "role": "assistant",
+      "content": "可以不存這句 不過我記得妳今天有提過這個感覺 之後想回來看再說。我們先回到禮拜五 — 妳朋友的局是固定禮拜五 還是有彈性"
+    },
+    {
+      "role": "user",
+      "content": "是小晴生日的局 她爸禮拜六要帶她去日本 只有禮拜五下午"
+    },
+    {
+      "role": "assistant",
+      "content": "那這場就有理由 不是隨便逛街。如果妳想去 跟妳媽的版本可以是『小晴生日只能那天』 妳兩點半離開 三點到家來得及換衣服"
+    },
+    {
+      "role": "user",
+      "content": "噢 對欸 我就講小晴生日 不用扯到『我也想出門』這種話 我媽聽到『生日』比較不會 push"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯 妳想用這個版本先跟妳媽試試嗎 如果她臉色不對 再回來找我 我們再看怎麼接"
+    }
+  ]
+}

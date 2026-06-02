@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_shen_mom__xiaohongshu_autumn_tea_caption",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "autumn_first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "太太圈秋季社交季開跑，會所連著辦了幾場活動",
+    "她最近固定參加會所的宋式點茶 / 茶道 workshop",
+    "下個月已約 Michael 媽一起飛東京"
+  ],
+  "scenario_seed_id": "xiaohongshu_autumn_tea_caption",
+  "scenario_seed": "會所辦秋季宋式點茶茶席，沈媽拍了一張茶席配桂花、青瓷茶碗的照片，想發小紅書，來找 AI 幫忙琢磨一段看起來不經意、有品味但不炫耀的配文。她很挑剔，嫌現在那種『儀式感』口號太用力，要求別堆形容詞。發生在秋天的下午。",
+  "generated_at": "2026-05-24T09:10:02Z",
+  "occurred_at": "2024-10-21T16:50:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我想個小紅書配文。今天會所辦了個秋季茶席，宋式點茶那種，我拍了張茶席的照片，一枝桂花配青瓷茶碗，光線蠻好的。配文不要太用力，現在小紅書上那種『歲月靜好』『生活需要儀式感』我看了就累，太刻意。要看起來像隨手記一下，但又不能太隨便。"
+    },
+    {
+      "role": "assistant",
+      "content": "明白，你要的是「不經意的講究」。給你三個調子挑：一、只寫物不寫情緒，像「桂花落進茶湯的那一下」；二、寫一個手上的細節，像「點到第七下才起沫」；三、半句留白，像「秋天的下午，剛好夠慢」。哪個比較像你？"
+    },
+    {
+      "role": "user",
+      "content": "第二個『點到第七下才起沫』還行，有點東西，不像在喊口號。但你這句太短了，看起來像沒寫完。再順一點，但別給我加一堆形容詞。我最怕那種一句話塞五個成語的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這樣：「點茶要到第七下才起沫，急不得。秋天也是。」兩句，前句寫手上的事，後句帶一點季節，不解釋、不抒情。想再收一點，第二句也能拿掉，只留「急不得」三個字。"
+    },
+    {
+      "role": "user",
+      "content": "「點茶要到第七下才起沫，急不得。秋天也是。」——這個可以。『秋天也是』有點意思，沒說破。不過我在想要不要提一下這是會所辦的，不然人家以為我自己在家弄的，反而像在裝。"
+    },
+    {
+      "role": "assistant",
+      "content": "正文不用寫。正文越乾淨，越像你不在意。要交代場合，丟一個低調定位、或一個小 tag 就夠了，看得懂的人自然懂，看不懂的也不會覺得你在報地點。正文還是留「急不得，秋天也是」。"
+    },
+    {
+      "role": "user",
+      "content": "對，tag 就好。那配圖我只放茶席那張，還是把旁邊插花那盆銀杏也放進去？兩張會不會顯得我發太多、太用力。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩張不算多，但第二張要跟第一張同一個氣口。銀杏那盆如果顏色、構圖跟茶席那張呼應就放；如果是另一個明顯不同的場面，會像在湊數，那寧可只留一張。你本來要的就是不用力，寧缺勿湊。"
+    },
+    {
+      "role": "user",
+      "content": "行，那茶席一張，銀杏那張我自己再看。配文用你那兩句。……你倒是比我那幾個太太朋友會講話，她們發的我都不好意思點讚。"
+    },
+    {
+      "role": "assistant",
+      "content": "能幫上就好。發之前自己再唸一遍，順口就發、卡一個字就換掉那個字——這種分寸感你本來就比工具準。"
+    }
+  ]
+}

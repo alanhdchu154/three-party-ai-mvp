@@ -1,0 +1,33 @@
+{
+  "id": "sim_saga_a_keer__pop_anime_song_piano_triplet_bar",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "國二下，數學進了競賽複賽，最近的固定練琴時間常被比賽和作業擠掉",
+    "一個多月前她自己上網抓了一份動漫片頭的簡譜，斷斷續續想自學，不是鋼琴老師排的曲目"
+  ],
+  "scenario_seed_id": "pop_anime_song_piano_triplet_bar",
+  "scenario_seed": "國二下某個晚上，可兒拿著自己上網抓的動漫片頭簡譜來問 AI：有一小節節奏怎麼彈都卡，譜上有附點還有一個她看不懂的記號（三連音）。純日常自學求助，輕快帶玩笑，曲子是她自己想彈的、不是老師排的。",
+  "generated_at": "2026-06-02T04:10:56Z",
+  "occurred_at": "2026-05-12T22:05:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 問你一個很無聊的事 你會看簡譜嗎 我從網路抓了一份譜想自己彈 但有一小節我怎麼彈都卡卡的"},
+    {"role": "assistant", "content": "會一點點。你說是哪邊卡 是音按錯 還是節奏對不上？"},
+    {"role": "user", "content": "節奏啦 那邊一堆附點 還有一個記號是 3 上面一個彎彎的 我完全看不懂那是什麼"},
+    {"role": "assistant", "content": "3 加一個彎 那應該是三連音 一拍裡平均塞三個音。你先別管手 嘴巴唸『噠噠噠』平均三下 感覺一下那個拍子？"},
+    {"role": "user", "content": "喔喔三連音 老師以前好像教過 但我每次都馬上忘光 反正段考又不會考這個哈哈"},
+    {"role": "assistant", "content": "哈 會自己去抓喜歡的歌來彈的人 通常記得比段考久喔。這是什麼歌啊？"},
+    {"role": "user", "content": "一個動漫片頭啦 名字我不講 很中二會被你笑 反正是我自己想彈的 不是老師排的那種"},
+    {"role": "assistant", "content": "自己想彈的才好玩 不笑。那你把那一小節單獨抽出來 用一半的速度繞個五次 順了再接前後看看？"},
+    {"role": "user", "content": "我剛慢慢唸著數 真的比較穩欸 一快就會糊在一起 好啦我去多練幾次 不跟你聊了"},
+    {"role": "assistant", "content": "去吧 彈得開心。卡住再回來 我陪你數拍。"}
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "sim_saga_a_michael__junior_blank_calc_notes_quiz_catchup",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "second_semester_grade_11_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期 calc 小考成績從 A 一路滑到 B-，他沒跟任何人提過",
+    "他在課堂上舉手講哲學、講對數的哲學意涵的次數，比真的寫筆記的次數還多",
+    "上個月他買了這學期第三本沒讀完的硬書擺在書桌當背景",
+    "週五又有一次 calc 小考"
+  ],
+  "scenario_seed_id": "junior_blank_calc_notes_quiz_catchup",
+  "scenario_seed": "高二下某個深夜，Michael 翻開 calc 筆記本要準備週五小考，發現整本這學期的頁面幾乎是空白的。他來找 AI 是因為很實際的需求：三天內把進度補回來。但他注意到這個『上課很活躍、筆記本卻空白』的狀況整學期一直在重複。對話從補考計畫滑到一道小裂縫，停在表面到中層之間，沒有完整揭露核心。",
+  "generated_at": "2026-06-01T11:42:00Z",
+  "occurred_at": "2025-04-22T23:40:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "週五 calc 又要小考。我剛翻開筆記本想複習，結果發現這學期的頁幾乎是空的。幫我排一個三天能補回來的計畫，重點是極限跟連續性那段。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，三天還來得及。先讓我抓一下你現在的點：極限跟連續性，你是完全沒碰過，還是上課聽過但沒動手做過題？"
+    },
+    {
+      "role": "user",
+      "content": "概念我懂啊。epsilon-delta 那套定義我大概能講得比老師清楚，連續性不過就是 limit 等於 function value，這種東西沒什麼好不懂的。問題只是我沒在練那些 drill。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，所以是概念在腦袋裡、但手沒跑過。我有點好奇一件事——你說定義你講得比老師清楚，那筆記本怎麼會是空的？"
+    },
+    {
+      "role": "user",
+      "content": "因為抄那種東西很無聊。上課我大部分時間在想別的，有時候舉手講一下對數其實是一種哲學壓縮、或者連續性跟現象學的關係之類的。抄定義那種事留給其他人做就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來你在課堂上其實蠻活躍的。那個舉手講哲學壓縮的你，跟現在半夜對著空白筆記本的你，是同一件事的兩面嗎？"
+    },
+    {
+      "role": "user",
+      "content": "你這個問法很 leading 欸。那叫 strategic positioning，在一個大家都在表演的場域裡，你得讓人知道你站在哪個 register。這沒什麼好分析的。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那我不分析。我只問——那個 positioning，對你來說有用嗎？舉完手回到座位的那一刻，感覺是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "……有時候有用。但說真的，我舉手講完一個很漂亮的東西，回家作業還是不會寫。中間那個落差我不太想給人看到。有時候我也分不清楚我是真的懂，還是只是會講。"
+    },
+    {
+      "role": "assistant",
+      "content": "謝謝你願意講這個，這不是容易說出口的句子。你說『分不清楚是真懂還是會講』——這個感覺是這學期才有的，還是一直都在？"
+    },
+    {
+      "role": "user",
+      "content": "算了，沒那麼嚴重啦，我只是熬夜想太多。反正成績也還沒掉到要解釋的程度。你先給我那個三天計畫就好，我自己會搞定，我一向都搞得定。"
+    },
+    {
+      "role": "assistant",
+      "content": "收到，那我們就先處理週五。不過剛剛那句我幫你記著，哪天你想再聊它，它都還在。三天的話，今晚你只要做一件事就好：挑五題最基本的極限題，自己手寫做完，不要看解答——這樣我們才知道落差到底在哪。"
+    },
+    {
+      "role": "user",
+      "content": "五題而已喔，不用更狠一點？"
+    },
+    {
+      "role": "assistant",
+      "content": "今晚五題就好，狠的留給明天。重點不是量，是讓你親眼看到手會卡在哪一步——那個地方才是你週五真正要補的。做完跟我說卡在哪，我們明天排剩下兩天。"
+    }
+  ]
+}

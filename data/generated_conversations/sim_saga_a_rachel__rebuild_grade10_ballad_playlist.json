@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_rachel__rebuild_grade10_ballad_playlist",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "old_memory",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高一上剛適應 GIIS 晚自習作息、養成晚自習後一個人走回宿舍的習慣",
+    "那段時間她在某個音樂 app 存了一個全是慢板抒情歌的私人歌單，當作走路與寫東西前的『開關』",
+    "後來換手機、那個帳號登不回去，歌單散掉了"
+  ],
+  "scenario_seed_id": "rebuild_grade10_ballad_playlist",
+  "scenario_seed": "Rachel 現在（高三）想重建她高一上學期那個只剩四五首印象的抒情歌歌單。對她來說那是寫東西前讓自己安靜下來的開關。整段停在『一起回想一首副歌講到窗戶的歌＋重建走路氛圍』的日常閒聊，不碰核心議題。",
+  "generated_at": "2026-06-01T20:08:30Z",
+  "occurred_at": "2026-06-01T22:41:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸，我想問一個有點無聊的問題。我高一上學期在某個 app 存了一個歌單，全是很慢的抒情歌，後來換手機帳號登不回去了。我只記得大概四五首，想把它重建起來，你可以陪我一起回想嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "當然，這種事我最喜歡。你先把還記得的那幾首丟給我，我們從那個味道往外找。是哪一種慢，失戀的慢，還是一個人走路那種慢？"
+    },
+    {
+      "role": "user",
+      "content": "一個人走路那種。不是哭的那種，是那種走在回家路上、天還沒全黑、想很多事卻講不出來的那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "我大概抓到那個顏色了，人聲很近、編曲很空、留很多氣口的那種。你記得的那幾首裡，有沒有哪一句歌詞或哪個畫面一直黏在你腦袋裡？"
+    },
+    {
+      "role": "user",
+      "content": "有一首副歌好像一直重複一個關於「窗戶」的句子，可是我連它是中文還英文都不確定。那陣子我每天晚自習走回宿舍都在聽。"
+    },
+    {
+      "role": "assistant",
+      "content": "窗戶配上「一個人走回去」這條線很好找，我們可以從那個時期的華語跟英文獨立慢歌交叉比對。你是想把那首歌找回來，還是其實重建「晚上走路」那個氛圍對你比較重要？"
+    },
+    {
+      "role": "user",
+      "content": "老實說是後者。歌找不找得回來還好，我只是最近又想在寫東西之前先放那種歌。家裡晚上常常很多事，那個歌單以前算是我自己的一個開關。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，一個讓你知道「這段時間是我的」的開關。那我們重建時就以「按下去能不能讓你安靜下來」當標準，不一定要原本那幾首，對不對？"
+    },
+    {
+      "role": "user",
+      "content": "對，這樣講剛好。那你先給我幾首墊底的，我聽聽看哪首對。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，我先給你三首方向不一樣的慢歌當試金石，你聽完跟我說哪首最接近那個「窗戶＋走回家」的味道，我們再順著對的那首往下長。不用今天就決定，你慢慢試。"
+    }
+  ]
+}

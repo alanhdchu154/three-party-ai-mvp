@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_shen_mom__club_autumn_dinner_outfit_pick",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10_autumn",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高一上沈又剛進上海私立高中，成績比國中下滑但家裡還沒大動作",
+    "暑假飛東京採買、秋天會所季又開檔，太太圈聚會回到密集節奏",
+    "她與丈夫長期分房、各自社交，對外維持董娘形象不變"
+  ],
+  "scenario_seed_id": "club_autumn_dinner_outfit_pick",
+  "scenario_seed": "高一上學期秋天。林太太作東的會所秋季晚宴在週六，一桌都是原配董娘。沈媽在兩套衣服間拿不定——一套剛到的訂製、一套去年穿過的舊款——找 parent-AI 幫她判斷哪套比較得體、不顯得用力。日常物件：會所、Hermès、太太圈。",
+  "generated_at": "2026-05-23T15:12:30Z",
+  "occurred_at": "2024-10-23T16:40:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我拿個主意。週六林太太在會所作東，一桌都是老面孔。我兩套衣服挑不定，一套是上個月剛到的訂製套裝，沒上過身；一套是去年秋天穿過一次的，墨綠那件。你說哪套合適？"
+    },
+    {
+      "role": "assistant",
+      "content": "得看這場的調性。林太太作東這種，是偏正式的晚宴、還是熟人圈坐下來吃頓飯、彼此都很熟那種？另外問一句：這桌人裡，會不會有人對誰穿新、誰穿舊特別上心？這兩點定了，哪套合適就清楚了。"
+    },
+    {
+      "role": "user",
+      "content": "半正式吧，不是大場面，但也不是隨便。人都是十幾年的老克勒，眼睛毒得很，誰換了新東西一眼就看出來。我不想穿得像硬要壓誰一頭，可也不能顯得寒酸。"
+    },
+    {
+      "role": "assistant",
+      "content": "那我選墨綠那件去年的。一桌眼睛毒的熟人裡，剪裁合身、自己穿得住的舊款，比一身全新的更顯得從容——新到沒上過身的那套，容易被解讀成『今天特地端出來的』，反而著了痕跡。訂製那套留著去一個生面孔多、需要立場面的場子，更划算。週六這種，墨綠剛剛好。"
+    },
+    {
+      "role": "user",
+      "content": "有道理。那配件呢？包我在新到的那只 Kelly 跟用了兩三年的舊 Birkin 之間猶豫，首飾要不要也戴重一點。"
+    },
+    {
+      "role": "assistant",
+      "content": "包也走同一個邏輯，帶那只舊 Birkin。用了兩三年、有自然痕跡的，比嶄新那只更沉得住氣，跟墨綠舊款也是一套思路。首飾我建議收一點——一對好耳環加一只戒指就夠，越是這種熟人桌，少而對的反而更顯分量。整身留一處看得出講究就行，不必處處都響。"
+    },
+    {
+      "role": "user",
+      "content": "行，就這麼定。這種飯局穿錯一件，能被人在背後講半個月，麻煩。"
+    },
+    {
+      "role": "assistant",
+      "content": "我懂，這種桌子確實是這樣。墨綠加舊 Birkin、首飾收著，分寸是穩的，週六放心去就好。要是臨出門前還想再對一眼，隨時叫我。"
+    }
+  ]
+}

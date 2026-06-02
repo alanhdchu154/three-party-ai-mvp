@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_alan_teacher__grade11_class_warmup_set_drafting",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "grade_11_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期接了一個高二數學班，學生上課前十分鐘總是還沒進入狀況",
+    "AMC 報名快截止，幾個學生問他要不要報",
+    "上週月考剛改完，平均比他預期低一點"
+  ],
+  "scenario_seed_id": "grade11_class_warmup_set_drafting",
+  "scenario_seed": "高二上學期某個傍晚，Alan 在辦公室準備下週的數學課。他想在每堂課開頭放三題短的暖身題把學生叫醒，最好帶一點 AMC 味道但不要吃掉太多上課時間，來問 AI 幫他抓題型跟難度。",
+  "generated_at": "2026-05-23T07:10:24Z",
+  "occurred_at": "2024-11-12T17:42:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我想一下下週數學課的暖身題。我那個高二班前十分鐘永遠在放空，我想每堂開頭丟三題短的把他們叫醒，最好有一點 AMC 那種味道，但不要太硬、不要吃掉我半節課。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。先抓一下範圍：你想全是計算速度型的，還是要一兩題需要想一下的轉折題？另外這班整體程度大概落在哪，是普遍跟得上、還是要照顧後段？"
+    },
+    {
+      "role": "user",
+      "content": "兩種都要一點。第一題讓所有人都能下筆,有成就感;第二題中等;第三題留給想多想的人。程度中間偏上,後段大概四五個會卡。"
+    },
+    {
+      "role": "assistant",
+      "content": "那給你一個三題的模板。第一題放代數小技巧,像「a+b=5、ab=6,求 a²+b²」這種一行就能解、用恆等式秒殺的;第二題放一個簡單計數或機率,逼他們列情況但不會卡死;第三題放一題 AMC 風的數論或幾何小轉折,給想衝的人。每題我建議限三分鐘,三題十分鐘剛好。"
+    },
+    {
+      "role": "user",
+      "content": "第一題那個我喜歡,乾淨。a²+b² 就 (a+b)²-2ab=25-12=13 嘛,正好考他們記不記得恆等式。第三題你說的數論大概長怎樣?別太偏。"
+    },
+    {
+      "role": "assistant",
+      "content": "對,就是要逼出那個恆等式。第三題可以放餘數類的,例如「2024 除以 7 餘多少」或「找最小的正整數 n 使 3n 除以 5 餘 1」,概念單純但要他們動一下、又不需要背公式。如果想偏幾何,就放一題已知兩邊夾角求面積的,一樣三分鐘內能收。"
+    },
+    {
+      "role": "user",
+      "content": "可以,那我就照這個架構自己出五套輪著用。一次出五週的我就不用每週臨時抱佛腳了。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣最省力。出的時候順手把答案跟一行解法寫在同一頁,免得你上課還要現算;後段那四五個學生,第一題保證他們下得了筆就夠了,別要求三題都全對。要的話我可以幫你把第一週那三題的完整答案排成一張你直接印的版型。"
+    },
+    {
+      "role": "user",
+      "content": "好啊,第一週那三題的答案版幫我排一下,我等等貼進去印。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。第一週：(1) a+b=5、ab=6,求 a²+b²,答案 13,解法 (a+b)²-2ab；(2) 一個四選一的簡單計數題你填數字即可,答案隨你定的版本；(3) 2024 除以 7 餘 1,因為 7×289=2023。版型就「題目／答案／一行解法」三欄,印一張壓在講桌上就行。"
+    }
+  ]
+}

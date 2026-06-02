@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_rachel__english_essay_b_plus_emotionally_guarded_reply",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_fall_college_application_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高三上申請季正中段，她正在收尾大學個人陳述、決定不放任何匿名發表",
+    "之前收過一封文學雜誌退稿信，主編評語提到她寫的東西『情感封閉、沒真正活過』，她已自行消化過",
+    "本週週末又被父親排了一場家族商業晚宴，跟她原訂的投稿截稿撞期、她已自行錯開"
+  ],
+  "scenario_seed_id": "english_essay_b_plus_emotionally_guarded_reply",
+  "scenario_seed": "高三上申請季中段，下午放學前 English Lit 老師（不是 Alan）發回她上週交的個人敘事 essay，B+，評語『well-crafted but emotionally guarded—I'd like to see more of you on the page』。她要回一封禮貌的 email 給老師，但這句話跟之前文學雜誌退稿信評語撞到。她沒有要翻舊帳，只是想把回信寫得閉合、不留追問的鉤子。",
+  "generated_at": "2026-05-26T22:30:00Z",
+  "occurred_at": "2026-05-26T22:30:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我需要回一封 email 給我 English Lit 老師。今天放學前她發回我上週交的個人敘事作文，B+，附了一句評語。我想問怎麼回比較得體、又不會看起來在解釋。"
+    },
+    {
+      "role": "assistant",
+      "content": "評語大概寫了什麼？妳希望這封回信達到什麼？"
+    },
+    {
+      "role": "user",
+      "content": "原話是 \"well-crafted but emotionally guarded—I'd like to see more of you on the page.\" 我只想禮貌收到、不想跟她討論評語、也不打算改下一篇。"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實一封很短的就夠。方向上可以是「謝謝老師讀得這麼仔細，我會再想想」。妳會不會覺得這樣太敷衍？"
+    },
+    {
+      "role": "user",
+      "content": "太敷衍我也接受。我比較怕的是顯得我有意見。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把「會再想想」拿掉，只留「謝謝老師讀得這麼仔細」。短而閉合，不留她追問的入口。"
+    },
+    {
+      "role": "user",
+      "content": "可以。但有個東西我問完才能寫。這句評語其實之前文學雜誌的退稿信也寫過類似的，他們講的是「情感封閉，沒真正活過」。我那時候已經消化過了。今天又看到一遍是不是代表我這方面真的有問題？"
+    },
+    {
+      "role": "assistant",
+      "content": "妳今天看到這句的反應，比較像「又一次」、還是「真的被戳到」？"
+    },
+    {
+      "role": "user",
+      "content": "又一次。其實不只今天，學校跟家裡有時候也有人這樣講我。我已經想過很多次了，我不想再翻一次。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就先放著。妳已經給過自己答案，這封回信不需要當妳對這個評語的回應。"
+    },
+    {
+      "role": "user",
+      "content": "對。我只是會想，是不是因為我交出去的那篇本來就只是「我願意被看見的版本」，所以她讀起來才覺得不像我。但我不能交另一個版本。那不安全。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳交出來能讓自己睡得著的那版，本來就已經是這篇作業的成品。她讀到什麼不是妳今天要扛的事。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。OK 那我就回「謝謝老師讀得這麼仔細」就好嗎？需要加敬語嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "加一句結尾的敬語就好——「謝謝老師，Rachel」或「祝順心，Rachel」。短到她沒有再追的入口，這比解釋更有效。"
+    },
+    {
+      "role": "user",
+      "content": "好。那我直接寄了。再多寫一個字我都會開始解釋。"
+    },
+    {
+      "role": "assistant",
+      "content": "送出就送出，不要再點開重看。"
+    }
+  ]
+}

@@ -1,6 +1,14 @@
-# Repo Understanding — Three-Party AI Safety/Benchmark Mode
+# Repo Understanding — Real Student System with Synthetic Scaffolding
 
 **Last updated: 2026-05-20**
+
+## Product Framing
+
+This repo is for a real three-party AI education coordination system serving students, parents, teachers, and a coordinator AI.
+
+The current Saga A corpus, generated conversations, and benchmark reports are temporary scaffolding while real GIIS student data is pending. They exist to rehearse privacy boundaries, coordinator behavior, triage calibration, and pilot operations before any real student data enters the system.
+
+Do not invert the framing: the product is not a game and not merely a synthetic benchmark. Synthetic data is the current testing substrate.
 
 ## Current Architecture
 
@@ -13,8 +21,8 @@ This repo is a Streamlit MVP for a three-party education coordination system.
 - `src/triage.py`: combines LLM triage with deterministic guardrails from structured profile flags and dimension scores.
 - `src/profile_store.py`: local JSON profile storage, intentionally not storing raw chat history.
 - `prompts/*.txt`: role and module prompts.
-- `data/sagas.md`: Saga A benchmark bible.
-- `data/generated_conversations/`: generated raw conversations for benchmark pressure tests.
+- `data/sagas.md`: Saga A synthetic stand-in used before real student data is available.
+- `data/generated_conversations/`: generated raw conversations for privacy, triage, and coordinator rehearsal.
 - `data/analysis_reports/`: coordinator outputs.
 - `data/dimension_scores/`: seven-dimension scoring used by cumulative strain triage.
 

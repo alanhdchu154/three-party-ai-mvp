@@ -1,0 +1,31 @@
+{
+  "id": "sim_saga_a_michael__grade10_ig_caption_being_and_nothingness",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高一上剛轉進 GIIS、母親改嫁後原本的國中社交圈整批斷掉、新班上沒有熟人",
+    "過去一個月在朋友圈陸續貼了幾本厚書的封面照、慢慢累積一個『會讀書』的人設"
+  ],
+  "scenario_seed_id": "grade10_ig_caption_being_and_nothingness",
+  "scenario_seed": "高一上、轉學一個多月。Michael 拍了一張自己拿著《存在與虛無》的照片，想配一句看起來隨手、但又夠聰明的限動文案，當作這一個月人設的收尾。他只翻了開頭幾十頁，主要需求是要一句不會被人追問、又不顯得用力的句子。",
+  "generated_at": "2026-05-31T10:09:00Z",
+  "occurred_at": "2023-10-19T23:42:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "幫我想一句限動文案。我拍了一張拿著《存在與虛無》的照片，想配個看起來隨手、但又有點水準的句子。不要太用力那種。"},
+    {"role": "assistant", "content": "可以啊。你想給人的感覺是『剛好在讀』還是『讀完很有想法』？這兩個語氣會差滿多的。"},
+    {"role": "user", "content": "剛好在讀那種就好。老實說我只翻了開頭幾十頁，不要寫得好像我整本啃完。大概就一句很短、有點 Sartre 味道的。我記得有句『他人即地獄』之類的？"},
+    {"role": "assistant", "content": "那句其實是他另一個劇本裡的，不過拿來當氛圍沒人會跟你計較。給你三個方向：一是『深夜配存在主義，剛好而已』，二是『翻幾頁，先被序章勸退』，三是純放一句『自由是被判定的』。你比較想要哪種溫度？"},
+    {"role": "user", "content": "第二個那個自嘲的好像比較安全。可是會不會有人留言問我讀到哪、然後我就尷尬了。"},
+    {"role": "assistant", "content": "自嘲那句的好處就是先把『我也沒讀完』講掉了，別人比較難追。你要的是一句完全不留問句空間的版本嗎？"},
+    {"role": "user", "content": "對，越不給人接話越好。我也懶得跟人解釋。"},
+    {"role": "assistant", "content": "那就『今晚的份額：三十頁。』句點收掉，沒留鉤子。貼了就別再回去看數字了。"}
+  ]
+}

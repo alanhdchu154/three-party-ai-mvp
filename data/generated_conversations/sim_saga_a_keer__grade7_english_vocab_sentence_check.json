@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_keer__grade7_english_vocab_sentence_check",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_7",
+  "event_timeframe": "second_semester_grade_7",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "國一下換了新的英文老師，開始每週發一張單字表要造句",
+    "鋼琴老師換了比賽的指定曲，週末練習時間變長",
+    "班上重新排座位，跟比較熟的同學坐遠了一點"
+  ],
+  "scenario_seed_id": "grade7_english_vocab_sentence_check",
+  "scenario_seed": "國一下學期，英文老師發了二十個單字要造句。可兒嫌多、想偷懶，先丟幾句給 AI 檢查文法對不對，邊寫邊開玩笑。純粹的作業求助，日常物件是那張英文單字講義。",
+  "generated_at": "2026-05-31T14:10:25Z",
+  "occurred_at": "2025-04-15T21:42:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你喔 英文老師今天發一張單字表 要我們每個字造一個句子 整整二十個耶 有夠煩 我可以直接叫你幫我全部寫完嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "二十個確實有點折磨人。不過全部幫你寫完的話，明天小考你還是不會啊，到時候比現在更煩。這樣好了，你先自己掰幾句，我幫你看文法對不對、哪裡卡卡的，這樣快很多。先丟個三句來。"
+    },
+    {
+      "role": "user",
+      "content": "齁 好啦好啦 那我先給你看三個。第一個字 generous 我寫 My piano teacher is very generous because she give me extra time. 這樣可以嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "句子本身很好，意思很清楚。只有一個小地方：she 後面動詞要加 s，所以是 she gives me extra time。你大概只是手快漏掉了。其他完全沒問題。"
+    },
+    {
+      "role": "user",
+      "content": "喔對 第三人稱單數 我每次都忘 超煩。那 ancient 我寫 The vase in my uncle's house is very ancient. 我大伯家真的擺一堆看起來超舊的花瓶哈哈"
+    },
+    {
+      "role": "assistant",
+      "content": "這句完全正確，而且 ancient 用在花瓶上很到位。要更道地一點的話也可以說 looks ancient，但你原本這樣寫老師一定給對。"
+    },
+    {
+      "role": "user",
+      "content": "好 還有一個 embarrassed 我本來想寫上禮拜的事但有點蠢 就是鋼琴比賽前我手抖到把譜弄掉在地上 I was so embarrassed when I dropped my music sheet. 可以嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，文法完全對。小提醒：樂譜更常講 sheet music 或 my sheet music，不過 music sheet 老師通常也接受，不用改也行。而且拿真實的事來造句，你自己之後更記得這個字。"
+    },
+    {
+      "role": "user",
+      "content": "okay 那這三個我先抄起來。剩下十七個我自己慢慢掰 不要走喔 等下可能還要丟給你看 先這樣 謝啦"
+    },
+    {
+      "role": "assistant",
+      "content": "沒問題，我在。給你一個省力的小撇步：同一個句型可以重複用，只換單字，例如 The ___ in my room is very ___，掰起來會快一半。卡住再丟過來。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sim_saga_a_stepdad__fund_letterhead_drop_group_logo",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "michael_senior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期對外四份文件(LP 季報、兩份共同投資備忘、家族信託摘要)都掛集團 logo、署名排在大伯之後",
+    "三月他自有 fund 的季報仍照慣例 CC 集團法務審稿才發",
+    "上個月一場閉門 LP 會,有 LP 把他的 fund 介紹成『集團的 side investments』"
+  ],
+  "scenario_seed_id": "fund_letterhead_drop_group_logo",
+  "scenario_seed": "後爸這學期一直在弄自有 fund 的下一版 LP 簡報模板。他想跟品牌/法務主管說,新模板把集團 logo 拿掉、只留 fund 自己的標誌。他來問家長 AI 怎麼把這封內部訊息寫得像例行 brand cleanup,而不是『要獨立』。事件不是某一天發生,是他回看這一學期每份文件都掛著集團標誌、署名永遠排在哥哥後面後,慢慢長出來的念頭。",
+  "generated_at": "2026-05-31T09:55:00Z",
+  "occurred_at": "2026-05-31T09:50:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "幫我看一段訊息。我要跟品牌跟法務那邊講,下一版 LP 簡報模板,把集團的 logo 拿掉,只留我們 fund 自己的標誌。我想寫得像例行更新,不要被解讀成別的意思。"},
+    {"role": "assistant", "content": "可以。先確認一件事:你要的是純粹的視覺整理,還是其實連『誰的東西』這個定位也想動?兩種寫法不一樣。如果只是視覺,理由給品牌一致性就夠;如果牽涉定位,訊息就得先想好上面會怎麼接。"},
+    {"role": "user", "content": "視覺。就 brand hygiene。我們 fund 自己的 AUM 七十幾億美金,文件上掛著集團 logo 本來就有點奇怪,LP 看了也會混淆。"},
+    {"role": "assistant", "content": "那理由很乾淨,直接用就好。可以這樣:『下一版 LP 模板統一改用基金自有識別,集團標誌僅保留在需要揭露關係企業的法律頁。請品牌出兩版讓我看。』給的是分工指令,不帶情緒,法務也好接。要不要我幫你補一句時程?"},
+    {"role": "user", "content": "好。不過你提的那個『法律頁還是要掛』,對,那塊省不掉。集團法務這學期我的季報還是會 CC 過去審稿才發。"},
+    {"role": "assistant", "content": "那這就不只是模板問題了。如果發文前都要過集團法務,LP 端看到的『獨立識別』跟流程上的『仍要報備』是兩回事。你這封訊息想處理的是封面,還是其實也想動審稿那條線?"},
+    {"role": "user", "content": "...審稿那條線我暫時不動。動了就太明顯。我只是覺得,這學期我數了一下,對外四份文件全掛集團 logo,署名都排在我哥後面。上個月還有個 LP 當場把我們 fund 介紹成『集團的 side investments』。"},
+    {"role": "assistant", "content": "那個『side investments』被當眾講出來,大概不太好受。先不急著評價它對不對——你今天真正想解決的,是讓外界看到的識別更準,對嗎?那封面這一步是可以自己拍板的,不必碰審稿。"},
+    {"role": "user", "content": "對。封面我能拍板。其實我有時候會想,這六年下來,有什麼東西上面是只有我名字的。一份都很難講。"},
+    {"role": "assistant", "content": "這句你願意說出來,我先記著,不多問。但我注意到一件事:你開頭說這只是 brand hygiene,聊到這裡其實是『想要一件只屬於自己的東西』。這兩個不衝突,只是如果心裡是後者,訊息可以寫得更篤定一點,不用包成例行公事。"},
+    {"role": "user", "content": "不用。包成例行公事比較安全。我要的就是不要被解讀。"},
+    {"role": "assistant", "content": "了解,那就按例行版走,我不勸你改。給你最終版:『下一版 LP 模板改用基金自有識別,法律揭露頁維持現狀。請品牌本週出兩版供我選定,時程不影響本季季報。』乾淨、可執行、不留把柄。"},
+    {"role": "user", "content": "這版好。最後那句『不影響本季季報』很關鍵,加上。免得有人覺得我在趁機搞動作。"},
+    {"role": "assistant", "content": "對,那句就是給可能多想的人一個台階。發出去之前,建議你只寄給品牌跟法務兩個人,不要 cc 太多——範圍越小,越像例行庶務,越不會變成話題。"},
+    {"role": "user", "content": "嗯。就他們兩個。其他人不需要知道。"},
+    {"role": "assistant", "content": "那這件事今天就收得很完整了:封面你自己能定,審稿那條線你選擇先不碰,訊息也寫成不會被過度解讀的版本。如果哪天你想動的不只是封面,我們再分開談那一步,不用混在這封裡。"},
+    {"role": "user", "content": "好。先這樣。其他的以後再說。"},
+    {"role": "assistant", "content": "可以。就寄那兩個人,本週看兩版選一個。需要我幫你擬選定後通知 LP 的那封短信時,再來找我。"}
+  ]
+}

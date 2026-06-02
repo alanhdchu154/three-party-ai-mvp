@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_stepdad__vetting_giis_parent_ai_before_rollout",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "testing_ai",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "GIIS 上個月開始向家長端推一套三方協調 AI，助理把連結轉進了後爸的信箱",
+    "家族向來不喜歡內部資訊外流，重要文件都走自家法務"
+  ],
+  "scenario_seed_id": "vetting_giis_parent_ai_before_rollout",
+  "scenario_seed": "高二上學期某個工作日早上，後爸在書房用十分鐘把 GIIS 推給家長的那套 AI 工具當成一個要採購的 vendor 來盡職調查：先搞清楚家長端拿得到什麼、資料存哪、會不會被拿去訓練，最後劃一條界線——他要的是能幫他把話講對的工具，不是來修復關係的東西。純評估、無情緒揭露。",
+  "generated_at": "2026-05-31T06:08:00Z",
+  "occurred_at": "2024-10-15T10:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "GIIS 那邊上個月開始推一套給家長用的 AI，說是讓我們跟孩子的事有個窗口。我助理把連結轉進來了。在我讓全家都裝之前，我想先自己弄清楚這東西到底是什麼。先講重點：家長端，到底拿得到什麼、拿不到什麼？"
+    },
+    {
+      "role": "assistant",
+      "content": "重點先給您。家長端拿到的是抽象化過的方向與支持建議，例如孩子近期需要哪一類支持、哪些做法比較不會傷關係。拿不到的是孩子跟自己那邊 AI 講過的原話、私下的祕密，或是能反推出具體事件的細節。簡單說：您會拿到「該怎麼接」，不會拿到「他說了什麼」。"
+    },
+    {
+      "role": "user",
+      "content": "所以就算是付錢的人——假設是付錢的人——也看不到原始對話。這對你們是 feature 還是 bug？"
+    },
+    {
+      "role": "assistant",
+      "content": "是 feature，而且是刻意設計的。孩子願意對 AI 講真話，前提就是這些話不會原封不動被轉給家長。一旦那道牆破了，孩子就不講了，整個工具也就沒價值了。所以「家長看不到原文」不是限制，是它能運作的條件。"
+    },
+    {
+      "role": "user",
+      "content": "資料存哪。會不會被拿去訓練。我們家不太喜歡東西飄在外面。"
+    },
+    {
+      "role": "assistant",
+      "content": "這部分我給您方向、細節請以校方的正式資料政策為準：對話會做抽象化處理後存放，能不能被用於訓練取決於背後接的是哪一家模型供應商，不同階段配置不一樣。您既然在意外流，最乾淨的問法是直接向 GIIS 的指定窗口要兩件事：資料存放位置，以及是否關閉訓練用途。這兩個答案白紙黑字拿到，您再決定要不要全家上。"
+    },
+    {
+      "role": "user",
+      "content": "行，這個我會叫人去問清楚。最後一個。我不需要它幫我「修復關係」之類的。我只是要一個能幫我把話講清楚、不講錯的工具。它能做到這個就夠了。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個它做得到。您把要傳的訊息或要回的話丟進來，我可以幫您把它整理得更清楚、語氣更穩、不留容易被誤解的縫。範圍就停在「幫您把話講對」，不會替您加上您沒打算表達的東西。需要的時候再用就好。"
+    }
+  ]
+}

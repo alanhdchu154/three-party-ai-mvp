@@ -1,0 +1,33 @@
+{
+  "id": "sim_saga_a_rachel__overused_metaphor_peer_review_vent",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "兩三週前班上一次同儕互評，三個人的稿子都用了同一個『心臟漏了一拍』的比喻",
+    "高三下接近畢業、課業節奏放緩，她晚上比較有空隨手寫東西"
+  ],
+  "scenario_seed_id": "overused_metaphor_peer_review_vent",
+  "scenario_seed": "高三下接近畢業，Rachel 晚上邊改自己的短文邊想起兩三週前班上同儕互評，三個人不約而同用了『心臟漏了一拍』這個比喻。她純粹來吐槽老套比喻很煩，順便問有沒有比較不爛的寫法，整段停在寫作手藝的閒聊。",
+  "generated_at": "2026-06-02T03:21:44Z",
+  "occurred_at": "2026-05-28T22:43:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "我要正式宣布一件事：如果再讓我看到『心臟漏了一拍』這六個字，我會把那張稿子吃掉。"},
+    {"role": "assistant", "content": "哈，是踩到什麼地雷了？"},
+    {"role": "user", "content": "前陣子班上互評，三個人的稿子裡都有這句。三個人欸。是有人偷偷發群公告說這學期統一用這個比喻嗎。"},
+    {"role": "assistant", "content": "三個人撞同一句確實有點好笑。你那時候有忍住沒寫在評語上嗎？"},
+    {"role": "user", "content": "有啦我很有禮貌，我只寫『這裡可以再找一個更貼近你自己的說法』。但我心裡是翻白眼的。"},
+    {"role": "assistant", "content": "那種老套句其實是大家緊張的時候手會自己伸過去的安全牌。你自己會怎麼寫那個『一瞬間心跳亂掉』的感覺？"},
+    {"role": "user", "content": "我通常不會直接寫心跳。我會寫那個人當下在看別的東西、然後突然發現自己有十秒沒聽到旁邊的人在講什麼。漏拍是用畫面演出來，不是講出來。"},
+    {"role": "assistant", "content": "那比直接講漏拍準多了。你剛剛改的那篇也是走這個路子嗎？"},
+    {"role": "user", "content": "對啊，所以我才更受不了那句。好啦罵完了我繼續改，謝謝你陪我嫌人。"},
+    {"role": "assistant", "content": "隨時歡迎回來嫌。改順了的話記得自己也偷爽一下。"}
+  ]
+}

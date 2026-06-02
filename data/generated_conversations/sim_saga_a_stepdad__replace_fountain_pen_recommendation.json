@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_stepdad__replace_fountain_pen_recommendation",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "michael_senior_spring",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "上個月在一個簽約場合慣用的鋼筆筆尖卡住、當場出了點小狀況",
+    "近期年度健檢 LDL 偏高在追蹤",
+    "剛主持完這一季的 ExCom pre-read"
+  ],
+  "scenario_seed_id": "replace_fountain_pen_recommendation",
+  "scenario_seed": "後爸慣用的簽字鋼筆上個月在一個簽約場合筆尖卡住、當場有點難看，他現在想挑一支低調耐用的替代品，純粹來問 AI 要兩三個方向，跟家庭無關。",
+  "generated_at": "2026-06-01T09:42:00Z",
+  "occurred_at": "2026-06-01T09:40:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我那支簽字用的鋼筆，上個月在一個簽約場合筆尖卡住，當場有點難看。想換一支，不要太張揚，要穩、出墨順。你給我兩三個方向就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "給你三個穩的方向：Pelikan M800、Montblanc 146、Sailor 1911 Large。都是低調耐用、商務簽署常見的中尺寸，出墨順、維修網點也多。要我簡單比一下這三支嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不用比那麼細。我一天簽的東西不少，重點是別漏墨、別在別人面前出狀況。哪一支最不會出包。"
+    },
+    {
+      "role": "assistant",
+      "content": "以「可靠、不漏墨、場合穩」當唯一標準，Montblanc 146 或 Sailor 1911 最省心，兩支都耐操、據點好找。Sailor 尖偏細、回饋紮實，適合快速簽名；146 字跡圓潤一點。任一支配同廠卡水，幾乎不會在場合上出狀況。"
+    },
+    {
+      "role": "user",
+      "content": "知道了。順帶問，這種東西現在還用得上嗎？年輕一輩好像都電子簽了。"
+    },
+    {
+      "role": "assistant",
+      "content": "正式文件和對外場合，手寫簽名加實體筆還是有分量，短期內不會消失；日常流程確實越來越多走電子簽。所以一支好筆現在比較像「重要場合用」，買一支耐用的就夠，不必收一堆。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。就這樣，我自己處理。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。挑定之後若想找保養或補墨的據點，再來問我就行。"
+    }
+  ]
+}

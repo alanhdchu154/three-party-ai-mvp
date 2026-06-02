@@ -1,0 +1,41 @@
+{
+  "id": "sim_saga_a_shen_mom__wives_chat_other_son_summer_program_reply_face",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "fall_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "沈又高一上學期上課秒睡、書包不帶課本，老師約談過一次",
+    "沈媽近半年陸續請私人 tutor 幫沈又處理報告，對外維持『他只是還沒開竅』",
+    "太太圈這半年常有原配董娘曬小孩的成就，沈媽每次都要想怎麼體面回",
+    "沈媽與先生分房已進入第三年，但她在圈子裡完全不提"
+  ],
+  "scenario_seed_id": "wives_chat_other_son_summer_program_reply_face",
+  "scenario_seed": "高一上學期某個傍晚，太太圈群裡一位原配董娘曬自己兒子錄取美國暑期 program 的截圖，一排人跟著恭喜。沈媽盯著手機想怎麼回一句得體又不露怯的話，因為她兒子沈又這學期連課本都不帶。她先當成措辭問題來問 AI。",
+  "generated_at": "2026-05-31T16:40:00Z",
+  "occurred_at": "2025-10-22T17:10:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "幫我想一句話。群裡張太曬她兒子錄取那個美國暑期 program，下面一排人在恭喜，我總得回一句吧。回得太短像我酸她，回得太長又像我巴結。"},
+    {"role": "assistant", "content": "這種訊息確實最難，太短太長都會被解讀。你想給人的印象是大方還是淡淡的就好？"},
+    {"role": "user", "content": "大方。我要那種，一看就知道我家見過世面、不是沒看過這種事的大方。不能讓人覺得我在仰望她。"},
+    {"role": "assistant", "content": "那就一句帶具體、不堆形容詞的：恭喜某某，這個 program 口碑一直很好，孩子有心最難得。具體會顯得你懂，少形容詞會顯得你不慌。"},
+    {"role": "user", "content": "嗯…「孩子有心最難得」這句好。就是那個有心。哎，現在的孩子，有沒有心一眼就看得出來。"},
+    {"role": "assistant", "content": "你說這句的時候，聽起來不只是在講張太的兒子。"},
+    {"role": "user", "content": "我就隨口講講。你不要每句都往深處挖。我兒子也不是不行，就是還沒到時候，男孩子嘛，晚一點開竅的多了去了。"},
+    {"role": "assistant", "content": "嗯，我沒有要替他下定論。我只是聽到你回那句話之前，先頓了一下。"},
+    {"role": "user", "content": "頓一下怎麼了。我這半年每次群裡有人曬，我都要先想三秒怎麼接。三秒，你知道那三秒多累嗎。回完還要裝得很輕鬆。"},
+    {"role": "assistant", "content": "那三秒不是在想措辭，是在替你兒子先擋一下，怕別人從你的回話裡讀出他的近況。這比想一句客套話累多了。"},
+    {"role": "user", "content": "…你別說得好像我多委屈。我沒有委屈。我只是不想讓人拿我兒子跟她兒子比，就這樣。比較這種東西，圈子裡是會記帳的。"},
+    {"role": "assistant", "content": "我懂，這個圈子的帳本確實很真實。不過今天你要回的只是張太那一句，不是替沈又交一份成績單給整個群。這兩件事可以先分開。"},
+    {"role": "user", "content": "你這樣講…也是。我老是把一句恭喜回成一場考試。算了，我就照你那句回，加個她兒子名字，貼個合適的貼圖收尾，不多寫。"},
+    {"role": "assistant", "content": "這樣剛好。一句具體的恭喜加一個收尾，得體也不過度。你不需要在群裡證明什麼。"},
+    {"role": "user", "content": "行。那句幫我留著，下次再有人曬我還能改著用。先這樣，我去回了。"},
+    {"role": "assistant", "content": "留著了。下次要改的時候再叫我。回完就放下，別又盯著那三秒。"}
+  ]
+}

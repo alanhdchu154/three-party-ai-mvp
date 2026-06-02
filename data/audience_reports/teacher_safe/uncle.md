@@ -9,7 +9,7 @@
 
 ## Active Dimensions
 - `emotional_safety` Level 1
-- `family_dynamics` Level 2
+- `family_dynamics` Level 3
 - `identity` Level 2
 - `future_planning` Level 2
 
@@ -30,5 +30,5 @@
 
 ## Evidence Boundary
 - Source type: `llm_generated`
-- Confidence: `high`
+- Confidence: `medium`
 - High-specificity evidence is withheld from this audience.

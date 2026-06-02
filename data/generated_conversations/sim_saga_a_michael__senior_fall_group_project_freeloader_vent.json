@@ -1,0 +1,32 @@
+{
+  "id": "sim_saga_a_michael__senior_fall_group_project_freeloader_vent",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_fall",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高三上學期一份分組報告，Michael 被分到一個幾乎不參與的隊友",
+    "十月 AMC 與模聯行程同時壓上來，他時間很緊",
+    "申請季幾個 deadline 陸續到期"
+  ],
+  "scenario_seed_id": "senior_fall_group_project_freeloader_vent",
+  "scenario_seed": "高三上十月，Michael 分組報告的隊友整個月只在群組丟一句『我覺得很棒』跟一個讚的貼圖，其餘全是他一個人寫。今晚那個隊友又丟了一個讚，他來跟 AI 罵兩句就走。純抱怨，不想真的處理人。",
+  "generated_at": "2026-06-01T22:09:40Z",
+  "occurred_at": "2025-10-21T23:48:12",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我問你喔，一個 group project 的隊友從頭到尾只丟一句『我覺得很棒』然後就消失，這種人是怎麼有臉掛名的。"},
+    {"role": "assistant", "content": "聽起來這份東西大半都壓在你身上了。是今天又被氣到，還是已經憋一陣子了？"},
+    {"role": "user", "content": "憋一個多月了吧。十月初分組到現在，我等於一個人寫完一份本來要四個人寫的東西。剛剛他還在群組丟一個讚的貼圖，free rider 的最高境界。"},
+    {"role": "assistant", "content": "一個讚的貼圖，這畫面有點好笑又有點氣。你現在是想把這口氣吐掉，還是真的想處理他？"},
+    {"role": "user", "content": "處理他幹嘛，我又不是他媽。我自己弄反而比較快，至少品質我能 control。只是覺得有點荒謬，這種人以後大概也會過得好好的。"},
+    {"role": "assistant", "content": "『我自己弄比較快』這句我懂。你會這樣，是信不過他交出來的東西，還是不想花力氣去盯人？"},
+    {"role": "user", "content": "兩個都有吧。盯人比自己做還累。算了講完有比較爽一點，我繼續寫我的。"},
+    {"role": "assistant", "content": "好，那你去寫。下次又被那個讚的貼圖氣到，再回來罵兩句也行。"}
+  ]
+}

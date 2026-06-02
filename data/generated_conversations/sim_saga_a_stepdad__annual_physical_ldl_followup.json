@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_stepdad__annual_physical_ldl_followup",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_year_grade_11_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "Michael 高二下第一次 SAT 模考、媽很在意分數",
+    "可兒鋼琴檢定通過、家裡熱鬧了幾天",
+    "他自有 fund 的春季季更照例 CC 集團法務",
+    "去年底的年度健檢他一直拖、開春才補做"
+  ],
+  "scenario_seed_id": "annual_physical_ldl_followup",
+  "scenario_seed": "高二下，他補做的年度健檢報告出來，只有 LDL 膽固醇 165 偏高、其他都在範圍內，報告後面建議去心臟科追蹤、加做頸動脈超音波。他想先搞清楚嚴不嚴重、要不要現在排，並請 AI 幫他想怎麼低調交代秘書去約，不想讓這件事在家裡變成話題。純資訊與措辭。",
+  "generated_at": "2026-05-22T17:10:57Z",
+  "occurred_at": "2025-04-15T09:50:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "今年的健檢報告出來了。大致都正常，只有一項 LDL 偏高，報告後面建議去心臟科追蹤、做個頸動脈超音波。我想先搞清楚這嚴不嚴重，還有要不要現在就排。"
+    },
+    {
+      "role": "assistant",
+      "content": "先說結論：單一項 LDL 偏高、其他都正常，這通常是要追蹤，不是要緊張的事。報告上有寫數值嗎？「邊緣偏高」跟「明顯超標」處理的急迫度不太一樣。"
+    },
+    {
+      "role": "user",
+      "content": "數值 165。血壓、血糖、肝腎都在範圍內。"
+    },
+    {
+      "role": "assistant",
+      "content": "165 是邊緣偏高，不是危險區。一般做法就是照報告建議，安排一次心臟科門診加那個超音波，確認血管狀況，必要時再談飲食或用藥。不必當天衝去，但也別拖到明年。要我幫你想怎麼跟秘書交代去排嗎？"
+    },
+    {
+      "role": "user",
+      "content": "要。但我不想講得像出了什麼大事。低調排一下就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把它講成例行追蹤、不帶細節。可以這樣交代：「健檢有一項要回診追蹤，麻煩約一下心臟科門診，順便排頸動脈超音波，挑我下午沒會的時段，不用特別標註。」這樣她知道要做什麼，又不會當成急件。"
+    },
+    {
+      "role": "user",
+      "content": "「不用特別標註」這句好，就這樣。順便問，165 我自己平常要注意什麼？先不要到吃藥那一步。"
+    },
+    {
+      "role": "assistant",
+      "content": "門診之前抓大方向就好：紅肉跟油炸少一點、應酬的份量收一收、能走就走幾步，這些對 LDL 都有幫助。但別自己先加保健品或亂補，等醫師看完數值再決定。你應酬多，真正能調的大概就是份量跟頻率。"
+    },
+    {
+      "role": "user",
+      "content": "知道了。份量我自己有數。謝了，先這樣排。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。先把門診跟超音波約上，其他等醫師說。報告留著、回診帶去就行。"
+    }
+  ]
+}

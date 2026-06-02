@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_uncle__rachel_giis_graduation_rsvp_seating",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_graduation_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "女兒 Rachel 高三、本月底 GIIS 舉行高三畢業典禮",
+    "弟弟一房的 Michael 同屆、同一場畢業，兩房會同場出席",
+    "畢業典禮當天上午集團原本排了一場董事相關行程",
+    "近期家中圍繞畢業與升學節奏在轉、Rachel 對家族安排比較少表態"
+  ],
+  "scenario_seed_id": "rachel_giis_graduation_rsvp_seating",
+  "scenario_seed": "GIIS 寄來高三畢業典禮的邀請函跟一張回函，要填出席家長人數與座位需求。他女兒 Rachel 跟弟弟一房的 Michael 同場畢業，兩房要同時出席。他上線只是想把回函跟當天的場面安排一次處理掉，順帶問措辭，把女兒的畢業當成一個要排妥的場面。",
+  "generated_at": "2026-05-23T19:10:14Z",
+  "occurred_at": "2026-05-23T15:40:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "學校寄了畢業典禮的邀請函來，附一張回函，要填出席人數、要不要保留座位、有沒有特別需求。月底就辦了。我想一次把這個跟當天的安排處理掉。你幫我看一下回函要怎麼填比較妥。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這種回函通常就是三件事：出席家長人數、座位需求、要不要安排合影或致詞。您先告訴我這次大概幾位要去、哪一邊的座位比較合適，我再幫您把回函的措辭順一下。您是想先定人數，還是先處理當天行程？"
+    },
+    {
+      "role": "user",
+      "content": "人數有點麻煩。Rachel 跟弟弟那邊的 Michael 同一屆、同一場畢業，兩房都要到。我這邊我跟內人去，弟弟一房也會去。座位如果分得太開不像話，併在一起又得先講好。我不想當天現場才在那邊喬。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就提早一步處理掉。回函上把兩房一起報，註明希望相鄰座位，請學校先留好同一區，這樣當天不必現場喬。人數您先各房點一次給我，我幫您寫成一句清楚的備註給校方。當天致詞或合影那種，要不要也一起問清楚時間？"
+    },
+    {
+      "role": "user",
+      "content": "合影問一下時間就好。比較卡的是那天上午我本來排了董事的行程。典禮如果是上午，我得讓秘書把那邊往後挪。畢業典禮這種場面不能缺席，缺席不像話。"
+    },
+    {
+      "role": "assistant",
+      "content": "那順序很清楚：先跟學校確認典禮確切的時段，再讓秘書照那個時段把董事的行程往後挪，不要兩邊壓在一起。時段一定下來，我幫您把回函跟給秘書的調整一次寫好。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。其實……我也不太確定 Rachel 自己想怎麼過這天。她最近這些安排都沒怎麼表態。算了，畢業典禮本來就是要把場面做體面，這是該做的，問那麼多反而麻煩。你就先照兩房相鄰、我準時到這樣弄。"
+    },
+    {
+      "role": "assistant",
+      "content": "場面我幫您按兩房相鄰、您準時到這樣排妥。要不要哪天順口問她一句當天想怎麼過就好，不用特地安排，她講了您再加進去，沒講也不影響現在這版。等學校回時段，我就把回函跟秘書那邊一次給您。"
+    },
+    {
+      "role": "user",
+      "content": "行，就這樣。我讓秘書去確認時段，回函照兩房相鄰填。其他的之後再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這版很穩。時段一回來再找我補完。"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_keer__classgroup_collect_birthday_gift_money_wording",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "spring_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "班上下週要幫一個同學辦生日，大家決定合送一個禮物",
+    "不知道為什麼收錢的工作被推到可兒身上",
+    "上個月班遊也是她在群組裡幫忙喬，被同學說『你很適合當班長』"
+  ],
+  "scenario_seed_id": "classgroup_collect_birthday_gift_money_wording",
+  "scenario_seed": "國二下，班上要合送一個同學生日禮物，收錢的工作被推到可兒身上。她不想在班級群裡當一直催錢、看起來很『媽媽』的那個人，來問 AI 怎麼把收錢訊息講得 chill 一點。純日常求助，不碰核心議題。",
+  "generated_at": "2026-06-01T00:10:23Z",
+  "occurred_at": "2026-05-12T21:35:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我問你喔 我們班下禮拜要幫一個同學辦生日 大家說要合送一個禮物 然後不知道為什麼錢就丟給我收 我超不想當那個在群組裡一直催錢的人 你幫我想一下訊息怎麼發比較不會很煩"
+    },
+    {
+      "role": "assistant",
+      "content": "收到。先抓一下：大概多少人要收、一個人收多少、有沒有截止日？這三個一次講清楚，其實就不太需要一直催了。你想要哪種感覺，輕鬆一點還是正式一點？"
+    },
+    {
+      "role": "user",
+      "content": "大概二十個人吧 一人一百 禮拜五前要交 我要那種很chill的 不要看起來像班費小老師那種 超媽媽欸"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，那就把規則一次講完、最後丟一句玩笑收尾，看起來就不像在管人。你要不要先試打一句開頭，我幫你順？"
+    },
+    {
+      "role": "user",
+      "content": "蛤我不會啦 你先給我一個範本 我再改"
+    },
+    {
+      "role": "assistant",
+      "content": "可以：「欸欸 ＸＸ生日這週五前一人收一百，禮物驚喜不能爆雷喔，丟我就好不用私訊跟我說不好意思哈哈。」名字跟金額你填進去就好。要再短一點嗎？"
+    },
+    {
+      "role": "user",
+      "content": "這個可以欸 哈哈哈最後那句很對 我就是不想要大家一直跟我講不好意思晚交 那如果有人拖到禮拜五還沒給我要怎麼辦"
+    },
+    {
+      "role": "assistant",
+      "content": "禮拜四晚上再丟一句「明天最後一天囉」就夠了，一次提醒不算催。真的有人忘了，你可以先幫墊、之後私下跟他要，不用扛在群組裡盯。這樣你 ok 嗎？"
+    },
+    {
+      "role": "user",
+      "content": "ok啦 那我先發了 謝啦"
+    },
+    {
+      "role": "assistant",
+      "content": "去吧。之後收錢卡住再來找我。"
+    }
+  ]
+}

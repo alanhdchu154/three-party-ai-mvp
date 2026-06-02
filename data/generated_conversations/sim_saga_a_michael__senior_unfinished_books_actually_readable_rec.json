@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_michael__senior_unfinished_books_actually_readable_rec",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "過去半年陸續買了《存在與虛無》《量子場論導論》等大部頭，每本都停在前幾十頁",
+    "曾把其中一本拍進 IG 限動",
+    "沈又某次見面隨口酸他『又在擺書』"
+  ],
+  "scenario_seed_id": "senior_unfinished_books_actually_readable_rec",
+  "scenario_seed": "高三下深夜，Michael 來問 AI 有沒有薄一點、他真的會讀完的哲學書。他半年來買的大部頭都卡在前三十頁。純粹找書單，帶一點自嘲但不往深處走。",
+  "generated_at": "2026-06-01T00:14:00",
+  "occurred_at": "2026-05-31T23:41:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我問你，有沒有那種薄薄的、看起來有料但我真的會讀完的哲學書？我家那本《存在與虛無》卡在第 30 頁大概半年了。"},
+    {"role": "assistant", "content": "哈，第 30 頁這個數字也太精準，是書籤一直夾在那邊提醒你嗎？你想要的是真的想讀，還是一本擺出來不尷尬的？"},
+    {"role": "user", "content": "...你很直欸。兩個都要不行嗎。但這次想說真的讀完一本啦。"},
+    {"role": "assistant", "content": "可以啊，這需求很正常。那先問你一下，之前那幾本是卡在哪——是看不懂，還是看得懂但就放著？"},
+    {"role": "user", "content": "看得懂啊。就是翻一翻覺得我懂了，然後就沒有然後了。"},
+    {"role": "assistant", "content": "懂了就收工，其實滿多人是這樣。如果是這種，薄一點、一個下午翻得完的比較適合你。卡繆《薛西弗斯的神話》開頭那篇就很短。你想要冷一點的，還是讀起來有情緒的？"},
+    {"role": "user", "content": "有情緒的應該比較讀得下去。"},
+    {"role": "assistant", "content": "那《薛西弗斯》滿合的，在講明知道沒意義還是要把石頭推上去，讀起來不冷。要不要先只設讀完那一篇，不要又一次買一整套？"},
+    {"role": "user", "content": "哈哈好啦。其實我每次買整套都是想說擺著很帥。"},
+    {"role": "assistant", "content": "這我不拆穿你，書架本來就有一半是擺給別人看的。那這本就純你自己讀，不用拍。"}
+  ]
+}

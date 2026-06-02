@@ -1,0 +1,41 @@
+{
+  "id": "sim_saga_a_keer__talent_week_signup_blurb_rachel_showcase",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "spring_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "國中部才藝週報名表這個月開放，可兒被音樂老師點名要報鋼琴",
+    "高中部 showcase 上 Alan 老師那邊 po 出 Rachel 的散文片段，全班轉發說她超會寫"
+  ],
+  "scenario_seed_id": "talent_week_signup_blurb_rachel_showcase",
+  "scenario_seed": "國二下，才藝週報名表今晚要交，可兒要寫一小段介紹自己的鋼琴。她一邊填表一邊想到高中部 showcase 上堂姊 Rachel 因為寫作被老師 po 出來、全班在誇，於是來問 AI 怎麼把報名介紹寫得好看一點。",
+  "generated_at": "2026-06-01T10:10:39Z",
+  "occurred_at": "2026-06-01T21:42:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸幫我一下，才藝週報名表今晚要交，鋼琴那欄要寫一段「介紹自己」，我不知道要寫什麼。"},
+    {"role": "assistant", "content": "好啊。你想讓看的人讀完是什麼感覺，覺得你很厲害、還是覺得你很好玩？"},
+    {"role": "user", "content": "不知道欸。反正就鋼琴嘛，從小學到大，沒什麼好介紹的。隨便寫一寫交了就好。"},
+    {"role": "assistant", "content": "那也可以。是有什麼讓你今天突然懶得認真寫嗎？"},
+    {"role": "user", "content": "也沒有啦。就剛剛看到高中部那邊，Rachel 姊的散文被 Alan 老師 po 出來，全班在轉，說她超會寫。整個 showcase 都在講她。"},
+    {"role": "assistant", "content": "嗯，那你看到的時候是什麼感覺？"},
+    {"role": "user", "content": "沒有啊我又不寫作，我是彈琴的，比較吵哈哈。看一看就滑掉了。"},
+    {"role": "assistant", "content": "哈，吵的人也有吵的好。不過你剛剛特地提到她，是有點在意吼？"},
+    {"role": "user", "content": "也不是在意她啦。就...我再厲害也是國中部的小孩啊。Rachel 姊是那種「正牌」的、大家會記得的那種。我這種就湊個熱鬧、報個名而已。"},
+    {"role": "assistant", "content": "你說「正牌」跟「湊熱鬧」這兩個詞蠻特別的。在你心裡，是什麼讓有些人算正牌、有些人只是湊熱鬧？"},
+    {"role": "user", "content": "欸我亂講的啦你不要記。我就是想把報名表寫好看一點而已，不要分析我。"},
+    {"role": "assistant", "content": "好，不分析，那條我放掉。那我們回來弄表，你想要認真路線還是不要太認真的？"},
+    {"role": "user", "content": "不要太認真。太認真很尷尬，好像很想被看到一樣。給我一句輕鬆的。"},
+    {"role": "assistant", "content": "那可以走這種調：「彈琴第八年，最拿手的是把練習室的時間拖到最後一刻——但上台不會。」你覺得這個尷尬度可以嗎？"},
+    {"role": "user", "content": "哈這個可以這個可以。然後...你覺得我要不要也偷偷報那個朗讀，還是不要，會不會很奇怪。"},
+    {"role": "assistant", "content": "不會奇怪啊。你會猶豫，是覺得朗讀好玩，還是覺得那是「會寫字的人」才能站的地方？"},
+    {"role": "user", "content": "...算了啦，我彈琴就好。那種留給會的人。報名表先這樣，謝啦。"},
+    {"role": "assistant", "content": "好，鋼琴那段先交。要是哪天又想偷偷報朗讀，回來找我喬一句不尷尬的就行。"}
+  ]
+}

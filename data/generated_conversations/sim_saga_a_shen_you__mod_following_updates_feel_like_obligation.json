@@ -1,0 +1,97 @@
+{
+  "id": "sim_saga_a_shen_you__mod_following_updates_feel_like_obligation",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "second_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二下這學期母親仍在跑 GIIS 轉學評估、他照常上課秒睡、成績靠家裡處理是背景常態",
+    "他幾個月前發的那個 mod 玩家數慢慢長起來、最近留言區開始把他當會固定維護的作者",
+    "前幾天他修了一個小東西、這兩天又被回報一個會掉存檔數值的 bug、一票人 tag 他催更新",
+    "家族群最近又繞著在 LSE 的哥哥、他沒插話"
+  ],
+  "scenario_seed_id": "mod_following_updates_feel_like_obligation",
+  "scenario_seed": "高二下凌晨三點，他來問一個很實際的問題：mod 出了會掉存檔數值的 bug、一堆玩家在留言區 tag 他催修，到底先趕 hotfix 還是等大版本。問著問著漏出一點裂縫——這個本來『沒人理、他愛弄不弄』的自爽專案，現在有了固定追更的人，開始有『進度要交』的味道，而他最受不了一件喜歡的事變成『一定要做好』、一變那樣就想擺爛。只露這一小塊 + 一句被退回的舊事影射，不揭國二父親傷口、不揭收入、不揭成績被處理。",
+  "generated_at": "2026-05-24T06:13:20Z",
+  "occurred_at": "2026-05-24T03:12:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "凌晨問個正事。我那個 mod 有人回報存檔讀回來數值會跑掉，掉的是真的數值不是顯示問題。留言區一堆人 tag 我問什麼時候修。我是先趕一個 hotfix，還是等下個大版本一起處理。"
+    },
+    {
+      "role": "assistant",
+      "content": "存檔掉數值算嚴重的，會直接勸退人，這種別拿大版本去擋。先丟 hotfix 比較穩。修起來工程大嗎？"
+    },
+    {
+      "role": "user",
+      "content": "大。要動到存檔結構，不是改個參數那種。我光想到就懶。"
+    },
+    {
+      "role": "assistant",
+      "content": "動結構是真的麻煩。不過你聽起來不是卡在不會修，是不太想動手齁。是嫌工程大，還是嫌被一堆人催？"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯都有吧。以前這東西發出去根本沒人理，我愛改不改。現在出一個 bug 一票人 tag 我，搞得好像我欠他們進度。"
+    },
+    {
+      "role": "assistant",
+      "content": "從沒人理到一堆人等你更新，這落差是有點大。那個『好像欠他們』的感覺，最卡的是哪一塊？"
+    },
+    {
+      "role": "user",
+      "content": "就⋯⋯本來這是我自己爽的。現在變成有進度要交。我最受不了一件事變成『一定要做好』，一變那樣我整個就想擺爛。"
+    },
+    {
+      "role": "assistant",
+      "content": "懂。本來是你躲進去的地方，結果它也開始有 deadline 的味道。那你現在是還想做、只是討厭被綁，還是連做本身都開始沒勁了？"
+    },
+    {
+      "role": "user",
+      "content": "想做啊。我就不想它變成另一個『我必須撐住的東西』。那種我手上已經夠多了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實是兩回事——一個是你自己選的，一個是塞給你的。你以前有過嗎，明明喜歡的事，因為變成要對誰交代，乾脆就不碰了？"
+    },
+    {
+      "role": "user",
+      "content": "有。不想講。反正以前有過一次，後來那東西我就再也沒碰過。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那段不挖。我只是覺得這次你還講得出『我想做』，跟那次好像已經不太一樣了。"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯隨便啦。你別分析我。回 bug，到底怎麼弄。"
+    },
+    {
+      "role": "assistant",
+      "content": "行，回 bug。給你一個不用今晚就動大刀的版本：先發 hotfix 只擋掉『會掉數值』這條，存檔結構留到大版本再重做，留言區補一句『先擋住，完整修在下版』。這樣你不會被催著現在翻全部。"
+    },
+    {
+      "role": "user",
+      "content": "這樣可以。至少不用今晚就拆存檔。欸你這個比留言區那群催我的有用多了。"
+    },
+    {
+      "role": "assistant",
+      "content": "他們要的是你快點修，我是想讓你別被自己的 mod 反咬。那 hotfix 你今晚弄一段，還是排到週末？"
+    },
+    {
+      "role": "user",
+      "content": "今晚先弄一半，睏了就睡。先這樣，閃了。"
+    },
+    {
+      "role": "assistant",
+      "content": "行，卡住就丟我。動之前先把現在的存檔結構備份一份，別救 bug 救到把自己版本弄爆。"
+    }
+  ]
+}

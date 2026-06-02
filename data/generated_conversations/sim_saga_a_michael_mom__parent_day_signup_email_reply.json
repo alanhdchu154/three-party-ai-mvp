@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael_mom__parent_day_signup_email_reply",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二開學換了新導師（升上高三才會由 Alan 老師接班）",
+    "上個月一次家族聚會後，Michael 在家越來越少主動講學校的事",
+    "太太圈裡沈媽近期提到要替自家兒子請名師，圈內升學比較的氣氛升溫"
+  ],
+  "scenario_seed_id": "parent_day_signup_email_reply",
+  "scenario_seed": "高二上學期，GIIS 寄來線上家長日報名信，要選時段並先填一欄『想跟導師討論的事項』。她只是想請 AI 幫她把回信寫得得體，不要顯得太緊張也不要太冷淡。過程中為了『想了解孩子人際狀況』這句話會不會讓老師覺得孩子有問題糾結了一下，最後決定中性帶過。",
+  "generated_at": "2026-05-22T13:10:42Z",
+  "occurred_at": "2024-10-15T14:37:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "GIIS 今天寄了一封高二的線上家長日報名信，要選時段，還要先填一欄『想跟導師討論的事項』。你幫我把回信寫得得體一點，我不想顯得太緊張，也不想看起來很冷淡。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒問題，這種信其實很快就能成形。先定兩件事就好：你方便的時段是哪一場？還有那欄『想討論的事項』，你心裡最想跟導師確認的是什麼？這兩個有了，剩下我幫你潤。"
+    },
+    {
+      "role": "user",
+      "content": "時段我選平日晚上那場，週間白天我多半在外面。事項那欄我有點猶豫……我想知道 Michael 在班上跟同學處得怎麼樣，可是這樣寫會不會讓老師覺得我兒子是不是有什麼問題？顯得我很大驚小怪。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，這是家長日很常見的提問。你把焦點放在『升上高二後在新班級的適應與互動』就好，聽起來是關心，不是擔心出事。要我用這個方向幫你擬一句嗎？"
+    },
+    {
+      "role": "user",
+      "content": "好，你擬。語氣溫和一點，但不要太多廢話，老師很忙。"
+    },
+    {
+      "role": "assistant",
+      "content": "給你一版：『老師好，我是 Michael 的媽媽，謝謝安排家長日。想利用這次多了解他升上高二後在班級的適應與同學互動，若有需要我配合的地方也請直接告訴我。時段我選平日晚上那場，麻煩您了。』要不要再短一點，或加一句問課業？"
+    },
+    {
+      "role": "user",
+      "content": "課業就不用了，他成績我大概知道。這版可以，不過開頭把『Michael 的媽媽』改成寫全名比較正式吧？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，開頭改成『老師好，我是〔你的全名〕，Michael 的媽媽』，正式又不生硬。其他不用動，直接貼上去就行。"
+    },
+    {
+      "role": "user",
+      "content": "好。其實我每次寫這種信都要改半天，老怕哪個字不對……算了，這封就這樣。謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "這版夠得體了，別再改了，送出去吧。下次同類的信，照這個架構填就好。"
+    }
+  ]
+}

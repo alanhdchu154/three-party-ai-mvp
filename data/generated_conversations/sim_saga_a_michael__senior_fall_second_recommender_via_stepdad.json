@@ -1,0 +1,105 @@
+{
+  "id": "sim_saga_a_michael__senior_fall_second_recommender_via_stepdad",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_fall_application_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高三秋季申請季開跑、Common App 主文與 supplements 已經在改第三輪",
+    "Alan 老師已經答應寫 LoR 1、Michael 自己讀過 Alan 給他看的草稿覺得很扎實",
+    "上週家族晚餐後後爸主動說『幫他打聽』第二封推薦人，幾天後 line 過來說某私大政治系教授願意寫",
+    "Michael 同時還在排兩場 SAT subject 補考與 AMC 12 的最後一次練習場"
+  ],
+  "scenario_seed_id": "senior_fall_second_recommender_via_stepdad",
+  "scenario_seed": "高三秋季申請季。Michael 已經有 Alan 老師那封扎實的 LoR 1，現在要決定 LoR 2 找誰寫。選項 A 是高二教過他的歷史老師，選項 B 是後爸幾天前幫他『打聽』來的某私大政治學教授（只見過兩次飯局）。他凌晨打開 Common App 推薦人欄位停在那邊，找 AI 問哪個比較不會被招生官 see through，表面是 strategy optics 問題。",
+  "generated_at": "2026-05-26T18:10:00Z",
+  "occurred_at": "2025-11-12T23:45:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個申請季的 strategy 問題。LoR 1 已經是 Alan 老師寫的，他給我看過草稿，很實質、很點到我的東西。LoR 2 我現在卡在兩個選項：A 是高二教過我的歷史老師，文筆 ok 但會寫得偏平。B 是我後爸幾天前『幫我打聽』來的某私大政治學教授，他見過我兩次都是飯局，會寫得很 polished 但 obvious 是 connection。哪個比較不會被招生官 see through？"
+    },
+    {
+      "role": "assistant",
+      "content": "你自己怕的是哪一邊？怕 B 看起來太政治、還是怕 A 整封 fall flat？"
+    },
+    {
+      "role": "user",
+      "content": "B 吧。Alan 那封已經夠扎實，再壓一個太政治的上去就有點堆，會看起來我在 collect logos。我不想被當成靠關係那種申請人。"
+    },
+    {
+      "role": "assistant",
+      "content": "「不想被當成靠關係」這件事 — 是因為 admissions 不喜歡，還是你自己不喜歡？"
+    },
+    {
+      "role": "user",
+      "content": "... 一半一半。technically string-pulling 太明顯 admissions 也不愛。但我承認我自己也介意。我不想 portfolio 裡有任何一塊是別人塞給我的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那如果你自己介意 B，B 其實本來就上不到桌面。問題是不是兩個 LoR 之間，是後爸已經幫你接好線了？"
+    },
+    {
+      "role": "user",
+      "content": "對。他不是隨口問問，他已經把那個教授的信箱接到他 line 給我，意思就是『你只要 click apply』。我現在不用，他會覺得我駁面子。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以這題其實有兩層。一層是 LoR 2 該誰寫，另一層是怎麼跟後爸說你不用。哪一層比較難？"
+    },
+    {
+      "role": "user",
+      "content": "... 你這樣 framing 我突然不知道怎麼回。我本來只是要你幫我比較兩個 LoR。"
+    },
+    {
+      "role": "assistant",
+      "content": "我們可以先比較。A 老師實際上會寫什麼？他對你有印象嗎？"
+    },
+    {
+      "role": "user",
+      "content": "有。高二我寫過一個太平天國的長報告，他大概會寫那件事，加我課堂發言會 push back 同學論點。會乾乾淨淨、不浮誇、但也沒有什麼火花。"
+    },
+    {
+      "role": "assistant",
+      "content": "B 教授呢？兩次飯局他真的有 substance 可以寫嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不夠。我估他寫出來會是 prestigious institution、政商家庭背景、prospective leadership、looking forward to seeing him in our circles 這種官腔。"
+    },
+    {
+      "role": "assistant",
+      "content": "你聽自己剛剛這段念出來的口氣。"
+    },
+    {
+      "role": "user",
+      "content": "... 是還挺 demoralizing 的。我等於是在問你，要交一封空話 from 大人物、還是一封實話 from 一般老師。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這題你心裡其實已經 close 了。剩下的就是後爸這邊怎麼擺。你跟後爸平常處理這種事是訊息還是當面講？"
+    },
+    {
+      "role": "user",
+      "content": "訊息。當面我講不出來，太奇怪。而且當面我會自動切到那種『謝謝叔叔』的禮貌語氣，他一聽就知道我在敷衍。"
+    },
+    {
+      "role": "assistant",
+      "content": "那訊息要做兩件事同時：認他幫忙、跟說你這次想 standalone 試一次。你不用現在寫完，先問你自己 — 這兩件事哪一件你比較容易出手？"
+    },
+    {
+      "role": "user",
+      "content": "認他幫忙比較容易。standalone 那句我寫不出來，寫出來都太 self-righteous，像在跟他宣告我不需要他。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。那 standalone 那句不必講得那麼大。可以只說『這封我想自己處理看看』，不用上升到原則。先這樣，你想試試看自己起一個草稿嗎？"
+    }
+  ]
+}

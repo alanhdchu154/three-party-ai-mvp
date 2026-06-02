@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael__grade10_catch_up_on_classmate_game",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "媽媽改嫁進新家族後，他在學期初轉學到 GIIS，原本台北的朋友圈幾乎斷光",
+    "進班一個多月還在摸索同學的社交圈，午休多半自己一個人吃",
+    "第一次跟著新家庭出席家族聚會，整晚像在外圍看別人說話"
+  ],
+  "scenario_seed_id": "grade10_catch_up_on_classmate_game",
+  "scenario_seed": "高一上學期剛轉進 GIIS 一個多月，班上 group chat 整天在約 Valorant，他完全插不上話。他不想真的花時間玩，只想快速搞懂幾個詞，別在新環境裡顯得格格不入。",
+  "generated_at": "2026-05-22T22:10:13Z",
+  "occurred_at": "2023-10-18T23:24:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問一個很無聊的問題。我們班 group chat 整天在講 Valorant，我完全插不上話。可以快速跟我說那是什麼嗎，我沒打算真的花時間去玩。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以啊。Valorant 是一款 5v5 的射擊遊戲，一隊進攻負責放炸彈、一隊防守負責拆，每個角色有不同技能。你們班是在約一起打，還是只是在聊比賽？"
+    },
+    {
+      "role": "user",
+      "content": "看起來是約一起打。有人一直在問「今晚上分嗎」。上分是什麼意思？"
+    },
+    {
+      "role": "assistant",
+      "content": "上分就是打排位賽、想把段位往上爬。段位大概是鐵、銅、銀一路排到鑽石、不朽那種。你是想聽得懂他們在講什麼就好，還是其實有點想加入？"
+    },
+    {
+      "role": "user",
+      "content": "……主要是聽得懂就好。我對這種東西其實沒什麼興趣，only so much time in a day。但新環境總要有點 common ground。"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，先聽得懂就先不尷尬。記幾個詞大概就能插話了：「上分」「排位」、ace 是一個人把對面五個都收掉、rush 是衝。要不要我幫你縮成更短的版本？"
+    },
+    {
+      "role": "user",
+      "content": "縮短版可以。但不要弄得像作弊小抄，被看到很丟臉。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒問題，我講重點你自己記就好、不留痕跡。三句大概夠用：有人約就回「幾點」、有人打很好就說「好猛」、自己打爛就自嘲「我今天手是假的」。你比較擔心的是接不上話，還是不知道怎麼先開口？"
+    },
+    {
+      "role": "user",
+      "content": "都有一點吧。算了，反正先這樣。謝啦，我去 group chat 看看。"
+    },
+    {
+      "role": "assistant",
+      "content": "去吧，不用一次到位，先丟一句「幾點」卡進去就行了。之後真的想玩再回來問我也可以，反正我不會笑你。"
+    }
+  ]
+}

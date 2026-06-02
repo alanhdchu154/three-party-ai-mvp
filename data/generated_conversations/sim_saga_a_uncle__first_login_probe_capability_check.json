@@ -1,0 +1,80 @@
+{
+  "id": "sim_saga_a_uncle__first_login_probe_capability_check",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "testing_ai",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "GIIS 寄出家長端口開通通知，內含 AI 助理試用入口（Rachel 高二下學期初）",
+    "秘書上週四在大伯辦公室電腦上幫他開好家長帳號、列印短說明放在桌上",
+    "大伯前一天在家族午餐中聽弟妹（Michael 媽）提一句『學校那個 AI 還滿好用的』"
+  ],
+  "scenario_seed_id": "first_login_probe_capability_check",
+  "scenario_seed": "大伯第一次登入 GIIS 家長 AI。秘書上週開好帳號、他今天才有空。他不從家事入手，而是先丟一個他自己懂的金融術語題目，測這個 AI 答得乾不乾淨；接著確認一件對他比較重要的事 — 他問過的東西，會不會出現在 Rachel 那邊。整段保持距離、不暴露家族內情。",
+  "generated_at": "2026-05-25T10:00:00+08:00",
+  "occurred_at": "2025-01-22T16:14:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "秘書說 GIIS 給家長開了一個 AI 助理。先確認介面對不對。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。這裡是 GIIS 給家長端的 AI 助理。可以協助回覆學校事務、整理校方資訊、討論親子溝通的方式。怎麼稱呼您比較方便？"
+    },
+    {
+      "role": "user",
+      "content": "稱呼晚點再說。先試你回答的品質。Section 162(m) 在 2017 TCJA 之後，performance-based compensation 那部分還能 deduct 嗎。三句以內。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以三句講完。TCJA 把 Section 162(m) 的 performance-based exception 取消，2018 稅務年度起 covered employee 的 compensation 超過 100 萬美元那部分原則上不可 deduct。2017/11/2 前已簽且未實質修改的合約有 grandfather 條款，covered employee 名單也擴大為包含 CEO、CFO 與三位最高薪 named executives 並終身列入。實際案件還是要回您自家稅務顧問核對。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。第二題。我跟你說過的內容，會不會出現在我女兒那邊？她在 GIIS 高二。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。家長 AI 與學生 AI 是兩個分開的對話空間，您在這邊講的內容，不會直接傳到您女兒的對話視窗。系統只有在學校核可、為學生福祉的情境下，才會把您與我們討論的『摘要級別』內容整合給協調者參考；整合內容是抽象化的，例如『家長關切下學期選課方向』，不會出現您的原話、人名或家族細節。"
+    },
+    {
+      "role": "user",
+      "content": "摘要是誰寫的、誰看？"
+    },
+    {
+      "role": "assistant",
+      "content": "摘要由系統的 coordinator 模組產出，預設由您孩子的導師、必要時 GIIS 學務團隊查看。記錄的是需求與關切方向，例如『家長提到學業壓力』『家長詢問課外活動排程』，不會出現您具體用過的字句。您也可以在帳號設定裡選擇『不參與摘要整合』，那您這邊的對話就完全留在您與我之間。"
+    },
+    {
+      "role": "user",
+      "content": "預設是參與的還是不參與。"
+    },
+    {
+      "role": "assistant",
+      "content": "預設是參與。GIIS 採『家長端摘要可協助導師掌握孩子整體狀況』為預設值，但隨時可關。要不要我把關閉路徑寫給您，您看完再決定？"
+    },
+    {
+      "role": "user",
+      "content": "寫吧。一行就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "右上角頭像 → 帳號設定 → 對話資料 → 把『允許參與協調者摘要』切成關。"
+    },
+    {
+      "role": "user",
+      "content": "知道了。介面我懂了。改天再用。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。有需要再進來。"
+    }
+  ]
+}

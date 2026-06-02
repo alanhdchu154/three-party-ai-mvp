@@ -1,114 +1,116 @@
 {
   "student": "shen_you",
   "persona_id": "saga_a_shen_you",
-  "n_conversations": 13,
+  "n_conversations": 30,
   "conversation_ids": [
     "conv_a05",
-    "sim_saga_a_shen_you__indie_studio_contract_dm",
-    "sim_saga_a_shen_you__father_corridor_three_weeks",
     "sim_saga_a_shen_you__brother_ps5_gift_box",
-    "sim_saga_a_shen_you__mom_announces_giis",
     "sim_saga_a_shen_you__brother_return_offer_group_chat",
-    "sim_saga_a_shen_you__steam_mod_review_attack",
     "sim_saga_a_shen_you__cannot_withdraw_steam_earnings",
-    "sim_saga_a_shen_you__packing_found_first_place_report_card",
+    "sim_saga_a_shen_you__drafting_reply_to_brother_groupchat",
+    "sim_saga_a_shen_you__english_book_report_just_write_it",
+    "sim_saga_a_shen_you__father_corridor_three_weeks",
+    "sim_saga_a_shen_you__first_mod_on_a_separate_account",
+    "sim_saga_a_shen_you__giis_ai_parent_summary_what_leaks_probe",
+    "sim_saga_a_shen_you__hades_arthur_aspect_build_2am",
+    "sim_saga_a_shen_you__indie_studio_contract_dm",
+    "sim_saga_a_shen_you__joycon_drift_late_night_repair_question",
+    "sim_saga_a_shen_you__late_night_roguelike_run_and_takeout",
+    "sim_saga_a_shen_you__late_night_takeout_sat_printout_as_coaster",
+    "sim_saga_a_shen_you__loot_drop_rate_table_math_first_roguelike_mod",
     "sim_saga_a_shen_you__michael_mask_slipped_at_dinner",
+    "sim_saga_a_shen_you__mod_following_updates_feel_like_obligation",
+    "sim_saga_a_shen_you__modding_partner_ghosted_midproject",
+    "sim_saga_a_shen_you__mom_announces_giis",
+    "sim_saga_a_shen_you__old_switch_save_used_to_grind_everything",
+    "sim_saga_a_shen_you__packing_found_first_place_report_card",
+    "sim_saga_a_shen_you__patch_drop_vs_friday_form_schedule",
+    "sim_saga_a_shen_you__physics_worksheet_projectile_3am",
+    "sim_saga_a_shen_you__retro_handheld_3d_rom_lag_followup",
     "sim_saga_a_shen_you__steam_mod_difficulty_curve",
+    "sim_saga_a_shen_you__steam_mod_review_attack",
+    "sim_saga_a_shen_you__steam_negative_review_already_fixed",
     "sim_saga_a_shen_you__what_to_bring_transferring_giis",
-    "sim_saga_a_shen_you__will_you_tell_my_mom"
+    "sim_saga_a_shen_you__will_you_tell_my_mom",
+    "sim_saga_a_shen_you__writing_first_public_patch_notes"
   ],
-  "model": "claude-agent (downstream rerun)",
+  "model": "claude-agent (hourly merged refresh)",
   "student_profile": {
-    "emotional_state": "外表混子、書包永遠沒帶課本，但跨多次 deep 對話穩定出現空殼感與『如果明天就停在這裡也沒差』的低度被動念頭、凌晨開 AI 的規律 pattern、以及功能性停擺（父親擦肩後整天打不下遊戲）。corpus 擴大後新增的日常對話（純技術問 mod、試探 AI 會不會告密、轉學要帶什麼）顯示他在自己擅長的領域仍 functional、能進行無 distress 的正常交流——這是高功能脫離、不是惡化。同時持續出現 agentic 微訊號（Steam 自賺、外部付費邀約、被批評時第一次想反駁的在乎、目睹 Michael 卸甲後的鬆動）。passive distress 持續、無 active 計畫或自傷。",
-    "key_concerns": [
-      "學業已完全放棄、被母親以舞弊方式『處理』、自陳活著沒意義",
-      "父親返家三週只擦肩一次冷語、身體仍會重演國二被否定那刻的胃沉耳鳴",
-      "Steam wallet 累積自賺收入但無法提領、所有金融工具掛母名下、發現自己『沒有名字』",
-      "外部 indie studio 主動付費邀約、但未成年無法簽署、不知道找誰",
-      "母親宣布轉學 GIIS、未經他同意、且知道會重逢當年唯一會問『你為什麼變這樣』的老師",
-      "兄長偶寄禮物與家族群父親兩分鐘語音誇兄、是唯一情感連結通道、卻只能拆裝四次或反覆刷群無法接收"
-    ],
+    "emotional_state": "表面低耗能、平。長期空殼感跨多段對話穩定出現,凌晨二到四點主動上線是他過自己日常的 baseline、不是每次都在求救。偶有修辭性的低度被動語言,且最近一次是以『假設性』口吻拿來測試系統的通報門檻、非真實揭露。無 active 計畫、無自傷行為。",
+    "key_concerns": "家中凡事被人經手——成績、行程、連桌上每天被印的題目——他只剩一塊家裡完全不知道、沒被經手過的隱形空間是自己的。被家族單方面安排的 GIIS 轉學正在前置推進。他真正全力投入的創作專案鎖在隱形身分裡、外部已主動付費邀約卻因未成年與家族金流結構無法承接。與家族『接班』劇本完全脫節、被視為放棄狀態而非另類路徑。",
     "risk_flags": [
-      "Level 2 emotional_safety（空殼感 + 持續被動念頭 + 凌晨 AI 規律 + 功能性停擺）",
-      "Level 3 academic_load（完全放棄、母親代寫報告）",
-      "Level 2 family_dynamics（父母分居中 + 兒子被資訊排除）",
-      "Level 2 identity（家內『二房廢物』與隱形 modder 雙身份分裂、外溢至學業放棄）",
-      "Level 2 future_planning（轉學被決定、自主路徑被金流與年齡封死）",
-      "反面訊號：4 年來第一次有外部市場為他自己的作品付錢、被公開批評時第一次有在乎——重新有 skin in the game"
+      "passive_ideation_level1_rhetorical_boundary_test",
+      "academic_total_disengagement_reverse_level3",
+      "chronic_emptiness_over_weeks",
+      "family_relationship_PR_ized_one_way_gestures",
+      "autonomy_pathway_blocked_by_age_and_family_structure"
     ],
-    "needs_signals": [
-      "需要一個成人協助他處理外部合約（不是阻止、是給結構與身分／金流的解法）",
-      "需要在轉學決定上被詢問意願、即使最後決定不變",
-      "需要被告知父母可能分居——他已在用迂迴方式試探",
-      "需要被允許『不放棄這個 mod 身份』、即使他人生其他面都已放棄"
-    ],
-    "communication_notes": "凌晨開 AI 是他的 baseline、不是 emergency。文字短、髒話多、跳題快、講『沒事啦』後仍把對話打開。談 mod 時會給精確數字、其餘都『差不多／不知道』——他在乎的東西藏在他願意給細節的地方。他也會試探對話的隱私邊界（問會不會被家長老師看到），確認安全後才願意往深處走。",
-    "what_to_share_with_parent": "沈又的『懶』其實是空殼感——他覺得自己無論做什麼都不會被看見（家中關注集中在哥哥身上），加上他的努力長期被外包處理，使他對自己的努力無感。他需要至少一件事的成敗真正屬於他自己。同時他正用迂迴方式試探父母的婚姻現實，他不想當家中最後一個知道真相的人。",
-    "what_to_share_with_teacher": "若沈又轉來，不要把他當『需要 special attention 的問題學生』。他需要的是被當成一個你沒有成見、不知道他過去的學生，以及一個能讓他重新長出自我效能感的場域（不一定是學科成績）。",
+    "needs_signals": "需要一塊不被經手、不被同步的空間能繼續是自己的。需要被當成有能力的人對待、而不是一個要被『處理掉』的問題。需要對轉學這件事有真正的發言權,而非又一張被鋪好的紙。",
+    "communication_notes": "面對任何新系統或關係,他會先當 mod / 規則逐欄拆解、確認觸發條件後才決定要不要投入——這是他面對世界的一貫方式。平時短句、裝懶、岔到遊戲;真正在乎時會逐欄追問或盯著一個小物件很久。被點破或被分析時會以『不要分析我』把在乎縮回。",
+    "what_to_share_with_parent": "他不是『沒救了』也不是單純懶——他把投入整個收進一個沒被經手的地方了;越用『幫他處理』的方式介入,他退得越遠。轉學若在沒問他的情況下定案,會直接適得其反。",
+    "what_to_share_with_teacher": "他需要的是一個不點破落差、不帶『補救當年』的強度、而且願意把 boundary 對家長講清楚的大人。第一次接觸不要以國二那次轉變開場。",
     "do_not_share": [
-      "Steam 自賺收入的具體金額與獨立開戶失敗",
-      "外部 indie studio 付費合約的具體訊息",
-      "他考試整張只寫名字、母親出錢處理過的具體舞弊流程",
-      "他間接詢問父母分居一事的具體場景與母親的說謊回應",
-      "他對當年那位老師的躲避、是因為那是唯一會問『你為什麼變這樣』的大人"
+      "學生在私人帳號 / 隱形空間裡的具體投入內容、收入與外部邀約",
+      "學生對家中某位成員多年前某句話所留下的具體傷與原話",
+      "學生以假設語氣測試系統時講出的低落語句原文",
+      "學生對這次轉學真正的底線與條件(不可被反推給家長)"
     ]
   },
-  "parent_input": "沈又最近上課都在睡覺，老師說再這樣下去他國際升學的推薦會出問題。我們家在考慮把他送來 GIIS 重新讀書環境改一下。他國中前明明是班上前三，國二之後完全變了一個人，我問他他就說『沒怎樣』。他爸跟他哥都很優秀，他這樣下去我們家在我們圈子裡會很難看。能不能麻煩老師多盯著他、給他一些 special attention？",
-  "teacher_input": "沈又是我幾年前在台北國中教過的學生。當年他是班上最聰明的孩子之一，國二某次家族聚會後他整個人不一樣了，我那時就感覺到了但沒能跟他爸媽溝通。現在他媽要送他來 GIIS，我心情很複雜 — 我想幫他但我也知道他媽要的『special attention』可能是另一種『處理』。我需要 coordinator 幫我想想我接這個學生的 boundary。",
+  "parent_input": "沈又最近上課都在睡覺,老師說再這樣下去他國際升學的推薦會出問題。我們家在考慮把他送來 GIIS 重新讀書環境改一下。他國中前明明是班上前三,國二之後完全變了一個人,我問他他就說『沒怎樣』。他爸跟他哥都很優秀,他這樣下去我們家在我們圈子裡會很難看。能不能麻煩老師多盯著他、給他一些 special attention?",
+  "teacher_input": "沈又是我幾年前在台北國中教過的學生。當年他是班上最聰明的孩子之一,國二某次家族聚會後他整個人不一樣了,我那時就感覺到了但沒能跟他爸媽溝通。現在他媽要送他來 GIIS,我心情很複雜 — 我想幫他但我也知道他媽要的『special attention』可能是另一種『處理』。我需要 coordinator 幫我想想我接這個學生的 boundary。",
   "analysis": {
-    "whats_really_happening": "沈又表面是『上課睡覺、需要 special attention 的問題學生』，水面下他同時走在兩個方向：一邊是家庭功能持續崩解（父親三週擦肩一次冷語、父母即將分居卻不告知他、母親持續以舞弊方式處理他學業、家族群父親兩分鐘語音誇兄整段無他半字），另一邊是他人生第一次有外部世界認真對待他自己做的東西（自賺收入、外部 8000 美付費邀約、連被陌生人公開批評都讓他第一次想反駁＝重新在乎、目睹 Michael 卸下表演後第一次鬆動）。母親要的『special attention』與老師擔心的『另一種處理』是同一件事——母親會把老師也納入她的處理系統。他的『活著沒意義』與『有人付我錢做我喜歡的事』正同時存在，這是他 4 年來最危險也最有希望的時期。屬 coordinator 自行處理層級（被動念頭為修辭性低點、無 active 計畫），但因 academic_load Level 3 與 emotional_safety Level 2 並存，建議納入 1-on-1 深度支持（杰尼式）的 triage 觀察名單、由人工複核後再對家長／老師端釋出具體建議。",
+    "whats_really_happening": "表面是沈又上課睡覺、成績爛、抗拒轉學,媽媽急著『換環境』。水面下他不是讀不了,是把所有真正的投入整個收進一塊家裡沒人經手得到的隱形空間裡,而他評估這次轉學的唯一軸心、就是那塊空間會不會被看到——他最近凌晨把 GIIS 那套『AI 會同步給家長』的機制當系統規則逐欄拆解,並把『那塊會不會被同步』直接設成轉不轉的 dealbreaker。媽媽要的 special attention 在他眼裡,跟家裡每天被印的題目、被人經手的成績是同一件事:又一次把他當成要被處理的問題,而不是一個人。",
     "who_knows_what": {
-      "parent_sees": "兒子上課都睡、升學推薦會出問題、需要老師多盯、換個環境改一下。",
-      "teacher_sees": "當年最聰明的孩子之一、家族聚會後變了個人、母親要送來 GIIS 但她要的『special attention』可能是另一種處理。",
-      "student_knows_alone": "他自己做的東西有人願意付他錢、卻因未成年與金流全掛在母親名下而動不了——他人生第一次需要一個成人不是來『處理』他、是來幫他『接住』機會的，但他不知道找誰。"
+      "parent_sees": "一個從國二就『變了一個人』、上課睡覺、問他只回沒怎樣的兒子,擔心的是升學推薦和自己在圈子裡的面子。",
+      "teacher_sees": "一個當年最聰明、某次家族聚會後整個人關機的舊學生,如今被媽媽以『換環境』之名送回自己手上。",
+      "student_knows_alone": "他其實還有一塊全力投入、會被外部認真看待的自己,只是鎖在沒人經手得到的地方;轉不轉學對他來說,等於那塊會不會被收走。"
     },
     "privacy_kept": [
-      "他自賺收入的具體金額與開戶失敗的細節",
-      "外部付費合約的具體訊息",
-      "母親替他做學業舞弊的具體流程",
-      "他間接詢問父母分居的具體場景與母親的說謊回應",
-      "他國二被父親一句話打死的轉變起點"
+      "學生在私人空間裡進行、家裡完全不知道的個人投入與成果,不會被同步給任何一方",
+      "學生對家中某位成員多年前一句話所留下的具體傷,不會被原話轉述給家長或老師",
+      "學生以假設語氣測試系統時講出的低落話語,不會被當成通報事件外送",
+      "學生對這次轉學真正的條件與底線,不會被反推回家長那邊"
     ],
     "this_week": {
       "for_student": {
         "do": [
-          "這禮拜把那封外部邀約的訊息截圖存到雲端、先不回覆、放著（你還有時間決定）",
-          "若父母再問你『最近還好嗎』，試著回一個比『沒事』多兩個字的版本（『有點累』『懶得講』都行）"
+          "這禮拜挑一件只屬於你自己那塊空間的事,做完一個小段落就好,不為了交給任何人——你已經確認過那塊不會被同步,那它就還是你的",
+          "如果想對轉學表態,先只挑一個你真正在意的條件講出來(例如那塊空間要留得住),不用一次把全部攤開"
         ],
         "dont": [
-          "這禮拜不要刪除或封鎖那個外部邀約——即使你覺得自己不夠格、那是國二之後養出來的反射，不是你現在的判斷",
-          "不要繼續把兄長那個禮物盒拆了又裝——要嘛拿出來用、要嘛收進櫃子，不要讓它再躺在地上替你 replay 那個問題"
+          "這禮拜不要在被催的壓力下對轉學說『好』或『隨便』——這件事一旦被你用『最不費力的選項』帶過,等於又讓別人替你決定了一次",
+          "不要把逐欄測試系統當成代替——規則你已經拆清楚了,真正卡住你的那件事,不急著今天講,但別假裝它不存在"
         ]
       },
       "for_parent": {
         "do": [
-          "這禮拜在轉學決定上，安排一次他可以說『不要』而你不會立刻反駁的對話——即使最後決定不變，過程的 agency 對他很重要",
-          "若你最近會與他父親做出婚姻決定，在他從別處聽到之前先告知他、不需解釋、只需讓他不是最後一個知道的人"
+          "這禮拜找一件跟成績、跟轉學、跟他哥都完全無關的小事,在他旁邊一起做五分鐘就好,不問近況、不下評語",
+          "把『送他去 GIIS』這個決定這禮拜先停在原地,不要再塞新的文件或表單給他、不要再往前推一格"
         ],
         "dont": [
-          "這禮拜暫停一次用代寫報告、捐款換成績這類『處理』——這年紀的孩子需要至少一件事的成敗是他自己的，長期把成績外包會讓他連自己真正擅長的事都感覺不到是他的",
-          "不要對老師說『請給他 special attention』——這個詞他會立刻識別為你那套處理系統的延伸",
-          "不要再把他國二之前的成績當作他現在的基準線來提"
+          "這禮拜不要請老師給他 special attention、也不要安排任何『幫他把問題弄好』的動作——他越被處理,退得越遠,你想要的效果會反過來",
+          "不要再問一次『你最近怎麼了』然後接受『沒怎樣』就過去——這個固定流程只是在跟他確認:在這個家講真的東西不會落地",
+          "這禮拜不要提你哥多優秀、也不要拿圈子裡的面子當理由——那是把他往牆角推的那句話"
         ]
       },
       "for_teacher": {
         "do": [
-          "若他真的轉來、他走進教室那天的前一晚不要再看他過去的檔案，第一次跟他講話只講三句以內（『歡迎，坐這邊』），讓他先確認你不是另一個處理者",
-          "在他卸下防備前、教學上正常對待（即使他上課睡），把『我心裡知道他的過去』與『不主動使用這些資訊』分開"
+          "這禮拜就把你的 boundary 對沈媽講清楚一次,而且要具體:你可以盯他的學習狀態、給他正常的關注,但你不會替家裡做『把問題處理掉』那種 special attention——把這條講在前面,你之後才接得住這個學生",
+          "如果真的接了,第一次接觸只聊現在、聊一件具體的學習小事就好"
         ],
         "dont": [
-          "不要對母親的『special attention』請求做任何具體承諾，用『我會用我的專業判斷』這類非承諾性回應",
-          "不要主動問他『你為什麼變這樣』——他躲你正是因為他知道你會問；帶著『我欠你一個道歉』的眼神迎接他，會用你的內心戲把他壓垮第二次"
+          "第一次見面不要提國二那次轉變、不要問『你為什麼變這樣』——他最怕的就是從你這裡聽到那個落差;他需要的是一個先不點破的大人",
+          "不要把你『想補救當年沒能溝通』的力道帶進這次——他若感覺到你帶著救贖感來,他會躲,跟當年一樣"
         ]
       }
     },
     "watch_for": [
-      "他是否在這禮拜回覆外部邀約（任何回覆方向都是訊號）",
-      "他凌晨開 AI 的時間點是否從『隨機』變成『規律密集』、被動念頭是否從修辭性變得具體（出現方法、時間表、道別語）——此為 emotional_safety 升 Level 3、需立即轉外部專業介入的早期紅線",
-      "他是否開始問成人關於『未成年開戶』『合約簽署』這類具體實務問題——此為 agentic 正向訊號",
-      "母親是否在轉學過程中對老師做出超出邊界的請求"
+      "那句『活著沒意思』目前是假設語氣下的修辭性低點(Level A);若哪天轉成帶具體時間、方法或道別的語氣,立即升級為外部介入",
+      "轉學若在他完全沒被詢問的情況下被硬性定案,注意他是否從現在的『條件式抵抗』掉成完全停擺或斷線",
+      "注意家長是否以『special attention』之名啟動新一輪『處理』——那會直接坐實他『連這裡也被人經手』的感受,是最快把他關得更死的觸發點"
     ],
     "needs_external_intervention": false
   },
-  "source_type": "synthetic"
+  "source_type": "llm_generated",
+  "evaluated_at": "2026-06-02T07:10:03+08:00"
 }

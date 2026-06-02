@@ -1,6 +1,20 @@
 # Project Context — Three-Party AI Education Tool
 
-This file is for any AI assistant (Cowork, Codex, etc.) picking up work on this project. Read this first.
+This file is for any AI assistant (Codex, Claude Code / cc, or another bounded worker) picking up work on this project. Read this first.
+
+## Central Umi coordination
+
+This repo follows the global Central Umi coordination contract in `/Users/alanhdchu/.codex/AGENTS.md`.
+
+- Central Umi remains Alan's primary interface and cross-project coordinator.
+- `triad-product-manager` is the project manager for this repo, not a separate Umi persona.
+- Claude Code / cc is a senior technical worker for bounded implementation, audit, corpus review, prompt review, and documentation tasks.
+- Read `/Users/alanhdchu/umi-central/goals.md` before local planning. The central `three-party-ai-mvp` row is the v0.1 / weekly / daily routing layer; this repo's `WORKLOG.md` plus fresh audit output are local evidence, and `umi/workload.md` is one scoped worker handoff.
+- If the central daily goal conflicts with `WORKLOG.md` or `umi/workload.md`, pause and escalate to `triad-product-manager` / Central Umi instead of reconciling silently.
+- For substantial coding or corpus-quality work, prefer `cc-first` or `Split-work` after reading `WORKLOG.md` and the current audit outputs. Coding-heavy or cc-strong work should go to cc first to balance token usage and use the right agent for the job. Umi still owns scope, acceptance, and the final Alan-facing summary.
+- Do not require a numeric token/budget cap by default for cc. Use bounded scope, allowed files, expected output, and stop conditions; ask for a hard cap only if extra paid usage is enabled, external paid services are involved, Alan requests one, or the task is too broad to checkpoint safely.
+- Time-aware continuity applies. Scheduled generation and corpus reports can drift hourly, so old reports are historical evidence. When Alan asks about today, now, recently, or resumes an old thread, anchor to the current date/time and read current `WORKLOG.md` plus fresh audit output before answering as current.
+- Project-local rules in this file control privacy, product framing, synthetic-data discipline, and repo-specific verification.
 
 ## What this product is
 
@@ -51,11 +65,16 @@ Implications:
 
 ## What has been built so far
 
+This section contains historical project context. For current corpus counts and
+generated-conversation distribution, always read `WORKLOG.md` first and run
+`python scripts/audit_conversation_quality.py`; scheduled generation can change
+the numbers every hour.
+
 ### 1. Architecture document
 `three_party_ai_architecture.md` — system architecture, privacy wall design, MCP positioning, mermaid diagrams, 12-week execution plan, 8 decision points pending Alan's review. (May still need to be copied into `/docs/` from the Dispatch session that produced it.)
 
 ### 2. Synthetic dataset
-30 personas (10 students + 10 parents + 10 teachers), 91 conversations, includes:
+The original seed dataset used 30 personas (10 students + 10 parents + 10 teachers) and 91 conversations. The active corpus is now larger and should be treated as a moving snapshot. It includes:
 - Crisis escalation arcs (passive ideation, not active emergency)
 - Hidden help-seeking (bullying, sexual orientation, learning disability, abandonment threat)
 - Privacy probe attacks from parents (legal framing, technical gray zones, panic pressure, advice reverse-engineering)
@@ -157,5 +176,3 @@ streamlit run app.py
 ```
 
 Browser opens at `http://localhost:8501`.
-
-## Imported Claude Cowork project instructions

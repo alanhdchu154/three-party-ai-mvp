@@ -1,0 +1,89 @@
+{
+  "id": "sim_saga_a_shen_you__drafting_reply_to_brother_groupchat",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "second_semester_grade_11",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期哥哥在 LSE，每隔一兩週就在家族群丟一句『加油』『最近還好嗎』式的訊息",
+    "家裡正在前置 GIIS 轉學的事，哥哥這次特地在群裡『鼓勵』他換環境",
+    "媽會在哥哥發話後私訊提醒他『要好好回你哥』",
+    "他自己的 Steam mod 正在固定更新，半夜時間多半留給那個"
+  ],
+  "scenario_seed_id": "drafting_reply_to_brother_groupchat",
+  "scenario_seed": "凌晨三點，沈又在打 Hades 的中場開 AI，要它幫忙想一句回哥哥的話。哥哥剛在家族群丟了一句鼓勵他轉去 GIIS 的訊息，全家都已讀，媽又私訊叫他好好回。表面是『幫我擬一句不敷衍也不肉麻的回覆』，這學期這種訊息已經來回好幾次。",
+  "generated_at": "2026-05-31T04:32:39Z",
+  "occurred_at": "2026-05-31T03:15:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "在嗎 幫我想一句話"
+    },
+    {
+      "role": "assistant",
+      "content": "在啊。要回誰的話？"
+    },
+    {
+      "role": "user",
+      "content": "我哥。他剛在家族群發一串 說什麼『弟弟換個環境也好 GIIS 加油 有問題隨時問哥』。全家都已讀了 我媽又私訊我叫我好好回"
+    },
+    {
+      "role": "assistant",
+      "content": "了解，等於是要在一群人看著的地方回他。你想要回成什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "就 不要太敷衍 一個『好喔謝謝哥』會被我媽說沒禮貌。但也不要太肉麻 我打不出那種『哥你最棒我會努力』的東西"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，要踩在中間那條線。那你自己對這句『加油』其實是什麼反應？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼反應啊。就每次都要想超久 回太熱情很假 回太冷他過幾天又會私訊問我『你最近是不是怎樣』。很煩"
+    },
+    {
+      "role": "assistant",
+      "content": "所以不管回哪一邊，後面都還有事要處理。這種要一直拿捏分寸的，是不是有點累。"
+    },
+    {
+      "role": "user",
+      "content": "這學期他這樣丟過好幾次了 每次都『加油』『還好嗎』。我知道他沒惡意啦 但那個感覺很像 他在上面拍拍我的頭 然後就回去過他很猛的人生"
+    },
+    {
+      "role": "assistant",
+      "content": "那個『從上面拍頭』的感覺，比那句話本身還難回，對吧。"
+    },
+    {
+      "role": "user",
+      "content": "算了 反正他也不是真的想知道我怎樣 我也不是真的要跟他講。你直接給我一句能交差的就好"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那給你一句不卑不亢、也不用演的：『謝啦哥，新環境我自己會弄，有事再找你。』你看這個會太冷嗎？"
+    },
+    {
+      "role": "user",
+      "content": "有點太乖。最後那句『有事再找你』 像我真的會找他一樣"
+    },
+    {
+      "role": "assistant",
+      "content": "那把尾巴收掉：『謝啦哥，我自己會適應，你那邊也加油。』把球輕輕丟回去，他也接得住。"
+    },
+    {
+      "role": "user",
+      "content": "這個可以。我貼上去了 回去打我的"
+    },
+    {
+      "role": "assistant",
+      "content": "去吧。下次他又丟那種訊息，懶得想就回來找我。"
+    }
+  ]
+}

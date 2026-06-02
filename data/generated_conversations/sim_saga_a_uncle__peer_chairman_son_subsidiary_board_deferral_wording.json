@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_uncle__peer_chairman_son_subsidiary_board_deferral_wording",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "early_summer_2026",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "上個月一場慈善晚會上，另一家集團的張董半開玩笑提了一句，想讓他兒子進大伯旗下一家子公司的董事會歷練",
+    "大伯當下只用『再看看』帶過，回來後把這件事擱在待回覆的清單最下面"
+  ],
+  "scenario_seed_id": "peer_chairman_son_subsidiary_board_deferral_wording",
+  "scenario_seed": "上個月晚會上另一家集團的張董提議讓他兒子進大伯一家子公司董事會歷練。大伯想回一封簡短、客氣但不鬆口的訊息，把這件事往後推到下一季再談，要 AI 幫他把措辭弄得體面又不留把柄。純文書需求。",
+  "generated_at": "2026-06-01T16:09:54Z",
+  "occurred_at": "2026-06-01T15:38:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我看一段回覆。上個月晚會張董提了一句，想讓他兒子進我們旗下一家子公司的董事會歷練。我不想答應，但也不想現在就回絕得太硬。幫我擬一段，把這件事推到下一季再談，要客氣、要短、不要留下任何可以被解讀成承諾的字。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。先確認兩個邊界，我才不會幫你寫得太鬆或太冷。第一，你是想完全留一條後路，還是其實心裡已經偏向不收，只是不想現在說？第二，這是私訊還是會被秘書處存檔轉發的正式信件？這兩點會決定我用多客氣的語氣、留多少彈性。"
+    },
+    {
+      "role": "user",
+      "content": "私訊。心裡偏向不收，但張董那邊以後還有別的合作，不能得罪。所以表面要留路，實際上我不打算真的安排。"
+    },
+    {
+      "role": "assistant",
+      "content": "了解。那措辭的重點是：感謝他看得起、把延後講成是程序而不是態度、不提任何具體職位或時間點。給你一版：「張董，晚會那天聊得盡興。令郎的事我放在心上。子公司那邊董事會的人事這一季已經排定，要動得走完內部的程序，急不得。等下一季董事會節奏鬆一點，我們再好好坐下來談。」這版把球丟回到流程上，沒有一個字是承諾。你看語氣會不會太客套？"
+    },
+    {
+      "role": "user",
+      "content": "『放在心上』太重了，會讓他覺得我真的在推進。換掉那句。其他可以。"
+    },
+    {
+      "role": "assistant",
+      "content": "同意，那句確實會被當成默許。改成輕一點的：「張董，晚會那天聊得盡興。令郎的事我記下了。子公司那邊董事會的人事這一季已經排定，要動得走完內部的程序。等下一季節奏鬆一點，我們再談。」『記下了』比『放在心上』冷一階，剛好停在禮貌但不上鉤。要不要我再給你一個更簡短的版本備用？"
+    },
+    {
+      "role": "user",
+      "content": "不用，這版就好。這種一句話的人情，比一份合約還難寫。年輕的時候我以為把事做大最難，現在發現難的都是這種——算了，措辭夠了，我自己發。"
+    },
+    {
+      "role": "assistant",
+      "content": "這版可以直接發。你最後那半句我聽到了，不追問。需要的時候再回來，下一季那封真的要談的，我幫你一起想。"
+    }
+  ]
+}

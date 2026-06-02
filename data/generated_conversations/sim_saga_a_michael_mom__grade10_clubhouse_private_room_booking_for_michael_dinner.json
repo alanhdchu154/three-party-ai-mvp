@@ -1,0 +1,71 @@
+{
+  "id": "sim_saga_a_michael_mom__grade10_clubhouse_private_room_booking_for_michael_dinner",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "Michael 高一上剛從原校轉進 GIIS、入學兩個多月還在適應新環境",
+    "上週是 Michael 在 GIIS 第一次月考週、考完當天回家只說了一句『還行』就回房"
+  ],
+  "scenario_seed_id": "grade10_clubhouse_private_room_booking_for_michael_dinner",
+  "scenario_seed": "高一上、Michael 第一次月考剛結束。媽媽想趁週末在家族會所訂個小包廂，全家吃頓飯算是給他打個氣，請 AI 幫忙擬一則發給會所李經理的 WeChat、語氣要客氣但不要太刻意。純後勤。",
+  "generated_at": "2026-06-02T05:12:00Z",
+  "occurred_at": "2023-10-18T15:10:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我擬一則 WeChat 給會所的李經理，我想訂這週六晚上的小包廂，全家吃個飯。語氣客氣一點，但不要弄得好像我在求他、太刻意那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，這種訊息越自然越好。我先擬一版，不過要先跟你確認兩件事：週六晚上大概幾點、總共幾位？另外你要的是哪一間，是上次那間靠窗的小包廂嗎？這幾個填進去訊息就完整了。"
+    },
+    {
+      "role": "user",
+      "content": "六點半好了，六個人。就上次那間小的，不要大廳那種。然後問一下能不能上他們秋季的那個套餐。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這版你看看：『李經理您好，想訂這週六晚上六點半的小包廂，六位，就上次靠窗那間。方便的話想麻煩安排秋季套餐，謝謝您。』訊息夠清楚、也不會顯得太鄭重。要直接用還是想再調？"
+    },
+    {
+      "role": "user",
+      "content": "嗯…讀起來有點公事公辦。我跟李經理算熟，他每次都記得我們家口味，這樣會不會太硬了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那把開頭軟一下就好，不用大改。比方：『李經理，又麻煩您了。週六晚上六點半想訂上次那間小包廂，六位，秋季套餐就拜託您安排，謝謝。』保留你們本來的熟，但還是清楚交代了時間人數。這樣順嗎？"
+    },
+    {
+      "role": "user",
+      "content": "順多了。其實是想趁 Michael 第一次月考完帶他出來吃個飯。也不知道他會不會想來啦，他最近回家都待沒多久。算了，先訂著吧，到時候人不夠再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "先訂著、人數有彈性就好，這樣最不會卡。要不要哪天他在的時候輕鬆問一句就行，不用講得像安排,他答應的機率反而高。包廂訂六位、少一兩個臨時調整通常都沒問題。要我把訊息定稿給你嗎？"
+    },
+    {
+      "role": "user",
+      "content": "好，定稿給我。對了我吃素，順便讓他幫我留一份不要肉的。"
+    },
+    {
+      "role": "assistant",
+      "content": "定稿：『李經理，又麻煩您了。週六晚上六點半想訂上次那間小包廂，六位,秋季套餐就拜託您安排。我這份麻煩備一份素的,不要肉,謝謝您。』這樣時間、人數、套餐、你的素食都交代到了。直接貼過去就可以。"
+    },
+    {
+      "role": "user",
+      "content": "好，謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣，週六順利。"
+    }
+  ]
+}

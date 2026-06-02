@@ -8,20 +8,18 @@
 - Reviewer status: `not_reviewed`
 
 ### Current trajectory
-- Possible `autonomy_loss` pattern: Student has difficulty naming personal wants outside external expectations.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
 - Possible `perfectionism_pressure` pattern: Student links worth, belonging, or safety to performance and achievement.
+- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
 - Dimension `academic_load` is active in current score.
-- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `autonomy_loss` detected. · `data/analysis_reports/shen_you_analysis.json`
-- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
-- `traj_ev_003` dimension_score · medium · synthetic-only · Possible signal `perfectionism_pressure` detected. · `data/dimension_scores/shen_you.json`
+- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
+- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `perfectionism_pressure` detected. · `data/dimension_scores/shen_you.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
 - `traj_ev_004` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/shen_you.json`
 - `traj_ev_005` dimension_score · high · synthetic-only · Dimension `academic_load` is Level 3. · `data/dimension_scores/shen_you.json`
-- `traj_ev_006` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
 
 ### Likely outcomes if unchanged
 - Continued outward functioning with lower engagement.
@@ -124,20 +122,18 @@
 - Reviewer status: `reviewed_supported`
 
 ### Current trajectory
-- Possible `autonomy_loss` pattern: Student has difficulty naming personal wants outside external expectations.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
 - Possible `strategic_compliance` pattern: Student appears compliant while privately disengaging or withholding real preference.
+- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
 - Dimension `academic_load` is active in current score.
-- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `autonomy_loss` detected. · `data/analysis_reports/shen_you_analysis.json`
-- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
-- `traj_ev_003` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `data/analysis_reports/shen_you_analysis.json`
+- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
+- `traj_ev_002` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `data/analysis_reports/shen_you_analysis.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
 - `traj_ev_004` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/shen_you.json`
 - `traj_ev_005` dimension_score · high · synthetic-only · Dimension `academic_load` is Level 3. · `data/dimension_scores/shen_you.json`
-- `traj_ev_006` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
 
 ### Likely outcomes if unchanged
 - Student may keep meeting visible expectations while internally opting out.
@@ -171,14 +167,14 @@
 ### Current trajectory
 - Possible `parent_monitoring_increase` pattern: Parent or guardian increases checking, pressure, surveillance, or corrective questioning.
 - Possible `strategic_compliance` pattern: Student appears compliant while privately disengaging or withholding real preference.
-- Dimension `academic_load` is active in current score.
 - Dimension `family_dynamics` is active in current score.
+- Dimension `academic_load` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `parent_monitoring_increase` detected. · `data/analysis_reports/shen_you_analysis.json`
 - `traj_ev_002` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `data/analysis_reports/shen_you_analysis.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `academic_load` is Level 3. · `data/dimension_scores/shen_you.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/shen_you.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/shen_you.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `academic_load` is Level 3. · `data/dimension_scores/shen_you.json`
 
 ### Likely outcomes if unchanged
 - Parent concern may convert into more monitoring, reducing student trust.
@@ -205,18 +201,16 @@
 - Reviewer status: `not_reviewed`
 
 ### Current trajectory
-- Possible `autonomy_loss` pattern: Student has difficulty naming personal wants outside external expectations.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
 - Dimension `future_planning` is active in current score.
 - Dimension `emotional_safety` is active in current score.
 - Dimension `identity` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `autonomy_loss` detected. · `data/analysis_reports/shen_you_analysis.json`
-- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/shen_you.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 2. · `data/dimension_scores/shen_you.json`
-- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
+- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/shen_you.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/shen_you.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 2. · `data/dimension_scores/shen_you.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/shen_you.json`
 
 ### Likely outcomes if unchanged
 - Student may over-rely on AI or adult interpretation instead of building agency.

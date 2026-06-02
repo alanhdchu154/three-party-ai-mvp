@@ -1,0 +1,43 @@
+{
+  "id": "sim_saga_a_alan_teacher__time_budget_keeps_bending_for_struggling_students",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "across_this_school_year",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "這學期他的每週工時一直被少數幾個跟不上的學生吃掉，課表上 admin 時段幾乎被一對一補時間佔滿",
+    "杰尼那邊年初給過一個全職 offer，他到現在還沒回",
+    "上個月開始他固定週四晚多留兩小時陪一個交不出作業的學生，沒跟任何人報備",
+    "他太太唸過他『學校又不會多付你那兩小時』"
+  ],
+  "scenario_seed_id": "time_budget_keeps_bending_for_struggling_students",
+  "scenario_seed": "Alan 晚上想重排下學期每週時數，把杰尼的全職 offer 算進去。算著算著發現這半年他的時數一直自動往幾個跟不上的學生那邊傾斜，連 admin 時段都被吃掉。他來 AI 這邊本來只是想做時間試算，講到一半露出一點他其實放不下那幾個學生的裂縫。",
+  "generated_at": "2026-05-31T08:30:00Z",
+  "occurred_at": "2026-05-29T18:25:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "幫我算個東西。下學期我每週可支配工時大概 38 小時，扣掉固定上課 22、備課 6、改作業大概 5，剩多少能動。"},
+    {"role": "assistant", "content": "22 + 6 + 5 = 33，剩 5 小時是真正能自由排的。如果你還想把杰尼的時段塞進來，這 5 小時就是全部的籌碼。你要我幫你把這 5 小時分塊嗎？"},
+    {"role": "user", "content": "對，杰尼那邊如果全職是另一回事，先不算。我現在是想看學期內這 5 小時夠不夠用。"},
+    {"role": "assistant", "content": "5 小時聽起來像有空間，但要先確認它現在是不是真的空著。你這學期實際上週週都有把這 5 小時拿去做別的嗎？"},
+    {"role": "user", "content": "……老實說沒一週是空的。光週四晚我就固定多留兩小時。"},
+    {"role": "assistant", "content": "那等於 5 小時先被砍掉 2，只剩 3。週四那兩小時是排定的課，還是你自己加的？"},
+    {"role": "user", "content": "我自己加的。有個學生作業一直交不出來，我留下來盯他寫。沒報備，學校也不會多算這兩小時。"},
+    {"role": "assistant", "content": "了解。先不評論值不值得，這在帳面上就是一個沒被記錄的固定支出，2 小時/週。要排下學期前，建議先決定這格要不要保留，因為它會直接吃掉你大半的機動時間。你想保留嗎？"},
+    {"role": "user", "content": "問題就在這。我每次說『這學期不要再這樣』，開學三週又自動變回去。不只他一個，每年都有兩三個這種學生。"},
+    {"role": "assistant", "content": "這聽起來不是排程問題，是一個會自己重演的 pattern。與其靠意志力壓住，不如先承認它會發生，把它變成有上限的東西。例如：固定保留一格『額外輔導』，但全班加起來每週封頂 2 小時，先到先排，滿了就排候補。這樣你還是有在幫，但時數不會無限往那邊漏。"},
+    {"role": "user", "content": "封頂……我知道這比較健康。但你不在現場。你看著一個小孩明明做得到、就是卡在那邊交不出來，你很難轉頭就走，幹。"},
+    {"role": "assistant", "content": "我懂那個拉力，那不是你管理不好，是你真的在意。但封頂不等於轉頭就走，它等於你決定這份在意要能撐三年、不是撐一學期就把自己燒乾。你現在這個排法，半年後你還留得下來嗎？"},
+    {"role": "user", "content": "這就是我沒回杰尼 offer 的原因之一。我一直覺得我走了這幾個學生怎麼辦，可是我留著也沒真的把自己排清楚。"},
+    {"role": "assistant", "content": "那是兩個分開的決定，現在被你綁成一個。要不要去杰尼，是職涯題；這 2 小時要不要封頂，是這學期就能改的排程題。先把能動的那個動了，你看 offer 的時候腦子會清楚很多。要不要我先幫你把封頂版的週時數排出來？"},
+    {"role": "user", "content": "好，排封頂版。額外輔導全班每週 2 小時上限，剩下 3 小時你幫我留白,別全填滿。"},
+    {"role": "assistant", "content": "排好：上課 22、備課 6、改作業 5、額外輔導封頂 2、機動留白 3，合計 38，剛好打平。留白那 3 小時我不填，當作緩衝，不然第一個臨時狀況又會去吃輔導格。下週你照這個跑一週，週末回來跟我對一次哪格爆了，我們再微調。杰尼 offer 等這版穩了再單獨開一次來談。"},
+    {"role": "user", "content": "行。至少這樣我下週四晚有理由準時走人了。"},
+    {"role": "assistant", "content": "那格還在,只是有了邊界,不是消失。你準時走人不代表你不管,代表你想撐久一點。下週對帳見。"}
+  ]
+}

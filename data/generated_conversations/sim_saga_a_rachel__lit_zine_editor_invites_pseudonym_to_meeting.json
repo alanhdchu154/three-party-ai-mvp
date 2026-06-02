@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_rachel__lit_zine_editor_invites_pseudonym_to_meeting",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "second_semester_grade_10",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高一下她第一次把一篇散文投到學校的匿名刊物徵稿",
+    "班群曾轉發過一篇她寫的散文當話題、沒人知道作者其實是她",
+    "週末常被排進家族的春季聚餐與固定行程"
+  ],
+  "scenario_seed_id": "lit_zine_editor_invites_pseudonym_to_meeting",
+  "scenario_seed": "高一下，學校刊物編輯寄信到她投稿用的筆名帳號，說想約作者下週三放學後到社辦當面討論修稿再排版。她想讓散文被印出來，但社辦那些人她都認識，當面去等於露臉。她在決定要不要去，傾向用 email 遠端來回修稿、婉拒到場。",
+  "generated_at": "2026-05-31T07:10:00Z",
+  "occurred_at": "2024-04-18T23:10:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "學校那個刊物的編輯寄信到我投稿用的帳號，說想約作者下週三放學後到社辦當面討論修稿再排版。我有點不知道要不要去。"},
+    {"role": "assistant", "content": "聽起來那篇被選上了，這應該算是好消息吧？你現在卡住的是「要不要當面去」這件事嗎？"},
+    {"role": "user", "content": "對。我想要它被印出來，可是當面去就等於要露臉。我用的是筆名，社辦那些人我都認識。"},
+    {"role": "assistant", "content": "所以一邊是希望作品被看見，一邊是不希望大家知道那是你寫的，這兩個願望其實同時都很真。那當面去，你最怕的是哪個瞬間？"},
+    {"role": "user", "content": "大概是有人「喔原來是你」那種反應。然後他們就會開始用那篇東西看我。我寧可他們讀完都不知道是誰寫的。"},
+    {"role": "assistant", "content": "嗯，被讀到、跟被認出來，對你是兩件不一樣的事。那如果不當面去，用回信來回討論修稿，這個刊物有可能接受嗎？"},
+    {"role": "user", "content": "應該可以吧。我只是怕拒絕當面去會顯得很奇怪，好像我在裝神秘。其實我就是不想去。"},
+    {"role": "assistant", "content": "你會不會其實心裡已經有一個比較想要的版本了，只是怕那個版本聽起來不夠合群？"},
+    {"role": "user", "content": "……有。我想回信說我這學期週末都排滿了沒辦法到社辦，但很樂意用 email 把修改意見來回。這樣很爛嗎？"},
+    {"role": "assistant", "content": "不爛啊，這就是一個很清楚的安排。你提到週末排滿，是家裡的事嗎，還是只是順手拿來當理由？"},
+    {"role": "user", "content": "一半一半。家裡週末通常都有東西，但這次主要是我自己不想去。我發現我很常這樣，把真正的理由藏在一個聽起來正當的理由後面。"},
+    {"role": "assistant", "content": "你現在能這樣看自己這個習慣，其實已經滿清楚的了。那這次把真正理由藏起來，讓你覺得不舒服嗎，還是還好？"},
+    {"role": "user", "content": "還好。我只是有點累，每次有人靠近我寫的東西，我第一個反應都是往後退。連這種好事都是。"},
+    {"role": "assistant", "content": "聽起來那個往後退幾乎是自動的，不是針對這件事。那這次你想試著只退一點點，還是就讓自己退到 email 那條線就好？"},
+    {"role": "user", "content": "email 那條線就好。我今晚就把信寫一寫，講清楚我可以遠端來回修，但不過去。然後就不要再想了。"},
+    {"role": "assistant", "content": "那就這樣。寫完送出之後，這件事今晚就算結了，剩下的明天再說好嗎？"}
+  ]
+}

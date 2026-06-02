@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_uncle__weekly_driver_rota_event_squeeze",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall_first_semester",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "本月車隊一台主力車送原廠保養、可調度車輛少一台",
+    "集團秋季數場周年酒會與商會餐敘集中在同兩週",
+    "Rachel 升高二後課後行程變多、原本共用的司機檔期變緊",
+    "他習慣親自盯行程、不全權交給秘書代排"
+  ],
+  "scenario_seed_id": "weekly_driver_rota_event_squeeze",
+  "scenario_seed": "高二上學期某週，車隊一台主力車送保養只剩兩台，同週又撞上兩場酒會跟一場商會餐敘。他想把這週的司機與用車一次排順，純行程調度，不談任何家人，只是不想臨時缺車。",
+  "generated_at": "2026-05-22T03:11:29Z",
+  "occurred_at": "2024-11-13T16:20:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "這週用車有點擠。車隊一台主力送保養，剩兩台。我自己這週兩場酒會、一場商會餐敘，行程幫我先理一下，我不想到時候臨時缺車。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。先確認，剩的兩台是各配一個司機，還是兩台共用調度？"
+    },
+    {
+      "role": "user",
+      "content": "各一個。但其中一個禮拜三排了休假。"
+    },
+    {
+      "role": "assistant",
+      "content": "那禮拜三實際只有一台車一個司機可動。三場活動分別在哪幾天、大概什麼時段？我看哪裡會撞。"
+    },
+    {
+      "role": "user",
+      "content": "兩場酒會週二晚、週四晚。商會餐敘週三中午。"
+    },
+    {
+      "role": "assistant",
+      "content": "週三只有一台車，但中午就那一場餐敘，單場不衝突，沒問題。會卡的是週四——那天白天還有別的用車安排嗎？"
+    },
+    {
+      "role": "user",
+      "content": "週四白天我進公司，傍晚直接去酒會。同一台車接著用就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這週其實排得開：週二晚一台、週三中午一台、週四整天到晚上同一台一路帶，保養那台完全不影響。要我把三場按出發時間列成一張單交給司機嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不用，我口頭交代就行。我只是要確認不會臨時缺車。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。三場都有車有人，週三那台兼著餐敘也還有餘裕。"
+    }
+  ]
+}

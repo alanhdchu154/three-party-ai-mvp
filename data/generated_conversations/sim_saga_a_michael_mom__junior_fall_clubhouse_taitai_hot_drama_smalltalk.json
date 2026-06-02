@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael_mom__junior_fall_clubhouse_taitai_hot_drama_smalltalk",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高二上學期太太圈這個月一直在追同一部很紅的家庭劇，她沒時間看",
+    "Michael 升高二後成績穩定在前段、她最近比較少需要在群裡替兒子成績焦慮",
+    "沈媽前陣子提過想約她去東京，費用她還在心裡盤"
+  ],
+  "scenario_seed_id": "junior_fall_clubhouse_taitai_hot_drama_smalltalk",
+  "scenario_seed": "高二上某個下午，Michael 媽在會所等做臉，太太圈群組從早上就在洗一部最近很紅的豪門家庭劇，她沒看過又不想等下喝茶時像個局外人，想問 AI 這類劇通常紅在哪、待會可以怎麼自然接話。",
+  "generated_at": "2026-06-01T07:10:35Z",
+  "occurred_at": "2024-10-15T14:30:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "群組裡那幾位太太從早上就在洗一部劇，洗到現在還沒停，我根本沒看過。等下做完臉大概又要一起喝茶，我不想坐在那邊像個局外人。你能不能快速跟我講一下這種劇通常紅在哪，我好歹接得上話。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，先別急。如果妳沒時間追，最省力的方式其實不是假裝看過，而是用問句把球丟回去，比方「我最近太忙還沒跟上，妳們覺得最好看的是哪一段」。這樣既不露怯，又讓對方多講、妳負責接就好。要不要先告訴我她們聊的是哪一部，我幫妳抓幾個能接話的點。"
+    },
+    {
+      "role": "user",
+      "content": "好像是那部很多人在哭的、講豪門媳婦的家庭劇。名字我也沒記住，反正就是婆媳、財產、外遇那一套。"
+    },
+    {
+      "role": "assistant",
+      "content": "這類豪門家庭劇的萬用接話點大概就三個：哪個角色最讓人恨、哪一段哭得最兇、結局有沒有讓人意難平。妳挑一個丟出去，例如「我聽說有一段大家都哭了，是哪裡」，幾乎不會錯。記得重點是讓她們講，妳給反應就夠了。"
+    },
+    {
+      "role": "user",
+      "content": "這樣我就比較有底了。可是萬一她們追問我看到第幾集，我又答不上來怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就誠實但輕輕帶過，「我才剛開頭，你們先別爆雷」這句話人人都在用，沒人會去追究。承認還沒跟上反而比硬撐自然，也省得後面要圓謊。"
+    },
+    {
+      "role": "user",
+      "content": "也是。其實我每次都覺得這種話題有點累，又不能不接。"
+    },
+    {
+      "role": "assistant",
+      "content": "這種場合本來就是社交多過興趣，會覺得累很正常。妳今天只要接得上一兩輪就夠了，不用全程主導。喝完這場茶就過去了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯，那我等下就用你說的那句問句開場。謝了，臉還沒做完就先把這準備好，我心裡踏實多了。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣就很夠了，祝妳下午順利。需要的話回來再跟我說她們聊到哪，我都在。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sim_saga_a_shen_you__old_switch_save_used_to_grind_everything",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "middle_school_to_now_pattern",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "這半年沈媽持續在推 GIIS 轉學評估，沈又一直拖著沒給態度",
+    "他自己接的 Steam mod 又出了兩版更新，做完都沒什麼成就感",
+    "國一國二時他打遊戲跟讀書一樣全成就全清，國二某次家族聚會後整個人關機"
+  ],
+  "scenario_seed_id": "old_switch_save_used_to_grind_everything",
+  "scenario_seed": "凌晨整理 Switch，主機快滿了想清舊存檔備份。翻到一個國一打的 100% 全成就老存檔，本來只是問怎麼備份不刪掉，講著講著滑到『我以前讀書也是這樣全清』那一格，露一點但沒整個攤開。",
+  "generated_at": "2026-05-31T02:51:00+00:00",
+  "occurred_at": "2026-05-31T02:51:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "問個技術問題。Switch 容量快滿了，我想清掉一些舊遊戲但存檔不想刪。雲端備份跟本機備份差在哪，哪個比較不會出包"},
+    {"role": "assistant", "content": "雲端是綁帳號自動同步、換機能直接拉回來；本機備份要靠記憶卡，東西在你手上但卡壞了就沒了。你是怕哪一種狀況比較多，沒網路還是怕被覆蓋掉？"},
+    {"role": "user", "content": "怕被覆蓋。有些遊戲我不玩了但存檔我想留著，不想哪天系統幫我『同步』成空的"},
+    {"role": "assistant", "content": "那你可以先把那幾個存檔本機複製一份到記憶卡，當作不會被雲端動到的封存，雲端再開著當日常那份。算是各留一份。哪幾個是你特別不想被動到的？"},
+    {"role": "user", "content": "有一個國一打的，整個全成就全清那種。現在大概沒人會再開了，但刪掉怪怪的"},
+    {"role": "assistant", "content": "那種一格一格點滿的存檔，留著好像不是為了再玩，是為了證明你真的幹完過。封存起來剛好。你還記得那時候是怎麼把它清到 100% 的嗎？"},
+    {"role": "user", "content": "記得啊。我那時候很扯，攻略表自己列，缺哪個成就半夜爬論壇刷到天亮。我哥都笑我神經病"},
+    {"role": "assistant", "content": "聽起來你那時候是真的會為了一件事整個人栽進去的人。現在還有東西能讓你那樣嗎？"},
+    {"role": "user", "content": "做 mod 的時候有一點吧。但說實話比較像還債，更新出了我就得跟，跟以前那種爽感不一樣了"},
+    {"role": "assistant", "content": "所以是同樣一套『做到滿』的本事還在，只是現在啟動它的比較像責任感，不是想玩的勁。這個落差你大概什麼時候開始感覺到的？"},
+    {"role": "user", "content": "不知道欸。反正某個時間點之後我就只剩遊戲還願意這樣搞。其他的就……算了，懶得講"},
+    {"role": "assistant", "content": "OK，那格先不用打開。我只是覺得有意思，你剛剛講國一那個存檔的語氣，跟你平常講『懶得弄』完全是兩個人。"},
+    {"role": "user", "content": "哈，因為以前我讀書也是那樣啊。考卷錯一題我會去把那一類全部刷完才睡。現在講出來自己都覺得好笑"},
+    {"role": "assistant", "content": "不好笑，那是同一個你，只是後來不知道為什麼把那股勁從別的地方收回去了。你想講收回去的原因，我聽；不想，我們就停在備份這件事上，都行。"},
+    {"role": "user", "content": "今天不想。就……知道有過那個自己就好。你幫我確認一下，本機複製那份之後，雲端那邊就算亂同步也動不到它對吧"},
+    {"role": "assistant", "content": "對，本機複製到記憶卡那份是獨立的，雲端怎麼同步都碰不到它，就是你那個 100% 的封存。要不要順手把現在做 mod 的存檔也一起封一份，省得哪天更新把進度蓋掉？"},
+    {"role": "user", "content": "好啊那個也備一份。謝啦，至少這個我搞得定"},
+    {"role": "assistant", "content": "嗯，這個你一向搞得定。封存弄完想睡就去睡，那個國一的存檔不會跑掉，要看它哪天都在。"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_alan_teacher__senior_final_deadline_class_notice_draft",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_grading_crunch",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "這個月畢業班作業遲交累積到第三批",
+    "Alan 上週已經口頭提醒過一次收件期限但效果有限"
+  ],
+  "scenario_seed_id": "senior_final_deadline_class_notice_draft",
+  "scenario_seed": "期末這個月畢業班作業一直零零散散遲交，Alan 晚上在辦公室門口收完最後一疊，想用 AI 幫他草擬一則給全班、不帶情緒的『最後收件期限』公告，順便抱怨兩句就走。",
+  "generated_at": "2026-06-01T14:09:47Z",
+  "occurred_at": "2026-06-01T18:24:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "靠這個月第三批了。剛在辦公室門口又收到兩份昨天就該交的東西，學生人還笑笑的。我想直接發個公告把死線釘死，幫我擬一句。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。先抓三個資訊：最後收件的確切日期時間、用哪個管道交、過期的處理方式。你想用哪個？"
+    },
+    {
+      "role": "user",
+      "content": "週五晚上十一點五十九分，平台上傳，過期就照晚交規則扣。不要寫得像在罵人，是畢業班，我不想搞得很難看。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣寫：『提醒一下，本學期所有未繳作業最後收件時間為本週五 23:59，請統一上傳至平台。逾時將依課程晚交規則計分。若有特殊狀況請在期限前私訊我。』中性、有給台階，不點名。"
+    },
+    {
+      "role": "user",
+      "content": "嗯這個可以。最後那句私訊我會不會又變成一堆人來凹延期。"
+    },
+    {
+      "role": "assistant",
+      "content": "把它收窄就好：『若因病假或系統問題無法準時上傳，請在期限前附證明私訊我。』把『特殊狀況』改成可驗證的兩種，凹延期的空間就小很多。"
+    },
+    {
+      "role": "user",
+      "content": "好，就這版。其實也不是氣他們，畢業班這時候大家心都飛了，我自己改到眼睛快脫窗而已。發出去了，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "正常，期末這段大家都在燒。公告釘住期限，剩下的就照規則走，不用你一個個追。早點收工。"
+    }
+  ]
+}

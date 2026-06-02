@@ -1,0 +1,61 @@
+{
+  "id": "sim_saga_a_stepdad__keer_piano_recital_reply_and_schedule",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_grade_12",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "本學期他同時在收尾集團年報、又要趕自有 fund 給 LP 的季度更新",
+    "上週才幫 Michael 處理過一輪選校相關的行政流程",
+    "可兒(國二)平常傳訊息他都回得很短、像在批公文，可兒上次當面說過他『回得像公告』"
+  ],
+  "scenario_seed_id": "keer_piano_recital_reply_and_schedule",
+  "scenario_seed": "可兒(國二)傳訊息問他下週四下午班上的鋼琴小發表會能不能到場。那天他本來排了兩個會。他來問 AI 怎麼把行程挪開、抓多少 buffer，並請 AI 幫他擬一則不像開會的簡短回覆，最後問要不要帶花。純行程與訊息協調，無情緒揭露。",
+  "generated_at": "2026-05-23T22:11:08Z",
+  "occurred_at": "2026-05-19T09:48:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "n_turns": 9,
+  "turns": [
+    {
+      "role": "user",
+      "content": "可兒傳訊息問我下週四下午她們班的鋼琴小發表會我能不能去。那天我本來排了兩個會。先幫我看現實面：如果要去，這種班級活動大概要抓多少時間的 buffer？"
+    },
+    {
+      "role": "assistant",
+      "content": "班級小發表會通常一個半到兩小時，加上你進出場跟路上交通，建議整段抓三小時、前後各留半小時 buffer，別卡著下一個會的開頭。關鍵是那兩個會——有沒有哪一個其實可以改線上或往前挪？只要鬆出一個，這件事就成立。"
+    },
+    {
+      "role": "user",
+      "content": "下午三點那個可以改線上。四點半那個是外部的，不好動。發表會兩點半開始。"
+    },
+    {
+      "role": "assistant",
+      "content": "那其實很順：你兩點到、看完她的部分，三點那個改線上、人在現場用手機接也行，四點半前回到車上趕外部那場，時間是夠的。我先幫你把這段標進行事曆、順便提醒司機兩點前到嗎？"
+    },
+    {
+      "role": "user",
+      "content": "好。然後幫我回她。我自己回都太短，她上次說我回得像在批公文。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就少一點『確認』『收到』這種詞。可以這樣回：『我看了行事曆，週四我會到。你大概幾點上台？我想準時看到。』最後一句是重點，它告訴她你在意的是看到她、不是行程塞不塞得下。要不要我也擬一個更輕鬆口語的版本給你挑？"
+    },
+    {
+      "role": "user",
+      "content": "這個就可以，不用第二版。最後一個問題，要帶花嗎？還是太隆重？"
+    },
+    {
+      "role": "assistant",
+      "content": "班級小發表會帶一大束花反而會讓她在同學面前有點尷尬。要帶就帶單支或一小束，或乾脆事後帶她去吃她喜歡的，重點是她知道你特地把時間空出來。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。那就這樣。謝了。"
+    }
+  ]
+}

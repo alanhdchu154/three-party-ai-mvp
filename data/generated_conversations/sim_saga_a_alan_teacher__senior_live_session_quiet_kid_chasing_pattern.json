@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_alan_teacher__senior_live_session_quiet_kid_chasing_pattern",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期 senior live session 出席率整體還行，但有兩三個本來不錯的孩子陸續變得鏡頭全黑、聊天室只回單字",
+    "Alan 這學期已經自己多開了幾次非正式的補時段，晚上常因此弄到很晚",
+    "上週其中一個安靜下來的 senior 又在 live session 全程沒出聲，作業遲交但內容沒崩"
+  ],
+  "scenario_seed_id": "senior_live_session_quiet_kid_chasing_pattern",
+  "scenario_seed": "senior spring，Alan 這學期注意到幾個本來表現穩定的高三生在 live session 變得鏡頭關、只回單字。這週又有一個這樣，作業有交但人明顯縮起來。他來問 AI 怎麼做一個不會給壓力的 check-in，講著講著開始懷疑自己是不是太愛追每一個安靜下來的學生。",
+  "generated_at": "2026-06-02T09:09:19Z",
+  "occurred_at": "2026-06-02T18:12:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我帶的這屆 senior，這學期有個本來上課很穩的孩子，最近 live session 整堂都關鏡頭，聊天室問他也只回一兩個字。作業還是有交，內容也沒爛掉，就是人整個縮起來。我想找他聊一下但不想嚇到他，你覺得怎麼開頭比較好。"
+    },
+    {
+      "role": "assistant",
+      "content": "先把這次 check-in 定位成「課務性、低壓」，不要一上來就問心情。可以從作業本身的具體一句切入，例如針對他最近一份還不錯的作業給一個真誠的點評，再順帶問一句「最近 live 你比較少出聲，是時段不順還是哪邊卡住，要不要我幫你調一下」。給他一個容易回的台階，讓「不想講」也是一個合法選項。先不要追原因。"
+    },
+    {
+      "role": "user",
+      "content": "對，我也是想說不能逼他講。但我有點怕他覺得我在盯他。私訊還是 live 之後留他一下比較好？"
+    },
+    {
+      "role": "assistant",
+      "content": "私訊通常比當場留人壓力小，因為他可以自己決定什麼時候回、回多少。盡量一對一、不要在公開聊天室點他，也不要讓其他同學看到你特別留他。訊息短一點、就事論事，把主動權留在他手上會比較安全。"
+    },
+    {
+      "role": "user",
+      "content": "了解。其實這學期已經第三個了，本來都好好的，後半學期一個一個鏡頭關掉。我不知道是我課變無聊還是怎樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "高三下這個時間點，鏡頭關、互動降低其實很常見，申請季、疲乏、整體班級氣氛都會放大這個現象，不一定是單一個人或你的課的問題。比起一個個猜原因，可以先觀察幾個比較客觀的訊號：是只在 live 安靜，還是作業品質、繳交時間也一起掉。如果只是 live 互動降、產出還穩，多半是能量管理，不用太早往壞處想。"
+    },
+    {
+      "role": "user",
+      "content": "這個孩子就是 live 很縮，但作業沒掉，遲交一兩天而已。所以照你說的，可能還好。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，這個組合通常落在「還 functional、只是縮著」的範圍，先做一次低壓 check-in、之後留意趨勢就夠了，不需要升級處理。你可以在心裡記一個簡單的線：如果接下來開始連作業品質、繳交都明顯往下，或他主動透露睡眠、情緒的變化，再考慮跟 coordinator 對齊、看要不要拉進更正式的支持。現在這個階段，保持觀察、別放大就好。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。說真的我每次看到有孩子突然安靜下來就會很想去追，可能有時候追得太用力了。我自己也搞不太清楚這是職業敏感還是我自己的毛病。"
+    },
+    {
+      "role": "assistant",
+      "content": "會想追，本身是好的敏感度，代表你有在看人不是只看分數。要分辨的點其實很簡單：追的是「給對方一個容易拒絕的入口」，還是「需要對方一定要回應你才安心」。前者是支持，後者就比較是你自己的需要了。你今天問的方向都偏前者，這已經是健康的做法。"
+    },
+    {
+      "role": "user",
+      "content": "哈，被你講中。有時候真的是我自己想確認他沒事，不然我晚上會一直惦記。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把那份惦記放進一個有邊界的動作裡：發一次低壓訊息、給合理的回應時間、然後讓它過去。你已經做了你能做的部分，對方要不要接、什麼時候接，是他的節奏。把「我有沒有盡責」跟「他有沒有立刻回我」這兩件事分開，你晚上會好過一點。"
+    },
+    {
+      "role": "user",
+      "content": "好，那我今天就照這個方向，先針對他那份作業給個具體回饋，順便問一句時段順不順。其他先不碰。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個做法剛剛好。記得訊息收尾留一個開放但不施壓的句子，像「不急著回，需要的話我都在」，把門開著就好。之後就看趨勢，真的有往下掉的訊號再來對齊下一步。"
+    },
+    {
+      "role": "user",
+      "content": "收到，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣，做得很穩。需要的話再回來，我們可以一起看後續他的反應怎麼接。"
+    }
+  ]
+}

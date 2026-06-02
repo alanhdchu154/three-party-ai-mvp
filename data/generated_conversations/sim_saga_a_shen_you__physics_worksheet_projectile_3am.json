@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_shen_you__physics_worksheet_projectile_3am",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "升高二後課堂照舊提不起勁、段考多由家裡安排處理",
+    "父親在家時間更少、凌晨自己摸小遊戲企劃是常態",
+    "這週上海私校的物理小考卷明天要交、他一直拖到凌晨"
+  ],
+  "scenario_seed_id": "physics_worksheet_projectile_3am",
+  "scenario_seed": "高二上學期某個凌晨快三點，他在上海的私校隔天要交一張物理小考卷（相對速度與拋體那段），一題沒寫，只想花五分鐘搞懂怎麼自己填過去。中途外送到了去拿。整段只是普通趕作業，不碰家裡的事。",
+  "generated_at": "2026-05-23T11:10:25Z",
+  "occurred_at": "2025-10-08T02:55:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "凌晨快三點，physics 那張 worksheet 明天要交，我一題都沒寫。relative velocity 跟拋體那段。快速講一下我抄什麼能過就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "過可以。但你是要『抄什麼』還是『五分鐘看懂自己填』？拋體其實只有一個觀念：水平等速、垂直自由落體，兩根分開算。你卡哪一塊。"
+    },
+    {
+      "role": "user",
+      "content": "就那種斜斜射出去的，給你初速跟角度問落點。我看到 sin cos 就想睡。"
+    },
+    {
+      "role": "assistant",
+      "content": "角度只是把那一個初速拆成兩根：水平 v cosθ、垂直 v sinθ。水平那根全程不變，垂直那根被重力慢慢吃掉。落點就看垂直那根來回飛多久，乘上水平速度。會了一半沒。"
+    },
+    {
+      "role": "user",
+      "content": "……欸我突然有 fu。這不就跟遊戲裡拉弓那條拋物線一樣，角度越大飛越高但越近。"
+    },
+    {
+      "role": "assistant",
+      "content": "對，就那個。45 度射最遠也是這條來的。你遊戲裡早就直覺在用，只是課本寫得很醜。題目給的數字多少，我陪你算第一小題。"
+    },
+    {
+      "role": "user",
+      "content": "等一下外送到了我去拿。……好了，初速 20、角度 30 度，g 算 10。"
+    },
+    {
+      "role": "assistant",
+      "content": "水平 20cos30、垂直 20sin30=10。垂直 10 上去再下來，飛行時間 2×10÷10=2 秒。落點水平距離就 20cos30×2，按一下計算機填上去，這題你其實會。"
+    },
+    {
+      "role": "user",
+      "content": "喔喔算出來 34.6 左右。剩下幾題長一樣我自己刻。謝啦，本來想叫我媽找人弄，但這種小考卷懶得鬧。"
+    },
+    {
+      "role": "assistant",
+      "content": "一樣的套路套下去就好。會了就快去睡，別又開一把。"
+    }
+  ]
+}

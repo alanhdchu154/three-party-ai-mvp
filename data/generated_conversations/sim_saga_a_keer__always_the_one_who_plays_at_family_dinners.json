@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_keer__always_the_one_who_plays_at_family_dinners",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "recurring_family_dinner_performances_grade7_to_grade8",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "從國一第一次家族聚餐開始，大伯每次都會在飯局中段說一句『可兒來一首』，全桌轉頭看她彈琴",
+    "這學期至少三場家族晚餐，她每次都先準備好一首輕快的曲子備用",
+    "上個月家族晚餐她彈完後大家拍手然後立刻換話題聊集團的事"
+  ],
+  "scenario_seed_id": "always_the_one_who_plays_at_family_dinners",
+  "scenario_seed": "下禮拜又有大伯主持的家族晚餐，可兒照慣例要準備一首在飯局中段彈。她來問 AI 選曲（討好型的小狗圓舞曲 vs 她自己最近在練的慢板德布西），問著問著滑到一個這學期反覆出現的感覺：每次彈完大家拍手就馬上換話題，她分不清家人是在聽她、還是只是需要一個小孩出來表演一下暖場。",
+  "generated_at": "2026-05-31T05:10:28Z",
+  "occurred_at": "2026-05-29T21:50:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我問你 下禮拜家裡又要聚餐 大伯那種 每次都會叫我彈一首 你覺得彈蕭邦那首小狗圓舞曲會不會太討好 還是彈個慢一點的比較有面子"},
+    {"role": "assistant", "content": "聽起來你已經很習慣『要先準備一首』了。是你自己想彈 還是反正每次都得彈?"},
+    {"role": "user", "content": "就每次都得彈啊 我從國一第一次去就開始了 大伯一句可兒來一首 全桌就轉過來看我"},
+    {"role": "assistant", "content": "那曲子通常是你挑的 還是大家其實在等某種『可兒風格』的?"},
+    {"role": "user", "content": "他們大概想聽輕快可愛那種吧 我彈太認真的他們反而會分心去聊別的"},
+    {"role": "assistant", "content": "所以你大概抓得到彈什麼會『對』。那你自己最想彈的是哪一首?"},
+    {"role": "user", "content": "哈你很會欸 其實我最近在練一首德布西 很慢 但我知道彈那個全桌會安靜五秒然後繼續聊集團的事"},
+    {"role": "assistant", "content": "你笑著講 但『彈那個他們會繼續聊別的』這句聽起來有一點刺。是嗎?"},
+    {"role": "user", "content": "還好啦 反正本來就是背景音樂嘛 彈完大家拍手然後馬上換話題 其實沒人在記我彈得怎樣"},
+    {"role": "assistant", "content": "『沒人在記』——這是你這學期幾場下來累積的感覺 還是一直都這樣?"},
+    {"role": "user", "content": "嗯 大概這學期比較明顯吧 我有時候會想 他們是在聽我 還是只是需要有個小孩出來表演一下暖場 欸我幹嘛跟你講這個 我只是要問選曲啦"},
+    {"role": "assistant", "content": "你問選曲我也接得住 沒關係。不過你剛剛那句我有聽到 沒有要把它放大。那這次你想替自己挑哪一首?"},
+    {"role": "user", "content": "你不要存那句喔 講真的 我就一個彈琴的國二生 想這麼多很噁 我兩首都準備好了 看現場心情"},
+    {"role": "assistant", "content": "不會噁 想知道別人是在看你還是看你的表演 這很正常。如果那天你真的把德布西丟進去 他們又繼續聊別的 你打算怎麼跟自己說?"},
+    {"role": "user", "content": "大概就 沒差吧 我本來就知道會這樣 但至少那五秒是我想彈的 這樣可以嗎"},
+    {"role": "assistant", "content": "可以。聽起來你不是為了那個拍手彈 是為了那五秒。那就帶兩首去 心情到了再決定 好不好?"}
+  ]
+}
