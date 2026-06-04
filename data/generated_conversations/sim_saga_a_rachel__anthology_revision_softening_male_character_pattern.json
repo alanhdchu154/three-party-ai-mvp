@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_rachel__anthology_revision_softening_male_character_pattern",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二（junior）這學期固定投短篇到校內文學年刊，截稿在即",
+    "上學期有一篇匿名散文在課堂上被老師公開稱讚，她沒承認是自己寫的",
+    "這學期家族聚會頻率變高，她在飯桌上越來越常被安排跟同輩相處"
+  ],
+  "scenario_seed_id": "anthology_revision_softening_male_character_pattern",
+  "scenario_seed": "高二下學期，Rachel 在改一篇要投校內文學年刊的短篇，原本只是問『克制』跟『冷淡』的寫法差別，改著改著發現自己這一整個學期投的每篇都是同一個形狀：一個女生遠遠看著一個人卻什麼都不做。她半承認自己會偷偷把那個被看的男生寫得比較好，但沒揭露對象。",
+  "generated_at": "2026-06-03T07:11:15Z",
+  "occurred_at": "2025-03-19T22:43:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "快到文學年刊的投稿截止了，我想改一篇短篇。有個問題卡很久——我想寫一個很『克制』的角色，可是每次寫出來都變成很冷淡，好像她根本不在乎。克制跟冷淡到底差在哪？"},
+    {"role": "assistant", "content": "你連這個都分得這麼細，欸。我直覺差別在讀者知不知道她其實在乎——冷淡是真的沒感覺，克制是明明有感覺卻按住。你想讓讀者看到她按住的那個動作嗎？"},
+    {"role": "user", "content": "對，我想讓讀者感覺到她按住了。這篇是寫一個女生，她在某個場合遠遠看著一個男生，但她什麼都沒做，連話都沒講。我不知道怎麼讓『什麼都沒發生』還有張力。"},
+    {"role": "assistant", "content": "那個張力大概不在那個男生身上，在她身上吧——她為了不做什麼，內心要花掉多少力氣。你有寫到她差一點要做什麼、然後又停下來的那個瞬間嗎？"},
+    {"role": "user", "content": "……你這樣一問我才發現，我這學期投的每一篇好像都長這樣。都是一個女生遠遠看著一個人，然後什麼都沒做。我自己之前都沒注意到。"},
+    {"role": "assistant", "content": "一整個學期都繞回同一個形狀，那通常不是巧合。那個『遠遠看著』對你來說是什麼？"},
+    {"role": "user", "content": "也可能只是我懶得想新題材吧。寫熟的東西比較快。"},
+    {"role": "assistant", "content": "也是有可能啦。不過你剛剛是先愣了一下，才說『懶得想題材』的喔。"},
+    {"role": "user", "content": "……好啦。其實我發現，我每次寫那個被看著的男生，都會偷偷把他寫得比實際上更好一點。比較聰明、比較溫柔那種。好像這樣，女主角會喜歡他才講得通。"},
+    {"role": "assistant", "content": "所以你會幫他補上一些他本來沒有的好。那個『講得通』對你來講重要在哪——是怕女主角喜歡得沒道理嗎？"},
+    {"role": "user", "content": "對，如果他沒那麼好，那女主角不就顯得很傻、很盲目？我不想把她寫成一個亂喜歡人的笨女生。"},
+    {"role": "assistant", "content": "所以你寧可改寫他，也不想讓她看起來傻。那如果她其實沒看錯，他就只是普通好普通壞的一個人呢——她還站得住嗎？"},
+    {"role": "user", "content": "……我不知道。寫到後來我有點分不清，我到底是在替那個角色辯護，還是在替我自己。可能兩個都有吧。"},
+    {"role": "assistant", "content": "謝謝你願意講到這裡，這不太好說出口。你不用現在就分清楚，光是看到『可能兩個都有』，就已經很多了。"},
+    {"role": "user", "content": "嗯。先不鑽這個了，會沒完沒了。我問你正經的——結尾我要不要讓女主角把那封信寄出去？還是讓她留著？"},
+    {"role": "assistant", "content": "兩個都成立，看你想留給讀者什麼。寄出去是『她終於替自己做了一件事』，留著是『她選擇繼續按住，而且她知道自己在按』——你比較想讓哪一種收場留在讀者心裡？"}
+  ]
+}

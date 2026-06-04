@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_stepdad__trade_assoc_committee_chair_decline_wording",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "current_term",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期老陳在兩三次飯局上都提過要他接同業公會某委員會的召集人",
+    "他名下那條業務最近一季的 excom preread 跟季度會議排得很滿",
+    "他向來不喜歡把婉拒寫得太客氣、覺得太客氣反而像心虛"
+  ],
+  "scenario_seed_id": "trade_assoc_committee_chair_decline_wording",
+  "scenario_seed": "早上他翻行事曆,想處理掉一件拖了一學期的事:老陳這學期第三次在飯局上提他接同業公會某委員會召集人。他不想接、但這是十五年的生意關係,想要 AI 幫他把婉拒寫得乾淨、不傷情面、又不要太客氣。純措辭協助、沒有情緒弧線。",
+  "generated_at": "2026-06-03T19:10:47Z",
+  "occurred_at": "2026-06-02T09:35:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我擬一段話。同業公會那邊,老陳這學期第三次提要我接某個委員會的召集人,上週飯局又講一次。我接不了,這一季 excom 跟我自己那條線的會議全卡死。但他是合作十五年的人,我不想寫得太生硬。給我一個短版本就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。先確認一個方向:你是想把這扇門關乾淨,還是留一個小一點的參與形式給他,比方掛個顧問、或幫忙引薦人選?這會決定整段話的收尾。"
+    },
+    {
+      "role": "user",
+      "content": "門不要關死。召集人我不接,但可以掛個名當顧問,或者推一個我覺得撐得起來的人給他。語氣你不要寫得太客氣,我不喜歡通篇『實在抱歉』『深感榮幸』,那種讀起來像我心虛。就是行程排不開、講清楚、給個替代方案。"
+    },
+    {
+      "role": "assistant",
+      "content": "了解,那就走『事實 + 替代方案』的調子,不鋪歉意。給你一版:「老陳,委員會召集人這件事我認真想過,這一季到年底我自己這條線的會議幾乎排滿,接下來等於掛名不做事,對委員會不公平。召集人我先不接。但我很樂意掛個顧問、需要時出席給意見;另外我心裡有一個人選還算合適,下次見面我跟你提。」你看這個密度可以嗎?"
+    },
+    {
+      "role": "user",
+      "content": "差不多。把『對委員會不公平』那句留著,那是真話。倒數第二句『很樂意』three 個字拿掉,直接講顧問可以、需要時出席。人選那句保留,這樣他至少有東西帶回去,不是被我空手打發。"
+    },
+    {
+      "role": "assistant",
+      "content": "改好了:「老陳,委員會召集人這件事我認真想過,這一季到年底我自己這條線的會議幾乎排滿,接下來等於掛名不做事,對委員會不公平。召集人我先不接。顧問可以掛,需要時我出席給意見。另外我有一個人選還算合適,下次見面跟你提。」給他一個具體名字接手,比任何客套都更能把關係留住。"
+    },
+    {
+      "role": "user",
+      "content": "可以,就這個。我讓助理明天早上發,飯局剛過幾天發剛好,不會顯得我急著撇清。謝了。"
+    },
+    {
+      "role": "assistant",
+      "content": "時間點抓得很好。要的話我也可以順手幫你把那個人選的一句推薦理由先擬好,等你下次當面跟他講時直接用。"
+    }
+  ]
+}

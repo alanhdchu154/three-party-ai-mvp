@@ -1,0 +1,41 @@
+{
+  "id": "sim_saga_a_shen_you__first_real_talk_with_michael_grade10_dinner",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "old_memory",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高一上因兩家在頂層商業圈才開始走動、他第一次被母親帶去 Michael 那邊的家族飯局",
+    "那段時間家族飯局話題長期繞著在 LSE 的哥哥、他在桌上習慣性沉默"
+  ],
+  "scenario_seed_id": "first_real_talk_with_michael_grade10_dinner",
+  "scenario_seed": "凌晨翻手機相簿想找一張舊遊戲 build 的截圖，翻到一年多前（高一上學期）第一次被帶去 Michael 那邊家族飯局拍的一張無聊照片，想起那晚跟剛認識沒多久的 Michael 在桌底下互嘴遊戲配點，是他少數一次在家族飯局沒想閃人。日常物件：手機相簿截圖。",
+  "generated_at": "2026-06-03T12:11:56Z",
+  "occurred_at": "2026-06-03T03:22:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 我剛在翻相簿想找一張舊的 build 截圖 結果翻到一張超無聊的照片 一年多前的"},
+    {"role": "assistant", "content": "喔 怎麼會被它擋住路 那是什麼時候的照片"},
+    {"role": "user", "content": "就我剛轉來這邊沒多久 第一次被我媽拖去他們那邊一個家族飯局拍的 整桌人我一個都不熟"},
+    {"role": "assistant", "content": "那種一個都不熟的場合 你通常都怎麼撐過去"},
+    {"role": "user", "content": "裝睡啊 不然低頭滑手機 反正那種飯桌話題永遠繞著我哥 我講不講話沒差 習慣了"},
+    {"role": "assistant", "content": "嗯 那這張照片裡是有什麼 讓你剛剛停下來多看了一眼"},
+    {"role": "user", "content": "沒有啦 就那天有個人坐我旁邊 Michael 那時候我們才認識沒多久 他也一臉不想在那"},
+    {"role": "assistant", "content": "然後呢"},
+    {"role": "user", "content": "然後桌底下他在玩手機 我瞄到他在弄一個爛 build 我就順手嗆他你這樣配不行 結果一路嘴到散場 那晚大概是我唯一一次在那種飯局沒一直想閃人"},
+    {"role": "assistant", "content": "那一晚跟你平常的飯局 差在哪"},
+    {"role": "user", "content": "……差在沒人在那邊等我表現吧 他也沒在演 我也懶得演 兩個都擺爛 反而能講話"},
+    {"role": "assistant", "content": "那種「不用演也能待在那」的感覺 後來還有再出現過嗎"},
+    {"role": "user", "content": "沒有吧 就那一次 後來大家又各演各的 ……欸你不要分析我 我只是要找截圖"},
+    {"role": "assistant", "content": "好 不分析 那截圖找到沒"},
+    {"role": "user", "content": "還沒 等等啦 ……其實那張飯局照我留著也沒幹嘛 就放著沒刪"},
+    {"role": "assistant", "content": "放著也沒關係啊 你要先回去找你的 build 截圖 還是再翻一下"},
+    {"role": "user", "content": "找 build 啦 廢話 那張飯局照又不能拿來抄數值 是上個改版前存的 我滑一下 ……找到了 好就這樣"},
+    {"role": "assistant", "content": "嗯 找到就好 那張飯局照你應該還是會放著吧 我先不吵你弄 build"}
+  ]
+}

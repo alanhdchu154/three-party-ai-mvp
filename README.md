@@ -9,6 +9,7 @@
 ## Safety Status
 
 - 目前版本：`0.8.0-internal-pilot-harness`
+- 版本語境：repo 產品版本是 v0.8；Central Umi 的 `v0.1` 是跨專案 coordination goal，不是這個 repo 的產品版本。
 - 不要把 synthetic data 當真實驗證。
 - 不要把 synthetic benchmark 誤認成產品目標；產品目標是真實學生支持系統。
 - 不要把 Gemini / Groq / free cloud dev provider 用在真實學生資料。

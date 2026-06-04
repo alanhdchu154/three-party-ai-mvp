@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_michael__junior_spring_classmate_birthday_groupchat_message",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高一下才轉入 GIIS，這屆同學多半高一上就同班、彼此有共同回憶",
+    "高二這學期班群偶爾有班務與生日的輪流貼文，他通常只看不太發言"
+  ],
+  "scenario_seed_id": "junior_spring_classmate_birthday_groupchat_message",
+  "scenario_seed": "高二下，班群在幫一個只算普通同學的男生慶生、大家輪流貼祝福。Michael 想貼一句但卡在措辭：怕太冷顯得敷衍、太熱情又顯得假，畢竟他不是那群人。他只想要一句正常、貼得進去的話，純社交措辭問題。",
+  "generated_at": "2026-06-02T21:10:31Z",
+  "occurred_at": "2025-03-20T23:46:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸問個小事。我們班群在幫一個同學慶生，大家輪流貼祝福，我不太知道要打什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "班群那種輪流祝福其實不用太用力。你跟那個同學算熟還是普通同學？"
+    },
+    {
+      "role": "user",
+      "content": "普通同學吧，沒講過幾次話。我就是怕打太冷顯得敷衍，打太熱情又很假，畢竟我也不是他那群的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你落在中間就好，不用去搶最有梗的那則。簡單一句真誠的反而比堆形容詞自然，你有想到什麼想祝他的嗎？"
+    },
+    {
+      "role": "user",
+      "content": "大概就生日快樂，然後祝他那個籃球比賽順利吧，他最近好像很投入那個。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就夠了啊，把這兩個拼起來就很自然。提到他真的在乎的那件事，比一串祝福詞有用多了。"
+    },
+    {
+      "role": "user",
+      "content": "那像「生日快樂！這季打得很猛，繼續加油」這樣會不會太隨便？"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，這樣剛好。有提到他在打球又不浮誇，貼進去不會突兀，你要直接這樣送嗎？"
+    },
+    {
+      "role": "user",
+      "content": "嗯好，那我就貼這個。其實我每次在班群打字都想很久，算了反正貼出去就過了。"
+    },
+    {
+      "role": "assistant",
+      "content": "你願意想一下怎麼讓人不尷尬，這不是壞事。貼了就放著，後面有人接話你不用每則都跟。"
+    }
+  ]
+}

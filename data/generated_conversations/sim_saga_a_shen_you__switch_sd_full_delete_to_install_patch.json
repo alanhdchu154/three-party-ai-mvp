@@ -1,0 +1,33 @@
+{
+  "id": "sim_saga_a_shen_you__switch_sd_full_delete_to_install_patch",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "這個月 SD 卡一直在邊緣、每次想抓大檔都要先騰空間",
+    "他最近主要在追一款 roguelike 的大改版、其他遊戲幾乎沒在碰"
+  ],
+  "scenario_seed_id": "switch_sd_full_delete_to_install_patch",
+  "scenario_seed": "凌晨三點，沈又在後座等司機，Switch 想裝一個 6.4G 的大改版但 SD 卡塞不下。他懶得一個一個點，直接問 AI 刪東西的原則、會不會動到存檔。純日常排查，沒有更深的東西。",
+  "generated_at": "2026-06-02T16:10:00Z",
+  "occurred_at": "2026-06-02T03:18:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "SD 卡滿了。想裝那個 6.4G 的大改版塞不下。要刪哪個，不想一個一個點，直接給原則。"},
+    {"role": "assistant", "content": "三條原則就夠：一、先刪那種你已經破完或最近完全沒碰的大型單機，那是最安全的；二、有本地存檔或還在連線打的不要動；三、刪掉的之後從 eShop 隨時重抓，所以「大、又放著」的優先。要找哪個最大，主畫面進「系統設定 > 資料管理 > 管理軟體」會照容量排，砍最上面那個就清出最多。"},
+    {"role": "user", "content": "刪掉存檔會不會跟著沒。"},
+    {"role": "assistant", "content": "看你選哪個。選「刪除軟體」只移掉遊戲本體，存檔留著；選「刪除全部資料」才會連存檔一起清。你要的是前者。另外有開 Switch Online 的話多數遊戲存檔有雲端備份，更不用怕；只有少數遊戲不支援雲端存檔，那種就別手滑點到「刪除全部」。"},
+    {"role": "user", "content": "喔。那我刪那個跑快五十小時沒破的開放世界。反正最近沒在碰。"},
+    {"role": "assistant", "content": "可以，那種通常占好幾 G，刪本體一下就騰出 6.4G 有餘。存檔還在，哪天想回去再從 eShop 重新下載就好，進度不會丟。"},
+    {"role": "user", "content": "行。司機十分鐘到，我想先開手機熱點下，不然回家又懶得弄 wifi。"},
+    {"role": "assistant", "content": "6.4G 走熱點很吃流量，而且 Switch 抓大檔離開穩定 wifi 容易直接暫停，你在車上十分鐘大概也下不完。比較省事的做法是現在按下載讓它排著，回到家連上 wifi 它會自己接著抓，你不用再手動弄。"},
+    {"role": "user", "content": "喔。那算了，回家用 wifi。謝。"},
+    {"role": "assistant", "content": "嗯，就這樣。回去連上 wifi 它會自己跑完。"}
+  ]
+}

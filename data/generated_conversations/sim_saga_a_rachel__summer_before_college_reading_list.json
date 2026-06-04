@@ -1,0 +1,33 @@
+{
+  "id": "sim_saga_a_rachel__summer_before_college_reading_list",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_before_graduation",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高三下期中考剛結束，課業節奏鬆下來",
+    "畢業前那段空白的暑假快到了，還沒安排什麼"
+  ],
+  "scenario_seed_id": "summer_before_college_reading_list",
+  "scenario_seed": "高三下畢業前，Rachel 面對一個空白的暑假，深夜來問 AI 推薦幾本可以慢慢讀的詩集或短篇集，指定要安靜一點、不要勵志翻轉那種。純日常閱讀需求，沒有要談心事。",
+  "generated_at": "2026-06-04T02:10:26Z",
+  "occurred_at": "2026-06-02T23:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我問你一個跟作業無關的。畢業之後那個暑假空檔我想找幾本書慢慢看，可以推我一點安靜一點的嗎，不要那種「翻轉人生」的勵志書。"},
+    {"role": "assistant", "content": "可以啊。你說的安靜，是想要讀完心裡很靜的那種，還是讀的時候不用太用力、隨便翻開哪頁都行的那種？"},
+    {"role": "user", "content": "後面那種。我最近不太想被一個很長的故事綁住，想要可以一篇一篇讀、讀一點就放下的。"},
+    {"role": "assistant", "content": "那短篇集跟詩集會很適合。Alice Munro 的短篇，或者辛波絲卡的詩，你讀過嗎？"},
+    {"role": "user", "content": "辛波絲卡有聽過但沒真的讀。Munro 是寫什麼的？"},
+    {"role": "assistant", "content": "多半是很日常的女性生活，一個小決定、一段沒說出口的關係，沒什麼大事發生但讀完會回味很久。聽起來會是你的菜嗎？"},
+    {"role": "user", "content": "會。可是我怕又是買了放著不讀，我書桌上已經有一本翻了開頭就擱著的。"},
+    {"role": "assistant", "content": "那先別一次買一疊，挑一本當暑假的「隨身那本」就好。你會想先從詩還是短篇開始？"},
+    {"role": "user", "content": "...先詩好了，短的壓力小一點。"},
+    {"role": "assistant", "content": "那從辛波絲卡開頭剛好，她的詩短又不裝腔。先找一首讀讀看，喜歡再決定要不要整本，怎麼樣？"}
+  ]
+}

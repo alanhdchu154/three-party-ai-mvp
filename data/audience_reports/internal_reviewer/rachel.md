@@ -6,13 +6,13 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 16 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- academic_load Level 1: 7 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 2: 7 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 18 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- academic_load Level 1: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - financial_pressure Level 1: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- future_planning Level 2: 5 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- future_planning Level 2: 2 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/rachel.json`
@@ -30,17 +30,16 @@
 - `ev_013` coordinator_report · medium · synthetic-only · watch signals · `existing artifact`
 
 ## What we infer
-- 需要一個不會把她的書寫與真實身份對上號、也不會被家族成員調閱的私密空間（她在採用任何工具前會本能檢查這點）
-- 需要她的寫作志向被當成真正的路徑來對待，而不是只能透過匿名管道偷偷存在
-- 需要不被追問的距離——被直接探問情感或身份時會立即退回『只是練習』
-- 需要她在升學文件上『交差的版本』與『真正想走的路』被分開看待——前者是她對家庭壓力的應對，不代表她的真實志向已死
+- 需要一個她的寫作被當成『作品』而不是『心理線索』來認真對待的場域
+- 需要在不被追問感情對象的前提下，被允許保有自己的隱私
+- 需要有人把她的志向（寫作）當成可以認真討論的選項，而不是要被導正的偏題
 - Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
 - Primary support need appears connected to `family_dynamics`; treat this as synthetic benchmark inference, not diagnosis.
 
 ## Three-Party Coordination Snapshot
 ### Student
-- Observed signals: 家庭把她的婚配、繼承、升學三條路徑當成可安排的物件，她清楚識別卻無法在家庭內部質疑, 對一位同屆對象的情感，與家族正在運作的配對計畫重疊，導致連自己的真心都被她懷疑『是不是也變成棋子』, 公開人格（家族正統女兒）與匿名書寫人格完全分離，分離本身是她的生存策略, 社交自我審查細到單句訊息層級，傾向迴避大型聚會與『被當面認出是作者』的場合
-- Inferred needs: 需要一個不會把她的書寫與真實身份對上號、也不會被家族成員調閱的私密空間（她在採用任何工具前會本能檢查這點）, 需要她的寫作志向被當成真正的路徑來對待，而不是只能透過匿名管道偷偷存在, 需要不被追問的距離——被直接探問情感或身份時會立即退回『只是練習』, 需要她在升學文件上『交差的版本』與『真正想走的路』被分開看待——前者是她對家庭壓力的應對，不代表她的真實志向已死
+- Observed signals: 對家族替她安排的未來與人際走向有長期無力感，但無法在家中正面攤開, 在『想當作家』與『被期待接班』之間擺盪，且不對家長正面回應這個話題, 對一個有 power imbalance 的對象長期單向關注，整學期創作都繞回『遠遠看著、什麼都不做』的同一結構, 把這個對象理想化、在故事裡替他補上他本來沒有的好，以合理化自己的情感
+- Inferred needs: 需要一個她的寫作被當成『作品』而不是『心理線索』來認真對待的場域, 需要在不被追問感情對象的前提下，被允許保有自己的隱私, 需要有人把她的志向（寫作）當成可以認真討論的選項，而不是要被導正的偏題
 - Privacy constraints count: 4
 ### Parent
 - Expressed concerns: academic progress or workload concern
@@ -68,16 +67,15 @@
 - Teacher can provide classroom support without exposing private context.
 
 ## What we must not reveal
-- Coordinator marked 4 private detail categories that must not be shown verbatim.
+- Coordinator marked 3 private detail categories that must not be shown verbatim.
 - Student profile has 4 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜挑一篇你只願意匿名給人看的東西，原樣留著、不要為了誰好懂去改它——那是你的，不用對任何人交代
-- for_student: 申請的科系文照家裡要的寫沒關係，但這禮拜另外留一頁，把你真正想念的那個科系也誠實寫一次給自己看——交出去的版本和你心裡的版本可以同時存在
-- for_parent: 這禮拜如果她又關在房裡寫東西，敲門只放一句『需要的話我在』然後離開，不要停在門口等她解釋在寫什麼
-- for_parent: 找一次跟『接班 / 大學方向』完全無關的場合（一起去買個東西、吃個飯）只聊她有興趣的內容本身，不導向任何結論
-- for_teacher: 這禮拜如果想接近她的寫作，用不指名、不公開的方式（例如在她作業評語裡認真回應一句她的選詞或結構），讓她知道有人讀得懂、但不逼她現身
+- for_student: 這禮拜把那篇短篇的結尾照你自己想留給讀者的版本定稿、按時投出去，不要為了讓誰看得『合理』再改第三遍
+- for_parent: 這禮拜問她一句具體的『你最近在寫什麼題材、寫得順嗎』，把她寫的東西當成正經作品而不是線索去問
+- for_parent: 如果她提到任何未來想做的事（哪怕跟接班無關），這禮拜只記下來、不要當場接到『那接班怎麼辦』
+- for_teacher: 這禮拜針對她交出來的作品給一則具體的文學回饋（結構、節制、視角），把她當成嚴肅作者對待
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -87,10 +85,8 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 重大家族場合（聚餐、董事會、任何配對相關安排）之後是否出現連續失眠或事件後鈍化拉長到數天以上
-- 她是否開始連匿名書寫都停掉——書寫是她的自我調節出口，若連這個都關掉才是真正警訊
-- 社交迴避是否從『不想去聚會』擴大到連一對一、連線上低風險訊息都回不出來
-- 申請季 deadline 密集期，留意她是否在『交差版本的升學文件』上加倍投入、卻同時把匿名書寫整個停掉——那會是她開始放棄自己那條路的訊號，而非單純忙
+- 如果她開始連匿名創作與日記都停掉、或交件明顯變敷衍，代表她最後一個出口也在關閉，要留意情緒鈍化是否加深
+- 家族場合密度升高的那幾天前後，是否出現失眠或更明顯的『想哭卻哭不出來』
 
 ## Contradictions / Review Flags
 - Student-side profile centers identity/family strain while parent/teacher input frames the issue as academics or behavior.

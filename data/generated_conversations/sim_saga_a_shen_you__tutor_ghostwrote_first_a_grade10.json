@@ -1,0 +1,42 @@
+{
+  "id": "sim_saga_a_shen_you__tutor_ghostwrote_first_a_grade10",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "sophomore_fall",
+  "conversation_frame": "old_memory",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高一上學期第一次發現家教幫他代寫的報告拿了高分、老師還在全班唸他名字",
+    "這半年家教代寫報告變成固定流程、他已經不再點開來看",
+    "母親習慣把他的成績截圖丟進太太群當素材",
+    "他私下持續在弄一個自己一行一行做的東西、沒跟家裡任何人講"
+  ],
+  "scenario_seed_id": "tutor_ghostwrote_first_a_grade10",
+  "scenario_seed": "凌晨三點等司機。家教昨天又把沈又的歷史報告交出去拿了A、他連點開都沒點開，母親已截圖丟太太群。他表面只是來問要不要回家教訊息，話題滑回高一上學期第一次拿到代寫高分時的那一愣，露出一點裂縫又自己收回。",
+  "generated_at": "2026-06-03T03:10:57Z",
+  "occurred_at": "2026-06-03T03:08:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "問你一個沒用的事。家教昨天又把我那篇歷史報告交出去了，拿A。我連點開都沒點開。這種我要回他什麼嗎"},
+    {"role": "assistant", "content": "拿了個A，可是那篇你根本沒碰。你想回他什麼，還是其實你也不太想回？"},
+    {"role": "user", "content": "不知道。我媽已經截圖丟到她那個太太群了，寫『又一個A』。笑死，那個A是一個我沒見過的人寫的。"},
+    {"role": "assistant", "content": "她拿去群組炫，可是那根本不是你寫的。你看到那張截圖的時候，第一個反應是什麼？"},
+    {"role": "user", "content": "沒反應啊。就…喔。反正高一上學期第一次這樣的時候我還愣一下，現在連愣都不會了。"},
+    {"role": "assistant", "content": "高一上第一次會愣，現在連愣都省了。那第一次愣的，是哪一下？"},
+    {"role": "user", "content": "第一次拿到那種我沒寫但分數很高的東西，老師還在全班面前唸我名字。我那時候想說靠這也行喔。後來就習慣了。"},
+    {"role": "assistant", "content": "『這也行喔』。那之後你就沒再自己寫過東西了？"},
+    {"role": "user", "content": "寫來幹嘛。寫得再好也是我媽拿去群組用的素材。我自己寫的東西她看都不會看。"},
+    {"role": "assistant", "content": "你自己寫的她不看，別人代寫的她拿去炫。那你還有什麼是自己弄、自己會在乎的嗎？"},
+    {"role": "user", "content": "有啦。一個東西，跟學校沒關係。我自己一行一行弄的，沒人幫我也沒人知道。那個爛掉我會難過，這個A爛掉我屁都不會放。"},
+    {"role": "assistant", "content": "同一個人，一個爛了你會難過，一個爛了你沒感覺。差在哪你自己很清楚齁。"},
+    {"role": "user", "content": "差在一個是我，一個是給別人看的我。好了不講這個，很噁。所以那家教我到底回什麼。"},
+    {"role": "assistant", "content": "你想回，就『收到』兩個字，不用幫他演得很感激。不想回，就不回，他下次照樣交。哪個對你比較省力？"},
+    {"role": "user", "content": "不回好了。反正交不交都不是我在交。"},
+    {"role": "assistant", "content": "行。那你自己一行一行弄的那個，今天等下有空摸嗎？"},
+    {"role": "user", "content": "等司機到我就回去弄。就這樣。"}
+  ]
+}

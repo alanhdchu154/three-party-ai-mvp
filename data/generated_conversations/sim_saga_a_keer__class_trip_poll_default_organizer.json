@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_keer__class_trip_poll_default_organizer",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "國二下這學期班上大大小小的活動（班遊、訂便當、生日合資、教師節小卡）幾乎都是可兒在群組開頭發起",
+    "上個月可兒請假兩天，那兩天班群異常安靜、沒人發起任何活動，她回來後同學又開始 tag 她問下次去哪",
+    "可兒在班上長期是負責炒氣氛、接哏、不擺臉色的角色"
+  ],
+  "scenario_seed_id": "class_trip_poll_default_organizer",
+  "scenario_seed": "國二下的某個晚上，可兒想做一個『下次班遊去哪』的投票表單，問 AI 怎麼把訊息講得不像在發號施令。做著做著她回顧這學期班上活動幾乎都是她在開頭、上個月請假兩天班群就安靜到沒人約，半開玩笑說自己比較像班級小幫手不是同學，被輕輕接住後用玩笑收回。",
+  "generated_at": "2026-06-02T22:48:30Z",
+  "occurred_at": "2026-05-28T22:24:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我想弄一個投票問大家下次班遊要去哪，但我每次發那種東西都覺得自己很像在發號施令。要怎麼講比較不像班長在管秩序啊"},
+    {"role": "assistant", "content": "懂，那種「我又在指揮大家」的感覺其實蠻煩的。你比較怕的是大家覺得你愛主導，還是怕發了沒人理？"},
+    {"role": "user", "content": "都有吧。反正每次都嘛是我在弄。表單你幫我想一下格式啦，大概就三個地方讓他們選，再加一個其他"},
+    {"role": "assistant", "content": "可以這樣開頭：「下次班遊我先丟幾個點，大家投一下，覺得都不行也可以填其他～」這樣聽起來是你在幫大家收斂，不是你在拍板。要不要也加個截止時間，不然會拖到天荒地老？"},
+    {"role": "user", "content": "好 加個禮拜五截止。其實我表單做超快的 都不太用想 這學期大概做了五六個了吧"},
+    {"role": "assistant", "content": "五六個欸，等於這學期班上的活動基本上都是你在按下開始鍵。你自己是覺得這件事還滿爽的，還是其實有點累？"},
+    {"role": "user", "content": "不會累啦 就…習慣了。而且我不弄的話根本不會有人弄，大家就只會在那邊已讀"},
+    {"role": "assistant", "content": "「不弄就沒人弄」這句你講得很篤定欸，是真的有發生過嗎？"},
+    {"role": "user", "content": "有啊 上個月我請假兩天 那兩天群組超安靜 什麼活動都沒人約 安靜到我以為大家手機壞掉。結果我一回來就又開始 tag 我問下次去哪"},
+    {"role": "assistant", "content": "所以那兩天有點像…大家在等你回來開機。你回來看到一排 tag 的時候，心裡第一個冒出來的是什麼？"},
+    {"role": "user", "content": "哈哈哈就覺得 喔我比較像班級小幫手 不是同學齁。欸不要把這句存起來喔 我亂講的啦"},
+    {"role": "assistant", "content": "不存。不過你剛那句講得有點快，我先放著不追你。那回到表單——這幾個地點裡面，有沒有你自己真的想去的？"},
+    {"role": "user", "content": "有啊 我想去那個新開的貓咪咖啡。但我放第三個，放第一個太明顯是我選的"},
+    {"role": "assistant", "content": "為什麼不能明顯是你選的？"},
+    {"role": "user", "content": "不知道 習慣啦 放中間比較安全。好啦我要發囉 你先幫我看一下整段文字順不順"},
+    {"role": "assistant", "content": "順，很自然不像在管秩序。我只多想一件事：要是這次有人投了貓咪咖啡、不是因為你發的而是真的想去，你大概會蠻開心的吧？"}
+  ]
+}

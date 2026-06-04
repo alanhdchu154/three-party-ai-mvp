@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_michael_mom__senior_spring_grad_teacher_thankyou_gift_note",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_graduation_week",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "Michael 下週從 GIIS 畢業，這個月家裡在處理畢業前後的各種邀約與後勤",
+    "上個月 Michael 回家拿夏天的衣服，待了不到一小時就走"
+  ],
+  "scenario_seed_id": "senior_spring_grad_teacher_thankyou_gift_note",
+  "scenario_seed": "畢業週，Michael 媽想送 Alan 老師一份謝師禮，卡在送鋼筆會不會像在攀關係、只寫卡片又太單薄，請 AI 幫她抓分寸並擬一張手寫卡。純事務性的送禮與措辭需求。",
+  "generated_at": "2026-06-03T23:14:00Z",
+  "occurred_at": "2026-06-01T15:25:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "想請你幫我想一下。Michael 下週就畢業了，我想送 Alan 老師一份謝師的東西。但我一直拿不定要送什麼、會不會太重或太輕。學校那邊送禮有沒有什麼分寸？"
+    },
+    {
+      "role": "assistant",
+      "content": "謝師的心意很好。畢業謝師通常重點在「心意看得到、價格看不太出來」，太貴反而會讓老師為難，有些學校也有收禮規定。你心裡現在大概有哪幾個選項，預算想抓在什麼帶？"
+    },
+    {
+      "role": "user",
+      "content": "我本來想送一支不錯的鋼筆，或是找人訂一個禮盒。但又怕在 GIIS 這種地方，送太好像在攀關係、像在送大禮。可是只寫張卡片我又覺得太單薄，畢竟教了 Michael 三年。"
+    },
+    {
+      "role": "assistant",
+      "content": "以你的考量，鋼筆其實是個安全的選擇——它比較像「實用的紀念」，不像現金禮盒那樣有交換感。挑一支設計乾淨、品牌不張揚的就好，不必是最高階那種。真正讓老師記住的是那張手寫卡，不是價格。送之前順口問一下導師室有沒有收禮上限，這樣你也不用自己猜分寸。"
+    },
+    {
+      "role": "user",
+      "content": "那卡片你幫我擬一下好不好。我中文寫這種很容易寫得太客套、像公關稿。我想謝謝他三年照顧 Michael，但又不要肉麻、不要像在討好。"
+    },
+    {
+      "role": "assistant",
+      "content": "給你一個底，可以再改：\n\n「Alan 老師：\n謝謝您這三年對 Michael 的照顧與耐心。他能在 GIIS 走到畢業，您是很重要的一段。這支筆是一點小小的心意，盼您喜歡。往後也請繼續多多指教。\nMichael 媽媽 敬上」\n\n短、誠懇、不過頭。你看哪裡想換成自己的語氣？"
+    },
+    {
+      "role": "user",
+      "content": "嗯…大致可以。只是我想在裡面提一句 Michael 本人，又怕寫得太空。說真的我也不太確定該寫他哪一點——平常我跟他講話都很短。你給我一句不要太重的就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "不用寫得多深，一句具體的就夠了。可以加：「Michael 不太把心事掛在嘴上，您願意花時間理解他，我都記在心裡。」這句既點到他、也謝到老師，不會空也不肉麻。卡片這種東西，真誠比完整重要，你現在這版已經夠了。"
+    }
+  ]
+}

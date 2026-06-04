@@ -1,0 +1,36 @@
+{
+  "id": "sim_saga_a_michael__grade10_chem_titration_lab_report",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "Michael 開學沒多久剛轉進 GIIS，還在適應新環境跟新同學",
+    "他在班上開始刻意丟一些艱深詞彙建立『聰明』的第一印象",
+    "這學期化學第一份正式 lab report 快到截止"
+  ],
+  "scenario_seed_id": "grade10_chem_titration_lab_report",
+  "scenario_seed": "高一上學期，Michael 剛轉進 GIIS 不久，化學要交一份酸鹼滴定的 lab report。他半夜只是想要 AI 幫他把數據怎麼算、報告結構怎麼擺講清楚，順口丟了一句他『其實看得懂更難的東西』。純作業協助，沒有露核心傷口。",
+  "generated_at": "2026-06-03T14:05:00Z",
+  "occurred_at": "2023-10-18T23:44:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我化學要交一份酸鹼滴定的 lab report，明天就要。我數據都記了，但不知道那個 titration 的濃度到底要怎麼從體積反推回去。"},
+    {"role": "assistant", "content": "可以。你滴定的是用已知濃度的什麼去滴未知的什麼？先講這個我才知道往哪邊算。"},
+    {"role": "user", "content": "用 0.1 M 的 NaOH 滴未知的 HCl，到達終點的時候 NaOH 用了 24.5 mL，HCl 我量了 25 mL。"},
+    {"role": "assistant", "content": "那這題是 1:1 的中和，莫耳數相等。NaOH 的莫耳數是 0.1 乘以 0.0245，HCl 同樣的莫耳數再除以你的 0.025 L 就是濃度。算出來大概 0.098 M。"},
+    {"role": "user", "content": "喔對，這種我當然懂啦，我只是懶得自己列。說真的這種高一化學有夠 trivial，我平常看的東西比這難多了。"},
+    {"role": "assistant", "content": "哈那這份對你應該很快。報告本身要你寫到哪些段落？"},
+    {"role": "user", "content": "格式我不太確定，老師只說要『完整』。一份 lab report 通常要放哪些 section？"},
+    {"role": "assistant", "content": "標準大概是目的、材料與步驟、數據表、計算、結果與誤差討論、結論這幾塊。你誤差那段提一句滴定終點判讀或讀數視差就夠了，不用寫長。"},
+    {"role": "user", "content": "誤差那段我可以直接說是指示劑變色判讀的主觀性嗎？"},
+    {"role": "assistant", "content": "可以，那是最常見也最站得住的理由。寫一兩句點到為止就行，這種報告不用過度發揮。"},
+    {"role": "user", "content": "好喔那我來把它擺一擺。謝啦。"},
+    {"role": "assistant", "content": "去吧，這份照你的速度十分鐘的事。"}
+  ]
+}

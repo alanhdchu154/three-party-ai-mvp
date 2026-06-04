@@ -1,0 +1,62 @@
+{
+  "id": "sim_saga_a_shen_mom__return_gift_for_dowager_birthday_present_wechat",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "late_spring_after_dowager_birthday",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "上個月一位原配董娘過生日，送了沈媽一條圍巾當回禮的開場",
+    "沈媽當時只在群裡簡單道謝，回禮一直拖著沒處理"
+  ],
+  "scenario_seed": "上個月某位輩分較高的董娘生日，後來反過來送了沈媽一條圍巾。沈媽拖了快一個月還沒回禮，現在想叫 AI 幫她想一個分量剛好、不會顯得想壓過對方的回禮，再順手把一段體面的微信道謝先擬好。純禮數後勤。",
+  "generated_at": "2026-06-03T16:41:00Z",
+  "occurred_at": "2026-06-03T16:41:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我想個回禮。上個月王太生日，我送了她東西，結果她前陣子反手送了我一條圍巾，我到現在還沒回。再不回就難看了。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，先抓兩個重點：她送的圍巾大概是什麼級別、你們平常往來是哪一種分寸。回禮的關鍵是「分量對得上、但不要明顯壓過她」，太重反而像在較勁。方便說一下那條圍巾大概是哪個牌子或價位區間嗎？我好幫你定回禮的檔次。"
+    },
+    {
+      "role": "user",
+      "content": "愛馬仕的方巾，不是最貴那種，但也不便宜。她那個人你懂的，送你東西其實是想看你怎麼接。"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，這種往來重點在「接得體面」而不是「贏」。對到一條愛馬仕方巾，回禮我建議走「等值但不同類」的方向，避免你也回一條絲巾顯得在比。可以考慮一套好一點的茶或香氛蠟燭組、或她用得上的小皮件，價位抓在跟方巾相近、略低一點點都沒問題。你想偏實用還是偏擺得出來好看？"
+    },
+    {
+      "role": "user",
+      "content": "她那種人當然是要擺得出來好看的。實用的她看不上。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就走「上得了檯面、又不踩到她」的路線。一組有設計感的香氛蠟燭禮盒、或品牌的限定下午茶／茶具組都合適，包裝體面、開箱有面子，但不會跟她的方巾正面對撞。挑好後我再幫你配一張小卡和一段微信。你想我先把微信道謝擬出來嗎？"
+    },
+    {
+      "role": "user",
+      "content": "對，先把微信擬好。要客氣但不要太熱情，我跟她沒那麼好。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣的分寸：「王姊，上回的方巾收到了，太有心，顏色我很喜歡，謝謝妳惦記著。前陣子家裡事情多，回禮晚了，別嫌。改天約茶。」客氣、有溫度、但留距離，「改天約茶」是場面話，不算正式邀約。要我再給一個更冷一點的版本備用嗎？"
+    },
+    {
+      "role": "user",
+      "content": "這個就可以了。回禮我挑香氛那個好了，省事。"
+    },
+    {
+      "role": "assistant",
+      "content": "好選擇，香氛禮盒體面又不會出錯。流程幫你收一下：先下單香氛禮盒、附一張簡短小卡，等收到貨確認包裝沒問題，再把上面那段微信發出去就完成了。需要的話我可以幫你把小卡那一兩句也寫短一點。"
+    }
+  ]
+}

@@ -6,10 +6,10 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 13 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 10 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 17 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 15 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 13 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/keer.json`
@@ -23,18 +23,18 @@
 - `ev_009` coordinator_report · medium · synthetic-only · watch signals · `existing artifact`
 
 ## What we infer
+- 她
 - 需
 - 要
-- 一
-- 個
-- 能
-- 直
+- 的
+- 不
+- 是
 
 ## Three-Party Coordination Snapshot
 ### Student
 - Observed signals: not available
 - Inferred needs: not available
-- Privacy constraints count: 100
+- Privacy constraints count: 5
 ### Parent
 - Expressed concerns: not available
 - Likely needs: not available
@@ -55,17 +55,16 @@
 - Use human reviewer guidance before making stronger recommendations.
 
 ## What we must not reveal
-- Coordinator marked 4 private detail categories that must not be shown verbatim.
-- Student profile has 100 do-not-share items; summarize only themes.
+- Coordinator marked 5 private detail categories that must not be shown verbatim.
+- Student profile has 5 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 今晚就把那句私訊傳給那位同學（短、認錯、不解釋一堆），傳完早點睡
-- for_student: 這禮拜挑一個信得過的人，試著在不開玩笑的情況下講一件你今天真的覺得累的小事，看看會怎樣
-- for_parent: 這禮拜找一次她彈琴或做作業時，只問『這首/這個是你自己想做的嗎』，把焦點放在她的選擇而不是表現好不好
-- for_parent: 她講班上朋友的事時，把它當她自己的事認真聽完，不要轉成『你人緣真好』這種誇獎就帶過
-- for_teacher: 這禮拜找一個她沒在搞笑的時刻、單獨跟她講一句具體的肯定（例如她主動處理同學衝突那件事），讓她知道搞笑以外的她也被看見
-- for_teacher: 點名發言或分組時，給她一個不需要靠耍寶就能發光的位置（例如她有把握的鋼琴或她擅長的科目）
+- for_student: 這禮拜挑一次班群的寵物影片或收錢張羅的事，故意不第一個跳出來接，看看會發生什麼——練習一次『不掃興也不負責』也沒事
+- for_student: 把那本四格漫畫多畫一頁就好，不用給任何人看，那是只屬於妳自己的東西
+- for_parent: 這禮拜找一個跟『表演、彈琴、聚會、哥哥』完全無關的時段，單獨帶她去做一件她選的小事（她挑店、她挑要幹嘛），全程不提她哥
+- for_parent: 如果她隨口畫了什麼、寫了什麼，先問『這是妳自己想做的嗎』而不是『這可以拿去比賽嗎』
+- for_teacher: 這禮拜找一個不是請她幫忙、不是交代庶務的時機，單獨跟她聊一句她自己的事（她在自學的曲子、她畫的東西都行），讓她知道有人對『不負責張羅的某個具體細節』有興趣
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -75,9 +74,9 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 若她開始連玩笑都少了、在群組明顯安靜下來且持續超過一兩週
-- 若家族聚會或被略過的場景之後，出現比修辭性自貶更持續的低落或反芻
-- 若『搞笑以外沒人要我』從一句玩笑變成她反覆認真講的主題
+- 家族聚會或對照他人家庭之後，修辭性自貶是否從『一次性、能自我收回』變成『連續多天、收不回來』——那才是 某個具體細節 某個具體細節往上走的訊號
+- 班上『被範本化／被模仿但不敢設界線』的不適是否累積成她開始迴避某些同儕或活動
+- 她是否從『繞道求被看見』（手工卡片、第三方打聽）升級成更明顯或更冒險的試探行為
 
 ## Contradictions / Review Flags
 - No major contradiction detected by deterministic checks.

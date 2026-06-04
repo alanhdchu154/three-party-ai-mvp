@@ -190,15 +190,15 @@
 
 ### Current trajectory
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
+- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
 - Dimension `emotional_safety` is active in current score.
-- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/uncle.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/uncle.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/uncle.json`
 
 ### Likely outcomes if unchanged
 - Student may over-rely on AI or adult interpretation instead of building agency.

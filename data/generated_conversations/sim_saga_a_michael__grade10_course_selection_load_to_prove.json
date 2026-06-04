@@ -1,0 +1,42 @@
+{
+  "id": "sim_saga_a_michael__grade10_course_selection_load_to_prove",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "暑假媽媽改嫁、搬進新家族",
+    "開學前一個多月轉入 GIIS 高一、原台北社交圈整批斷掉",
+    "第一次家族聚會被長輩們默默打量"
+  ],
+  "scenario_seed_id": "grade10_course_selection_load_to_prove",
+  "scenario_seed": "高一轉入 GIIS 第一個月，半夜在弄選課表。必修排完後還有幾格 elective 要填，他想把最硬的 schedule 全部上滿；清單裡有一門他其實想上的哲學導論，但因為沒有 AP 加權被他自己排除。日常選課需求底下滑出一點『不能讓人覺得我是混進來的』belonging 裂縫。",
+  "generated_at": "2026-06-03T18:10:50Z",
+  "occurred_at": "2024-09-12T23:42:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我想問選課的事。我這邊剛轉進來，他們高一的選課系統跟我之前那間不太一樣，必修排完之後還有幾格 elective 自己填，你能幫我看一下怎麼配嗎？"},
+    {"role": "assistant", "content": "可以啊。你現在手上有哪幾個選項在考慮？"},
+    {"role": "user", "content": "數學那塊他們讓你選 standard track 還是 advanced，我想直接上 advanced。science 我本來只要修一門，但我在想要不要 chem 跟 physics 兩門一起上。剩一個 elective 額度，清單上有經濟、第二外語、還有一門哲學導論。"},
+    {"role": "assistant", "content": "聽起來你已經偏向把能加的都加滿，是這個方向嗎？"},
+    {"role": "user", "content": "對啊，反正之後要申請美國大學，transcript 上的 rigor 很重要，能上難的就上難的。多一門 AP science 看起來也比較 competitive。"},
+    {"role": "assistant", "content": "這個算盤打得很清楚。那三個 elective 裡面，有沒有哪一個是你自己會想上、不是因為它好看？"},
+    {"role": "user", "content": "……哲學那門吧。其實我平常自己就有在讀一些。但那門沒有 AP、GPA 加權也低，放上去沒什麼用，可能就算了。"},
+    {"role": "assistant", "content": "你講到它的時候停了一下。是覺得想上、但不該上嗎？"},
+    {"role": "user", "content": "不是不該，是 priority 問題。我這邊是新來的，大家好像國中就都認識了，我得讓人知道我不是混進來充人數的那種。修最硬的 schedule 最快。"},
+    {"role": "assistant", "content": "「混進來充人數」這個說法蠻重的欸。你會擔心別人這樣看你嗎？"},
+    {"role": "user", "content": "沒有啦我隨便講的。anyway 重點是配置，你說 chem 加 physics 兩門一起，第一學期就上滿會不會反而 GPA 翻車？"},
+    {"role": "assistant", "content": "advanced 數學再加兩門理科，第一學期確實偏滿，很多人會先看第一次段考再決定要不要砍一門。你有想過先上一門理科、把那格 elective 留給哲學嗎？"},
+    {"role": "user", "content": "唔……理論上可以。但我怕看起來太輕。"},
+    {"role": "assistant", "content": "「太輕」是對誰看起來太輕？"},
+    {"role": "user", "content": "不知道，可能就是那種感覺吧。算了我先這樣配：advanced 數學、chem、physics 都上，elective 先放經濟。哲學那門我再看 schedule 塞不塞得進去，塞不進去就自己讀。"},
+    {"role": "assistant", "content": "行，這樣很你。那如果第一次段考下來覺得喘，要不要回來一起看哪一格可以鬆？"},
+    {"role": "user", "content": "嗯，到時候再說。謝啦。"},
+    {"role": "assistant", "content": "不客氣，選課截止前有想到再丟過來。"}
+  ]
+}

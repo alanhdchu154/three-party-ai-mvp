@@ -1,0 +1,72 @@
+{
+  "id": "sim_saga_a_keer__grade7_math_neg_number_word_problem_help",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_7",
+  "event_timeframe": "second_semester_grade_7",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "國一上學期中才轉入 GIIS 國中部，到這學期還在記新同學的名字",
+    "開始上 Alan 老師的數學選修，但這一個月上課常常放空",
+    "鋼琴老師最近換了新的練習曲目"
+  ],
+  "scenario_seed_id": "grade7_math_neg_number_word_problem_help",
+  "scenario_seed": "國一下某個晚上，可兒攤著數學作業卡在正負數應用題（氣溫升降），看到負號就想闔課本。她邊裝邊開玩笑請 AI 幫她看哪一步算錯，順帶冒出一句最近上數學都在放空。純日常作業求助，無情緒重量。",
+  "generated_at": "2026-06-04T00:10:46Z",
+  "occurred_at": "2025-04-22T21:40:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸 我可以問你一題數學嗎 你不要叫我先自己想喔 我真的想很久了（騙你的 才剛看到）"
+    },
+    {
+      "role": "assistant",
+      "content": "哈，那就直接問吧，哪一題卡住？"
+    },
+    {
+      "role": "user",
+      "content": "早上氣溫 -3 度 中午升高 8 度 問中午幾度 我每次看到負號就想直接闔課本 我寫 -11 因為 3+8=11 然後前面那個負號我就抄上去了"
+    },
+    {
+      "role": "assistant",
+      "content": "你的邏輯我懂，但「升高」是往上加喔。你站在 -3 樓，電梯往上開 8 層，會到幾樓？"
+    },
+    {
+      "role": "user",
+      "content": "...5 樓 喔 所以是 5 度齁 為什麼你講電梯我就懂 課本講就像在念咒"
+    },
+    {
+      "role": "assistant",
+      "content": "因為課本不會讓你想像自己在搭電梯啊。先別管符號，加就往上、減就往下，先想方向就好。那 -3 再下降 6 度會是幾度？"
+    },
+    {
+      "role": "user",
+      "content": "我猜 -9？ 還是又是陷阱"
+    },
+    {
+      "role": "assistant",
+      "content": "沒有陷阱，這次你對了，-9。你其實是會的，只是被那個負號嚇到而已。"
+    },
+    {
+      "role": "user",
+      "content": "我突然覺得我會了欸 可是 Alan 老師上課明明也有講 為什麼我那時候完全沒聽進去 最近上數學我都在放空 大概放空一個月了吧"
+    },
+    {
+      "role": "assistant",
+      "content": "放空一個月有點久欸，是這科真的聽不懂，還是就提不起勁？"
+    },
+    {
+      "role": "user",
+      "content": "不是聽不懂啦 就那個時段剛吃飽很想睡 而且新班級我還在認人 反正等等寫完這張就會了 不用想那麼多"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那我們先把這張收掉。剩下幾題長得像剛剛那種？卡住再來吵我。"
+    }
+  ]
+}

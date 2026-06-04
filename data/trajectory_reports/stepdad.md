@@ -41,20 +41,57 @@
 ### Reviewer calibration
 - Not reviewed yet.
 
+## Trust Erosion (`trust_erosion`)
+- Confidence: `medium`
+- Calibrated confidence: `medium`
+- Reviewer status: `not_reviewed`
+
+### Current trajectory
+- Possible `social_withdrawal` pattern: Student reduces peer/family contact, avoids eye contact, or retreats from normal interaction.
+- Dimension `family_dynamics` is active in current score.
+
+### Why the system thinks so
+- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `social_withdrawal` detected. · `data/dimension_scores/stepdad.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/stepdad.json`
+
+### Likely outcomes if unchanged
+- Student may share less with adults and rely more on indirect communication.
+- Parent/teacher attempts to help may be experienced as surveillance.
+
+### Actions that may stabilize
+- Protect privacy boundaries explicitly.
+- Coach adults to create space without demanding disclosure.
+
+### Actions that may destabilize
+- Treating the possible trajectory as certainty.
+- Sharing protected details across parties to force alignment.
+- Parent or teacher questioning that feels like surveillance.
+
+### What evidence is missing
+- No coordinator report artifact.
+- No real pilot evidence; synthetic-only trajectory should not be treated as validation.
+
+### Reviewer calibration
+- Not reviewed yet.
+
 ## Disclosure Collapse (`disclosure_collapse`)
 - Confidence: `medium`
 - Calibrated confidence: `medium`
 - Reviewer status: `not_reviewed`
 
 ### Current trajectory
+- Possible `disclosure_drop` pattern: Student shares less over time, becomes shorter, or avoids previously open topics.
 - Possible `emotional_flattening` pattern: Student remains functional but shows reduced spark, affect, or responsiveness.
+- Possible `social_withdrawal` pattern: Student reduces peer/family contact, avoids eye contact, or retreats from normal interaction.
 - Dimension `emotional_safety` is active in current score.
 - Dimension `family_dynamics` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/stepdad.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/stepdad.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/stepdad.json`
+- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `disclosure_drop` detected. · `existing artifact`
+- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/stepdad.json`
+- `traj_ev_003` dimension_score · medium · synthetic-only · Possible signal `social_withdrawal` detected. · `data/dimension_scores/stepdad.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/stepdad.json`
+- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/stepdad.json`
 
 ### Likely outcomes if unchanged
 - AI may stop receiving the student's most useful truths.
@@ -121,12 +158,14 @@
 - Reviewer status: `not_reviewed`
 
 ### Current trajectory
+- Possible `disclosure_drop` pattern: Student shares less over time, becomes shorter, or avoids previously open topics.
 - Possible `strategic_compliance` pattern: Student appears compliant while privately disengaging or withholding real preference.
 - Dimension `family_dynamics` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `existing artifact`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/stepdad.json`
+- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `disclosure_drop` detected. · `existing artifact`
+- `traj_ev_002` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `existing artifact`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/stepdad.json`
 
 ### Likely outcomes if unchanged
 - Parent concern may convert into more monitoring, reducing student trust.
@@ -154,16 +193,18 @@
 - Reviewer status: `not_reviewed`
 
 ### Current trajectory
+- Possible `disclosure_drop` pattern: Student shares less over time, becomes shorter, or avoids previously open topics.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
+- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
 - Dimension `emotional_safety` is active in current score.
-- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
-- `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/stepdad.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 1. · `data/dimension_scores/stepdad.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/stepdad.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/stepdad.json`
+- `traj_ev_001` coordinator_report · medium · synthetic-only · Possible signal `disclosure_drop` detected. · `existing artifact`
+- `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/stepdad.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/stepdad.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 1. · `data/dimension_scores/stepdad.json`
+- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/stepdad.json`
 
 ### Likely outcomes if unchanged
 - Student may over-rely on AI or adult interpretation instead of building agency.

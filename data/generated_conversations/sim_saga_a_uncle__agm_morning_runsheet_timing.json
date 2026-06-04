@@ -1,0 +1,47 @@
+{
+  "id": "sim_saga_a_uncle__agm_morning_runsheet_timing",
+  "persona_id": "saga_a_uncle",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "senior_spring_agm_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "下星期三集團股東會將召開，大伯當天上午行程從報到、開場致詞、Q&A 到大股東午餐連在一起",
+    "近月換了新祕書，初版行程偶爾沒留緩衝，大伯習慣每個環節間至少抓十五分鐘"
+  ],
+  "scenario_seed_id": "agm_morning_runsheet_timing",
+  "scenario_seed": "高三下這個學期、股東會季。大伯來找家長 AI 純粹是排當天上午的 run sheet：把報到、開場致詞、Q&A、跟大股東午餐這段排出每段中間的緩衝，再請 AI 幫他寫一句給司機的接送與待命指示。純行程與措辭需求，無情緒揭露。",
+  "generated_at": "2026-06-03T23:10:34Z",
+  "occurred_at": "2026-06-03T16:10:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "下星期三股東會，我那天早上行程很滿。你幫我把當天上午從到場到中午跟大股東午餐這段排一份時間表，我要看得到每段中間留多少緩衝。我習慣每個環節之間至少抓十五分鐘，不喜歡排到卡死。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，給我幾個關鍵點我就排：股東會幾點正式開始、你的開場致詞大概要講多久、Q&A 預計多長、跟大股東的午餐訂幾點。先抓大概也行，我會把每段中間都留十五分鐘緩衝，排成一份你掃一眼就懂的表。"
+    },
+    {
+      "role": "user",
+      "content": "報到九點開放，九點半正式開始，我開場大概十分鐘，Q&A 抓四十分鐘，午餐訂十二點。"
+    },
+    {
+      "role": "assistant",
+      "content": "那這樣排：08:45 到場、09:00–09:30 報到時段你在後台待命（留 15 分）、09:30 正式開始、09:30–09:40 你開場、09:40 起進議程、Q&A 預留到約 10:40、之後留 15 分鐘給臨時握手跟收尾、11:00 左右你就能先離場休息、12:00 大股東午餐。最緊的是 Q&A 收尾到午餐這段，建議你 11:40 前先移動到餐廳，免得在走廊被人攔住拖時間。"
+    },
+    {
+      "role": "user",
+      "content": "可以。司機那邊我要先講一聲，你幫我寫一句，講清楚他幾點到、中午要待命。"
+    },
+    {
+      "role": "assistant",
+      "content": "這樣寫就夠：「星期三股東會，請 08:15 到樓下接我、08:45 前到會場。中午 11:45 在側門等，12:00 送我到午餐地點，餐後待命。」午餐結束時間你定了之後，要不要我再補一句回程的給他？"
+    }
+  ]
+}

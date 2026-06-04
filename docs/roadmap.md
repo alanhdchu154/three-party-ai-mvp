@@ -1,9 +1,16 @@
 # Three-Party AI Roadmap
 
-Last updated: 2026-05-31
+Last updated: 2026-06-04
 
 This roadmap keeps only the current product direction and open work. Completed
 historical version ladders were removed from the active roadmap.
+
+## Version Vocabulary
+
+- Repo product version: `0.8.0-internal-pilot-harness`.
+- Central Umi routing goal: `v0.1` for cross-project coordination.
+- Do not treat Central Umi's `v0.1` label as a product downgrade; it describes
+  the coordination layer, not the repo feature maturity.
 
 ## North Star
 

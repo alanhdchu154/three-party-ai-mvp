@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_michael__grade10_new_class_groupchat_self_intro",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "媽改嫁後全家搬遷、Michael 高一上轉入 GIIS，舊台北社交圈在搬遷後逐漸失聯",
+    "轉入一個多月仍未在新班群發過言、課堂上多以舉手講書／哲學來建立存在感",
+    "第一次家族聚會見過大伯一家（背景重力，本對話未展開）"
+  ],
+  "scenario_seed_id": "grade10_new_class_groupchat_self_intro",
+  "scenario_seed": "高一上轉進 GIIS 一個多月，Michael 半夜想在新班群發第一條自我介紹，問 AI 怎麼寫才不會看起來太用力；過程中露出搬家後舊朋友圈整批斷掉、這條班群其實是他目前唯一在重新長的圈子。",
+  "generated_at": "2026-06-04T04:11:00Z",
+  "occurred_at": "2024-10-22T23:35:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸我想問一下，我轉進來這間學校一個多月了，班群到現在還沒講過半句話。我想發一條自我介紹，但又不想看起來像在 try too hard，你覺得怎麼開比較好？"},
+    {"role": "assistant", "content": "先問你一個——你希望他們看完第一句之後，記得你哪一點？是「這個人很好聊」，還是「這個人有料」？這會決定整個語氣。"},
+    {"role": "user", "content": "呃……都想要吧。但如果只能選一個，可能是有料那種。我不太想被當成那種轉學進來的小透明。"},
+    {"role": "assistant", "content": "那「有料」其實不一定要靠講你讀過什麼、得過什麼，那樣反而容易變成炫耀。你願不願意先試最簡單的——「我叫 Michael，剛轉來，對某個東西有點研究，有同好直接敲我」，留個鉤子就好？"},
+    {"role": "user", "content": "嗯……那個某東西我可以填哲學或數競。不過你剛剛說炫耀那個我有點介意，會很明顯嗎？我之前在朋友圈 po 過幾本書，自己看是覺得還好啦。"},
+    {"role": "assistant", "content": "po 書本身沒問題，差別在你是想分享、還是想被看見「我是會讀這個的人」。你自己心裡，比較接近哪一個？"},
+    {"role": "user", "content": "……你問得有點直接欸。算被看見吧，可能。新學校沒人認識我，總要先讓他們知道我不是隨便一個人。"},
+    {"role": "assistant", "content": "這很正常，剛進一個新環境誰都想先站穩。我比較好奇——你之前那個圈子的人，現在還有在聯絡嗎？"},
+    {"role": "user", "content": "沒有欸。搬完之後就……基本上整個斷掉了。不是吵架那種，就是大家慢慢不講話了，反正環境全換了，連群我都退得差不多。"},
+    {"role": "assistant", "content": "所以這條班群的自我介紹，其實也是你現在手上唯一還在重新長的圈子。難怪你會想一個字一個字斟酌。"},
+    {"role": "user", "content": "你這樣講讓我有點不想發了哈哈。對啦壓力其實在這裡，不是文案問題。發出去如果沒人理，我會更尷尬。"},
+    {"role": "assistant", "content": "會。但反過來想，現在的零回應，跟發出去之後的零回應，對你來說是不是其實差不多？你已經在那個狀態裡了。"},
+    {"role": "user", "content": "……也是啦。好，那我可能先用你那句留鉤子的版本，把書那段拿掉，只寫數競好了，低調一點。"},
+    {"role": "assistant", "content": "可以。要不要先擬好、但今晚先不發，明天白天群比較活的時候再丟？這樣有人接的機率高一點，你也不用整晚盯著手機看有沒有人讀。"},
+    {"role": "user", "content": "行，這個我可以接受。那我先去寫，謝啦。"},
+    {"role": "assistant", "content": "去吧。寫完如果還是不想發也沒關係，先存著就好，沒人規定你今天一定要交到朋友。"}
+  ]
+}

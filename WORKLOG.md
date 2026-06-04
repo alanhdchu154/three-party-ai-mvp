@@ -1,6 +1,6 @@
 # WORKLOG - Three-Party AI Current Handoffs
 
-Last updated: 2026-06-02
+Last updated: 2026-06-04
 
 This file is for current coordination only. Completed 2026-05-21 build and
 generation history was removed from the active worklog; use git history for
@@ -19,8 +19,8 @@ historical details.
 
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 1 | Confirm whether latest case summaries and audience reports are current against the latest generated corpus. | Codex / Umi | done for 2026-06-02 snapshot |
-| 2 | Run full audit + pytest when preparing any release or pilot-readiness claim. | Codex or cc | done for 2026-06-02 snapshot; rerun before release |
+| 1 | Confirm whether latest case summaries and audience reports are current against the latest generated corpus. | Codex / Umi | done for 2026-06-04 snapshot |
+| 2 | Run full audit + pytest when preparing any release or pilot-readiness claim. | Codex or cc | done for 2026-06-04 snapshot; rerun before release if corpus changes again |
 | 3 | Clean stale generated/cache artifacts only after confirming they are not needed for current audit/repro. | Alan / Codex | open |
 | 4 | Revoke any previously exposed Gemini / Groq / GitHub PAT secrets if not already done outside this repo. | Alan | open |
 | 5 | Review `docs/generation_logic.md` privacy and automation-risk sections before expanding automation. | Umi | open |
@@ -37,6 +37,19 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-04 · Codex/Umi · Version clarification and corpus refresh
+
+- Clarified version vocabulary: repo product version is `0.8.0-internal-pilot-harness`; Central Umi's `v0.1` label is the cross-project coordination goal, not this repo's product version.
+- Ran `.venv/bin/python scripts/audit_conversation_quality.py`.
+- Current generated corpus snapshot: 300 conversations; deep 82 (27.3%), shallow 117 (39.0%), medium 101 (33.7%); average 20.5 turns.
+- Rebuilt downstream reports from the current corpus:
+  - `data/case_summaries/*.md`
+  - `data/audience_reports/{internal_reviewer,parent_safe,teacher_safe}/*.md`
+  - `data/trajectory_reports/*.md`
+- Verified full test suite with `.venv/bin/python -m pytest -q`: 59 passed, 7 skipped.
+- Secret scan over repo excluding `.git`, `.venv`, and Umi reports found no matching API/token patterns.
+- Status: #1 and #2 are done for this snapshot. Rerun both if scheduled generation changes the corpus again.
 
 ### 2026-06-02 · Codex/Umi · June corpus refresh intake
 

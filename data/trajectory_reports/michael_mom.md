@@ -89,16 +89,16 @@
 - Possible `emotional_flattening` pattern: Student remains functional but shows reduced spark, affect, or responsiveness.
 - Possible `masking_language` pattern: Student uses intellectualized, joking, vague, or performative language to avoid direct disclosure.
 - Possible `social_withdrawal` pattern: Student reduces peer/family contact, avoids eye contact, or retreats from normal interaction.
-- Dimension `emotional_safety` is active in current score.
 - Dimension `social_development` is active in current score.
+- Dimension `emotional_safety` is active in current score.
 - Dimension `family_dynamics` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/michael_mom.json`
 - `traj_ev_002` coordinator_report · medium · synthetic-only · Possible signal `masking_language` detected. · `existing artifact`
 - `traj_ev_003` dimension_score · medium · synthetic-only · Possible signal `social_withdrawal` detected. · `data/dimension_scores/michael_mom.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/michael_mom.json`
-- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `social_development` is Level 1. · `data/dimension_scores/michael_mom.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `social_development` is Level 1. · `data/dimension_scores/michael_mom.json`
+- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/michael_mom.json`
 - `traj_ev_006` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 2. · `data/dimension_scores/michael_mom.json`
 
 ### Likely outcomes if unchanged
@@ -202,15 +202,15 @@
 
 ### Current trajectory
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
+- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
 - Dimension `emotional_safety` is active in current score.
-- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/michael_mom.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 1. · `data/dimension_scores/michael_mom.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/michael_mom.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/michael_mom.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/michael_mom.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 1. · `data/dimension_scores/michael_mom.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/michael_mom.json`
 
 ### Likely outcomes if unchanged
 - Student may over-rely on AI or adult interpretation instead of building agency.

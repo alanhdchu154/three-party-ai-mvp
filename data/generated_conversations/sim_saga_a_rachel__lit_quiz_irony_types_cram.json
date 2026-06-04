@@ -1,0 +1,31 @@
+{
+  "id": "sim_saga_a_rachel__lit_quiz_irony_types_cram",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "最近一個月英文文學課每週都有一次小考",
+    "上週小考她在 irony 那一題選錯了"
+  ],
+  "scenario_seed_id": "lit_quiz_irony_types_cram",
+  "scenario_seed": "高三英文文學週考前一晚，Rachel 只想快速搞清楚 dramatic irony 跟 situational irony 的差別來應付明天的選擇題，沒打算把它寫成什麼。上週同一份考卷她剛好就栽在這題。",
+  "generated_at": "2026-06-03T22:40:00Z",
+  "occurred_at": "2026-06-03T22:40:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 想問一下 dramatic irony 跟 situational irony 到底差在哪 明天文學週考會考"},
+    {"role": "assistant", "content": "dramatic irony 是讀者或觀眾知道、但角色自己不知道；situational irony 是結果跟大家預期的剛好相反。你上週是卡在哪一題？"},
+    {"role": "user", "content": "上禮拜那題我把伊底帕斯選成 situational 結果答案是 dramatic 啦 氣死"},
+    {"role": "assistant", "content": "對，因為觀眾老早就知道他殺的是自己父親、他本人卻一直不知道，那種落差就是 dramatic。所以判斷時先問『是誰不知道』就好。"},
+    {"role": "user", "content": "喔 那這樣分得開 那 situational 給我一個最白痴最好記的例子"},
+    {"role": "assistant", "content": "消防局自己失火，最不該發生在那裡的偏偏發生了，這就是 situational irony。這個記得住嗎？"},
+    {"role": "user", "content": "這個好記 那我大概背這兩個就夠了吧 謝啦"},
+    {"role": "assistant", "content": "夠了，選擇題多半就是考你分不分得出落差的來源。明天順順寫。"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sim_saga_a_shen_you__workshop_credits_real_name_decision",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "這學期他那個 roguelike mod 訂閱數從幾百衝到破萬，Discord 開始有人 tag 他問『作者到底是誰』",
+    "上個月一間 indie studio 私訊談付費合作，金流卡在他未成年、帳戶都掛母親名下提不出來",
+    "沈媽近期把 GIIS 試讀當成已定案在推進，飯桌上又提了一次"
+  ],
+  "scenario_seed_id": "workshop_credits_real_name_decision",
+  "scenario_seed": "高二下學期某個凌晨快三點，沈又在排 mod 新版本的 Steam workshop 頁面，想把 credits 那塊弄乾淨；Discord 那邊一直有人問作者是誰、要不要掛個名。表面是頁面排版跟要不要寫 credits 的技術問題，底下是他第一次正面碰到『要不要被看見』——他習慣只讓作品被看見、自己藏在後面。",
+  "generated_at": "2026-06-03T21:11:42Z",
+  "occurred_at": "2026-06-03T02:48:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "我在弄 workshop 新版本的頁面，credits 那塊要怎麼排比較不亂。就是用到的字體、音效、還有幫我試玩的那幾個人，想列清楚一點。"},
+    {"role": "assistant", "content": "分區塊最不亂。建議切三段：Assets（字體、音效、第三方資源，後面附授權出處）、Playtesting / Feedback（試玩的人，用他們的 handle 就好）、Author / Contact。Steam workshop 描述吃基本 BBCode，用 [h2] 當小標、[list] 列項目，看起來會乾淨很多。先問一下，音效是 CC 授權的還是你買的包？這會決定要不要署名跟怎麼寫。"},
+    {"role": "user", "content": "兩個是 CC0，一個是付費包。付費那個授權頁我一時找不到了。"},
+    {"role": "assistant", "content": "CC0 技術上不用署名，但列出來是好習慣，玩家也比較信任。付費包的授權通常寫在你下載時的 invoice、或商店頁面的 license 區，去你買的平台的訂單紀錄翻一下最準。真的找不到就先寫成「Licensed SFX pack (license on file)」這種，別硬貼一個你不確定的連結貼錯反而麻煩。要不要我直接給你一個 credits 區塊的 BBCode 模板，你填空就好？"},
+    {"role": "user", "content": "好啊，模板給我。"},
+    {"role": "assistant", "content": "這樣排：\n\n[h2]Credits[/h2]\n[b]Assets[/b]\n[list]\n[*] Font: ____ (____ license)\n[*] SFX: ____ (CC0)\n[*] SFX: ____ (CC0)\n[*] SFX: Licensed pack — license on file\n[/list]\n[b]Playtesting / Feedback[/b]\n[list]\n[*] @____\n[*] @____\n[/list]\n[b]Author[/b]\n[list]\n[*] ____\n[/list]\n\n標籤記得成對閉合，不然整段排版會爆掉。空格的地方你填，填完丟回來我幫你看有沒有漏。"},
+    {"role": "user", "content": "最後那個 author 欄……我可以不寫嗎。"},
+    {"role": "assistant", "content": "可以。很多 workshop 作品的 author 欄就放一個固定 handle 或工作室名，不一定要真名。不過提醒你一件事：Steam 本來就會在頁面上顯示你上傳這個帳號的名稱，所以『完全匿名』其實做不太到。你是想避開哪一塊？是不想出現真名，還是不想被認出來是你？"},
+    {"role": "user", "content": "反正掛不掛沒差啦。就一個遊戲 mod。Discord 那邊有人一直問作者是誰，我懶得理。"},
+    {"role": "assistant", "content": "那有個中間做法：固定用一個 handle（跟你登入帳號名分開的創作名），credits 跟之後的東西都掛那個。別人追的是那個名字，不是你本人，你也不用回 Discord 那串『你到底是誰』——頁面上有個固定署名，問的人自己就會去看。你已經有在用的 ID 嗎，還是要我幫你想幾個方向？"},
+    {"role": "user", "content": "我有一個帳號名，但那是我當初隨便打的。掛上去就變成……好像在說『這是我做的，來看我』。我不太想那樣。"},
+    {"role": "assistant", "content": "嗯，你把『掛名』跟『邀請別人來評價你這個人』綁成同一件事了，那兩件事其實可以拆開。credits 比較像零件表跟出貨單，不是個人簡介。你可以寫得很功能性——就一行 handle，沒有頭像、沒有『關於作者』、沒有自我介紹。被看見的是這個版本做了什麼，不是你。這樣會不會沒那麼刺？"},
+    {"role": "user", "content": "……你講得好像我很在乎被看見一樣。我只是覺得很麻煩。"},
+    {"role": "assistant", "content": "行，那就當麻煩處理，不分析你。純功能面講：掛一個固定 handle 唯一的實際好處，是你第二個、第三個東西出來的時候，訂閱數會累積到同一個名字下，演算法跟玩家比較找得到你後面的作品。要不要這個好處，你自己衡量。不想累積、想每個都當一次性丟出去就忘掉，留白也完全沒問題，不影響這次能不能上架。"},
+    {"role": "user", "content": "累積……如果以後想出別的東西，掛同一個名比較好對吧。"},
+    {"role": "assistant", "content": "純技術上是。同一個 handle 等於你做的東西之間有一條看得出來的線，玩家會『喔又是這個人做的』。但這條線也正好是你剛剛在閃的那個——線一旦在，就有人會順著它找過來。所以這不是排版問題，是 trade-off：你想不想讓你做的東西彼此認得出來。今天不用定，credits 那一行可以最後再填。"},
+    {"role": "user", "content": "……先空著。其他先排好。那條線的事我再想。"},
+    {"role": "assistant", "content": "可以。我把 author 那行留成 [Author: ____]，其他三區都填好排版好了，你哪天想掛再補一個字進去就成。剩下要檢查的我列給你：付費包那行的授權出處、playtester 的 handle 有沒有拼對、BBCode 標籤有沒有成對閉合。先把這版推上去，掛名那行你想清楚再說，不急。"}
+  ]
+}

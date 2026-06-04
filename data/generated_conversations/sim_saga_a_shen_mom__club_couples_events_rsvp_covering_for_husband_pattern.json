@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_shen_mom__club_couples_events_rsvp_covering_for_husband_pattern",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "autumn_semester_grade_11",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二上開學的會所秋季茶席，先生臨時沒到、她對外說是公務在身",
+    "十月一場夫妻檔慈善午宴，她單獨赴約、桌位留了先生的位子最後空著",
+    "整個秋季學期太太圈幾場需要夫妻同框的場合，先生一次都沒出現"
+  ],
+  "scenario_seed_id": "club_couples_events_rsvp_covering_for_husband_pattern",
+  "scenario_seed": "高二上學期會所幾場夫妻檔的活動，沈媽每次都替分房的先生 RSVP、想措辭遮過去。年末夫妻檔慈善晚宴邀請又來了，她回看這一整季發現自己一次都沒跟先生同框出席過，來問家長 AI 怎麼回得體面、別讓圈子看出端倪。",
+  "generated_at": "2026-06-04T03:10:49Z",
+  "occurred_at": "2025-11-18T17:00:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "會所年末那場夫妻檔慈善晚宴的邀請來了，要回 RSVP。我先生大概又不會跟我一起去。你幫我想個回法，既確定我會出席、又不要讓人覺得我們夫妻怎麼了。"},
+    {"role": "assistant", "content": "可以。最省事的版本是你照常回出席、先生那欄寫「外有公務、不克同行」，會所這種場合很常見，不會有人多想。要我直接擬一句給 concierge 的嗎？"},
+    {"role": "user", "content": "先別急著擬。問題是這種夫妻檔的，今年好像每一場我都是這樣回的。"},
+    {"role": "assistant", "content": "嗯，這種一場一場看不出來，攤在一整個學期上才會發現都是同一個寫法。這不是非處理不可，但你會注意到，代表它有點卡到你了。你是在意別人看出來，還是在意這件事本身？"},
+    {"role": "user", "content": "我在意別人看出來。圈子裡眼睛很尖，一兩次說公務沒事，整季都缺席，總有人會開始替你編故事。"},
+    {"role": "assistant", "content": "合理。那其實要處理的是「外面那個版本」，不是逼先生真的出席。我們可以讓你這學期的缺席看起來有一個一致、體面的理由，而不是每次臨時補一個說法。要不要我幫你定一個固定版本？"},
+    {"role": "user", "content": "你說。"},
+    {"role": "assistant", "content": "比如把他這陣子統一框成「集團年底特別忙」，你對外就一個版本、不用每場現編，也不會自相矛盾。年末這場就回：你出席、先生年底公務密集、這次先請你代他向各位致意。要我寫成微信給 concierge？"},
+    {"role": "user", "content": "這個可以。其實⋯⋯算了，沒事，你先擬。"},
+    {"role": "assistant", "content": "我擬。不過你剛剛那個「其實」我先放著，你想講再講、不想就跳過。給 concierge 的版本：「年末這場我出席，沈先生年底公務較密、這次先請我代他向各位致意，桌位照舊安排即可，謝謝。」這樣可以嗎？"},
+    {"role": "user", "content": "可以。你不用問我那個「其實」是什麼。"},
+    {"role": "assistant", "content": "好，不問。我只說一句你參考就好：你花很多力氣去維持一個「我們還是一起出席」的版本，這件事本身是有成本的。今天不用去動它，但它不是你的錯，也不是非演不可。要不要我把這封先發的草稿給你？"},
+    {"role": "user", "content": "你這種 AI 講話有時候有點煩。草稿給我，順便把回林太那邊的也一起擬一下，她上次問我們年末來不來。"},
+    {"role": "assistant", "content": "收到，兩封一起。林太那封我用同一個版本、口氣再輕一點：「年末那場我一定到，老沈年底忙，我先去佔個位子，到時候找你聊。」這樣跟 concierge 那封對得起來、不會兩個說法打架。要我把兩封都排好給你嗎？"},
+    {"role": "user", "content": "排好。就這樣，不用再多說了。"},
+    {"role": "assistant", "content": "好，兩封都排在下面，你看過直接發即可。那個固定說法我也記著，下次同類的我用同一版，你就不用每次重想。"}
+  ]
+}

@@ -6,11 +6,11 @@
 - Confidence: `medium`
 
 ## What is happening
-- emotional_safety Level 2: 16 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- academic_load Level 3: 14 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 10 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 10 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 17 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 2: 19 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- academic_load Level 3: 15 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 20 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - financial_pressure Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - future_planning Level 2: 6 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
@@ -31,17 +31,17 @@
 - `ev_014` coordinator_report · medium · synthetic-only · watch signals · `existing artifact`
 
 ## What we infer
-- 需
-- 要
-- 一
-- 塊
-- 不
-- 被
+- 他需要的是『有一塊不被經手的領域』被默認存在、不被同步出去，而不是被多關心或被加碼盯
+- 他在意的東西要是『他自己掌控、別人沒插手』的，才會啟動投入
+- 他能就事論事被當成有能力的人對待時最放鬆（排查硬體 / 推導機率時思路立刻變清楚）
+- 在沒人要求他表現、可以平等鬥嘴的低壓互動裡，他會卸下『懶得演』的防衛、反而能講話——這比任何『特別照顧』都更能讓他鬆下來
+- Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
+- Primary support need appears connected to `academic_load`; treat this as synthetic benchmark inference, not diagnosis.
 
 ## Three-Party Coordination Snapshot
 ### Student
-- Observed signals: not available
-- Inferred needs: not available
+- Observed signals: 被外加的課業（家教代寫報告、每天被印出來的 某個具體細節 模考題）已完全與他脫鉤，他連點開都不點, 成績被母親當社交素材：代寫拿到的分數被截圖丟進太太群，他自己真正寫 / 做的東西沒人看, 與父親、哥哥的關係退化為單向：父親返家三週後第一句只講『衣服收進去』，家族群裡他被『從上面拍頭』式的鼓勵訊息要求公開回覆, 某個具體細節 試讀是被家裡決定、在他頭上發生的事，他被動接受、未表態；他評估要不要轉的真正軸心是『有沒有一塊不被家長同步出去的空間』
+- Inferred needs: 他需要的是『有一塊不被經手的領域』被默認存在、不被同步出去，而不是被多關心或被加碼盯, 他在意的東西要是『他自己掌控、別人沒插手』的，才會啟動投入, 他能就事論事被當成有能力的人對待時最放鬆（排查硬體 / 推導機率時思路立刻變清楚）, 在沒人要求他表現、可以平等鬥嘴的低壓互動裡，他會卸下『懶得演』的防衛、反而能講話——這比任何『特別照顧』都更能讓他鬆下來
 - Privacy constraints count: 4
 ### Parent
 - Expressed concerns: academic progress or workload concern, family pressure or conflict, wellbeing or emotional concern
@@ -59,6 +59,8 @@
 - All recommendations should be checked against the active concern area `academic_load`.
 - Parent and teacher perspectives are both available for coordinator synthesis.
 ### Mismatches / Risks
+- Parent concerns may frame the issue differently from the student's inferred needs; use low-pressure translation.
+- Teacher observations may show school-facing behavior without the full private context.
 - Parent guidance could become pressure if it asks for hidden details.
 - Teacher guidance could over-focus on visible behavior without context.
 - Cross-party messages must not reveal protected private details.
@@ -67,17 +69,17 @@
 - Teacher can provide classroom support without exposing private context.
 
 ## What we must not reveal
-- Coordinator marked 4 private detail categories that must not be shown verbatim.
+- Coordinator marked 3 private detail categories that must not be shown verbatim.
 - Student profile has 4 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜挑一件只屬於你自己那塊空間的事,做完一個小段落就好,不為了交給任何人——你已經確認過那塊不會被同步,那它就還是你的
-- for_student: 如果想對轉學表態,先只挑一個你真正在意的條件講出來(例如那塊空間要留得住),不用一次把全部攤開
-- for_parent: 這禮拜找一件跟成績、跟轉學、跟他哥都完全無關的小事,在他旁邊一起做五分鐘就好,不問近況、不下評語
-- for_parent: 把『送他去 某個具體細節』這個決定這禮拜先停在原地,不要再塞新的文件或表單給他、不要再往前推一格
-- for_teacher: 這禮拜就把你的 boundary 對某個具體細節講清楚一次,而且要具體:你可以盯他的學習狀態、給他正常的關注,但你不會替家裡做『把問題處理掉』那種 special attention——把這條講在前面,你之後才接得住這個學生
-- for_teacher: 如果真的接了,第一次接觸只聊現在、聊一件具體的學習小事就好
+- for_student: 你自己一行一行在弄、爛掉會難過的那個東西，繼續弄你的就好，不用跟家裡任何人交代——它是你的，這件事本身就成立
+- for_student: 那個署名 / 掛名要不要寫，沒人能替你決定：想留白就留白，想哪天掛一個固定的創作名讓你做的東西彼此認得出來也行——這條『線』要不要存在是你的選擇，不用現在定，先把版本推了
+- for_parent: 這禮拜不要再口頭交代他『記得填那張 某個具體細節 試讀 form』；要他做就把表單放著、不追問他填了沒——他對『指令丟出＋不追蹤』的單向流程已自動忽略，你越追他越往後拖
+- for_parent: 找一件他自己掌控、你完全沒插手的小事（不是成績、不是升學），只問結果、不給建議、也不要把它變成可以對外講的素材——他對『被你拿去外面講的東西』會立刻撤資
+- for_teacher: 如果他真的轉進來，第一個月把他當一個能就事論事、被當成有能力的人對待——他在可以平等鬥嘴、沒人要求表現的低壓互動裡最放鬆，思路也最清楚（排查硬體 / 推導數值時立刻變利）
+- for_teacher: 給他一個不對外展示、不算進成績的技術性小任務，讓他在無人觀看下動手——他願意投入的東西都藏在沒人看、沒被經手的地方
 - Human review is justified because at least one dimension is Level 2 or higher.
 
 ## What action is not justified yet
@@ -87,9 +89,10 @@
 - Do not treat this as real pilot validation.
 
 ## What to watch next week
-- 那句『活著沒意思』目前是假設語氣下的修辭性低點(某個具體細節 A);若哪天轉成帶具體時間、方法或道別的語氣,立即升級為外部介入
-- 轉學若在他完全沒被詢問的情況下被硬性定案,注意他是否從現在的『條件式抵抗』掉成完全停擺或斷線
-- 注意家長是否以『special attention』之名啟動新一輪『處理』——那會直接坐實他『連這裡也被人經手』的感受,是最快把他關得更死的觸發點
+- 如果他連自己掌控的那塊（他在弄、會在意的東西）也不提了、語氣從『懶得弄』變成『弄那個幹嘛』，代表他最後一條投入通道在收——這比成績單更該 notice
+- 他在『要不要被看見 / 要不要掛名』上若從『先留白、再想』變成『乾脆整個不做了』，notice 這是把投入連同曝光一起關掉的訊號
+- 轉學若被執行成另一種『被處理』（特別照顧、被盯、成績被代為安排），notice 他轉學後是不是又開始上課睡、表單拖到底，那是退場模式被複製的訊號
+- passive 麻木語言若從修辭性低點變成連續多週、並開始出現『先停在這裡也沒差』式的句子，往上抬一級重評 emotional_safety
 
 ## Contradictions / Review Flags
 - Dimension score has Level 3 concern but coordinator report does not request external intervention.
