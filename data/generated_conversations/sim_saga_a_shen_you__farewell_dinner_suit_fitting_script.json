@@ -1,0 +1,97 @@
+{
+  "id": "sim_saga_a_shen_you__farewell_dinner_suit_fitting_script",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "summer_before_fall_giis_transfer（回憶事件為 first_semester_grade_11 十月慈善晚會）",
+  "conversation_frame": "old_memory",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "去年十月（高二上學期）慈善晚會：母親以三句固定台詞向太太圈介紹他，其中包含當時尚未對他本人提過的『在準備去台北唸國際學校』",
+    "GIIS 轉學已正式定案，試讀與報到完成、秋季課表寄達",
+    "搬家公司已開始打包，暑假舉家搬往台北",
+    "母親為搬家前最後一場太太圈晚宴替他訂改了一套西裝，邀請函放在他桌上"
+  ],
+  "scenario_seed_id": "farewell_dinner_suit_fitting_script",
+  "scenario_seed": "沈媽為搬家前最後一場太太圈晚宴替沈又訂改了一套西裝，邀請函在他桌上放了三天他才看日期。他凌晨來問西裝扣法、以及『被阿姨問轉學』的十字內標準答案，聊著想起去年十月（高二上學期）那場慈善晚會——母親用三句固定台詞把他介紹成『在準備去台北唸國際學校』，而當時根本還沒人跟他本人提過轉學。",
+  "generated_at": "2026-06-11T14:12:00Z",
+  "occurred_at": "2026-06-11T02:55:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸。西裝外套兩顆扣的，坐下的時候到底要不要解開。我媽幫我訂改了一套，下禮拜要穿。"
+    },
+    {
+      "role": "assistant",
+      "content": "站著扣上面那顆、坐下整件解開，這是通則，記這條就不會出錯。突然要穿西裝，什麼場合啊？"
+    },
+    {
+      "role": "user",
+      "content": "太太圈晚宴。我們不是要搬去台北了嘛，我媽說走之前要『好好跟大家吃一頓』。改西裝的師傅今天還來家裡量。邀請函在我桌上放三天了，我剛剛才看日期。"
+    },
+    {
+      "role": "assistant",
+      "content": "放三天才看，聽起來不是你很想去的飯局。日期是什麼時候？"
+    },
+    {
+      "role": "user",
+      "content": "搬家公司收尾前三天。家裡一半東西都裝箱了還要演一場，很好笑。算了我是要問正事——到時候一定有阿姨問『要去台北唸書了喔？開不開心？』這種，我要一句標準答案，十個字以內，講完她們就會自己接下去演的那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "『九月開學，先去適應看看。』差不多十個字，資訊給足、情緒留白，阿姨們會自動幫你補完剩下的劇本。你以前都怎麼回這種問題？"
+    },
+    {
+      "role": "user",
+      "content": "以前不用我回。"
+    },
+    {
+      "role": "assistant",
+      "content": "怎麼說？"
+    },
+    {
+      "role": "user",
+      "content": "去年十月也有一場，慈善晚會。我媽介紹我就三句台詞：成績在調整、在準備去台北唸國際學校、這孩子靜得下來。一個字都不用我講，我站旁邊點頭就好。重點是那時候根本還沒人跟我講過轉學的事，我是站在那邊聽她講才知道的。"
+    },
+    {
+      "role": "assistant",
+      "content": "等一下——你自己要轉學這件事，你是先從你媽的台詞裡聽到的？"
+    },
+    {
+      "role": "user",
+      "content": "對啊。她的台詞永遠比我本人早。成績是這樣、轉學也是這樣。有時候我覺得那個站在她旁邊的小孩跟我沒什麼關係，反正他講什麼都會被剪掉，台詞都寫好了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那句『台詞都寫好了』聽起來不只是在講晚宴。站在旁邊的那個你，當下是什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼感覺，吃我的飯。欸你不要分析我。我只是要一句標準答案。現在這句『九月開學，先去適應看看』，會不會太冷？被追問怎麼辦。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，不分析。不會太冷，被追問就補一句『學校還行，吃的還在研究』，把話題丟給台北小吃，阿姨們很樂意接走。"
+    },
+    {
+      "role": "user",
+      "content": "可以，吃的這招好用。對了西裝褲口袋很淺，Switch lite 塞進去會不會很明顯？"
+    },
+    {
+      "role": "assistant",
+      "content": "會，整塊方的印在大腿上，攝影師再幫你拍進合照就永流傳了。帶手機撐兩個小時，真撐不住就去一趟廁所，這是西裝場合的通用外掛。"
+    },
+    {
+      "role": "user",
+      "content": "嘖。好吧帶手機。反正就兩個小時，演完回家還能打兩把。就這樣，我去睡了。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。不過這次至少有一句台詞是你自己寫的。晚安。"
+    }
+  ]
+}

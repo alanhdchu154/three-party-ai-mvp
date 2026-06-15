@@ -1,12 +1,12 @@
 # 對話生成邏輯 — Review 文件（給 Umi）
 
-**最後更新：2026-05-21**
+**最後更新：2026-06-05**
 
 這份文件說明 Saga A dataset 是**怎麼自動生成的**，給 reviewer（Umi）審查。重點是：哪些東西是 AI 在無人監督下自動產生的、規則是什麼、有哪些地方需要特別盯。
 
 重要 framing：這個 repo 的產品目標是真實學生系統。Saga A synthetic / generated dummy data 只是因為真實學生資料 pending，所以先用來測試隱私牆、coordinator、triage、review workflow。不要把 synthetic generation 誤認成產品本身。
 
-> ⚠️ **給 Umi 的 TL;DR**：系統現在有**一個**排程 task 在背景跑（每小時），會自動寫 synthetic/dummy 對話 + 自動評七維度 + 自動重生學生報告，**沒有人類在 loop 裡**。這份文件讓妳可以判斷這些自動規則安不安全、會不會出包。最該審的兩段在「§5 隱私與安全規則」跟「§6 需要特別盯的地方」。
+> ⚠️ **給 Umi 的 TL;DR**：系統現在有**一個**排程 task 在背景跑（每小時），會自動寫 synthetic/dummy 對話 + 自動評七維度 + 自動重生學生報告，**沒有人類在 loop 裡**。這份文件讓妳可以判斷這些自動規則安不安全、會不會出包。最該審的兩段在「§5 隱私與安全規則」跟「§6 需要特別盯的地方」。2026-06-05 Umi review 結論：在真實學生 pilot 或擴大自動生成前，先補 reviewer gate、crisis handoff runbook、以及 parent/teacher-safe report leak audit。
 
 ---
 
@@ -175,6 +175,44 @@ AI 在 medium/deep 對話的建議部分禁用：「開放對話」「保持溝�
 5. **occurred_at 是虛構的**。目前是 synthetic data，時間是 AI 編的。真實 pilot 時這要換成真實 timestamp。Synthetic 生成時要區分「對話發生時間」和「事件原始發生時間」，避免把三年高中壓縮成最近幾天。
 
 6. **品質會不會隨時間 drift**。排程跑久了（幾百段對話後），AI 可能開始重複 pattern、scenario 變單調、或慢慢偏離 canon。需要定期 review corpus 整體品質。
+
+### 6.1 2026-06-05 Umi privacy / automation-risk review
+
+Current evidence:
+
+- Latest corpus audit: 300 conversations; deep 82 (27.3%), shallow 117 (39.0%), medium 101 (33.7%).
+- 2026-06-04 WORKLOG says downstream reports were rebuilt from that snapshot and pytest passed 59 / skipped 7.
+- This repo is still a synthetic rehearsal layer. It should not be described as proof of real-student validation.
+
+Decision:
+
+- Do not expand scheduled generation volume or pilot-facing claims until the review gates below exist.
+- Keep generation useful for rehearsal, but treat every generated report as draft evidence requiring reviewer acceptance.
+
+Required before any real student/family pilot:
+
+1. **Reviewer acceptance gate**: define who reviews new synthetic conversations and downstream reports, what sample size they inspect, and how a failed review blocks release claims.
+2. **Privacy leak audit**: add or run a check that parent-safe / teacher-safe / internal reports do not quote or over-specify raw private details from another party.
+3. **Crisis handoff runbook**: document Level B escalation owner, channel, response-time expectation, and stop condition. A `needs_external_intervention` flag alone is not enough.
+4. **Generation pause condition**: if shallow/medium/deep balance drifts, canon errors appear, or reports fall behind the corpus, pause generation and reconcile before adding data.
+5. **Consent/deletion boundary**: for real pilot work, define participant consent, retention period, deletion workflow, and what Alan/Umi/cc may inspect.
+
+Recommended next non-human work:
+
+- Wire the report-leak audit and reviewer gate checklist into a broader
+  release-readiness command.
+- Draft crisis/deletion/consent ownership before any real-student pilot claim.
+- Keep the corpus at the current snapshot until those safeguards are reviewed.
+
+2026-06-05 progress:
+
+- Added `scripts/audit_audience_report_leaks.py`, a deterministic regression
+  guard for parent-safe and teacher-safe markdown reports.
+- Current result: 18 pass / 0 fail, with report saved at
+  `umi/reports/audience-report-leak-audit-latest.md`.
+- The audit checks for exact raw conversation/scenario chunks, raw source file
+  references, scenario seed markers, transcript/turn markers, and long quoted
+  text. It intentionally excludes internal reviewer reports.
 
 ---
 

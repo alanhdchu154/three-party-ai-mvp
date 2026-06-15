@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael_mom__clubhouse_member_day_facial_slot_bumped_flower_class_decline",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "post_graduation_june_grade_12",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "Michael 上週畢業典禮結束，這陣子家裡的行程都繞著畢業後的雜事在轉",
+    "會所月初公告年度會員日加局部整修，部分常規預約被整批調動",
+    "沈太太最近在太太圈牽頭報名一位花藝老師的四週小班課，群裡正在統計人數"
+  ],
+  "scenario_seed_id": "clubhouse_member_day_facial_slot_bumped_flower_class_decline",
+  "scenario_seed": "高三畢業典禮後的六月下午，會所來電說她排了近兩個月的做臉時段因年度會員日整批取消。她來抱怨兩句，順便問怎麼得體地推掉沈太太在群裡點名報名的四週花藝課。",
+  "generated_at": "2026-06-12T04:10:00+08:00",
+  "occurred_at": "2026-06-11T15:05:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "會所剛打電話來，說下週四的做臉時段因為年度會員日整批取消，要我改到下下週之後。那個時段我排了快兩個月才排到。不是什麼大事，就是有點煩，跟你講一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "排了兩個月被一通電話取消，煩是正常的，不用覺得這種事不值得抱怨。年度會員日這種整批調動通常不是針對誰，但被動到的人就是吃虧。要我幫妳看改期怎麼排比較順，還是今天就純抱怨？"
+    },
+    {
+      "role": "user",
+      "content": "抱怨就好，改期我自己用 app 排得來。比較麻煩的是另一件事。群組在統計下個月的花藝課，沈太太牽頭的，剛剛已經點到我名字了。我其實不想去，那個老師的課要連上四週，我六月底七月初全被畢業後的家事跟雜事排滿了。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就推掉，這完全合理。四週的課對六月底的妳來說本來就不現實。推的時候不需要把行程攤開解釋，解釋得越多越像在找理由。一句「這期時間對不上，下期再跟」就夠了，乾淨又留了下次的門。"
+    },
+    {
+      "role": "user",
+      "content": "直接這樣講會不會顯得不給她面子？她是在群裡點我名字的，大家都看得到。幫我寫一句可以直接貼在群裡的，不要太長。"
+    },
+    {
+      "role": "assistant",
+      "content": "在群裡被點名，在群裡得體地回，這樣就是給面子了，不需要另外私訊補一輪。可以這樣貼：「謝謝沈太太想到我，這期時間剛好對不上，先把名額讓給別人，下期我一定跟。」短、客氣、把話說死在時間上，誰都不用多想。"
+    },
+    {
+      "role": "user",
+      "content": "等等，「先把名額讓給別人」這半句會不會反而像在說她的課很搶手、有點刻意？把那半句拿掉好了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳的語感是對的，拿掉更乾淨。最後就是：「謝謝沈太太想到我，這期時間剛好對不上，下期我再跟。」就這樣貼，不用再修了。一句話的事，修第四次就會開始變形。"
+    },
+    {
+      "role": "user",
+      "content": "好，就用這句。對了，做臉我看到有個週五早上的空位，但那天司機要先送可兒，時間有點卡。算了，這個我自己喬。謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，群組那句貼出去這件事就結束了。做臉的改期不急，會員日過後通常會釋出一批新時段，妳這兩天再看一次 app 可能反而有更好的位子。"
+    }
+  ]
+}

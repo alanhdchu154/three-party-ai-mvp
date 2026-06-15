@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_shen_you__gaming_gear_shanghai_taipei_move_logistics",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "summer_before_giis_fall_transfer",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "上個月完成 GIIS 報到、秋季課表已寄達",
+    "母親請的搬家公司已開始打包上海家裡的大件，預計暑假海運到台北",
+    "他自己刷韌體的二手掌機與 Switch 一律不給搬家公司碰",
+    "mod 訂閱破萬後照常出更新，這週剛推完一版"
+  ],
+  "scenario_seed_id": "gaming_gear_shanghai_taipei_move_logistics",
+  "scenario_seed": "凌晨三點，上海家裡開始被搬家公司打包。沈又不管大件，唯一在乎的是自己的電競設備：4080 主機、27 吋螢幕、Switch、兩台掌機、一堆 SD 卡跟三顆行動電源。他來問哪些能自己帶上飛機去台北、哪些只能託運，純物流問題。",
+  "generated_at": "2026-06-11T01:11:32Z",
+  "occurred_at": "2026-06-10T03:12:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸問個事。搬家公司是我媽找的那種全包的，今天開始在客廳貼標籤。大件我無所謂，但我主機跟螢幕不想給他們碰。自己帶得上飛機嗎，上海飛台北。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以查，先講一下規格？主機是中塔還是小機殼，螢幕幾吋，還有沒有別的要自己帶的？"
+    },
+    {
+      "role": "user",
+      "content": "中塔，4080 那台。螢幕 27 吋。然後 Switch 一台、掌機兩台、一袋 SD 卡跟隨身硬碟、行動電源三顆。"
+    },
+    {
+      "role": "assistant",
+      "content": "中塔超過手提尺寸，只能託運，最穩是塞回原箱加泡棉，然後把顯卡拆下來隨身帶，4080 那個重量託運最容易斷 PCIe 槽。27 吋螢幕託運碎屏機率不低，要嘛買硬箱要嘛乾脆讓搬家公司海運。Switch、掌機、SD 卡、硬碟全部隨身沒問題，行動電源規定必須隨身、不能託運。"
+    },
+    {
+      "role": "user",
+      "content": "顯卡拆下來單獨過安檢不會被攔吧？金屬一大塊，X 光看起來應該很怪。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，顯卡沒電池，就是一塊電子零件，安檢頂多叫你拿出來單獨過一下。真正會被攔的是鋰電池，你那三顆行動電源容量多少？"
+    },
+    {
+      "role": "user",
+      "content": "兩顆小的，一顆 20000 的。20000 會超嗎，我記得有人在機場被沒收過。"
+    },
+    {
+      "role": "assistant",
+      "content": "20000mAh 大概 74Wh，上限是 100Wh，三顆都能隨身帶，被沒收的通常是丟在託運行李裡的。記得放外側口袋，安檢會要求拿出來。"
+    },
+    {
+      "role": "user",
+      "content": "行。SD 卡跟硬碟我會自己貼身帶，裡面有我全部的存檔跟工作檔，丟了我會死。好，主機原箱在儲藏室我去翻，螢幕就丟給海運，碎了再說。先這樣，我要去收 Discord 那邊的 bug 回報了。"
+    },
+    {
+      "role": "assistant",
+      "content": "行，硬碟跟 SD 卡分兩個包放，別全押在同一袋。出發前重要的那幾個檔案再多抄一份到另一顆，去忙吧。"
+    }
+  ]
+}

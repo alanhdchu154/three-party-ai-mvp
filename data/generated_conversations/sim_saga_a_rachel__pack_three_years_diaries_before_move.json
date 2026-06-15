@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_rachel__pack_three_years_diaries_before_move",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_graduation_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高三申請季結束，大學去向已定",
+    "畢業典禮日期公布，家裡開始討論她畢業後的房間整理與暑期安排",
+    "校刊文集出刊，她的匿名散文照常收錄，沒有人知道作者是她"
+  ],
+  "scenario_seed_id": "pack_three_years_diaries_before_move",
+  "scenario_seed": "畢業前整理房間，Rachel 從書桌最下層抽屜挖出高一到高三的七本紙本日記。她只是想問 AI 紙本長期保存要注意什麼、要不要掃描成電子檔、掃描檔怎麼上鎖。全程停在實務層面。",
+  "generated_at": "2026-06-11T07:10:37Z",
+  "occurred_at": "2026-06-10T22:47:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "在整理房間。書桌最下面那層抽屜挖出七本日記，高一到現在的。畢業之後房間可能會重新弄，我在想這些要怎麼處理。紙本要放很久的話有什麼要注意的嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "七本，三年份，蠻驚人的耶。基本上就三件事：防潮（盒子裡丟幾包乾燥劑）、避光（不要放窗邊）、還有不要用橡皮筋或迴紋針夾著，久了會把紙咬出痕。你是打算全部留著嗎？"
+    },
+    {
+      "role": "user",
+      "content": "全部留。可是我不想七本都搬來搬去，在想要不要掃描成電子檔。又覺得日記變成 PDF 有點怪，像把它做成標本。"
+    },
+    {
+      "role": "assistant",
+      "content": "標本這個說法很準，但其實可以兩個都要：掃描只當備份，紙本挑一兩本最常翻的帶在身邊，其他鎖在家裡的盒子裡。這樣搬家輕、又不會哪天潮掉就全沒了。七本裡有特別捨不得的嗎？"
+    },
+    {
+      "role": "user",
+      "content": "高一那本吧。字最醜，可是寫最滿。那就高一那本帶著，其他掃描完收起來。對了，掃描的檔案有辦法上鎖嗎？不是說裡面有什麼見不得人的，就……日記。"
+    },
+    {
+      "role": "assistant",
+      "content": "不用解釋啦，日記本來就是只寫給自己看的東西。手機掃描 app 掃完之後，存成 PDF 可以直接設密碼，或丟進手機的加密相簿、上鎖資料夾都行。唯一要注意的是關掉自動雲端同步，不然你鎖了本機它還是默默上傳了一份。要我給你一個具體的步驟順序嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不用到步驟，我知道大概方向就好，週末再弄。剩下就是裝日記的盒子要放哪，我房間的櫃子之後不一定還在。算了，這個我自己想。謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，那就週末見真章。掃描前記得先把自動上傳關掉，這步最容易忘。整理順利，翻到高一那本的時候，慢慢翻。"
+    }
+  ]
+}

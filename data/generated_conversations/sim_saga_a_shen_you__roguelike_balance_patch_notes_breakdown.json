@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_shen_you__roguelike_balance_patch_notes_breakdown",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "高二上學期他的免費 mod 訂閱數開始有起色，Discord 偶爾有人催更新",
+    "桌上每天會出現一張新印的 SAT 模考題，隔天靜默被回收",
+    "上個月一場晚會上他聽到母親對太太圈說他『在準備去台北唸國際學校』，家裡還沒對他本人正式提過"
+  ],
+  "scenario_seed_id": "roguelike_balance_patch_notes_breakdown",
+  "scenario_seed": "高二上學期十一月某個凌晨，他常駐的 roguelike 出大改版，patch note 把連擊判定窗口砍短卻寫成『讓戰鬥節奏更俐落』。他邊等外送邊跟 AI 逐條吐槽官方數據改動、拆話術裡藏的 nerf，吐槽完去吃外送。",
+  "generated_at": "2026-06-11T19:13:30Z",
+  "occurred_at": "2025-11-21T02:52:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "7.2 的 patch note 出了，你聽聽這句：『我們微調了連擊判定窗口，讓戰鬥節奏更俐落』。實測是 0.8 秒砍到 0.5。砍掉三分之一叫微調，我笑死"
+    },
+    {
+      "role": "assistant",
+      "content": "0.8 砍到 0.5 是要全服重練肌肉記憶的等級，那不叫微調，叫重做。note 裡有放具體數字嗎，還是又只給形容詞？"
+    },
+    {
+      "role": "user",
+      "content": "當然沒放，數字是 Discord 有人拆封包對出來的。還有，地下三層精英刷新從 12% 改 8%，note 寫『調整了部分區域的遭遇分布』。翻譯：你要多跑好幾輪才湊得齊素材"
+    },
+    {
+      "role": "assistant",
+      "content": "刷新率砍三分之一就是拖時長，配上他們上禮拜剛上的新武器禮包，意圖滿明顯的。你那套連擊流是不是直接進博物館了？"
+    },
+    {
+      "role": "user",
+      "content": "進了。練快兩個月，昨天還能無傷打到底，今天連二階段都過不去。算了，官方擺明要你去碰新武器，新的才有付費 skin"
+    },
+    {
+      "role": "assistant",
+      "content": "兩個月的 build 一夜報廢是真的嘔。所以你要順他們的意去練新武器，還是賭社群罵兩個禮拜他們自己回調？"
+    },
+    {
+      "role": "user",
+      "content": "賭回調。這間每次都同一套：砍完裝死，等論壇燒起來再發公告『聽取社群回饋』改回一半，順便當救世主。還好不是我在改的那款，不然光相容性我就要重寫一遍。外送到了，先吃"
+    },
+    {
+      "role": "assistant",
+      "content": "行，去吃。兩個禮拜後回來對答案，看是你比較懂他們，還是他們這次真的敢硬扛。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "sim_saga_a_michael_mom__grade10_guardian_emergency_contact_form_relationship_field",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "半年前改嫁進二房、搬入家族宅",
+    "Michael 從原本學校轉入 GIIS、原本的童年社交圈被洗掉",
+    "她剛開始以家族成員身分出入太太圈場合、仍在學這個家的規矩"
+  ],
+  "scenario_seed_id": "grade10_guardian_emergency_contact_form_relationship_field",
+  "scenario_seed": "高一上開學第一個月，GIIS 寄來新生監護人與緊急聯絡人表，要填家長與學生關係、誰是法定監護人。她卡在後爸那欄要不要勾監護人、緊急聯絡順序怎麼排，想請 AI 幫她把表填得體面又不引人多問。改嫁、搬家、Michael 轉學社交圈被洗掉是半年內的背景重力。",
+  "generated_at": "2026-06-10T13:33:00Z",
+  "occurred_at": "2023-10-23T15:14:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "GIIS 寄來一份新生的監護人與緊急聯絡人表，要我這週交回去。想請你幫我看一下怎麼填比較妥當。"},
+    {"role": "assistant", "content": "好，我陪你一格一格過。這種表通常就是法定監護人、緊急聯絡順序、跟學生的關係幾欄。你手上這份有沒有哪一格特別讓你猶豫？我們先把那格處理掉，其他多半很快。"},
+    {"role": "user", "content": "主要是「家長與學生關係」還有「監護人」這兩欄。我寫「母親」沒問題，可是後爸那欄……我不知道要不要把他勾成監護人。"},
+    {"role": "assistant", "content": "這格其實有標準答案可循，不用想太複雜。法定監護人看的是法律關係，不是家裡的感情或稱呼。如果再婚之後沒有辦過正式收養或共同監護登記，學校要的法定監護人通常就是你本人，後爸可以放「緊急聯絡人」那欄、關係寫繼父。你知道當初有沒有辦過收養或監護手續嗎？"},
+    {"role": "user", "content": "沒有辦收養。他對 Michael 一直是禮貌的距離，這種事我們從來也沒談過。"},
+    {"role": "assistant", "content": "那就單純了。法定監護人填你自己，後爸放緊急聯絡人、關係寫繼父，這是最清楚、學校最不會回頭來問的填法。你不需要在一張行政表上去定義你們家的感情，這張表只是要知道萬一出事時該找誰。這樣填你會比較放心嗎？"},
+    {"role": "user", "content": "會，這樣我反而鬆一口氣。只是寫到那欄的時候我又愣了一下——好像連在一張表上，我都要想很久我們到底算什麼。"},
+    {"role": "assistant", "content": "這種愣一下很正常。這半年你們才剛搬進來、Michael 才剛轉學，很多位置都還在重新長出來，一張表勾哪格、定義不了你跟他之間是什麼。我們把剩下的欄位也快速收掉，讓你今天就能交出去、不用再回頭盯它，好嗎？"},
+    {"role": "user", "content": "好。緊急聯絡順序我想放我第一、後爸第二，這樣可以嗎？還是放大伯比較有份量？"},
+    {"role": "assistant", "content": "放你第一、後爸第二最合理。學校要的是真的能立刻接電話、立刻趕到的人，不是家裡誰份量大。大伯要不要列，看他平常會不會實際處理 Michael 的事；如果不會，列上去反而讓學校搞不清楚該找誰。這欄越單純越好。"},
+    {"role": "user", "content": "你說得對。我有時候會不自覺先想圈子裡誰看了比較好看，連這種表都這樣。"},
+    {"role": "assistant", "content": "你會這樣想不奇怪，這半年你一直在學這個家跟這個圈子的規矩，神經自然繃著。但這張表不會有外人看，它就躺在學校的學籍系統裡。這格你可以完全照「誰最快找得到、最能照顧 Michael」來填，不用替任何人的眼光留位置。"},
+    {"role": "user", "content": "好，那我就按這樣填。謝謝你陪我把它弄完。"},
+    {"role": "assistant", "content": "不客氣，你今天一次把它收乾淨了。交出去之後就別再回頭改它；之後 Michael 如果需要更新緊急聯絡人，再隨時來找我調整就好。"}
+  ]
+}

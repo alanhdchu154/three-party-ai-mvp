@@ -1,0 +1,105 @@
+{
+  "id": "sim_saga_a_shen_you__giis_fall_schedule_alan_homeroom_dread",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring_after_giis_registration",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "四月他自己逐欄拆過 GIIS 的家長同步機制，確認過哪些東西不會外流",
+    "五月中母親正式宣布轉學 GIIS，他被動接受、未表態",
+    "五月十九日他去 GIIS 辦轉學報到，走廊上遇到以前台北的數學老師，喊了一聲『老師』就走過去、裝不認識",
+    "報到後家裡把轉學當已完成事項，沒人再跟他談過這件事"
+  ],
+  "scenario_seed_id": "giis_fall_schedule_alan_homeroom_dread",
+  "scenario_seed": "報到完三個禮拜後，GIIS 學務處寄來秋季班的新生資料包跟課表 PDF。沈又凌晨三點邊打 Hades 邊隨手點開，本來只想問線上課要不要開鏡頭、導師時間能不能翹，結果看到課表上級導欄位寫著他以前台北教過他三年的那個老師的名字——就是報到那天他在走廊裝不認識、直接走過去的那位。",
+  "generated_at": "2026-06-10T21:11:28Z",
+  "occurred_at": "2026-06-10T02:54:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "GIIS 寄了一包新生資料，PDF 十幾頁，懶得看。問你比較快——線上課是不是全程要開鏡頭？"
+    },
+    {
+      "role": "assistant",
+      "content": "看學校規定，不過大部分線上學校是直播課要求開、錄播課不用。資料包裡通常有一頁叫 attendance policy 或 camera policy，你搜尋關鍵字就好不用整包看。你已經點開了喔？"
+    },
+    {
+      "role": "user",
+      "content": "點開了，邊打 Hades 邊滑。還有一個什麼『導師時間』，每週固定一節。這種能翹嗎，還是會點名？"
+    },
+    {
+      "role": "assistant",
+      "content": "導師時間一般算正式課節，會點名，翹了級導會知道。不過內容通常很水，公告事項加閒聊那種。你是已經在規劃翹課路線了嗎，課都還沒開始欸。"
+    },
+    {
+      "role": "user",
+      "content": "先看清楚地形而已。喔對，課表上有寫級導是誰。世界很小。"
+    },
+    {
+      "role": "assistant",
+      "content": "怎麼說？認識的人？"
+    },
+    {
+      "role": "user",
+      "content": "以前台北的老師。教過我三年。"
+    },
+    {
+      "role": "assistant",
+      "content": "教過三年，那是很熟的程度了。看到名字的時候你愣了一下嗎？"
+    },
+    {
+      "role": "user",
+      "content": "沒有。就喔，是他。欸所以轉學生的學分是怎麼抵的，我之前學校修過的東西要重修嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "一般是拿前校成績單去對照課綱，對得上的抵掉、對不上的補修，資料包裡應該有 credit transfer 那頁。不過我先說一下，你剛剛那句『世界很小』，聽起來不太像只是世界很小。"
+    },
+    {
+      "role": "user",
+      "content": "報到那天我有遇到他。走廊上。我叫了一聲老師就直接走過去了，裝不認識。他站在那邊。"
+    },
+    {
+      "role": "assistant",
+      "content": "教了你三年的老師，你當面走過去。那一下你自己是什麼感覺？"
+    },
+    {
+      "role": "user",
+      "content": "沒什麼感覺。就覺得如果停下來，他會問東問西。他那種人會問的。不是問課表那種問。"
+    },
+    {
+      "role": "assistant",
+      "content": "所以你躲的不是他這個人，是他會問的那個問題？"
+    },
+    {
+      "role": "user",
+      "content": "你不要分析我。欸那個導師時間是一對一還是全班一起？"
+    },
+    {
+      "role": "assistant",
+      "content": "好，不分析。一般是全班一起，級導頂多偶爾找人個別聊，不會每週盯著你一個。"
+    },
+    {
+      "role": "user",
+      "content": "全班的話還好。反正九月的事九月再說，我現在要先把 SD 卡清出來，Hades 又要更新了。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，九月再說也是一種排法。SD 卡你上次不是才清過，怎麼又滿了？"
+    },
+    {
+      "role": "user",
+      "content": "錄影檔太多，打王的。挑幾個留著就好，其他刪一刪。去睡了。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，打王的精華值得留。晚安。"
+    }
+  ]
+}

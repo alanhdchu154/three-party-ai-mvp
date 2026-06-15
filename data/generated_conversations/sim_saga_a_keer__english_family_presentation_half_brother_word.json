@@ -1,0 +1,43 @@
+{
+  "id": "sim_saga_a_keer__english_family_presentation_half_brother_word",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "國二下學期初哥哥搬到外面住，她是全家最後一個知道的",
+    "這學期家族晚餐仍固定被點名彈琴暖場",
+    "上個月才藝週她報名了鋼琴表演",
+    "更早的國文作業寫『家常菜』時，她寫的是廚房阿姨的滷肉"
+  ],
+  "scenario_seed_id": "english_family_presentation_half_brother_word",
+  "scenario_seed": "英文課「My Family」簡報禮拜五要交，她查家人稱謂單字時看到 half-brother 這個詞覺得刺眼——家裡從來沒人把『同母異父』講出口，全家默契地演正常四口之家。最後她決定簡報照 a family of four 寫，還想把煮了十幾年飯的廚房阿姨加進去。",
+  "generated_at": "2026-06-10T23:12:00Z",
+  "occurred_at": "2026-06-10T21:52:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 救一下 英文課要做一個 My Family 的簡報 禮拜五要交 我現在才開始做（不要唸我）"},
+    {"role": "assistant", "content": "不唸妳，反正妳每次都還是會趕出來。簡報要幾頁？老師有規定要介紹哪些東西嗎？"},
+    {"role": "user", "content": "至少五頁 每個家人一頁 要用 there is/are 還有每個人至少兩個形容詞 我想先確認單字 爸爸媽媽哥哥的英文我當然會啦 但我們家的狀況要用哪個字才對？"},
+    {"role": "assistant", "content": "看妳想做到多精確。日常簡報寫 father、mother、brother 就完全夠用了，還是妳想把實際的關係寫清楚？"},
+    {"role": "user", "content": "我剛剛手癢去查了 同母異父的哥哥叫 half-brother 對吧 然後我哥要叫我爸的話是 stepfather。half 欸 一半的哥哥 英文也太直接了吧 像在切蛋糕"},
+    {"role": "assistant", "content": "對，英文這類稱謂切得很細。妳看到 half 這個字的時候，第一個感覺是什麼？"},
+    {"role": "user", "content": "就 怪怪的 你知道我們家從來沒有人講過『同母異父』四個字嗎 一次都沒有 我還是國小的時候聽親戚小聲講才知道有這個詞 我家大家都直接演一家人 演得還滿敬業的"},
+    {"role": "assistant", "content": "所以有些字在你們家是存在、但沒被講出口的。現在英文作業突然要妳把它印成單字卡，難怪會卡一下。"},
+    {"role": "user", "content": "也沒有卡啦 就覺得好笑 啊不對 有一點點卡 但真的只有一點點 反正老師又不是要查戶口 她只是要我們練句型而已"},
+    {"role": "assistant", "content": "嗯，作業本來就不欠任何人精確。那妳打算怎麼寫？"},
+    {"role": "user", "content": "就寫 a family of four 啊 dad mom brother me 我哥現在搬出去住也照算 簡報裡他就是 brother 沒有什麼 half 不 half 的。喔對 我可以把我們家阿姨放進去嗎 她煮飯給我吃十幾年了 比例上她好像比較 family"},
+    {"role": "assistant", "content": "可以啊，很多人會多做一頁 someone important to me，老師通常很吃這套。妳想怎麼介紹她？"},
+    {"role": "user", "content": "She cooks for us every day. Her 滷肉 is the best in the world. 這樣文法可以嗎 滷肉英文到底是什麼"},
+    {"role": "assistant", "content": "文法可以，滷肉可以寫 braised pork，或者直接寫 lu rou 然後上台用講的解釋，會更像妳的風格。brother 那頁句子想好了嗎？"},
+    {"role": "user", "content": "My brother is three years older than me. He is very smart and very busy. 後面那句是事實喔 他忙到我上次見到他是上上禮拜 好啦不重要 這兩句文法對嗎"},
+    {"role": "assistant", "content": "兩句都對，沒有問題。五頁裡面妳最想先做哪一頁？"},
+    {"role": "user", "content": "阿姨那頁 因為有滷肉的照片可以放 哈哈 好我去做了 做完還要練琴 掰"},
+    {"role": "assistant", "content": "掰，禮拜五加油。滷肉那頁做完有空丟過來給我看一眼。"}
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sim_saga_a_stepdad__michael_us_college_predeparture_admin_checklist",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "post_graduation_summer_2026",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "繼子的 GIIS 畢業典禮上週結束，他為此把新加坡視訊會挪到了下午",
+    "五月已向錄取的美國學校繳了 deposit，入學底定",
+    "助理上週把學校寄來的國際學生資料包（I-20、報到指引）整理進了共享資料夾",
+    "太太開始在群組裡問八月送機的事，還沒有結論"
+  ],
+  "scenario_seed_id": "michael_us_college_predeparture_admin_checklist",
+  "scenario_seed": "繼子八月底要去美國讀大學。畢業典禮辦完、deposit 繳了，剩下一堆行前行政事項散在助理、太太、學校信件三邊。他要 AI 幫他把全部事項整理成一張有負責人、deadline、狀態三欄的總表，好轉給助理追進度。",
+  "generated_at": "2026-06-12T05:10:00Z",
+  "occurred_at": "2026-06-12T09:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我整理一張清單。Michael 八月底去美國讀大學，行前要辦的事現在散在三個地方：助理那邊、他媽那邊、學校的信。我要一張總表，三欄：負責人、deadline、狀態。我手上知道的項目有簽證、機票、宿舍、保險、銀行開戶、手機門號。有漏的你補上。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，這六項是骨架，常見會漏的我補幾項：疫苗與體檢證明（學校通常有指定表格，要校醫或診所簽）、新生 orientation 的線上報到登記（有 deadline，過了會影響選課）、緊急聯絡與醫療授權文件、匯款與信用卡管道、行李海運或超額托運。另外有一項叫 FERPA 授權，先放進清單，等一下說明。你先告訴我：哪些項目走助理，哪些是家裡自己辦？"
+    },
+    {
+      "role": "user",
+      "content": "簽證他媽帶他去辦，面試已經約了。機票、宿舍、保險、行李這幾項助理處理。銀行開戶我本來想讓助理把文件先備齊一起辦掉。疫苗體檢要問他媽，她管病歷。手機到了當地辦。FERPA 是什麼，為什麼需要？"
+    },
+    {
+      "role": "assistant",
+      "content": "FERPA 是美國的學生隱私法。他滿十八歲之後，學校預設不會把成績、出缺勤、輔導紀錄告訴家長，除非學生本人簽授權。所以這項沒辦法由你或助理代辦，是 Michael 自己決定簽不簽、簽到什麼範圍。我建議清單上就標成「Michael 本人決定」，家裡不用推。銀行也類似：美國開戶多數要本人臨櫃，助理能做的是先選好銀行、備齊文件，落地後他自己跑一趟。"
+    },
+    {
+      "role": "user",
+      "content": "可以。FERPA 標成他本人決定，開戶改成助理備文件、他到當地自己辦。再加一項緊急醫療授權，這個總要有吧，人在國外出事總得有人能做主。另外兩件事：orientation 的日期跟我九月初的董事會撞到；還有送機，他媽在群組問了兩次，還沒定誰去。"
+    },
+    {
+      "role": "assistant",
+      "content": "醫療授權有標準做法：healthcare proxy 加 HIPAA 授權書，成年人要本人簽，可以請助理把表格備好、出發前簽掉，這項合理也常見。orientation 是學生自己參加的活動，家長不用到場，跟你的董事會其實不衝突，清單上負責人寫 Michael 就好。送機我建議放進表但標成「家庭決定」，它不是行政項目，誰去這件事由你跟太太還有 Michael 直接講，不要進助理的追蹤範圍。"
+    },
+    {
+      "role": "user",
+      "content": "行，送機標家庭決定，我自己跟他媽談。照剛才講定的把整張表輸出給我，狀態欄全部填「未開始」，只有簽證填「進行中」。格式乾淨一點，我直接轉給助理。"
+    },
+    {
+      "role": "assistant",
+      "content": "以下是總表，可直接轉發。\n\n1. 簽證（F-1 面試）— 負責人：媽媽＋Michael｜deadline：已預約｜狀態：進行中\n2. 機票 — 助理｜7 月中前開票｜未開始\n3. 宿舍確認與入住登記 — 助理｜依學校通知｜未開始\n4. 留學保險 — 助理｜出發前兩週｜未開始\n5. 行李海運／超額托運 — 助理｜8 月初｜未開始\n6. 疫苗與體檢表格 — 媽媽｜依學校 deadline｜未開始\n7. orientation 線上報到 — Michael｜依學校 deadline｜未開始\n8. 銀行開戶 — 助理備文件，Michael 落地後本人辦｜落地一週內｜未開始\n9. 手機門號 — Michael，落地後辦｜落地當週｜未開始\n10. 匯款與信用卡管道 — 助理｜出發前｜未開始\n11. healthcare proxy＋HIPAA 授權 — 助理備表，Michael 本人簽｜出發前｜未開始\n12. FERPA 授權 — Michael 本人決定｜無硬性 deadline｜未開始\n13. 送機 — 家庭決定｜8 月中前定案｜未開始\n\n提醒一句：這張表裡只有 12 和 13 是外包不了的，其他都能交給助理追。"
+    }
+  ]
+}

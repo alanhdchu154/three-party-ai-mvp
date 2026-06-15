@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_alan_teacher__post_grades_solo_hike_weekend_plan",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "june_after_senior_grades_submitted",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "五月底至六月初把高三學期成績與畢業評語全部送出",
+    "沈媽秋季分班 email 已回信收尾",
+    "杰尼暑期一對一時段初排完成",
+    "連續約一個月的週末都在改作業與寫評語，幾乎沒出門"
+  ],
+  "scenario_seed_id": "post_grades_solo_hike_weekend_plan",
+  "scenario_seed": "高三成績與畢業評語今天下午全部送出，Alan 想趁這個週六自己走一整天步道，補回一個月沒出門的週末。膝蓋不好，來問人少、平緩的台北近郊路線、大眾運輸接駁與時間安排，順便要 AI 推一本跟工作無關的薄書。",
+  "generated_at": "2026-06-11T10:11:24",
+  "occurred_at": "2026-06-10T17:52:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "成績今天下午全部送出了，評語也交了。我想這週六自己去走個步道，走一整天那種。幫我想台北近郊人少一點的，我膝蓋不太行，不要一直陡上。"
+    },
+    {
+      "role": "assistant",
+      "content": "辛苦了，交完這批最有資格出門。膝蓋考量我先給兩條：淡蘭中路的坪溪古道，平緩沿溪、樹蔭多、全程落差小；或烏來桶后越嶺道前段，也是緩坡沿溪，但進入要先申請通行證。你會開車還是搭大眾運輸？"
+    },
+    {
+      "role": "user",
+      "content": "搭車。車上週送保養，煞車皮快磨完，這個月又要噴一筆。坪溪搭車怎麼去？"
+    },
+    {
+      "role": "assistant",
+      "content": "坪溪搭車要轉幾段：台鐵到雙溪站，轉 F815 免費巴士進泰平，但班次很少，週六出發前一定要先查當天時刻，錯過一班就是兩小時。如果想省事，可以改礁溪的林美石磐步道，礁溪轉運站過去方便，一樣平緩沿溪，走完還能在湧泉泡腳。"
+    },
+    {
+      "role": "user",
+      "content": "林美石磐不錯，泡腳很可以。我在想要不要帶本書，還是太做作。上次帶書去咖啡店結果只翻六頁，整個下午都在回家長訊息。"
+    },
+    {
+      "role": "assistant",
+      "content": "帶，但帶薄的。走完步道泡腳時翻二三十頁剛剛好，帶磚頭書才做作。至於上次只翻六頁，問題不在書，在通知沒關。"
+    },
+    {
+      "role": "user",
+      "content": "哈，說得對。那天我打算整天開勿擾，成績都交了，天塌下來星期一再說。幫我排一下當天時間，我不想中午曬在沒遮蔭的路段。"
+    },
+    {
+      "role": "assistant",
+      "content": "六月建議早點動：七點半前從台北出發，九點前進步道，林美石磐全程約兩個多小時，十一點半前走完最安全。中午在礁溪吃飯，下午泡腳配書，三點半前搭車回程，避開返北車潮。"
+    },
+    {
+      "role": "user",
+      "content": "行，就這樣排。最後推一本薄的，不要教育相關，也不要勵志。"
+    },
+    {
+      "role": "assistant",
+      "content": "吉田修一的《最後的兒子》，短篇集，一篇配一段休息剛好，跟教育和勵志都沾不上邊。週六記得護膝和防曬，回來再跟我說值不值得列入回購路線。"
+    }
+  ]
+}

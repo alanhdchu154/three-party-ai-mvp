@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_michael_mom__senior_spring_grad_ceremony_guest_seat_email_reply",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高三上協調過後爸的健檢回診排程",
+    "畢業季陸續收到 GIIS 多封行政通知（畢業照訂購、謝師禮）",
+    "太太圈最近在約畢業典禮前的一場下午茶"
+  ],
+  "scenario_seed_id": "senior_spring_grad_ceremony_guest_seat_email_reply",
+  "scenario_seed": "GIIS 三週前寄來畢業典禮的家長確認信，要回覆出席家屬人數、典禮後茶會的餐食偏好，還要填 Michael 的畢業袍尺寸。她一直擱著，今天才打開信想趕快回掉，卡在袍子尺寸不知道怎麼填。",
+  "generated_at": "2026-06-10T15:12:00Z",
+  "occurred_at": "2026-06-08T15:10:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "學校三個禮拜前寄了一封畢業典禮的確認信，我一直放著沒回。今天想趕快處理掉。它問出席家屬人數、茶會餐食偏好、還要填畢業袍尺寸。你幫我看一下怎麼回比較好。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，這封不難，分三塊回就好。家屬人數先確定誰會到，茶會餐食通常勾一個大方向（一般、素食、或忌口），袍子尺寸是唯一要查一下的。你要不要先告訴我出席的會有哪幾位？"
+    },
+    {
+      "role": "user",
+      "content": "我、Michael 的繼父，可能還有可兒。大伯那邊我還沒問，先抓三位好了，到時候真的要加再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "三位很穩妥，學校通常允許後續微調，你回信時加一句「目前確認三位，若有變動會在截止前更新」就保留了彈性。餐食的話，三位裡有沒有人吃素或忌口？沒有的話直接勾一般餐就行。"
+    },
+    {
+      "role": "user",
+      "content": "都沒有，勾一般。剩袍子尺寸。它要 S M L 還是身高，我根本不知道 Michael 現在多高，這種事平常都不是我在管。"
+    },
+    {
+      "role": "assistant",
+      "content": "畢業袍多半看身高對照表，不是貼身衣服，抓個區間就夠。最省事的方式是直接傳一句訊息問他現在的身高，他自己一定知道。如果你不想為這個特別開口，也可以在信裡勾「待確認」或填一個常見區間（170 上下多半對應 M、175 以上 L），學校現場通常還能換一號。"
+    },
+    {
+      "role": "user",
+      "content": "那我先填 L，現場能換就好，不用為這點小事特別去問他。你幫我把回信整理成一段，我直接貼。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。「您好，確認畢業典禮出席家屬三位，茶會餐食皆為一般餐。畢業袍尺寸先填 L，若現場可調整再麻煩協助。出席人數如有變動，會在截止前回覆更新。謝謝。」貼上去再補上你的署名就行。剩茶會那場如果跟你那週的下午茶撞時間，再回頭看一下行事曆就好。"
+    }
+  ]
+}

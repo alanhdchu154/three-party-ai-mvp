@@ -6,10 +6,10 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 17 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 15 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 13 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 22 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 15 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 18 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 17 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/keer.json`
@@ -34,7 +34,7 @@
 ### Student
 - Observed signals: not available
 - Inferred needs: not available
-- Privacy constraints count: 5
+- Privacy constraints count: 6
 ### Parent
 - Expressed concerns: not available
 - Likely needs: not available
@@ -55,15 +55,15 @@
 - Use human reviewer guidance before making stronger recommendations.
 
 ## What we must not reveal
-- Coordinator marked 5 private detail categories that must not be shown verbatim.
-- Student profile has 5 do-not-share items; summarize only themes.
+- Coordinator marked 7 private detail categories that must not be shown verbatim.
+- Student profile has 6 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
-- for_student: 這禮拜挑一次班群的寵物影片或收錢張羅的事，故意不第一個跳出來接，看看會發生什麼——練習一次『不掃興也不負責』也沒事
-- for_student: 把那本四格漫畫多畫一頁就好，不用給任何人看，那是只屬於妳自己的東西
-- for_parent: 這禮拜找一個跟『表演、彈琴、聚會、哥哥』完全無關的時段，單獨帶她去做一件她選的小事（她挑店、她挑要幹嘛），全程不提她哥
-- for_parent: 如果她隨口畫了什麼、寫了什麼，先問『這是妳自己想做的嗎』而不是『這可以拿去比賽嗎』
+- for_student: 把妳已經想好的那個提案（調整自己暑期安排的時段）真的在這禮拜講出口——妳選的時機和說法都是對的，講了就算被打回票，『我有開口要』這件事本身就是練習
+- for_student: 同學約妳的那個局，把妳能去的時間先丟出去佔位——這次當被約的人就好，不用負責張羅
+- for_parent: 這禮拜主動問她一句『妳暑假想怎麼過』，並且在她回答前不要先報出已經排好的行程——哥哥畢業季的所有安排定案前，先讓她對自己的部分有一次表達機會
+- for_parent: 如果她主動提出想調整自己某項暑期安排，把它當成一個合理提案認真討論，不要用『都已經訂好了』直接收掉——她難得開口要一次
 - for_teacher: 這禮拜找一個不是請她幫忙、不是交代庶務的時機，單獨跟她聊一句她自己的事（她在自學的曲子、她畫的東西都行），讓她知道有人對『不負責張羅的某個具體細節』有興趣
 - Human review is justified because at least one dimension is Level 2 or higher.
 
@@ -75,8 +75,10 @@
 
 ## What to watch next week
 - 家族聚會或對照他人家庭之後，修辭性自貶是否從『一次性、能自我收回』變成『連續多天、收不回來』——那才是 某個具體細節 某個具體細節往上走的訊號
-- 班上『被範本化／被模仿但不敢設界線』的不適是否累積成她開始迴避某些同儕或活動
-- 她是否從『繞道求被看見』（手工卡片、第三方打聽）升級成更明顯或更冒險的試探行為
+- 她向母親提出的暑期調整提案如果被直接打回票或敷衍帶過，她是否就此縮回『以後都不開口要』——這次是她少見的直接表達，結果如何很關鍵
+- 哥哥畢業與離家前後幾週，她的修辭性自貶頻率是否上升（畢業季是她『附屬品』敘事的放大器）
+- 她替自己保留的暑期目標（自選曲、動漫清單）是否被家中行程逐步吃掉——如果她連這塊都默默讓出，代表『不開口要』的模式在加深
+- 她對『家裡在演』的觀察是否從幽默消化轉為憤世或退出家庭場合——目前她用玩笑與敘事選擇權處理，是健康的
 
 ## Contradictions / Review Flags
 - No major contradiction detected by deterministic checks.

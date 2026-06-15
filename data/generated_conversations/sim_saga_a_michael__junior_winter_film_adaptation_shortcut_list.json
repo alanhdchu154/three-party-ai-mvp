@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_michael__junior_winter_film_adaptation_shortcut_list",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter_break",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高二上期末考剛結束，整體成績維持，但 calc 小考已開始出現下滑趨勢",
+    "寒假初被排了模聯春季會議的培訓時程",
+    "上學期在 IG 限動發過《存在與虛無》的打卡照",
+    "去年春節家族聚會被長輩問起最近讀什麼，被追問細節後場面尷尬"
+  ],
+  "scenario_seed_id": "junior_winter_film_adaptation_shortcut_list",
+  "scenario_seed": "高二寒假（junior winter break）深夜，春節家族聚會將至。Michael 想在聚會前用「比較有效率的方式」處理掉書單上幾本只讀了開頭的大部頭，問 AI 哪些有電影改編、看改編算不算讀過，順便比較兩個版本的《Solaris》。日常物件：只讀前 30 頁的書單、IG 限動、模聯培訓資料。",
+  "generated_at": "2026-06-11T09:11:31",
+  "occurred_at": "2025-02-04T23:47:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問你一個效率問題。《卡拉馬助夫兄弟們》有沒有像樣的電影改編？我書單上積了幾本，寒假想用比較 economical 的方式處理掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "有喔，1958 年有一部美國電影版，俄國 2009 年還拍過一部十二集的影集版，影集的評價其實比電影好。不過你說「處理掉」，是要應付什麼場合嗎？"
+    },
+    {
+      "role": "user",
+      "content": "春節家族聚會。每年都有長輩喜歡考小孩最近在讀什麼，去年我講了一本，結果被追問細節，場面有點難看。今年我想 prepare 得 thorough 一點。"
+    },
+    {
+      "role": "assistant",
+      "content": "原來是年度抽考，難怪要排兵布陣。那影集版可能不適合，十二集寒假看不完吧？你書單上還有哪幾本？"
+    },
+    {
+      "role": "user",
+      "content": "《存在與虛無》，這本應該沒有電影。還有 Lem 的《Solaris》，這本我知道有兩個版本，塔可夫斯基跟 Soderbergh 的，哪個比較值得看？"
+    },
+    {
+      "role": "assistant",
+      "content": "《存在與虛無》真的沒人敢拍，這本只能硬讀。Solaris 的話，塔可夫斯基版比較沉、比較哲學，三個小時；Soderbergh 版短很多，但拍成偏愛情片。你要拿去聚會講的話，看塔可夫斯基版再翻一下原著前言，大概就夠撐十分鐘了。"
+    },
+    {
+      "role": "user",
+      "content": "十分鐘綽綽有餘，長輩的 attention span 沒那麼長，通常考完一輪就去聊股票了。說起來沈又那傢伙過年大概只會躲房間打 Switch，連被考的資格都沒有，某方面來說也是一種自由。"
+    },
+    {
+      "role": "assistant",
+      "content": "哈，聽起來你們兩個的過年難度設定不太一樣。那寒假除了應付抽考，你自己有想看什麼嗎？"
+    },
+    {
+      "role": "user",
+      "content": "模聯培訓的資料跟 SAT 單字，沒了。好，我去找塔可夫斯基那部，三個小時，today's sacrifice。掰。"
+    },
+    {
+      "role": "assistant",
+      "content": "三小時的慢電影配寒假深夜剛好。看完想吐槽再回來。"
+    }
+  ]
+}

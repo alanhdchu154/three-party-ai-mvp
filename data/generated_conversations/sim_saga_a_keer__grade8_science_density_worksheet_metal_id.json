@@ -1,0 +1,34 @@
+{
+  "id": "sim_saga_a_keer__grade8_science_density_worksheet_metal_id",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "過去一個月自然科進度趕，密度單元剛上完",
+    "班群最近在討論才藝週的事",
+    "鋼琴老師把課改到禮拜三晚上"
+  ],
+  "scenario_seed_id": "grade8_science_density_worksheet_metal_id",
+  "scenario_seed": "國二的可兒明天要交一張自然科密度學習單，她公式會算，但卡在「用密度對照表判斷是什麼金屬」那一題，一邊嫌麻煩一邊想趕快寫完去練琴。",
+  "generated_at": "2026-06-10T14:11:00Z",
+  "occurred_at": "2026-04-22T21:34:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "欸 我自然有一張密度的學習單明天要交 我看不懂 可以教我嗎"},
+    {"role": "assistant", "content": "可以。你卡在哪一題？是公式不會用，還是題目讀不懂？"},
+    {"role": "user", "content": "公式我會啦 密度=質量÷體積。它給我一塊金屬 96克 體積12立方公分 算密度我會算 重點是後面問「這是什麼金屬」 我是要怎麼知道"},
+    {"role": "assistant", "content": "學習單上是不是有附一張密度對照表？先把這塊的密度算出來，再去表上對最接近的那個就好。96除以12是多少？"},
+    {"role": "user", "content": "8。表上有寫鋁2.7 鐵7.9 銅8.9 那種。所以8最接近的是銅8.9還是鐵7.9？"},
+    {"role": "assistant", "content": "你覺得8離哪個比較近？"},
+    {"role": "user", "content": "銅啦 8.9。原來這麼簡單 我剛剛還在想要不要直接抄旁邊那個誰的"},
+    {"role": "assistant", "content": "哈，自己算出來是不是比較爽。還有別題卡住嗎？"},
+    {"role": "user", "content": "還有一題問木頭為什麼會浮在水上 我寫「因為木頭很輕」可以嗎？欸算了我只是想趕快寫完去練琴 老師把我的課改到禮拜三晚上有夠煩"},
+    {"role": "assistant", "content": "一大根原木也很重，可是還是會浮，所以重點不是輕不輕，是它密度比水小。今天先把這張解決掉，禮拜三才不會兩邊一起趕。"}
+  ]
+}

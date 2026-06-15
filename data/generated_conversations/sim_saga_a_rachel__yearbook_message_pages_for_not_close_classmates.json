@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_rachel__yearbook_message_pages_for_not_close_classmates",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_graduation_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高三下申請季大致塵埃落定，班上進入畢業籌備模式",
+    "畢業紀念冊上個月開始在班上輪流傳，這週輪到 Rachel",
+    "文藝社已在春季完成向學妹的交接",
+    "家裡開始排畢業後暑期的家族行程，Rachel 還沒被正式問過意見"
+  ],
+  "scenario_seed_id": "yearbook_message_pages_for_not_close_classmates",
+  "scenario_seed": "畢業紀念冊上個月開始在班上傳，這週輪到 Rachel，三天內要寫完十二個同學的留言頁再傳下去。真的熟的只有兩三個，其他是同班三年講過的話不超過二十句的人。她不想寫成「前程似錦」式的模板，又對自己收到的客套留言小小不滿。純粹的留言頁求救加吐槽，沒有滑向任何核心議題。",
+  "generated_at": "2026-06-10T20:12:00Z",
+  "occurred_at": "2026-06-10T22:41:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "畢業紀念冊輪到我了。三天內要寫完十二個人的留言頁，然後傳給下一個。有沒有那種不會跟「前程似錦」一樣空的寫法？"
+    },
+    {
+      "role": "assistant",
+      "content": "十二頁三天，難怪你先來找救兵。先問一下，這十二個裡面，真的熟的有幾個？"
+    },
+    {
+      "role": "user",
+      "content": "兩三個吧。剩下的是同班三年、講過的話加起來不超過二十句的那種。可是留白傳回去好像更失禮，而且簿子上個月就開始傳了，前面的人每一頁都寫得滿滿的。"
+    },
+    {
+      "role": "assistant",
+      "content": "不熟的不用硬擠形容詞，寫一件你真的記得的小事，加一句普通的祝福就夠了。你對他們有沒有那種很小、但三年下來一直記得的畫面？"
+    },
+    {
+      "role": "user",
+      "content": "有一個男生，每次段考完都在走廊發巧克力，全班都拿過。可是我們沒講過話，寫這個會不會很怪？"
+    },
+    {
+      "role": "assistant",
+      "content": "不會，那種反而是會被記住的留言。「謝謝你三年的段考巧克力，我每次都有拿」，就比十句客套話誠懇了。"
+    },
+    {
+      "role": "user",
+      "content": "好，這個可以。講到客套話，我收到的留言裡有人寫「祝學業進步」。我們下個月就畢業了，是要進步去哪裡。"
+    },
+    {
+      "role": "assistant",
+      "content": "大概是寫到第十頁的時候，手已經自動駕駛了。你會在意嗎，還是只是想吐槽一下？"
+    },
+    {
+      "role": "user",
+      "content": "吐槽而已。只是想到同班三年，最後落在我這頁的是一句模板，有點好笑。算了，我自己不也在煩惱怎麼不寫成模板，沒資格嫌人家。熟的那兩三個反而最難寫，想寫的太多，一頁裝不下。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就先把九個不熟的清掉，熟的留到最後慢慢寫。真的裝不下的話，挑一件只有你們兩個知道的小事寫，剩下的本來就不是留言頁裝得下的。"
+    }
+  ]
+}

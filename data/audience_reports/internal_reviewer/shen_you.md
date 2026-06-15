@@ -6,13 +6,13 @@
 - Confidence: `medium`
 
 ## What is happening
-- emotional_safety Level 2: 19 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 2: 25 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - academic_load Level 3: 15 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 13 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - social_development Level 1: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 20 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- financial_pressure Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- future_planning Level 2: 6 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 24 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- financial_pressure Level 1: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- future_planning Level 2: 9 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 2 · `data/dimension_scores/shen_you.json`
@@ -35,14 +35,14 @@
 - 他在意的東西要是『他自己掌控、別人沒插手』的，才會啟動投入
 - 他能就事論事被當成有能力的人對待時最放鬆（排查硬體 / 推導機率時思路立刻變清楚）
 - 在沒人要求他表現、可以平等鬥嘴的低壓互動裡，他會卸下『懶得演』的防衛、反而能講話——這比任何『特別照顧』都更能讓他鬆下來
+- 搬家這類家族執行的流程裡，給他一塊明確屬於他自己負責的範圍（他的房間、他的設備），他會自己處理得乾淨俐落；替他代勞反而觸發撤資
 - Coordinator report indicates an underlying support need; high-specificity event details are withheld in the case summary.
-- Primary support need appears connected to `academic_load`; treat this as synthetic benchmark inference, not diagnosis.
 
 ## Three-Party Coordination Snapshot
 ### Student
 - Observed signals: 被外加的課業（家教代寫報告、每天被印出來的 某個具體細節 模考題）已完全與他脫鉤，他連點開都不點, 成績被母親當社交素材：代寫拿到的分數被截圖丟進太太群，他自己真正寫 / 做的東西沒人看, 與父親、哥哥的關係退化為單向：父親返家三週後第一句只講『衣服收進去』，家族群裡他被『從上面拍頭』式的鼓勵訊息要求公開回覆, 某個具體細節 試讀是被家裡決定、在他頭上發生的事，他被動接受、未表態；他評估要不要轉的真正軸心是『有沒有一塊不被家長同步出去的空間』
 - Inferred needs: 他需要的是『有一塊不被經手的領域』被默認存在、不被同步出去，而不是被多關心或被加碼盯, 他在意的東西要是『他自己掌控、別人沒插手』的，才會啟動投入, 他能就事論事被當成有能力的人對待時最放鬆（排查硬體 / 推導機率時思路立刻變清楚）, 在沒人要求他表現、可以平等鬥嘴的低壓互動裡，他會卸下『懶得演』的防衛、反而能講話——這比任何『特別照顧』都更能讓他鬆下來
-- Privacy constraints count: 4
+- Privacy constraints count: 6
 ### Parent
 - Expressed concerns: academic progress or workload concern, family pressure or conflict, wellbeing or emotional concern
 - Likely needs: clear, privacy-safe guidance from the coordinator, support understanding the student without pressuring for secrets, concrete academic support plan with realistic workload
@@ -70,7 +70,7 @@
 
 ## What we must not reveal
 - Coordinator marked 3 private detail categories that must not be shown verbatim.
-- Student profile has 4 do-not-share items; summarize only themes.
+- Student profile has 6 do-not-share items; summarize only themes.
 - Do not reveal raw turns, scenario seeds, secret truths, or highly specific family events.
 
 ## What action is justified
@@ -92,6 +92,7 @@
 - 如果他連自己掌控的那塊（他在弄、會在意的東西）也不提了、語氣從『懶得弄』變成『弄那個幹嘛』，代表他最後一條投入通道在收——這比成績單更該 notice
 - 他在『要不要被看見 / 要不要掛名』上若從『先留白、再想』變成『乾脆整個不做了』，notice 這是把投入連同曝光一起關掉的訊號
 - 轉學若被執行成另一種『被處理』（特別照顧、被盯、成績被代為安排），notice 他轉學後是不是又開始上課睡、表單拖到底，那是退場模式被複製的訊號
+- 開學後若他連全班制的導師時間都開始缺席，notice 那不是懶、是迴避在升級——代表他覺得連全班場合都會被鎖定
 - passive 麻木語言若從修辭性低點變成連續多週、並開始出現『先停在這裡也沒差』式的句子，往上抬一級重評 emotional_safety
 
 ## Contradictions / Review Flags

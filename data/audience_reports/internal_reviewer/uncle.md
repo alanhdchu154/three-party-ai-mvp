@@ -6,9 +6,9 @@
 - Confidence: `medium`
 
 ## What is happening
-- emotional_safety Level 1: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 3: 14 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 21 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 17 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 3: 19 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 25 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 - future_planning Level 2: 6 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know

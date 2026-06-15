@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_alan_teacher__early_taipei_jh_coordinate_treasure_hunt_rebuild",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "middle_school",
+  "event_timeframe": "early_career_taipei_junior_high",
+  "conversation_frame": "old_memory",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "Alan 近期在重整 GIIS 國中部選修的座標單元教材",
+    "他十幾年前在台北教國中數學時自製過一套體感教具,當年的紙本講義早已遺失"
+  ],
+  "scenario_seed_id": "early_taipei_jh_coordinate_treasure_hunt_rebuild",
+  "scenario_seed": "傍晚備課,Alan 想把十幾年前剛入行在台北教國中(約國二上、教完負數那段)自己做過的『座標尋寶』地板活動憑記憶重建成可印的一頁講義,純教學craft,無職涯/秘密張力。",
+  "generated_at": "2026-06-10T04:11:17Z",
+  "occurred_at": "2026-06-09T18:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我在重弄國中部選修的座標單元。突然想到我剛入行在台北教國中的時候,自己做過一個座標尋寶的活動,小孩超買單。可是那份講義早就不知道丟去哪了,你幫我憑記憶重建一下。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。先把骨架定下來再補細節。兩個問題:當年是讓學生在方格紙上找座標,還是在教室地板貼格線、用腳走到點?再來是只用第一象限,還是四象限都用?這兩個會決定難度跟你要不要清桌椅。"
+    },
+    {
+      "role": "user",
+      "content": "地板貼格線那種,他們要用腳走到座標點。四象限,因為我就是要他們把負號搞懂。大概是國二上教完負數之後拿出來用的。"
+    },
+    {
+      "role": "assistant",
+      "content": "那核心就是讓身體記住負號的方向。建議三段。暖身:你喊座標,學生走到對的點,規定先走 x 再走 y,把『先左右、後上下』變成習慣。尋寶:地板藏幾張卡,每張卡背寫下一個座標當線索,串成一條鏈。收尾:讓學生自己出一題座標給同學走。要不要我把這三段寫成可印的一頁?"
+    },
+    {
+      "role": "user",
+      "content": "要。線索鏈那段我以前好像有埋小陷阱,故意放一個 (0, -3) 之類的點,逼他們去想軸上的點跟原點。你幫我想幾個這種埋點。"
+    },
+    {
+      "role": "assistant",
+      "content": "給你四個埋點:(0,-3) 軸上點、(-2,0) 另一條軸、(0,0) 直接踩原點當假寶藏騙一下、(-3,-3) 純第三象限確認雙負號。線索鏈可以排成 (2,1) → (2,-3) → (0,-3) → (-3,-3) → (0,0),最後一站踩回原點當彩蛋。要不要我順手附一段給學生看的規則?"
+    },
+    {
+      "role": "user",
+      "content": "附。規則寫白話一點,我那種班沒耐性看長字。"
+    },
+    {
+      "role": "assistant",
+      "content": "規則三句:卡片背面那兩個數字就是下一張卡的位置;先左右、再上下;看到負號就往反方向走。我把暖身、尋寶線索鏈、收尾出題加這段規則整理成一頁,等下貼給你。印的時候格線建議至少做到 6×6 含負軸,不然第三象限會擠到走不開。"
+    }
+  ]
+}

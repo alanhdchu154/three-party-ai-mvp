@@ -1,0 +1,35 @@
+{
+  "id": "sim_saga_a_keer__post_exam_summer_anime_watchlist",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "grade_8",
+  "event_timeframe": "grade_8_second_semester_after_final_exams",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "期末考剛結束，國二下學期接近尾聲",
+    "七月行事曆已被哥哥畢業相關行程與鋼琴夏令營排滿",
+    "班群約好八月去水樂園，她主動丟出自己能去的時段",
+    "才藝週鋼琴表演時她在曲尾偷偷加了五秒自己想彈的德布西"
+  ],
+  "scenario_seed_id": "post_exam_summer_anime_watchlist",
+  "scenario_seed": "期末考完的當晚，可兒整個人放空，跑來請 AI 推薦暑假可以看的動漫清單——七月都是家裡的行程，她想至少晚上有自己的東西看。聊著聊著順便講到想趁暑假把才藝週那五秒德布西練成整首。純日常，無情緒事件。",
+  "generated_at": "2026-06-11T21:12:32Z",
+  "occurred_at": "2026-06-11T21:47:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "期末考完了！！！腦袋現在是完全的空。欸你有沒有推薦暑假可以看的動漫 我想列一個清單 七月都是家裡的行程 我至少晚上要有自己的東西看"},
+    {"role": "assistant", "content": "恭喜出獄。妳想看哪一種，熱血的、戀愛的、還是看了會想練琴的那種？"},
+    {"role": "user", "content": "看了會想練琴的那種是什麼啦哈哈哈。我要那種可以配宵夜看、完全不用動腦的 但又不能太幼稚 不然清單被同學看到我會社死"},
+    {"role": "assistant", "content": "那走日常搞笑或校園輕喜劇路線，夠輕鬆又不會被說幼稚。話說要不要順便塞一兩部音樂題材的？妳不是自己在練曲子。"},
+    {"role": "user", "content": "喔對 我暑假要把那首德布西練起來 才藝週我最後自己偷加的那五秒 你記得吧 我要把它練成整首 反正鋼琴夏令營以外的時間是我的"},
+    {"role": "assistant", "content": "記得，妳說那五秒是妳自己想彈的。整首大概多長？夏令營以外妳一天想抓多少時間練？"},
+    {"role": "user", "content": "整首四分多鐘而已 我想說一天半小時就好 暑假欸 不要逼我。好啦音樂的你推一部就好 推太多我會有壓力"},
+    {"role": "assistant", "content": "半小時很合理，暑假本來就該鬆。音樂的就先看《四月是你的謊言》吧，鋼琴題材，不過後半有點催淚，宵夜旁邊記得放衛生紙。"},
+    {"role": "user", "content": "催淚喔……好 先加進清單 哭的時候就配冰淇淋 抵銷。掰 我要去躺著耍廢了 這是期末考完的人應得的權利"},
+    {"role": "assistant", "content": "是妳應得的，躺好躺滿。清單想到要加什麼再來找我。"}
+  ]
+}

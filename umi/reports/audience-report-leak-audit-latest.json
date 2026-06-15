@@ -1,0 +1,182 @@
+[
+  {
+    "path": "data/audience_reports/parent_safe/alan_teacher.md",
+    "audience": "parent_safe",
+    "persona": "alan_teacher",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/keer.md",
+    "audience": "parent_safe",
+    "persona": "keer",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/michael.md",
+    "audience": "parent_safe",
+    "persona": "michael",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/michael_mom.md",
+    "audience": "parent_safe",
+    "persona": "michael_mom",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/rachel.md",
+    "audience": "parent_safe",
+    "persona": "rachel",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/shen_mom.md",
+    "audience": "parent_safe",
+    "persona": "shen_mom",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/shen_you.md",
+    "audience": "parent_safe",
+    "persona": "shen_you",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/stepdad.md",
+    "audience": "parent_safe",
+    "persona": "stepdad",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/parent_safe/uncle.md",
+    "audience": "parent_safe",
+    "persona": "uncle",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/alan_teacher.md",
+    "audience": "teacher_safe",
+    "persona": "alan_teacher",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/keer.md",
+    "audience": "teacher_safe",
+    "persona": "keer",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/michael.md",
+    "audience": "teacher_safe",
+    "persona": "michael",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/michael_mom.md",
+    "audience": "teacher_safe",
+    "persona": "michael_mom",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/rachel.md",
+    "audience": "teacher_safe",
+    "persona": "rachel",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/shen_mom.md",
+    "audience": "teacher_safe",
+    "persona": "shen_mom",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/shen_you.md",
+    "audience": "teacher_safe",
+    "persona": "shen_you",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/stepdad.md",
+    "audience": "teacher_safe",
+    "persona": "stepdad",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  },
+  {
+    "path": "data/audience_reports/teacher_safe/uncle.md",
+    "audience": "teacher_safe",
+    "persona": "uncle",
+    "status": "PASS",
+    "fail_reasons": [],
+    "exact_private_chunks": 0,
+    "long_quotes": 0,
+    "pattern_hits": []
+  }
+]

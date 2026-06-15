@@ -11,15 +11,15 @@
 - Possible `emotional_flattening` pattern: Student remains functional but shows reduced spark, affect, or responsiveness.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
 - Possible `perfectionism_pressure` pattern: Student links worth, belonging, or safety to performance and achievement.
-- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
+- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/uncle.json`
 - `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/uncle.json`
 - `traj_ev_003` dimension_score · medium · synthetic-only · Possible signal `perfectionism_pressure` detected. · `data/dimension_scores/uncle.json`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
-- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
 
 ### Likely outcomes if unchanged
 - Continued outward functioning with lower engagement.
@@ -81,13 +81,13 @@
 
 ### Current trajectory
 - Possible `emotional_flattening` pattern: Student remains functional but shows reduced spark, affect, or responsiveness.
-- Dimension `emotional_safety` is active in current score.
 - Dimension `family_dynamics` is active in current score.
+- Dimension `emotional_safety` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/uncle.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/uncle.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 3. · `data/dimension_scores/uncle.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `family_dynamics` is Level 3. · `data/dimension_scores/uncle.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/uncle.json`
 
 ### Likely outcomes if unchanged
 - AI may stop receiving the student's most useful truths.
@@ -118,15 +118,15 @@
 - Possible `emotional_flattening` pattern: Student remains functional but shows reduced spark, affect, or responsiveness.
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
 - Possible `strategic_compliance` pattern: Student appears compliant while privately disengaging or withholding real preference.
-- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
+- Dimension `identity` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `emotional_flattening` detected. · `data/dimension_scores/uncle.json`
 - `traj_ev_002` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/uncle.json`
 - `traj_ev_003` coordinator_report · medium · synthetic-only · Possible signal `strategic_compliance` detected. · `existing artifact`
-- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
-- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_004` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_005` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
 
 ### Likely outcomes if unchanged
 - Student may keep meeting visible expectations while internally opting out.
@@ -190,14 +190,14 @@
 
 ### Current trajectory
 - Possible `future_planning_collapse` pattern: Student cannot describe a future path, goal, or reason for continuing current effort.
-- Dimension `identity` is active in current score.
 - Dimension `future_planning` is active in current score.
+- Dimension `identity` is active in current score.
 - Dimension `emotional_safety` is active in current score.
 
 ### Why the system thinks so
 - `traj_ev_001` dimension_score · medium · synthetic-only · Possible signal `future_planning_collapse` detected. · `data/dimension_scores/uncle.json`
-- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
-- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_002` dimension_score · high · synthetic-only · Dimension `future_planning` is Level 2. · `data/dimension_scores/uncle.json`
+- `traj_ev_003` dimension_score · high · synthetic-only · Dimension `identity` is Level 2. · `data/dimension_scores/uncle.json`
 - `traj_ev_004` dimension_score · high · synthetic-only · Dimension `emotional_safety` is Level 1. · `data/dimension_scores/uncle.json`
 
 ### Likely outcomes if unchanged

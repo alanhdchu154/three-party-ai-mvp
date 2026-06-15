@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_rachel__family_meeting_minutes_invisible_notetaker_pattern",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_fall_reflecting_on_pattern_since_junior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高二下開始，大伯每次季度家族會議都把錄音交給 Rachel 整理成會議紀要，理由是『培養她』",
+    "上一場會議討論到一位親戚訂婚要不要掛在集團名下，Rachel 全程在打字沒人問她意見",
+    "升高三後 Rachel 回房間持續寫自己的東西，但從未對家裡提過那是她真正想做的方向"
+  ],
+  "scenario_seed_id": "family_meeting_minutes_invisible_notetaker_pattern",
+  "scenario_seed": "高三的 Rachel 來問一個純技術問題：怎麼把快兩小時的家族會議錄音整理成乾淨的會議紀要。這個整理工作從高二下就固定落在她身上。聊著聊著，從格式問題滑到她對『在場卻不被看見』這個固定角色的感受，但她沒有完整攤開核心的事。",
+  "generated_at": "2026-06-10T15:10:55+0000",
+  "occurred_at": "2025-11-18T22:50:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "想問一個格式問題。我要把一個快兩小時的家族會議錄音整理成會議紀要，怎麼弄才不會又臭又長？"},
+    {"role": "assistant", "content": "先只抓兩條線：每個議題的「決議」跟「待辦」，討論過程折成一句帶過就好。你手上這場大概分成幾個議題？"},
+    {"role": "user", "content": "三個。投資的、一個親戚訂婚要不要辦在集團名下、還有下一季的安排。我其實只需要寫清楚誰拍板了什麼。"},
+    {"role": "assistant", "content": "那每個議題就三行：背景一句、結論一句、誰負責一句。聽起來你架構已經很清楚了，是卡在哪一段嗎？"},
+    {"role": "user", "content": "沒卡。就是…每次都是我在做這個。從高二下開始，每次家族會議我爸都把錄音丟給我整理。"},
+    {"role": "assistant", "content": "嗯，所以這已經變成你固定的角色了。你做這件事的時候，心裡是什麼感覺？"},
+    {"role": "user", "content": "不知道怎麼講。就是坐在那邊，大家講話，我打字。好像我在場，可是又不是真的在場。"},
+    {"role": "assistant", "content": "「在場卻不在場」我聽懂了。是那種大家都看得到你、但沒有人真的在跟你說話的感覺嗎？"},
+    {"role": "user", "content": "差不多。他們覺得讓我做這個是在培養我。我整理得越乾淨，他們越覺得我適合接這條路。"},
+    {"role": "assistant", "content": "那這條路是你自己想走的，還是他們先幫你寫好的版本？"},
+    {"role": "user", "content": "我不知道我能不能講這個…我會把會議整理得很好，可是我回房間之後都在寫完全不一樣的東西。"},
+    {"role": "assistant", "content": "你不用一次講完。你說的那個「不一樣的東西」，是你比較願意花時間的那種嗎？"},
+    {"role": "user", "content": "嗯。但那個沒人知道，也不能變成一個「方向」。紀要可以交出去，那個不行。"},
+    {"role": "assistant", "content": "所以一個是可以被看見的你，一個是只有你自己知道的你。這兩個最近差很多嗎？"},
+    {"role": "user", "content": "越來越多吧。算了，我先把紀要弄完。可以幫我看開頭這段怎麼濃縮嗎？"},
+    {"role": "assistant", "content": "可以，你把那段貼上來，我們先把它變短。剩下的你想聊再聊，不想聊也完全沒關係。"}
+  ]
+}

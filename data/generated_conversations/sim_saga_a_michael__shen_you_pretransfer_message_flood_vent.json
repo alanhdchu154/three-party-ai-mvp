@@ -1,0 +1,64 @@
+{
+  "id": "sim_saga_a_michael__shen_you_pretransfer_message_flood_vent",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "senior_spring_graduation_season",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "2026 年 5 月中沈又確定錄取 GIIS、已辦完轉學報到，秋季學期才正式上課",
+    "5 月中兩家飯局後，沈又跟 Michael 的訊息往來頻率明顯變高（背景重力，本對話未展開）",
+    "Michael 申請結果已定、六月畢業季，學業進入收尾，開始準備出國前事務"
+  ],
+  "scenario_seed_id": "shen_you_pretransfer_message_flood_vent",
+  "scenario_seed": "畢業季某晚，Michael 抱怨沈又自從上個月確定要轉來 GIIS 後，每天凌晨丟幾十條訊息：一半是 Hades 的 boss clip 要他評，一半是雜七雜八問 GIIS 的事。Michael 嘴上嫌煩，抱怨到一半自己決定整理一份『GIIS 生存須知』一次丟給對方，再把對話框靜音。純日常抱怨，不觸兩人關係的底層。",
+  "generated_at": "2026-06-10T16:13:54Z",
+  "occurred_at": "2026-06-09T23:52:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "我要抱怨一下。沈又自從確定要轉來台北，把我當 24 小時 concierge。我每天睡醒手機四十幾條，全是他凌晨三點傳的，一半是 Hades 的 boss clip 叫我評 build，一半在問 GIIS 的事。我六月畢業欸，他九月才入學，是在問心酸的嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "四十幾條是真的猛。他都問些什麼，有重點嗎，還是想到什麼丟什麼？"
+    },
+    {
+      "role": "user",
+      "content": "完全沒有重點。問哪個老師當人當很兇、問學校自販機有沒有賣他喝的那牌、問台北外送是不是比上海慢，然後中間突然插一條 boss clip 問我這把武器的 aspect 怎麼配。我又不打 Hades。最好笑的是我已讀不回，他自己會接著講下一題，根本不需要我在場。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來他不太像真的在等答案欸。你覺得他是要資訊，還是就是想找個人丟？"
+    },
+    {
+      "role": "user",
+      "content": "他就是半夜沒人可吵，這個不用分析，邏輯上很好推。反正跟我無關，我畢業典禮完就要開始收行李了。……不過與其讓他每天這樣亂槍打鳥，不如我直接寫一份 GIIS 生存須知丟給他，一次解決。這叫 efficiency，不是對他好，先講清楚。"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，純粹效率考量，沒有人說別的。那你的生存須知打算寫哪幾條？"
+    },
+    {
+      "role": "user",
+      "content": "就幾個雷點。三樓那台自販機會吃錢，不要投；遲交規則是真的卡死，別想用他在上海那套拖法；報告抓 AI 抓很嚴，他那種連 prompt 都懶得改的，一學期內一定被抓；還有 Alan 老師的課不要想混，他是真的看得出來誰在混。欸但開頭要怎麼寫？我不想看起來像在示好。"
+    },
+    {
+      "role": "assistant",
+      "content": "照你們平常講話的方式寫就好了吧。像「懶得每天被你吵，雷點一次給你，自己看」——嗆歸嗆，東西給得很全，他看得懂。"
+    },
+    {
+      "role": "user",
+      "content": "可以，這個 register 是對的。就這樣，我今晚整理好丟過去，然後把那個對話框靜音到我出國。他要是還繼續傳 clip，那是他的事。"
+    },
+    {
+      "role": "assistant",
+      "content": "合理，靜音又不代表你哪天想回不能回。那份生存須知記得真的傳出去，不要躺在備忘錄裡喔。"
+    }
+  ]
+}
