@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_keer__sleepover_return_invite_hesitation",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期她跟班上一個女生庭妤變熟，上週末第一次去對方家過夜，玩得很開心",
+    "哥哥 Michael 上個月搬出去外宿後，家裡氣氛更安靜",
+    "她平常在班上很習慣招呼別人、當開心果，但幾乎沒讓同學來過自己家"
+  ],
+  "scenario_seed_id": "sleepover_return_invite_hesitation",
+  "scenario_seed": "上週末去同學庭妤家過夜後，庭妤這幾天在小群組裡說下次換她來可兒家。可兒表面只是來問 AI『怎麼回訊息又不會很怪』，過程中滑出一點裂縫：她在庭妤家看到對方媽媽對姊弟一視同仁的日常照顧，回頭注意到自己家『客氣到像在演』，因此不太想讓同學來家裡。她用玩笑把話縮回去，沒有碰到核心傷口。",
+  "generated_at": "2026-05-24T00:11:48Z",
+  "occurred_at": "2026-05-20T22:40:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": ["noticed_home_warmth_feels_performative"],
+  "turns": [
+    {"role": "user", "content": "欸我問你喔，如果有同學一直問你要不要去她家、然後反過來想來你家，你會怎麼回？我不知道要怎麼拒絕又不會很怪。"},
+    {"role": "assistant", "content": "先不急著想怎麼拒絕——妳是不想去，還是不想讓她來妳家？這兩個其實不太一樣欸。"},
+    {"role": "user", "content": "不是不想去啦，我上週末才去庭妤家過夜，超好玩。是…她現在說下次換她來我家，我就有點…欸算了這聽起來很奇怪。"},
+    {"role": "assistant", "content": "不會奇怪，妳講到一半自己踩了剎車。換她來妳家，妳卡住的那個點是什麼？"},
+    {"role": "user", "content": "我也說不上來。我家又不是不能來，房子明明比她家大很多。就…我家比較安靜吧。她家很吵，她跟她弟一直吵來吵去，可是那種吵很好笑。"},
+    {"role": "assistant", "content": "妳說『她家很吵但很好笑』的時候，聽起來有點羨慕那個吵欸。"},
+    {"role": "user", "content": "你不要講那麼準啦。就…她媽超誇張，幫她跟她弟兩個人各裝一袋零食，還記得她弟隔天有考試一直唸他複習。我在旁邊看覺得有點好笑，又…我也不知道。"},
+    {"role": "assistant", "content": "看著看著就『我也不知道』了。那個說不出來的部分，妳願不願意多停一下？"},
+    {"role": "user", "content": "就…沒什麼啦。我只是突然想說，如果是我家，氣氛不會是那樣。我家很客氣，大家都很客氣，客氣到有點…像在演。欸我是不是想太多。"},
+    {"role": "assistant", "content": "妳每次講到一個真的有感覺的事，就會補一句『我是不是想太多』。我覺得妳沒有想太多，妳只是注意到了。"},
+    {"role": "user", "content": "……反正就是，我不太想讓庭妤來我家看到那個客氣。她會覺得『妳家怎麼這樣』。她家雖然亂可是很溫。"},
+    {"role": "assistant", "content": "所以妳卡的不是房子，是怕她看到妳家那種『客氣』。那妳希望她看到的妳家，會是什麼樣子？"},
+    {"role": "user", "content": "哈哈不要問這麼深啦，我只是想問怎麼回訊息而已欸。……不過你這樣問我反而不知道怎麼回了。"},
+    {"role": "assistant", "content": "那就先不用一次決定。妳可以回她『最近家裡有點忙，先約妳家或出去玩好不好』，把球輕輕接住、不用逼自己馬上開門。這樣回，妳會不會比較鬆一點？"},
+    {"role": "user", "content": "嗯…這樣好像可以。其實我也不是不想她來，是…我希望有一天我家也可以那樣，不用先想好怎麼演。算了我先去回她，謝謝你喔。"},
+    {"role": "assistant", "content": "去吧。妳今天注意到的那個『不用先演』，記著就好，不用現在解決它。"}
+  ]
+}

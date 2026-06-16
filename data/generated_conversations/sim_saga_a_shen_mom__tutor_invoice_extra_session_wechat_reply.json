@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_shen_mom__tutor_invoice_extra_session_wechat_reply",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "fall_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "沈又高一上開學第一個月、英文家教韓老師為校內第一次小考自行加排兩次補課",
+    "沈媽該週剛從太太圈年度東京購物行回上海、行李箱還沒拆完就被會所秋季活動排程跟兒子家教 invoice 同時追上來"
+  ],
+  "scenario_seed_id": "tutor_invoice_extra_session_wechat_reply",
+  "scenario_seed": "沈媽 16:30 在書房收到沈又英文家教韓老師傳來的十月份 invoice，比上個月多了一筆「補課×2」費用，每次三千。韓老師沒事先 confirm 就排了。沈媽要回 WeChat：感謝兩次補課的安排、確認收到 invoice、暗示之後加排前先 confirm 一聲。錢的部分一個字不要提、但規矩要拉回來。",
+  "generated_at": "2026-05-26T08:11:14Z",
+  "occurred_at": "2024-10-22T16:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我看一下。沈又英文家教韓老師剛剛把十月份的 invoice 傳過來，比上個月多了一筆「補課×2」，每次三千。她沒事先跟我 confirm 就排了。我不想為了三千多塊讓她覺得我難搞，但下次她不能再這樣自己排。我自己打字太正式或太隨便都不對。"
+    },
+    {
+      "role": "assistant",
+      "content": "先把訊息結構切開。你要她做的事其實只有兩件：你收到 invoice 了，下次加排前先 confirm。錢的部分一個字都別提，否則她會把焦點往「老闆覺得貴」放，下次她排起來會更綁手綁腳，不是你要的效果。"
+    },
+    {
+      "role": "user",
+      "content": "對。一個字都不要提錢。但要讓她感覺到「下次先問」不是建議是規矩。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就用一段話收掉。先確認 invoice 收到、提兩句那兩次補課的安排，接著直接給規則：之後加排請先傳訊息 confirm。不要寫「希望」或「方便的話」，那兩個詞會被讀成可以不照辦。例如：「韓老師，十月份 invoice 收到了，週四前安排匯款。這個月臨時加的兩次補課辛苦您。之後若需要加排，麻煩在排定之前先傳訊息跟我 confirm 一下，方便我這邊調整其他時段。」"
+    },
+    {
+      "role": "user",
+      "content": "「方便我這邊調整其他時段」太家常了，我不會這樣講話。我會講「方便我整體 schedule 上控管一下」。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就直接換掉。「方便我這邊調整其他時段」換成「方便我整體 schedule 上控管一下」，其他不動。整段語氣會更像你平常傳給 service provider 的口吻，不像家長在客氣。"
+    },
+    {
+      "role": "user",
+      "content": "對。但「辛苦您」放在中間我看了不順眼。我想放在最後一句之後。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把那句移到結尾。「韓老師，十月份 invoice 收到了，週四前安排匯款。之後若需要加排，麻煩在排定之前先傳訊息跟我 confirm 一下，方便我整體 schedule 上控管一下。這個月辛苦您。」結尾收在「辛苦您」會讓前面那條規矩聽起來不像在打她手。"
+    },
+    {
+      "role": "user",
+      "content": "OK，發過去了。順便問，invoice 我直接交給司機處理還是我這邊匯？以前是我自己匯，但這個月開始我有點懶。"
+    },
+    {
+      "role": "assistant",
+      "content": "交給司機處理沒問題，但要留一條紀錄。讓司機匯款後把回條截圖傳給你存檔。之後若家教那邊對帳有出入，你手上有東西可以對。這種事一旦改流程，第一個月要盯緊一點。"
+    }
+  ]
+}

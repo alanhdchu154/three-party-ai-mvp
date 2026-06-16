@@ -10,6 +10,8 @@ An AI Student Success & Support Layer that helps people say what they cannot say
 
 The product is a coordination layer between private AI conversations and human support.
 
+It is intended for real students and real support workflows. Synthetic / generated data is only a pre-pilot substitute used while real student data is pending.
+
 It can serve:
 
 - online schools
@@ -26,6 +28,7 @@ It can serve:
 - Not a counseling replacement.
 - Not a tutoring funnel disguised as wellbeing.
 - Not a generic chatbot with a dashboard.
+- Not a game or gamified disclosure system.
 
 ## Product Categories We Touch
 

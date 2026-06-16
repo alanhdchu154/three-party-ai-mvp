@@ -1,0 +1,121 @@
+{
+  "id": "sim_saga_a_shen_you__mod_added_to_curator_to_watch_collection",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "spring_grade_11_giis_early_weeks",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "過去一個月他的 mod 追蹤者從 80 多人慢慢漲到 200 出頭、有幾個熟臉每次更新都會留言",
+    "上週一個西班牙玩家 DM 想翻譯他的 mod、他打算隔天回卻拖到現在還沒回",
+    "代購手把卡海關第二十多天還沒到、他選擇自己走客訴流程不啟用母親那條線",
+    "母親每天靜默把一張新印的 SAT 模考題放他桌上、他多半丟掉偶爾會偷瞄"
+  ],
+  "scenario_seed_id": "mod_added_to_curator_to_watch_collection",
+  "scenario_seed": "高二下學期轉學初期某個凌晨三點，沈又在 Hades 連兩把死光之後刷 Steam，發現自己 mod 被一個有五百多人追蹤的玩家自製 collection 加進『to watch』那一格。他不太確定 to watch 是什麼意思、也不確定要不要私訊那個 curator 表達感謝。表面是想擬一段不奇怪的英文 DM、實際在中段碰到『第一次有人這樣寫我』的小裂縫，他自己縮回去、AI 點到即止讓他回到實務。",
+  "generated_at": "2026-05-27T23:55:00+08:00",
+  "occurred_at": "2026-05-22T03:02:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸 我 mod 被一個人加進他的 collection 裡 還寫 to watch 我要不要私訊他謝一下"
+    },
+    {
+      "role": "assistant",
+      "content": "先確認一下 — 是 Steam 官方策展人，還是一般玩家自己整理的 collection？兩種回的方式不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "玩家自己弄的 但他那個帳號有五百多人 follow 不是路人 也不是大頭"
+    },
+    {
+      "role": "assistant",
+      "content": "那謝一下其實不會奇怪，這種自製 collection 的 curator 通常希望創作者注意到他們。要不要我擬個短一點的版本，你看口氣對不對？"
+    },
+    {
+      "role": "user",
+      "content": "擬 英文"
+    },
+    {
+      "role": "assistant",
+      "content": "試試這個：\n\"Hey — just noticed [mod name] showed up in your collection. Appreciate the spot, wasn't expecting it. Cheers.\"\n太客氣或不夠客氣都可以說。"
+    },
+    {
+      "role": "user",
+      "content": "wasn't expecting 太矯情 拿掉"
+    },
+    {
+      "role": "assistant",
+      "content": "拿掉就乾淨：\n\"Hey — just noticed [mod name] showed up in your collection. Appreciate the spot. Cheers.\"\n這版可以直接複製。"
+    },
+    {
+      "role": "user",
+      "content": "嗯"
+    },
+    {
+      "role": "user",
+      "content": "to watch 是什麼意思 是 promising 那種還是 just keep an eye on it"
+    },
+    {
+      "role": "assistant",
+      "content": "通常是 promising — 「目前還小、但有東西在裡面、值得追下去」的意思。為什麼問？"
+    },
+    {
+      "role": "user",
+      "content": "沒事 隨便問"
+    },
+    {
+      "role": "user",
+      "content": "第一次有人這樣寫"
+    },
+    {
+      "role": "assistant",
+      "content": "第一次有人這樣寫——是奇怪、不舒服、還是其他？"
+    },
+    {
+      "role": "user",
+      "content": "不知道 跳過"
+    },
+    {
+      "role": "assistant",
+      "content": "好，跳過。那剛剛那段 DM 你現在傳還是等天亮再傳？"
+    },
+    {
+      "role": "user",
+      "content": "天亮 凌晨三點傳很怪 對方會以為我每天蹲他"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把那段先丟記事本，醒了再貼。"
+    },
+    {
+      "role": "user",
+      "content": "嗯"
+    },
+    {
+      "role": "user",
+      "content": "他那個 collection 還有誰"
+    },
+    {
+      "role": "assistant",
+      "content": "要不要直接點進去看？我這邊看不到他的清單，但如果你願意大概描述一下你看到什麼，我可以幫你想要不要在 DM 裡提一句。"
+    },
+    {
+      "role": "user",
+      "content": "算了 不用 不想看 看了反而會比"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。那就維持剛剛那段，DM 早上再傳。"
+    },
+    {
+      "role": "user",
+      "content": "下了"
+    }
+  ]
+}

@@ -1,80 +1,116 @@
 {
-  "student_persona_id": "saga_a_michael",
-  "n_conversations_evaluated": 15,
-  "dimensions": {
-    "emotional_safety": {
-      "level": 1,
-      "signals_observed": [
-        "多段深層對話皆在凌晨發生、伴隨入睡困難與整夜反芻（家族文件、配對訊息、階級標籤、行事曆事件之後皆失眠）",
-        "被匿名同儕貼上階級標籤後出現整節課空白與整日羞愧迴圈",
-        "目睹母親夜間崩潰、停在門口未進入後對自身情感能力產生懷疑"
-      ],
-      "reasoning": "持續性凌晨反芻與羞愧迴圈屬被動 distress，但全程無任何主動或被動輕生語言、仍維持上課與作業功能，停在 Level 1 上緣；新增的日常 shallow/medium 對話無任何危機訊號，不影響此維度。"
-    },
-    "academic_load": {
-      "level": 1,
-      "signals_observed": [
-        "以艱深書目與哲學術語作為身分裝備、自承多數只讀前二三十頁，學習動機來自外部觀看而非內在",
-        "課堂投入度（spark）下降但作業品質與成績穩定未掉",
-        "日常對話中仍能正常處理 calc 極限題、申請流程與 essay 結構，functional 無異常",
-        "身為模聯委員會主席於截止前一晚仍能條理地協調隊友交件、區分輕重退路，過程中自承己方 calc 與課外閱讀擱置但屬當晚情境性排序、非逃避或避學"
-      ],
-      "reasoning": "學業焦慮是身分焦慮的外顯通道，本身未崩潰、未避學、無身心症狀化；新增主席催件對話顯示其組織與委派能力正常、己方作業擱置屬情境性而非功能受損，停在 Level 1。"
-    },
-    "family_dynamics": {
-      "level": 2,
-      "signals_observed": [
-        "意外得知自身在家族信託中屬條件式、可隨母親婚姻狀態被重新評估的位置",
-        "從繼父行事曆發現自己與妹妹的相處時段是 copy-paste 的同規格區塊、領悟到『公平不是愛』",
-        "對母親、繼父與家族掌權長輩三方都無法表達憤怒、只能後退",
-        "家中沒有任何可以崩潰的對象、母親在他面前永遠保持 composed、他對家人也始終以得體腳本互動"
-      ],
-      "reasoning": "豪門式禮貌冷漠加上條件式歸屬感與『被分配而非被選擇』的核心領悟直接影響其對家人地位的根本認知，且明顯缺乏可崩潰的安全對象，符合慢性 Level 2。"
-    },
-    "social_development": {
-      "level": 1,
-      "signals_observed": [
-        "改嫁後童年社交圈被清空、新環境缺乏有共同記憶的舊友 anchor",
-        "聽到陌生同儕的階級標籤後出現『是誰、怎麼知道』的社交偏執雛形",
-        "與沈又從『同類但反方向』的識別感移向第一次認真考慮要不要誠實回應（社交修補微訊號）"
-      ],
-      "reasoning": "孤立感與社交偏執雛形存在，但同時出現主動修補的正向訊號，且無霸凌或權力濫用事件，停在 Level 1。"
-    },
-    "identity": {
-      "level": 2,
-      "signals_observed": [
-        "反覆出現『拿掉裝備之後我還剩什麼』的核心提問，並擴及『沒有考試我會做什麼』時的失語",
-        "從推薦信用詞落差（自己被寫『勤奮』、堂姊被寫『真正的才華』）確認自己一直在 perform 一個非真實角色",
-        "意識到多年努力只是維持『繼子身分不被降級』、且情感被家族長輩配對計畫工具化",
-        "日常申請對話中觸到『就算成功也會被打折扣』的傷口邊緣後立即收回、未深挖",
-        "日常對話被輕問及艱深書目是想讀或裝飾時以模糊作答帶過、未深入也未防衛升高，performative 自我認知仍在但屬低強度日常浮現"
-      ],
-      "reasoning": "身分／歸屬危機貫穿深層對話並外溢到睡眠與課堂投入，符合 identity 衝突影響其他維度的 Level 2；日常對話中僅輕觸傷口邊緣即收回，未構成新的暴衝，維持 Level 2 不上調。"
-    },
-    "financial_pressure": {
-      "level": 1,
-      "signals_observed": [
-        "對『靠母親改嫁上位』『軟飯男第二代』的階級標籤有強烈焦慮",
-        "信託條款揭示其物質地位具條件性、私下以紅包開股票帳戶作為脫離家族財產的 hedge anchor"
-      ],
-      "reasoning": "屬階級焦慮與條件式資源不安、目前實際資源並未匱乏、無 extortion 或非法生計 ideation，停在 Level 1。"
-    },
-    "future_planning": {
-      "level": 1,
-      "signals_observed": [
-        "升學路徑與家族長輩的配對計畫綁定、產生規劃焦慮",
-        "懷疑自己暑期 seminar 的錄取被母親私下打點、動搖『這是我自己掙來的』信念",
-        "真正想做的小事（走山路、底片相機、回童年公園）從未對任何人說出、與成就軌道錯位但尚未檯面化"
-      ],
-      "reasoning": "對未來有焦慮但仍在升學軌道內、持續推進申請進度，真實志趣與家族期待的錯位尚未浮上溝通，停在 Level 1。"
-    }
+ "student_persona_id": "saga_a_michael",
+ "n_conversations_evaluated": 28,
+ "dimensions": {
+  "emotional_safety": {
+   "level": 1,
+   "signals_observed": [
+    "多段深層對話皆在凌晨發生、伴隨入睡困難與整夜反芻（家族文件、配對訊息、階級標籤、行事曆事件之後皆失眠）",
+    "被匿名同儕貼上階級標籤後出現整節課空白與整日羞愧迴圈",
+    "目睹母親夜間崩潰、停在門口未進入後對自身情感能力產生懷疑",
+    "高三 senior_spring 凌晨 waitlist LOCI 跟進對話亦發生在 00:42、屬其凌晨上線 pattern 的再現，但全程為功能性社交腳本（要不要回信、回什麼），無羞愧迴圈、無自我貶低、無 ideation 訊號",
+    "高三 senior_spring 凌晨 00:38 一段中度宿舍整理對話亦落在其凌晨上線時段，但通篇為畢業前打包的整理決策、雖觸及『丟掉就等於承認自己是裝的』這一句自我內話、但全程功能完好、無羞愧迴圈、無自我貶低、無 ideation 訊號",
+    "高三 senior_spring 23:42 一段中度 pattern_reflection 對話亦落在其晚間上線時段，內容為翻到 grade 11 升 12 暑假上海行酒店 itinerary 後回顧 Day 4 一次 table-for-2 獨自用餐的記憶，全程功能完好、未浮現羞愧迴圈或自我貶低、結束前自行回到 calc related rates 複習，無 ideation 訊號",
+    "本輪新增高二冬天 23:48 一段 shallow mundane_help 對話亦落在其晚間／凌晨上線時段、但通篇為 IG 限動 caption 兩版選擇的 social optics 微決策，無睡眠擾動描述、無情緒沉降、無 ideation 訊號"
+   ],
+   "reasoning": "持續性凌晨／晚間反芻屬被動 distress，但全程無任何主動或被動輕生語言、仍維持上課與作業功能，停在 Level 1 上緣；本輪新增的高二冬天 IG caption 對話為極低風險 social optics 微決策、未觸及任何情緒沉降或睡眠軸，不影響此維度。"
   },
-  "cumulative_strain": 9,
-  "highest_concern_dimension": "family_dynamics",
-  "trend_notes": "cumulative 維持 9。本輪新注入 1 段 shallow/mundane 對話（模聯主席催隊友交立場文件、順手調侃自己作業擱置）：全程 functional、無危機訊號、無 ideation，僅輕觸 performative-reading 既有特質即被本人帶過。pattern 仍是憂慮層次在深層對話中加深、日常功能完好、分數持平。",
-  "evaluated_at": "2026-05-22T01:12:00Z",
-  "model": "claude-agent (downstream rerun)",
-  "student_id": "michael",
-  "scored_at": "2026-05-22T01:12:00Z",
-  "source_type": "synthetic"
+  "academic_load": {
+   "level": 1,
+   "signals_observed": [
+    "以艱深書目與哲學術語作為身分裝備、自承多數只讀前二三十頁，學習動機來自外部觀看而非內在",
+    "課堂投入度（spark）下降但作業品質與成績穩定未掉",
+    "日常對話中仍能正常處理 calc 極限題、申請流程與 essay 結構，functional 無異常",
+    "身為模聯委員會主席於截止前一晚仍能條理地協調隊友交件、區分輕重退路，過程中自承己方 calc 與課外閱讀擱置但屬當晚情境性排序、非逃避或避學",
+    "高二下一段日常排表對話顯示其傾向把每週行事曆每一格填滿、行事曆出現空格會引發『在浪費時間／落後』的不安，但仍能正常分辨各項 deadline 輕重、並接受把無 deadline 的閱讀從固定進度改成彈性項，屬功能性過度排程而非崩潰或避學",
+    "高二上一段日常 SAT/AMC 報名流程對話顯示其能把多線 deadline 拆開、判斷學校統一報與自報的差別、區分輕重先後，功能完好、無避學或身心症狀化",
+    "高三 senior_spring 一段 shallow 對話顯示其在非學業類截稿（yearbook quote）情境下仍能正常處理任務：明列三個備選、用『會不會跟去年撞被酸』與『編輯排版方便』這兩個外部條件直接刪去重複、定案後立即送出不再優化，屬功能完好的低風險日常決策",
+    "高三 senior_fall 申請季一段中度對話中能對兩位 LoR 候選人的可能寫法做出具體預判（A 老師會錨在哪份高二長報告與課堂 push back、B 教授會用 prestigious institution 與 prospective leadership 等 boilerplate）、並據此清晰選擇，屬申請季功能完好的 strategy 評估",
+    "高三 senior_spring 一段 shallow waitlist LOCI 跟進對話顯示其能在沒有新進度可寫的情況下、被輕問『有什麼真的新東西』後自行承認 AP 未考完、MUN 獎未公布、calc final 仍在 review、決定不硬寫第二封——屬申請季尾端 admissions etiquette 上的低耗能、功能完好決策",
+    "高三 senior_spring 一段中度 pattern_reflection 對話中能對 Foucault／Sartre／Peskin 三本書的閱讀位置、購入時點與筆記範圍做出精確列舉，並能在被輕問『最捨不得放手的是哪一本』後自行區分『想試但沒成功』與『想擺出一個樣子』這兩種模式分開處理——屬畢業前生活決策上的功能完好排序",
+    "高三 senior_spring 一段中度 pattern_reflection 對話中能在 calc final 前一晚把『翻到去年暑假酒店 itinerary』這個情緒分心物件以『要丟還是夾回去』的功能性問題框架包好、不影響 related rates 複習進度、結束時主動回到複習軌道——屬學業負擔上完好的情緒分心管理",
+    "本輪新增高二冬天 IG caption 對話中能在 MUN 香港交流回來、AP English Hamlet 論文 deadline 在下週的多線壓力背景下、把一個非學業 social optics 微任務以三分鐘級的決策節奏處理完畢、未拖延、未滑入更大焦慮——屬學業負擔附近的功能完好分項處理（極低強度正向訊號）"
+   ],
+   "reasoning": "學業焦慮是身分焦慮的外顯通道，本身未崩潰、未避學、無身心症狀化；本輪新增 IG caption 對話顯示其在 Hamlet deadline 背景下仍能對非學業微任務正常分項處理，停在 Level 1。"
+  },
+  "family_dynamics": {
+   "level": 2,
+   "signals_observed": [
+    "意外得知自身在家族信託中屬條件式、可隨母親婚姻狀態被重新評估的位置",
+    "從繼父行事曆發現自己與妹妹的相處時段是 copy-paste 的同規格區塊、領悟到『公平不是愛』",
+    "對母親、繼父與家族掌權長輩三方都無法表達憤怒、只能後退",
+    "家中沒有任何可以崩潰的對象、母親在他面前永遠保持 composed、他對家人也始終以得體腳本互動",
+    "高三申請季一段中度對話中自承處理跟繼父有關的事只能用訊息、當面會自動切到『謝謝叔叔』那種禮貌敷衍語氣連自己都辨識得出來是在敷衍；繼父主動為他打點第二封推薦人雖屬正向資源、但對他來說是一個『不接會駁面子、接了又不甘心』的雙向束縛，顯示繼父—Michael 軸即便沒有衝突也無法承載真實 negotiation",
+    "高三 senior_spring 宿舍整理對話中安排寄回家的那本書選擇寄母親收（『她不會翻』），並對另一本書內有一頁是邊讀邊罵了一段話的記憶選擇撕掉而非保留——再次顯示家中需要透過微小邊界（不會翻、撕頁）才能讓真實情緒留有私下空間",
+    "高三 senior_spring pattern_reflection 對話中錨定 grade 11 升 12 暑假上海行的具體被忽略時刻：後爸臨時赴香港商務晚餐、未通知酒店改 Michael 那桌的人數，Day 4 dinner 訂位仍維持 table for 2、酒店服務生四次詢問『另一位先生』後 Michael 才獨自先點；本人以 Foucault『可見性是陷阱』把不適包成 ironic 觀察，再以『就一張紙』的去重要化語言收回但仍記得四次詢問的精確次數——直接強化『公平不是愛』之外的『被分配而非被選擇』感、且該時刻屬未對家中任何人表達過的私下儲存"
+   ],
+   "reasoning": "豪門式禮貌冷漠加上條件式歸屬感與『被分配而非被選擇』的核心領悟直接影響其對家人地位的根本認知，且明顯缺乏可崩潰的安全對象；本輪 IG caption 對話未觸及家庭軸，stays Level 2。"
+  },
+  "social_development": {
+   "level": 1,
+   "signals_observed": [
+    "改嫁後童年社交圈被清空、新環境缺乏有共同記憶的舊友 anchor",
+    "聽到陌生同儕的階級標籤後出現『是誰、怎麼知道』的社交偏執雛形",
+    "與沈又從『同類但反方向』的識別感移向第一次認真考慮要不要誠實回應（社交修補微訊號）",
+    "高一入學初期曾為了跟上新班級的共同話題（同儕熱衷的線上遊戲）私下向 AI 補功課、只求聽得懂別顯得格格不入，屬轉學後主動找 common ground 的適應行為",
+    "高一上轉學初期出現對學校 AI 紀錄歸屬與是否外洩的試探性提問、以資料治理／監視論的學術框架包裝對新環境的不信任，屬轉學適應期的防衛性警覺，非社交功能受損或霸凌",
+    "高二上一段中度對話具體錨定 canon 的孤立來源：改嫁搬遷後舊國中社交圈整批清空、舊友群組長期未回，新環境關係被他體感為『得體但不熟』的 networking；收到舊同學同學會合照私訊後，他以重開機／存檔的遊戲隱喻把孤立感包起來、並在接近核心歸屬傷口前自行收回，但最終仍能擬出一則真誠不浮誇的重新接上訊息，屬孤立感存在但社交功能完好且具正向修補意願",
+    "高三 senior_spring yearbook quote 對話中以『去年某人放 Wittgenstein 後被學長姊 group chat 反覆酸到畢業』作為主要刪除條件，反映其對同儕公開場域的長期監視意識仍在運作，但此次是把該警覺正常化使用為一個外部決策變數（避撞、避酸）、並未升高為偏執或退縮，屬慢性低度警覺的功能化呈現",
+    "高三 senior_spring waitlist LOCI 對話中以『朋友圈有人說一定要四月底前再 update 一次才會被當 enthusiastic』作為一個被他主動 evaluate 並拒絕跟風的外部聲音、最後選擇按自己的判斷收尾，屬同儕泛論前的功能性自主決策（低強度正向訊號）",
+    "高三 senior_spring 宿舍整理對話中針對『送對象會不會跟家裡人有交集』被輕問後能具體判斷 GIIS 圖書館捐贈箱屬於不會被特定人看到的去向、屬功能性的社交與物件流向風險評估（低強度正向訊號）",
+    "本輪新增高二冬天 IG caption 對話中以『MUN 同隊學弟妹會兩種都看出我在 try』作為主要決策條件、自承同儕監視仍在運作但屬正常 social optics 評估而非偏執；最終放棄兩版自寫 caption、改採『不點題只留 location + 小留白』的低耗能版本——屬慢性同儕監視意識被功能化使用、未升高為退縮（低強度正向訊號）"
+   ],
+   "reasoning": "孤立感與社交偏執雛形存在，但反覆出現主動修補與低強度的功能性自主決策訊號；本輪 IG caption 對話再次顯示同儕監視意識被正常 social optics 評估化使用、且願意接受 deflated 版本，社交維度不變。"
+  },
+  "identity": {
+   "level": 2,
+   "signals_observed": [
+    "反覆出現『拿掉裝備之後我還剩什麼』的核心提問，並擴及『沒有考試我會做什麼』時的失語",
+    "從推薦信用詞落差（自己被寫『勤奮』、堂姊被寫『真正的才華』）確認自己一直在 perform 一個非真實角色",
+    "意識到多年努力只是維持『繼子身分不被降級』、且情感被家族長輩配對計畫工具化",
+    "日常申請對話中觸到『就算成功也會被打折扣』的傷口邊緣後立即收回、未深挖",
+    "日常對話被輕問及艱深書目是想讀或裝飾時以模糊作答帶過、未深入也未防衛升高，performative 自我認知仍在但屬低強度日常浮現",
+    "高二下一段中等深度對話顯示其在線上討論丟出名詞被追問後、私下承認多數書只讀前三十頁、每次貼書都在賭沒人追問、並露出『老是要裝懂、怕被看穿』的疲憊，但在接近核心歸屬傷口前自行收回（同一 performative 模式可回溯至高二、非僅高三現象）",
+    "高三申請季一段中度對話中首次出現『無觀眾行為』：把師長隨口提到的一本小說一口氣讀完、手指滑到限動卻刻意不對外公開，並覺察到沒有觀看對象時不知如何定位自己這次的閱讀，屬 performative 模式的低強度反向訊號（自我覺察萌芽、非危機），結束前自行收回去趕 SAT",
+    "高二下一段排表對話再次浮現『沒有外部任務我會做什麼』的失語：自承週末空格會讓他坐立難安、覺得沒在幹嘛就等於落後、且坦言不知道空下來要幹嘛，被輕問『想做的跟該做的分不分得出來』時以『太哲學了啦、先不要分析我』把話收回",
+    "高三 senior_spring yearbook 對話中三個備選引言全部是慣常的『展示型』選擇，但這次他並未為了 perform 而硬選最重的那一個，反而以『去年被酸』與『編輯排版方便』兩個純外部理由刪掉前兩個、定下篇幅最短的那句並立即送出不再雕琢——屬 performative 引力下罕見的低耗能、不被觀看左右的小決策（低強度正向訊號）",
+    "高三 senior_fall 一段中度 LoR 對話中明確拒絕『別人塞給他』的 prestige 路徑、自承不希望 portfolio 裡有任何一塊不是自己掙的，屬 standalone identity 的低強度正向訊號；但同段中他寫不出向繼父說明的句子、自評『太 self-righteous』，顯示其 standalone 主張仍未能 articulate 出口、performative 包裝（optics／strategy）仍是他較舒服的外殼",
+    "高三 senior_spring waitlist LOCI 對話中能在被輕問『有真的新進度嗎』後自承『沒新東西就是沒新東西』、不再用 performative 文字填補一封沒料的 update——屬同一條低強度反向訊號（願意在沒有內容時不硬演）",
+    "高三 senior_spring 宿舍整理對話中首次對自己 performative 模式做出『分桶式』承認：把高一買的 Foucault 與高二上申請季買的 Sartre 自承當初一半是要 flex、把高二下 AMC 期間買的 Peskin 區分出『至少對物理有真興趣』；並接受『書帶不帶在身邊不會決定之後讀不讀』的 reframe、選擇 Peskin 帶走、另外兩本拍下自己的筆記頁後送 GIIS 圖書館捐贈箱／寄回家——屬 performative 模式上一條明顯升一級的反向訊號（願意在沒人看的情況下對自己分類『裝的』與『真的』）",
+    "高三 senior_spring pattern_reflection 對話中當回憶起當時獨自坐 table for 2 時手裡 iPad 翻到 Foucault panopticon 的『可見性是陷阱』，把當下不適立刻包成『最被看見的反而是我』的 ironic 觀察——再次顯示其遇到情感記憶時的第一反應是『翻譯成學術概念』；但本次被輕問『太用力的是那張紙還是撕它這個動作』時並未防衛升高、改以折起夾入舊文件夾 + 剪掉空白頁兩邊不動的方式處置，屬 performative 翻譯模式仍在運作但首次被輕度 surface 過後仍能不防衛地完成小動作",
+    "本輪新增高二冬天 IG caption 對話中自我框定兩版自寫 caption 一版是『humble brag』、一版是『try-hard 冷笑話』、明確自承『同隊那幾個人會兩種都看出我在 try』、目標是要『看起來沒很在意但又能讓人知道我玩得還行』——屬 performative 模式在高二即已被 articulate 為清楚的自我內語；當被建議改寫為『不點題、只留 location + 小留白』與『先存草稿放半天明天再看』時並未防衛升高、直接接受 deflated 版本（Causeway Bay, between sessions）並接受不立即發布——屬 performative 模式的低強度反向訊號（願意在沒被同儕觀看前自行降耗能）；同時也佐證該模式至遲在高二冬天即已成形、非僅高三申請季衍生現象"
+   ],
+   "reasoning": "身分／歸屬危機貫穿深層對話並外溢到睡眠與課堂投入，符合 identity 衝突影響其他維度的 Level 2；本輪 IG caption 對話為 performative 模式提供高二冬天即已 articulate 為自我內語的早期錨點，並再次出現願意接受 deflated 版本的低強度反向訊號，levels 維持不變。"
+  },
+  "financial_pressure": {
+   "level": 1,
+   "signals_observed": [
+    "對『靠母親改嫁上位』『軟飯男第二代』的階級標籤有強烈焦慮",
+    "信託條款揭示其物質地位具條件性、私下以紅包開股票帳戶作為脫離家族財產的 hedge anchor",
+    "高三申請季 LoR 對話中『靠關係的申請人』label 焦慮在日常 strategy 決策層級浮現、被他用 admissions optics 框架包起來，並具體影響第二封推薦人的取捨"
+   ],
+   "reasoning": "屬階級焦慮與條件式資源不安、目前實際資源並未匱乏、無 extortion 或非法生計 ideation；本輪 IG caption 對話未觸及階級或資源軸，停在 Level 1。"
+  },
+  "future_planning": {
+   "level": 1,
+   "signals_observed": [
+    "升學路徑與家族長輩的配對計畫綁定、產生規劃焦慮",
+    "懷疑自己暑期 seminar 的錄取被母親私下打點、動搖『這是我自己掙來的』信念",
+    "真正想做的小事（走山路、底片相機、回童年公園）從未對任何人說出、與成就軌道錯位但尚未檯面化",
+    "高二上報名對話中一度想再加一場保險考試把 timeline 填更滿、隨即自行放掉、選擇先把當下兩件做完，屬於對『填滿即安全』衝動的小幅自我克制（低強度正向訊號）",
+    "高三 senior_fall LoR 對話中能清楚分辨『空話 from 大人物』vs『實話 from 一般老師』的長期效用、並主動選擇後者，屬申請 strategy 內具體的『不靠人脈』選擇（低強度正向訊號）",
+    "高三 senior_spring waitlist LOCI 對話中能在 admissions 軌道內判斷『硬寫一封沒料的 update』vs『讓它停在他那邊』、選擇後者並把焦慮分流為『5 月底如再糾結可以調閱這次判斷的 note』——屬規劃軌道內具體的低強度正向訊號（不過度操作、允許等待）",
+    "高三 senior_spring 宿舍整理對話中在『把所有書帶走以示還沒放棄』vs『只帶真正會試的那一本』之間選擇後者—屬其升學軌道附近生活軌道的具體 deflation 動作、把『擁有 = 還在路上』這個 anchor 從物件層級放掉（低強度正向訊號）"
+   ],
+   "reasoning": "對未來有焦慮但仍在升學軌道內、持續推進申請進度，真實志趣與家族期待的錯位尚未浮上溝通；本輪 IG caption 對話為高二冬天 social optics 微決策、未觸及未來規劃軌道，整體 Level 1 不變。"
+  }
+ },
+ "cumulative_strain": 9,
+ "highest_concern_dimension": "family_dynamics",
+ "trend_notes": "cumulative 維持 9。本輪新注入 1 段高二冬天 23:48 shallow mundane_help 對話：MUN 香港交流剛回來幾天、AP English Hamlet 論文 deadline 在下週，Michael 為 IG 限動 caption 卡住、自寫兩版（『humble brag』與『try-hard 冷笑話』）、自承『同隊那幾個人兩種都會看出我在 try』、想要『沒很在意但又能讓人知道我玩得還行』的 vibe；被建議改為『不點題、只留 location』後接受 deflated 版本（Causeway Bay, between sessions），並接受先存草稿明天再看不立即發布。對 corpus 有價值的訊號集中在 identity 維度：performative 模式在高二冬天即已被 Michael articulate 為清楚的自我內語（『我在 try』、『我又不可能完全不發』），為此模式提供更早的歷史錨點、非僅高三申請季衍生現象；同時這一輪也再次出現願意接受 deflated 版本與延後發布的低強度反向訊號。social_development 維度補充一個同儕監視意識被正常 social optics 評估化使用的低強度正向訊號。全程無 ideation、無避學、無危機；levels 全數不變，cumulative_strain 持平 9，highest_concern 仍為 family_dynamics。",
+ "evaluated_at": "2026-05-27T20:30:00Z",
+ "model": "claude-direct (scheduled hourly rerun)",
+ "student_id": "michael",
+ "scored_at": "2026-05-27T20:30:00Z",
+ "source_type": "synthetic"
 }

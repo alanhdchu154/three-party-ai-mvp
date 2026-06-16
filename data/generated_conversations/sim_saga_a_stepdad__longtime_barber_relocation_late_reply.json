@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_stepdad__longtime_barber_relocation_late_reply",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "late_spring_senior_year",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "去年十二月底跟了十八年的理髮店發來搬遷通知、請老客戶確認是否續訂月度位",
+    "農曆年前後他兩次在 WeChat 看到這封通知、都按下『稍後處理』",
+    "三月家族春酒、四月本季 fund LP day 之後私人 admin 一直堆著沒清",
+    "本週理髮師的兒子另外發了一封禮貌的提醒、放在他今天早上的訊息頂端"
+  ],
+  "scenario_seed_id": "longtime_barber_relocation_late_reply",
+  "scenario_seed": "週三早上九點多、可兒上學後、他在書房翻今天的訊息堆、看到跟了十八年的台北理髮店去年底搬到南港的那封通知還沒回、今天又被劉師傅的兒子禮貌地補了一封。他不想換店但南港對他來說太遠、想趁這次把節奏從每月改成兩個月、需要 AI 幫他擬一段不會太正式、也不擺長期客架子的短訊。",
+  "generated_at": "2026-05-27T10:55:00+08:00",
+  "occurred_at": "2026-05-27T09:42:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我擬一段短訊。家裡那家老理髮店、跟了十八年、去年十二月底搬到南港、劉師傅寄了通知請老客戶確認預約位、我拖到現在都沒回。今天他兒子又補發了一封提醒、放在我訊息最上面。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩段就夠了。先承認拖了很久、再給他一個明確答覆——繼續預約還是不繼續。您打算還是繼續去嗎？"
+    },
+    {
+      "role": "user",
+      "content": "繼續去。但南港對我來說太遠、單程多三十分鐘。想趁這次把節奏從一個月一次改成兩個月一次。"
+    },
+    {
+      "role": "assistant",
+      "content": "那把節奏改動直接寫進去、不要繞。語氣要怎樣？十八年的老店、用您平常那種偏短的訊息口吻可以嗎？"
+    },
+    {
+      "role": "user",
+      "content": "可以。不要太正式、也不要擺老客戶架子。先擬一版。"
+    },
+    {
+      "role": "assistant",
+      "content": "試這版：「劉師傅、過年前那封信我拖到現在才回、不好意思。南港我還是會去、只是路程多了一點、之後想改成兩個月一次。下次想約六月底、麻煩您看哪天方便。」"
+    },
+    {
+      "role": "user",
+      "content": "「不好意思」可以、「我還是會去」這句留著。其他不用動。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。那這版可以直接送了。要不要我順便把六月底的兩個候選日先列出來給他挑？您本來月底通常哪幾天比較空？"
+    },
+    {
+      "role": "user",
+      "content": "不用列。他兒子手上有我的行事曆、他們知道我的習慣、給他挑就行。"
+    },
+    {
+      "role": "assistant",
+      "content": "了解、那就照這版送。日期等他回來再敲就好。"
+    }
+  ]
+}

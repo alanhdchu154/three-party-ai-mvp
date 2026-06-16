@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_shen_you__joycon_drift_late_night_repair_question",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二上學期接近結束，沈又左手 joycon 軸漂移已經一兩個月、最近一次 Hades 結算選錯祝福",
+    "Steam mod 月入剛跨過 500 美、他自己沒講、wallet 仍提不出來",
+    "沈媽前幾天飯桌邊滑手機邊提了一次『不然真的去 GIIS 試讀』、塞了一張表單頁面截圖到家庭群、未明說 deadline"
+  ],
+  "scenario_seed_id": "joycon_drift_late_night_repair_question",
+  "scenario_seed": "高二上學期接近結束的某個凌晨，沈又一邊在 Switch 上跑 Hades、一邊發現左手 joycon 漂移又害他選錯祝福。他凌晨三點開 AI 想問自己拆機換霍爾搖桿的步驟與工具清單，純粹技術需求；中間順手丟一句『媽叫我今晚填的 GIIS 試讀那張 form 我打算拖到明天』，沒有要 AI 處理那條情緒，只是想先把 joycon 弄好。",
+  "generated_at": "2026-05-26T19:30:00Z",
+  "occurred_at": "2025-12-17T03:14:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "joycon 漂移 你會修嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "看你想哪種 送任天堂維修要等三週左右 自己拆裝霍爾搖桿模組現在很便宜 你比較想哪邊"
+    },
+    {
+      "role": "user",
+      "content": "自己拆 上次送修等三週剛回來又漂 我手不算很穩 你直接給我步驟跟工具 不要寫教學文那麼長 重點就好"
+    },
+    {
+      "role": "assistant",
+      "content": "工具三樣 Y00 三角螺絲起子 一支撥片或薄塑膠片 霍爾搖桿模組（左手 joycon 用的那款）蝦皮淘寶都有 一組一兩百 你要先翻機背看一下你的 joycon 是舊版還是新版的搖桿座嗎"
+    },
+    {
+      "role": "user",
+      "content": "等下啦 順便問你 我媽說那張 GIIS 試讀的 form 今晚要填 但她剛睡了 我打算拖到明天早上 你覺得會出事嗎"
+    },
+    {
+      "role": "assistant",
+      "content": "看那 form 性質 入學意願或試讀同意那種通常窗口一兩天 拖一晚不會炸 你媽是說『今晚一定要送出』還是『今晚記得填』 兩種差很多"
+    },
+    {
+      "role": "user",
+      "content": "她講『今晚記得』 沒看到我有沒有按 我先 Hades 打完這把 凌晨四點再說 你先回 joycon 那邊 步驟給我"
+    },
+    {
+      "role": "assistant",
+      "content": "拆機重點四步 一 卸尾兩顆 Y00 螺絲（搖桿後側）和側邊那兩顆 二 撥片從充電孔那一側緩緩撬殼 排線別硬扯 三 拔電池排線再翻板 換上新模組 別急著鎖殼 四 接 dock 開 Switch 進設定校正 軸是不是回中 ok 再封 你開始拆的時候叫我 我陪你"
+    }
+  ]
+}

@@ -53,7 +53,30 @@
 
 生成時優先用具體物件和普通需求開場，不要一開場就寫「我很痛苦」。
 
-## 4. Per-Persona Daily Texture
+## 4. Timeline Slice
+
+每段對話都要先決定它發生在角色生命線上的哪個時間切片，而不是都假設是「現在」。
+
+這很重要，因為高一、高二、高三的 AI 使用方式不一樣：
+
+- **高一 / 入學初期**：適應、轉學、交友、選課、第一批家庭期待開始壓上來。
+- **高二 / 中段累積**：成績模式固定、人際位置成形、家庭衝突變成習慣，很多訊號不是第一次發生。
+- **高三 / 申請與畢業壓力**：deadline、推薦信、升學、家庭投資回報感、未來身份焦慮。
+- **回憶 / retrospective**：角色現在跟 AI 談一件很久以前的事，例如「高一那次其實我一直記得」。這類對話應標清楚現在的發話時間與事件時間。
+
+生成時應該避免把所有事件塞在同一週。`occurred_at` 可以是 saga 現在附近，也可以是幾個月或幾年前，但 scenario seed 必須說清楚這是當下事件、舊事回想、還是長期 pattern 的一次代表片段。
+
+建議每段 JSON 增加或至少在 `scenario_seed` 裡明確包含：
+
+- `timeline_stage`: `middle_school | grade_7 | grade_8 | grade_9 | grade_10 | grade_11 | grade_12 | current | retrospective`
+- `event_timeframe`: 例如 `first_semester_grade_10`、`junior_spring`、`college_application_season`
+- `conversation_frame`: `live_event | recent_followup | old_memory | pattern_reflection`
+- `lookback_window`: 例如 `past_week`、`past_month`、`past_semester`、`past_half_year`
+- `event_history_summary`: 這段對話前半年 / 一學期內已經發生過的 2-4 件背景事件
+
+建議新生成資料的 `lookback_window` 不要長期集中在 `past_week`。真實學生系統要能理解「最近一次提問」背後的一學期或半年脈絡，所以 `past_semester` / `past_half_year` 應該定期出現，尤其是 medium、pattern_reflection、retrospective 對話。
+
+## 5. Per-Persona Daily Texture
 
 - Michael: Foucault 書、SAT/AMC、IG 限動、calc 筆記、group chat。
 - Michael 媽: 慈善晚會、會所、校務 email、離婚試算、太太圈訊息。
@@ -65,12 +88,14 @@
 - 沈媽: 會所、Hermes、太太圈、tutor invoice、成績處理進度、分房後書房。
 - Alan 老師: GIIS 課表、學生作業、杰尼 offer、辦公室門口、家長訊息。
 
-## 5. Failure Modes
+## 6. Failure Modes
 
 每天或每批生成後，抽查這些問題：
 
 - `depth` 缺失，導致後面無法 audit
 - `scenario_type` 全集中在 `stress_test`
+- 所有 `occurred_at` 都集中在最近幾天，沒有高一 / 高二 / 高三的時間厚度
+- scenario 沒說清楚事件是當下、近期追蹤、舊事回想，還是長期 pattern
 - 平均 turns 長期超過 30
 - 每段都 reframe + actionable homework
 - 角色每次都講同一個秘密
@@ -78,7 +103,7 @@
 - shallow 對話被評分器推高 strain
 - 跨 persona 知識外洩
 
-## 6. Commands
+## 7. Commands
 
 手動看 corpus 分布：
 

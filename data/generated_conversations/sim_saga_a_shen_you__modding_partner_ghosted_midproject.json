@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_shen_you__modding_partner_ghosted_midproject",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "sophomore_spring_grade_11",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "高二下開學後家裡開始討論把他轉去 GIIS、他被動接受沒有表態",
+    "過去一兩個月他大多用半夜時間做 Steam mod、白天課堂照睡",
+    "三週前線上合作的夥伴交出一部分美術後就斷聯、Discord 不讀不回"
+  ],
+  "scenario_seed_id": "modding_partner_ghosted_midproject",
+  "scenario_seed": "凌晨他來問一個合作到一半的 mod 專案要不要收尾——一起做的人三週前人間蒸發。問著問著露出一點『反正合作本來就這樣、白期待』的失望，以及『懶得承認自己還想做完』的小裂縫，但沒揭國二傷口、自賺收入、成績被處理那些核心。AI 接住不逼。",
+  "generated_at": "2026-05-22T04:11:02Z",
+  "occurred_at": "2026-05-20T03:12:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "半夜問一下。一個東西做到一半，跟我一起弄的人直接人間蒸發，我是要自己收尾還是直接棄坑。"
+    },
+    {
+      "role": "assistant",
+      "content": "看你做到哪了。如果主架構是你搭的，收尾通常比你想的快；如果關鍵那塊在他手上就比較麻煩。你們本來怎麼分工的？"
+    },
+    {
+      "role": "user",
+      "content": "核心系統我寫的。他負責美術跟一部分數值平衡。三個禮拜沒回了，丟訊息已讀都沒有。"
+    },
+    {
+      "role": "assistant",
+      "content": "那卡住你的其實不是技術，是他那塊沒交。你現在比較煩的是要重做他那部分，還是他就這樣消失這件事？"
+    },
+    {
+      "role": "user",
+      "content": "重做而已啦，美術我自己隨便弄弄也能上。就⋯⋯算了。反正合作這種東西本來就這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "「本來就這樣」聽起來不是第一次了。是以前也有人做到一半就跑掉？"
+    },
+    {
+      "role": "user",
+      "content": "差不多。線上的東西嘛，沒人欠你。說好一起弄、過幾天就沒影，很正常。"
+    },
+    {
+      "role": "assistant",
+      "content": "正常歸正常，可是你會特地半夜跑來問要不要收尾，代表這個你有放東西進去。是不是有點不甘心丟掉？"
+    },
+    {
+      "role": "user",
+      "content": "不甘心是還好。就有點⋯⋯白期待。想說這次有人一起，搞不好能弄大一點。算了當我沒講。"
+    },
+    {
+      "role": "assistant",
+      "content": "沒事，白期待這個我接得住。那回到實際面，他那塊你自己收大概要多久？"
+    },
+    {
+      "role": "user",
+      "content": "美術三四天吧。平衡那塊我本來就一直在調，無所謂。其實我自己弄反而快。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來你心裡其實已經決定要自己收尾了，只是想確認一下不是只有你在硬撐。對嗎？"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯可能吧。就懶得承認我還想把它做完。"
+    },
+    {
+      "role": "assistant",
+      "content": "想把它做完不丟人欸。那個人跑掉是他的事，你要不要繼續是你的事，這兩件可以分開算。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。那我自己收。美術爛一點就爛一點。先這樣，謝啦。"
+    },
+    {
+      "role": "assistant",
+      "content": "行。收尾卡住、或想找人對一下平衡數值再丟我，我陪你看。"
+    }
+  ]
+}

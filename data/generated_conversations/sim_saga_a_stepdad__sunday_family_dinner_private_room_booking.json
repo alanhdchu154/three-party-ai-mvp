@@ -1,0 +1,60 @@
+{
+  "id": "sim_saga_a_stepdad__sunday_family_dinner_private_room_booking",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二上學期家族聚餐的日期與座位多由大伯那邊定調，他通常照辦",
+    "近一學期他與 Michael 的單獨對話大多停在新聞、經濟等安全話題",
+    "他固定撥時間給兩個孩子，但與可兒相處時明顯比較鬆"
+  ],
+  "scenario_seed_id": "sunday_family_dinner_private_room_booking",
+  "scenario_seed": "高二上學期某個平日早上，他想訂這個週日的家庭小聚——他、太太、Michael、可兒四人包廂。他在常去的粵菜會所和新開日料之間猶豫，順便請 AI 幫他把訂位說法和給家裡群組的訊息擬好，因為他自承寫這種訊息都太像發開會通知。",
+  "generated_at": "2026-05-24T07:10:12Z",
+  "occurred_at": "2024-10-17T09:35:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "這週日想安排一頓家庭晚餐，人不多，就我、太太、Michael、可兒四個。想訂個包廂。手邊兩家在考慮，一家是常去的粵菜會所，一家是新開的日料。幫我想一下怎麼挑。"
+    },
+    {
+      "role": "assistant",
+      "content": "四個人、週日、要包廂，其實兩家都成立，幫你抓幾個現實條件就好。可兒對生食會不會挑？Michael 週日通常幾點才結束讀書或活動，會決定你訂幾點。如果只是想輕鬆吃頓飯、不想等上菜太久，常去那家熟、出餐穩；想換個氣氛聊得開一點，新開的日料新鮮感會幫上忙。"
+    },
+    {
+      "role": "user",
+      "content": "可兒生食沒問題，反而愛吃。Michael 週日下午有 SAT 模考班，大概五點結束。那就訂日料好了。幫我看訂位要怎麼講，我等下打電話過去。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就日料、時間抓晚一點留 buffer。打過去可以這樣說：「您好，想訂這週日晚上的包廂，四位，時間六點半，其中一位可能晚到十五分鐘左右，麻煩幫忙保留。有沒有安靜一點、不靠走道的位子。」順便問一下包廂有沒有低消或最低人數，免得當天才知道。要的話，我也可以幫你擬一則給家裡群組的訊息。"
+    },
+    {
+      "role": "user",
+      "content": "好，群組訊息也幫我擬一個。我發現我自己寫這種訊息都寫得很像在發開會通知，太太唸過我好幾次。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就把「通知感」拿掉，時間地點留著就好。可以這樣：「這週日晚上六點半，訂了 XX 的包廂，我們四個一起吃個飯。Michael 模考五點結束，慢慢來不急，到時候見。」比原本少了流程感，多一句「不急」，讀起來就比較像家人約飯，不像在排議程。"
+    },
+    {
+      "role": "user",
+      "content": "這樣順多了。對了，要不要順便問一下大伯那邊週日有沒有安排，免得撞到家族的局。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果只是你們四個的小聚，其實不一定要先報備；你想避開撞到家族聚會的話，傳一句「週日晚上帶他們去吃個飯，那天家裡若有安排再跟我說一聲」就夠了，語氣是知會、不是請示。訂位我先幫你把這個版本留著，你跟餐廳確認好時間，再把群組訊息發出去就行。"
+    },
+    {
+      "role": "user",
+      "content": "行，那我先打電話訂，時間定了再發群組。謝了。"
+    }
+  ]
+}

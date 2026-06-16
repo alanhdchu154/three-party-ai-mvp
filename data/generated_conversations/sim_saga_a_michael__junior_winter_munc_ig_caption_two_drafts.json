@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_michael__junior_winter_munc_ig_caption_two_drafts",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二冬天，GIIS 模聯隊到香港參加交流會剛回來幾天",
+    "AP English 期末 Hamlet 論文 deadline 在下週",
+    "上個月有同學在群組裡笑他寫文章愛用大字眼"
+  ],
+  "scenario_seed_id": "junior_winter_munc_ig_caption_two_drafts",
+  "scenario_seed": "高二冬天，Michael 模聯香港交流回來，挑了一張在維港邊喝凍奶茶的照片想發 IG 限動。兩版 caption 卡住——一版自己覺得太認真像 humble brag，另一版又像在硬講冷笑話。他想 AI 幫他判斷哪版比較不出醜，或乾脆給他第三種寫法。深夜在書桌前順手問的。",
+  "generated_at": "2026-05-27T20:30:00",
+  "occurred_at": "2025-01-18T23:48:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸 random question——我 IG 限動 caption 卡住。MUN 香港回來那張喝奶茶的照片，我寫了兩版我自己看都覺得有點 cringe。可以幫我看一下哪版比較不出醜嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以。你貼上來吧。順便講一下你發出去主要是給誰看——整個 follower，還是其實是給隊上那幾個人？"
+    },
+    {
+      "role": "user",
+      "content": "follower 都會看到啦，但我老實講我比較在意的是同隊那幾個。一版是「Hong Kong: more committees, more cha chaan teng. 還是奶茶最贏。」另一版是「The only resolution that passed: lemon tea > coffee.」第一版我覺得太認真好像在 humble brag 我去過幾個 committee，第二版又有點 try-hard 冷笑話。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩版我都看得出你想要的 effect。第一版確實會被讀成「他在 cue 自己去過幾場」，第二版是 quote-tweet 等級的小機智。你說的同隊那幾個人，比較會吃哪一種？"
+    },
+    {
+      "role": "user",
+      "content": "嗯⋯⋯老實講同隊那幾個學弟妹大概兩種都會看出來我在 try。可是我又不可能完全不發。我想要的感覺其實是「他沒很在意」，但又能讓他們知道我這趟玩得還行。"
+    },
+    {
+      "role": "assistant",
+      "content": "那兩版可能都不剛好做到那件事。「沒很在意」的 vibe，通常 caption 反而不點題比較安全——讓照片本身講，文字只放個 location 或一個小註腳就好。比如只寫一個地名加時間之類的。要不要試這個方向？"
+    },
+    {
+      "role": "user",
+      "content": "OK 這個我可以接。那如果我寫「Causeway Bay, between sessions」呢？有點 hint 是 MUN 但不會像在強調。"
+    },
+    {
+      "role": "assistant",
+      "content": "這版讀起來輕很多。between sessions 那個留白也比較像你平常的語氣。要不要先存草稿放半天，明天早上再回來看一次再發？看不順就再換一版。"
+    }
+  ]
+}

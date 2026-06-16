@@ -25,18 +25,34 @@
 |---|---|---|---|
 | 1 | 重跑 `dimension_scores`（9 personas）— 注入 28 段日常後過時，特別驗證 shallow/medium 沒不當推高 strain | Claude（派 agent） | ✅ 完成 2026-05-21 |
 | 2 | 重生 `analysis_reports`（4 學生）— 同上過時 | Claude（派 agent） | ✅ 完成 2026-05-21 |
-| 3 | 重跑 `case_summaries` + `audience_reports`（**現在過時，依賴 #1#2 已完成的新 profile/dimension**） | **Codex**（熟那兩個 script 的 flag） | ⏳ 待做（可開始） |
-| 4 | 全部重跑後跑 `audit_conversation_quality.py` + `pytest` 收尾 | Codex 或 Claude | ⏳ 待做（等 #3） |
+| 3 | 重跑 `case_summaries` + `audience_reports`（依賴 #1#2 profile/dimension） | Codex | ✅ 完成 2026-05-26 |
+| 4 | 全部重跑後跑 `audit_conversation_quality.py` + `pytest` 收尾 | Codex 或 Claude | ⚠️ Core tests pass；full pytest blocked by missing local `streamlit` |
 | 5 | 清理 `data/synthetic_dataset.v1.json` + `__pycache__`/`.pytest_cache`（沙盒無刪除權限）| **Alan**（Mac 上 rm） | ⏳ 待做 |
 | 6 | Revoke 外洩的 keys：Gemini / Groq / GitHub PAT（都出現在對話 log）| **Alan** | ⏳ 待做 |
-| 7 | Review `docs/generation_logic.md` §5 §6（隱私 + 自動化風險）| **Umi** | ⏳ 待做 |
-| 8 | 長期：corpus 仍 deep-heavy（~75%），讓 hourly task 慢慢拉向 40/35/25，定期看 audit | 自動 + 定期人工 | 🔄 進行中 |
+| 7 | Review `docs/generation_logic.md` §5 §6（隱私 + 自動化風險）| Umi | ✅ Framing + timeline risks patched 2026-05-26 |
+| 8 | 長期：corpus 往 40/35/25 rebalancing；目前 deep 已降到約 40%，但 timeline lookback 太偏 `past_week` | 自動 + 定期人工 | 🔄 進行中 |
 
 > 完成一項就把狀態改成 ✅ 並在 Work Log 補一筆；不要直接刪掉，劃 ✅ 保留可追溯。
 
 ---
 
 ## § Work Log（append-only，新的放最上面）
+
+### 2026-05-26 · Codex/Umi · Timeline-aware corpus refresh + downstream validation
+- 做了什麼：把 repo framing 修回「真實 GIIS 三方 AI 教育協調系統，synthetic/dummy data 只是 real student data pending 前的 rehearsal layer」；新增 timeline slice / lookback schema，讓對話可以發生在國中、高一、高二、高三、retrospective，而不是全部像最近一週。
+- 為什麼：Alan 指出這不是遊戲，也不是 synthetic benchmark 本身；生成資料需要能表達「過去半年發生過什麼」，否則 pilot rehearsal 會缺少真實學生時間厚度。
+- 動到哪些檔案：`README.md`、`docs/repo_understanding.md`、`docs/market_positioning.md`、`docs/generation_logic.md`、`docs/conversation_quality_framework.md`、`docs/scheduled_saga_a_hourly_conversation.md`、`scripts/audit_conversation_quality.py`；同步更新 `/Users/alanhdchu/Documents/Claude/Scheduled/saga-a-hourly-conversation/SKILL.md`。
+- Downstream：重跑 `scripts/generate_case_summaries.py` 和 `scripts/generate_audience_reports.py`，產出 9 case summaries + 27 audience reports。
+- 最新 audit snapshot：205 conversations；deep 82 (40.0%) / shallow 70 (34.1%) / medium 53 (25.9%)；avg 23.8 turns。新 timeline 欄位已出現 87 段，但 `lookback_window` 還是太偏 `past_week`（75/87），需要接下來 hourly task 多生成 `past_month` / `past_semester` / `past_half_year`。
+- Verification：`python scripts/audit_conversation_quality.py` pass with one warning about `past_week` concentration；`python -m pytest -q tests/test_saga_a_regression.py tests/test_analysis_layer.py tests/test_privacy.py tests/test_report_variants.py tests/test_safety_infra.py` = 27 passed, 1 skipped；full `pytest` 在目前 Python env 因缺 `streamlit` collection failed，尚未完成全量測試。
+- 狀態 / handoff：#3 ✅、#4 core ✅但 full env test blocked、#7 ✅。下一步是讓 scheduled generation 繼續補 semester/half-year context，並在安裝 Streamlit 的 env 跑完整 pytest。
+
+### 2026-05-25 · Central Umi · Read-only corpus status refresh
+- 做了什麼：Central Umi 跨專案巡檢時跑 `python scripts/audit_conversation_quality.py`，沒有生成新對話、沒有改 corpus。
+- 為什麼：確認 scheduled hourly generation 之後，central status 不再沿用 2026-05-21 的 110 段舊數字。
+- 動到哪些檔案：`AGENTS.md` / `CLAUDE.md` 只補一句提醒 current corpus counts 要以 `WORKLOG.md` + audit script 為準；本 entry 記錄最新 snapshot。
+- 最新 snapshot：176 conversations；deep 82 (46.6%) / shallow 55 (31.2%) / medium 39 (22.2%)；avg 25.5 turns。deep 仍略高於 45% warning threshold，但比 2026-05-21 的 74.5% 明顯改善。
+- 狀態 / handoff：#3 `case_summaries` + `audience_reports` rerun 仍待做；#4 audit + pytest 收尾仍等 #3。不要把目前 corpus 當作已完成 validation。
 
 ### 2026-05-21 · Claude · 重跑 downstream #1 #2（dimension_scores + analysis_reports）
 - 派 9 個 agent（4 學生做維度+report、5 非學生做維度），全部載入含新 shallow/medium 的完整對話重評。

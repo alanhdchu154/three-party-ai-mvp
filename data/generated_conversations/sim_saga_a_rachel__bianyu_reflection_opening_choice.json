@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_rachel__bianyu_reflection_opening_choice",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二下國文老師這學期改用單篇讀本心得取代月考小論文，每兩週交一篇 200 字",
+    "Rachel 已經連續三週都拖到交件前一晚才寫，但每次都壓在字數上限內收掉",
+    "這週讀本是沈從文《邊城》，全班大多寫翠翠與儺送的感情線"
+  ],
+  "scenario_seed_id": "bianyu_reflection_opening_choice",
+  "scenario_seed": "高二下國文要交 200 字的《邊城》心得，明天早上第一節要交。正文已經寫完，重點放在翠翠那種『一直等但其實不知道在等什麼』。卡在開頭：一版用問句『翠翠等的到底是誰？』切入，一版描寫她在渡口看夕陽。兩版都不太滿意,凌晨想找 AI 幫她決定該選哪一個切點。",
+  "generated_at": "2026-05-25T23:40:00Z",
+  "occurred_at": "2025-04-22T23:38:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "明早國文要交 200 字的《邊城》心得,正文寫完了,可是開頭卡很久。我寫了兩版,一版是用問句『翠翠等的到底是誰?』切入,一版是描寫她在渡口看夕陽。兩版我都不滿意。"
+    },
+    {
+      "role": "assistant",
+      "content": "兩版差別蠻清楚的——問句把讀者拉去想答案,描寫先把讀者放進那個畫面。妳正文主要寫什麼?"
+    },
+    {
+      "role": "user",
+      "content": "我寫的是她那種『一直等,但其實不知道在等什麼』的感覺。比起感情,我更想寫等待本身。"
+    },
+    {
+      "role": "assistant",
+      "content": "如果正文是『等待的不確定』,描寫開頭跟結尾會比較自然呼應。問句版的問題不是太慢,是它先把答案丟出來,後面妳就只能再講一次。"
+    },
+    {
+      "role": "user",
+      "content": "⋯⋯嗯,你這樣講我懂了。我本來怕描寫太慢,老師打分數會覺得拖。"
+    },
+    {
+      "role": "assistant",
+      "content": "描寫不一定要寫長。一兩句把場景定下來,剩下的字數留給妳對等待的詮釋,應該不會拖。"
+    },
+    {
+      "role": "user",
+      "content": "好,那我就留一兩句場景,然後正文不動。200 字應該還塞得下。謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "不客氣,順利交出去。"
+    }
+  ]
+}

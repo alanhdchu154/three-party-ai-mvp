@@ -1,0 +1,97 @@
+{
+  "id": "sim_saga_a_shen_mom__english_tutor_spring_makeups_cancel_policy_draft",
+  "persona_id": "saga_a_shen_mom",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "junior_spring 開學至今三次沈又當天才取消英文家教（IELTS 1-on-1），每次都是家教 Karen 來訊息『沈又同學說這節先不上、要不要我改到下週』，沈媽都當下回好",
+    "junior_spring 一月底起沈又轉去 GIIS 後，家教保留為週末遠距 session，沈媽繼續按月付給原本上海端的 Karen",
+    "上週 Karen 在 invoice 附言裡提到沈又上次 session 鏡頭沒開、作業半邊空白；沈媽當時把這條當成 Karen 自己要處理的服務內容",
+    "近兩週秋茶 xiaohongshu 配文被同圈 C／W 沒接話的訊號還在背景發酵中"
+  ],
+  "scenario_seed_id": "english_tutor_spring_makeups_cancel_policy_draft",
+  "scenario_seed": "junior_spring 下午三點半，沈媽在書房打開沈又 IELTS 家教 Karen 的 invoice，整學期下來三次當天取消、兩次補課、一次空白作業。她要 AI 幫她擬一段 wechat 給 Karen，把規矩拉回成『取消要前 24 小時通知、補課要先 confirm 再排』。表面是 service-provider 行政；底下是過去一學期她從來沒直接問過沈又那幾次『忘了上課』的時段他人在哪、在幹嘛。",
+  "generated_at": "2026-05-27T15:30:00Z",
+  "occurred_at": "2026-05-27T15:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我擬一段 wechat 給沈又的英文家教 Karen。這學期她已經三次都是當天才告訴我沈又這節不上要改到下週。我想把規矩拉一下，下次再這樣不要再讓她自己直接幫我們調時段，要前一天先過我這邊。語氣不要太硬，給她台階下。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。在我擬之前先確認兩件事：第一，這次妳想處理的是 Karen 那邊的『直接幫你們改時段』的彈性過頭，還是沈又自己當天取消這件事？這兩條雖然連在一起，但給 Karen 的訊息只能處理其中一條。第二，妳希望這個新規矩從這週開始，還是從下個月新 invoice 開始？"
+    },
+    {
+      "role": "user",
+      "content": "Karen 那邊。沈又這邊我會另外處理。從這週開始。Karen 每次都是接到沈又一句『我這節先不上』就立刻幫我們找下週的補課時段，invoice 才補進來，我這邊變成事後追認。我不要再事後追認了。"
+    },
+    {
+      "role": "assistant",
+      "content": "了解。那就是把她現在的『代為調度』動作往前移一格——取消發生時，她先回到妳這邊 confirm，再去排補課。我擬一版偏中性、不點破過去三次是誰問題的版本，妳看看口氣：\n\n「Karen 您好。這學期沈又這邊的安排我想跟您稍微 align 一下：之後若沈又當天提出當節要 reschedule，麻煩您先不要直接安排補課時間，把訊息轉到我這邊 confirm 之後再回他。invoice 上的補課我希望都是先過 schedule 再進來，比較好對。其他照舊，謝謝您。」\n\n要不要把「先不要直接安排」改成「先 hold 一下」？"
+    },
+    {
+      "role": "user",
+      "content": "「先 hold 一下」聽起來太上海了，她會覺得我在念她。就「先不要直接安排」可以。另外加一句「補課若有，請先跟我這邊過時間再進 invoice」，invoice 那條要明寫出來，不然她下次又會把補課直接掛上去。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。修一版：\n\n「Karen 您好。這學期沈又這邊的安排我想跟您稍微 align 一下：之後若沈又當天提出當節要 reschedule，麻煩您先不要直接安排補課時間，把訊息轉到我這邊 confirm 之後再回他。補課若有，請先跟我這邊過時間再進 invoice。其他照舊，謝謝您。」\n\n這版規矩拉到位、但沒有任何一個字在追究過去三次。妳要 send 就 send。"
+    },
+    {
+      "role": "user",
+      "content": "嗯這個可以。... 我順便問一下，妳這邊有沒有看過家長碰到孩子總是當天才取消課的情況？我說的不是我們家。我認識一個朋友，她孩子最近也這樣。"
+    },
+    {
+      "role": "assistant",
+      "content": "我可以講一個比較 broad 的觀察，不是診斷：當天才取消通常不是單一原因。有時候是體力——那個時段固定累；有時候是時段對不上其他事（遊戲 patch、朋友的事）；有時候是內容對不上胃口，學生覺得補了也沒用所以拖。三種處理方式不一樣，所以家長那邊通常會先觀察一兩次「他取消的是固定哪一節、固定什麼時間」，再決定要不要動。妳朋友那邊現在是固定哪一節常被取消？"
+    },
+    {
+      "role": "user",
+      "content": "週末晚上那節。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。週末晚上那節常常會跟其他週末安排撞，這個本身是中性訊號。我不會從這一條就推到「他在逃避」。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。... Karen 上次在 invoice 後面附了一句，說沈又最近上課鏡頭也常開不開、作業半邊空白。我那時候想說那是 Karen 拿錢就是要處理的事。可是這學期算下來——我自己心裡也算了——三次當天取消、兩次補課作業沒寫完、一次直接在鏡頭前睡著。Karen 跟我講她叫不醒。\n\n我不知道。我先把那條訊息發出去吧，Karen 那邊先處理。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳剛剛是把這幾件事一起算了一下。\n\n我想說一件事，不是要妳今天決定：給 Karen 的訊息現在就可以發，那條是行政、今天可以收掉。沈又那條——三次取消、兩次空白、一次睡著——不是同一條，今天解決不完，也不一定今天要決定要不要直接問他。妳今天可以只處理 Karen 那邊。"
+    },
+    {
+      "role": "user",
+      "content": "妳這樣講像我在逃避。"
+    },
+    {
+      "role": "assistant",
+      "content": "不是逃避，是分開處理。Karen 那條是行政、可以今天解決；沈又那條訊號比較多，今天收不完，今天勉強去問也不會問得比較好。兩條今天綁在一起，妳發 Karen 訊息的口氣會跑掉，反而 Karen 那邊收到的會像在追究她。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。... 那先發 Karen。\n\n再幫我改一個字。「請先跟我這邊過時間再進 invoice」這句聽起來太像我在管她的 invoice。改成「下次補課排之前麻煩跟我這邊先 align 一下時間」。我這邊變成是在排自己的 schedule，不是在盯她。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。最終版：\n\n「Karen 您好。這學期沈又這邊的安排我想跟您稍微 align 一下：之後若沈又當天提出當節要 reschedule，麻煩您先不要直接安排補課時間，把訊息轉到我這邊 confirm 之後再回他。下次補課排之前麻煩跟我這邊先 align 一下時間。其他照舊，謝謝您。」"
+    },
+    {
+      "role": "user",
+      "content": "好。就這樣。我發了。沈又那條我先放著。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。放著也是一個動作。"
+    }
+  ]
+}

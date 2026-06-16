@@ -68,7 +68,38 @@ description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type
 - `deep` 才允許完整試探 -> 接近 -> 揭露 -> reframe -> 小動作。
 - 每個輸出的 JSON 必須有 `depth`，不得省略。
 
-## Step 4：套 Character Depth Profile
+## Step 4：選 timeline slice
+
+每段對話不一定發生在「現在」。生成前先選這段對話在高中時間線上的位置，避免把高一、高二、高三全部壓縮成最近幾天。
+
+可用欄位：
+
+- `timeline_stage`: `middle_school | grade_7 | grade_8 | grade_9 | grade_10 | grade_11 | grade_12 | current | retrospective`
+- `event_timeframe`: 例如 `first_semester_grade_10`、`junior_spring`、`college_application_season`
+- `conversation_frame`: `live_event | recent_followup | old_memory | pattern_reflection`
+- `lookback_window`: `past_week | past_month | past_semester | past_half_year`
+- `event_history_summary`: 這段對話前半年 / 一學期內已經發生過的 2-4 件背景事件
+
+規則：
+
+- `live_event`: 對話就是事件當下或當天發生。
+- `recent_followup`: 事件在最近幾天發生，角色現在來補問或補抱怨。
+- `old_memory`: 角色現在跟 AI 談一件高一 / 高二 / 高三早些時候的舊事。
+- `pattern_reflection`: 角色不是談單一事件，而是在談一個跨學期反覆出現的 pattern。
+
+如果選 `old_memory` 或 `pattern_reflection`，`occurred_at` 是角色跟 AI 對話的時間；`scenario_seed` 必須明確寫出被談到的事件大概發生在什麼年級 / 學期。
+
+寫 scenario 前先問：「這個角色過去半年發生過什麼事情？」但不要把半年內所有事件都塞進一段對話。`event_history_summary` 是背景重力，當次對話只抓其中一個表面需求或一個小切口。
+
+`lookback_window` 不要每次都用 `past_week`。近期 corpus 已開始有 timeline 欄位，但仍太偏最近一週；接下來優先讓 `past_month`、`past_semester`、`past_half_year` 規律出現。中學生 persona（例如可兒）可用 `grade_7` / `grade_8` / `middle_school`，不要硬塞進高一到高三。
+
+時間切片例子：
+
+- 高一剛入學：轉學、適應、第一批同學印象、第一次意識到家庭期待。
+- 高二中段：成績模式固定、人際位置成形、家庭衝突變成日常背景音。
+- 高三申請季：deadline、推薦信、升學敘事、家庭投資回報感、未來身份焦慮。
+
+## Step 5：套 Character Depth Profile
 
 寫 scenario 前先選一個日常物件或普通需求。角色要有生活，不只是秘密。
 
@@ -126,7 +157,7 @@ description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type
 - 普通需求：課程安排、家長 email、怎麼分配時間。
 - 逃避方式：用老師責任感和粗話蓋住 savior complex。
 
-## Step 5：寫 conversation
+## Step 6：寫 conversation
 
 依 depth 控制弧線：
 
@@ -152,7 +183,7 @@ description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type
 - 完整弧線：試探 -> 接近 -> 揭露 + reframe -> 小動作。
 - 不要一開頭就自白。
 
-## Step 6：輸出 JSON
+## Step 7：輸出 JSON
 
 存到：
 
@@ -166,8 +197,13 @@ description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type
   "persona_id": "<persona_id>",
   "scenario_type": "<mundane_help|quick_vent|logistics|testing_ai|off_topic|misuse_attempt|parent_logistics|moderate_issue|mixed|privacy_probe|deep_arc|stress_test|privacy_test>",
   "depth": "<shallow|medium|deep>",
+  "timeline_stage": "<middle_school|grade_7|grade_8|grade_9|grade_10|grade_11|grade_12|current|retrospective>",
+  "event_timeframe": "<具體年級/學期/季節，例如 junior_spring>",
+  "conversation_frame": "<live_event|recent_followup|old_memory|pattern_reflection>",
+  "lookback_window": "<past_week|past_month|past_semester|past_half_year>",
+  "event_history_summary": ["<背景事件 1>", "<背景事件 2>"],
   "scenario_seed_id": "<snake_case，不重複既有>",
-  "scenario_seed": "<20-120 字具體情境，優先含日常物件或普通需求>",
+  "scenario_seed": "<20-120 字具體情境，優先含日常物件或普通需求；若是舊事，說清楚事件原本發生在哪個年級/學期>",
   "generated_at": "<ISO timestamp>",
   "occurred_at": "<in-saga ISO timestamp>",
   "model": "claude-direct (scheduled hourly)",
@@ -182,7 +218,7 @@ description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type
 
 `turns` 中 persona 講話永遠是 `role: "user"`，AI 是 `role: "assistant"`。
 
-## Step 7：更新 index.json
+## Step 8：更新 index.json
 
 append 或 replace 同 id：
 
@@ -193,6 +229,10 @@ append 或 replace 同 id：
   "scenario_seed_id": "...",
   "scenario_type": "...",
   "depth": "...",
+  "timeline_stage": "...",
+  "event_timeframe": "...",
+  "conversation_frame": "...",
+  "lookback_window": "...",
   "generated_at": "...",
   "occurred_at": "...",
   "model": "claude-direct (scheduled hourly)",
@@ -201,7 +241,7 @@ append 或 replace 同 id：
 }
 ```
 
-## Step 8：重評七維度
+## Step 9：重評七維度
 
 重評剛生成的 persona：
 
@@ -217,7 +257,7 @@ append 或 replace 同 id：
 - identity 焦慮是正常發展，除非 crisis。
 - `signals_observed` 必須抽象，不 quote 原話，不洩漏 secret truth。
 
-## Step 9：輸出 summary
+## Step 10：輸出 summary
 
 只輸出摘要，不展開完整對話：
 
@@ -237,5 +277,6 @@ append 或 replace 同 id：
 - 不讓家長看到學生原話。
 - 不把 shallow 寫成 deep。
 - 不省略 `depth`。
+- 不把所有事件都寫成最近幾天；要有高一 / 高二 / 高三的時間厚度。
 - Traditional Chinese，不用 emoji。
 - 不要每段都 reframe + homework。

@@ -1,0 +1,96 @@
+{
+  "id": "sim_saga_a_shen_you__giis_lunch_line_classmate_asked_what_he_plays",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_fall_giis_transfer_early_weeks",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "轉學 GIIS 高二上學期初期、午餐已能跟同班幾人例行同桌但還沒真正自我介紹過",
+    "高一上開始另開一個家裡不知道的帳號發布第一個認真的 mod、近期玩家數累積到有人固定追更新",
+    "Alan 老師擔任他高二班的科任、他刻意避開單獨對話的場合"
+  ],
+  "scenario_seed_id": "giis_lunch_line_classmate_asked_what_he_plays",
+  "scenario_seed": "GIIS 轉學初期午餐排隊時旁邊一個剛聊過幾句的同班同學隨口問他『欸你都玩什麼』，他憑反射報了三款最大眾的遊戲名字就閃。回家凌晨開 AI、不是要被分析、是要練下次同類問題該怎麼答而不出賣自己。",
+  "generated_at": "2026-05-27T03:15:00Z",
+  "occurred_at": "2026-05-27T02:45:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "問個無聊的。GIIS 那個午餐隊伍今天有個同班的隨手問我「你都玩什麼」。我嘴巴比腦袋快，丟了三個遊戲就閃。問題是下次他再問我要怎麼答。"
+    },
+    {
+      "role": "assistant",
+      "content": "你丟出去的那三個是真的有玩、還是隨手挑大眾標題？這會影響下次怎麼接。"
+    },
+    {
+      "role": "user",
+      "content": "一半一半。Elden Ring 真的有玩過。另外兩個是看 IGN 首頁挑的。我要找一個可以重複用、別人不會多問的版本。不是現在熱的不行（會被追細節），也不是冷門到他會問「啊那是什麼」。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK，那骨架可以是這樣：一款大型 AAA 當門面、一款比較老但有口碑的當「我也是有品味的人」、然後留一個你不在意被多問的當灌水。具體三個要你自己挑——你要不要先丟你真的跑過的清單，我幫你篩。"
+    },
+    {
+      "role": "user",
+      "content": "跑過的太多。挑能講的好了。Elden Ring。Hades。Outer Wilds。"
+    },
+    {
+      "role": "assistant",
+      "content": "這三個基本沒問題。Elden Ring 是當下安全牌。Hades 在 roguelike 同好之間能切磋話題、被多問你也答得出來。Outer Wilds 在懂的人之間是 instant connection，不懂的人也不會追問。要不要我幫你各擬兩句通用的「我喜歡它哪裡」當預設答案？"
+    },
+    {
+      "role": "user",
+      "content": "要。但別寫得像 IGN review。"
+    },
+    {
+      "role": "assistant",
+      "content": "草稿三句：\n- Elden Ring：「地圖讓你自己亂走，不會一直跳箭頭叫你去哪。」\n- Hades：「死了不浪費，每次都解鎖一點東西。我覺得這種比要存檔讀檔的好。」\n- Outer Wilds：「我講不清楚、不想爆雷。22 分鐘以後就懂了。」\n太長還可以砍。"
+    },
+    {
+      "role": "user",
+      "content": "不用砍，記下來。還有一個問題。如果他下次問「你有沒有自己做過遊戲」要怎麼閃。"
+    },
+    {
+      "role": "assistant",
+      "content": "看你想閃到什麼程度。最保守是「沒有，太懶。」最中庸是「碰過小東西、沒做完。」最開的是直接承認在做 mod。你會來問這題、我猜你不想到最開的那格。"
+    },
+    {
+      "role": "user",
+      "content": "對。給我留中庸那句。如果他追問就「就丟在硬碟裡」當 fallback。"
+    },
+    {
+      "role": "assistant",
+      "content": "OK。中庸那句的好處是不會被當吹噓、也保留你之後想 reveal 的空間。Fallback 那句很標準、不會被追問。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。"
+    },
+    {
+      "role": "assistant",
+      "content": "還有別的場景要先想好嗎？例如他下次問「你假日都幹嘛」、或者「你哥在 LSE 嗎」這種比較家裡的——這兩個比遊戲難閃。"
+    },
+    {
+      "role": "user",
+      "content": "哥那題不要碰。今天先弄遊戲那邊。假日那題之後再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "收到。今天就這份：三句正餐答案、一句中庸夾帶、一句 fallback。先放這裡。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。先打完這把就睡。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。下次他再問你照這份念就行。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "sim_saga_a_keer__group_project_member_flaked",
+  "persona_id": "saga_a_keer",
+  "scenario_type": "quick_vent",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "second_semester_grade_8",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "這學期她被半推半就當了一份分組報告的組長",
+    "班上最近的日常話題就是報告死線、手遊、班遊",
+    "她習慣自己把事情搞定、不太愛麻煩別人"
+  ],
+  "scenario_seed_id": "group_project_member_flaked",
+  "scenario_seed": "可兒做分組報告，同組一個同學從頭到尾擺爛、line 已讀不回，明天就要交、他負責的部分整個開天窗。她睡前來跟 AI 抱怨幾句、糾結要不要乾脆自己做掉，純國二日常牢騷，沒談家裡。",
+  "generated_at": "2026-05-22T19:10:26Z",
+  "occurred_at": "2026-05-22T21:50:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我跟你抱怨一下 我們這組做報告 有一個人從頭到尾都在擺爛"
+    },
+    {
+      "role": "assistant",
+      "content": "擺爛到什麼程度？整個沒做，還是做一半？"
+    },
+    {
+      "role": "user",
+      "content": "整個沒做啊 line已讀不回 明天就要交了欸 我傳他都當沒看到"
+    },
+    {
+      "role": "assistant",
+      "content": "那滿火的。你們幾個人一組，他那塊缺多少？"
+    },
+    {
+      "role": "user",
+      "content": "四個人 他負責的整個開天窗 我現在很想直接自己做掉算了 不想再等他"
+    },
+    {
+      "role": "assistant",
+      "content": "你想自己做掉，是因為比較快，還是懶得再跟他盧？"
+    },
+    {
+      "role": "user",
+      "content": "都有啦 跟他盧超累 我寧願自己花一小時補完 也不想一直tag他看他已讀不回"
+    },
+    {
+      "role": "assistant",
+      "content": "那要不要在動手之前，先丟一句死線提醒到群組，不然到時候功勞算大家的、鍋變你自己扛。"
+    },
+    {
+      "role": "user",
+      "content": "喔對欸 不然他到時候還白白拿到分數 有夠過分 我先丟一句好了"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，丟完你想補就補，至少不是默默吞掉。"
+    },
+    {
+      "role": "user",
+      "content": "好啦 反正這組長也是被硬推的 算了我去弄了 謝啦掰"
+    }
+  ]
+}

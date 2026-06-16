@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_michael_mom__helper_visa_followup_short_message_to_agency",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring_end_of_term",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "上個月 Michael 從學校宿舍 facetime 短短講了一下、提到暑假可能少回家，因為書院在排一個暑期 reading group。",
+    "上週可兒的鋼琴老師確認暑假改成早上九點到家裡客廳上課、要先把家裡平台鋼琴的調音排好。",
+    "兩週前家事仲介那邊回助理說，新到任的印尼籍幫傭簽證進入最後階段，下旬之前會給確切到台日期。",
+    "原本協助多年的幫傭年初合約結束後沒續、家裡這段時間靠日結鐘點工撐著。"
+  ],
+  "scenario_seed_id": "helper_visa_followup_short_message_to_agency",
+  "scenario_seed": "週二午後她在書房用筆電開 WeChat 視窗，想自己給家事仲介發一則短訊。新到任的印尼籍幫傭原本說好六月初到台北、今天已經五月二十六日、簽證進度沒下文，她想問實際日期但不想顯得在催。",
+  "generated_at": "2026-05-26T23:50:00+08:00",
+  "occurred_at": "2026-05-26T15:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我看一段訊息。家事仲介那邊新來的印尼籍幫傭原本說六月初到台北，今天五月二十六了，簽證沒下文。兩週前我助理跟他確認過，他那時說『下旬之前會給確切到台日期』。我想直接發一則問進度，但不希望語氣像在催。可以幫我擬一下嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "先確認兩件事，措辭差很多。一、你這次想拿到的是『具體哪一天人會到台北』、還是『卡在哪一個關卡，例如簽證、體檢還是機票』？二、這則訊息是直接發給仲介本人，還是先讓助理發、你再轉用個人帳號跟一句？"
+    },
+    {
+      "role": "user",
+      "content": "直接發給仲介本人。助理那邊上次已經發過了。我這次要的是具體日期，不是 process update。家裡六月上旬有安排要對齊，不能再含糊。"
+    },
+    {
+      "role": "assistant",
+      "content": "那訊息分三層。先回引他自己上次的承諾、再陳述你的時間視窗、最後鎖死一個明確問題。草稿例如：『上次提到下旬之前會有確切到台日期，今天五月二十六日，家裡六月上旬有安排要對齊，方便這兩三個工作天內告知預計到台日期嗎？』這樣語氣沒催、但他知道你在數日子。"
+    },
+    {
+      "role": "user",
+      "content": "OK，可是『家裡六月上旬有安排要對齊』這句太弱，他會覺得可以拖。把它拿掉。"
+    },
+    {
+      "role": "assistant",
+      "content": "拿掉沒問題，但要把壓力換到日期視窗上，不然整則訊息就鬆了。改成：『上次提到下旬之前會有確切到台日期，今天五月二十六日，方便這兩三個工作天內告知預計到台日期嗎？如果簽證端還有未定變數，也請一併說明。』後半句逼他要嘛給日期、要嘛承認還沒準備好給日期，他選哪邊你都拿到資訊。"
+    },
+    {
+      "role": "user",
+      "content": "後半句留著。我剛剛唸了一次比我自己原本想的順。發過去了。順便問一下，如果他三個工作天還沒回，我直接讓助理打電話、還是要再傳一次訊息？"
+    },
+    {
+      "role": "assistant",
+      "content": "三個工作天沒回，直接讓助理打電話。再傳一次訊息只會讓你看起來焦慮、實際上沒推進；電話可以當場問到人，也保留了你這邊『先給過 WeChat 緩衝』的姿態。"
+    },
+    {
+      "role": "user",
+      "content": "好。那我這邊先把鐘點工那邊的下週班表確認好，不要先動六月的安排，等他回再說。"
+    },
+    {
+      "role": "assistant",
+      "content": "對。鐘點工下週班表先固定到六月七日為止就好，再往後不要先排，等簽證日期確定再決定要不要延長、或者銜接到新幫傭。這樣兩邊都不浪費。"
+    }
+  ]
+}

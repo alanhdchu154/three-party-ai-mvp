@@ -1,0 +1,63 @@
+{
+  "id": "sim_saga_a_alan_teacher__weekend_novel_recommendation_after_grading",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "off_topic",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "late_spring_term_grading_season",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高三微積分期末考剛結束，Alan 連著幾天改數批考卷",
+    "學期接近尾聲，畢業班的雜事開始一件件收尾"
+  ],
+  "scenario_seed_id": "weekend_novel_recommendation_after_grading",
+  "scenario_seed": "改完高三最後一批微積分考卷，眼睛很累。Alan 想找一本跟工作完全無關、也不是學生會拿來在 IG 上裝讀過的硬書的小說，純粹週末放鬆用。",
+  "generated_at": "2026-05-22T05:09:50Z",
+  "occurred_at": "2026-05-22T18:12:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸今天把高三最後一批微積分考卷改完了，眼睛快瞎。週末想看點完全跟工作無關的小說，不要教材、也不要那種學生會在 IG 上裝讀過的硬書。推一本給我。"
+    },
+    {
+      "role": "assistant",
+      "content": "聽起來你要的是那種會一頁接一頁、不用做筆記的書。先問一下你自己平常的口味偏哪邊，推理、科幻，還是純文學？這樣我比較不會推到雷。"
+    },
+    {
+      "role": "user",
+      "content": "純文學可以，但我這週真的不想再碰那種大談人生意義的大部頭。改卷改到看到「存在」兩個字就煩。輕一點、寫得好就行。"
+    },
+    {
+      "role": "assistant",
+      "content": "懂，這週你的腦容量要留給休息。給你三個方向：石黑一雄的《克拉拉與太陽》，文字乾淨、情感慢慢滲；Elizabeth Strout 的《Olive Kitteridge》，短篇串起一個小鎮的人，很適合一段一段睡前讀；想再更無負擔就 Fredrik Backman 的《明天別再來敲門》。三本都好看又不費力，你想偏哪種調性？"
+    },
+    {
+      "role": "user",
+      "content": "克拉拉那本我同事一直推。但它會不會其實還是在偷渡大哉問，只是包裝得溫柔？"
+    },
+    {
+      "role": "assistant",
+      "content": "老實說會，它底下確實在問什麼是愛、什麼是人。但它不會把問題砸你臉上，是讓一個機器人很安靜地看著，你自己慢慢想，讀起來不累。要是你連這種都嫌重，那就先 Backman，那本純粹讓你笑著有點鼻酸，零負擔。"
+    },
+    {
+      "role": "user",
+      "content": "那就賭克拉拉吧。實體還電子？我那台 Kindle 不知道丟去哪了。"
+    },
+    {
+      "role": "assistant",
+      "content": "賭得不錯，這本評價很穩。你這週眼睛已經很操了，紙本對你大概比較友善，睡前不用再盯一塊發光的螢幕。要我順手幫你查附近還有貨的書店，還是你想直接線上下單明天到？"
+    },
+    {
+      "role": "user",
+      "content": "不用啦，我自己週六去書店逛逛，順便躲一下家裡。先這樣，謝了。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，週六就交給書店跟克拉拉。改完一整批卷子，也該換一本書來照顧你一下了。"
+    }
+  ]
+}

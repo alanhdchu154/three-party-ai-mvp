@@ -1,0 +1,57 @@
+{
+  "id": "sim_saga_a_stepdad__new_school_parent_email_who_replies",
+  "persona_id": "saga_a_stepdad",
+  "scenario_type": "parent_logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_10",
+  "event_timeframe": "first_semester_grade_10",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "Michael 媽改嫁進門不到一年、兩家還在磨合期",
+    "Michael 剛轉進 GIIS 高一、原本的社交圈幾乎重來",
+    "他刻意維持『對 Michael 和可兒一樣公平』的相處距離",
+    "大伯主導的董事會行程照常占滿他的平日上午"
+  ],
+  "scenario_seed_id": "new_school_parent_email_who_replies",
+  "scenario_seed": "高一開學第一個月，GIIS 寄來一封給家長的例行通知信，要線上簽一份校外教學同意書、再勾一個家長說明會時段。他不確定這種信該由他回還是讓 Michael 媽處理、怕越線也怕顯得不在乎，想請 AI 幫他看懂信裡要做什麼、並擬一句簡短得體的訊息給太太分工。純流程與措辭。",
+  "generated_at": "2026-05-23T12:11:00Z",
+  "occurred_at": "2023-09-12T10:20:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "GIIS 今天寄了一封家長通知信過來，要線上簽一份校外教學同意書，還要勾一個家長說明會的時段。我先想確認一下，這封信到底要我做哪些事。"
+    },
+    {
+      "role": "assistant",
+      "content": "其實就兩個動作：一是進系統把校外教學同意書簽掉，二是從幾個時段裡挑一個家長說明會的時間勾起來。這種信通常會附一個截止日，信裡有寫到期限嗎？先抓住那個日期就不會漏。"
+    },
+    {
+      "role": "user",
+      "content": "期限是這週五。不過我想先確認一件事，這種學校的信，是該我回，還是讓他媽處理比較合適。我不想越線。"
+    },
+    {
+      "role": "assistant",
+      "content": "這沒有標準答案，看你們家平常怎麼分工。如果同意書需要法定監護人簽，那一欄通常落在他媽或生父那邊；說明會時段這種，誰行事曆好排就誰勾，都很正常。要不要先問她一句『這封我來還是妳來』，省得兩邊都以為對方會弄。"
+    },
+    {
+      "role": "user",
+      "content": "也對。那同意書如果是監護權那邊的事，我就不碰。說明會時段我這邊看一下行事曆。幫我擬一句跟她說的話，簡短就好。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以這樣：『GIIS 來信要簽校外教學同意書、還要選家長說明會時段，週五前要弄好。同意書是不是妳簽比較順？說明會我看行事曆來勾。』一句話把分工講清楚，不用多解釋。"
+    },
+    {
+      "role": "user",
+      "content": "好。說明會三個時段，週二上午、週四下午、週六早上。我週二有董事會、週四通常也滿，大概只能週六。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就勾週六早上，順手鎖進行事曆，免得之後被別的會蓋掉。同意書等她回你再決定要不要接手。這封信這週五前該做的就這些了。"
+    }
+  ]
+}

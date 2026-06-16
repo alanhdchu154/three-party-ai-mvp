@@ -1,0 +1,65 @@
+{
+  "id": "sim_saga_a_michael__senior_yearbook_quote_pick",
+  "persona_id": "saga_a_michael",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "GIIS senior class 的 yearbook 編輯本週開始第二輪催稿，未交的會被列在 group chat",
+    "Michael 已在過去一週把申請季最後一輪 essay 收尾、模聯交件也告一段落",
+    "上一屆畢業 yearbook 有同學放了 Wittgenstein 引言、後來在學長姊 group chat 被反覆酸",
+    "yearbook 編輯給的格式限制是單行不超過 80 個字元、可中英文擇一"
+  ],
+  "scenario_seed_id": "senior_yearbook_quote_pick",
+  "scenario_seed": "senior_spring 接近畢業，yearbook 編輯第二次催繳 senior quote，48 小時內要交。Michael 手上有三個備選引言（Wittgenstein、村上春樹、一句中文古語），主要顧慮是不想跟去年被酸的那位撞，請 AI 幫他純功能性地刪去重複、挑出單行排版最不費事的那一個就送出。整段沒有家族或身分議題、沒有崩潰、就是一次正常的選擇諮詢。",
+  "generated_at": "2026-05-26T01:08:00Z",
+  "occurred_at": "2026-05-25T23:48:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "yearbook 編輯第二次催了，senior quote 48 小時內要交，我一直 defer。"
+    },
+    {
+      "role": "assistant",
+      "content": "是還沒想，還是想了但選不下來？"
+    },
+    {
+      "role": "user",
+      "content": "三個都不上不下。Wittgenstein 那句 Whereof one cannot speak, thereof one must be silent 太裝。村上 pain is inevitable, suffering is optional 太雞湯。最後一個放中文「無事此靜坐，一日當兩日」，又怕同學覺得我硬要。"
+    },
+    {
+      "role": "assistant",
+      "content": "你怕被同學酸，還是怕自己以後翻回來看尷尬？"
+    },
+    {
+      "role": "user",
+      "content": "主要是被酸。去年有人放 Wittgenstein，那批學長姊到現在 group chat 還在翻舊帳。"
+    },
+    {
+      "role": "assistant",
+      "content": "那 Wittgenstein 那句先直接刪掉，不要跟去年撞。剩兩個。"
+    },
+    {
+      "role": "user",
+      "content": "對。村上那句我自己看也膩、沒帶感。中文那句最短，編輯排版單行也最不費事，就定這個。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。要先存草稿明早再回看一次再送，還是現在送？"
+    },
+    {
+      "role": "user",
+      "content": "現在送，免得我又改。謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯，去送吧。"
+    }
+  ]
+}

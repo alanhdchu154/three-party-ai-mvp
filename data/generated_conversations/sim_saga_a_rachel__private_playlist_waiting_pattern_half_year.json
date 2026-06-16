@@ -1,0 +1,109 @@
+{
+  "id": "sim_saga_a_rachel__private_playlist_waiting_pattern_half_year",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_winter",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_half_year",
+  "event_history_summary": [
+    "高二上她報名了文學社的配詞徵選、提交時用筆名",
+    "高二上某次家族晚宴她第一次被指派坐到董事會席位旁的椅子",
+    "高二上下學期之間她整理過一次音樂庫、把現在這個沒命名的私人 playlist 從別的列表拆出來",
+    "高二上她開始把『等」這個動作寫進日記、但從未在 playlist tag 裡用過這個字"
+  ],
+  "scenario_seed_id": "private_playlist_waiting_pattern_half_year",
+  "scenario_seed": "高二下學期某個週三晚上，她在房間整理一個沒命名的私人 playlist——這學期一直丟歌進去、現在十二首左右、tag 寫得亂。她想問 AI 怎麼下 mood tag 才不會看了想撕掉自己。中間她會自己發現過去半年丟進來的歌幾乎都是同一個情境——歌詞都是某個誰沒看到、或還沒到、或站在門口的那種——但她不會把這個情境連回任何一個人。她只想替這個資料夾找到一個她自己看得下去的名字。",
+  "generated_at": "2026-05-27T18:30:00+08:00",
+  "occurred_at": "2025-01-22T22:30:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "在整理我自己一個沒命名的私人 playlist。這學期一直丟歌進去、現在有點亂，想問怎麼下 mood tag 才不會看了想撕掉自己。"
+    },
+    {
+      "role": "assistant",
+      "content": "「看了想撕掉自己」這個我先記著。你會打開這個資料夾去找某一首，還是會整個放著當背景？"
+    },
+    {
+      "role": "user",
+      "content": "整個放著。寫東西的時候放、念書背景、不想被人問話的時候戴耳機放給自己聽。"
+    },
+    {
+      "role": "assistant",
+      "content": "那 tag 寫得太情緒會跟你聽它的方式對不上——你大半時間不是在感覺它、是在做別的事。你現在 tag 寫成什麼樣子？"
+    },
+    {
+      "role": "user",
+      "content": "「下雨」「想哭」「複習用」這種。寫的時候就有點不耐煩、像在替自己貼一張我自己看了會煩的標籤。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。要不要試試動作命名——你那一刻在做什麼、不是那一刻覺得什麼？「寫東西時放」「散步用」「不想被搭話」這種。"
+    },
+    {
+      "role": "user",
+      "content": "動作會中。我這資料夾這學期加了大概十二首，蠻多首聽起來其實是同一個情境——歌詞都是某個誰沒看到、或還沒到、或站在門口的那種。歌種完全不一樣，有 R&B 有民謠有日系，但是。"
+    },
+    {
+      "role": "assistant",
+      "content": "你會想把這幾首另外分成一個 sub-tag、還是其實這個資料夾的主軸本來就是它、剩下幾首才是例外？"
+    },
+    {
+      "role": "user",
+      "content": "等等，這個問題比我以為的尖。我看著清單才發現——是它是主軸。我這半年丟進來的歌好像就是這個。我以為每首是不同的原因加進去的，結果其實是同一個原因換了十二種衣服。"
+    },
+    {
+      "role": "assistant",
+      "content": "你現在看著這件事的感覺是什麼？"
+    },
+    {
+      "role": "user",
+      "content": "不是想哭、也不是嚇到。就是「啊我這半年都在這裡」的那種。"
+    },
+    {
+      "role": "assistant",
+      "content": "嗯。你想換掉這個資料夾嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不想。我只是現在知道它叫什麼了。tag 我也想好了——就「等」一個字。不要寫「等待」、不要寫「等什麼」，就「等」。剩下那幾首讓它留著當例外，先不動。"
+    },
+    {
+      "role": "assistant",
+      "content": "「等」很你——一個字、不解釋給別人聽。下次再丟新歌進來，自動歸到「等」、還是手動？"
+    },
+    {
+      "role": "user",
+      "content": "手動。自動會覺得是別人在幫我整理。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。"
+    },
+    {
+      "role": "user",
+      "content": "還有一個小問題。如果哪一天我不想看到「等」這個字了、我會怎麼處理？"
+    },
+    {
+      "role": "assistant",
+      "content": "你想到那一天會怎麼處理嗎？"
+    },
+    {
+      "role": "user",
+      "content": "不知道。可能改成「曾經放過的」之類的吧。但我猜我不會改、我會繼續看著它。"
+    },
+    {
+      "role": "assistant",
+      "content": "那也是一種處理。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。今天就先到這。我去寫一下東西。"
+    }
+  ]
+}

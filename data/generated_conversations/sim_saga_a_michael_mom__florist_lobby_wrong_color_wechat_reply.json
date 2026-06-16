@@ -1,0 +1,55 @@
+{
+  "id": "sim_saga_a_michael_mom__florist_lobby_wrong_color_wechat_reply",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "grade_12",
+  "event_timeframe": "senior_spring_pre_graduation",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "上週收到 Michael 畢業典禮的家長著裝建議郵件，已交給造型師處理。",
+    "週日中午要在家裡辦一個八人的小型 brunch，邀的是太太圈裡少數兩個原配董娘與兩位老朋友。"
+  ],
+  "scenario_seed_id": "florist_lobby_wrong_color_wechat_reply",
+  "scenario_seed": "週六下午，固定合作的花藝師把週日 brunch 要用的門廳插花送到家。她訂的是香檳白，送來的是偏桃色。明天就要用，沒有時間整盆重做。她想用 WeChat 跟花藝師講要他補幾枝白色把整體拉回來，又不想顯得自己在計較那幾枝花。",
+  "generated_at": "2026-05-26T15:20:00+08:00",
+  "occurred_at": "2026-05-25T15:20:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我看一下。花藝師剛剛把週日 brunch 門廳的插花送來了，我訂的是香檳白，他送來的是淡桃色。明天就要用。我想用 WeChat 跟他講一下，可是不想顯得我在挑剔那幾枝花。你幫我擬一下要怎麼開口。"
+    },
+    {
+      "role": "assistant",
+      "content": "先確認方向。你比較想要他整盆重做、自己換瓶，還是請他明天早上現場補幾枝把桃色降下去？目的講清楚，措辭就好處理。"
+    },
+    {
+      "role": "user",
+      "content": "重做來不及。換瓶我自己不想跑。我想他明天一早送幾枝白的過來補一下，桃色就不會那麼跳。但我不想讓他覺得我在斤斤計較那幾枝花的錢。"
+    },
+    {
+      "role": "assistant",
+      "content": "那訊息分兩段就行。第一段陳述你看到的，不是抱怨，是事實；第二段直接給他可以做的事。例如：『今天送來的這盆色調偏桃，比較像下午茶的調子，跟我這次 brunch 的整體想要的香檳白有落差。明天 10 點前方便補幾枝白色和米色把整體拉回來嗎？』這樣他知道你不是要他整盆重做。"
+    },
+    {
+      "role": "user",
+      "content": "OK。後面想再加一句『辛苦你』之類的，不然顯得我在使喚他。"
+    },
+    {
+      "role": "assistant",
+      "content": "加在最後一句就好：『明早 10 點前送到都來得及，麻煩你了。』給他時間框，比抽象的客套有用，也不會讓你聽起來在道歉。"
+    },
+    {
+      "role": "user",
+      "content": "比我自己剛剛打的順。我打了三次都打不出來。發過去了。順便問，下次下單我是不是該先傳色卡給他？"
+    },
+    {
+      "role": "assistant",
+      "content": "色卡會幫你少掉這一輪。下次下單把參考照片或色號附在訊息裡，雙方有依據，到場就不用再對。"
+    }
+  ]
+}

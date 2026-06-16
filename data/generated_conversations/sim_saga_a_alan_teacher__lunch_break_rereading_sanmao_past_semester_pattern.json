@@ -1,0 +1,105 @@
+{
+  "id": "sim_saga_a_alan_teacher__lunch_break_rereading_sanmao_past_semester_pattern",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "spring_semester_grade_12_late_may",
+  "conversation_frame": "pattern_reflection",
+  "lookback_window": "past_semester",
+  "event_history_summary": [
+    "本學期帶 GIIS senior calc + 國中部數學選修,午休是少數沒有學生/家長壓力的空檔",
+    "杰尼 offer 仍未回覆、已二度延期,但本段對話他主動不展開",
+    "寒假前買的吳明益新書翻三章後擱置,書架第二排",
+    "上個月茶水間陳怡君問他最近看什麼,他答『三毛』,對話到此為止"
+  ],
+  "scenario_seed_id": "lunch_break_rereading_sanmao_past_semester_pattern",
+  "scenario_seed": "Alan 這學期午休 40 分鐘都在重讀三毛同一本書,有時候同一篇會翻兩遍。他發現自己已經五個月沒翻過新買的書,想丟給 AI 問問這是中年慣性還是某種訊號,語氣輕、帶乾式粗話,不打算把午休變諮商。",
+  "generated_at": "2026-05-27T19:00:00+08:00",
+  "occurred_at": "2026-05-25T17:55:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "操,問你一個沒什麼大不了的事。我發現我這學期午休都在重讀三毛。同一本《撒哈拉的故事》。有時候同一篇我會翻兩遍。我有問題嗎?"
+    },
+    {
+      "role": "assistant",
+      "content": "先反問你一個對照題:上一次你買新書、或是翻一本沒讀過的書,大概是什麼時候?"
+    },
+    {
+      "role": "user",
+      "content": "……至少五個月了吧。寒假前買了一本吳明益的新作,翻了三章就放在書架第二排。後來再也沒拿起來。家裡那一櫃新買沒讀完的大概還有四五本。"
+    },
+    {
+      "role": "assistant",
+      "content": "重讀跟拿一本新書,是兩種不同的閱讀力氣。重讀是被熟悉的句子接住,新書是要分一點注意力給一個陌生的聲音。聽起來這學期的你,在午休的那 40 分鐘比較需要前者。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。學生的東西每天都新。我帶兩個年級、加另外那邊不定期的單堂、家長信也是每週新的。午休是我這天裡唯一一段我可以選『我已經知道的東西』。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個本身沒什麼問題。但我多問一句:是『我中午就想選熟悉的就好』,還是『現在拿起新書翻兩頁就覺得累』?"
+    },
+    {
+      "role": "user",
+      "content": "……後者。現在新書翻兩頁就覺得,這個作者在跟我說話的時候我沒有力氣回應。三毛已經寫完了,她不會問我什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "這句值得記下來。它不是『我看不下書』,它是『我目前沒有額外的回應力氣分給新的聲音』。這跟懶或品味都不一樣。"
+    },
+    {
+      "role": "user",
+      "content": "操你這樣講我有點不舒服。但是對。"
+    },
+    {
+      "role": "assistant",
+      "content": "你不用現在做什麼。我只是命名一下:你午休的閱讀模式這學期變成了一個『回應節能』的策略——不是退步、不是憂鬱、是你在沒辦法少接東西的前提下,自己找到的小型保護機制。"
+    },
+    {
+      "role": "user",
+      "content": "所以這正常?"
+    },
+    {
+      "role": "assistant",
+      "content": "在你目前的工作量下正常。但它也是一個指標:當你連午休都需要熟人陪,你對新東西的胃口已經被工作吃掉一塊。我不會勸你現在強迫自己讀新書。但如果到下學期還是同一本《撒哈拉》躺在桌上,那就是值得回頭看的訊號,不是現在。"
+    },
+    {
+      "role": "user",
+      "content": "哈,給自己一個下學期的觀察期。可以。我喜歡這種延後處理。"
+    },
+    {
+      "role": "assistant",
+      "content": "另一個小問題,你不用現在答:上次你跟同事——不是學生、不是家長——真的聊到一本書,是什麼時候?"
+    },
+    {
+      "role": "user",
+      "content": "……不記得了。陳怡君上個月在茶水間問我最近看什麼,我說『就三毛啊』,她笑一下說『老師你有點老派』就走了。我就也沒多講。她大概以為我在裝懷舊。"
+    },
+    {
+      "role": "assistant",
+      "content": "那剛好對齊:你目前的閱讀只給自己用,不對外。不批判,只是注意到。新書、新對話,都是同一種力氣——你這學期省下來給學生跟家長了。"
+    },
+    {
+      "role": "user",
+      "content": "嗯。我自己沒這樣想過。但你這樣排出來,我也沒得反駁。"
+    },
+    {
+      "role": "assistant",
+      "content": "不用反駁。記著這個觀察就好。下學期午休你還能翻什麼,到時再看。"
+    },
+    {
+      "role": "user",
+      "content": "好。我要回去改作業了。"
+    },
+    {
+      "role": "assistant",
+      "content": "去吧。三毛不會跑。"
+    }
+  ]
+}

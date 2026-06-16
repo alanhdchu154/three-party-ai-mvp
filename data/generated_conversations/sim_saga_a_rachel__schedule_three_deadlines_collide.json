@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_rachel__schedule_three_deadlines_collide",
+  "persona_id": "saga_a_rachel",
+  "scenario_type": "logistics",
+  "depth": "shallow",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "first_semester_grade_11",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二上文學社上個月開放刊物徵稿，她報名了但稿子一直拖著沒潤",
+    "上次數學期中略退步，這學期她想提早一點鋪複習",
+    "父親近期常要她週末出席家族商業場合"
+  ],
+  "scenario_seed_id": "schedule_three_deadlines_collide",
+  "scenario_seed": "高二上某個晚上，Rachel 桌上同時撞三個 deadline：下週三文學社刊物截稿、下下週一開始期中考、這週六晚上要陪爸爸出席一場董事會晚宴。她只是想請 AI 幫她把這幾週排一排、設兩個提醒，語氣平淡，沒有要談心。",
+  "generated_at": "2026-05-22T11:09:33Z",
+  "occurred_at": "2024-11-12T22:40:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "欸我這兩週有點亂，可以幫我把行程排一排嗎。下週三文學社刊物要截稿，下下週一開始期中考，然後這週六晚上我爸還要我去一個董事會的晚宴。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，我們一件一件來。先把時間點對一下：截稿下週三、期中考下下週一開始、晚宴這週六。你想先從哪個排起？"
+    },
+    {
+      "role": "user",
+      "content": "從晚宴吧，那個我改不了，週六整晚都報銷。所以我能用的其實只有平日跟週日。"
+    },
+    {
+      "role": "assistant",
+      "content": "那週六先整個劃掉。投稿那篇你大概還要花多少時間才能弄完？我看看放哪幾天比較鬆。"
+    },
+    {
+      "role": "user",
+      "content": "稿子大致寫好了，剩潤一潤跟排版，抓兩個晚上應該夠。可是我不想拖到截稿當天才弄。"
+    },
+    {
+      "role": "assistant",
+      "content": "那就排週一、週二兩個晚上潤，週三早上留一點 buffer 再送，不要卡在截稿那一刻。期中的書你想從哪天開始鋪？"
+    },
+    {
+      "role": "user",
+      "content": "週四、週五加週日吧。幫我設兩個提醒就好，週三送投稿、週四開始念書，不用排太細我會煩。"
+    },
+    {
+      "role": "assistant",
+      "content": "好，就記兩條：週三早上「送投稿」、週四晚上「開始期中複習」，週六晚宴我另外標一條免得你忘。這樣排你看起來喘得過氣嗎？"
+    }
+  ]
+}

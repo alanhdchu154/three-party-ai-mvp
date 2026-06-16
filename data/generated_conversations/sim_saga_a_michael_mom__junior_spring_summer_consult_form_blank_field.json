@@ -1,0 +1,90 @@
+{
+  "id": "sim_saga_a_michael_mom__junior_spring_summer_consult_form_blank_field",
+  "persona_id": "saga_a_michael_mom",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "junior_spring_end_of_term",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "上週末 Michael 回家拿夏天衣物只待了四十分鐘、她原本想問暑假打算但他人已經在玄關穿鞋",
+    "前幾天沈媽在群組裡轉沈又可能暑假提前來 GIIS 適應、她隨手按了讚",
+    "週一 GIIS 寄來 junior 學期末家長 survey、附帶這份免費的暑期諮詢邀請表"
+  ],
+  "scenario_seed_id": "junior_spring_summer_consult_form_blank_field",
+  "scenario_seed": "高二下學期結束前一週，下午她坐在書房裡盯著 GIIS 寄來的『暑期家長諮詢』邀請表，填的是 PDF 表單。其他欄都填好了，卡在一格『家長最希望孩子今年暑假達成什麼？』她開了又關了三次。想跟 AI 問怎麼寫那一欄，不顯得自己對兒子沒有任何具體期待、又不要寫出讓 Michael 一看就反彈的目標。",
+  "generated_at": "2026-05-26T16:08:00+08:00",
+  "occurred_at": "2025-05-14T14:55:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [
+    "parent_uncertainty_about_child_goals_surface"
+  ],
+  "turns": [
+    {
+      "role": "user",
+      "content": "想問妳一個小事。GIIS 學期末寄了一份『暑期家長諮詢』邀請表，二十分鐘 zoom，免費的，填完才能預約。我打開又關掉三次了。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳是卡在表本身的內容，還是要不要去 zoom 這個決定？"
+    },
+    {
+      "role": "user",
+      "content": "表本身。其他欄都還好。卡在一格『家長最希望孩子今年暑假達成什麼？』我盯了很久不知道要寫什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "這格其實是 GIIS 在抓家長的『關切方向』，方便諮詢師那二十分鐘對焦。不是契約、不會拿去跟 Michael 對賬。妳可以寫得粗一點，例如『希望他有機會稍微喘口氣』或『希望他自己訂一兩件想做完的事』，都算合格答案。"
+    },
+    {
+      "role": "user",
+      "content": "我懂這格沒那麼重要。可是我寫『希望他喘口氣』感覺像在交白卷。學校老師看了會不會覺得這個家長根本沒在想孩子暑假。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳擔心被怎麼看，這個我聽到。實務上 junior 升 senior 這格寫『喘口氣』的家長不算少數，老師通常解讀成『家長願意給彈性』，不是沒在想。如果妳還是不舒服，可以在後面加一句具體一點的，例如『如果他自己想做 SAT 二刷或社團專案，希望我們能配合』，把『他自己決定』寫進去。"
+    },
+    {
+      "role": "user",
+      "content": "嗯，『他自己決定』這個說法比較像我會講的。只是寫到這裡有點怪。我才發現……我其實不太確定他自己想做什麼。"
+    },
+    {
+      "role": "assistant",
+      "content": "這個發現是這格本來就會逼出來的。junior 升 senior 這個夏天孩子的計畫常常一週一變、又不一定會跟家長講。妳不知道並不代表妳放掉他，比較像是這個年紀本來就會走到的點。"
+    },
+    {
+      "role": "user",
+      "content": "上週他回家拿夏天衣服，只待了四十分鐘。我本來想問暑假打算，他人已經在玄關穿鞋，我就沒問。後來在書房坐了一下，覺得這種事再不問會變成永遠不問。"
+    },
+    {
+      "role": "assistant",
+      "content": "妳沒在那個四十分鐘裡硬問是對的，那種場景他幾乎一定會給妳一個敷衍答案，妳事後反而更難受。表格這格可以不負擔那麼多，它不是妳跟他唯一一次對焦暑期的機會。"
+    },
+    {
+      "role": "user",
+      "content": "可是如果這次填了一個很模糊的答案，諮詢那二十分鐘是不是就也很空？"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。妳可以在表裡留得粗，諮詢時主動跟老師說『其實我比較想聽你們對 junior 升 senior 那群孩子暑假的觀察，再來看怎麼跟他開口』。把諮詢的用途從『我來宣告目標』改成『我來蒐集 context』，二十分鐘就會夠用、而且妳不用先假裝自己知道答案。"
+    },
+    {
+      "role": "user",
+      "content": "原來可以這樣用。我一直以為要先有答案才能去諮詢。"
+    },
+    {
+      "role": "assistant",
+      "content": "很多家長都這樣以為，所以那一格才會卡這麼久。妳今天願意把『我不確定』先承認下來，那格其實已經有東西可以寫了。"
+    },
+    {
+      "role": "user",
+      "content": "好。那我先寫『希望他自己選一兩件想完成的事，我們配合』，諮詢時段我先預約、之後問現場。妳幫我看一下這樣可以嗎？"
+    },
+    {
+      "role": "assistant",
+      "content": "可以，乾淨、沒過載、留給諮詢的空間。妳預約完先把表送出，今天就不用再回頭看這格了。"
+    }
+  ]
+}

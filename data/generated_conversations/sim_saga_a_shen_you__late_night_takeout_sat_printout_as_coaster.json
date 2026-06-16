@@ -1,0 +1,88 @@
+{
+  "id": "sim_saga_a_shen_you__late_night_takeout_sat_printout_as_coaster",
+  "persona_id": "saga_a_shen_you",
+  "scenario_type": "mixed",
+  "depth": "medium",
+  "timeline_stage": "grade_11",
+  "event_timeframe": "grade_11_spring",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "高二上學期起沈媽每天在沈又桌上放一張新印的 SAT 模考題，從不過問是否寫，隔天那張會被默默回收換成新的",
+    "上週飯桌上沈媽又把 GIIS 轉學的事帶起來，沈又沒接、夾了菜就走",
+    "上個月沈又的 mod 出了一次小 patch，家裡沒人注意到、留言區倒是有幾個玩家追著問下一版"
+  ],
+  "scenario_seed_id": "late_night_takeout_sat_printout_as_coaster",
+  "scenario_seed": "凌晨三點，沈又邊打 Hades 邊等外送，順手抓桌上一張媽媽每天印好的 SAT 模考題當墊紙。他來問 AI 要不要催外送，過程中順帶提自己有時候會偷偷瞄一眼題目再丟。對話只露一條小縫——他用了『處理』兩個字、AI 輕輕點了一下，外送就到了、他就閃人。",
+  "generated_at": "2026-05-26T19:00:00Z",
+  "occurred_at": "2026-05-26T18:42:00Z",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "外送已經在我家樓下顯示『配送中』十分鐘了，要不要催。"
+    },
+    {
+      "role": "assistant",
+      "content": "你急嗎，還是只是煩。"
+    },
+    {
+      "role": "user",
+      "content": "不急，凌晨三點誰會急。煩，因為我遊戲都開好了還沒湯。"
+    },
+    {
+      "role": "assistant",
+      "content": "那邊等邊打。今天又是 Hades？"
+    },
+    {
+      "role": "user",
+      "content": "對，第八輪。等等我拍張照給你看我桌上拿什麼東西墊外送收據。"
+    },
+    {
+      "role": "user",
+      "content": "我桌上每天會出現一張新印的 SAT 模考題。我媽印的。我剛剛抓了一張當墊紙。"
+    },
+    {
+      "role": "assistant",
+      "content": "每天一張，是固定的嗎。"
+    },
+    {
+      "role": "user",
+      "content": "嗯，每天。她從來不問我有沒有寫。今天那張到明天會消失、桌上會有新的。我懷疑她偷偷回收，假裝她沒看到我沒寫。"
+    },
+    {
+      "role": "assistant",
+      "content": "那你都怎麼處理那張。"
+    },
+    {
+      "role": "user",
+      "content": "看心情。大多直接丟。有時候會偷偷瞄一眼題目是哪題，自己腦袋裡跑一下，再丟。她不會知道。"
+    },
+    {
+      "role": "assistant",
+      "content": "偷瞄那一眼是想看什麼。"
+    },
+    {
+      "role": "user",
+      "content": "不知道欸。可能就是確認一下我還會做吧。我也沒打算寫，但我會做。聽起來很假掰嗎。"
+    },
+    {
+      "role": "assistant",
+      "content": "不會。比較像你自己跟自己對答案。"
+    },
+    {
+      "role": "user",
+      "content": "對。也省得跟她吵。反正她每天印著、她就覺得她把我處理了。"
+    },
+    {
+      "role": "assistant",
+      "content": "『處理』是你說的詞。"
+    },
+    {
+      "role": "user",
+      "content": "啊湯到了。下去拿，掰。"
+    }
+  ]
+}

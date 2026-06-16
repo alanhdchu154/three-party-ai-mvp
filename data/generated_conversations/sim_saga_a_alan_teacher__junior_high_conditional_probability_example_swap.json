@@ -1,0 +1,56 @@
+{
+  "id": "sim_saga_a_alan_teacher__junior_high_conditional_probability_example_swap",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "mundane_help",
+  "depth": "shallow",
+  "timeline_stage": "current",
+  "event_timeframe": "late_spring_2026",
+  "conversation_frame": "live_event",
+  "lookback_window": "past_week",
+  "event_history_summary": [
+    "上週剛改完高三 senior 期末論文最後一批",
+    "杰尼那邊上週又催了一次答覆，他先擱著沒回",
+    "國中部上週剛考完月考，下週進入機率單元"
+  ],
+  "scenario_seed_id": "junior_high_conditional_probability_example_swap",
+  "scenario_seed": "週二傍晚他在 GIIS 辦公室，下一節是空堂。明天國中部要進條件機率，他原本講義抓的是『從一副撲克牌抽到方塊 K 給定它是 K』那種教科書例子，覺得太乾。想跟 AI 對一個比較貼國中生生活的例子，純備課，沒情緒。",
+  "generated_at": "2026-05-26T17:32:00",
+  "occurred_at": "2026-05-26T17:32:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {
+      "role": "user",
+      "content": "幫我看一下，明天國中部要上條件機率，我講義原本寫的是『從 52 張牌抽到方塊 K，已知抽到的是 K』。我覺得很無聊，國中生哪在乎撲克牌。你給我想一個生活一點的例子，能不能算式還算乾淨。"
+    },
+    {
+      "role": "assistant",
+      "content": "幾個方向：手機通知（已知是 LINE，是群組的機率）、班上抽座位（已知抽到第一排，是某性別的機率）、外送平台（已知是飲料訂單，是冰飲的機率）。要算式乾淨的話，抽座位最直接，因為樣本空間很容易畫格子。要不要我用座位那個寫一版？"
+    },
+    {
+      "role": "user",
+      "content": "座位那個算式乾淨但有點假，我們班 GIIS 國中部一班 18 個人，他們會直接說『我同學就是誰誰誰啊』，會吵起來。手機通知的版本你怎麼設？"
+    },
+    {
+      "role": "assistant",
+      "content": "假設過去一週收到 60 則通知：LINE 35、IG 15、學校 email 10。LINE 裡面群組訊息 20、私訊 15。題目：『已知這則通知是 LINE，它是群組訊息的機率』。答案 20/35 = 4/7。樣本空間清楚、分子分母都是學生自己有感的東西。"
+    },
+    {
+      "role": "user",
+      "content": "可以。再幫我順一下，怎麼帶到『條件』這個詞。我發現國中生最卡的不是算，是為什麼分母要換。"
+    },
+    {
+      "role": "assistant",
+      "content": "可以這樣鋪：先丟『隨便抽一則通知，是 LINE 群組的機率』，他們會算 20/60。接著加一句『但今天你手機震動，你已經看到是 LINE 了』，問同一題，他們會卡。卡的點就是分母從 60 變 35。在這裡點出『多一個已知條件，等於把樣本空間縮小』。詞用『縮小樣本空間』比『條件機率』先講。"
+    },
+    {
+      "role": "user",
+      "content": "好，那就這樣排。我等等把講義那頁換掉。謝謝。"
+    },
+    {
+      "role": "assistant",
+      "content": "好。明天上課如果有班上學生算成 35/60 那種，那是分子分母來源搞混，不是條件沒懂，可以分開處理。"
+    }
+  ]
+}

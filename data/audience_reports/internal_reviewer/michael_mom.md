@@ -6,12 +6,12 @@
 - Confidence: `high`
 
 ## What is happening
-- emotional_safety Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- family_dynamics Level 2: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- social_development Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- identity Level 2: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- financial_pressure Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
-- future_planning Level 1: 3 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- emotional_safety Level 1: 8 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- family_dynamics Level 2: 12 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- social_development Level 1: 6 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- identity Level 2: 11 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- financial_pressure Level 1: 4 supporting signal(s) recorded in dimension score; high-specificity details withheld.
+- future_planning Level 1: 5 supporting signal(s) recorded in dimension score; high-specificity details withheld.
 
 ## What we know
 - `ev_001` dimension_score · high · synthetic-only · emotional_safety Level 1 · `data/dimension_scores/michael_mom.json`

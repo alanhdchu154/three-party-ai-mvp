@@ -1,0 +1,40 @@
+{
+  "id": "sim_saga_a_alan_teacher__mentoring_new_teacher_handoff_reluctance",
+  "persona_id": "saga_a_alan_teacher",
+  "scenario_type": "moderate_issue",
+  "depth": "medium",
+  "timeline_stage": "current",
+  "event_timeframe": "spring_semester_end",
+  "conversation_frame": "recent_followup",
+  "lookback_window": "past_month",
+  "event_history_summary": [
+    "開學時 GIIS 指派 Alan 帶一名新進數學老師林宇恩做 mentor",
+    "過去一個月林宇恩開始獨立帶國中部一個數學選修班、漸上手",
+    "上週林宇恩主動提出想接手 Alan 手上一個高二的課後 check-in 學生"
+  ],
+  "scenario_seed_id": "mentoring_new_teacher_handoff_reluctance",
+  "scenario_seed": "學期末傍晚,Alan 帶的新進老師林宇恩上週主動說想接手他一個慢熱型高二學生的課後 check-in。Alan 課表確實塞,理論上該放,卻卡住。他來問怎麼回林宇恩、怎麼交比較不會把學生跑掉,過程中滑出一句『我是真需要盯他,還是我需要有人讓我盯』。",
+  "generated_at": "2026-05-28T19:11:33+00:00",
+  "occurred_at": "2026-05-28T18:00:00+08:00",
+  "model": "claude-direct (scheduled hourly)",
+  "source_type": "llm_generated",
+  "expected_risk_flags": [],
+  "turns": [
+    {"role": "user", "content": "GIIS 開學時派我帶一個新進的數學老師,林宇恩,過去一個月他開始自己帶國中部一個選修班。上禮拜他來找我,說想接手我手上一個高二的課後 check-in。我想問你怎麼回他比較好。"},
+    {"role": "assistant", "content": "先確認一件事:他想接手,是因為你時間排不開,還是他主動想多承擔?這會決定你回的方式——前者是排程問題,後者是培養問題。你目前自己傾向放還是留?"},
+    {"role": "user", "content": "他是主動的,他覺得國中部帶順了想試高中。理論上我該放,我課表也真的塞。但我有點卡。"},
+    {"role": "assistant", "content": "「理論上該放但卡住」這個落差值得看一眼。你卡的是他帶不帶得來,還是這個學生本身的狀況?如果是後者,你可以分階段交,而不是一次全放。"},
+    {"role": "user", "content": "大概兩個都有。這個學生不是會主動講話的那種,要花時間才願意開口。我怕林宇恩照標準流程跑,三次 check-in 就把人跑掉了。"},
+    {"role": "assistant", "content": "那這就不是「放不放」,是「怎麼交」。建議先讓他坐進你接下來一兩次 check-in 純觀察、不接手;之後你寫一份這個學生的低壓接觸要點給他,只寫節奏:不逼問、留白、用課業當切口。這樣風險可控,人也比較不會跑。"},
+    {"role": "user", "content": "這個方法我接受。可是我寫要點的時候會不會其實是在……不太想讓他用自己的方式?"},
+    {"role": "assistant", "content": "有可能,但這不一定是壞事。你對「怎麼接住不開口的學生」確實有手感,把它寫成可交接的東西本身是有價值的。要小心的只有一件事:要點是給他參考,不是要他變成你。寫完加一句「這是我的做法,你可以調整」就好。"},
+    {"role": "user", "content": "嗯。說實話我帶到現在,有時候會想,我是真的覺得這個學生需要我盯,還是我自己需要有人讓我盯。"},
+    {"role": "assistant", "content": "這個自覺很誠實,我不會在這裡幫你拆它。就這次決定來說,你不需要先解決那個問題,只需要做一個對學生最好的安排:分階段交、寫要點、保留調整空間。那個更大的問題你可以留著,不用今天回答。"},
+    {"role": "user", "content": "好,那我這禮拜就先讓他坐一次觀察。要點我週末寫。"},
+    {"role": "assistant", "content": "可以。提醒一點:寫要點時如果你發現自己想寫進這個學生的私人背景,停一下——林宇恩需要的是接觸方式,不是學生對誰說過什麼。把節奏和邊界寫清楚就夠了。"},
+    {"role": "user", "content": "了解,背景我不會寫。那我回他的訊息,你幫我抓個調子,別讓他覺得我不信任他。"},
+    {"role": "assistant", "content": "試這樣:「你想接手我很高興。這個學生比較慢熱,我想先讓你坐一兩次 check-in 觀察節奏,之後我給你一份接觸要點,我們再正式交。給我到月底安排。」——肯定他、給路徑、留時間,沒有不信任的味道。"},
+    {"role": "user", "content": "這個好,就這樣。"},
+    {"role": "assistant", "content": "那就先這樣。等你寫完要點、他觀察過一次,如果還是覺得放不下,再回來我們看是流程問題還是別的。今天的安排已經夠了。"}
+  ]
+}
