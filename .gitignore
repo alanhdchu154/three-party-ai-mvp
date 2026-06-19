@@ -28,6 +28,9 @@ data/student_profiles/*.json
 # Umi generated reports
 umi/reports/*.md
 !umi/reports/.gitkeep
+!umi/reports/baseline-comparison-latest.md
+!umi/reports/release-readiness-latest.md
+!umi/reports/semantic-trace-audit-latest.md
 
 # Local pilot configuration
 config/*.local.json

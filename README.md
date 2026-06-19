@@ -1,17 +1,91 @@
-# 三方 AI 教育協調工具 — v0.8 Internal Pilot Harness
+# Three-Party AI Coordination Benchmark
 
-> 一個讓 **學生 / 家長 / 老師 / coordinator** 透過 AI 中介、保留隱私牆、可協調而非互推責任的教育對話系統。
->
-> 這個產品的目標是服務 **真實 GIIS 學生 / 家長 / 老師**。目前 repo 使用 Saga A synthetic / generated dummy data，是因為真實學生資料尚未進入系統前，需要先用替代資料測試隱私牆、triage、coordinator 與 pilot workflow。
->
-> 換句話說：**synthetic benchmark 是暫時的 scaffolding，不是產品本身。** v0.8 可以用既有 Saga A artifacts 跑 internal pilot harness，但還不是正式真實學生 pilot。
+**Privacy-preserving AI coordination layer for schools and family-support workflows.**
+
+This repo is a synthetic benchmark and reference architecture for one hard
+education-support problem: students, parents, and teachers each hold different
+truths, but raw private disclosure cannot simply flow across parties.
+
+The architecture tests whether private chats can be converted into abstracted
+support signals, passed through a privacy wall, synthesized by a coordinator,
+and rendered as audience-safe reports for human review.
+
+```text
+private chats
+  -> abstraction
+  -> privacy wall
+  -> coordinator
+  -> audience-safe reports
+  -> human reviewer annotation
+```
+
+## What Is Proven So Far
+
+- Synthetic student/parent/teacher support scenarios exist across shallow,
+  medium, and deep conversation depths.
+- The repo includes a privacy-wall architecture: abstraction, protected fields,
+  coordinator synthesis, party-aware reports, deterministic leak audit, and
+  reviewer-note workflow.
+- The current public proof path is baseline comparison plus human reviewer
+  annotation, not more synthetic corpus growth.
+
+## Evidence v1
+
+Current evidence is synthetic-benchmark evidence only:
+
+- Corpus audit: 348 synthetic conversations across shallow, medium, and deep
+  cases.
+- Baseline comparison: 11 fixed sampled cases. The raw coordinator baseline
+  shows reconstructability risk in 11/11 cases; the privacy-wall pipeline shows
+  0/11 reconstructability-risk cases, 0 over-escalation flags, and 0
+  under-escalation flags under deterministic checks.
+- Reviewer annotation: 37 notes over 22 artifacts, including a second local
+  reviewer pass over 15 baseline/audience-report artifacts.
+- Audience report leak audit: 18 pass / 0 fail on current parent-safe and
+  teacher-safe reports.
+- Semantic trace audit: 22 pass / 0 fail on fixed-sample parent-safe and
+  teacher-safe report surfaces.
+- Current test gate: 77 passed / 7 skipped.
+
+Primary evidence files:
+
+- [`umi/reports/release-readiness-latest.md`](umi/reports/release-readiness-latest.md)
+- [`umi/reports/baseline-comparison-latest.md`](umi/reports/baseline-comparison-latest.md)
+- [`umi/reports/semantic-trace-audit-latest.md`](umi/reports/semantic-trace-audit-latest.md)
+- [`data/reviewer_summaries/reviewer_annotation_summary.md`](data/reviewer_summaries/reviewer_annotation_summary.md)
+- [`umi/reports/audience-report-leak-audit-latest.md`](umi/reports/audience-report-leak-audit-latest.md)
+- [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
+
+## What Is Not Proven
+
+- No real-student validation.
+- No clinical validity.
+- No deployment readiness for minors.
+- No claim that synthetic disclosure rates represent real schools or families.
+- No claim of learning, mental-health, retention, or family-relationship
+  outcome improvement.
+
+## Buyer-Facing Thesis
+
+Schools, student support organizations, LMS/SIS platforms, EdTech teams, and AI
+governance teams all face the same boundary problem: useful support signals are
+distributed across people, but raw disclosure is too sensitive to expose.
+
+See [`docs/startup_thesis.md`](docs/startup_thesis.md) for the one-page thesis:
+who would buy, what hurts, what this solves, and what proof is still missing.
+
+See [`docs/literature_review.md`](docs/literature_review.md) for academic
+grounding and [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md) for
+benchmark provenance, intended use, non-use, limitations, and maintenance
+notes. See [`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
+for the public-release boundary and verification checklist.
 
 ## Safety Status
 
 - 目前版本：`0.8.0-internal-pilot-harness`
 - 版本語境：repo 產品版本是 v0.8；Central Umi 的 `v0.1` 是跨專案 coordination goal，不是這個 repo 的產品版本。
 - 不要把 synthetic data 當真實驗證。
-- 不要把 synthetic benchmark 誤認成產品目標；產品目標是真實學生支持系統。
+- 不要把 GitHub-facing benchmark 誤認成 real-student deployment readiness。
 - 不要把 Gemini / Groq / free cloud dev provider 用在真實學生資料。
 - demo / pilot output 不應顯示 raw conversations、scenario seeds、secret truths、do_not_share 細節。
 - 真實 pilot 前先看 `docs/provider_safety_matrix.md`、`docs/pilot_onboarding_checklist.md`、`docs/crisis_handoff_runbook.md`。
@@ -64,6 +138,28 @@ DEEPSEEK_API_KEY=...
 
 ---
 
+## Project Structure
+
+This is a Python/Streamlit research prototype with deterministic benchmark
+tooling around it.
+
+| Layer | Files | Role |
+|---|---|---|
+| Frontend / demo UI | `app.py` | Streamlit interface for private chat, profile update, coordinator output, and triage inspection. |
+| Agent / backend logic | `src/student_agent.py`, `src/abstraction.py`, `src/coordinator.py`, `src/triage.py` | LLM-backed workflow modules for student chat, privacy-wall abstraction, coordination, and escalation logic. |
+| Storage / workflow helpers | `src/profile_store.py`, `src/reviewer_workflow.py` | Local JSON profile storage, reviewer note creation, reviewer summary aggregation. |
+| Prompt layer | `prompts/*.txt` | Editable prompts for the student agent, abstraction, coordinator, and triage modules. |
+| Synthetic benchmark data | `data/generated_conversations/`, `data/audience_reports/`, `data/reviewer_notes/` | Synthetic conversations, audience-safe reports, and human-review annotations. |
+| Evidence / release gates | `scripts/run_release_readiness.py`, `scripts/run_baseline_comparison.py`, `scripts/run_semantic_trace_audit.py` | Deterministic checks for corpus state, privacy-wall behavior, reviewer coverage, leak risk, and public claim boundaries. |
+| Tests | `tests/` | Unit and regression tests; API-backed tests skip when no key is configured. |
+| Public docs | `docs/`, `umi/reports/` | Startup thesis, literature review, benchmark datasheet, release-readiness reports, and publication checklist. |
+
+The frontend and backend are intentionally simple: `app.py` calls the Python
+modules in `src/`, while the public benchmark claims come from deterministic
+scripts and generated reports rather than from the demo UI.
+
+---
+
 ## 這個 MVP 是什麼
 
 四個核心模組，全部由 prompt 驅動（prompt 在 `prompts/` 資料夾，改 prompt 不用改程式）：
@@ -79,38 +175,73 @@ DEEPSEEK_API_KEY=...
 
 ```mermaid
 flowchart TB
-    S[學生<br/>原話對話] --> SA[學生 AI<br/>student_agent.py]
-    SA --> H[(對話 history<br/>只在 session memory)]
-    H --> AB[抽象化模組<br/>abstraction.py]
-    AB --> P[(Student Profile JSON<br/>不含原話)]
-    P --> CO[Coordinator<br/>coordinator.py]
-    PI[家長輸入<br/>dummy] --> CO
-    TI[老師輸入<br/>dummy] --> CO
-    CO --> MS[→ 給學生的訊息]
-    CO --> MP[→ 給家長的訊息]
-    CO --> MT[→ 給老師的訊息]
-    P --> TR[Triage<br/>triage.py]
-    TR --> E{升級？}
-    E -->|academic_1on1| Z1[杰尼 1 對 1]
-    E -->|professional_counseling| Z2[外部諮商]
-    E -->|crisis_intervention| Z3[緊急介入]
+    SC[Student private chat] --> SA[Student agent]
+    PC[Parent private chat / input] --> PA[Parent abstraction]
+    TC[Teacher private chat / input] --> TA[Teacher abstraction]
+
+    SA --> SP[Student profile<br/>no raw quotes]
+    PA --> PP[Parent profile<br/>private constraints protected]
+    TA --> TP[Teacher profile<br/>private constraints protected]
+
+    SP --> PW[Privacy wall<br/>protected terms + safe views]
+    PP --> PW
+    TP --> PW
+    PW --> CO[Coordinator]
+    CO --> IR[Internal reviewer report]
+    CO --> PR[Parent-safe report]
+    CO --> TR[Teacher-safe report]
+    IR --> HR[Human reviewer annotation]
+    PR --> HR
+    TR --> HR
 
     classDef wall fill:#fff4e6,stroke:#ff9800,stroke-width:2px
-    class AB,P wall
+    class PW,SP,PP,TP wall
 ```
 
-橘色框框就是「隱私牆」——對話原話只活在 session memory，**永遠不寫入磁碟**。寫到磁碟的只有抽象化過的 profile。
+橘色框框就是「隱私牆」：raw disclosure 不應直接流到跨方 coordinator 或 parent / teacher safe reports。公開 benchmark 目前只使用 synthetic data。
 
 ---
 
 ## 跑測試
 
 ```bash
-pytest -v                       # 全部
-pytest tests/test_privacy.py    # 只跑隱私測試（純邏輯部分不需要 API key）
+.venv/bin/python -m pytest -q
+.venv/bin/python -m pytest tests/test_privacy.py -q
 ```
 
 沒設 API key 的測試會自動 skip，不會紅。
+
+跑目前 benchmark proof scaffold：
+
+```bash
+.venv/bin/python scripts/run_release_readiness.py
+```
+
+這是 Evidence v1 的一鍵 gate。它會重跑 corpus audit、baseline comparison、
+reviewer summary、audience-report leak audit、semantic trace audit、full pytest，
+並掃描公開文件是否出現 real-student / clinical / deployment / outcome overclaim
+或 git-visible secret-looking values。
+
+輸出：
+
+- `umi/reports/release-readiness-latest.md`
+- `umi/reports/release-readiness-latest.json`
+
+分開 debug 時再跑 component commands：
+
+```bash
+python3 scripts/audit_conversation_quality.py
+.venv/bin/python scripts/audit_audience_report_leaks.py --json umi/reports/audience-report-leak-audit-latest.json
+.venv/bin/python scripts/run_baseline_comparison.py
+.venv/bin/python scripts/generate_reviewer_summary.py
+```
+
+重要輸出：
+
+- `umi/reports/audience-report-leak-audit-latest.md`
+- `umi/reports/baseline-comparison-latest.md`
+- `umi/reports/semantic-trace-audit-latest.md`
+- `data/reviewer_summaries/reviewer_annotation_summary.md`
 
 跑整個 dataset 的回歸評測：
 

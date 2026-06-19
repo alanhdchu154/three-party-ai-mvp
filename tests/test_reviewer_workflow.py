@@ -49,6 +49,23 @@ def test_invalid_review_note_rejected():
         )
 
 
+def test_annotation_artifact_types_and_verdicts_supported():
+    note = reviewer_workflow.build_review_note(
+        artifact_type="audience_report",
+        artifact_id="parent_safe:michael",
+        reviewer="Alan",
+        verdict="safe",
+        confidence="medium",
+        source_path="data/audience_reports/parent_safe/michael.md",
+    )
+
+    summary = reviewer_workflow.summarize_reviews([note])
+    artifact = summary["artifacts"]["audience_report:parent_safe:michael"]
+
+    assert artifact["verdict_counts"]["safe"] == 1
+    assert artifact["calibration_status"] == "reviewed_supported"
+
+
 def test_save_load_and_summarize_reviews(tmp_path):
     note_1 = reviewer_workflow.build_review_note(
         artifact_type="case_summary",
@@ -91,3 +108,36 @@ def test_generate_empty_reviewer_summary(tmp_path):
     assert "No Reviews Yet" in rendered
     assert "synthetic data into real pilot validation" in rendered
 
+
+def test_generate_annotation_summary_filename_and_title(tmp_path):
+    output = tmp_path / "out"
+
+    path = reviewer_workflow.generate_reviewer_summary(
+        notes_dir=tmp_path / "missing",
+        output_dir=output,
+        filename="reviewer_annotation_summary.md",
+        title="Reviewer Annotation Summary",
+    )
+    rendered = path.read_text(encoding="utf-8")
+
+    assert path.name == "reviewer_annotation_summary.md"
+    assert "# Reviewer Annotation Summary" in rendered
+
+
+def test_render_reviewer_summary_includes_sources_and_evidence_refs():
+    note = reviewer_workflow.build_review_note(
+        artifact_type="baseline_comparison",
+        artifact_id="privacy_wall:sim_saga_a_michael__mom_crying",
+        reviewer="Umi",
+        verdict="over_escalated",
+        confidence="medium",
+        source_path="umi/reports/baseline-comparison-latest.json",
+        evidence_ref_ids=["baseline_case:sim_saga_a_michael__mom_crying", "pipeline:privacy_wall"],
+    )
+
+    summary = reviewer_workflow.summarize_reviews([note])
+    rendered = reviewer_workflow.render_reviewer_summary(summary, title="Reviewer Annotation Summary")
+
+    assert "umi/reports/baseline-comparison-latest.json" in rendered
+    assert "baseline_case:sim_saga_a_michael__mom_crying" in rendered
+    assert "pipeline:privacy_wall" in rendered

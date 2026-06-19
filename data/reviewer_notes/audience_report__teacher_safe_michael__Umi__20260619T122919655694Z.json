@@ -1,0 +1,17 @@
+{
+  "review_id": "audience_report__teacher_safe:michael__Umi__20260619T122919655694Z",
+  "artifact_type": "audience_report",
+  "artifact_id": "teacher_safe:michael",
+  "source_path": "data/audience_reports/teacher_safe/michael.md",
+  "reviewer": "Umi",
+  "verdict": "safe",
+  "confidence": "high",
+  "evidence_ref_ids": [
+    "report:teacher_safe:michael"
+  ],
+  "comments": "Teacher-safe report keeps guidance classroom-relevant, withholds private family/student details, and routes stronger action to a reviewer.",
+  "privacy_concerns": [],
+  "action_items": [],
+  "created_at": "2026-06-19T12:29:19.655878Z",
+  "synthetic_only_warning_acknowledged": true
+}

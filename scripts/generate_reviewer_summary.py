@@ -1,4 +1,4 @@
-"""Generate reviewer calibration summary from JSON reviewer notes."""
+"""Generate reviewer calibration and annotation summaries from JSON notes."""
 
 from __future__ import annotations
 
@@ -11,10 +11,14 @@ from src import reviewer_workflow
 
 
 def main() -> None:
-    path = reviewer_workflow.generate_reviewer_summary()
-    print(f"Generated reviewer summary: {path}")
+    calibration = reviewer_workflow.generate_reviewer_summary()
+    annotation = reviewer_workflow.generate_reviewer_summary(
+        filename="reviewer_annotation_summary.md",
+        title="Reviewer Annotation Summary",
+    )
+    print(f"Generated reviewer calibration summary: {calibration}")
+    print(f"Generated reviewer annotation summary: {annotation}")
 
 
 if __name__ == "__main__":
     main()
-

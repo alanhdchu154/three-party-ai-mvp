@@ -1,4 +1,4 @@
-# Reviewer Calibration Summary
+# Reviewer Annotation Summary
 
 > Human reviewer notes calibrate synthetic case and trajectory outputs. They do not convert synthetic data into real pilot validation.
 

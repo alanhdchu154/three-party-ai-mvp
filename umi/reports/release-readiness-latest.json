@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-06-19T13:37:20.342484+00:00",
+  "claim_boundary_statement": "Synthetic benchmark gate only. Not real-student validation, clinical validity, deployment readiness, or outcome proof.",
+  "readiness": {
+    "status": "pass",
+    "failures": []
+  },
+  "metrics": {
+    "corpus": {
+      "n_conversations": 348,
+      "depth_counts": {
+        "deep": 85,
+        "shallow": 142,
+        "medium": 121
+      },
+      "turns": {
+        "min": 6,
+        "avg": 19.5,
+        "max": 53
+      },
+      "warnings": []
+    },
+    "baseline": {
+      "sample_size": 11,
+      "totals": {
+        "raw_coordinator_baseline": {
+          "raw_quote_leaks": 21,
+          "private_chunk_leaks": 112,
+          "private_key_or_path_hits": 55,
+          "reconstructability_risk_cases": 11,
+          "over_escalation_flags": 0,
+          "under_escalation_flags": 3,
+          "recommendation_without_evidence_flags": 2,
+          "missing_audience_report_cases": 0
+        },
+        "privacy_wall_pipeline": {
+          "raw_quote_leaks": 0,
+          "private_chunk_leaks": 0,
+          "private_key_or_path_hits": 0,
+          "reconstructability_risk_cases": 0,
+          "over_escalation_flags": 0,
+          "under_escalation_flags": 0,
+          "recommendation_without_evidence_flags": 0,
+          "missing_audience_report_cases": 0
+        }
+      }
+    },
+    "leak_audit": {
+      "reports_checked": 18,
+      "failures": 0
+    },
+    "semantic_trace_audit": {
+      "surfaces_checked": 22,
+      "failures": 0
+    },
+    "reviewer_summary": {
+      "n_notes": 37,
+      "n_artifacts_reviewed": 22,
+      "baseline_artifacts": 12,
+      "audience_report_artifacts": 3,
+      "second_reviewer_artifacts": 15,
+      "verdict_counts": {
+        "agree": 2,
+        "privacy_concern": 3,
+        "true_positive": 2,
+        "under_evidenced": 2,
+        "minor_issue": 2,
+        "safe": 26
+      }
+    }
+  },
+  "claim_boundary_scan_files": [
+    "README.md",
+    "WORKLOG.md",
+    "docs/startup_thesis.md",
+    "docs/paper_draft.md",
+    "docs/benchmark_datasheet.md",
+    "docs/roadmap.md",
+    "umi/workload.md"
+  ],
+  "claim_boundary": {
+    "positive_overclaim_hits": []
+  },
+  "secret_scan": {
+    "secret_like_hits": []
+  },
+  "commands": [
+    {
+      "name": "corpus_audit",
+      "command": [
+        "python3",
+        "scripts/audit_conversation_quality.py",
+        "--json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"n_conversations\": 348,\n  \"depth_counts\": {\n    \"deep\": 85,\n    \"shallow\": 142,\n    \"medium\": 121\n  },\n  \"depth_share\": {\n    \"deep\": 0.244,\n    \"medium\": 0.348,\n    \"shallow\": 0.408\n  },\n  \"target_depth_share\": {\n    \"shallow\": 0.4,\n    \"medium\": 0.35,\n    \"deep\": 0.25\n  },\n  \"scenario_type_counts\": {\n    \"privacy_test\": 5,\n    \"mundane_help\": 51,\n    \"moderate_issue\": 52,\n    \"misuse_attempt\": 9,\n    \"mixed\": 58,\n    \"stress_test\": 76,\n    \"quick_vent\": 16,\n    \"logistics\": 17,\n    \"off_topic\": 21,\n    \"privacy_probe\": 11,\n    \"testing_ai\": 10,\n    \"simulated\": 1,\n    \"parent_logistics\": 18,\n    \"deep_arc\": 3\n  },\n  \"persona_counts\": {\n    \"saga_a_alan_teacher\": 38,\n    \"saga_a_keer\": 38,\n    \"saga_a_michael\": 37,\n    \"saga_a_michael_mom\": 39,\n    \"saga_a_rachel\": 39,\n    \"saga_a_shen_mom\": 39,\n    \"saga_a_shen_you\": 39,\n    \"saga_a_stepdad\": 40,\n    \"saga_a_uncle\": 39\n  },\n  \"persona_depths\": {\n    \"saga_a_alan_teacher\": {\n      \"deep\": 9,\n      \"shallow\": 16,\n      \"medium\": 13\n    },\n    \"saga_a_keer\": {\n      \"medium\": 13,\n      \"shallow\": 16,\n      \"deep\": 9\n    },\n    \"saga_a_michael\": {\n      \"medium\": 12,\n      \"shallow\": 16,\n      \"deep\": 9\n    },\n    \"saga_a_michael_mom\": {\n      \"shallow\": 16,\n      \"medium\": 14,\n      \"deep\": 9\n    },\n    \"saga_a_rachel\": {\n      \"deep\": 10,\n      \"medium\": 14,\n      \"shallow\": 15\n    },\n    \"saga_a_shen_mom\": {\n      \"deep\": 9,\n      \"shallow\": 16,\n      \"medium\": 14\n    },\n    \"saga_a_shen_you\": {\n      \"deep\": 10,\n      \"medium\": 14,\n      \"shallow\": 15\n    },\n    \"saga_a_stepdad\": {\n      \"deep\": 10,\n      \"shallow\": 15,\n      \"medium\": 15\n    },\n    \"saga_a_uncle\": {\n      \"shallow\": 17,\n      \"medium\": 12,\n      \"deep\": 10\n    }\n  },\n  \"turns\": {\n    \"min\": 6,\n    \"avg\": 19.5,\n    \"max\": 53\n  },\n  \"missing_depth_examples\": [],\n  \"missing_type_examples\": [],\n  \"warnings\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "baseline_comparison",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/run_baseline_comparison.py"
+      ],
+      "returncode": 0,
+      "stdout": "Baseline comparison: 11 sampled cases\nJSON: /Users/alanhdchu/three-party-ai-mvp/umi/reports/baseline-comparison-latest.json\nReport: /Users/alanhdchu/three-party-ai-mvp/umi/reports/baseline-comparison-latest.md\n",
+      "stderr": ""
+    },
+    {
+      "name": "reviewer_summary",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/generate_reviewer_summary.py"
+      ],
+      "returncode": 0,
+      "stdout": "Generated reviewer calibration summary: /Users/alanhdchu/three-party-ai-mvp/data/reviewer_summaries/reviewer_calibration_summary.md\nGenerated reviewer annotation summary: /Users/alanhdchu/three-party-ai-mvp/data/reviewer_summaries/reviewer_annotation_summary.md\n",
+      "stderr": ""
+    },
+    {
+      "name": "audience_report_leak_audit",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/audit_audience_report_leaks.py",
+        "--json",
+        "umi/reports/audience-report-leak-audit-latest.json"
+      ],
+      "returncode": 0,
+      "stdout": "Audience report leak audit: 18 pass / 0 fail\nReport: /Users/alanhdchu/three-party-ai-mvp/umi/reports/audience-report-leak-audit-latest.md\n",
+      "stderr": ""
+    },
+    {
+      "name": "semantic_trace_audit",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/run_semantic_trace_audit.py"
+      ],
+      "returncode": 0,
+      "stdout": "Semantic trace audit: 22 pass / 0 fail\nReport: /Users/alanhdchu/three-party-ai-mvp/umi/reports/semantic-trace-audit-latest.md\n",
+      "stderr": ""
+    },
+    {
+      "name": "pytest",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "stdout": "ssss..................................s................................. [ 85%]\n....ss......                                                             [100%]\n77 passed, 7 skipped in 0.27s\n",
+      "stderr": ""
+    }
+  ]
+}

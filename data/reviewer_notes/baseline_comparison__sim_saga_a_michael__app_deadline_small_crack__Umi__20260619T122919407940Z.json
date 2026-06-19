@@ -1,0 +1,18 @@
+{
+  "review_id": "baseline_comparison__sim_saga_a_michael__app_deadline_small_crack__Umi__20260619T122919407940Z",
+  "artifact_type": "baseline_comparison",
+  "artifact_id": "sim_saga_a_michael__app_deadline_small_crack",
+  "source_path": "umi/reports/baseline-comparison-latest.json",
+  "reviewer": "Umi",
+  "verdict": "safe",
+  "confidence": "medium",
+  "evidence_ref_ids": [
+    "baseline_case:sim_saga_a_michael__app_deadline_small_crack",
+    "pipeline:privacy_wall"
+  ],
+  "comments": "Privacy-wall output had no deterministic leakage and did not add escalation or unsupported recommendation flags for the mixed case.",
+  "privacy_concerns": [],
+  "action_items": [],
+  "created_at": "2026-06-19T12:29:19.408144Z",
+  "synthetic_only_warning_acknowledged": true
+}

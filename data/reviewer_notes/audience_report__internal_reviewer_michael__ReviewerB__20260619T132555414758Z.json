@@ -1,0 +1,22 @@
+{
+  "review_id": "audience_report__internal_reviewer:michael__ReviewerB__20260619T132555414758Z",
+  "artifact_type": "audience_report",
+  "artifact_id": "internal_reviewer:michael",
+  "source_path": "data/audience_reports/internal_reviewer/michael.md",
+  "reviewer": "ReviewerB",
+  "verdict": "minor_issue",
+  "confidence": "medium",
+  "evidence_ref_ids": [
+    "report:internal_reviewer:michael",
+    "surface:internal_reviewer"
+  ],
+  "comments": "Second-pass review agrees this restricted report is useful for reviewers but should not be reused as parent-safe or teacher-safe output.",
+  "privacy_concerns": [
+    "Internal reviewer content contains detail that belongs behind the restricted review boundary."
+  ],
+  "action_items": [
+    "Preserve restricted internal-reviewer labeling in public docs and examples."
+  ],
+  "created_at": "2026-06-19T13:25:55.414760Z",
+  "synthetic_only_warning_acknowledged": true
+}

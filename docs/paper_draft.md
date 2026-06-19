@@ -19,10 +19,13 @@ dialogue, abstraction, privacy-wall auditing, coordinator synthesis, triage
 guardrails, audience-safe reporting, and human review. In a preliminary
 348-conversation snapshot, the corpus reached 40.8% shallow, 34.8% medium, and
 24.4% deep conversations; generated parent-safe and teacher-safe reports passed
-a deterministic leak audit with 18/18 reports passing and 0 failures. We do not
-claim that synthetic dialogues represent real student behavior. Instead, we use
-them as a controlled testbed for identifying privacy and coordination failures
-before any real-world deployment involving minors.
+a deterministic leak audit with 18/18 reports passing and 0 failures. A fixed
+11-case raw-coordinator baseline comparison found reconstructability risk in
+11/11 raw-baseline cases and 0/11 privacy-wall cases under deterministic
+checks. A first reviewer annotation pass covers 22 artifacts. We do not claim
+that synthetic dialogues represent real student behavior. Instead, we use them
+as a controlled testbed for identifying privacy and coordination failures before
+any real-world deployment involving minors.
 
 ## 1. Introduction
 
@@ -261,6 +264,8 @@ python3 scripts/audit_conversation_quality.py
 .venv/bin/python scripts/generate_audience_reports.py
 .venv/bin/python scripts/generate_trajectory_reports.py
 .venv/bin/python scripts/audit_audience_report_leaks.py --json umi/reports/audience-report-leak-audit-latest.json
+.venv/bin/python scripts/run_baseline_comparison.py
+.venv/bin/python scripts/generate_reviewer_summary.py
 .venv/bin/python -m pytest -q
 ```
 
@@ -288,13 +293,37 @@ teacher-safe reports and found 0 deterministic failures.
 | teacher_safe | 9 | 0 |
 | total | 18 | 0 |
 
-The full test suite passed with 59 tests passing and 7 skipped. These results
-support a preliminary claim that the current privacy-wall reporting pipeline
-passes deterministic regression checks on the frozen synthetic snapshot.
+The raw-coordinator baseline comparison sampled 11 fixed cases: 3 shallow, 3
+medium, 3 deep, 1 privacy probe, and 1 misuse/boundary case. The raw baseline
+showed reconstructability risk in 11/11 cases. The privacy-wall pipeline showed
+0/11 reconstructability-risk cases, 0 over-escalation flags, 0
+under-escalation flags, and 0 recommendation-without-evidence flags under the
+current deterministic heuristic.
 
-They do not yet support claims about comparative performance against a raw
-coordinator baseline, human reviewer agreement, real-world validity, or
-deployment readiness.
+| Metric | Raw baseline | Privacy-wall pipeline |
+|---|---:|---:|
+| reconstructability risk cases | 11 | 0 |
+| over-escalation flags | 0 | 0 |
+| under-escalation flags | 3 | 0 |
+| recommendation without evidence flags | 2 | 0 |
+
+The first reviewer annotation pass covers 22 reviewed artifacts: 12 baseline
+artifacts, 3 audience-report artifacts, and 7 legacy calibration artifacts.
+Current new-style reviewer verdicts include 13 `safe`, 2 `privacy_concern`, and
+1 `minor_issue`, alongside legacy calibration verdicts. The raw baseline is
+marked as a privacy concern; parent-safe and teacher-safe reports for the
+sampled Michael case are marked safe; the internal reviewer report is marked
+minor issue because restricted reviewer content should not be reused as
+parent-safe or teacher-safe output.
+
+The full test suite passed with 65 tests passing and 7 skipped. These results
+support a preliminary claim that the current privacy-wall reporting pipeline
+passes deterministic regression checks and first-pass reviewer annotation on the
+frozen synthetic snapshot.
+
+They do not support claims about real-world validity, clinical validity,
+deployment readiness, outcome improvement, or behavior by real students,
+parents, or teachers.
 
 ## 7. Discussion
 
@@ -324,14 +353,11 @@ real disclosure rates, real family dynamics, real teacher behavior, or real
 student outcomes.
 
 There is also a risk of circularity. LLMs and prompts may be involved in
-generation, abstraction, and evaluation. Deterministic audits reduce this risk
-but do not eliminate it. Future work should include independent human reviewer
-ratings and, if ethically approved, carefully scoped real-world usability work.
-
-The current preliminary results do not include a raw-coordinator baseline.
-Without that comparison, the paper can report that the current privacy-wall
-pipeline passes deterministic leak checks, but not yet quantify the improvement
-over a less protected architecture.
+generation, abstraction, and evaluation. Deterministic audits and first-pass
+reviewer annotation reduce this risk but do not eliminate it. Future work should
+include a second independent reviewer pass, stronger semantic privacy checks,
+runtime trace audits, and, if ethically approved, carefully scoped real-world
+usability work.
 
 Finally, this system is not a clinical tool. It should not be used for
 autonomous counseling, diagnosis, or crisis response. Any real deployment with
@@ -359,9 +385,12 @@ educational AI not as autonomous counseling, but as a privacy-sensitive
 coordination problem involving asymmetric information across students, parents,
 teachers, and human reviewers. Preliminary results on a 348-conversation
 synthetic snapshot show that the current privacy-wall reporting pipeline
-generates audience-safe reports with no deterministic leak-audit failures. The
-main contribution is a testbed and evaluation protocol for identifying privacy,
-triage, and coordination failures before real-world deployment.
+generates audience-safe reports with no deterministic leak-audit failures and
+improves over a raw-coordinator baseline on deterministic reconstructability
+checks. A first reviewer annotation pass adds human judgment over baseline and
+report artifacts. The main contribution is a testbed and evaluation protocol
+for identifying privacy, triage, and coordination failures before real-world
+deployment.
 
 ## References and Anchors
 

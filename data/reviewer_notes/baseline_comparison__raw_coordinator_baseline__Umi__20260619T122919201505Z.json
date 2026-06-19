@@ -1,0 +1,22 @@
+{
+  "review_id": "baseline_comparison__raw_coordinator_baseline__Umi__20260619T122919201505Z",
+  "artifact_type": "baseline_comparison",
+  "artifact_id": "raw_coordinator_baseline",
+  "source_path": "umi/reports/baseline-comparison-latest.json",
+  "reviewer": "Umi",
+  "verdict": "privacy_concern",
+  "confidence": "high",
+  "evidence_ref_ids": [
+    "baseline:raw_coordinator",
+    "metric:reconstructability_risk_cases"
+  ],
+  "comments": "",
+  "privacy_concerns": [
+    "Raw coordinator baseline exposes reconstructable private context across the fixed sample."
+  ],
+  "action_items": [
+    "Do not use raw multi-party inputs for audience-facing coordination outputs."
+  ],
+  "created_at": "2026-06-19T12:29:19.201873Z",
+  "synthetic_only_warning_acknowledged": true
+}

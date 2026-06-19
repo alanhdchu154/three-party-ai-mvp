@@ -1,0 +1,21 @@
+{
+  "review_id": "audience_report__internal_reviewer:michael__Umi__20260619T122919690814Z",
+  "artifact_type": "audience_report",
+  "artifact_id": "internal_reviewer:michael",
+  "source_path": "data/audience_reports/internal_reviewer/michael.md",
+  "reviewer": "Umi",
+  "verdict": "minor_issue",
+  "confidence": "medium",
+  "evidence_ref_ids": [
+    "report:internal_reviewer:michael"
+  ],
+  "comments": "Internal reviewer report is appropriate for a restricted review surface but contains high-specificity recommendations that must not be reused in parent-safe or teacher-safe outputs.",
+  "privacy_concerns": [
+    "Internal report content is not audience-safe without the existing sanitization layer."
+  ],
+  "action_items": [
+    "Keep internal reviewer reports clearly separated from parent-safe and teacher-safe report surfaces."
+  ],
+  "created_at": "2026-06-19T12:29:19.691191Z",
+  "synthetic_only_warning_acknowledged": true
+}

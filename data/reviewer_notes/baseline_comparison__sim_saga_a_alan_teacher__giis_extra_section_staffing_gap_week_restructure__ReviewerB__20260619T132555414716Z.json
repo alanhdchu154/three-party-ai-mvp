@@ -1,0 +1,21 @@
+{
+  "review_id": "baseline_comparison__sim_saga_a_alan_teacher__giis_extra_section_staffing_gap_week_restructure__ReviewerB__20260619T132555414716Z",
+  "artifact_type": "baseline_comparison",
+  "artifact_id": "sim_saga_a_alan_teacher__giis_extra_section_staffing_gap_week_restructure",
+  "source_path": "umi/reports/baseline-comparison-latest.json",
+  "reviewer": "ReviewerB",
+  "verdict": "safe",
+  "confidence": "medium",
+  "evidence_ref_ids": [
+    "baseline_case:sim_saga_a_alan_teacher__giis_extra_section_staffing_gap_week_restructure",
+    "depth:medium",
+    "metric:privacy_wall_pipeline"
+  ],
+  "comments": "Second-pass check reviewed the privacy-wall metrics and report paths for this fixed sample case. The judgment is synthetic-screening evidence only.",
+  "privacy_concerns": [],
+  "action_items": [
+    "Keep this case in future public-readiness gates."
+  ],
+  "created_at": "2026-06-19T13:25:55.414718Z",
+  "synthetic_only_warning_acknowledged": true
+}

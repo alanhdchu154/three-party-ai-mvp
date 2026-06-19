@@ -1,29 +1,29 @@
 # 對話生成邏輯 — Review 文件（給 Umi）
 
-**最後更新：2026-06-05**
+**最後更新：2026-06-18**
 
 這份文件說明 Saga A dataset 是**怎麼自動生成的**，給 reviewer（Umi）審查。重點是：哪些東西是 AI 在無人監督下自動產生的、規則是什麼、有哪些地方需要特別盯。
 
 重要 framing：這個 repo 的產品目標是真實學生系統。Saga A synthetic / generated dummy data 只是因為真實學生資料 pending，所以先用來測試隱私牆、coordinator、triage、review workflow。不要把 synthetic generation 誤認成產品本身。
 
-> ⚠️ **給 Umi 的 TL;DR**：系統現在有**一個**排程 task 在背景跑（每小時），會自動寫 synthetic/dummy 對話 + 自動評七維度 + 自動重生學生報告，**沒有人類在 loop 裡**。這份文件讓妳可以判斷這些自動規則安不安全、會不會出包。最該審的兩段在「§5 隱私與安全規則」跟「§6 需要特別盯的地方」。2026-06-05 Umi review 結論：在真實學生 pilot 或擴大自動生成前，先補 reviewer gate、crisis handoff runbook、以及 parent/teacher-safe report leak audit。
+> ⚠️ **給 Umi 的 TL;DR**：2026-06-18 起，`saga-a-hourly-conversation` 已在 source-of-truth prompt 頂部加上 **PAUSED** guard。現在主線是 baseline comparison + human reviewer annotation，不再增加 synthetic corpus。這份文件保留生成邏輯作為歷史/審查資料；不要把它當成目前要繼續跑的工作指令。
 
 ---
 
 ## 1. 總覽：什麼東西在自動跑
 
-目前有 **1 個 active scheduled task**（2026-05-21 從 2 個合併成 1 個，只在 Alan 的 Mac 開機 + Claude app 開著時跑）：
+歷史上有 **1 個 scheduled task**（2026-05-21 從 2 個合併成 1 個，只在 Alan 的 Mac 開機 + Claude app 開著時跑）。2026-06-18 已暫停，不應再寫入 corpus：
 
 | Task | 頻率 | 狀態 | 做什麼 |
 |---|---|---|---|
-| `saga-a-hourly-conversation` | 每小時整點 | ✅ active | 挑對話最少的 persona → 寫一段新對話（depth/type 隨機）→ 重評該 persona 七維度 →（若為學生）順便重生那個學生的三方分析報告 |
+| `saga-a-hourly-conversation` | 每小時整點 | ⏸ paused 2026-06-18 | 歷史功能：挑對話最少的 persona → 寫一段新對話（depth/type 隨機）→ 重評該 persona 七維度 →（若為學生）順便重生那個學生的三方分析報告。現在醒來也應停止，不寫檔。 |
 | `saga-a-daily-eval-refresh` | 每天 23:30 | ⏸ 已停用 | 功能已併入上面那個 hourly task。保留但不跑，需要可重啟。 |
 
 完整 prompt 存在：
-- `/Users/alanhdchu/Documents/Claude/Scheduled/saga-a-hourly-conversation/SKILL.md`（active，是 source of truth）
+- `/Users/alanhdchu/Documents/Claude/Scheduled/saga-a-hourly-conversation/SKILL.md`（paused，是 source of truth）
 - `/Users/alanhdchu/Documents/Claude/Scheduled/saga-a-daily-eval-refresh/SKILL.md`（停用中）
 
-這份文件是那個 active prompt 的人類可讀版 + 設計理由。
+這份文件是那個 paused prompt 的人類可讀版 + 設計理由。
 
 **合併的設計理由**：daily task 大部分是冗餘的（每天重評沒變資料的 persona 沒意義）。唯一獨特功能是「重生學生報告」，已折進 hourly task 的 Step 8.5。好處：報告永遠新鮮（每個學生輪到時刷新）、少一個 moving part。代價：hourly task 變重一點、失敗不再隔離。
 

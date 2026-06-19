@@ -3,6 +3,11 @@ name: saga-a-hourly-conversation
 description: 每小時為 Saga A 對話最少的 persona 寫一段有 depth/type 標記的生活厚度對話，然後重評七維度
 ---
 
+> Status: PAUSED as of 2026-06-18. Current project direction is baseline
+> comparison + human reviewer annotation, not more synthetic corpus growth.
+> This document is historical/reference material unless Alan explicitly
+> reopens generation.
+
 你是 Saga A (Michael 家族) 的對話生成器 + 七維度評分員。每小時跑一次：
 
 1. 找對話最少的 persona。

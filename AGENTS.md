@@ -29,9 +29,21 @@ This repo follows the global Central Umi coordination contract in `/Users/alanhd
 - After every meaningful cc/Codex loop, run the source-of-truth sync gate: active worker task -> `umi/workload.md`, recent evidence -> `WORKLOG.md`, durable direction -> `docs/roadmap.md`, cross-project risk or Alan attention -> Central Umi files. Do not let a VS Code cc chat or Codex chat be the only record of an accepted result, changed blocker, or next action.
 - If Alan works directly in a Three-Party project-lead conversation, align Central Umi immediately for benchmark/paper direction changes, privacy/safety risk, real-student/pilot claims, or cross-project validation claims; align at end of turn when `WORKLOG.md`, `docs/roadmap.md`, `umi/workload.md`, corpus evidence, blocker, risk, or next action changes.
 
-## What this product is
+## What this project is now
 
-A three-party AI coordination tool for online education. Each party — student, parent, teacher — has their own dedicated AI to talk to privately. A **coordinator AI** synthesizes the three perspectives into a plan that is best for the student while being acceptable to all three parties. The coordinator also acts as a **triage layer**, deciding when a student needs more intensive 1-on-1 support.
+Current public framing: a synthetic benchmark and reference architecture for a
+**privacy-preserving AI coordination layer for schools and family-support
+workflows**.
+
+Each party — student, parent, teacher — can have a private AI surface. A
+coordinator receives abstracted profiles, not raw disclosures, and produces
+internal / parent-safe / teacher-safe reports for human review. The active proof
+work is baseline comparison + human reviewer annotation, not more synthetic
+corpus growth.
+
+Do not present this repo as real-student validation, clinical validation, or
+deployment readiness. GIIS/Jieni remain historical context and possible future
+deployment settings, not the current GitHub-facing claim.
 
 ## Core product thesis (the founder's own insight — preserve this)
 
@@ -46,14 +58,14 @@ People will tell AI things they would never say out loud. The product's unique v
 
 **Critical implication for design**: The student's confessions to their AI must NEVER be shown verbatim to parents or teachers. The coordinator AI translates themes / needs without exposing the raw words. Breaking this trust collapses the product's value.
 
-## Business context
+## Historical business context
 
 The founder is **Alan** (alanhdchu@genesisideas.school). His roles:
 - **Owner of GIIS (Genesis Ideas International School)** — an online high school
 - **CEO of 杰尼教育 (Jieni Education, Shanghai)** — a 1-on-1 tutoring company
 - **Future possibility**: management role at a Shanghai International School
 
-This product is designed as a **two-stage funnel between two organizations Alan controls**:
+Earlier product framing explored a **two-stage funnel between two organizations Alan controls**:
 
 ```
 GIIS (online HS, broad reach, lead-gen)
@@ -63,7 +75,7 @@ AI triage (this product's coordinator)
 杰尼教育 (1-on-1, premium, monetization)
 ```
 
-Implications:
+Historical implications:
 - The coordinator AI is **simultaneously a coordination tool AND a triage / diagnostic layer**. When student/parent/teacher input shows a student needs more than scale services can offer, the system recommends escalation to 杰尼's 1-on-1.
 - **No "selling to schools" friction.** Alan is the owner. Pilot can deploy internally as soon as code is ready. Bottleneck is product, not distribution.
 - **Target audience is GIIS students first, then 杰尼.** NOT Taiwan general K-12 market — that framing was explicitly rejected by Alan.
@@ -121,14 +133,17 @@ Switching providers requires only changing `LLM_MODEL` in `.env` and the corresp
 
 ## Open follow-ups (in priority order)
 
-### A. Persona depth rebuild
-Alan finds the current student personas too "symptom-classification" and wants them rebuilt using **anime / classic-literature character archetypes** as personality skeletons. Suggested archetypes already discussed:
+### A. Baseline comparison + human annotation
 
-**Anime**: 比企谷八幡 (intellectualized cynicism), 我妻善逸 (high-functioning anxiety), 友利奈緒 (dissociation), 御坂美琴 (high-achiever + family pressure), parentified eldest child, 五條悟 (performative bravado masking loneliness)
+Current mainline: do not generate more synthetic conversations. Package the
+repo as a GitHub-first technical asset, then prove the privacy-wall value with:
 
-**Literary**: 林黛玉 (sensitivity + illness mindset), 賈寶玉 (passive resistance to family expectations), Holden Caulfield (alienation), Esther Greenwood (high-achiever depression), Hermione Granger (perfectionism breakdown), 安藤潤子 (artistic obsession)
-
-**Alan needs to pick 5-7 to prioritize** before the regeneration runs. Method: use each archetype as a personality skeleton, then add a realistic GIIS-context overlay (year, family situation, location).
+- raw coordinator baseline vs privacy-wall pipeline comparison;
+- human reviewer annotation over shallow, medium, deep, privacy-probe, and
+  misuse/boundary cases;
+- clear claim boundaries in README, `docs/startup_thesis.md`,
+  `docs/baseline_comparison_plan.md`, and
+  `docs/human_reviewer_annotation_protocol.md`.
 
 ### B. MVP cleanup (low priority)
 There may be stale `__pycache__/`, `.pytest_cache/`, or a nested duplicate folder from earlier copy operations. If present, can be cleaned with:

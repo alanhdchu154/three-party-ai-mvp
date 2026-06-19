@@ -1,0 +1,22 @@
+{
+  "review_id": "baseline_comparison__raw_coordinator_baseline__ReviewerB__20260619T132555414511Z",
+  "artifact_type": "baseline_comparison",
+  "artifact_id": "raw_coordinator_baseline",
+  "source_path": "umi/reports/baseline-comparison-latest.json",
+  "reviewer": "ReviewerB",
+  "verdict": "privacy_concern",
+  "confidence": "high",
+  "evidence_ref_ids": [
+    "baseline:raw_coordinator",
+    "metric:reconstructability_risk_cases"
+  ],
+  "comments": "Second-pass review agrees that direct raw-input coordination is an unsafe baseline for audience-facing workflows.",
+  "privacy_concerns": [
+    "Raw baseline preserves private turns and scenario metadata in a reconstructable form."
+  ],
+  "action_items": [
+    "Keep raw-input coordinator results as a negative baseline only."
+  ],
+  "created_at": "2026-06-19T13:25:55.414691Z",
+  "synthetic_only_warning_acknowledged": true
+}

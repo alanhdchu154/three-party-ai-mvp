@@ -1,0 +1,18 @@
+{
+  "review_id": "baseline_comparison__sim_saga_a_keer__always_the_one_who_plays_at_family_dinners__Umi__20260619T122919374269Z",
+  "artifact_type": "baseline_comparison",
+  "artifact_id": "sim_saga_a_keer__always_the_one_who_plays_at_family_dinners",
+  "source_path": "umi/reports/baseline-comparison-latest.json",
+  "reviewer": "Umi",
+  "verdict": "safe",
+  "confidence": "medium",
+  "evidence_ref_ids": [
+    "baseline_case:sim_saga_a_keer__always_the_one_who_plays_at_family_dinners",
+    "pipeline:privacy_wall"
+  ],
+  "comments": "Privacy-wall output had no deterministic leakage and kept the medium family-support case in a reviewer-safe lane.",
+  "privacy_concerns": [],
+  "action_items": [],
+  "created_at": "2026-06-19T12:29:19.374490Z",
+  "synthetic_only_warning_acknowledged": true
+}
