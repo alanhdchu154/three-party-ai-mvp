@@ -7,7 +7,8 @@ single-conversation handoff is stale and was removed from the active board.
 
 ## Active Task
 
-GitHub publication readiness after Evidence v1 release gate.
+GitHub publication readiness after Evidence v1 release gate and persona-depth
+documentation.
 
 Current worker should not generate new synthetic conversations. The first
 baseline comparison and human reviewer annotation pass now exists. Use the
@@ -18,6 +19,19 @@ claims bounded. README now includes an `Evidence v1` section, and
 risks, and maintenance rules. The baseline over-escalation heuristic has been
 calibrated so conditional reviewer boilerplate is not treated as high-severity
 escalation in shallow cases.
+
+Persona and relationship depth are now documented in:
+
+- `docs/persona_bible.md`
+- `docs/relationship_graph.md`
+- `docs/persona_depth_audit.md`
+
+Current conclusion: the existing character and family-system layer is enough
+for a synthetic benchmark / reference architecture claim. It is not evidence of
+real-student validity, clinical validity, school deployment readiness, or
+outcome improvement. Do not restart generation merely to add role depth; if
+generation resumes later, constrain new cases with the persona bible and
+relationship graph first.
 
 The one-command release-readiness gate now exists:
 
@@ -52,6 +66,9 @@ claim-boundary scan, and git-visible secret scan. The latest report is
   reconstructability risk 11/11; privacy-wall pipeline 0 reconstructability
   risk, 0 over-escalation flags, 0 under-escalation flags, and 0 unsupported
   recommendation flags.
+- Persona-depth audit exists: current personas are sufficient for the synthetic
+  benchmark claim, with strongest systems around Rachel-Uncle, Shen You-Shen
+  Mom, and the Michael-Keer-Michael Mom-Stepdad blended family.
 - Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
   report regeneration, and test runs.
 
@@ -64,6 +81,8 @@ If work resumes, create a focused task for:
   school outreach;
 - optionally expanding privacy evaluation beyond deterministic semantic trace
   overlap into stronger semantic privacy checks;
+- optionally maintaining the persona bible / relationship graph if Alan
+  explicitly reopens synthetic generation or adds a new family system;
 - rerunning `.venv/bin/python scripts/run_release_readiness.py`;
 - preserving synthetic-data limitations and avoiding real-student validation
   claims.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T13:37:20.342484+00:00",
+  "generated_at": "2026-06-19T14:14:36.292381+00:00",
   "claim_boundary_statement": "Synthetic benchmark gate only. Not real-student validation, clinical validity, deployment readiness, or outcome proof.",
   "readiness": {
     "status": "pass",
@@ -147,7 +147,7 @@
         "-q"
       ],
       "returncode": 0,
-      "stdout": "ssss..................................s................................. [ 85%]\n....ss......                                                             [100%]\n77 passed, 7 skipped in 0.27s\n",
+      "stdout": "ssss..................................s................................. [ 85%]\n....ss......                                                             [100%]\n77 passed, 7 skipped in 0.34s\n",
       "stderr": ""
     }
   ]

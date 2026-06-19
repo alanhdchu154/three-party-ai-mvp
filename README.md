@@ -55,6 +55,9 @@ Primary evidence files:
 - [`data/reviewer_summaries/reviewer_annotation_summary.md`](data/reviewer_summaries/reviewer_annotation_summary.md)
 - [`umi/reports/audience-report-leak-audit-latest.md`](umi/reports/audience-report-leak-audit-latest.md)
 - [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
+- [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md)
+- [`docs/persona_bible.md`](docs/persona_bible.md)
+- [`docs/relationship_graph.md`](docs/relationship_graph.md)
 
 ## What Is Not Proven
 
@@ -77,7 +80,11 @@ who would buy, what hurts, what this solves, and what proof is still missing.
 See [`docs/literature_review.md`](docs/literature_review.md) for academic
 grounding and [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md) for
 benchmark provenance, intended use, non-use, limitations, and maintenance
-notes. See [`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
+notes. See [`docs/persona_bible.md`](docs/persona_bible.md),
+[`docs/relationship_graph.md`](docs/relationship_graph.md), and
+[`docs/persona_depth_audit.md`](docs/persona_depth_audit.md) for the synthetic
+persona and family-system layer behind the fixed benchmark cases. See
+[`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
 for the public-release boundary and verification checklist.
 
 ## Safety Status
@@ -150,6 +157,7 @@ tooling around it.
 | Storage / workflow helpers | `src/profile_store.py`, `src/reviewer_workflow.py` | Local JSON profile storage, reviewer note creation, reviewer summary aggregation. |
 | Prompt layer | `prompts/*.txt` | Editable prompts for the student agent, abstraction, coordinator, and triage modules. |
 | Synthetic benchmark data | `data/generated_conversations/`, `data/audience_reports/`, `data/reviewer_notes/` | Synthetic conversations, audience-safe reports, and human-review annotations. |
+| Persona / relationship layer | `docs/persona_bible.md`, `docs/relationship_graph.md`, `docs/persona_depth_audit.md` | Public-safe canon for synthetic personas, family-system edges, and current depth sufficiency. |
 | Evidence / release gates | `scripts/run_release_readiness.py`, `scripts/run_baseline_comparison.py`, `scripts/run_semantic_trace_audit.py` | Deterministic checks for corpus state, privacy-wall behavior, reviewer coverage, leak risk, and public claim boundaries. |
 | Tests | `tests/` | Unit and regression tests; API-backed tests skip when no key is configured. |
 | Public docs | `docs/`, `umi/reports/` | Startup thesis, literature review, benchmark datasheet, release-readiness reports, and publication checklist. |

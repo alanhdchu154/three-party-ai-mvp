@@ -41,6 +41,26 @@ Any answer about "current" corpus state must include:
 
 ## Work Log
 
+### 2026-06-19 · Codex/Umi · Persona and relationship depth layer
+
+- Added public-safe persona and relationship documentation:
+  - `docs/persona_bible.md`
+  - `docs/relationship_graph.md`
+  - `docs/persona_depth_audit.md`
+- Current conclusion: the existing role depth is sufficient for the repo's
+  synthetic benchmark / reference architecture claim, but not for real-student
+  validation, clinical validity, school deployment readiness, or outcome-proof
+  claims.
+- The strongest relationship systems are Rachel-Uncle, Shen You-Shen Mom, and
+  the Michael-Keer-Michael Mom-Stepdad blended-family system. Alan Teacher is
+  intentionally treated as a utility-level school-side observer, not a full
+  family-depth persona.
+- Updated README, benchmark datasheet, and roadmap so the persona/relationship
+  layer is visible from the GitHub-facing docs.
+- Generation remains paused. Future generated cases should first name which
+  persona motive and relationship edge they stress, rather than adding volume
+  without design coverage.
+
 ### 2026-06-19 · Codex/Umi · GitHub-public readiness gate
 
 - Added `scripts/run_semantic_trace_audit.py`, a deterministic trace-overlap

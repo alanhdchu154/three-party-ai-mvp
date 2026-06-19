@@ -47,6 +47,11 @@ Current corpus snapshot:
 Important artifact groups:
 
 - `data/generated_conversations/`: synthetic private conversations.
+- `docs/persona_bible.md`: public-safe persona canon for the synthetic cases.
+- `docs/relationship_graph.md`: synthetic family and school-side relationship
+  map.
+- `docs/persona_depth_audit.md`: current audit of persona depth, relationship
+  depth, and known gaps.
 - `data/case_summaries/`: internal case summaries.
 - `data/audience_reports/parent_safe/`: parent-safe reports.
 - `data/audience_reports/teacher_safe/`: teacher-safe reports.
@@ -69,6 +74,11 @@ survey data, clinical evidence, or school deployment data.
 
 Generation is currently paused. The active proof path is baseline comparison
 plus human reviewer annotation, not additional synthetic corpus growth.
+
+Persona and relationship assumptions are documented in
+`docs/persona_bible.md` and `docs/relationship_graph.md`. These docs support
+generation consistency and benchmark-sample selection. They do not turn the
+corpus into real-family evidence or a representative demographic sample.
 
 ## Architecture Under Test
 
@@ -206,11 +216,15 @@ until reports and summaries are regenerated.
 - No external independent reviewer pass yet.
 - No real pilot evidence.
 - No formal human-subjects study.
+- No claim that the synthetic persona set is representative of real students,
+  parents, teachers, or family systems.
 - No Chinese-language literature review extension for family-school cultural
   context.
 - No full-stack runtime trace privacy benchmark beyond the current deterministic
   report-focused semantic trace checks.
 - No reviewer UI; current review is file- and JSON-note based.
+- Future synthetic generation should be constrained by the persona bible and
+  relationship graph rather than adding volume without design coverage.
 
 ## Citation / Reuse Boundary
 

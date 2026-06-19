@@ -51,6 +51,10 @@ reviewer evaluation.
   - `docs/literature_review.md`
 - 2026-06-19 benchmark datasheet added:
   - `docs/benchmark_datasheet.md`
+- 2026-06-19 persona and relationship layer added:
+  - `docs/persona_bible.md`
+  - `docs/relationship_graph.md`
+  - `docs/persona_depth_audit.md`
 - Next step: use the raw-coordinator baseline comparison and human reviewer
   annotation v1 to tighten the paper/README claims before treating the draft as
   public or submission-ready.
@@ -81,6 +85,12 @@ reviewer evaluation.
   - `data/reviewer_summaries/reviewer_annotation_summary.md`
   - `data/reviewer_notes/baseline_comparison__*.json`
   - `data/reviewer_notes/audience_report__*.json`
+- Persona/relationship documentation now exists:
+  - `docs/persona_bible.md`
+  - `docs/relationship_graph.md`
+  - `docs/persona_depth_audit.md`
+  These files make the current synthetic character and family-system layer
+  explicit enough for GitHub readers without claiming real-family validation.
 - Second local reviewer pass now exists over the fixed 11-case baseline sample
   plus 3 audience-report variants. This is screening evidence only, not an
   external independent validation study.
@@ -101,6 +111,9 @@ reviewer evaluation.
   corpus numbers.
 - Keep deep/shallow/medium balance from drifting back into all-deep psychology
   theater.
+- If synthetic generation resumes later, constrain new cases with
+  `docs/persona_bible.md` and `docs/relationship_graph.md` before adding
+  volume.
 
 ### 2. Downstream Report Freshness
 
@@ -133,7 +146,8 @@ reviewer evaluation.
 - Still useful future work: show coordination snapshots and reviewer notes in a
   practical review surface instead of relying only on generated files.
 - Next technical packaging items after GitHub publication: optional external
-  reviewer, stronger semantic privacy evaluation, and a practical reviewer UI.
+  reviewer, stronger semantic privacy evaluation, persona-bible maintenance if
+  generation resumes, and a practical reviewer UI.
 
 ## Deferred
 
