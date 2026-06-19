@@ -184,7 +184,9 @@ def render_reviewer_summary(
     lines = [
         f"# {title}",
         "",
-        "> Human reviewer notes calibrate synthetic case and trajectory outputs. They do not convert synthetic data into real pilot validation.",
+        "> Reviewer notes calibrate synthetic case and trajectory outputs. They do not convert synthetic data into real pilot validation.",
+        "",
+        "> Reviewer identity boundary: `Umi` is an AI-assisted internal reviewer label. `ReviewerB` is a local second-reviewer label seeded for screening coverage. These labels do not represent external independent human validation unless a separate external review record says so.",
         "",
         f"- Notes: `{summary['n_notes']}`",
         f"- Artifacts reviewed: `{summary['n_artifacts_reviewed']}`",

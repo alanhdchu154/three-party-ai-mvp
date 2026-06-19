@@ -106,7 +106,9 @@ def test_generate_empty_reviewer_summary(tmp_path):
     rendered = path.read_text(encoding="utf-8")
 
     assert "No Reviews Yet" in rendered
+    assert "Reviewer notes calibrate synthetic case" in rendered
     assert "synthetic data into real pilot validation" in rendered
+    assert "Umi` is an AI-assisted internal reviewer label" in rendered
 
 
 def test_generate_annotation_summary_filename_and_title(tmp_path):
@@ -122,6 +124,7 @@ def test_generate_annotation_summary_filename_and_title(tmp_path):
 
     assert path.name == "reviewer_annotation_summary.md"
     assert "# Reviewer Annotation Summary" in rendered
+    assert "Reviewer identity boundary" in rendered
 
 
 def test_render_reviewer_summary_includes_sources_and_evidence_refs():

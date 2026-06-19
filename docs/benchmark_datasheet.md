@@ -160,6 +160,13 @@ Latest verification snapshot:
   baseline/audience-report artifacts.
 - `.venv/bin/python -m pytest -q`: 89 passed / 7 skipped.
 
+Reviewer identity boundary:
+
+- `Umi` is an AI-assisted internal reviewer label.
+- `ReviewerB` is a local second-reviewer label seeded for screening coverage.
+- These labels do not represent external independent human validation unless a
+  separate external review record says so.
+
 Reviewer annotation v1 findings:
 
 - Raw coordinator baseline is marked `privacy_concern`.

@@ -1,6 +1,8 @@
 # Reviewer Calibration Summary
 
-> Human reviewer notes calibrate synthetic case and trajectory outputs. They do not convert synthetic data into real pilot validation.
+> Reviewer notes calibrate synthetic case and trajectory outputs. They do not convert synthetic data into real pilot validation.
+
+> Reviewer identity boundary: `Umi` is an AI-assisted internal reviewer label. `ReviewerB` is a local second-reviewer label seeded for screening coverage. These labels do not represent external independent human validation unless a separate external review record says so.
 
 - Notes: `37`
 - Artifacts reviewed: `22`

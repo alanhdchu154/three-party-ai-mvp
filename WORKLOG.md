@@ -33,6 +33,7 @@ historical details.
 | 12 | Add an external reviewer packet and GitHub feedback template for independent outside review. | Codex / Umi | v1 done 2026-06-19 |
 | 13 | Add external testing instructions and run Claude Code / reviewer-agent dry run. | Codex / Umi | v1 done 2026-06-19 |
 | 14 | Prepare first-round external reviewer outreach messages. | Codex / Umi | v1 done 2026-06-19 |
+| 15 | Run simulated external panel review with cc and agents; disclose AI/internal reviewer boundary. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -45,6 +46,30 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · Simulated external panel review
+
+- Ran a read-only simulated external panel review:
+  - privacy / AI governance reviewer agent,
+  - school counselor / student-support operations reviewer agent,
+  - HCI / learning analytics / benchmark methodology reviewer agent,
+  - Claude Code read-only synthesis pass.
+- Added `docs/simulated_external_panel_review_2026-06-19.md`.
+- Accepted and fixed the highest-credibility issue: reviewer summaries and paper
+  claims now disclose that `Umi` is an AI-assisted internal reviewer label and
+  `ReviewerB` is a local second-reviewer screening label, not external
+  independent human validation.
+- Updated `src/reviewer_workflow.py` so generated reviewer summaries include
+  the reviewer identity boundary.
+- Regenerated reviewer summaries and updated `docs/benchmark_datasheet.md`.
+- Updated `docs/paper_draft.md` from stale 65 passed / 7 skipped language to
+  current Evidence v1 wording: 89 passed / 7 skipped, 37 reviewer notes / 22
+  artifacts, deterministic screening checks, and internal reviewer annotation.
+- Panel conclusion: public GitHub synthetic benchmark sharing remains
+  acceptable with limits; investor/school/pilot claims remain blocked until
+  real external review and governance ownership exist; academic review needs
+  held-out or stratified sampling, ablations, independent annotation, and
+  agreement reporting.
 
 ### 2026-06-19 · Codex/Umi · External reviewer outreach kit
 

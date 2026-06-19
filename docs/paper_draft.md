@@ -22,7 +22,7 @@ guardrails, audience-safe reporting, and human review. In a preliminary
 a deterministic leak audit with 18/18 reports passing and 0 failures. A fixed
 11-case raw-coordinator baseline comparison found reconstructability risk in
 11/11 raw-baseline cases and 0/11 privacy-wall cases under deterministic
-checks. A first reviewer annotation pass covers 22 artifacts. We do not claim
+checks. A reviewer annotation pass covers 37 notes over 22 artifacts. We do not claim
 that synthetic dialogues represent real student behavior. Instead, we use them
 as a controlled testbed for identifying privacy and coordination failures before
 any real-world deployment involving minors.
@@ -307,18 +307,24 @@ current deterministic heuristic.
 | under-escalation flags | 3 | 0 |
 | recommendation without evidence flags | 2 | 0 |
 
-The first reviewer annotation pass covers 22 reviewed artifacts: 12 baseline
-artifacts, 3 audience-report artifacts, and 7 legacy calibration artifacts.
-Current new-style reviewer verdicts include 13 `safe`, 2 `privacy_concern`, and
-1 `minor_issue`, alongside legacy calibration verdicts. The raw baseline is
-marked as a privacy concern; parent-safe and teacher-safe reports for the
-sampled Michael case are marked safe; the internal reviewer report is marked
-minor issue because restricted reviewer content should not be reused as
-parent-safe or teacher-safe output.
+The reviewer annotation pass covers 37 notes over 22 reviewed artifacts: 12
+baseline artifacts, 3 audience-report artifacts, and 7 legacy calibration
+artifacts. Current new-style reviewer verdicts include 26 `safe`, 3
+`privacy_concern`, and 2 `minor_issue`, alongside legacy calibration verdicts.
+The raw baseline is marked as a privacy concern; parent-safe and teacher-safe
+reports for the sampled Michael case are marked safe; the internal reviewer
+report is marked minor issue because restricted reviewer content should not be
+reused as parent-safe or teacher-safe output.
 
-The full test suite passed with 65 tests passing and 7 skipped. These results
+Reviewer identity boundary: `Umi` is an AI-assisted internal reviewer label,
+and `ReviewerB` is a local second-reviewer label seeded for screening coverage.
+These labels do not represent external independent human validation. This
+reviewer evidence should be treated as internal screening until external
+reviewers complete and record review.
+
+The full test suite passed with 89 tests passing and 7 skipped. These results
 support a preliminary claim that the current privacy-wall reporting pipeline
-passes deterministic regression checks and first-pass reviewer annotation on the
+passed deterministic screening checks and internal reviewer annotation on the
 frozen synthetic snapshot.
 
 They do not support claims about real-world validity, clinical validity,
@@ -387,7 +393,7 @@ teachers, and human reviewers. Preliminary results on a 348-conversation
 synthetic snapshot show that the current privacy-wall reporting pipeline
 generates audience-safe reports with no deterministic leak-audit failures and
 improves over a raw-coordinator baseline on deterministic reconstructability
-checks. A first reviewer annotation pass adds human judgment over baseline and
+checks. An internal reviewer annotation pass adds reviewer judgment over baseline and
 report artifacts. The main contribution is a testbed and evaluation protocol
 for identifying privacy, triage, and coordination failures before real-world
 deployment.

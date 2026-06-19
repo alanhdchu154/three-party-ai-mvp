@@ -62,6 +62,8 @@ reviewer evaluation.
   - `.github/ISSUE_TEMPLATE/external-review.yml`
 - 2026-06-19 internal external-review dry run added:
   - `docs/external_review_agent_dry_run_2026-06-19.md`
+- 2026-06-19 simulated external panel review added:
+  - `docs/simulated_external_panel_review_2026-06-19.md`
 - Next step: use the raw-coordinator baseline comparison and human reviewer
   annotation v1 to tighten the paper/README claims before treating the draft as
   public or submission-ready.
@@ -115,6 +117,7 @@ reviewer evaluation.
   privacy wall, and public claim boundary without uploading private data.
 - Internal AI-assisted dry run exists:
   - `docs/external_review_agent_dry_run_2026-06-19.md`
+  - `docs/simulated_external_panel_review_2026-06-19.md`
   This records Claude Code and reviewer-agent findings used to tighten the
   instructions. It is not external independent validation.
 - Second local reviewer pass now exists over the fixed 11-case baseline sample

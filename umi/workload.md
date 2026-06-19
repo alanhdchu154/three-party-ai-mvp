@@ -50,11 +50,18 @@ Internal dry-run review exists:
 - Three reviewer agents: privacy/governance, school operations, and
   research/HCI.
 - `docs/external_review_agent_dry_run_2026-06-19.md`
+- `docs/simulated_external_panel_review_2026-06-19.md`
 
 The dry run tightened the instructions around motivated-recipient
 reconstructability, cross-artifact triangulation, school-ops actionability,
 baseline sampling, reviewer independence, and confidentiality. It is not
 external independent validation.
+
+Reviewer identity boundary now exists in generated reviewer summaries:
+
+- `Umi` is an AI-assisted internal reviewer label.
+- `ReviewerB` is a local second-reviewer screening label.
+- Neither represents external independent human validation.
 
 The one-command release-readiness gate now exists:
 
@@ -107,6 +114,9 @@ git-visible secret scan. The latest report is
   them as pre-review QA, not external validation.
 - External reviewer outreach messages exist. No external message has been sent
   automatically.
+- Simulated panel review says GitHub/workshop sharing is acceptable with
+  limits, but investor/school/pilot claims and academic-ready benchmark claims
+  remain blocked until real external review and stronger methodology exist.
 - Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
   report regeneration, and test runs.
 
