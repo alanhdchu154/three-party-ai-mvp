@@ -63,6 +63,7 @@ Primary evidence files:
 - [`umi/reports/audience-report-leak-audit-latest.md`](umi/reports/audience-report-leak-audit-latest.md)
 - [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
 - [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md)
+- [`docs/external_testing_instructions.md`](docs/external_testing_instructions.md)
 - [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md)
 - [`docs/persona_bible.md`](docs/persona_bible.md)
 - [`docs/relationship_graph.md`](docs/relationship_graph.md)
@@ -92,8 +93,9 @@ notes. See [`docs/persona_bible.md`](docs/persona_bible.md),
 [`docs/relationship_graph.md`](docs/relationship_graph.md), and
 [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md) for the synthetic
 persona and family-system layer behind the fixed benchmark cases. See
-[`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md) for the
-recommended outside-review path and
+[`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md) and
+[`docs/external_testing_instructions.md`](docs/external_testing_instructions.md)
+for the recommended outside-review path and concrete test tracks. See
 [`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
 for the public-release boundary and verification checklist.
 
@@ -413,6 +415,9 @@ python scripts/run_pilot_harness.py --student michael --run-id local_smoke_micha
 輸出會在 `data/audience_reports/` 和 `data/pilot_runs/<run_id>/`。
 
 ## 下一階段（v0.9 Pilot Candidate）要加什麼
+
+以下是 future governance requirements，不是 Evidence v1 的真實學生驗證、
+部署 readiness、或處理真實 minor data 的授權。
 
 按優先序：
 

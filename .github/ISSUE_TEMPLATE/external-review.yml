@@ -45,6 +45,7 @@ body:
         - label: README.md
         - label: docs/startup_thesis.md
         - label: docs/external_reviewer_packet.md
+        - label: docs/external_testing_instructions.md
         - label: docs/benchmark_datasheet.md
         - label: umi/reports/release-readiness-latest.md
         - label: umi/reports/baseline-comparison-latest.md
@@ -56,6 +57,47 @@ body:
         - label: docs/human_reviewer_annotation_protocol.md
         - label: docs/literature_review.md / docs/paper_draft.md
         - label: docs/persona_bible.md / docs/relationship_graph.md / docs/persona_depth_audit.md
+  - type: checkboxes
+    id: test_tracks
+    attributes:
+      label: Test tracks
+      description: Which external testing tracks did you use?
+      options:
+        - label: Public claim boundary
+        - label: Privacy boundary and reconstructability
+        - label: Usefulness and actionability
+        - label: Baseline comparison fairness
+        - label: Reviewer workflow and GitHub feedback
+        - label: Research and methodology credibility
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Overall verdict
+      description: Use the project verdict vocabulary when possible.
+      options:
+        - safe
+        - minor_issue
+        - privacy_concern
+        - over_escalated
+        - under_escalated
+        - under_evidenced
+        - not_actionable
+    validations:
+      required: true
+  - type: checkboxes
+    id: scripts_run
+    attributes:
+      label: Scripts or review mode used
+      description: Check all that apply.
+      options:
+        - label: Manual file review only
+        - label: .venv/bin/python scripts/run_release_readiness.py
+        - label: .venv/bin/python scripts/run_baseline_comparison.py
+        - label: .venv/bin/python scripts/run_semantic_trace_audit.py
+        - label: .venv/bin/python scripts/run_relationship_leak_audit.py
+        - label: .venv/bin/python scripts/run_runtime_trace_privacy_audit.py
   - type: textarea
     id: summary
     attributes:
@@ -82,12 +124,16 @@ body:
       label: Claim-boundary concerns
       description: Note any language that sounds stronger than synthetic-benchmark evidence supports.
       placeholder: This section may imply real-student validation because...
+    validations:
+      required: true
   - type: textarea
     id: privacy_safety
     attributes:
       label: Privacy or safety concerns
       description: Note leakage, reconstructability, escalation, misuse, or minor-data concerns.
       placeholder: Parent-safe report X may reveal...
+    validations:
+      required: true
   - type: dropdown
     id: recommended_next_step
     attributes:
@@ -108,4 +154,12 @@ body:
       label: Follow-up
       options:
         - label: I am comfortable being contacted in this public issue for clarification.
-
+  - type: checkboxes
+    id: confidentiality_confirmation
+    attributes:
+      label: Confidentiality confirmation
+      options:
+        - label: I confirm that this issue does not include real student, family, school, clinical, API-key, or other confidential data.
+          required: true
+    validations:
+      required: true

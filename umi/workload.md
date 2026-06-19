@@ -36,11 +36,24 @@ relationship graph first.
 External review packaging now exists:
 
 - `docs/external_reviewer_packet.md`
+- `docs/external_testing_instructions.md`
 - `.github/ISSUE_TEMPLATE/external-review.yml`
 
 These files make it easier to ask outsiders for useful feedback on the
 synthetic benchmark, privacy wall, public claim boundary, and evidence gaps.
 They do not mean external independent validation has been completed.
+
+Internal dry-run review exists:
+
+- Claude Code read-only external testing review.
+- Three reviewer agents: privacy/governance, school operations, and
+  research/HCI.
+- `docs/external_review_agent_dry_run_2026-06-19.md`
+
+The dry run tightened the instructions around motivated-recipient
+reconstructability, cross-artifact triangulation, school-ops actionability,
+baseline sampling, reviewer independence, and confidentiality. It is not
+external independent validation.
 
 The one-command release-readiness gate now exists:
 
@@ -89,6 +102,8 @@ git-visible secret scan. The latest report is
   Mom, and the Michael-Keer-Michael Mom-Stepdad blended family.
 - External reviewer packet and GitHub issue template exist, but no external
   independent review has been completed yet.
+- External testing instructions and internal agent dry-run report exist. Treat
+  them as pre-review QA, not external validation.
 - Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
   report regeneration, and test runs.
 

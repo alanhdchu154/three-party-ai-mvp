@@ -50,6 +50,7 @@ Good public entry points:
 - `README.md`
 - `docs/startup_thesis.md`
 - `docs/external_reviewer_packet.md`
+- `docs/external_testing_instructions.md`
 - `docs/literature_review.md`
 - `docs/benchmark_datasheet.md`
 - `umi/reports/release-readiness-latest.md`
@@ -63,6 +64,7 @@ Good public feedback entry points:
 
 - GitHub `External Review` issue template;
 - `docs/external_reviewer_packet.md`;
+- `docs/external_testing_instructions.md`;
 - issue feedback that cites file paths, report IDs, case IDs, and abstract risk
   descriptions instead of private or identifiable data.
 

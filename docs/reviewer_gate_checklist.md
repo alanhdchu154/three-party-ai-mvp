@@ -1,6 +1,6 @@
 # Reviewer Gate Checklist
 
-Last updated: 2026-06-05
+Last updated: 2026-06-19
 
 This checklist defines the human/reviewer gate before any Three-Party AI output
 is used for pilot-readiness claims or real student/family workflows.
@@ -17,6 +17,11 @@ Use this gate for:
 
 Synthetic data can remain useful for rehearsal, but it is not validation by
 itself.
+
+For public outside review of the synthetic benchmark, use
+`docs/external_reviewer_packet.md` and
+`docs/external_testing_instructions.md`. This checklist is stricter: it is for
+pilot-readiness or real-workflow claims.
 
 ## Minimum Evidence Before Review
 
@@ -80,11 +85,20 @@ Every decision should include:
 
 ## Current Decision
 
-As of 2026-06-05, no full reviewer gate has been completed for real-student
-pilot readiness. Current safe next step is internal rehearsal only:
+As of 2026-06-19, Evidence v1 supports GitHub-facing synthetic benchmark
+discussion only. It does not support real-student pilot readiness.
 
-- corpus snapshot: 300 conversations,
-- leak audit: 18 pass / 0 fail,
-- reports/tests: refreshed for the 2026-06-04 snapshot,
-- pilot-readiness claim: blocked until reviewer gate and crisis/deletion owner
-  are explicitly accepted.
+Current synthetic-benchmark evidence:
+
+- corpus snapshot: 348 synthetic conversations,
+- release-readiness gate: PASS,
+- audience report leak audit: 18 pass / 0 fail,
+- semantic trace audit: 22 pass / 0 fail,
+- relationship leak audit: 18 pass / 0 fail,
+- runtime trace privacy audit: 51 pass / 0 fail,
+- reviewer annotation: 37 notes / 22 artifacts,
+- pytest in release gate: 89 passed / 7 skipped.
+
+Pilot-readiness claim remains blocked until real provider/data boundary,
+reviewer ownership, consent/onboarding, deletion procedure, Level 2/3 human
+handoff ownership, and external or independent review are explicitly accepted.

@@ -47,6 +47,9 @@ support signals and produce reports that are safe for the intended audience.
 
 ## What To Read
 
+For concrete task-by-task testing instructions, start with
+`docs/external_testing_instructions.md`.
+
 ### Quick 20-Minute Review
 
 - `README.md`
@@ -60,6 +63,9 @@ summary make sense.
 ### Privacy-Focused 45-Minute Review
 
 - `docs/human_reviewer_annotation_protocol.md`
+- `docs/external_testing_instructions.md`
+- `docs/persona_bible.md`
+- `docs/relationship_graph.md`
 - `umi/reports/baseline-comparison-latest.md`
 - `umi/reports/semantic-trace-audit-latest.md`
 - `umi/reports/relationship-leak-audit-latest.md`
@@ -69,6 +75,18 @@ summary make sense.
 
 Use this path to check whether parent-safe and teacher-safe outputs reveal too
 much, become too vague to act on, or encourage unsafe follow-up behavior.
+
+### School-Ops 30-Minute Review
+
+- `docs/external_testing_instructions.md`
+- `docs/reviewer_gate_checklist.md`
+- parent-safe reports under `data/audience_reports/parent_safe/`
+- teacher-safe reports under `data/audience_reports/teacher_safe/`
+- `data/reviewer_summaries/reviewer_annotation_summary.md`
+
+Use this path to check whether a parent, teacher, counselor/reviewer, or school
+administrator can take a low-risk next step without probing for hidden private
+details.
 
 ### Research / Paper 60-Minute Review
 
@@ -102,6 +120,11 @@ Good review feedback usually answers one or more of these questions:
   independent reviewer?
 - What evidence would be required before this could responsibly move toward a
   real pilot?
+
+Reconstructability should be tested broadly: not only exact quote leakage, but
+also close paraphrases, unique family-system markers, role-specific context,
+copy/paste failure, and cross-artifact triangulation that could reveal
+protected synthetic disclosures.
 
 ## Reviewer Verdicts
 
@@ -160,6 +183,7 @@ and abstract risk descriptions.
 Open a GitHub issue using the `External Review` template. Include:
 
 - reviewer lens;
+- review track;
 - artifacts reviewed;
 - short summary;
 - highest-severity findings first;
@@ -170,3 +194,6 @@ Open a GitHub issue using the `External Review` template. Include:
 If feedback depends on private professional context, summarize only the
 generalizable lesson in public and keep confidential details out of the issue.
 
+External reviewers should use GitHub issues for public feedback. The local
+`scripts/add_reviewer_note.py` workflow is for internal annotation passes and
+should not be required for outside review.

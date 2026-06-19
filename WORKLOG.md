@@ -31,6 +31,7 @@ historical details.
 | 10 | Add relationship-context leak audit for reconstructable persona/family-system markers. | Codex / Umi | v1 done 2026-06-19 |
 | 11 | Add runtime trace privacy audit for generated local artifacts and metadata-only audit logs. | Codex / Umi | v1 done 2026-06-19 |
 | 12 | Add an external reviewer packet and GitHub feedback template for independent outside review. | Codex / Umi | v1 done 2026-06-19 |
+| 13 | Add external testing instructions and run Claude Code / reviewer-agent dry run. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -43,6 +44,29 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · External testing instructions and agent dry run
+
+- Added `docs/external_testing_instructions.md` with concrete test tracks for
+  claim boundary, privacy/reconstructability, usefulness/actionability,
+  baseline fairness, reviewer workflow, and research methodology.
+- Ran a read-only Claude Code review of the external-review packet and testing
+  requirements.
+- Spawned three reviewer agents:
+  - privacy / AI governance,
+  - school / student-support operations,
+  - research / HCI / learning analytics.
+- Added `docs/external_review_agent_dry_run_2026-06-19.md` summarizing the
+  dry-run findings and adopted changes.
+- Strengthened `.github/ISSUE_TEMPLATE/external-review.yml` with test tracks,
+  project verdict vocabulary, script/review-mode fields, required
+  claim-boundary and privacy/safety fields, and required confidentiality
+  confirmation.
+- Updated `docs/reviewer_gate_checklist.md` from the stale 300-conversation
+  state to the current 2026-06-19 Evidence v1 state, while preserving the
+  boundary that pilot readiness remains blocked.
+- Claim boundary: Claude Code and reviewer agents are internal dry-run
+  reviewers. This is not external independent validation.
 
 ### 2026-06-19 · Codex/Umi · External reviewer packet
 

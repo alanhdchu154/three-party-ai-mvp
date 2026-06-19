@@ -67,6 +67,9 @@ Important artifact groups:
   annotation summary.
 - `docs/external_reviewer_packet.md`: public guide for outside reviewers,
   review paths, feedback scope, and claim boundaries.
+- `docs/external_testing_instructions.md`: concrete external test tracks for
+  claim boundary, privacy/reconstructability, usefulness, baseline fairness,
+  reviewer workflow, and research methodology.
 
 ## Data Source And Generation
 
