@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T16:02:48.477443+00:00",
+  "generated_at": "2026-06-19T16:13:15.150048+00:00",
   "claim_boundary_statement": "Synthetic benchmark gate only. Not real-student validation, clinical validity, deployment readiness, or outcome proof.",
   "readiness": {
     "status": "pass",
@@ -56,6 +56,15 @@
     "relationship_leak_audit": {
       "reports_checked": 18,
       "failures": 0
+    },
+    "runtime_trace_privacy_audit": {
+      "surfaces_checked": 51,
+      "failures": 0,
+      "surface_counts": {
+        "audience_safe": 20,
+        "restricted_reviewer": 30,
+        "audit_log": 1
+      }
     },
     "reviewer_summary": {
       "n_notes": 37,
@@ -153,6 +162,16 @@
       "stderr": ""
     },
     {
+      "name": "runtime_trace_privacy_audit",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/run_runtime_trace_privacy_audit.py"
+      ],
+      "returncode": 0,
+      "stdout": "Runtime trace privacy audit: 51 pass / 0 fail\nReport: /Users/alanhdchu/three-party-ai-mvp/umi/reports/runtime-trace-privacy-latest.md\n",
+      "stderr": ""
+    },
+    {
       "name": "pytest",
       "command": [
         "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
@@ -161,7 +180,7 @@
         "-q"
       ],
       "returncode": 0,
-      "stdout": "ssss..................................s................................. [ 80%]\n.........ss......                                                        [100%]\n82 passed, 7 skipped in 0.30s\n",
+      "stdout": "ssss..................................s................................. [ 75%]\n................ss......                                                 [100%]\n89 passed, 7 skipped in 0.27s\n",
       "stderr": ""
     }
   ]

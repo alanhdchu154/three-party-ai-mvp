@@ -85,6 +85,10 @@ reviewer evaluation.
   - `scripts/run_relationship_leak_audit.py`
   - `umi/reports/relationship-leak-audit-latest.json`
   - `umi/reports/relationship-leak-audit-latest.md`
+- Runtime trace privacy audit now exists:
+  - `scripts/run_runtime_trace_privacy_audit.py`
+  - `umi/reports/runtime-trace-privacy-latest.json`
+  - `umi/reports/runtime-trace-privacy-latest.md`
 - Human reviewer annotation v1 now exists:
   - `data/reviewer_summaries/reviewer_annotation_summary.md`
   - `data/reviewer_notes/baseline_comparison__*.json`
@@ -147,6 +151,11 @@ reviewer evaluation.
   `.venv/bin/python scripts/run_relationship_leak_audit.py`. Current result is
   18 pass / 0 fail across current parent-safe and teacher-safe reports. It
   catches reconstructable family-system markers that may not be raw quote leaks.
+- Runtime trace privacy audit now exists:
+  `.venv/bin/python scripts/run_runtime_trace_privacy_audit.py`. Current result
+  is 51 pass / 0 fail across generated local runtime surfaces, including
+  audience-safe reports, restricted reviewer/internal artifacts, pilot-run
+  artifacts, and metadata-only audit logs.
 - Reviewer gate checklist now exists at `docs/reviewer_gate_checklist.md`.
 
 ### 4. Reviewer UI / Annotation Flow
@@ -154,8 +163,8 @@ reviewer evaluation.
 - Still useful future work: show coordination snapshots and reviewer notes in a
   practical review surface instead of relying only on generated files.
 - Next technical packaging items after GitHub publication: optional external
-  reviewer, stronger semantic privacy evaluation, persona-bible maintenance if
-  generation resumes, and a practical reviewer UI.
+  reviewer, production-grade trace privacy review if real deployment starts,
+  persona-bible maintenance if generation resumes, and a practical reviewer UI.
 
 ## Deferred
 

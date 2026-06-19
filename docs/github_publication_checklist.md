@@ -20,9 +20,10 @@ Current gate result:
 - Audience report leak audit: 18 pass / 0 fail
 - Semantic trace audit: 22 pass / 0 fail
 - Relationship leak audit: 18 pass / 0 fail
+- Runtime trace privacy audit: 51 pass / 0 fail
 - Reviewer annotation: 37 notes / 22 artifacts
 - Second local reviewer coverage: 15 baseline/audience artifacts
-- Full pytest: 77 passed / 7 skipped
+- Full pytest: 89 passed / 7 skipped
 - Public claim-boundary scan: no positive overclaim hits
 - Git-visible secret scan: no secret-like values found
 
@@ -54,6 +55,7 @@ Good public entry points:
 - `umi/reports/baseline-comparison-latest.md`
 - `umi/reports/semantic-trace-audit-latest.md`
 - `umi/reports/relationship-leak-audit-latest.md`
+- `umi/reports/runtime-trace-privacy-latest.md`
 - `data/reviewer_summaries/reviewer_annotation_summary.md`
 
 ## Before Pushing
@@ -76,5 +78,6 @@ After publishing, the next useful proof is not more synthetic corpus growth. It
 is either:
 
 - an external independent reviewer pass;
-- stronger semantic privacy evaluation beyond deterministic report checks;
+- production-grade runtime trace privacy review if this moves beyond local
+  synthetic benchmark artifacts;
 - a small reviewer UI for inspecting evidence refs and report surfaces.

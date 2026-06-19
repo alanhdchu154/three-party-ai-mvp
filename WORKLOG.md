@@ -29,6 +29,7 @@ historical details.
 | 8 | Add baseline comparison and human reviewer annotation evidence before public/GitHub startup-thesis claims. | Codex or cc | v1 done 2026-06-19 |
 | 9 | Add second reviewer coverage, semantic trace audit, and GitHub-public secret scan before public upload. | Codex / Umi | v1 done 2026-06-19 |
 | 10 | Add relationship-context leak audit for reconstructable persona/family-system markers. | Codex / Umi | v1 done 2026-06-19 |
+| 11 | Add runtime trace privacy audit for generated local artifacts and metadata-only audit logs. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -41,6 +42,28 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · Runtime trace privacy audit
+
+- Added `scripts/run_runtime_trace_privacy_audit.py`, a deterministic audit for
+  generated local runtime surfaces.
+- Added `tests/test_runtime_trace_privacy_audit.py`.
+- Expanded `scripts/run_release_readiness.py` and
+  `tests/test_release_readiness.py` so the one-command gate now includes
+  runtime trace privacy audit.
+- Current runtime trace privacy audit result: 51 pass / 0 fail.
+- Surface coverage includes:
+  - audience-safe reports,
+  - restricted reviewer/internal artifacts,
+  - pilot-run artifacts,
+  - metadata-only audit logs.
+- The audit enforces surface-specific policy: audience-safe surfaces cannot
+  include raw trace markers or relationship-context leaks; restricted surfaces
+  must carry synthetic/restricted boundary language; audit logs must not store
+  prompts, transcripts, turns, raw scenario fields, or message content.
+- Claim boundary: this is a local synthetic benchmark artifact audit. It is not
+  production observability, real-world semantic privacy proof, deployment
+  readiness, or a substitute for external review.
 
 ### 2026-06-19 · Codex/Umi · Relationship-context leak audit
 

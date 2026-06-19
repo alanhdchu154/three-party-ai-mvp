@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-06-19T16:13:14.265945+00:00",
+  "claim_boundary": "Deterministic runtime trace privacy audit over synthetic benchmark artifacts. This is not proof of real-world semantic privacy.",
+  "surfaces_checked": 51,
+  "failures": 0,
+  "surface_counts": {
+    "audience_safe": 20,
+    "restricted_reviewer": 30,
+    "audit_log": 1
+  },
+  "surfaces": [
+    {
+      "path": "data/audience_reports/parent_safe/alan_teacher.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/keer.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/michael.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/michael_mom.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/rachel.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/shen_mom.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/shen_you.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/stepdad.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/parent_safe/uncle.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/alan_teacher.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/keer.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/michael.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/michael_mom.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/rachel.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/shen_mom.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/shen_you.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/stepdad.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/teacher_safe/uncle.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/parent_safe.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/teacher_safe.md",
+      "surface_type": "audience_safe",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/alan_teacher.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/keer.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/michael.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/michael_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/rachel.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/shen_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/shen_you.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/stepdad.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/audience_reports/internal_reviewer/uncle.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/alan_teacher.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/keer.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/michael.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/michael_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/rachel.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/shen_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/shen_you.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/stepdad.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/case_summaries/uncle.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/alan_teacher.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/keer.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/michael.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/michael_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/rachel.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/shen_mom.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/shen_you.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/stepdad.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/trajectory_reports/uncle.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/internal_reviewer.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/trajectory_report.md",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/case_summary.json",
+      "surface_type": "restricted_reviewer",
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "path": "data/pilot_runs/v0_8_smoke_michael/audit_log.jsonl",
+      "surface_type": "audit_log",
+      "status": "PASS",
+      "findings": []
+    }
+  ]
+}
