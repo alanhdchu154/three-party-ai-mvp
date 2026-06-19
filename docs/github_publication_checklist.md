@@ -49,6 +49,7 @@ Good public entry points:
 
 - `README.md`
 - `docs/startup_thesis.md`
+- `docs/external_reviewer_packet.md`
 - `docs/literature_review.md`
 - `docs/benchmark_datasheet.md`
 - `umi/reports/release-readiness-latest.md`
@@ -57,6 +58,13 @@ Good public entry points:
 - `umi/reports/relationship-leak-audit-latest.md`
 - `umi/reports/runtime-trace-privacy-latest.md`
 - `data/reviewer_summaries/reviewer_annotation_summary.md`
+
+Good public feedback entry points:
+
+- GitHub `External Review` issue template;
+- `docs/external_reviewer_packet.md`;
+- issue feedback that cites file paths, report IDs, case IDs, and abstract risk
+  descriptions instead of private or identifiable data.
 
 ## Before Pushing
 

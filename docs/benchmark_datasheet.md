@@ -65,6 +65,8 @@ Important artifact groups:
 - `data/reviewer_notes/`: JSON reviewer annotations.
 - `data/reviewer_summaries/reviewer_annotation_summary.md`: aggregate reviewer
   annotation summary.
+- `docs/external_reviewer_packet.md`: public guide for outside reviewers,
+  review paths, feedback scope, and claim boundaries.
 
 ## Data Source And Generation
 
@@ -153,7 +155,7 @@ Latest verification snapshot:
 - `data/reviewer_summaries/reviewer_annotation_summary.md`: 37 notes / 22
   reviewed artifacts, including a second local reviewer pass over 15
   baseline/audience-report artifacts.
-- `.venv/bin/python -m pytest -q`: 77 passed / 7 skipped.
+- `.venv/bin/python -m pytest -q`: 89 passed / 7 skipped.
 
 Reviewer annotation v1 findings:
 
@@ -167,6 +169,9 @@ Reviewer annotation v1 findings:
   `minor_issue` verdicts, plus legacy calibration verdicts.
 - The second reviewer pass is local screening evidence, not an independent
   real-world validation study.
+- External reviewer packet and GitHub issue template exist for independent
+  feedback collection, but external independent review is not yet completed
+  evidence.
 
 ## Evaluation Scripts
 
@@ -199,6 +204,8 @@ Known risks:
 - Deterministic leak checks do not prove semantic privacy under all paraphrases.
 - Human review can become rubber-stamping without evidence refs, uncertainty,
   and clear ownership.
+- External review feedback can accidentally include confidential data if review
+  instructions are unclear.
 
 Current mitigations:
 
@@ -212,6 +219,8 @@ Current mitigations:
 - reviewer note JSON with source paths, evidence refs, verdicts, privacy
   concerns, and action items;
 - explicit synthetic-only claim boundary in public docs.
+- external reviewer packet and GitHub issue template that ask reviewers to
+  avoid uploading real student, family, school, clinical, or confidential data.
 
 ## Maintenance
 

@@ -8,6 +8,10 @@ useful, evidence-grounded, and appropriately escalated.
 Reviewer annotation calibrates the synthetic benchmark. It does not convert
 synthetic data into real-student validation.
 
+For outside reviewers, start with `docs/external_reviewer_packet.md`. This
+protocol is the concrete artifact-level annotation guide; the external packet
+is the public review entry point and claim-boundary guide.
+
 ## Sample
 
 Each annotation pass should inspect at least:

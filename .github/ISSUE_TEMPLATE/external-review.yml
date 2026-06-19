@@ -1,0 +1,111 @@
+name: External Review
+description: Share outside feedback on the synthetic benchmark, privacy wall, or public claim boundary.
+title: "[External Review]: "
+labels: ["external-review", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing this synthetic benchmark and reference architecture.
+
+        Please do not include real student, parent, teacher, school, clinical, family, API-key, or other confidential information in this issue.
+  - type: dropdown
+    id: reviewer_lens
+    attributes:
+      label: Reviewer lens
+      description: Which perspective best describes your review?
+      options:
+        - Privacy / AI governance
+        - School or student-support operations
+        - LMS / SIS / EdTech product
+        - HCI / learning analytics / education research
+        - AI safety / security
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: review_depth
+    attributes:
+      label: Review depth
+      description: Which review path did you roughly follow?
+      options:
+        - Quick scan
+        - Privacy-focused review
+        - Research / paper review
+        - Implementation / audit review
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: artifacts
+    attributes:
+      label: Artifacts reviewed
+      description: Check all that apply.
+      options:
+        - label: README.md
+        - label: docs/startup_thesis.md
+        - label: docs/external_reviewer_packet.md
+        - label: docs/benchmark_datasheet.md
+        - label: umi/reports/release-readiness-latest.md
+        - label: umi/reports/baseline-comparison-latest.md
+        - label: umi/reports/semantic-trace-audit-latest.md
+        - label: umi/reports/relationship-leak-audit-latest.md
+        - label: umi/reports/runtime-trace-privacy-latest.md
+        - label: umi/reports/audience-report-leak-audit-latest.md
+        - label: data/reviewer_summaries/reviewer_annotation_summary.md
+        - label: docs/human_reviewer_annotation_protocol.md
+        - label: docs/literature_review.md / docs/paper_draft.md
+        - label: docs/persona_bible.md / docs/relationship_graph.md / docs/persona_depth_audit.md
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: In a few sentences, what is your overall read?
+      placeholder: The project is credible as... The main risk is...
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings
+      description: Put the highest-severity findings first. Include file paths or report IDs when possible.
+      placeholder: |
+        Severity: blocker / major / minor / question
+        Artifact: README.md
+        Finding:
+        Recommended fix:
+    validations:
+      required: true
+  - type: textarea
+    id: claim_boundary
+    attributes:
+      label: Claim-boundary concerns
+      description: Note any language that sounds stronger than synthetic-benchmark evidence supports.
+      placeholder: This section may imply real-student validation because...
+  - type: textarea
+    id: privacy_safety
+    attributes:
+      label: Privacy or safety concerns
+      description: Note leakage, reconstructability, escalation, misuse, or minor-data concerns.
+      placeholder: Parent-safe report X may reveal...
+  - type: dropdown
+    id: recommended_next_step
+    attributes:
+      label: Recommended next step
+      options:
+        - No blocker
+        - Minor documentation fix
+        - Audit or test improvement
+        - Reviewer protocol change
+        - Block public outreach until fixed
+        - Block pilot or deployment discussion until fixed
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: contact
+    attributes:
+      label: Follow-up
+      options:
+        - label: I am comfortable being contacted in this public issue for clarification.
+

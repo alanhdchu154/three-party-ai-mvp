@@ -1,6 +1,6 @@
 # Semantic Trace Audit
 
-Generated: `2026-06-19T16:13:14.163956+00:00`
+Generated: `2026-06-19T16:45:13.242281+00:00`
 Sample size: `11`
 Surfaces checked: `22`
 Failures: `0`

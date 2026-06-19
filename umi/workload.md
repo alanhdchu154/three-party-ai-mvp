@@ -7,8 +7,8 @@ single-conversation handoff is stale and was removed from the active board.
 
 ## Active Task
 
-GitHub publication readiness after Evidence v1 release gate and persona-depth
-documentation.
+GitHub publication readiness after Evidence v1 release gate, persona-depth
+documentation, and external reviewer packaging.
 
 Current worker should not generate new synthetic conversations. The first
 baseline comparison and human reviewer annotation pass now exists. Use the
@@ -32,6 +32,15 @@ real-student validity, clinical validity, school deployment readiness, or
 outcome improvement. Do not restart generation merely to add role depth; if
 generation resumes later, constrain new cases with the persona bible and
 relationship graph first.
+
+External review packaging now exists:
+
+- `docs/external_reviewer_packet.md`
+- `.github/ISSUE_TEMPLATE/external-review.yml`
+
+These files make it easier to ask outsiders for useful feedback on the
+synthetic benchmark, privacy wall, public claim boundary, and evidence gaps.
+They do not mean external independent validation has been completed.
 
 The one-command release-readiness gate now exists:
 
@@ -78,6 +87,8 @@ git-visible secret scan. The latest report is
 - Persona-depth audit exists: current personas are sufficient for the synthetic
   benchmark claim, with strongest systems around Rachel-Uncle, Shen You-Shen
   Mom, and the Michael-Keer-Michael Mom-Stepdad blended family.
+- External reviewer packet and GitHub issue template exist, but no external
+  independent review has been completed yet.
 - Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
   report regeneration, and test runs.
 
@@ -86,8 +97,7 @@ git-visible secret scan. The latest report is
 If work resumes, create a focused task for:
 
 - final public GitHub push/PR packaging if Alan wants Codex to commit/push;
-- optionally adding an external independent reviewer pass before investor or
-  school outreach;
+- inviting one or two external reviewers before investor or school outreach;
 - optionally expanding privacy evaluation beyond local deterministic artifacts
   into production-grade runtime trace privacy review if real deployment starts;
 - optionally maintaining the persona bible / relationship graph if Alan

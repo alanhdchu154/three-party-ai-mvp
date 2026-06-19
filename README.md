@@ -62,6 +62,7 @@ Primary evidence files:
 - [`data/reviewer_summaries/reviewer_annotation_summary.md`](data/reviewer_summaries/reviewer_annotation_summary.md)
 - [`umi/reports/audience-report-leak-audit-latest.md`](umi/reports/audience-report-leak-audit-latest.md)
 - [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
+- [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md)
 - [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md)
 - [`docs/persona_bible.md`](docs/persona_bible.md)
 - [`docs/relationship_graph.md`](docs/relationship_graph.md)
@@ -91,6 +92,8 @@ notes. See [`docs/persona_bible.md`](docs/persona_bible.md),
 [`docs/relationship_graph.md`](docs/relationship_graph.md), and
 [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md) for the synthetic
 persona and family-system layer behind the fixed benchmark cases. See
+[`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md) for the
+recommended outside-review path and
 [`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
 for the public-release boundary and verification checklist.
 

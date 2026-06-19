@@ -55,6 +55,9 @@ reviewer evaluation.
   - `docs/persona_bible.md`
   - `docs/relationship_graph.md`
   - `docs/persona_depth_audit.md`
+- 2026-06-19 external review packet added:
+  - `docs/external_reviewer_packet.md`
+  - `.github/ISSUE_TEMPLATE/external-review.yml`
 - Next step: use the raw-coordinator baseline comparison and human reviewer
   annotation v1 to tighten the paper/README claims before treating the draft as
   public or submission-ready.
@@ -99,6 +102,11 @@ reviewer evaluation.
   - `docs/persona_depth_audit.md`
   These files make the current synthetic character and family-system layer
   explicit enough for GitHub readers without claiming real-family validation.
+- External review packaging now exists:
+  - `docs/external_reviewer_packet.md`
+  - `.github/ISSUE_TEMPLATE/external-review.yml`
+  This gives outside reviewers a safe path to review the synthetic benchmark,
+  privacy wall, and public claim boundary without uploading private data.
 - Second local reviewer pass now exists over the fixed 11-case baseline sample
   plus 3 audience-report variants. This is screening evidence only, not an
   external independent validation study.
@@ -162,9 +170,10 @@ reviewer evaluation.
 
 - Still useful future work: show coordination snapshots and reviewer notes in a
   practical review surface instead of relying only on generated files.
-- Next technical packaging items after GitHub publication: optional external
-  reviewer, production-grade trace privacy review if real deployment starts,
-  persona-bible maintenance if generation resumes, and a practical reviewer UI.
+- Next technical packaging items after GitHub publication: actual external
+  reviewer feedback, production-grade trace privacy review if real deployment
+  starts, persona-bible maintenance if generation resumes, and a practical
+  reviewer UI.
 
 ## Deferred
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T16:13:15.150048+00:00",
+  "generated_at": "2026-06-19T16:45:14.347780+00:00",
   "claim_boundary_statement": "Synthetic benchmark gate only. Not real-student validation, clinical validity, deployment readiness, or outcome proof.",
   "readiness": {
     "status": "pass",
@@ -86,8 +86,10 @@
     "README.md",
     "WORKLOG.md",
     "docs/startup_thesis.md",
+    "docs/external_reviewer_packet.md",
     "docs/paper_draft.md",
     "docs/benchmark_datasheet.md",
+    "docs/github_publication_checklist.md",
     "docs/roadmap.md",
     "umi/workload.md"
   ],
@@ -180,7 +182,7 @@
         "-q"
       ],
       "returncode": 0,
-      "stdout": "ssss..................................s................................. [ 75%]\n................ss......                                                 [100%]\n89 passed, 7 skipped in 0.27s\n",
+      "stdout": "ssss..................................s................................. [ 75%]\n................ss......                                                 [100%]\n89 passed, 7 skipped in 0.32s\n",
       "stderr": ""
     }
   ]

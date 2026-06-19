@@ -30,6 +30,7 @@ historical details.
 | 9 | Add second reviewer coverage, semantic trace audit, and GitHub-public secret scan before public upload. | Codex / Umi | v1 done 2026-06-19 |
 | 10 | Add relationship-context leak audit for reconstructable persona/family-system markers. | Codex / Umi | v1 done 2026-06-19 |
 | 11 | Add runtime trace privacy audit for generated local artifacts and metadata-only audit logs. | Codex / Umi | v1 done 2026-06-19 |
+| 12 | Add an external reviewer packet and GitHub feedback template for independent outside review. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -42,6 +43,24 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · External reviewer packet
+
+- Added `docs/external_reviewer_packet.md` as the public entry point for
+  outside reviewers.
+- Added GitHub issue templates:
+  - `.github/ISSUE_TEMPLATE/external-review.yml`
+  - `.github/ISSUE_TEMPLATE/config.yml`
+- The external packet gives quick, privacy-focused, and research/paper review
+  paths; asks reviewers to evaluate claim boundary, privacy wall, audience-safe
+  reports, deterministic audits, reviewer protocol, and next evidence needs;
+  and tells reviewers not to upload real student, family, school, clinical, API
+  key, or other confidential data.
+- Expanded `scripts/run_release_readiness.py` public claim-boundary scan to
+  include `docs/external_reviewer_packet.md` and
+  `docs/github_publication_checklist.md`.
+- Claim boundary: the packet makes the repo easier to review publicly. It does
+  not mean external independent validation has already happened.
 
 ### 2026-06-19 · Codex/Umi · Runtime trace privacy audit
 

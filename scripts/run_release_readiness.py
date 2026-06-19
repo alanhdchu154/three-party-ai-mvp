@@ -43,8 +43,10 @@ PUBLIC_CLAIM_FILES = [
     ROOT / "README.md",
     ROOT / "WORKLOG.md",
     ROOT / "docs" / "startup_thesis.md",
+    ROOT / "docs" / "external_reviewer_packet.md",
     ROOT / "docs" / "paper_draft.md",
     ROOT / "docs" / "benchmark_datasheet.md",
+    ROOT / "docs" / "github_publication_checklist.md",
     ROOT / "docs" / "roadmap.md",
     ROOT / "umi" / "workload.md",
 ]
