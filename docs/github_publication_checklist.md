@@ -19,6 +19,7 @@ Current gate result:
 - Privacy-wall pipeline reconstructability risk: 0/11 cases
 - Audience report leak audit: 18 pass / 0 fail
 - Semantic trace audit: 22 pass / 0 fail
+- Relationship leak audit: 18 pass / 0 fail
 - Reviewer annotation: 37 notes / 22 artifacts
 - Second local reviewer coverage: 15 baseline/audience artifacts
 - Full pytest: 77 passed / 7 skipped
@@ -52,6 +53,7 @@ Good public entry points:
 - `umi/reports/release-readiness-latest.md`
 - `umi/reports/baseline-comparison-latest.md`
 - `umi/reports/semantic-trace-audit-latest.md`
+- `umi/reports/relationship-leak-audit-latest.md`
 - `data/reviewer_summaries/reviewer_annotation_summary.md`
 
 ## Before Pushing
@@ -74,5 +76,5 @@ After publishing, the next useful proof is not more synthetic corpus growth. It
 is either:
 
 - an external independent reviewer pass;
-- stronger semantic privacy evaluation;
+- stronger semantic privacy evaluation beyond deterministic report checks;
 - a small reviewer UI for inspecting evidence refs and report surfaces.

@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-06-19T16:02:47.575387+00:00",
+  "claim_boundary": "Deterministic relationship-context leak audit over synthetic benchmark reports. This is not proof of real-world semantic privacy.",
+  "reports_checked": 18,
+  "failures": 0,
+  "reports": [
+    {
+      "audience": "parent_safe",
+      "persona": "alan_teacher",
+      "path": "data/audience_reports/parent_safe/alan_teacher.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "keer",
+      "path": "data/audience_reports/parent_safe/keer.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "michael",
+      "path": "data/audience_reports/parent_safe/michael.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "michael_mom",
+      "path": "data/audience_reports/parent_safe/michael_mom.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "rachel",
+      "path": "data/audience_reports/parent_safe/rachel.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "shen_mom",
+      "path": "data/audience_reports/parent_safe/shen_mom.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "shen_you",
+      "path": "data/audience_reports/parent_safe/shen_you.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "stepdad",
+      "path": "data/audience_reports/parent_safe/stepdad.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "parent_safe",
+      "persona": "uncle",
+      "path": "data/audience_reports/parent_safe/uncle.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "alan_teacher",
+      "path": "data/audience_reports/teacher_safe/alan_teacher.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "keer",
+      "path": "data/audience_reports/teacher_safe/keer.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "michael",
+      "path": "data/audience_reports/teacher_safe/michael.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "michael_mom",
+      "path": "data/audience_reports/teacher_safe/michael_mom.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "rachel",
+      "path": "data/audience_reports/teacher_safe/rachel.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "shen_mom",
+      "path": "data/audience_reports/teacher_safe/shen_mom.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "shen_you",
+      "path": "data/audience_reports/teacher_safe/shen_you.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "stepdad",
+      "path": "data/audience_reports/teacher_safe/stepdad.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    },
+    {
+      "audience": "teacher_safe",
+      "persona": "uncle",
+      "path": "data/audience_reports/teacher_safe/uncle.md",
+      "status": "PASS",
+      "reason": "",
+      "matches": []
+    }
+  ]
+}

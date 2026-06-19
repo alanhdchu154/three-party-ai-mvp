@@ -40,9 +40,9 @@ The one-command release-readiness gate now exists:
 ```
 
 It reruns corpus audit, baseline comparison, reviewer summary generation,
-audience-report leak audit, semantic trace audit, full pytest, public
-claim-boundary scan, and git-visible secret scan. The latest report is
-`umi/reports/release-readiness-latest.md`.
+audience-report leak audit, semantic trace audit, relationship-context leak
+audit, full pytest, public claim-boundary scan, and git-visible secret scan.
+The latest report is `umi/reports/release-readiness-latest.md`.
 
 ## Before Creating The Next Task
 
@@ -62,6 +62,10 @@ claim-boundary scan, and git-visible secret scan. The latest report is
   Treat this as screening evidence, not deployment validation.
 - Semantic trace audit exists: 22 pass / 0 fail across fixed-sample parent-safe
   and teacher-safe report surfaces.
+- Relationship-context leak audit exists: 18 pass / 0 fail across current
+  parent-safe and teacher-safe reports. It checks higher-specificity
+  persona/family-system markers that can be reconstructable without being raw
+  quote leaks.
 - Current calibrated baseline metrics on the 11-case sample: raw baseline
   reconstructability risk 11/11; privacy-wall pipeline 0 reconstructability
   risk, 0 over-escalation flags, 0 under-escalation flags, and 0 unsupported
@@ -79,8 +83,8 @@ If work resumes, create a focused task for:
 - final public GitHub push/PR packaging if Alan wants Codex to commit/push;
 - optionally adding an external independent reviewer pass before investor or
   school outreach;
-- optionally expanding privacy evaluation beyond deterministic semantic trace
-  overlap into stronger semantic privacy checks;
+- optionally expanding privacy evaluation beyond deterministic report checks
+  into full-stack/runtime trace privacy review;
 - optionally maintaining the persona bible / relationship graph if Alan
   explicitly reopens synthetic generation or adds a new family system;
 - rerunning `.venv/bin/python scripts/run_release_readiness.py`;

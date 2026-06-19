@@ -81,6 +81,10 @@ reviewer evaluation.
   - `scripts/run_semantic_trace_audit.py`
   - `umi/reports/semantic-trace-audit-latest.json`
   - `umi/reports/semantic-trace-audit-latest.md`
+- Relationship-context leak audit now exists:
+  - `scripts/run_relationship_leak_audit.py`
+  - `umi/reports/relationship-leak-audit-latest.json`
+  - `umi/reports/relationship-leak-audit-latest.md`
 - Human reviewer annotation v1 now exists:
   - `data/reviewer_summaries/reviewer_annotation_summary.md`
   - `data/reviewer_notes/baseline_comparison__*.json`
@@ -139,6 +143,10 @@ reviewer evaluation.
   `.venv/bin/python scripts/run_semantic_trace_audit.py`. Current result is 22
   pass / 0 fail across fixed-sample parent-safe and teacher-safe report
   surfaces.
+- Relationship-context leak audit now exists:
+  `.venv/bin/python scripts/run_relationship_leak_audit.py`. Current result is
+  18 pass / 0 fail across current parent-safe and teacher-safe reports. It
+  catches reconstructable family-system markers that may not be raw quote leaks.
 - Reviewer gate checklist now exists at `docs/reviewer_gate_checklist.md`.
 
 ### 4. Reviewer UI / Annotation Flow

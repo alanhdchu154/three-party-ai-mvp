@@ -22,6 +22,7 @@ REPORT_MD = ROOT / "umi" / "reports" / "release-readiness-latest.md"
 BASELINE_JSON = ROOT / "umi" / "reports" / "baseline-comparison-latest.json"
 LEAK_JSON = ROOT / "umi" / "reports" / "audience-report-leak-audit-latest.json"
 SEMANTIC_TRACE_JSON = ROOT / "umi" / "reports" / "semantic-trace-audit-latest.json"
+RELATIONSHIP_LEAK_JSON = ROOT / "umi" / "reports" / "relationship-leak-audit-latest.json"
 
 EXPECTED_CORPUS = {
     "n_conversations": 348,
@@ -34,6 +35,7 @@ MIN_BASELINE_ARTIFACTS = 12
 MIN_AUDIENCE_REPORT_ARTIFACTS = 3
 MIN_SECOND_REVIEWER_ARTIFACTS = 15
 EXPECTED_SEMANTIC_TRACE_SURFACES = 22
+EXPECTED_RELATIONSHIP_LEAK_REPORTS = 18
 
 PUBLIC_CLAIM_FILES = [
     ROOT / "README.md",
@@ -140,6 +142,7 @@ def command_plan() -> list[tuple[str, list[str]]]:
             ],
         ),
         ("semantic_trace_audit", [py, "scripts/run_semantic_trace_audit.py"]),
+        ("relationship_leak_audit", [py, "scripts/run_relationship_leak_audit.py"]),
         ("pytest", [py, "-m", "pytest", "-q"]),
     ]
 
@@ -273,6 +276,7 @@ def collect_metrics(results: list[CommandResult]) -> dict[str, Any]:
     baseline = _load_json(BASELINE_JSON, {})
     leak_results = _load_json(LEAK_JSON, [])
     semantic_trace = _load_json(SEMANTIC_TRACE_JSON, {})
+    relationship_leak = _load_json(RELATIONSHIP_LEAK_JSON, {})
     leak_failures = [item for item in leak_results if item.get("status") != "PASS"]
     return {
         "corpus": _load_corpus_metrics(by_name["corpus_audit"]),
@@ -287,6 +291,10 @@ def collect_metrics(results: list[CommandResult]) -> dict[str, Any]:
         "semantic_trace_audit": {
             "surfaces_checked": semantic_trace.get("surfaces_checked", 0),
             "failures": semantic_trace.get("failures", 0),
+        },
+        "relationship_leak_audit": {
+            "reports_checked": relationship_leak.get("reports_checked", 0),
+            "failures": relationship_leak.get("failures", 0),
         },
         "reviewer_summary": _reviewer_summary_metrics(),
     }
@@ -337,6 +345,12 @@ def evaluate_readiness(
     if semantic_trace.get("failures") != 0:
         failures.append("semantic_trace_failures")
 
+    relationship_leak = metrics.get("relationship_leak_audit", {})
+    if relationship_leak.get("reports_checked") != EXPECTED_RELATIONSHIP_LEAK_REPORTS:
+        failures.append("relationship_leak_report_count_changed")
+    if relationship_leak.get("failures") != 0:
+        failures.append("relationship_context_leak_failures")
+
     reviewer = metrics.get("reviewer_summary", {})
     if reviewer.get("n_notes", 0) < MIN_REVIEWER_NOTES:
         failures.append("reviewer_note_coverage_low")
@@ -369,6 +383,7 @@ def render_markdown(report: dict[str, Any]) -> str:
     raw_baseline = baseline.get("totals", {}).get("raw_coordinator_baseline", {})
     leak_audit = metrics["leak_audit"]
     semantic_trace = metrics["semantic_trace_audit"]
+    relationship_leak = metrics["relationship_leak_audit"]
     reviewer = metrics["reviewer_summary"]
     command_rows = [
         f"| `{result['name']}` | `{result['returncode']}` | `{' '.join(result['command'])}` |"
@@ -402,6 +417,7 @@ def render_markdown(report: dict[str, Any]) -> str:
         f"- Privacy-wall unsupported recommendation flags: `{privacy_wall.get('recommendation_without_evidence_flags')}`.",
         f"- Audience report leak audit: `{leak_audit.get('reports_checked')}` checked / `{leak_audit.get('failures')}` failures.",
         f"- Semantic trace audit: `{semantic_trace.get('surfaces_checked')}` checked / `{semantic_trace.get('failures')}` failures.",
+        f"- Relationship leak audit: `{relationship_leak.get('reports_checked')}` checked / `{relationship_leak.get('failures')}` failures.",
         f"- Reviewer coverage: `{reviewer.get('n_notes')}` notes / `{reviewer.get('n_artifacts_reviewed')}` artifacts.",
         f"- Reviewer artifact mix: `{reviewer.get('baseline_artifacts')}` baseline / `{reviewer.get('audience_report_artifacts')}` audience-report artifacts.",
         f"- Second reviewer coverage: `{reviewer.get('second_reviewer_artifacts')}` baseline/audience artifacts.",

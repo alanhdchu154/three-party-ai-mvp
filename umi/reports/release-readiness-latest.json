@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:14:36.292381+00:00",
+  "generated_at": "2026-06-19T16:02:48.477443+00:00",
   "claim_boundary_statement": "Synthetic benchmark gate only. Not real-student validation, clinical validity, deployment readiness, or outcome proof.",
   "readiness": {
     "status": "pass",
@@ -51,6 +51,10 @@
     },
     "semantic_trace_audit": {
       "surfaces_checked": 22,
+      "failures": 0
+    },
+    "relationship_leak_audit": {
+      "reports_checked": 18,
       "failures": 0
     },
     "reviewer_summary": {
@@ -139,6 +143,16 @@
       "stderr": ""
     },
     {
+      "name": "relationship_leak_audit",
+      "command": [
+        "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
+        "scripts/run_relationship_leak_audit.py"
+      ],
+      "returncode": 0,
+      "stdout": "Relationship leak audit: 18 pass / 0 fail\nReport: /Users/alanhdchu/three-party-ai-mvp/umi/reports/relationship-leak-audit-latest.md\n",
+      "stderr": ""
+    },
+    {
       "name": "pytest",
       "command": [
         "/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python",
@@ -147,7 +161,7 @@
         "-q"
       ],
       "returncode": 0,
-      "stdout": "ssss..................................s................................. [ 85%]\n....ss......                                                             [100%]\n77 passed, 7 skipped in 0.34s\n",
+      "stdout": "ssss..................................s................................. [ 80%]\n.........ss......                                                        [100%]\n82 passed, 7 skipped in 0.30s\n",
       "stderr": ""
     }
   ]

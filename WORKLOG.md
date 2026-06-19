@@ -28,6 +28,7 @@ historical details.
 | 7 | Wire the leak audit and reviewer gate into a broader release-readiness command before pilot-readiness claims. | Codex or cc | v1 done 2026-06-19 |
 | 8 | Add baseline comparison and human reviewer annotation evidence before public/GitHub startup-thesis claims. | Codex or cc | v1 done 2026-06-19 |
 | 9 | Add second reviewer coverage, semantic trace audit, and GitHub-public secret scan before public upload. | Codex / Umi | v1 done 2026-06-19 |
+| 10 | Add relationship-context leak audit for reconstructable persona/family-system markers. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -40,6 +41,24 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · Relationship-context leak audit
+
+- Added `scripts/run_relationship_leak_audit.py`, a deterministic audit for
+  reconstructable relationship-context leaks in parent-safe and teacher-safe
+  reports.
+- Added `tests/test_relationship_leak_audit.py`.
+- Expanded `scripts/run_release_readiness.py` and
+  `tests/test_release_readiness.py` so the one-command gate now includes the
+  relationship leak audit.
+- Current relationship leak audit result: 18 pass / 0 fail.
+- This audit intentionally allows broad support signals such as
+  `family_dynamics`, but flags higher-specificity persona/family-system markers
+  such as half-sibling ambiguity, fairness-as-distance, surveillance-channel
+  framing, diary-like writing, succession/control, and similar reconstructable
+  relationship context.
+- Claim boundary: this is stronger deterministic screening evidence, not proof
+  of real-world semantic privacy or a substitute for external review.
 
 ### 2026-06-19 · Codex/Umi · Persona and relationship depth layer
 

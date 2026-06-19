@@ -106,6 +106,7 @@ def test_evaluate_readiness_passes_expected_v1_metrics():
             },
             "leak_audit": {"reports_checked": 18, "failures": 0},
             "semantic_trace_audit": {"surfaces_checked": 22, "failures": 0},
+            "relationship_leak_audit": {"reports_checked": 18, "failures": 0},
             "reviewer_summary": {
                 "n_notes": 37,
                 "n_artifacts_reviewed": 22,
@@ -148,6 +149,7 @@ def test_evaluate_readiness_fails_privacy_wall_and_reviewer_regression():
             },
             "leak_audit": {"reports_checked": 18, "failures": 0},
             "semantic_trace_audit": {"surfaces_checked": 22, "failures": 0},
+            "relationship_leak_audit": {"reports_checked": 18, "failures": 0},
             "reviewer_summary": {
                 "n_notes": 21,
                 "n_artifacts_reviewed": 22,
@@ -191,6 +193,7 @@ def test_evaluate_readiness_fails_semantic_trace_and_secret_hits():
             },
             "leak_audit": {"reports_checked": 18, "failures": 0},
             "semantic_trace_audit": {"surfaces_checked": 22, "failures": 1},
+            "relationship_leak_audit": {"reports_checked": 18, "failures": 0},
             "reviewer_summary": {
                 "n_notes": 37,
                 "n_artifacts_reviewed": 22,
@@ -206,3 +209,45 @@ def test_evaluate_readiness_fails_semantic_trace_and_secret_hits():
     assert readiness["status"] == "fail"
     assert "semantic_trace_failures" in readiness["failures"]
     assert "secret_like_value_detected" in readiness["failures"]
+
+
+def test_evaluate_readiness_fails_relationship_leak_regression():
+    readiness = run_release_readiness.evaluate_readiness(
+        command_results=[],
+        metrics={
+            "corpus": {
+                "n_conversations": 348,
+                "depth_counts": {"deep": 85, "shallow": 142, "medium": 121},
+            },
+            "baseline": {
+                "sample_size": 11,
+                "totals": {
+                    "privacy_wall_pipeline": {
+                        "raw_quote_leaks": 0,
+                        "private_chunk_leaks": 0,
+                        "private_key_or_path_hits": 0,
+                        "reconstructability_risk_cases": 0,
+                        "over_escalation_flags": 0,
+                        "under_escalation_flags": 0,
+                        "recommendation_without_evidence_flags": 0,
+                        "missing_audience_report_cases": 0,
+                    }
+                },
+            },
+            "leak_audit": {"reports_checked": 18, "failures": 0},
+            "semantic_trace_audit": {"surfaces_checked": 22, "failures": 0},
+            "relationship_leak_audit": {"reports_checked": 18, "failures": 1},
+            "reviewer_summary": {
+                "n_notes": 37,
+                "n_artifacts_reviewed": 22,
+                "baseline_artifacts": 12,
+                "audience_report_artifacts": 3,
+                "second_reviewer_artifacts": 15,
+            },
+        },
+        claim_hits=[],
+        secret_hits=[],
+    )
+
+    assert readiness["status"] == "fail"
+    assert "relationship_context_leak_failures" in readiness["failures"]

@@ -31,6 +31,7 @@ umi/reports/*.md
 !umi/reports/baseline-comparison-latest.md
 !umi/reports/release-readiness-latest.md
 !umi/reports/semantic-trace-audit-latest.md
+!umi/reports/relationship-leak-audit-latest.md
 
 # Local pilot configuration
 config/*.local.json

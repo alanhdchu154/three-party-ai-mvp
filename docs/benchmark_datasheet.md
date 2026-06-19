@@ -140,6 +140,10 @@ Latest verification snapshot:
   umi/reports/audience-report-leak-audit-latest.json`: 18 pass / 0 fail.
 - `.venv/bin/python scripts/run_semantic_trace_audit.py`: 22 pass / 0 fail
   across fixed-sample parent-safe and teacher-safe report surfaces.
+- `.venv/bin/python scripts/run_relationship_leak_audit.py`: 18 pass / 0 fail
+  across current parent-safe and teacher-safe report surfaces. This checks
+  reconstructable persona and family-system markers documented in the persona
+  bible and relationship graph.
 - `.venv/bin/python scripts/generate_reviewer_summary.py`: generated reviewer
   calibration and annotation summaries.
 - `data/reviewer_summaries/reviewer_annotation_summary.md`: 37 notes / 22
@@ -174,6 +178,7 @@ Primary outputs:
 - `umi/reports/release-readiness-latest.json`
 - `umi/reports/audience-report-leak-audit-latest.md`
 - `umi/reports/semantic-trace-audit-latest.md`
+- `umi/reports/relationship-leak-audit-latest.md`
 - `umi/reports/baseline-comparison-latest.md`
 - `data/reviewer_summaries/reviewer_annotation_summary.md`
 
@@ -195,6 +200,8 @@ Current mitigations:
 - privacy-wall abstraction;
 - parent-safe, teacher-safe, and internal-reviewer report separation;
 - deterministic audience report leak audit;
+- deterministic relationship-context leak audit over parent-safe and
+  teacher-safe reports;
 - raw baseline vs privacy-wall comparison;
 - reviewer note JSON with source paths, evidence refs, verdicts, privacy
   concerns, and action items;
@@ -221,7 +228,7 @@ until reports and summaries are regenerated.
 - No Chinese-language literature review extension for family-school cultural
   context.
 - No full-stack runtime trace privacy benchmark beyond the current deterministic
-  report-focused semantic trace checks.
+  report-focused semantic trace and relationship-context checks.
 - No reviewer UI; current review is file- and JSON-note based.
 - Future synthetic generation should be constrained by the persona bible and
   relationship graph rather than adding volume without design coverage.

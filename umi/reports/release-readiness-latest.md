@@ -1,7 +1,7 @@
 # Release Readiness Report
 
 Status: `PASS`
-Generated at: `2026-06-19T14:14:36.292381+00:00`
+Generated at: `2026-06-19T16:02:48.477443+00:00`
 
 > Evidence v1 is a synthetic-benchmark gate. Passing this report does not prove real-student validation, clinical validity, deployment readiness, or outcome improvement.
 
@@ -14,6 +14,7 @@ Generated at: `2026-06-19T14:14:36.292381+00:00`
 | `reviewer_summary` | `0` | `/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python scripts/generate_reviewer_summary.py` |
 | `audience_report_leak_audit` | `0` | `/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python scripts/audit_audience_report_leaks.py --json umi/reports/audience-report-leak-audit-latest.json` |
 | `semantic_trace_audit` | `0` | `/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python scripts/run_semantic_trace_audit.py` |
+| `relationship_leak_audit` | `0` | `/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python scripts/run_relationship_leak_audit.py` |
 | `pytest` | `0` | `/Users/alanhdchu/three-party-ai-mvp/.venv/bin/python -m pytest -q` |
 
 ## Evidence Summary
@@ -26,6 +27,7 @@ Generated at: `2026-06-19T14:14:36.292381+00:00`
 - Privacy-wall unsupported recommendation flags: `0`.
 - Audience report leak audit: `18` checked / `0` failures.
 - Semantic trace audit: `22` checked / `0` failures.
+- Relationship leak audit: `18` checked / `0` failures.
 - Reviewer coverage: `37` notes / `22` artifacts.
 - Reviewer artifact mix: `12` baseline / `3` audience-report artifacts.
 - Second reviewer coverage: `15` baseline/audience artifacts.

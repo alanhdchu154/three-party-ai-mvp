@@ -45,6 +45,8 @@ Current evidence is synthetic-benchmark evidence only:
   teacher-safe reports.
 - Semantic trace audit: 22 pass / 0 fail on fixed-sample parent-safe and
   teacher-safe report surfaces.
+- Relationship leak audit: 18 pass / 0 fail on current parent-safe and
+  teacher-safe reports, checking reconstructable persona/family-system markers.
 - Current test gate: 77 passed / 7 skipped.
 
 Primary evidence files:
@@ -52,6 +54,7 @@ Primary evidence files:
 - [`umi/reports/release-readiness-latest.md`](umi/reports/release-readiness-latest.md)
 - [`umi/reports/baseline-comparison-latest.md`](umi/reports/baseline-comparison-latest.md)
 - [`umi/reports/semantic-trace-audit-latest.md`](umi/reports/semantic-trace-audit-latest.md)
+- [`umi/reports/relationship-leak-audit-latest.md`](umi/reports/relationship-leak-audit-latest.md)
 - [`data/reviewer_summaries/reviewer_annotation_summary.md`](data/reviewer_summaries/reviewer_annotation_summary.md)
 - [`umi/reports/audience-report-leak-audit-latest.md`](umi/reports/audience-report-leak-audit-latest.md)
 - [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
@@ -158,7 +161,7 @@ tooling around it.
 | Prompt layer | `prompts/*.txt` | Editable prompts for the student agent, abstraction, coordinator, and triage modules. |
 | Synthetic benchmark data | `data/generated_conversations/`, `data/audience_reports/`, `data/reviewer_notes/` | Synthetic conversations, audience-safe reports, and human-review annotations. |
 | Persona / relationship layer | `docs/persona_bible.md`, `docs/relationship_graph.md`, `docs/persona_depth_audit.md` | Public-safe canon for synthetic personas, family-system edges, and current depth sufficiency. |
-| Evidence / release gates | `scripts/run_release_readiness.py`, `scripts/run_baseline_comparison.py`, `scripts/run_semantic_trace_audit.py` | Deterministic checks for corpus state, privacy-wall behavior, reviewer coverage, leak risk, and public claim boundaries. |
+| Evidence / release gates | `scripts/run_release_readiness.py`, `scripts/run_baseline_comparison.py`, `scripts/run_semantic_trace_audit.py`, `scripts/run_relationship_leak_audit.py` | Deterministic checks for corpus state, privacy-wall behavior, reviewer coverage, leak risk, relationship-context leak risk, and public claim boundaries. |
 | Tests | `tests/` | Unit and regression tests; API-backed tests skip when no key is configured. |
 | Public docs | `docs/`, `umi/reports/` | Startup thesis, literature review, benchmark datasheet, release-readiness reports, and publication checklist. |
 
@@ -226,9 +229,9 @@ flowchart TB
 ```
 
 這是 Evidence v1 的一鍵 gate。它會重跑 corpus audit、baseline comparison、
-reviewer summary、audience-report leak audit、semantic trace audit、full pytest，
-並掃描公開文件是否出現 real-student / clinical / deployment / outcome overclaim
-或 git-visible secret-looking values。
+reviewer summary、audience-report leak audit、semantic trace audit、
+relationship leak audit、full pytest，並掃描公開文件是否出現 real-student /
+clinical / deployment / outcome overclaim 或 git-visible secret-looking values。
 
 輸出：
 
@@ -241,6 +244,7 @@ reviewer summary、audience-report leak audit、semantic trace audit、full pyte
 python3 scripts/audit_conversation_quality.py
 .venv/bin/python scripts/audit_audience_report_leaks.py --json umi/reports/audience-report-leak-audit-latest.json
 .venv/bin/python scripts/run_baseline_comparison.py
+.venv/bin/python scripts/run_relationship_leak_audit.py
 .venv/bin/python scripts/generate_reviewer_summary.py
 ```
 
@@ -249,6 +253,7 @@ python3 scripts/audit_conversation_quality.py
 - `umi/reports/audience-report-leak-audit-latest.md`
 - `umi/reports/baseline-comparison-latest.md`
 - `umi/reports/semantic-trace-audit-latest.md`
+- `umi/reports/relationship-leak-audit-latest.md`
 - `data/reviewer_summaries/reviewer_annotation_summary.md`
 
 跑整個 dataset 的回歸評測：
