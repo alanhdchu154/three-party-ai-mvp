@@ -64,6 +64,7 @@ Primary evidence files:
 - [`docs/benchmark_datasheet.md`](docs/benchmark_datasheet.md)
 - [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md)
 - [`docs/external_testing_instructions.md`](docs/external_testing_instructions.md)
+- [`docs/external_reviewer_outreach.md`](docs/external_reviewer_outreach.md)
 - [`docs/persona_depth_audit.md`](docs/persona_depth_audit.md)
 - [`docs/persona_bible.md`](docs/persona_bible.md)
 - [`docs/relationship_graph.md`](docs/relationship_graph.md)
@@ -96,6 +97,8 @@ persona and family-system layer behind the fixed benchmark cases. See
 [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md) and
 [`docs/external_testing_instructions.md`](docs/external_testing_instructions.md)
 for the recommended outside-review path and concrete test tracks. See
+[`docs/external_reviewer_outreach.md`](docs/external_reviewer_outreach.md) for
+copy-pasteable first-round reviewer invitation messages. See
 [`docs/github_publication_checklist.md`](docs/github_publication_checklist.md)
 for the public-release boundary and verification checklist.
 

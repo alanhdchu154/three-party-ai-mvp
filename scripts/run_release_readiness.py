@@ -45,6 +45,7 @@ PUBLIC_CLAIM_FILES = [
     ROOT / "docs" / "startup_thesis.md",
     ROOT / "docs" / "external_reviewer_packet.md",
     ROOT / "docs" / "external_testing_instructions.md",
+    ROOT / "docs" / "external_reviewer_outreach.md",
     ROOT / "docs" / "external_review_agent_dry_run_2026-06-19.md",
     ROOT / "docs" / "paper_draft.md",
     ROOT / "docs" / "benchmark_datasheet.md",

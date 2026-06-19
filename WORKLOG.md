@@ -32,6 +32,7 @@ historical details.
 | 11 | Add runtime trace privacy audit for generated local artifacts and metadata-only audit logs. | Codex / Umi | v1 done 2026-06-19 |
 | 12 | Add an external reviewer packet and GitHub feedback template for independent outside review. | Codex / Umi | v1 done 2026-06-19 |
 | 13 | Add external testing instructions and run Claude Code / reviewer-agent dry run. | Codex / Umi | v1 done 2026-06-19 |
+| 14 | Prepare first-round external reviewer outreach messages. | Codex / Umi | v1 done 2026-06-19 |
 
 ## Current Reporting Rule
 
@@ -44,6 +45,19 @@ Any answer about "current" corpus state must include:
 - whether the statement is current evidence or historical context
 
 ## Work Log
+
+### 2026-06-19 · Codex/Umi · External reviewer outreach kit
+
+- Added `docs/external_reviewer_outreach.md` with first-round reviewer mix,
+  copy-paste outreach messages, GitHub issue link, follow-up rhythm, and
+  feedback interpretation rules.
+- First-round recommendation: one privacy / AI governance reviewer and one
+  school / student-support operations reviewer. Add a research / HCI reviewer
+  after the first two if moving toward paper review.
+- No messages were sent and no external reviewer was contacted automatically.
+- Claim boundary: outreach requests ask for GitHub/synthetic-benchmark feedback
+  only, not pilot approval, clinical review, procurement review, or real
+  student-data validation.
 
 ### 2026-06-19 · Codex/Umi · External testing instructions and agent dry run
 

@@ -58,6 +58,7 @@ reviewer evaluation.
 - 2026-06-19 external review packet added:
   - `docs/external_reviewer_packet.md`
   - `docs/external_testing_instructions.md`
+  - `docs/external_reviewer_outreach.md`
   - `.github/ISSUE_TEMPLATE/external-review.yml`
 - 2026-06-19 internal external-review dry run added:
   - `docs/external_review_agent_dry_run_2026-06-19.md`
@@ -108,6 +109,7 @@ reviewer evaluation.
 - External review packaging now exists:
   - `docs/external_reviewer_packet.md`
   - `docs/external_testing_instructions.md`
+  - `docs/external_reviewer_outreach.md`
   - `.github/ISSUE_TEMPLATE/external-review.yml`
   This gives outside reviewers a safe path to review the synthetic benchmark,
   privacy wall, and public claim boundary without uploading private data.

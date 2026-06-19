@@ -37,6 +37,7 @@ External review packaging now exists:
 
 - `docs/external_reviewer_packet.md`
 - `docs/external_testing_instructions.md`
+- `docs/external_reviewer_outreach.md`
 - `.github/ISSUE_TEMPLATE/external-review.yml`
 
 These files make it easier to ask outsiders for useful feedback on the
@@ -104,6 +105,8 @@ git-visible secret scan. The latest report is
   independent review has been completed yet.
 - External testing instructions and internal agent dry-run report exist. Treat
   them as pre-review QA, not external validation.
+- External reviewer outreach messages exist. No external message has been sent
+  automatically.
 - Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
   report regeneration, and test runs.
 
@@ -112,7 +115,8 @@ git-visible secret scan. The latest report is
 If work resumes, create a focused task for:
 
 - final public GitHub push/PR packaging if Alan wants Codex to commit/push;
-- inviting one or two external reviewers before investor or school outreach;
+- inviting one privacy/governance reviewer and one school/student-support
+  operations reviewer before investor or school outreach;
 - optionally expanding privacy evaluation beyond local deterministic artifacts
   into production-grade runtime trace privacy review if real deployment starts;
 - optionally maintaining the persona bible / relationship graph if Alan
