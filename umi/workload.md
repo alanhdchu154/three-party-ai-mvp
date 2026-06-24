@@ -1,139 +1,62 @@
 # Umi Workload
 
-Last updated: 2026-06-19
+Last updated: 2026-06-24
 
-This file holds one active Codex / cc worker handoff at a time. The previous 2026-05-21
-single-conversation handoff is stale and was removed from the active board.
+This file holds one active Codex / cc worker handoff at a time.
 
 ## Active Task
 
-GitHub publication readiness after Evidence v1 release gate, persona-depth
-documentation, and external reviewer packaging.
+Keep Evidence v1 publishable without expanding synthetic data or overstating
+validation.
 
-Current worker should not generate new synthetic conversations. The first
-baseline comparison and human reviewer annotation pass now exists. Use the
-existing 348-case corpus, `scripts/run_baseline_comparison.py`, and
-`data/reviewer_summaries/reviewer_annotation_summary.md` to keep GitHub / paper
-claims bounded. README now includes an `Evidence v1` section, and
-`docs/benchmark_datasheet.md` documents provenance, intended use, non-use,
-risks, and maintenance rules. The baseline over-escalation heuristic has been
-calibrated so conditional reviewer boilerplate is not treated as high-severity
-escalation in shallow cases.
+## Repo
 
-Persona and relationship depth are now documented in:
+`/Users/alanhdchu/three-party-ai-mvp`
 
-- `docs/persona_bible.md`
-- `docs/relationship_graph.md`
-- `docs/persona_depth_audit.md`
+## Objective
 
-Current conclusion: the existing character and family-system layer is enough
-for a synthetic benchmark / reference architecture claim. It is not evidence of
-real-student validity, clinical validity, school deployment readiness, or
-outcome improvement. Do not restart generation merely to add role depth; if
-generation resumes later, constrain new cases with the persona bible and
-relationship graph first.
+If work resumes, choose one bounded lane:
 
-External review packaging now exists:
+1. rerun release-readiness for a public/GitHub claim;
+2. prepare external reviewer outreach;
+3. review/push the ahead evidence-refresh branch;
+4. update claim-boundary docs after real reviewer feedback.
 
-- `docs/external_reviewer_packet.md`
-- `docs/external_testing_instructions.md`
-- `docs/external_reviewer_outreach.md`
-- `.github/ISSUE_TEMPLATE/external-review.yml`
+## Current Evidence
 
-These files make it easier to ask outsiders for useful feedback on the
-synthetic benchmark, privacy wall, public claim boundary, and evidence gaps.
-They do not mean external independent validation has been completed.
+- Synthetic generation is paused.
+- Existing corpus evidence must be refreshed with
+  `python3 scripts/audit_conversation_quality.py` before current counts are
+  reported.
+- Evidence v1 already includes baseline comparison, local reviewer annotation,
+  privacy/leak/trace audits, external reviewer packet, testing instructions, and
+  internal dry-run review.
+- No external independent validation has been completed.
 
-Internal dry-run review exists:
+## Constraints
 
-- Claude Code read-only external testing review.
-- Three reviewer agents: privacy/governance, school operations, and
-  research/HCI.
-- `docs/external_review_agent_dry_run_2026-06-19.md`
-- `docs/simulated_external_panel_review_2026-06-19.md`
+- Do not create more synthetic conversations unless Alan explicitly asks.
+- Do not claim real-student validation, clinical validity, deployment
+  readiness, or outcome improvement.
+- Do not expose or commit secrets, real student/family data, private school
+  records, or reviewer personal data.
+- Treat `Umi`, `ReviewerB`, Claude Code, and reviewer agents as internal
+  AI-assisted/local screening labels unless real external reviewers are
+  documented.
 
-The dry run tightened the instructions around motivated-recipient
-reconstructability, cross-artifact triangulation, school-ops actionability,
-baseline sampling, reviewer independence, and confidentiality. It is not
-external independent validation.
+## Suggested Verification
 
-Reviewer identity boundary now exists in generated reviewer summaries:
-
-- `Umi` is an AI-assisted internal reviewer label.
-- `ReviewerB` is a local second-reviewer screening label.
-- Neither represents external independent human validation.
-
-The one-command release-readiness gate now exists:
+Before public or release claims:
 
 ```bash
+python3 scripts/audit_conversation_quality.py
 .venv/bin/python scripts/run_release_readiness.py
 ```
 
-It reruns corpus audit, baseline comparison, reviewer summary generation,
-audience-report leak audit, semantic trace audit, relationship-context leak
-audit, runtime trace privacy audit, full pytest, public claim-boundary scan, and
-git-visible secret scan. The latest report is
-`umi/reports/release-readiness-latest.md`.
-
-## Before Creating The Next Task
-
-- Read `/Users/alanhdchu/umi-central/goals.md`.
-- Read this repo's `WORKLOG.md`.
-- Read this repo's durable roadmap at `docs/roadmap.md` when direction or
-  pilot-readiness scope matters.
-- Run `python3 scripts/audit_conversation_quality.py` before using corpus
-  numbers.
-- Current corpus evidence is 348 conversations from the 2026-06-19 audit:
-  deep 85 (24.4%), shallow 142 (40.8%), medium 121 (34.8%). The project is
-  framed as a synthetic benchmark / reference architecture and GitHub-first
-  technical asset, not a real-student pilot claim.
-- Reviewer annotation v1 exists: 37 notes / 22 reviewed artifacts, including a
-  second local reviewer pass over 15 baseline/audience-report artifacts.
-  New-style verdicts are 26 `safe`, 3 `privacy_concern`, and 2 `minor_issue`.
-  Treat this as screening evidence, not deployment validation.
-- Semantic trace audit exists: 22 pass / 0 fail across fixed-sample parent-safe
-  and teacher-safe report surfaces.
-- Relationship-context leak audit exists: 18 pass / 0 fail across current
-  parent-safe and teacher-safe reports. It checks higher-specificity
-  persona/family-system markers that can be reconstructable without being raw
-  quote leaks.
-- Runtime trace privacy audit exists: 51 pass / 0 fail across generated local
-  runtime surfaces. It checks audience-safe reports, restricted
-  reviewer/internal artifacts, pilot-run artifacts, and metadata-only audit
-  logs under surface-specific privacy policies.
-- Current calibrated baseline metrics on the 11-case sample: raw baseline
-  reconstructability risk 11/11; privacy-wall pipeline 0 reconstructability
-  risk, 0 over-escalation flags, 0 under-escalation flags, and 0 unsupported
-  recommendation flags.
-- Persona-depth audit exists: current personas are sufficient for the synthetic
-  benchmark claim, with strongest systems around Rachel-Uncle, Shen You-Shen
-  Mom, and the Michael-Keer-Michael Mom-Stepdad blended family.
-- External reviewer packet and GitHub issue template exist, but no external
-  independent review has been completed yet.
-- External testing instructions and internal agent dry-run report exist. Treat
-  them as pre-review QA, not external validation.
-- External reviewer outreach messages exist. No external message has been sent
-  automatically.
-- Simulated panel review says GitHub/workshop sharing is acceptable with
-  limits, but investor/school/pilot claims and academic-ready benchmark claims
-  remain blocked until real external review and stronger methodology exist.
-- Prefer `cc-first` or `Split-work` for bounded script fixes, audit review,
-  report regeneration, and test runs.
+Then inspect the latest report and git diff before committing or pushing.
 
 ## Likely Next Handoff
 
-If work resumes, create a focused task for:
-
-- final public GitHub push/PR packaging if Alan wants Codex to commit/push;
-- inviting one privacy/governance reviewer and one school/student-support
-  operations reviewer before investor or school outreach;
-- optionally expanding privacy evaluation beyond local deterministic artifacts
-  into production-grade runtime trace privacy review if real deployment starts;
-- optionally maintaining the persona bible / relationship graph if Alan
-  explicitly reopens synthetic generation or adds a new family system;
-- rerunning `.venv/bin/python scripts/run_release_readiness.py`;
-- preserving synthetic-data limitations and avoiding real-student validation
-  claims.
-
-Do not create a handoff for more synthetic generation until Alan explicitly
-reopens generation.
+Ask one privacy/governance reviewer and one school/student-support operations
+reviewer for external feedback, or rerun the release-readiness gate if Alan
+wants to publish/update the GitHub-facing package.
