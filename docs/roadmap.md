@@ -1,6 +1,6 @@
 # Three-Party AI Roadmap
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 This roadmap keeps only the current product direction and open work. Completed
 historical version ladders were removed from the active roadmap.
@@ -115,6 +115,11 @@ reviewer evaluation.
   - `.github/ISSUE_TEMPLATE/external-review.yml`
   This gives outside reviewers a safe path to review the synthetic benchmark,
   privacy wall, and public claim boundary without uploading private data.
+- 2026-06-25 public GitHub readiness polish added a 5-minute README entry path,
+  clearer community review asks, artifact-first reviewer language, updated
+  Evidence v1 wording, a school/student-support issue-template path, and a
+  publication-checklist reminder to make the repository license intentional
+  before inviting forks.
 - Internal AI-assisted dry run exists:
   - `docs/external_review_agent_dry_run_2026-06-19.md`
   - `docs/simulated_external_panel_review_2026-06-19.md`

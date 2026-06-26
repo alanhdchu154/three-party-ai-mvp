@@ -34,6 +34,12 @@ umi/reports/*.md
 !umi/reports/relationship-leak-audit-latest.md
 !umi/reports/runtime-trace-privacy-latest.md
 
+# Generated intro-video intermediates
+public_video/*/audio/
+public_video/*/clips/
+public_video/*/frames/
+public_video/*/concat.txt
+
 # Local pilot configuration
 config/*.local.json
 

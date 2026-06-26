@@ -1,6 +1,6 @@
 # Benchmark Datasheet
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 ## Summary
 
@@ -228,7 +228,7 @@ Current mitigations:
 - raw baseline vs privacy-wall comparison;
 - reviewer note JSON with source paths, evidence refs, verdicts, privacy
   concerns, and action items;
-- explicit synthetic-only claim boundary in public docs.
+- explicit synthetic-only claim boundary in public docs;
 - external reviewer packet and GitHub issue template that ask reviewers to
   avoid uploading real student, family, school, clinical, or confidential data.
 

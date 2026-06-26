@@ -1,6 +1,6 @@
 # External Testing Instructions
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 ## Purpose
 

@@ -63,28 +63,36 @@ coordination layer that can:
 ## Current Evidence v1
 
 The current repo has synthetic conversations, privacy-wall abstraction,
-audience-safe reports, deterministic leak audit, a raw-coordinator baseline, and
-human reviewer annotation.
+audience-safe reports, deterministic privacy audits, a raw-coordinator baseline,
+local reviewer annotation, and a one-command release-readiness gate.
 
 - **Baseline comparison**: 11 fixed synthetic cases compare a raw-coordinator
   baseline against the privacy-wall pipeline. The raw baseline shows
   reconstructability risk in 11/11 cases; the privacy-wall pipeline shows 0/11
-  reconstructability-risk cases under deterministic checks.
-- **Human reviewer annotation**: 22 notes cover 22 artifacts, including 12
-  baseline artifacts, 3 audience-report artifacts, and 7 legacy calibration
-  artifacts.
-- **Leak audit**: current parent-safe and teacher-safe reports are 18 pass / 0
-  fail under deterministic leak checks.
+  reconstructability-risk cases, 0 over-escalation flags, and 0
+  under-escalation flags under deterministic checks.
+- **Reviewer annotation**: 37 notes cover 22 artifacts, including 12 baseline
+  artifacts and 3 audience-report artifacts, with a second local reviewer pass
+  over 15 baseline/audience-report artifacts.
+- **Privacy audits**: current parent-safe and teacher-safe reports are 18 pass /
+  0 fail under audience-report leak checks, 22 pass / 0 fail under semantic trace
+  checks, 18 pass / 0 fail under relationship-context checks, and 51 pass / 0
+  fail under runtime trace checks over generated local benchmark artifacts.
+- **Release gate**: `.venv/bin/python scripts/run_release_readiness.py` is
+  currently PASS, with 89 passed / 7 skipped tests.
 
 ## What Proof Is Still Missing
 
 The current proof is useful but still early:
 
-- a second independent reviewer pass;
-- stricter semantic privacy checks beyond deterministic leakage;
-- runtime trace privacy review across intermediate prompts and tool calls;
-- real-world usability evidence only after consent, deletion, provider, and
-  reviewer-governance boundaries are defined.
+- an external independent reviewer pass from privacy/governance and
+  school-support operations reviewers;
+- stronger reviewer-agreement reporting and disagreement handling if this moves
+  toward a paper claim;
+- production-grade runtime trace privacy review if the system moves beyond
+  generated local benchmark artifacts;
+- real-world usability evidence only after consent, deletion, provider,
+  escalation, and reviewer-governance boundaries are defined.
 
 Until those proof layers exist, this should be presented as a credible technical
 asset and synthetic benchmark, not a validated school deployment.

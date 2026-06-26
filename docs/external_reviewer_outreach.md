@@ -1,6 +1,6 @@
 # External Reviewer Outreach
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 ## Purpose
 
@@ -67,6 +67,8 @@ Useful starting points:
 - docs/external_testing_instructions.md
 - umi/reports/release-readiness-latest.md
 
+You do not need to run the app or log in. An artifact-first review is enough.
+
 Please do not include any real student, family, school, clinical, or confidential data in feedback. GitHub issue feedback is ideal:
 https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
 
@@ -96,6 +98,8 @@ Recommended docs:
 - umi/reports/release-readiness-latest.md
 - umi/reports/baseline-comparison-latest.md
 
+You do not need to run the app or log in. An artifact-first review is enough.
+
 Please do not include real student, family, school, clinical, API-key, or confidential data. Public GitHub issue feedback is best:
 https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
 ```
@@ -124,6 +128,8 @@ Recommended docs:
 - data/audience_reports/parent_safe/
 - data/audience_reports/teacher_safe/
 - data/reviewer_summaries/reviewer_annotation_summary.md
+
+You do not need to run the app or log in. An artifact-first review is enough.
 
 Please do not include real student, family, school, clinical, API-key, or confidential data. Public GitHub issue feedback is best:
 https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
@@ -155,6 +161,8 @@ Recommended docs:
 - docs/synthetic_data_limitations.md
 - umi/reports/baseline-comparison-latest.md
 
+You do not need to run the app or log in. An artifact-first review is enough.
+
 Please do not include real student, family, school, clinical, API-key, or confidential data. Public GitHub issue feedback is best:
 https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
 ```
@@ -181,6 +189,8 @@ privacy-preserving AI coordination layer for schools and family-support workflow
 - docs/external_reviewer_packet.md
 - docs/external_testing_instructions.md
 
+不需要跑 app，也不需要登入。先看 public docs / reports，留下 artifact-first feedback 就很有幫助。
+
 請不要放任何真實學生、家庭、學校、臨床、API key 或 confidential data 到 feedback 裡。最理想是用 GitHub issue 留意見：
 https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
 ```
@@ -202,4 +212,3 @@ https://github.com/alanhdchu154/three-party-ai-mvp/issues/new/choose
   or pilot outreach.
 - Research-methodology feedback should update `docs/paper_draft.md` only after
   the evidence gap is clearly named.
-

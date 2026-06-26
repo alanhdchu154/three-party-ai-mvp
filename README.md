@@ -19,6 +19,20 @@ private chats
   -> human reviewer annotation
 ```
 
+## If You Only Have 5 Minutes
+
+Start here:
+
+1. Read this README through `What Is Not Proven`.
+2. Skim [`umi/reports/release-readiness-latest.md`](umi/reports/release-readiness-latest.md).
+3. Open [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md)
+   and choose the review path that matches your lens.
+
+The useful first question is not "is this ready for a school pilot?" It is:
+
+> Does this repo define a credible synthetic benchmark for privacy-preserving
+> multi-party AI coordination, with claims limited to the evidence shown?
+
 ## What Is Proven So Far
 
 - Synthetic student/parent/teacher support scenarios exist across shallow,
@@ -77,6 +91,26 @@ Primary evidence files:
 - No claim that synthetic disclosure rates represent real schools or families.
 - No claim of learning, mental-health, retention, or family-relationship
   outcome improvement.
+
+## How To Help
+
+The most useful community help right now is review, not feature expansion:
+
+- **Privacy / governance review**: check whether parent-safe or teacher-safe
+  reports can reconstruct protected synthetic disclosures.
+- **School-support workflow review**: check whether reports are safe but still
+  actionable for a parent, teacher, counselor, or reviewer.
+- **Research / benchmark review**: check whether the baseline comparison,
+  reviewer protocol, sample limits, and paper framing are methodologically
+  honest.
+- **Claim-boundary review**: flag wording that sounds stronger than the
+  synthetic-benchmark evidence supports.
+
+Use [`docs/external_reviewer_packet.md`](docs/external_reviewer_packet.md) and
+[`docs/external_testing_instructions.md`](docs/external_testing_instructions.md)
+for concrete review tracks. Public feedback should use the GitHub `External
+Review` issue template and should not include real student, family, school,
+clinical, API-key, or confidential data.
 
 ## Buyer-Facing Thesis
 

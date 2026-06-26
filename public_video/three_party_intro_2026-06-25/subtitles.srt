@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:19,770
+這是 Three-Party AI Coordination Benchmark。它不是一個已經上線的學校產品，而是一個 synthetic benchmark 和 reference architecture，測試學生、家長、老師之間，AI 要怎麼協調，而不把私密 disclosure 直接傳出去。
+
+2
+00:00:19,770 --> 00:00:36,625
+目前 Evidence v1 使用三百四十八段合成對話，包含 shallow, medium, deep 三種深度。測試 gate 目前是八十九個 passed，七個 skipped。這些是 benchmark evidence，不是真實學生驗證。
+
+3
+00:00:36,625 --> 00:00:52,243
+核心問題是 privacy wall。raw coordinator baseline 在十一個固定 sample 裡，十一個都有 reconstructability risk。privacy wall pipeline 在同一組 deterministic checks 下是零。
+
+4
+00:00:52,243 --> 00:01:10,079
+除了 baseline，repo 也有 audience report leak audit、semantic trace audit、relationship leak audit、runtime trace privacy audit。這些 deterministic gates 不是最終證明，但可以防止明顯 leakage regression。
+
+5
+00:01:10,079 --> 00:01:23,891
+現在最有價值的下一步，不是再生成更多 synthetic data，而是找兩位外部 reviewer。一位看 privacy 和 governance，一位看 school support workflow。
+
+6
+00:01:23,891 --> 00:01:44,378
+影片和 repo 都要守住 claim boundary。可以說 synthetic benchmark、reference architecture、privacy wall、party-aware reports。不能說 real-student validation、clinical validity、deployment readiness、outcome improvement。
+
+7
+00:01:44,378 --> 00:01:58,758
+所以這個 repo 的目標很窄，也因此有用。它想成為一個可以被 review、fork、改成別人場景的起點：安全地測試多方 AI coordination 裡，資訊該怎麼流動。

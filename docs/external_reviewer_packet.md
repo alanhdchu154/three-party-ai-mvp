@@ -1,6 +1,6 @@
 # External Reviewer Packet
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 ## Purpose
 
@@ -16,6 +16,10 @@ current claims properly limited to synthetic-benchmark evidence?
 
 This packet is not an institutional approval request, human-subjects study,
 clinical review, or deployment sign-off.
+
+Reviewers do not need to run the app, log in, upload data, or inspect private
+systems. The safest first-round review is artifact-first: read the public docs
+and reports, then leave file-linked feedback.
 
 ## Who Should Review
 
@@ -49,6 +53,15 @@ support signals and produce reports that are safe for the intended audience.
 
 For concrete task-by-task testing instructions, start with
 `docs/external_testing_instructions.md`.
+
+### 5-Minute Orientation
+
+- `README.md`
+- `umi/reports/release-readiness-latest.md`
+- the `Claim Boundary` section in this packet
+
+Use this path to decide whether the project is worth a deeper privacy,
+operations, or research review.
 
 ### Quick 20-Minute Review
 

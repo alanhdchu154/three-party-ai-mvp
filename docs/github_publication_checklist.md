@@ -1,6 +1,6 @@
 # GitHub Publication Checklist
 
-Last updated: 2026-06-19
+Last updated: 2026-06-25
 
 ## Status
 
@@ -83,6 +83,10 @@ git status --short --untracked-files=all
 Confirm that no `.env`, real student data, API keys, private school records, or
 unreviewed generated raw data are staged. Synthetic generated conversations are
 part of the benchmark only under the synthetic-data claim boundary.
+
+Confirm that the repository license is intentional before inviting forks or
+external reuse. If no license is present, GitHub readers can still inspect the
+code, but reuse and fork expectations are ambiguous.
 
 ## Good Next Public Step
 

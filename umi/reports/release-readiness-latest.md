@@ -1,7 +1,7 @@
 # Release Readiness Report
 
 Status: `PASS`
-Generated at: `2026-06-20T16:09:03.573919+00:00`
+Generated at: `2026-06-26T01:09:23.713401+00:00`
 
 > Evidence v1 is a synthetic-benchmark gate. Passing this report does not prove real-student validation, clinical validity, deployment readiness, or outcome improvement.
 

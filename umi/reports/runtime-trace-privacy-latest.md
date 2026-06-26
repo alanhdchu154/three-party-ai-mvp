@@ -1,6 +1,6 @@
 # Runtime Trace Privacy Audit
 
-Generated: `2026-06-20T16:09:02.562058+00:00`
+Generated: `2026-06-26T01:09:22.588828+00:00`
 Surfaces checked: `51`
 Failures: `0`
 Surface counts: `{'audience_safe': 20, 'restricted_reviewer': 30, 'audit_log': 1}`
